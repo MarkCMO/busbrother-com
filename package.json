@@ -1,0 +1,9 @@
+{
+  "name": "busbrother-com",
+  "version": "2.0.0",
+  "description": "BusBrother.com - Charter Bus & Group Transportation - Central Florida",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "private": true
+}

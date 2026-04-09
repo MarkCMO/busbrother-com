@@ -1,0 +1,42 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/schools/">Schools</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{schoolName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F393;</div>
+    <h1>{{schoolName}} Group Bus Service | BusBrother</h1>
+    <p class="subtitle">Charter bus and field trip transportation for {{schoolName}} students, faculty, and athletic teams in {{cityName}}, Florida.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>School Group Transportation for {{schoolName}}</h2>
+        <p>{{schoolDescription}}</p>
+        <h3>Services for {{schoolName}}</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Field trips to Kennedy Space Center, museums, and attractions</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Athletic team transportation to away games and tournaments</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Campus event shuttles and graduation transport</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Greek life formals and organization events</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Study abroad group airport transfers</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available</span></li>
+        </ul>
+        <div class="callout"><p><strong>School Group Rates:</strong> BusBrother offers competitive pricing for educational institutions. Contact us for school group rates and recurring service agreements.</p></div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book School Transportation</h3>
+          <p style="color:var(--muted);">Get a free quote for charter bus service for {{schoolName}} groups.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

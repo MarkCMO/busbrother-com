@@ -1,0 +1,66 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/cruise-ports/">Cruise Ports</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{terminalName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F6F3;&#xFE0F;</div>
+    <h1>{{terminalName}} | Complete Terminal Guide</h1>
+    <p class="subtitle">Everything you need to know about {{terminalName}} at {{portName}} - parking, check-in, nearby hotels, restaurants, and group transportation.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{terminalName}} Guide</h2>
+        <p>{{description}}</p>
+
+        <h3>Terminal Details</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span><strong>Port:</strong> {{portName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Terminal:</strong> {{terminalNumber}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Cruise Lines:</strong> {{cruiseLinesServed}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Address:</strong> {{address}}</span></li>
+        </ul>
+
+        <h3>Parking at {{terminalName}}</h3>
+        <p>{{parkingInfo}}</p>
+
+        <h3>Check-in & Embarkation</h3>
+        <p>{{checkInInfo}}</p>
+
+        <h3>Nearby Hotels</h3>
+        <p>{{nearbyHotels}}</p>
+
+        <h3>Restaurants & Dining</h3>
+        <p>{{nearbyDining}}</p>
+
+        <h3>Things to Do Before Boarding</h3>
+        <p>{{thingsToDo}}</p>
+
+        <div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>
+
+        {{> lead-magnet-cruise}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Skip the Parking:</strong> BusBrother drops your group directly at {{terminalName}} - no parking garage, no shuttle bus from a remote lot. Meet-and-greet, luggage help, 24/7. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Port Shuttle &rarr;</a>
+            <a href="/cruise-ports/" class="btn btn-outline">All Terminals &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

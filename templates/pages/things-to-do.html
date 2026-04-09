@@ -1,0 +1,70 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/things-to-do/">Things to Do</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{pageHeading}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{pageEmoji}}</div>
+    <h1>{{pageHeading}}</h1>
+    <p class="subtitle">{{pageSubtitle}}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <p>{{introContent}}</p>
+
+        {{#each activities}}<div style="padding:1.5rem 0;border-bottom:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <span style="font-size:1.8rem;flex-shrink:0;">{{emoji}}</span>
+            <div>
+              <h3 style="font-size:1.2rem;margin-bottom:0.4rem;">{{name}}</h3>
+              <p style="color:var(--muted);font-size:0.9rem;margin-bottom:0.5rem;">{{description}}</p>
+              <div style="display:flex;gap:1rem;flex-wrap:wrap;font-size:0.8rem;font-family:'Space Mono',monospace;">
+                {{#if type}}<span style="color:var(--gold);">{{type}}</span>{{/if}}
+                {{#if price}}<span style="color:var(--muted);">{{price}}</span>{{/if}}
+                {{#if duration}}<span style="color:var(--muted);">{{duration}}</span>{{/if}}
+              </div>
+              {{#if website}}<a href="{{website}}" target="_blank" rel="noopener" style="font-size:0.85rem;display:inline-block;margin-top:0.4rem;">Visit website &rarr;</a>{{/if}}
+            </div>
+          </div>
+        </div>
+        {{/each}}
+
+        {{> lead-magnet}}
+
+        {{#if externalLinks}}<div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Tourism Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>{{/if}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Exploring with a Group?</strong> BusBrother provides charter bus transportation to all these destinations. One bus, one price, no parking headaches. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Group Transport &rarr;</a>
+            <a href="/things-to-do/" class="btn btn-outline">More Activities &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        {{#if nearbyGuides}}<div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Related Guides</h3>
+            <ul class="footer-links">
+              {{#each nearbyGuides}}<li><a href="/things-to-do/{{slug}}/">{{title}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>{{/if}}
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

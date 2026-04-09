@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "port-canaveral-terminal-1",
+    "terminalName": "Port Canaveral Terminal 1",
+    "terminalNumber": "Terminal 1",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Royal Caribbean International, Celebrity Cruises",
+    "address": "9155 Charles M. Rowland Dr, Cape Canaveral, FL 32920",
+    "description": "Terminal 1 at Port Canaveral is the home of Royal Caribbean International and Celebrity Cruises. This modern cruise terminal features expedited check-in, a spacious waiting area with views of the port, and dedicated facilities for suite guests and Crown and Anchor Society loyalty members. Terminal 1 handles some of the largest ships sailing from Port Canaveral, including Oasis-class vessels.",
+    "parkingInfo": "On-site parking is available at the terminal garage for approximately $17 per day uncovered and $22 per day covered. Long-term parking for 7-day cruises costs $119 to $154 depending on coverage. Pre-book online at portcanaveral.com for guaranteed availability during peak season.",
+    "checkInInfo": "Check-in at Terminal 1 opens at 11:00 AM. Guests receive assigned arrival windows via the Royal Caribbean app. Luggage drop-off is at the curbside porters before entering the terminal. Security screening and document verification happen inside. Plan to arrive during your assigned window for the smoothest experience.",
+    "nearbyHotels": "The closest hotels to Terminal 1 include Radisson Resort at the Port (0.5 miles), Country Inn and Suites Cape Canaveral (1 mile), Residence Inn Cape Canaveral (1.2 miles), and Hampton Inn Cocoa Beach (3 miles). All offer shuttle service or are a short drive from the terminal.",
+    "nearbyDining": "Before boarding, grab a meal at Grills Seafood Deck and Tiki Bar (0.3 miles from the port), Fishlips Waterfront Bar and Grill, Rusty's Seafood and Oyster Bar at Port Canaveral, or Coconuts on the Beach in Cocoa Beach (10 minutes). Most restaurants open for lunch by 11 AM.",
+    "thingsToDo": "If you arrive early, visit the Exploration Tower at Port Canaveral ($7 admission) for panoramic views of launches and cruise ships. Jetty Park Beach is a 5-minute drive and offers swimming, fishing, and camping. The Cove at Port Canaveral has shops, restaurants, and waterfront dining.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean", "domain": "royalcaribbean.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-3",
+    "terminalName": "Port Canaveral Terminal 3",
+    "terminalNumber": "Terminal 3",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Carnival Cruise Line, Margaritaville at Sea",
+    "address": "6650 N Atlantic Ave, Cape Canaveral, FL 32920",
+    "description": "Terminal 3 at Port Canaveral serves Carnival Cruise Line and Margaritaville at Sea. This terminal handles Carnival's shorter Bahamas sailings and Margaritaville at Sea's budget-friendly voyages to the Bahamas. The terminal features standard check-in facilities, curbside luggage drop-off, and covered waiting areas. It is one of the older terminals at the port but is well maintained and functional.",
+    "parkingInfo": "Parking at Terminal 3 runs approximately $17 per day for uncovered spots and $22 per day for covered garage parking. Pre-book online at portcanaveral.com to guarantee your spot. Cruise parking for 7 nights costs $119 to $154. The parking garage is directly adjacent to the terminal entrance.",
+    "checkInInfo": "Check-in opens at approximately 11:30 AM for Carnival sailings and 12:00 PM for Margaritaville at Sea. Complete online check-in before arriving to speed up the process. Curbside porters handle luggage for a recommended tip of $5 per bag. Bring your digital boarding pass on your phone or printed.",
+    "nearbyHotels": "Nearby hotels include Radisson Resort at the Port (0.3 miles), Country Inn and Suites Cape Canaveral (0.8 miles), Holiday Inn Express Cape Canaveral (1 mile), Hampton Inn Cocoa Beach (2.5 miles), and Homewood Suites Cape Canaveral (1.2 miles).",
+    "nearbyDining": "Grab a pre-cruise meal at Grills Seafood Deck and Tiki Bar, Fishlips Waterfront Bar and Grill, or Rusty's Seafood and Oyster Bar in the Cove at Port Canaveral. For beachside dining, try Coconuts on the Beach or the Sandbar Sports Grill in Cocoa Beach, both about 10 minutes south.",
+    "thingsToDo": "Explore the Cove at Port Canaveral for shopping, dining, and waterfront views. Visit the Exploration Tower for panoramic views of the port and rocket launch pads. Jetty Park Beach is nearby for a quick swim before your cruise. Ron Jon Surf Shop in Cocoa Beach is a 10-minute drive south.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-5",
+    "terminalName": "Port Canaveral Terminal 5",
+    "terminalNumber": "Terminal 5",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Carnival Cruise Line",
+    "address": "9001 Charles M. Rowland Dr, Cape Canaveral, FL 32920",
+    "description": "Terminal 5 at Port Canaveral is a Carnival Cruise Line facility handling mid-size Carnival vessels. The terminal features efficient check-in counters, air-conditioned waiting areas, and direct gangway access to the ship. Terminal 5 is well suited for Carnival's popular family-friendly ships sailing to the Bahamas and Caribbean.",
+    "parkingInfo": "Parking is available in the Terminal 5 lot and nearby garage at approximately $17 per day uncovered. Covered parking runs about $22 per day. Pre-booking is recommended online at portcanaveral.com, especially during holiday weeks and spring break season.",
+    "checkInInfo": "Check-in at Terminal 5 typically opens at 11:30 AM. Carnival assigns arrival windows through the Carnival HUB app. Curbside luggage drop-off is available with porters (recommended $5 tip per bag). Security screening is inside the terminal. Faster Sail check-in is available for guests who complete online registration.",
+    "nearbyHotels": "Hotels near Terminal 5 include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Residence Inn Cape Canaveral, Hampton Inn Cocoa Beach, and Courtyard by Marriott Cocoa Beach. Most are within a 5 to 15-minute drive of the terminal.",
+    "nearbyDining": "Dine at Grills Seafood Deck and Tiki Bar for waterfront views and fresh seafood. Fishlips Waterfront Bar and Grill is another popular choice. In Cocoa Beach, try Fat Kahuna's Beach Side Grille or the Juice N Java Cafe for lighter fare before boarding.",
+    "thingsToDo": "The Exploration Tower offers 7 floors of interactive exhibits and panoramic views. Jetty Park Beach has a fishing pier, beach access, and picnic areas. The Cove at Port Canaveral features waterfront restaurants and shops. For space fans, the Kennedy Space Center Visitor Complex is a 20-minute drive north.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-6",
+    "terminalName": "Port Canaveral Terminal 6",
+    "terminalNumber": "Terminal 6",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Carnival Cruise Line",
+    "address": "9001 Charles M. Rowland Dr, Cape Canaveral, FL 32920",
+    "description": "Terminal 6 at Port Canaveral is another Carnival Cruise Line facility, often handling Carnival's larger vessels and overflow sailings. The terminal is modern and efficient with multiple check-in stations, comfortable waiting areas, and easy access to the parking garage. Terminal 6 works alongside Terminals 3, 5, and 10 to handle Carnival's extensive Port Canaveral operations.",
+    "parkingInfo": "Parking is available at approximately $17 per day for uncovered and $22 per day for covered spaces. The parking garage is a short walk from the terminal entrance. Pre-book at portcanaveral.com for the best rates and guaranteed availability on busy embarkation days.",
+    "checkInInfo": "Check-in opens at 11:30 AM. Use the Carnival HUB app for Faster Sail check-in, which significantly reduces your wait time at the terminal. Luggage porters are stationed at the curbside drop-off area. Security screening and boarding pass verification occur inside before proceeding to the ship.",
+    "nearbyHotels": "Nearby accommodations include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Homewood Suites Cape Canaveral, Residence Inn Cape Canaveral, and Holiday Inn Express Cape Canaveral. All offer competitive rates and are within 5 to 15 minutes of the terminal.",
+    "nearbyDining": "Pre-cruise dining options include Grills Seafood Deck and Tiki Bar, Rusty's Seafood and Oyster Bar, and Fishlips Waterfront Bar and Grill at the Cove. For a quick bite, Brano's Italian Grill is close to the port. Sunrise Diner in Cape Canaveral is perfect for early breakfast before check-in.",
+    "thingsToDo": "Walk the Cove at Port Canaveral for shopping and waterfront dining. Visit Exploration Tower for panoramic port views. Jetty Park Beach offers swimming and fishing. If you have more time, the Brevard Zoo is a 25-minute drive and features kayaking through animal habitats.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-8",
+    "terminalName": "Port Canaveral Terminal 8",
+    "terminalNumber": "Terminal 8",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Disney Cruise Line",
+    "address": "9155 Charles M. Rowland Dr, Cape Canaveral, FL 32920",
+    "description": "Terminal 8 at Port Canaveral is the exclusive home of Disney Cruise Line. This terminal is designed with Disney's signature attention to detail, featuring themed decor, character meet-and-greet areas, and a magical embarkation experience. The terminal includes a dedicated parking garage, spacious check-in hall, and family-friendly facilities. When you walk through the terminal, the Disney magic starts before you even board the ship.",
+    "parkingInfo": "Disney Cruise Line guests park in the dedicated Terminal 8 garage at approximately $17 per day uncovered and $22 per day covered. The garage connects directly to the terminal via a covered walkway. Pre-book parking through portcanaveral.com. Disney does not offer its own parking reservation system, so book through the port authority.",
+    "checkInInfo": "Check-in at Terminal 8 opens at 11:00 AM with assigned port arrival times distributed by Disney Cruise Line. Guests receive their port arrival time in the days before sailing. The check-in process includes security screening, document verification, and a photo opportunity before boarding. Disney Vacation Club members and Platinum Castaway Club members get priority check-in.",
+    "nearbyHotels": "Pre-cruise hotels for Disney guests include Radisson Resort at the Port (closest), Residence Inn Cape Canaveral, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, and Hilton Cocoa Beach Oceanfront. Many Disney cruise families stay at Walt Disney World resorts the night before and drive to the port in the morning.",
+    "nearbyDining": "Family-friendly dining near Terminal 8 includes Grills Seafood Deck and Tiki Bar, Fishlips Waterfront Bar and Grill, and the Long Doggers Deli and Pub. In Cocoa Beach, Roberto's Little Havana and Fat Kahuna's Beach Side Grille are great options for families with kids.",
+    "thingsToDo": "Exploration Tower at Port Canaveral is a fun family stop with interactive exhibits about the port's history and space exploration. Jetty Park Beach is perfect for kids with calm waters and a playground. The Brevard Zoo is 25 minutes away and features the Treetop Trek adventure course. Kennedy Space Center Visitor Complex is a 20-minute drive north.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://disneycruise.disney.go.com", "label": "Disney Cruise Line", "domain": "disney.go.com", "emoji": "🏰"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-9",
+    "terminalName": "Port Canaveral Terminal 9",
+    "terminalNumber": "Terminal 9",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Norwegian Cruise Line, MSC Cruises",
+    "address": "200 George King Blvd, Cape Canaveral, FL 32920",
+    "description": "Terminal 9 at Port Canaveral (also known as North Cargo Pier 2) serves Norwegian Cruise Line and MSC Cruises. This terminal is a flexible facility that handles ships from multiple cruise lines on a rotating schedule. The terminal provides standard check-in services, air-conditioned waiting areas, and curbside luggage drop-off. While not as modern as some other Port Canaveral terminals, it is fully functional and efficient.",
+    "parkingInfo": "Parking near Terminal 9 runs approximately $17 per day uncovered. Covered parking options may be limited at this terminal location. Pre-book at portcanaveral.com to guarantee availability. On busy double-ship days, parking can fill up quickly.",
+    "checkInInfo": "Check-in opens at 11:00 AM for both Norwegian and MSC sailings. Norwegian guests should complete check-in via the NCL app before arriving. MSC guests use the MSC for Me app. Luggage porters are available at curbside. Security and document verification happen inside the terminal.",
+    "nearbyHotels": "Hotels near Terminal 9 include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, Holiday Inn Express Cape Canaveral, and Residence Inn Cape Canaveral. All are within 5 to 15 minutes of the terminal.",
+    "nearbyDining": "Dining options include Grills Seafood Deck and Tiki Bar at the Cove, Rusty's Seafood and Oyster Bar, and Fishlips Waterfront Bar and Grill. For casual fare, try the Cape Canaveral Lighthouse Cafe or Sunrise Diner for an early morning meal before check-in.",
+    "thingsToDo": "Visit Exploration Tower for panoramic port views and space-themed exhibits. Walk the Cove at Port Canaveral for shopping and dining. Jetty Park Beach is nearby for a morning swim. Space enthusiasts can visit Kennedy Space Center Visitor Complex, a 20-minute drive north of the port.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.ncl.com", "label": "Norwegian Cruise Line", "domain": "ncl.com", "emoji": "🛳️"},
+      {"url": "https://www.msccruisesusa.com", "label": "MSC Cruises", "domain": "msccruisesusa.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-10",
+    "terminalName": "Port Canaveral Terminal 10",
+    "terminalNumber": "Terminal 10",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Carnival Cruise Line (Carnival Celebration)",
+    "address": "1 Cruise Terminal Blvd, Cape Canaveral, FL 32920",
+    "description": "Terminal 10 at Port Canaveral is one of the newest and most modern cruise terminals in North America, built specifically for Carnival's Excel-class ships including the Carnival Celebration. This state-of-the-art facility features streamlined check-in technology, spacious waiting areas with water views, and dedicated drop-off zones. The terminal opened in 2022 and represents a major investment in Port Canaveral's cruise infrastructure.",
+    "parkingInfo": "Terminal 10 has a brand-new multi-level parking garage with approximately $17 per day uncovered and $22 per day covered parking. The garage is directly connected to the terminal. Pre-book at portcanaveral.com for guaranteed availability, especially during peak season and holidays.",
+    "checkInInfo": "Check-in at Terminal 10 opens at 11:30 AM. The terminal uses Carnival's latest technology for Faster Sail check-in. Complete online registration via the Carnival HUB app before arrival. Curbside porters handle luggage with a recommended $5 per bag tip. The modern security screening area is efficient and fast-moving.",
+    "nearbyHotels": "Nearby hotels include Radisson Resort at the Port (0.5 miles), Country Inn and Suites Cape Canaveral, Residence Inn Cape Canaveral, Hampton Inn Cocoa Beach, and Homewood Suites Cape Canaveral. Book early for sailings during school breaks and holidays.",
+    "nearbyDining": "Terminal 10 is close to the Cove at Port Canaveral with restaurants like Grills Seafood Deck and Tiki Bar, Rusty's Seafood and Oyster Bar, and Fishlips Waterfront Bar and Grill. In Cocoa Beach, try Coconuts on the Beach or the Sandbar Sports Grill for a beachside meal.",
+    "thingsToDo": "Exploration Tower is a short drive away with views of the port and launch pads. Jetty Park Beach offers swimming, fishing, and a campground. Ron Jon Surf Shop in Cocoa Beach is a fun stop for souvenirs and beach gear. Kennedy Space Center Visitor Complex is 20 minutes north.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-canaveral-terminal-11",
+    "terminalName": "Port Canaveral Terminal 11 (Planned)",
+    "terminalNumber": "Terminal 11",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "cruiseLinesServed": "Virgin Voyages (planned)",
+    "address": "Port Canaveral, Cape Canaveral, FL 32920",
+    "description": "Terminal 11 at Port Canaveral is a planned new cruise terminal facility expected to serve Virgin Voyages and potentially other cruise lines. This development is part of Port Canaveral's ongoing expansion to accommodate growing cruise passenger demand. While Terminal 11 is under development, Virgin Voyages currently operates from Terminal 10 or other available berths. Check with Port Canaveral for the latest construction updates and opening timeline.",
+    "parkingInfo": "Parking details for Terminal 11 will be announced as the terminal nears completion. Current Port Canaveral parking rates are approximately $17 per day uncovered and $22 per day covered. Pre-book at portcanaveral.com once Terminal 11 parking becomes available.",
+    "checkInInfo": "Check-in procedures for Terminal 11 will be determined by the operating cruise line. Virgin Voyages guests currently use the Virgin Voyages app for digital check-in and boarding. Check the app and your booking confirmation for the most up-to-date terminal assignment for your sailing.",
+    "nearbyHotels": "Hotels near Port Canaveral include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, Hilton Cocoa Beach Oceanfront, Courtyard by Marriott Cocoa Beach, and Residence Inn Cape Canaveral.",
+    "nearbyDining": "Port Canaveral dining options include Grills Seafood Deck and Tiki Bar, Fishlips Waterfront Bar and Grill, and Rusty's Seafood and Oyster Bar at the Cove. Cocoa Beach restaurants include Coconuts on the Beach, Roberto's Little Havana, and Fat Kahuna's Beach Side Grille.",
+    "thingsToDo": "While waiting for Terminal 11 to open, explore Port Canaveral's Cove area for shopping and dining. Visit Exploration Tower for views of the port. Jetty Park Beach is great for a pre-cruise swim. Kennedy Space Center Visitor Complex is a 20-minute drive for space enthusiasts.",
+    "externalLinks": [
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.virginvoyages.com", "label": "Virgin Voyages", "domain": "virginvoyages.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-tampa-terminal-2",
+    "terminalName": "Port Tampa Bay Terminal 2",
+    "terminalNumber": "Terminal 2",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "cruiseLinesServed": "Royal Caribbean International",
+    "address": "651 Channelside Dr, Tampa, FL 33602",
+    "description": "Terminal 2 at Port Tampa Bay is the home of Royal Caribbean International in Tampa. Located on Hooker's Point in the Channelside District, this terminal provides a convenient embarkation point for Western Caribbean cruises. The terminal features modern check-in facilities, covered drop-off areas, and views of the Tampa skyline. Terminal 2 handles Royal Caribbean's mid-size ships sailing to Mexico and the Western Caribbean.",
+    "parkingInfo": "On-site parking at Terminal 2 is approximately $15 per day. Long-term parking for a 7-day cruise costs about $105. The parking lot is adjacent to the terminal with a short walk to the entrance. Pre-book at tampaport.com for guaranteed availability on embarkation days.",
+    "checkInInfo": "Check-in at Terminal 2 opens at 11:00 AM. Royal Caribbean guests should complete online check-in via the app and download their SetSail pass. Curbside porters handle luggage drop-off with a recommended $5 per bag tip. Port Tampa Bay's smaller size means shorter lines compared to larger Florida cruise ports.",
+    "nearbyHotels": "Hotels near Terminal 2 include Hilton Garden Inn Tampa Ybor Historic District (10 minutes), Hampton Inn Tampa Ybor City (10 minutes), Tampa Marriott Water Street (5 minutes), Aloft Tampa Downtown (5 minutes), and Embassy Suites Tampa Downtown (8 minutes).",
+    "nearbyDining": "The Channelside District and Water Street Tampa offer numerous dining options. Try Columbia Restaurant (Florida's oldest restaurant) in nearby Ybor City, Ulele on Tampa's Riverwalk, Sparkman Wharf food hall, or Bern's Steak House in South Tampa. All are within 15 minutes of the terminal.",
+    "thingsToDo": "Explore Ybor City's historic streets, cigar shops, and restaurants (10 minutes). Walk the Tampa Riverwalk for 2.6 miles of waterfront views. Visit the Florida Aquarium (adjacent to the port). The Tampa Bay History Center is steps from the terminal. Sparkman Wharf has food, drinks, and live entertainment.",
+    "externalLinks": [
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official", "domain": "porttb.com", "emoji": "🏢"},
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean", "domain": "royalcaribbean.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-tampa-terminal-3",
+    "terminalName": "Port Tampa Bay Terminal 3",
+    "terminalNumber": "Terminal 3",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "cruiseLinesServed": "Celebrity Cruises, Holland America Line",
+    "address": "651 Channelside Dr, Tampa, FL 33602",
+    "description": "Terminal 3 at Port Tampa Bay serves Celebrity Cruises and Holland America Line on a seasonal basis. This terminal handles the premium and luxury cruise lines that visit Tampa during the winter cruise season. Terminal 3 provides a quieter, more intimate embarkation experience compared to the busier terminals at Port Canaveral and Port Everglades, making it a great fit for the upscale cruise lines that use it.",
+    "parkingInfo": "Parking at Terminal 3 costs approximately $15 per day on-site. A 7-day cruise parking stay runs about $105. The lot is conveniently located adjacent to the terminal building. Pre-book through tampaport.com for peace of mind on sailing day.",
+    "checkInInfo": "Check-in opens at 11:30 AM for both Celebrity and Holland America sailings. Use the respective cruise line app for online check-in. Celebrity guests use the Celebrity Cruises app for eCruise boarding pass. Holland America guests check in through the cruise line website. Curbside luggage porters are available.",
+    "nearbyHotels": "Premium hotels near Terminal 3 include JW Marriott Tampa Water Street (5 minutes), Le Meridien Tampa (10 minutes), Tampa Marriott Water Street (5 minutes), Hilton Tampa Downtown (8 minutes), and The Epicurean Hotel in South Tampa (15 minutes).",
+    "nearbyDining": "Enjoy upscale dining at Ulele on Tampa's Riverwalk, Bern's Steak House in South Tampa, or Columbia Restaurant in Ybor City. For casual options, try Sparkman Wharf food hall, Datz Tampa, or Armature Works in Tampa Heights. All are within 15 minutes of the port.",
+    "thingsToDo": "Walk the Tampa Riverwalk to Curtis Hixon Waterfront Park. Visit the Tampa Museum of Art or the Glazer Children's Museum. Explore Ybor City's historic cigar district. The Florida Aquarium is adjacent to the cruise terminals. For shopping, head to Hyde Park Village in South Tampa.",
+    "externalLinks": [
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official", "domain": "porttb.com", "emoji": "🏢"},
+      {"url": "https://www.celebritycruises.com", "label": "Celebrity Cruises", "domain": "celebritycruises.com", "emoji": "🛳️"},
+      {"url": "https://www.hollandamerica.com", "label": "Holland America Line", "domain": "hollandamerica.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-tampa-terminal-6",
+    "terminalName": "Port Tampa Bay Terminal 6",
+    "terminalNumber": "Terminal 6",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "cruiseLinesServed": "Carnival Cruise Line",
+    "address": "651 Channelside Dr, Tampa, FL 33602",
+    "description": "Terminal 6 at Port Tampa Bay is Carnival Cruise Line's dedicated facility in Tampa. This terminal handles Carnival's year-round Western Caribbean sailings, making it one of the busiest terminals at Port Tampa Bay. The terminal features Carnival's check-in technology, family-friendly waiting areas, and efficient boarding procedures. Terminal 6 has direct access to the parking facilities and is well-signed from the port entrance.",
+    "parkingInfo": "Parking at Terminal 6 costs approximately $15 per day on-site. Weekly parking for a 7-day cruise runs about $105. The parking lot is adjacent to the terminal with a short covered walkway. Rates are lower than Port Canaveral and Port Everglades, making Tampa an affordable departure point.",
+    "checkInInfo": "Check-in at Terminal 6 opens at 11:30 AM. Use the Carnival HUB app for Faster Sail check-in to minimize wait times. Curbside porters handle luggage at the drop-off zone with a recommended $5 per bag tip. Security screening and document check happen inside the terminal.",
+    "nearbyHotels": "Hotels convenient to Terminal 6 include Hilton Garden Inn Tampa Ybor Historic District, Hampton Inn Tampa Ybor City, Tampa Marriott Water Street, Aloft Tampa Downtown, and Embassy Suites Tampa Downtown. Most are within 5 to 10 minutes of the port.",
+    "nearbyDining": "Pre-cruise dining options include Columbia Restaurant in Ybor City (Tampa's historic Cuban-Spanish restaurant), Ulele on the Riverwalk, Sparkman Wharf food hall near the port, and Bernini in Ybor City. For quick casual options, try Taco Bus or West Tampa Sandwich Shop.",
+    "thingsToDo": "The Florida Aquarium is adjacent to the cruise port and makes a great pre-cruise activity. Explore Ybor City's cigar factories, craft breweries, and restaurants. Walk the Tampa Riverwalk from Sparkman Wharf to Curtis Hixon Park. Busch Gardens Tampa Bay is a 20-minute drive for thrill seekers.",
+    "externalLinks": [
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official", "domain": "porttb.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-everglades-terminal-2",
+    "terminalName": "Port Everglades Terminal 2",
+    "terminalNumber": "Terminal 2",
+    "portName": "Port Everglades",
+    "portSlug": "port-everglades",
+    "cruiseLinesServed": "Carnival Cruise Line, Norwegian Cruise Line (varies by season)",
+    "address": "1850 Eller Dr, Fort Lauderdale, FL 33316",
+    "description": "Terminal 2 at Port Everglades is a shared facility primarily serving Carnival Cruise Line and Norwegian Cruise Line on a rotating basis. Located in the heart of Fort Lauderdale's busy cruise port, Terminal 2 handles a high volume of passengers. The terminal features multiple check-in counters, covered waiting areas, and proximity to the port's main entrance off SE 17th Street.",
+    "parkingInfo": "Port Everglades parking costs approximately $19 per day for standard parking and $24 per day for preferred closer parking. A 7-day stay costs $133 to $168. The Northport parking garage is close to Terminal 2. Pre-book at porteverglades.net for the best rates and guaranteed availability during peak season.",
+    "checkInInfo": "Check-in at Terminal 2 opens at 11:00 AM to 11:30 AM depending on the cruise line. Both Carnival and Norwegian use their respective apps for digital check-in. Curbside luggage porters are available with a recommended $5 per bag tip. Security lines can be long on busy multi-ship days, so arrive during your assigned window.",
+    "nearbyHotels": "Hotels near Terminal 2 include Courtyard by Marriott Fort Lauderdale Cruise Port (1 mile), Renaissance Fort Lauderdale Cruise Port Hotel (1 mile), Hampton Inn Fort Lauderdale Cruise Port (1 mile), Hilton Fort Lauderdale Marina (2 miles), and Embassy Suites Fort Lauderdale 17th Street (1.5 miles).",
+    "nearbyDining": "Dine on Las Olas Boulevard (10 minutes) at restaurants like Louie Bossi's Ristorante, The Pirate Republic Seafood and Grill, or Big City Tavern. Closer to the port, try Bokamper's Sports Bar and Grill, Coconuts by the water, or the restaurants at the Hilton Fort Lauderdale Marina.",
+    "thingsToDo": "Stroll Las Olas Boulevard for art galleries, boutiques, and sidewalk cafes. Visit Fort Lauderdale Beach for a swim (15 minutes from port). The NSU Art Museum is worth a visit for contemporary art. The Riverwalk Fort Lauderdale offers scenic waterfront walking from Las Olas to downtown.",
+    "externalLinks": [
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official", "domain": "porteverglades.net", "emoji": "🏢"},
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line", "domain": "carnival.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-everglades-terminal-18",
+    "terminalName": "Port Everglades Terminal 18",
+    "terminalNumber": "Terminal 18",
+    "portName": "Port Everglades",
+    "portSlug": "port-everglades",
+    "cruiseLinesServed": "MSC Cruises, Royal Caribbean International",
+    "address": "1850 Eller Dr, Fort Lauderdale, FL 33316",
+    "description": "Terminal 18 at Port Everglades serves MSC Cruises and Royal Caribbean International. This is one of the larger terminals at the port, capable of handling mega-ships with thousands of passengers. Terminal 18 features modern check-in facilities, expansive waiting areas, and efficient passenger flow from drop-off to boarding. The terminal handles some of the busiest embarkation days at Port Everglades.",
+    "parkingInfo": "Parking near Terminal 18 costs approximately $19 per day standard and $24 per day for preferred parking. A 7-day cruise parking stay runs $133 to $168. The Midport parking garage serves Terminal 18 guests. Pre-book online at porteverglades.net, especially for holiday and peak-season sailings.",
+    "checkInInfo": "Check-in opens at 11:00 AM. MSC guests use the MSC for Me app for digital check-in. Royal Caribbean guests use the Royal Caribbean app and SetSail pass. Curbside luggage porters are stationed at the terminal drop-off zone. Security screening lines can be long - arrive during your assigned arrival window for the shortest wait.",
+    "nearbyHotels": "Hotels near Terminal 18 include Hilton Fort Lauderdale Marina (2 miles), Hyatt Regency Pier Sixty-Six (2 miles), Courtyard by Marriott Fort Lauderdale Cruise Port (1.5 miles), Renaissance Fort Lauderdale Cruise Port Hotel (1.5 miles), and B Ocean Resort (3 miles).",
+    "nearbyDining": "For pre-cruise dining, try the 15th Street Fisheries at Lauderdale Marina, Coconuts by the water for casual waterfront dining, or head to Las Olas Boulevard for upscale options like Wild Sea Oyster Bar and Grille and American Social. The Pirate Republic Seafood and Grill near the Intracoastal is a local favorite.",
+    "thingsToDo": "Fort Lauderdale Beach is 15 minutes from the port with white sand and clear water. Take a water taxi along the Intracoastal Waterway to see the mansions of Millionaire's Row. The Bonnet House Museum and Gardens is a hidden gem. The Riverwalk connects downtown attractions including the NSU Art Museum.",
+    "externalLinks": [
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official", "domain": "porteverglades.net", "emoji": "🏢"},
+      {"url": "https://www.msccruisesusa.com", "label": "MSC Cruises", "domain": "msccruisesusa.com", "emoji": "🛳️"},
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean", "domain": "royalcaribbean.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-everglades-terminal-19",
+    "terminalName": "Port Everglades Terminal 19",
+    "terminalNumber": "Terminal 19",
+    "portName": "Port Everglades",
+    "portSlug": "port-everglades",
+    "cruiseLinesServed": "Holland America Line, Silversea Cruises",
+    "address": "1850 Eller Dr, Fort Lauderdale, FL 33316",
+    "description": "Terminal 19 at Port Everglades serves Holland America Line and Silversea Cruises, two premium and luxury cruise brands. The terminal handles smaller, more intimate ships with fewer passengers, creating a calmer embarkation experience compared to the mega-ship terminals. Terminal 19 provides refined check-in services appropriate for the upscale cruise lines that use this facility.",
+    "parkingInfo": "Parking near Terminal 19 runs approximately $19 per day for standard and $24 per day for preferred parking. A 7-day cruise parking stay costs $133 to $168. The Midport parking area serves Terminal 19. Pre-book at porteverglades.net for guaranteed availability.",
+    "checkInInfo": "Check-in at Terminal 19 opens at 11:00 AM to 11:30 AM depending on the cruise line. Holland America and Silversea handle smaller passenger counts, so check-in lines are typically shorter and more relaxed. Complete online check-in before arriving. Curbside luggage porters are available.",
+    "nearbyHotels": "Luxury hotels for Terminal 19 guests include The Ritz-Carlton Fort Lauderdale (3 miles), W Fort Lauderdale (3 miles), Pelican Grand Beach Resort (3 miles), Hilton Fort Lauderdale Beach Resort (3 miles), and Conrad Fort Lauderdale Beach (4 miles). These match the premium experience of Holland America and Silversea.",
+    "nearbyDining": "Upscale dining near the port includes Wild Sea Oyster Bar and Grille on Las Olas, Louie Bossi's Ristorante, Casa D'Angelo Ristorante, and the 15th Street Fisheries at Lauderdale Marina. For waterfront casual dining, try Coconuts or Boatyard restaurant.",
+    "thingsToDo": "Explore the galleries and boutiques on Las Olas Boulevard. Visit the Bonnet House Museum and Gardens, a historic estate with tropical gardens and wildlife. Take the Fort Lauderdale Water Taxi for scenic Intracoastal views. The Hugh Taylor Birch State Park offers a natural retreat minutes from the port.",
+    "externalLinks": [
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official", "domain": "porteverglades.net", "emoji": "🏢"},
+      {"url": "https://www.hollandamerica.com", "label": "Holland America Line", "domain": "hollandamerica.com", "emoji": "🛳️"},
+      {"url": "https://www.silversea.com", "label": "Silversea Cruises", "domain": "silversea.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "port-everglades-terminal-25",
+    "terminalName": "Port Everglades Terminal 25",
+    "terminalNumber": "Terminal 25",
+    "portName": "Port Everglades",
+    "portSlug": "port-everglades",
+    "cruiseLinesServed": "Celebrity Cruises",
+    "address": "2100 Eisenhower Blvd, Fort Lauderdale, FL 33316",
+    "description": "Terminal 25 at Port Everglades is Celebrity Cruises' dedicated state-of-the-art facility, one of the newest cruise terminals in the United States. Opened in 2018, this 166,500-square-foot terminal was designed to create a seamless embarkation experience with modern architecture, natural light, and ocean views. Terminal 25 features advanced check-in technology, a dedicated area for The Retreat suite guests, and a design aesthetic that matches Celebrity's modern luxury brand.",
+    "parkingInfo": "Parking near Terminal 25 costs approximately $19 per day for standard and $24 per day for preferred parking. A 7-day stay runs $133 to $168. The Southport parking area is closest to Terminal 25. Pre-book at porteverglades.net for the best rates and guaranteed spaces.",
+    "checkInInfo": "Check-in at Terminal 25 opens at 11:00 AM with assigned arrival times via the Celebrity Cruises app. The Retreat suite guests have a dedicated check-in area with priority processing. The terminal uses facial recognition technology for streamlined boarding. Curbside porters handle luggage outside the terminal.",
+    "nearbyHotels": "Premium hotels for Celebrity guests include W Fort Lauderdale, Hilton Fort Lauderdale Beach Resort, The Ritz-Carlton Fort Lauderdale, Pelican Grand Beach Resort, and Renaissance Fort Lauderdale Cruise Port Hotel. Fort Lauderdale Beach and Las Olas Boulevard provide an upscale pre-cruise experience.",
+    "nearbyDining": "Fine dining options near Terminal 25 include Casa D'Angelo Ristorante, Wild Sea Oyster Bar and Grille, Louie Bossi's Ristorante on Las Olas, and Timpano Italian Chophouse. For casual waterfront options, try the 15th Street Fisheries, Coconuts, or Blue Moon Fish Co. in nearby Lauderdale-by-the-Sea.",
+    "thingsToDo": "Fort Lauderdale Beach is 15 minutes from the port with pristine sand and warm Atlantic waters. Las Olas Boulevard offers world-class shopping, galleries, and restaurants. The NSU Art Museum features contemporary art exhibits. Take a Jungle Queen Riverboat cruise along the New River for a unique pre-cruise experience.",
+    "externalLinks": [
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official", "domain": "porteverglades.net", "emoji": "🏢"},
+      {"url": "https://www.celebritycruises.com", "label": "Celebrity Cruises", "domain": "celebritycruises.com", "emoji": "🛳️"}
+    ]
+  }
+]

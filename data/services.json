@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "cruise-shuttle",
+    "name": "Cruise Port Shuttle",
+    "shortName": "Cruise Shuttle",
+    "emoji": "🛳️",
+    "description": "Group shuttle service to and from Florida cruise ports including Port Canaveral and Port of Palm Beach. We handle the logistics so your group can relax and start the vacation the moment they board our bus.",
+    "features": [
+      "Meet-and-greet pickup at your hotel or home",
+      "Luggage assistance and secure storage",
+      "Direct terminal drop-off at all cruise lines",
+      "All Port Canaveral and South Florida terminals served",
+      "Flexible scheduling for early departures and late arrivals"
+    ],
+    "faqs": [
+      {
+        "q": "How early should we book cruise shuttle service?",
+        "a": "We recommend booking at least 2 weeks in advance, especially during peak cruise season from November through April. Last-minute bookings may be available but are subject to fleet availability."
+      },
+      {
+        "q": "Do you serve all Port Canaveral terminals?",
+        "a": "Yes, we provide direct service to all Port Canaveral cruise terminals including Carnival, Royal Caribbean, Disney, Norwegian, MSC, and Virgin Voyages. We also serve the Port of Palm Beach for Margaritaville at Sea sailings."
+      },
+      {
+        "q": "Can you pick up from Orlando hotels?",
+        "a": "Absolutely. We pick up from any hotel in the Orlando, Kissimmee, or Brevard County area and deliver directly to your cruise terminal. We also serve Tampa Bay, Daytona Beach, and South Florida pickup locations."
+      }
+    ],
+    "ctaText": "Book Cruise Shuttle"
+  },
+  {
+    "slug": "airport-transfers",
+    "name": "Airport Transfer Service",
+    "shortName": "Airport Transfers",
+    "emoji": "✈️",
+    "description": "Reliable group airport transfers to and from Orlando International (MCO), Orlando Sanford (SFB), Tampa International (TPA), and other Florida airports. Our professional drivers monitor flight status in real time so your group is never left waiting.",
+    "features": [
+      "Real-time flight tracking and arrival monitoring",
+      "Meet-and-greet service at baggage claim",
+      "Comfortable seating for groups of all sizes",
+      "Service to MCO, SFB, TPA, PIE, MLB, DAB, FLL, and PBI",
+      "24/7 availability for red-eye and early morning flights"
+    ],
+    "faqs": [
+      {
+        "q": "What happens if our flight is delayed?",
+        "a": "We track every flight in real time using live airline data. If your flight is delayed, our driver adjusts automatically at no extra charge. You will never be stranded or charged a waiting fee due to airline delays."
+      },
+      {
+        "q": "How many passengers can you accommodate?",
+        "a": "We operate vehicles ranging from 14-passenger minibuses to full-size 56-passenger motorcoaches. Whether your group is 10 people or 200, we can build a fleet plan that fits your needs and budget."
+      },
+      {
+        "q": "Do you provide car seats for children?",
+        "a": "Florida law does not require car seats in vehicles for hire, but we can accommodate car seats that you bring along. Our drivers will help install them securely before departure."
+      }
+    ],
+    "ctaText": "Book Airport Transfer"
+  },
+  {
+    "slug": "corporate-charter",
+    "name": "Corporate Charter Service",
+    "shortName": "Corporate Charter",
+    "emoji": "💼",
+    "description": "Professional charter bus service for corporate events, conferences, team outings, and employee transportation across Central and South Florida. We provide a polished experience that reflects your company's standards.",
+    "features": [
+      "WiFi-equipped buses for productive travel",
+      "Branded signage and welcome displays available",
+      "Dedicated account manager for multi-day events",
+      "On-time guarantee with backup fleet contingency",
+      "Flexible billing with corporate invoicing"
+    ],
+    "faqs": [
+      {
+        "q": "Can you handle transportation for a multi-day corporate conference?",
+        "a": "Yes, we specialize in multi-day conference logistics. We assign dedicated vehicles and drivers for the duration of your event, providing consistent service for hotel-to-venue shuttles, offsite dinners, and airport transfers on arrival and departure days."
+      },
+      {
+        "q": "Do your buses have WiFi and power outlets?",
+        "a": "Most of our motorcoaches are equipped with onboard WiFi and USB charging ports. If connectivity is essential for your group, let us know when booking and we will guarantee a WiFi-enabled vehicle."
+      },
+      {
+        "q": "How far in advance should we book for a corporate event?",
+        "a": "For large conferences and multi-day events, we recommend booking 4 to 8 weeks in advance to secure the best vehicle selection and pricing. Smaller corporate outings can often be arranged with 1 to 2 weeks notice."
+      }
+    ],
+    "ctaText": "Book Corporate Charter"
+  },
+  {
+    "slug": "wedding-events",
+    "name": "Wedding and Event Transportation",
+    "shortName": "Wedding Transport",
+    "emoji": "💒",
+    "description": "Elegant group transportation for weddings, rehearsal dinners, and special celebrations throughout Florida. We make sure your guests arrive together, on time, and ready to celebrate without worrying about parking or directions.",
+    "features": [
+      "Coordinated pickup from hotels and ceremony venues",
+      "Decorated bus options for wedding parties",
+      "Flexible scheduling for ceremonies, receptions, and after-parties",
+      "Designated driver solution for the entire guest list",
+      "ADA-accessible vehicles available on request"
+    ],
+    "faqs": [
+      {
+        "q": "Can you coordinate transportation between multiple wedding venues?",
+        "a": "Absolutely. We routinely manage multi-stop wedding logistics, shuttling guests between ceremony sites, reception venues, and hotel blocks. Our dispatcher coordinates timing with your wedding planner to keep the entire day running on schedule."
+      },
+      {
+        "q": "How many guests can one bus carry?",
+        "a": "Our fleet ranges from 14-passenger minibuses for intimate wedding parties to 56-passenger motorcoaches for larger guest lists. We will help you choose the right mix of vehicles based on your headcount and venue locations."
+      },
+      {
+        "q": "Do you offer decoration or signage for the bus?",
+        "a": "Yes, we offer basic decoration packages including ribbon, signage, and window clings. You are also welcome to decorate the bus yourself with items that do not damage the interior. Just let us know your plans ahead of time."
+      }
+    ],
+    "ctaText": "Book Wedding Transport"
+  },
+  {
+    "slug": "school-groups",
+    "name": "School and Youth Group Transportation",
+    "shortName": "School Groups",
+    "emoji": "🎓",
+    "description": "Safe, dependable bus transportation for school field trips, youth sports teams, band competitions, and educational outings across Florida. Every driver passes enhanced background checks and our vehicles meet all state safety requirements.",
+    "features": [
+      "Enhanced background-checked drivers",
+      "Vehicles meet all Florida school transport regulations",
+      "GPS tracking available for parent and administrator peace of mind",
+      "Flexible capacity from small groups to full school buses",
+      "Experience with museums, state parks, and educational venues"
+    ],
+    "faqs": [
+      {
+        "q": "Are your drivers background-checked for working with children?",
+        "a": "Yes, all of our drivers undergo Level 2 background screening that meets Florida Department of Education standards. We also maintain up-to-date drug testing and safety training records for every driver in our fleet."
+      },
+      {
+        "q": "Can parents track the bus during a field trip?",
+        "a": "Yes, we offer real-time GPS tracking links that can be shared with parents and school administrators. This provides peace of mind and allows you to coordinate pickup times with precision."
+      },
+      {
+        "q": "Do you offer discounts for schools and nonprofit youth organizations?",
+        "a": "We offer competitive pricing for schools and registered nonprofit youth organizations. Contact us with your trip details and group size, and we will provide a custom quote that works within your budget."
+      }
+    ],
+    "ctaText": "Book School Trip"
+  },
+  {
+    "slug": "theme-parks",
+    "name": "Theme Park Group Shuttle",
+    "shortName": "Theme Parks",
+    "emoji": "🎢",
+    "description": "Group shuttle service to Walt Disney World, Universal Studios, SeaWorld, LEGOLAND, and all major Florida theme parks. Skip the parking hassle and let us drop your group off right at the front gate.",
+    "features": [
+      "Direct drop-off at theme park entrances",
+      "Service to Disney, Universal, SeaWorld, LEGOLAND, and more",
+      "Flexible pickup times to match park hours",
+      "Hotel and vacation rental pickup included",
+      "Climate-controlled coaches for comfortable rides"
+    ],
+    "faqs": [
+      {
+        "q": "Can you pick us up from a vacation rental home?",
+        "a": "Yes, we pick up from vacation rental homes, villas, and resort communities throughout the Orlando, Kissimmee, Davenport, and Clermont areas. Just provide the address when booking and we will plan the route."
+      },
+      {
+        "q": "Do we save money compared to theme park parking?",
+        "a": "For groups of 10 or more, chartering a bus is often less expensive per person than paying for multiple cars to park at theme parks, where parking can run $25 to $30 per vehicle per day. You also save time and avoid the tram ride from distant parking lots."
+      },
+      {
+        "q": "Can you wait at the park or do we schedule a return pickup?",
+        "a": "For day trips, we schedule a return pickup at a time you choose. For multi-day theme park visits, we can arrange daily round-trip shuttles. Our dispatcher will work with you to build a schedule that fits your itinerary."
+      }
+    ],
+    "ctaText": "Book Theme Park Shuttle"
+  },
+  {
+    "slug": "kennedy-space-center",
+    "name": "Kennedy Space Center Shuttle",
+    "shortName": "KSC Shuttle",
+    "emoji": "🚀",
+    "description": "Group shuttle service to the Kennedy Space Center Visitor Complex from Orlando, Kissimmee, Cocoa Beach, and surrounding areas. Experience one of the world's premier space attractions without the stress of navigating Merritt Island traffic.",
+    "features": [
+      "Direct service to KSC Visitor Complex entrance",
+      "Pickup from Orlando, Kissimmee, and Space Coast hotels",
+      "Timed departures to maximize your day at KSC",
+      "Knowledgeable drivers familiar with KSC access routes",
+      "Group rates for 10 or more passengers"
+    ],
+    "faqs": [
+      {
+        "q": "How long does the drive from Orlando to Kennedy Space Center take?",
+        "a": "The drive from the Orlando tourist corridor to Kennedy Space Center Visitor Complex typically takes about 60 to 75 minutes depending on traffic. Our drivers know the best routes to avoid I-4 congestion and get you there efficiently."
+      },
+      {
+        "q": "Can we combine a KSC visit with a rocket launch viewing?",
+        "a": "If a launch is scheduled during your visit, we can coordinate timing so your group arrives early enough to secure good viewing positions at the KSC Visitor Complex. Launch viewing tickets through KSC sell out fast, so plan ahead."
+      },
+      {
+        "q": "Do you offer service for school groups visiting KSC?",
+        "a": "Yes, Kennedy Space Center is one of our most popular school field trip destinations. We provide age-appropriate vehicles, background-checked drivers, and flexible scheduling to work with your school's educational program."
+      }
+    ],
+    "ctaText": "Book KSC Shuttle"
+  },
+  {
+    "slug": "rocket-launch",
+    "name": "Rocket Launch Viewing Transport",
+    "shortName": "Rocket Launch",
+    "emoji": "🔥",
+    "description": "Group transportation to prime rocket launch viewing locations along Florida's Space Coast. Whether it is a SpaceX Falcon 9, a ULA Atlas V, or a NASA SLS mission, we get your group to the best vantage points safely and on time.",
+    "features": [
+      "Service to Jetty Park, Playalinda Beach, and other top viewing spots",
+      "Launch schedule monitoring and flexible timing",
+      "Early arrival coordination for prime viewing positions",
+      "Scrub policy with easy rescheduling at no penalty",
+      "Climate-controlled buses for pre-launch and post-launch comfort"
+    ],
+    "faqs": [
+      {
+        "q": "What happens if the launch is scrubbed or delayed?",
+        "a": "Rocket launches are frequently delayed or scrubbed due to weather or technical issues. We monitor launch status in real time and will work with your group to reschedule at no additional charge if the launch does not go as planned."
+      },
+      {
+        "q": "Where are the best public viewing locations?",
+        "a": "Popular free viewing spots include Jetty Park in Cape Canaveral, the Max Brewer Bridge in Titusville, and Space View Park. For closer views, the Kennedy Space Center Visitor Complex sells launch viewing tickets. We serve all of these locations."
+      },
+      {
+        "q": "How early should we arrive for a launch?",
+        "a": "For popular launches like crewed missions or heavy-lift rockets, we recommend arriving 3 to 4 hours early to secure a viewing spot, especially at Jetty Park. Our drivers will get you there with time to spare and find the best drop-off point."
+      }
+    ],
+    "ctaText": "Book Launch Transport"
+  },
+  {
+    "slug": "hotel-shuttle",
+    "name": "Hotel and Resort Shuttle",
+    "shortName": "Hotel Shuttle",
+    "emoji": "🏨",
+    "description": "Dedicated group shuttle service connecting hotels, resorts, and convention centers across Florida. Ideal for conference attendees, wedding guest blocks, and tour groups who need reliable point-to-point transportation.",
+    "features": [
+      "Scheduled loop service between multiple hotel properties",
+      "Convention center and conference venue connections",
+      "Branded signage for easy guest identification",
+      "Flexible hourly and daily rate options",
+      "Service available 24/7 including holidays"
+    ],
+    "faqs": [
+      {
+        "q": "Can you run a continuous loop between two or more hotels?",
+        "a": "Yes, we regularly set up timed loop routes between hotel blocks, convention centers, and event venues. We will create a custom schedule and route map that you can share with your guests so they always know when the next bus arrives."
+      },
+      {
+        "q": "Do you serve the Orlando Convention Center area?",
+        "a": "Yes, the Orange County Convention Center and the surrounding International Drive hotel corridor is one of our most-served areas. We provide service to and from every major hotel and resort in the I-Drive district."
+      },
+      {
+        "q": "Can we add on-demand stops to a scheduled shuttle route?",
+        "a": "Our scheduled routes are designed around your specific needs, so adding or removing stops is easy during the planning phase. Once the route is set, changes can be made with 24 hours notice in most cases."
+      }
+    ],
+    "ctaText": "Book Hotel Shuttle"
+  },
+  {
+    "slug": "sports-event-transport",
+    "name": "Sports Event Transportation",
+    "shortName": "Sports Events",
+    "emoji": "🏟️",
+    "description": "Group bus service to professional and college sporting events, spring training games, NASCAR races, and more across Florida. Tailgate in comfort, skip the parking lot, and let us handle the post-game traffic.",
+    "features": [
+      "Service to Raymond James, Tropicana Field, Camping World, and more",
+      "Tailgate-friendly scheduling with early arrival options",
+      "Spring training ballpark service across the Grapefruit League",
+      "NASCAR race day transportation to Daytona International Speedway",
+      "Post-game pickup coordinated to avoid traffic gridlock"
+    ],
+    "faqs": [
+      {
+        "q": "Can we tailgate at the stadium with the bus?",
+        "a": "Many stadiums allow buses in designated tailgate areas. We will research the specific venue's bus parking and tailgate policies for your event and advise on the best plan for pre-game fun. Some venues require advance parking reservations for oversized vehicles."
+      },
+      {
+        "q": "Do you provide service to Daytona International Speedway on race day?",
+        "a": "Yes, we are experienced with Daytona 500 and other major race day logistics. We handle the unique traffic patterns around the Speedway and coordinate drop-off and pickup at designated bus staging areas to get you in and out efficiently."
+      },
+      {
+        "q": "Can you take our group to multiple spring training games?",
+        "a": "Absolutely. Florida's Grapefruit League stadiums are spread across the Tampa Bay and Space Coast areas, making a charter bus the ideal way to visit multiple parks. We can build a multi-day spring training itinerary covering as many games as you like."
+      }
+    ],
+    "ctaText": "Book Game Day Bus"
+  }
+]

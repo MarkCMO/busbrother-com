@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "university-of-central-florida",
+    "name": "University of Central Florida",
+    "type": "university",
+    "citySlug": "orlando",
+    "address": "4000 Central Florida Blvd, Orlando, FL 32816",
+    "description": "UCF is one of the largest universities in the United States by enrollment, frequently organizing group trips to Kennedy Space Center, theme parks, and corporate events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "university-of-south-florida",
+    "name": "University of South Florida",
+    "type": "university",
+    "citySlug": "tampa",
+    "address": "4202 E Fowler Ave, Tampa, FL 33620",
+    "description": "USF is a major research university in Tampa with over 50,000 students, regularly chartering buses for athletic events, field trips, and conference travel.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "university-of-florida",
+    "name": "University of Florida",
+    "type": "university",
+    "citySlug": "gainesville",
+    "address": "Gainesville, FL 32611",
+    "description": "UF is the flagship public university in Florida, with massive demand for charter bus service during football season, graduation, and campus recruitment events.",
+    "transportNeeds": ["sports-event-transport", "school-groups", "corporate-charter"]
+  },
+  {
+    "slug": "florida-atlantic-university",
+    "name": "Florida Atlantic University",
+    "type": "university",
+    "citySlug": "boca-raton",
+    "address": "777 Glades Rd, Boca Raton, FL 33431",
+    "description": "FAU serves over 30,000 students across multiple campuses in South Florida, needing charter buses for athletic events and campus shuttles.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "florida-international-university",
+    "name": "Florida International University",
+    "type": "university",
+    "citySlug": "miami",
+    "address": "11200 SW 8th St, Miami, FL 33199",
+    "description": "FIU is one of the largest universities in the country, frequently needing charter buses for athletic events, field trips, and intercampus transportation.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "stetson-university",
+    "name": "Stetson University",
+    "type": "university",
+    "citySlug": "deland",
+    "address": "421 N Woodland Blvd, DeLand, FL 32723",
+    "description": "Florida's oldest private university located in DeLand, regularly chartering buses for athletic events, law school activities, and student group trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "rollins-college",
+    "name": "Rollins College",
+    "type": "university",
+    "citySlug": "orlando",
+    "address": "1000 Holt Ave, Winter Park, FL 32789",
+    "description": "Prestigious private liberal arts college in Winter Park, needing charter bus service for athletic events, alumni weekends, and student excursions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "florida-institute-of-technology",
+    "name": "Florida Institute of Technology",
+    "type": "university",
+    "citySlug": "melbourne",
+    "address": "150 W University Blvd, Melbourne, FL 32901",
+    "description": "FIT is a nationally ranked research university on the Space Coast, regularly organizing student trips to Kennedy Space Center and Cape Canaveral.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "embry-riddle-aeronautical-university",
+    "name": "Embry-Riddle Aeronautical University",
+    "type": "university",
+    "citySlug": "daytona-beach",
+    "address": "600 S Clyde Morris Blvd, Daytona Beach, FL 32114",
+    "description": "The world's leading aviation university, regularly chartering buses for flight training, air shows, and Kennedy Space Center visits.",
+    "transportNeeds": ["school-groups", "corporate-charter", "airport-transfers"]
+  },
+  {
+    "slug": "bethune-cookman-university",
+    "name": "Bethune-Cookman University",
+    "type": "university",
+    "citySlug": "daytona-beach",
+    "address": "640 Dr Mary McLeod Bethune Blvd, Daytona Beach, FL 32114",
+    "description": "Historically Black university in Daytona Beach, known for its marching band and athletic programs that regularly need charter bus service.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "full-sail-university",
+    "name": "Full Sail University",
+    "type": "university",
+    "citySlug": "orlando",
+    "address": "3300 University Blvd, Winter Park, FL 32792",
+    "description": "Entertainment and media arts university in Winter Park, frequently organizing industry trips and group events requiring charter transportation.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "valencia-college",
+    "name": "Valencia College",
+    "type": "college",
+    "citySlug": "orlando",
+    "address": "1800 S Kirkman Rd, Orlando, FL 32811",
+    "description": "One of the nation's largest community colleges with multiple Orlando-area campuses, regularly needing buses for student events and field trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "seminole-state-college",
+    "name": "Seminole State College of Florida",
+    "type": "college",
+    "citySlug": "sanford",
+    "address": "100 Weldon Blvd, Sanford, FL 32773",
+    "description": "State college serving Seminole County with campuses in Sanford, Altamonte Springs, and Oviedo, chartering buses for student events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "daytona-state-college",
+    "name": "Daytona State College",
+    "type": "college",
+    "citySlug": "daytona-beach",
+    "address": "1200 W International Speedway Blvd, Daytona Beach, FL 32114",
+    "description": "State college in Daytona Beach near the Speedway, frequently needing charter buses for student groups and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "eastern-florida-state-college",
+    "name": "Eastern Florida State College",
+    "type": "college",
+    "citySlug": "melbourne",
+    "address": "3865 N Wickham Rd, Melbourne, FL 32935",
+    "description": "State college on the Space Coast with campuses in Melbourne, Cocoa, Palm Bay, and Titusville, needing buses for student events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "hillsborough-community-college",
+    "name": "Hillsborough Community College",
+    "type": "college",
+    "citySlug": "tampa",
+    "address": "39 Columbia Dr, Tampa, FL 33606",
+    "description": "Major community college system in the Tampa Bay area, regularly chartering buses for student organizations and campus events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "university-of-tampa",
+    "name": "University of Tampa",
+    "type": "university",
+    "citySlug": "tampa",
+    "address": "401 W Kennedy Blvd, Tampa, FL 33606",
+    "description": "Private university in downtown Tampa housed in the historic Plant Hall, regularly needing charter buses for athletic events and student trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "florida-southern-college",
+    "name": "Florida Southern College",
+    "type": "university",
+    "citySlug": "lakeland",
+    "address": "111 Lake Hollingsworth Dr, Lakeland, FL 33801",
+    "description": "Private college in Lakeland featuring the largest collection of Frank Lloyd Wright architecture, needing buses for athletic events and tours.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "southeastern-university",
+    "name": "Southeastern University",
+    "type": "university",
+    "citySlug": "lakeland",
+    "address": "1000 Longfellow Blvd, Lakeland, FL 33801",
+    "description": "Private Christian university in Lakeland, regularly chartering buses for athletic events, ministry trips, and campus events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "nova-southeastern-university",
+    "name": "Nova Southeastern University",
+    "type": "university",
+    "citySlug": "fort-lauderdale",
+    "address": "3301 College Ave, Fort Lauderdale, FL 33314",
+    "description": "Major private university in Fort Lauderdale with medical and law schools, needing charter buses for clinical rotations and student events.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "florida-gulf-coast-university",
+    "name": "Florida Gulf Coast University",
+    "type": "university",
+    "citySlug": "fort-myers",
+    "address": "10501 FGCU Blvd S, Fort Myers, FL 33965",
+    "description": "Public university in Fort Myers known for its Cinderella basketball runs, regularly chartering buses for athletic events and student trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "polk-state-college",
+    "name": "Polk State College",
+    "type": "college",
+    "citySlug": "lakeland",
+    "address": "999 Avenue H NE, Winter Haven, FL 33881",
+    "description": "State college serving Polk County with campuses in Winter Haven and Lakeland, needing charter buses for student groups.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "lynn-university",
+    "name": "Lynn University",
+    "type": "university",
+    "citySlug": "boca-raton",
+    "address": "3601 N Military Trail, Boca Raton, FL 33431",
+    "description": "Private university in Boca Raton known for hosting presidential debates, needing charter buses for events and athletic competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "florida-polytechnic-university",
+    "name": "Florida Polytechnic University",
+    "type": "university",
+    "citySlug": "lakeland",
+    "address": "4700 Research Way, Lakeland, FL 33805",
+    "description": "Florida's newest public university focused on STEM, located off I-4 in Lakeland with a distinctive Santiago Calatrava-designed building.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "palm-beach-atlantic-university",
+    "name": "Palm Beach Atlantic University",
+    "type": "university",
+    "citySlug": "west-palm-beach",
+    "address": "901 S Flagler Dr, West Palm Beach, FL 33401",
+    "description": "Private Christian university in downtown West Palm Beach, needing charter buses for athletic events and ministry trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "broward-college",
+    "name": "Broward College",
+    "type": "college",
+    "citySlug": "fort-lauderdale",
+    "address": "111 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+    "description": "Major community college serving Broward County with multiple campuses, frequently chartering buses for student events and field trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "palm-beach-state-college",
+    "name": "Palm Beach State College",
+    "type": "college",
+    "citySlug": "west-palm-beach",
+    "address": "4200 Congress Ave, Lake Worth, FL 33461",
+    "description": "State college serving Palm Beach County with campuses across the region, regularly needing charter bus service for student activities.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "st-leo-university",
+    "name": "Saint Leo University",
+    "type": "university",
+    "citySlug": "tampa",
+    "address": "33701 State Rd 52, Saint Leo, FL 33574",
+    "description": "Private Catholic university north of Tampa, Florida's oldest Catholic institution, needing buses for athletic events and student excursions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "eckerd-college",
+    "name": "Eckerd College",
+    "type": "university",
+    "citySlug": "st-petersburg",
+    "address": "4200 54th Ave S, St. Petersburg, FL 33711",
+    "description": "Private liberal arts college on the waterfront in St. Petersburg, chartering buses for marine science field trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "ringling-college-art-design",
+    "name": "Ringling College of Art and Design",
+    "type": "university",
+    "citySlug": "sarasota",
+    "address": "2700 N Tamiami Trail, Sarasota, FL 34234",
+    "description": "Top-ranked private art and design college in Sarasota, needing charter buses for gallery visits, museum trips, and industry events.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "new-college-of-florida",
+    "name": "New College of Florida",
+    "type": "university",
+    "citySlug": "sarasota",
+    "address": "5800 Bay Shore Rd, Sarasota, FL 34243",
+    "description": "Florida's designated public honors college on Sarasota Bay, chartering buses for academic conferences and student field trips.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "lake-sumter-state-college",
+    "name": "Lake-Sumter State College",
+    "type": "college",
+    "citySlug": "clermont",
+    "address": "9501 US Hwy 441, Leesburg, FL 34788",
+    "description": "State college serving Lake and Sumter counties, regularly needing charter buses for student events and campus activities.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "saint-thomas-university",
+    "name": "St. Thomas University",
+    "type": "university",
+    "citySlug": "miami",
+    "address": "16401 NW 37th Ave, Miami Gardens, FL 33054",
+    "description": "Private Catholic university in Miami Gardens with law and business schools, needing charter buses for events and athletic competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "barry-university",
+    "name": "Barry University",
+    "type": "university",
+    "citySlug": "miami",
+    "address": "11300 NE 2nd Ave, Miami Shores, FL 33161",
+    "description": "Private Catholic university in Miami Shores, regularly chartering buses for athletic events, nursing clinicals, and student trips.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "flagler-college",
+    "name": "Flagler College",
+    "type": "university",
+    "citySlug": "st-augustine",
+    "address": "74 King St, St. Augustine, FL 32084",
+    "description": "Private college housed in the historic Ponce de Leon Hotel in St. Augustine, needing buses for student trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "webber-international-university",
+    "name": "Webber International University",
+    "type": "university",
+    "citySlug": "lakeland",
+    "address": "1201 N Scenic Hwy, Babson Park, FL 33827",
+    "description": "Small private business university in Babson Park near Lakeland, needing charter buses for athletic events and business competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "ave-maria-university",
+    "name": "Ave Maria University",
+    "type": "university",
+    "citySlug": "naples",
+    "address": "5050 Ave Maria Blvd, Ave Maria, FL 34142",
+    "description": "Private Catholic university east of Naples in a planned community, needing charter buses for student trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "orange-county-public-schools",
+    "name": "Orange County Public Schools",
+    "type": "school-district",
+    "citySlug": "orlando",
+    "address": "445 W Amelia St, Orlando, FL 32801",
+    "description": "The eighth-largest school district in the nation serving over 200,000 students in the Orlando area, one of the largest charter bus customers in Central Florida.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "osceola-county-school-district",
+    "name": "School District of Osceola County",
+    "type": "school-district",
+    "citySlug": "kissimmee",
+    "address": "817 Bill Beck Blvd, Kissimmee, FL 34744",
+    "description": "Growing school district serving the Kissimmee-St. Cloud area, regularly chartering buses for field trips to Kennedy Space Center and theme parks.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "seminole-county-public-schools",
+    "name": "Seminole County Public Schools",
+    "type": "school-district",
+    "citySlug": "sanford",
+    "address": "400 E Lake Mary Blvd, Sanford, FL 32773",
+    "description": "Highly rated school district north of Orlando, frequently needing charter buses for academic competitions, field trips, and sporting events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "brevard-public-schools",
+    "name": "Brevard Public Schools",
+    "type": "school-district",
+    "citySlug": "melbourne",
+    "address": "2700 Judge Fran Jamieson Way, Viera, FL 32940",
+    "description": "Space Coast school district frequently chartering buses for Kennedy Space Center field trips, STEM events, and athletic competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "volusia-county-schools",
+    "name": "Volusia County Schools",
+    "type": "school-district",
+    "citySlug": "daytona-beach",
+    "address": "200 N Clara Ave, DeLand, FL 32720",
+    "description": "School district serving the Daytona Beach and DeLand area, regularly needing charter buses for student trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "hillsborough-county-public-schools",
+    "name": "Hillsborough County Public Schools",
+    "type": "school-district",
+    "citySlug": "tampa",
+    "address": "901 E Kennedy Blvd, Tampa, FL 33602",
+    "description": "One of the largest school districts in the nation serving the Tampa area, a major customer for charter bus field trips and athletic transportation.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "pinellas-county-schools",
+    "name": "Pinellas County Schools",
+    "type": "school-district",
+    "citySlug": "st-petersburg",
+    "address": "301 4th St SW, Largo, FL 33770",
+    "description": "School district serving St. Petersburg and Clearwater, frequently chartering buses for marine science trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "polk-county-public-schools",
+    "name": "Polk County Public Schools",
+    "type": "school-district",
+    "citySlug": "lakeland",
+    "address": "1915 S Floral Ave, Bartow, FL 33830",
+    "description": "Large school district in central Polk County, regularly needing charter buses for LEGOLAND field trips, sports events, and academic competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "broward-county-public-schools",
+    "name": "Broward County Public Schools",
+    "type": "school-district",
+    "citySlug": "fort-lauderdale",
+    "address": "600 SE 3rd Ave, Fort Lauderdale, FL 33301",
+    "description": "The sixth-largest school district in the nation serving the Fort Lauderdale area, one of South Florida's largest charter bus customers.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "palm-beach-county-school-district",
+    "name": "School District of Palm Beach County",
+    "type": "school-district",
+    "citySlug": "west-palm-beach",
+    "address": "3300 Forest Hill Blvd, West Palm Beach, FL 33406",
+    "description": "Major school district serving Palm Beach County, frequently needing charter buses for field trips, athletic events, and graduation ceremonies.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "lake-county-schools",
+    "name": "Lake County Schools",
+    "type": "school-district",
+    "citySlug": "clermont",
+    "address": "201 W Burleigh Blvd, Tavares, FL 32778",
+    "description": "Growing school district in Lake County west of Orlando, regularly chartering buses for theme park field trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "flagler-county-schools",
+    "name": "Flagler County Schools",
+    "type": "school-district",
+    "citySlug": "palm-coast",
+    "address": "1769 E Moody Blvd, Bunnell, FL 32110",
+    "description": "School district serving Palm Coast and Flagler County, needing charter buses for field trips to St. Augustine and Kennedy Space Center.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "sarasota-county-schools",
+    "name": "Sarasota County Schools",
+    "type": "school-district",
+    "citySlug": "sarasota",
+    "address": "1960 Landings Blvd, Sarasota, FL 34231",
+    "description": "Highly rated school district on the Gulf Coast, regularly chartering buses for arts field trips, Ringling Museum visits, and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "lee-county-schools",
+    "name": "School District of Lee County",
+    "type": "school-district",
+    "citySlug": "fort-myers",
+    "address": "2855 Colonial Blvd, Fort Myers, FL 33966",
+    "description": "Large school district in Southwest Florida, frequently needing charter buses for nature field trips, spring training events, and competitions.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "saint-johns-county-school-district",
+    "name": "St. Johns County School District",
+    "type": "school-district",
+    "citySlug": "st-augustine",
+    "address": "40 Orange St, St. Augustine, FL 32084",
+    "description": "Top-ranked school district in Florida, located in St. Augustine, frequently organizing charter bus field trips to historical sites and museums.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "manatee-county-school-district",
+    "name": "School District of Manatee County",
+    "type": "school-district",
+    "citySlug": "bradenton",
+    "address": "215 Manatee Ave W, Bradenton, FL 34205",
+    "description": "School district serving Bradenton and Manatee County, regularly needing charter buses for field trips and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "warner-university",
+    "name": "Warner University",
+    "type": "university",
+    "citySlug": "lakeland",
+    "address": "13895 US Hwy 27, Lake Wales, FL 33859",
+    "description": "Private Christian university in Lake Wales near Lakeland, needing charter buses for athletic events, ministry trips, and student outings.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "florida-memorial-university",
+    "name": "Florida Memorial University",
+    "type": "university",
+    "citySlug": "miami",
+    "address": "15800 NW 42nd Ave, Miami Gardens, FL 33054",
+    "description": "Historically Black university in Miami Gardens, regularly chartering buses for athletic events, cultural trips, and student activities.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "keiser-university",
+    "name": "Keiser University",
+    "type": "university",
+    "citySlug": "fort-lauderdale",
+    "address": "1500 NW 49th St, Fort Lauderdale, FL 33309",
+    "description": "Florida's largest private not-for-profit university by enrollment, with campuses across the state needing charter bus service for events and athletics.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "corporate-charter"]
+  },
+  {
+    "slug": "adventhealth-university",
+    "name": "AdventHealth University",
+    "type": "university",
+    "citySlug": "orlando",
+    "address": "671 Winyah Dr, Orlando, FL 32803",
+    "description": "Health sciences university affiliated with AdventHealth, needing charter buses for clinical rotations across Central Florida hospitals.",
+    "transportNeeds": ["school-groups", "corporate-charter", "convention-transport"]
+  },
+  {
+    "slug": "st-petersburg-college",
+    "name": "St. Petersburg College",
+    "type": "college",
+    "citySlug": "st-petersburg",
+    "address": "6605 5th Ave N, St. Petersburg, FL 33710",
+    "description": "State college serving Pinellas County with multiple campuses, regularly chartering buses for student activities and athletic events.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "state-college-of-florida",
+    "name": "State College of Florida, Manatee-Sarasota",
+    "type": "college",
+    "citySlug": "bradenton",
+    "address": "5840 26th St W, Bradenton, FL 34207",
+    "description": "State college serving Manatee and Sarasota counties, needing charter buses for student trips, athletic events, and campus activities.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  },
+  {
+    "slug": "indian-river-state-college",
+    "name": "Indian River State College",
+    "type": "college",
+    "citySlug": "vero-beach",
+    "address": "3209 Virginia Ave, Fort Pierce, FL 34981",
+    "description": "State college on the Treasure Coast serving Indian River, St. Lucie, Martin, and Okeechobee counties with regular charter bus needs.",
+    "transportNeeds": ["school-groups", "sports-event-transport", "convention-transport"]
+  }
+]

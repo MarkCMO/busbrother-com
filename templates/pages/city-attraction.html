@@ -1,0 +1,61 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/areas/{{fromCitySlug}}/">{{fromCityName}}</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{attractionName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{attractionEmoji}}</div>
+    <h1>{{fromCityName}} to {{attractionName}} Group Bus | BusBrother</h1>
+    <p class="subtitle">Charter bus from {{fromCityName}} FL to {{attractionName}} in {{attrCityName}}. {{distanceMiles}} miles, approximately {{driveMinutes}} minutes.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{fromCityName}} to {{attractionName}}</h2>
+        <p>BusBrother provides charter bus and group shuttle service from {{fromCityName}}, Florida to {{attractionName}} in {{attrCityName}}. The trip covers approximately {{distanceMiles}} miles and takes about {{driveMinutes}} minutes via {{highway}}. Our professional drivers handle all the driving so your group can relax and enjoy the ride.</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
+          <div class="stat"><div class="stat-num">{{distanceMiles}}</div><div class="stat-lbl">Miles</div></div>
+          <div class="stat"><div class="stat-num">{{driveMinutes}}</div><div class="stat-lbl">Minutes</div></div>
+          <div class="stat"><div class="stat-num">15-57</div><div class="stat-lbl">Passengers</div></div>
+          <div class="stat"><div class="stat-num">24/7</div><div class="stat-lbl">Available</div></div>
+        </div>
+
+        <h3>About {{attractionName}}</h3>
+        <p>{{attractionDescription}}</p>
+
+        <h3>What's Included</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Pickup from any address in {{fromCityName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Direct drop-off at {{attractionName}} entrance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Climate-controlled motorcoach or minibus</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Professional, licensed driver</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Luggage storage and assistance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip with flexible return time</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Multi-stop pickup from multiple hotels</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
+        </ul>
+
+        <div class="callout"><p><strong>Skip the Parking:</strong> {{attractionName}} parking can cost $25 or more per vehicle. BusBrother drops your entire group at the front gate for one flat price - no parking fees, no walking from remote lots.</p></div>
+
+        <h3>Other Destinations from {{fromCityName}}</h3>
+        <div class="areas-grid" style="margin:1rem 0;">
+          {{#each otherAttractions}}<a href="/from/{{fromCitySlug}}/to/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/areas/{{fromCitySlug}}/" class="btn btn-outline">All {{fromCityName}} Services &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

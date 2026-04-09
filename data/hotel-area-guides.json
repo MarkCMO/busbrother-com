@@ -1,0 +1,820 @@
+[
+  {
+    "slug": "hotels-near-port-canaveral",
+    "pageHeading": "Best Hotels Near Port Canaveral",
+    "pageSubtitle": "Top pre-cruise and post-cruise hotels near Port Canaveral cruise port - from budget to luxury, all within 15 minutes of the terminals.",
+    "areaName": "Port Canaveral",
+    "introContent": "Staying near Port Canaveral the night before your cruise is the smartest move for stress-free embarkation. These hotels are all within 15 minutes of the cruise terminals, and most offer park-and-cruise packages that include parking while you sail.",
+    "hotels": [
+      {"name": "Radisson Resort at the Port", "description": "The closest full-service resort to Port Canaveral, offering tropical grounds, multiple pools, and a free cruise shuttle.", "priceRange": "$$", "distanceNote": "0.5 miles from port", "website": "https://www.radissonhotels.com", "websiteDomain": "radissonhotels.com"},
+      {"name": "Country Inn & Suites Cape Canaveral", "description": "Modern hotel with complimentary breakfast, outdoor pool, and park-and-cruise packages.", "priceRange": "$", "distanceNote": "1 mile from port", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "Homewood Suites by Hilton Cape Canaveral", "description": "All-suite hotel with full kitchens, complimentary evening social, and free cruise port shuttle.", "priceRange": "$$", "distanceNote": "1.5 miles from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Cocoa Beach/Cape Canaveral", "description": "Reliable Hilton-brand hotel with free hot breakfast, pool, and shuttle to the port.", "priceRange": "$$", "distanceNote": "2 miles from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Residence Inn by Marriott Cape Canaveral", "description": "Extended-stay style suites with kitchenettes, free breakfast, and cruise parking packages.", "priceRange": "$$", "distanceNote": "1.5 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Best Western Cocoa Beach Hotel & Suites", "description": "Budget-friendly option just minutes from the port with outdoor pool and free parking.", "priceRange": "$", "distanceNote": "3 miles from port", "website": "https://www.bestwestern.com", "websiteDomain": "bestwestern.com"},
+      {"name": "Hilton Cocoa Beach Oceanfront", "description": "Upscale oceanfront hotel on Cocoa Beach with stunning Atlantic views, pool deck, and full-service restaurant.", "priceRange": "$$$", "distanceNote": "5 miles from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Staying near Port Canaveral eliminates the stress of same-day travel from Orlando on embarkation day. If your flight arrives late or traffic on SR-528 delays you, having a hotel room near the port means you will not miss your ship. Many hotels also offer park-and-cruise deals that include overnight parking for your entire cruise.",
+    "gettingAroundContent": "Port Canaveral area hotels are located along SR-A1A in Cape Canaveral and Cocoa Beach. Most are a 5-15 minute drive from the cruise terminals. Some hotels offer free shuttle service to the port. BusBrother provides group shuttle service from any hotel in the area directly to your cruise terminal with luggage assistance.",
+    "externalLinks": [
+      {"url": "https://www.visitspacecoast.com/hotels", "label": "Space Coast Hotels", "domain": "visitspacecoast.com", "emoji": "🏨"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral", "domain": "portcanaveral.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-port-tampa-bay",
+    "pageHeading": "Best Hotels Near Port Tampa Bay",
+    "pageSubtitle": "Top hotels near Tampa's cruise port on Channelside Drive - ideal for pre-cruise stays with easy access to Ybor City and downtown Tampa.",
+    "areaName": "Port Tampa Bay",
+    "introContent": "Port Tampa Bay is located on Channelside Drive in the heart of downtown Tampa, making it one of the most conveniently located cruise ports in Florida. Hotels in the area put you within minutes of the terminals and within walking distance of the Tampa Riverwalk, Ybor City, and the Channel District dining scene.",
+    "hotels": [
+      {"name": "Tampa Marriott Water Street", "description": "Full-service Marriott directly on the Tampa waterfront with rooftop pool, multiple restaurants, and walkable to the cruise port.", "priceRange": "$$$", "distanceNote": "0.5 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Tampa Downtown", "description": "Connected to the Tampa Convention Center with views of the harbor and a short drive to the cruise terminals.", "priceRange": "$$$", "distanceNote": "1 mile from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hyatt Place Tampa Downtown", "description": "Modern select-service hotel with complimentary breakfast and rooftop pool in the Channel District.", "priceRange": "$$", "distanceNote": "0.3 miles from port", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Aloft Tampa Downtown", "description": "Trendy Marriott-brand hotel with a vibrant lobby bar, outdoor pool, and walkable location near the port.", "priceRange": "$$", "distanceNote": "0.5 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Embassy Suites Tampa Downtown", "description": "All-suite hotel with free made-to-order breakfast and evening reception near the convention center.", "priceRange": "$$", "distanceNote": "1 mile from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Tampa Downtown Channel District", "description": "Reliable mid-range option with free breakfast and rooftop pool in the Channel District.", "priceRange": "$$", "distanceNote": "0.5 miles from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Staying near Port Tampa Bay puts you in the heart of downtown Tampa with easy access to the cruise terminals, restaurants, and nightlife. The Channel District and Ybor City offer excellent pre-cruise dining and entertainment options. A hotel near the port lets you explore Tampa the day before and walk or take a quick ride to the terminal on embarkation day.",
+    "gettingAroundContent": "Port Tampa Bay is in downtown Tampa with easy access from I-275 and I-4. The Tampa Streetcar connects the Channel District to Ybor City. Rideshare services are plentiful. BusBrother offers group transfers from any Tampa hotel to the cruise terminals with luggage assistance.",
+    "externalLinks": [
+      {"url": "https://www.visittampabay.com/hotels/", "label": "Visit Tampa Bay Hotels", "domain": "visittampabay.com", "emoji": "🏨"},
+      {"url": "https://www.porttb.com/", "label": "Port Tampa Bay", "domain": "porttb.com", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-port-everglades",
+    "pageHeading": "Best Hotels Near Port Everglades",
+    "pageSubtitle": "Top hotels near Fort Lauderdale's Port Everglades cruise port - from beachfront resorts to budget-friendly options near the terminals.",
+    "areaName": "Port Everglades",
+    "introContent": "Port Everglades in Fort Lauderdale is one of the busiest cruise ports in the world. Hotels near the port range from luxurious beachfront resorts along Fort Lauderdale Beach to practical budget options near the airport and the port entrance on SE 17th Street.",
+    "hotels": [
+      {"name": "Hilton Fort Lauderdale Marina", "description": "Full-service resort directly across from the port entrance on SE 17th Street with marina views and pool.", "priceRange": "$$$", "distanceNote": "0.5 miles from port", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hyatt Regency Pier Sixty-Six", "description": "Iconic Fort Lauderdale resort with marina, multiple pools, and panoramic views from the revolving Pier Top Lounge.", "priceRange": "$$$", "distanceNote": "1 mile from port", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Marriott Harbor Beach Resort", "description": "Upscale beachfront resort on a private stretch of Fort Lauderdale Beach with full-service spa.", "priceRange": "$$$$", "distanceNote": "2 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Courtyard by Marriott Fort Lauderdale Airport & Cruise Port", "description": "Convenient mid-range hotel near the airport with free port shuttle service.", "priceRange": "$$", "distanceNote": "3 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Holiday Inn Express Fort Lauderdale Cruise-Airport", "description": "Budget-friendly option with free breakfast, pool, and cruise port shuttle.", "priceRange": "$", "distanceNote": "3 miles from port", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "W Fort Lauderdale", "description": "Trendy beachfront luxury hotel with rooftop pool, ocean views, and sophisticated dining.", "priceRange": "$$$$", "distanceNote": "3 miles from port", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "Port Everglades is located between Fort Lauderdale Beach and the airport, making the surrounding area ideal for pre-cruise stays. A night before your cruise lets you enjoy Fort Lauderdale Beach, Las Olas Boulevard dining, or the Riverwalk arts and entertainment district. Many hotels offer park-and-cruise packages with port shuttle service.",
+    "gettingAroundContent": "Port Everglades is accessible from I-595 and US-1. Fort Lauderdale Beach is minutes away. The Water Taxi connects waterfront hotels and attractions. BusBrother provides group shuttle service from any Fort Lauderdale area hotel to your cruise terminal.",
+    "externalLinks": [
+      {"url": "https://www.sunny.org/hotels/", "label": "Greater Fort Lauderdale Hotels", "domain": "sunny.org", "emoji": "🏨"},
+      {"url": "https://www.porteverglades.net/", "label": "Port Everglades", "domain": "porteverglades.net", "emoji": "🛳️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-disney-world",
+    "pageHeading": "Best Hotels Near Walt Disney World",
+    "pageSubtitle": "From Disney resort hotels to value off-site options - the best places to stay near Walt Disney World in Orlando.",
+    "areaName": "Walt Disney World",
+    "introContent": "Walt Disney World offers a massive selection of on-site resort hotels plus hundreds of off-site options in Lake Buena Vista and Kissimmee. Disney's own resorts offer perks like Early Theme Park Entry and free transportation, while off-site hotels typically offer lower prices and more space.",
+    "hotels": [
+      {"name": "Disney's Contemporary Resort", "description": "Iconic A-frame resort connected to Magic Kingdom by monorail and walkway. The California Grill on the 15th floor offers incredible fireworks views.", "priceRange": "$$$$", "distanceNote": "On Disney property, monorail to Magic Kingdom", "website": "https://disneyworld.disney.go.com/resorts/", "websiteDomain": "disneyworld.disney.go.com"},
+      {"name": "Disney's All-Star Movies Resort", "description": "Disney's most affordable resort option with fun movie-themed rooms and bus transportation to all parks.", "priceRange": "$$", "distanceNote": "On Disney property, bus to all parks", "website": "https://disneyworld.disney.go.com/resorts/", "websiteDomain": "disneyworld.disney.go.com"},
+      {"name": "Wyndham Garden Lake Buena Vista", "description": "Affordable off-site hotel in Lake Buena Vista with shuttle service to Disney parks.", "priceRange": "$", "distanceNote": "2 miles from Disney Springs", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Hilton Orlando Lake Buena Vista", "description": "Full-service resort in the Disney Springs area with multiple pools and shuttle service.", "priceRange": "$$$", "distanceNote": "Adjacent to Disney Springs", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Drury Plaza Hotel Orlando Disney Springs Area", "description": "Excellent value with free hot breakfast, free evening kickback (food and drinks), and Disney shuttle.", "priceRange": "$$", "distanceNote": "1 mile from Disney Springs", "website": "https://www.druryhotels.com", "websiteDomain": "druryhotels.com"},
+      {"name": "Marriott's Lakeshore Reserve", "description": "Spacious villa-style accommodations with full kitchens near Disney, ideal for families.", "priceRange": "$$$", "distanceNote": "3 miles from Disney parks", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Holiday Inn Resort Orlando Suites", "description": "Family-focused suites with kids' suites, water park, and shuttle to Disney.", "priceRange": "$$", "distanceNote": "4 miles from Disney parks", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"}
+    ],
+    "whyStayContent": "Staying near Disney World keeps you close to the magic and minimizes commute time. Disney's own resorts offer exclusive perks including Early Theme Park Entry (30 minutes before regular guests), complimentary transportation, and the ability to charge purchases to your room. Off-site hotels in Lake Buena Vista offer significantly lower nightly rates while remaining within 5-10 minutes of the parks.",
+    "gettingAroundContent": "Disney operates a free transportation network (buses, monorail, boats, Skyliner gondolas) connecting all on-site resorts to the parks. Off-site hotels typically offer free shuttle service but on a fixed schedule. BusBrother provides flexible group shuttle service from any off-site hotel directly to any Disney park entrance.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/resorts/", "label": "Disney Resort Hotels", "domain": "disneyworld.disney.go.com", "emoji": "🏰"},
+      {"url": "https://www.visitorlando.com/hotels/", "label": "Visit Orlando Hotels", "domain": "visitorlando.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "hotels-near-universal-orlando",
+    "pageHeading": "Best Hotels Near Universal Orlando",
+    "pageSubtitle": "From Universal's premier resort hotels with Express Pass to value off-site options on International Drive.",
+    "areaName": "Universal Orlando",
+    "introContent": "Universal Orlando offers on-site resort hotels with incredible perks including free Universal Express Unlimited (at premier hotels), Early Park Admission, and complimentary water taxis to CityWalk and the parks. Off-site hotels on International Drive are minutes away at a fraction of the cost.",
+    "hotels": [
+      {"name": "Loews Royal Pacific Resort", "description": "South Pacific-themed premier resort with free Universal Express Unlimited for all guests - the best value among premier hotels.", "priceRange": "$$$", "distanceNote": "On Universal property, boat to parks", "website": "https://www.universalorlando.com/web/en/us/places-to-stay", "websiteDomain": "universalorlando.com"},
+      {"name": "Hard Rock Hotel at Universal Orlando", "description": "Rock-and-roll themed premier resort with free Express Unlimited, pool with underwater speakers, and the famous Kitchen restaurant.", "priceRange": "$$$$", "distanceNote": "On Universal property, walk to parks", "website": "https://www.universalorlando.com/web/en/us/places-to-stay", "websiteDomain": "universalorlando.com"},
+      {"name": "Universal's Cabana Bay Beach Resort", "description": "Retro 1950s themed value resort with a massive pool complex and lazy river. Does not include Express Pass.", "priceRange": "$$", "distanceNote": "On Universal property, bus to parks", "website": "https://www.universalorlando.com/web/en/us/places-to-stay", "websiteDomain": "universalorlando.com"},
+      {"name": "DoubleTree by Hilton at the Entrance to Universal", "description": "Convenient off-site hotel at the Universal complex entrance with complimentary shuttle.", "priceRange": "$$", "distanceNote": "Adjacent to Universal", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Rosen Inn at Pointe Orlando", "description": "Budget-friendly option on I-Drive with free shuttle to Universal and SeaWorld.", "priceRange": "$", "distanceNote": "2 miles from Universal", "website": "https://www.rosenhotels.com", "websiteDomain": "rosenhotels.com"},
+      {"name": "Hyatt Regency Orlando", "description": "Upscale convention hotel on I-Drive with large pool complex and close proximity to Universal.", "priceRange": "$$$", "distanceNote": "3 miles from Universal", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"}
+    ],
+    "whyStayContent": "Staying at Universal's premier resort hotels (Royal Pacific, Hard Rock, Portofino Bay) includes free Universal Express Unlimited for your entire stay - a value of $89+ per person per day. This single perk can save a family of four over $700 during a two-day visit. Even Universal's value resorts include Early Park Admission.",
+    "gettingAroundContent": "Universal's on-site resorts connect to the parks via water taxis, walking paths, and buses. The I-Ride Trolley runs along International Drive with stops near Universal. BusBrother provides group shuttle service from any I-Drive or Orlando hotel to Universal Orlando.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/places-to-stay", "label": "Universal Orlando Hotels", "domain": "universalorlando.com", "emoji": "🏨"},
+      {"url": "https://www.internationaldriveorlando.com/", "label": "International Drive Hotels", "domain": "internationaldriveorlando.com", "emoji": "🛣️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-seaworld",
+    "pageHeading": "Best Hotels Near SeaWorld Orlando",
+    "pageSubtitle": "Top hotels near SeaWorld, Aquatica, and the International Drive corridor - from family resorts to budget-friendly stays.",
+    "areaName": "SeaWorld Orlando",
+    "introContent": "SeaWorld Orlando is located on International Drive near the intersection with Central Florida Parkway. Hotels in the area provide easy access to SeaWorld, Aquatica (right across the street), Discovery Cove, and the I-Drive entertainment corridor.",
+    "hotels": [
+      {"name": "Renaissance Orlando at SeaWorld", "description": "Full-service Marriott resort adjacent to SeaWorld with pools, spa, and multiple dining options.", "priceRange": "$$$", "distanceNote": "Adjacent to SeaWorld", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Orlando", "description": "Large convention resort near SeaWorld with lazy river pool, golf course, and multiple restaurants.", "priceRange": "$$$", "distanceNote": "0.5 miles from SeaWorld", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "DoubleTree by Hilton Orlando at SeaWorld", "description": "Full-service hotel across from SeaWorld with tropical pool area and warm DoubleTree cookies at check-in.", "priceRange": "$$", "distanceNote": "Across from SeaWorld", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "SpringHill Suites by Marriott SeaWorld", "description": "All-suite hotel with separate living areas, free breakfast, and shuttle service to SeaWorld.", "priceRange": "$$", "distanceNote": "1 mile from SeaWorld", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Avanti International Resort", "description": "Affordable family resort on I-Drive with two pools and free shuttle to SeaWorld and other parks.", "priceRange": "$", "distanceNote": "2 miles from SeaWorld", "website": "https://www.avantiresort.com", "websiteDomain": "avantiresort.com"},
+      {"name": "Westgate Lakes Resort & Spa", "description": "Lakefront resort with spacious villas, water park, and multiple pools near SeaWorld.", "priceRange": "$$", "distanceNote": "1.5 miles from SeaWorld", "website": "https://www.westgateresorts.com", "websiteDomain": "westgateresorts.com"}
+    ],
+    "whyStayContent": "The SeaWorld area sits at the center of the International Drive corridor, providing excellent access not just to SeaWorld and Aquatica but also to Universal Orlando, ICON Park, and dozens of restaurants and attractions. Hotels here tend to be more affordable than those in the Disney Springs area while offering more central access to multiple parks.",
+    "gettingAroundContent": "The I-Ride Trolley runs the length of International Drive with stops near SeaWorld area hotels. Most hotels offer shuttle service to the major parks. BusBrother provides group shuttle service from any I-Drive hotel to SeaWorld, Aquatica, Discovery Cove, and other area attractions.",
+    "externalLinks": [
+      {"url": "https://seaworld.com/orlando/", "label": "SeaWorld Orlando", "domain": "seaworld.com", "emoji": "🐬"},
+      {"url": "https://www.visitorlando.com/hotels/", "label": "Visit Orlando Hotels", "domain": "visitorlando.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "hotels-on-international-drive",
+    "pageHeading": "Best Hotels on International Drive Orlando",
+    "pageSubtitle": "Orlando's iconic tourist corridor - hundreds of hotels from budget to luxury along the 11-mile strip of attractions, dining, and entertainment.",
+    "areaName": "International Drive",
+    "introContent": "International Drive is Orlando's primary tourist corridor, stretching 11 miles through the heart of the tourist district. I-Drive hotels put you within easy reach of Universal Orlando, SeaWorld, ICON Park, the convention center, and hundreds of restaurants and shops. The I-Ride Trolley connects the entire strip for $2 per ride.",
+    "hotels": [
+      {"name": "Hyatt Regency Orlando", "description": "One of Orlando's largest convention hotels with an expansive pool deck, multiple restaurants, and prime I-Drive location.", "priceRange": "$$$", "distanceNote": "Central I-Drive near convention center", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Rosen Shingle Creek", "description": "AAA Four Diamond resort on 230 acres with championship golf, full spa, and multiple dining venues.", "priceRange": "$$$", "distanceNote": "Southern I-Drive near SeaWorld", "website": "https://www.rosenshinglecreek.com", "websiteDomain": "rosenshinglecreek.com"},
+      {"name": "Rosen Inn International", "description": "Excellent value mid-range hotel on I-Drive with two pools and free continental breakfast.", "priceRange": "$", "distanceNote": "Central I-Drive near ICON Park", "website": "https://www.rosenhotels.com", "websiteDomain": "rosenhotels.com"},
+      {"name": "Westgate Palace Resort", "description": "Suite-style resort with full kitchens, multiple pools, and central I-Drive location.", "priceRange": "$$", "distanceNote": "Northern I-Drive near Universal", "website": "https://www.westgateresorts.com", "websiteDomain": "westgateresorts.com"},
+      {"name": "Sonesta ES Suites International Drive", "description": "All-suite extended-stay hotel with full kitchens and complimentary evening social.", "priceRange": "$$", "distanceNote": "Central I-Drive", "website": "https://www.sonesta.com", "websiteDomain": "sonesta.com"},
+      {"name": "DoubleTree by Hilton at Universal Entrance", "description": "Walkable to Universal CityWalk with pools and a convenient I-Drive location.", "priceRange": "$$", "distanceNote": "Northern I-Drive at Universal entrance", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Comfort Suites Universal", "description": "Budget-friendly suites near the northern end of I-Drive with free breakfast.", "priceRange": "$", "distanceNote": "Northern I-Drive", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "International Drive offers the widest selection of hotels in Orlando at every price point. The corridor provides walkable access to dozens of restaurants, shops, and attractions without needing a car. The I-Ride Trolley connects the entire strip, and most hotels offer shuttle service to the major theme parks.",
+    "gettingAroundContent": "The I-Ride Trolley ($2/ride, $5/day pass) runs the entire length of International Drive with frequent stops. Rideshare services are plentiful. Most hotels offer free shuttle service to Disney, Universal, and SeaWorld. BusBrother provides group shuttle service from any I-Drive hotel to all Orlando area attractions.",
+    "externalLinks": [
+      {"url": "https://www.internationaldriveorlando.com/", "label": "International Drive Orlando", "domain": "internationaldriveorlando.com", "emoji": "🛣️"},
+      {"url": "https://www.visitorlando.com/hotels/", "label": "Visit Orlando Hotels", "domain": "visitorlando.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "hotels-in-lake-buena-vista",
+    "pageHeading": "Best Hotels in Lake Buena Vista",
+    "pageSubtitle": "The closest off-site hotels to Walt Disney World - affordable alternatives in the Lake Buena Vista hotel corridor.",
+    "areaName": "Lake Buena Vista",
+    "introContent": "Lake Buena Vista is the gateway community to Walt Disney World, offering dozens of hotels on Palm Parkway, Apopka-Vineland Road, and SR-535. These hotels are typically 5-10 minutes from the Disney parks at a fraction of Disney resort prices.",
+    "hotels": [
+      {"name": "Wyndham Garden Lake Buena Vista", "description": "Affordable hotel with Disney-area shuttle, outdoor pool, and on-site dining.", "priceRange": "$", "distanceNote": "3 miles from Disney parks", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Drury Plaza Hotel Orlando Lake Buena Vista", "description": "Outstanding value with free hot breakfast, free evening kickback (food and drinks), and Disney shuttle.", "priceRange": "$$", "distanceNote": "2 miles from Disney Springs", "website": "https://www.druryhotels.com", "websiteDomain": "druryhotels.com"},
+      {"name": "Hilton Orlando Buena Vista Palace", "description": "Upscale hotel in the Disney Springs Resort Area with lake views and shuttle service.", "priceRange": "$$$", "distanceNote": "Adjacent to Disney Springs", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Courtyard by Marriott Lake Buena Vista", "description": "Reliable mid-range option with pool and convenient access to Disney parks.", "priceRange": "$$", "distanceNote": "3 miles from Disney parks", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Staybridge Suites Orlando at SeaWorld", "description": "All-suite extended-stay hotel with full kitchens and complimentary breakfast.", "priceRange": "$$", "distanceNote": "5 miles from Disney, near SeaWorld", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Fairfield Inn & Suites Lake Buena Vista", "description": "Budget Marriott-brand hotel with free breakfast and Disney shuttle.", "priceRange": "$", "distanceNote": "4 miles from Disney parks", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "Lake Buena Vista hotels offer the best of both worlds - proximity to Disney World (5-10 minutes) at prices 40-60% lower than Disney's own resorts. Many hotels offer free shuttle service to the parks, and the area has excellent dining and shopping options along Palm Parkway and SR-535.",
+    "gettingAroundContent": "Lake Buena Vista hotels are clustered along SR-535 and Palm Parkway with easy access to I-4. Most hotels offer complimentary shuttle service to Disney parks on a scheduled basis. BusBrother provides flexible group shuttle service from Lake Buena Vista hotels to all Orlando theme parks.",
+    "externalLinks": [
+      {"url": "https://www.visitorlando.com/hotels/", "label": "Visit Orlando Hotels", "domain": "visitorlando.com", "emoji": "🏨"},
+      {"url": "https://disneyworld.disney.go.com/", "label": "Walt Disney World", "domain": "disneyworld.disney.go.com", "emoji": "🏰"}
+    ]
+  },
+  {
+    "slug": "hotels-near-convention-center-orlando",
+    "pageHeading": "Best Hotels Near Orange County Convention Center",
+    "pageSubtitle": "Top hotels near Orlando's convention center on International Drive - ideal for business travelers and event attendees.",
+    "areaName": "Orange County Convention Center",
+    "introContent": "The Orange County Convention Center is the second-largest convention facility in the United States, hosting over 200 events annually. Hotels in the area cater to business travelers with meeting spaces, business centers, and walkable access to the convention center.",
+    "hotels": [
+      {"name": "Hyatt Regency Orlando", "description": "Directly connected to the convention center via skybridge with 1,641 rooms and full-service amenities.", "priceRange": "$$$", "distanceNote": "Connected via skybridge", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Rosen Centre Hotel", "description": "Full-service convention hotel connected to the convention center with 1,334 rooms.", "priceRange": "$$$", "distanceNote": "Connected to convention center", "website": "https://www.rosenhotels.com", "websiteDomain": "rosenhotels.com"},
+      {"name": "Hilton Orlando", "description": "Large resort hotel adjacent to the convention center with pools, golf, and multiple restaurants.", "priceRange": "$$$", "distanceNote": "Adjacent to convention center", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Rosen Plaza Hotel", "description": "Upscale hotel directly across from the convention center with a popular restaurant and bar.", "priceRange": "$$$", "distanceNote": "Across the street", "website": "https://www.rosenhotels.com", "websiteDomain": "rosenhotels.com"},
+      {"name": "DoubleTree by Hilton Universal", "description": "More affordable option on northern I-Drive with shuttle access to the convention center area.", "priceRange": "$$", "distanceNote": "3 miles north on I-Drive", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Wyndham Orlando Resort International Drive", "description": "Full-service resort on I-Drive with tropical pool area and close convention access.", "priceRange": "$$", "distanceNote": "1 mile from convention center", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Staying within walking distance of the Orange County Convention Center eliminates transportation hassles during large events when traffic and parking can be challenging. The connected hotels (Hyatt Regency, Rosen Centre) offer skybridge access directly into the convention center.",
+    "gettingAroundContent": "The convention center area is on central International Drive with I-Ride Trolley access. Hotels connected to the convention center offer the most convenient access. BusBrother provides group transportation for convention groups from any hotel to the convention center and surrounding attractions.",
+    "externalLinks": [
+      {"url": "https://www.occc.net/", "label": "Orange County Convention Center", "domain": "occc.net", "emoji": "🏛️"},
+      {"url": "https://www.internationaldriveorlando.com/", "label": "International Drive", "domain": "internationaldriveorlando.com", "emoji": "🛣️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-mco-airport",
+    "pageHeading": "Best Hotels Near Orlando International Airport (MCO)",
+    "pageSubtitle": "Convenient airport hotels for early flights, layovers, and late arrivals - all within 5 minutes of MCO terminals.",
+    "areaName": "MCO Airport",
+    "introContent": "Orlando International Airport (MCO) is one of the busiest airports in the United States. Hotels near MCO are ideal for early morning departures, late-night arrivals, and layovers. Most offer free airport shuttle service and park-and-fly packages.",
+    "hotels": [
+      {"name": "Hyatt Regency Orlando International Airport", "description": "The only hotel inside the airport terminal with direct airside access - walk from your room to your gate.", "priceRange": "$$$", "distanceNote": "Inside the airport terminal", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Marriott Orlando Airport Lakeside", "description": "Full-service Marriott on a lakefront setting with pools, dining, and free airport shuttle.", "priceRange": "$$$", "distanceNote": "1 mile from terminal", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Orlando Airport", "description": "Connected to the south terminal via a covered walkway with full-service amenities.", "priceRange": "$$$", "distanceNote": "Adjacent to terminal", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Orlando Airport", "description": "Budget-friendly Hilton brand with free breakfast and free airport shuttle.", "priceRange": "$$", "distanceNote": "2 miles from terminal", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "La Quinta Inn by Wyndham Orlando Airport", "description": "Affordable option with free breakfast and free airport shuttle service.", "priceRange": "$", "distanceNote": "3 miles from terminal", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "DoubleTree by Hilton Orlando Airport", "description": "Full-service hotel with restaurant, pool, and complimentary airport shuttle.", "priceRange": "$$", "distanceNote": "2 miles from terminal", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "An airport hotel eliminates the stress of early morning flights and late-night arrivals. The Hyatt Regency inside the terminal is the ultimate convenience - walk directly to your gate. Park-and-fly packages at airport hotels can save money compared to long-term airport parking.",
+    "gettingAroundContent": "Most MCO-area hotels offer free 24-hour airport shuttle service. The airport is about 20 minutes from International Drive and 30 minutes from Walt Disney World. BusBrother provides group transfers from MCO-area hotels to all Orlando attractions and cruise ports.",
+    "externalLinks": [
+      {"url": "https://orlandoairports.net/", "label": "Orlando International Airport", "domain": "orlandoairports.net", "emoji": "✈️"},
+      {"url": "https://www.visitorlando.com/", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "hotels-near-tpa-airport",
+    "pageHeading": "Best Hotels Near Tampa International Airport (TPA)",
+    "pageSubtitle": "Convenient hotels near Tampa's airport - perfect for early flights, cruise port access, and exploring the Tampa Bay area.",
+    "areaName": "TPA Airport",
+    "introContent": "Tampa International Airport (TPA) is consistently ranked among the best airports in the United States. Hotels near TPA provide easy access to downtown Tampa, Port Tampa Bay cruise terminals, and the beaches of Clearwater and St. Pete.",
+    "hotels": [
+      {"name": "Tampa Airport Marriott", "description": "Connected to the airport via the SkyConnect people mover - walk directly from the terminal to the hotel.", "priceRange": "$$$", "distanceNote": "Connected to airport", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Renaissance Tampa International Plaza", "description": "Upscale hotel adjacent to International Plaza mall with restaurants and shopping.", "priceRange": "$$$", "distanceNote": "2 miles from airport", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Embassy Suites Tampa Airport Westshore", "description": "All-suite hotel with free breakfast and evening reception in the Westshore business district.", "priceRange": "$$", "distanceNote": "3 miles from airport", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Tampa Airport Westshore", "description": "Reliable mid-range option with free breakfast and free airport shuttle.", "priceRange": "$$", "distanceNote": "3 miles from airport", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "La Quinta Inn by Wyndham Tampa Airport", "description": "Budget option with free breakfast and airport shuttle.", "priceRange": "$", "distanceNote": "4 miles from airport", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "TPA airport hotels are ideal for early departures, pre-cruise stays (Port Tampa Bay is 15 minutes away), and as a base for exploring the Tampa Bay area. The Westshore business district near the airport offers excellent dining and shopping at International Plaza mall.",
+    "gettingAroundContent": "Most TPA-area hotels offer free airport shuttle service. The airport is 15 minutes from downtown Tampa and the cruise port, 30 minutes from Clearwater Beach. BusBrother provides group transfers from TPA-area hotels to Port Tampa Bay, Busch Gardens, and area attractions.",
+    "externalLinks": [
+      {"url": "https://www.tampaairport.com/", "label": "Tampa International Airport", "domain": "tampaairport.com", "emoji": "✈️"},
+      {"url": "https://www.visittampabay.com/", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌊"}
+    ]
+  },
+  {
+    "slug": "hotels-near-fll-airport",
+    "pageHeading": "Best Hotels Near Fort Lauderdale Airport (FLL)",
+    "pageSubtitle": "Hotels near FLL airport and Port Everglades - ideal for cruise travelers, early flights, and Fort Lauderdale Beach access.",
+    "areaName": "FLL Airport",
+    "introContent": "Fort Lauderdale-Hollywood International Airport (FLL) is located just minutes from Port Everglades cruise port and Fort Lauderdale Beach. Airport-area hotels are popular with cruise passengers and business travelers alike.",
+    "hotels": [
+      {"name": "Marriott Fort Lauderdale Airport", "description": "Full-service hotel adjacent to the airport with pool, restaurant, and free shuttle.", "priceRange": "$$$", "distanceNote": "Adjacent to airport", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Fort Lauderdale Airport", "description": "Upscale hotel near the airport with pool and complimentary shuttle service.", "priceRange": "$$$", "distanceNote": "1 mile from terminal", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Comfort Suites Fort Lauderdale Airport & Cruise Port", "description": "Budget-friendly suites with free breakfast and shuttle to airport and cruise port.", "priceRange": "$", "distanceNote": "2 miles from airport", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "Holiday Inn Express Fort Lauderdale Airport", "description": "Reliable budget option with free breakfast, pool, and airport shuttle.", "priceRange": "$", "distanceNote": "2 miles from airport", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Sheraton Fort Lauderdale Airport & Cruise Port", "description": "Full-service Sheraton with pool, restaurant, and complimentary shuttle to airport and port.", "priceRange": "$$", "distanceNote": "1.5 miles from airport", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "FLL airport hotels serve double duty - they are both airport hotels and cruise port hotels since Port Everglades is just 3 miles from the airport. Many hotels offer shuttle service to both the airport and cruise port. Park-and-cruise packages are widely available.",
+    "gettingAroundContent": "FLL area hotels typically offer free shuttle service to the airport. Port Everglades is about 10 minutes east. Fort Lauderdale Beach is 15 minutes east. BusBrother provides group transfers from FLL area hotels to Port Everglades, Fort Lauderdale Beach, and area attractions.",
+    "externalLinks": [
+      {"url": "https://www.broward.org/Airport/", "label": "FLL Airport", "domain": "broward.org", "emoji": "✈️"},
+      {"url": "https://www.sunny.org/", "label": "Visit Fort Lauderdale", "domain": "sunny.org", "emoji": "☀️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-kennedy-space-center",
+    "pageHeading": "Best Hotels Near Kennedy Space Center",
+    "pageSubtitle": "Stay near America's spaceport - hotels in Titusville and the Space Coast for rocket launch viewing and KSC Visitor Complex visits.",
+    "areaName": "Kennedy Space Center",
+    "introContent": "Kennedy Space Center Visitor Complex is located on Merritt Island, about an hour east of Orlando. The nearest hotels are in Titusville (north approach) and Cocoa Beach/Cape Canaveral (south approach). Titusville hotels offer the best rocket launch viewing from the Indian River.",
+    "hotels": [
+      {"name": "Hampton Inn Titusville/I-95 Kennedy Space Center", "description": "Modern hotel in Titusville with Indian River views - excellent for watching rocket launches from the hotel.", "priceRange": "$$", "distanceNote": "12 miles from KSC Visitor Complex", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Holiday Inn Titusville Kennedy Space Center", "description": "Waterfront hotel on the Indian River with direct views of launch pads across the water.", "priceRange": "$$", "distanceNote": "12 miles from KSC Visitor Complex", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Best Western Space Shuttle Inn", "description": "Budget-friendly option in Titusville with free breakfast and easy KSC access.", "priceRange": "$", "distanceNote": "15 miles from KSC", "website": "https://www.bestwestern.com", "websiteDomain": "bestwestern.com"},
+      {"name": "Hilton Cocoa Beach Oceanfront", "description": "Upscale beachfront hotel combining a KSC visit with a beach vacation.", "priceRange": "$$$", "distanceNote": "20 miles from KSC", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "DoubleTree by Hilton Cocoa Beach", "description": "Oceanfront hotel on Cocoa Beach with pool and tiki bar.", "priceRange": "$$", "distanceNote": "18 miles from KSC", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Staying near Kennedy Space Center allows you to maximize your time at the Visitor Complex and positions you for rocket launch viewing. Titusville hotels along the Indian River offer direct views of launch pads - you can watch rockets launch from your hotel balcony. The Space Coast is also a great area for beaches, wildlife, and manatee viewing.",
+    "gettingAroundContent": "Kennedy Space Center Visitor Complex is accessed via SR-405 from Titusville or SR-528/A1A from Cocoa Beach. Most hotels are a 20-30 minute drive from KSC. BusBrother provides group shuttle service from Space Coast hotels to KSC Visitor Complex and Port Canaveral.",
+    "externalLinks": [
+      {"url": "https://www.kennedyspacecenter.com/", "label": "Kennedy Space Center Visitor Complex", "domain": "kennedyspacecenter.com", "emoji": "🚀"},
+      {"url": "https://www.visitspacecoast.com/", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-cocoa-beach",
+    "pageHeading": "Best Hotels in Cocoa Beach",
+    "pageSubtitle": "Beachfront and oceanview hotels on Florida's Space Coast - perfect for combining beach time with KSC visits and Port Canaveral cruises.",
+    "areaName": "Cocoa Beach",
+    "introContent": "Cocoa Beach is Florida's Space Coast beach town, located between Kennedy Space Center to the north and Port Canaveral to the south. The town offers a mix of classic Florida beach hotels, modern resorts, and budget-friendly options along Atlantic Avenue and A1A.",
+    "hotels": [
+      {"name": "Hilton Cocoa Beach Oceanfront", "description": "The most upscale hotel on Cocoa Beach with oceanfront rooms, pool deck, and full-service restaurant.", "priceRange": "$$$", "distanceNote": "Beachfront on A1A", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "DoubleTree by Hilton Cocoa Beach Oceanfront", "description": "Oceanfront hotel with tiki bar, pool, and warm DoubleTree cookies.", "priceRange": "$$", "distanceNote": "Beachfront", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Courtyard by Marriott Cocoa Beach", "description": "Modern Marriott property near the Cocoa Beach Pier with pool and ocean views.", "priceRange": "$$", "distanceNote": "Steps from Cocoa Beach Pier", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "International Palms Resort Cocoa Beach", "description": "Sprawling beachfront resort with multiple pools, tiki bar, and direct beach access.", "priceRange": "$$", "distanceNote": "Beachfront", "website": "https://www.internationalpalms.com", "websiteDomain": "internationalpalms.com"},
+      {"name": "Surf Studio Beach Resort", "description": "Classic Florida beach motel with kitchenettes and direct beach access at an affordable price.", "priceRange": "$", "distanceNote": "Beachfront", "website": "https://www.surfstudiobeachresort.com", "websiteDomain": "surfstudiobeachresort.com"},
+      {"name": "La Quinta Inn by Wyndham Cocoa Beach", "description": "Budget-friendly option near the beach with free breakfast and pool.", "priceRange": "$", "distanceNote": "2 blocks from beach", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Cocoa Beach offers a classic Florida beach vacation combined with easy access to Kennedy Space Center (30 minutes) and Port Canaveral (10 minutes). The town has a laid-back surf culture, the iconic Cocoa Beach Pier, and Ron Jon Surf Shop. Hotel prices are lower than South Florida beaches.",
+    "gettingAroundContent": "Cocoa Beach runs along A1A with most hotels on or near the beach. Port Canaveral is 10 minutes north. KSC is 30 minutes north. Orlando is about an hour west via SR-528. BusBrother provides group shuttle service from Cocoa Beach hotels to Port Canaveral and KSC.",
+    "externalLinks": [
+      {"url": "https://www.visitcocoabeach.com/", "label": "Visit Cocoa Beach", "domain": "visitcocoabeach.com", "emoji": "🏖️"},
+      {"url": "https://www.visitspacecoast.com/", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🚀"}
+    ]
+  },
+  {
+    "slug": "hotels-in-daytona-beach",
+    "pageHeading": "Best Hotels in Daytona Beach",
+    "pageSubtitle": "Oceanfront hotels on the World's Most Famous Beach - from boardwalk resorts to family-friendly options near the Speedway.",
+    "areaName": "Daytona Beach",
+    "introContent": "Daytona Beach offers a wide range of oceanfront hotels along Atlantic Avenue and A1A. The beach is famous for allowing cars to drive on the sand, and the area's hotels cater to everyone from spring breakers to NASCAR fans to family vacationers.",
+    "hotels": [
+      {"name": "The Shores Resort and Spa", "description": "Upscale oceanfront resort in Daytona Beach Shores with full spa, beachfront pool, and fine dining.", "priceRange": "$$$", "distanceNote": "Beachfront in Daytona Beach Shores", "website": "https://www.shoresresort.com", "websiteDomain": "shoresresort.com"},
+      {"name": "Hilton Daytona Beach Oceanfront Resort", "description": "Full-service resort on the beach with pools, restaurants, and near the boardwalk.", "priceRange": "$$$", "distanceNote": "Beachfront near boardwalk", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hard Rock Hotel Daytona Beach", "description": "Rock-themed beachfront hotel with rooftop bar, pool, and live entertainment venue.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.hardrockhotels.com", "websiteDomain": "hardrockhotels.com"},
+      {"name": "Hampton Inn Daytona Speedway/Airport", "description": "Mid-range option near the Speedway with free breakfast and pool.", "priceRange": "$$", "distanceNote": "Near Speedway, 5 miles from beach", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Days Inn by Wyndham Daytona Oceanfront", "description": "Budget oceanfront option with pool and direct beach access.", "priceRange": "$", "distanceNote": "Beachfront", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Perry's Ocean Edge Resort", "description": "Family-friendly oceanfront resort with multiple pools, lazy river, and spacious suites.", "priceRange": "$$", "distanceNote": "Beachfront in Daytona Beach Shores", "website": "https://www.perrysoceanedge.com", "websiteDomain": "perrysoceanedge.com"}
+    ],
+    "whyStayContent": "Daytona Beach is about an hour northeast of Orlando and offers a completely different Florida experience - wide sandy beaches, the iconic boardwalk, Daytona International Speedway, and a more relaxed atmosphere. Hotel prices are generally lower than Orlando, making it an affordable beach getaway.",
+    "gettingAroundContent": "Daytona Beach's main hotel strip runs along A1A with beach access across the street. The Speedway is about 5 miles inland. Orlando is about 60 miles west via I-4. BusBrother provides group shuttle service from Daytona Beach hotels to Orlando attractions and airports.",
+    "externalLinks": [
+      {"url": "https://www.daytonabeach.com/", "label": "Daytona Beach Tourism", "domain": "daytonabeach.com", "emoji": "🏖️"},
+      {"url": "https://www.daytonainternationalspeedway.com/", "label": "Daytona Speedway", "domain": "daytonainternationalspeedway.com", "emoji": "🏁"}
+    ]
+  },
+  {
+    "slug": "hotels-near-daytona-speedway",
+    "pageHeading": "Best Hotels Near Daytona International Speedway",
+    "pageSubtitle": "Race-ready hotels near the World Center of Racing - perfect for Daytona 500, Rolex 24, Coke Zero 400, and Bike Week.",
+    "areaName": "Daytona International Speedway",
+    "introContent": "Daytona International Speedway is located on International Speedway Boulevard (US-92), about 5 miles from the beach. Hotels near the Speedway are ideal for race weekends when traffic and parking around the track can be intense.",
+    "hotels": [
+      {"name": "Hilton Daytona Beach Oceanfront", "description": "The closest major resort hotel, accessible via a quick drive on ISB.", "priceRange": "$$$", "distanceNote": "5 miles from Speedway", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Daytona Speedway Airport", "description": "The most convenient hotel to the Speedway with free breakfast and pool.", "priceRange": "$$", "distanceNote": "2 miles from Speedway", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "La Quinta Inn Daytona Beach/International Speedway", "description": "Budget-friendly option on International Speedway Boulevard.", "priceRange": "$", "distanceNote": "1.5 miles from Speedway", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Courtyard by Marriott Daytona Beach Speedway/Airport", "description": "Modern Marriott property near the Speedway and airport.", "priceRange": "$$", "distanceNote": "2 miles from Speedway", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Fairfield Inn Daytona Beach", "description": "Affordable Marriott brand near the Speedway with free breakfast.", "priceRange": "$", "distanceNote": "3 miles from Speedway", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "Hotels near Daytona International Speedway are essential during major events like the Daytona 500 (February), Rolex 24 At Daytona (January), Coke Zero Sugar 400 (August), and Bike Week (March). Hotels sell out months in advance for these events, and prices surge significantly.",
+    "gettingAroundContent": "The Speedway is located on International Speedway Boulevard (US-92) with easy access from I-95 and I-4. During race events, shuttle services run from area hotels. BusBrother provides group transportation for race weekend groups.",
+    "externalLinks": [
+      {"url": "https://www.daytonainternationalspeedway.com/", "label": "Daytona International Speedway", "domain": "daytonainternationalspeedway.com", "emoji": "🏁"},
+      {"url": "https://www.daytonabeach.com/", "label": "Daytona Beach Tourism", "domain": "daytonabeach.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-clearwater-beach",
+    "pageHeading": "Best Hotels in Clearwater Beach",
+    "pageSubtitle": "Beachfront resorts on America's top-rated beach - sugar-white sand, turquoise Gulf waters, and stunning sunsets.",
+    "areaName": "Clearwater Beach",
+    "introContent": "Clearwater Beach is consistently ranked among the best beaches in the United States, known for its sugar-white sand, calm turquoise Gulf waters, and spectacular sunsets. The beach island offers a range of resorts from luxury waterfront properties to family-friendly hotels.",
+    "hotels": [
+      {"name": "Opal Sands Resort", "description": "Luxury all-suite beachfront resort with floor-to-ceiling Gulf views, rooftop pool, and upscale dining.", "priceRange": "$$$$", "distanceNote": "Beachfront", "website": "https://www.opalsands.com", "websiteDomain": "opalsands.com"},
+      {"name": "Hyatt Regency Clearwater Beach", "description": "Upscale beachfront resort with multiple pools, spa, and panoramic Gulf views.", "priceRange": "$$$$", "distanceNote": "Beachfront", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Hilton Clearwater Beach Resort & Spa", "description": "Full-service beachfront Hilton with pools, spa, and multiple dining options.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Sheraton Sand Key Resort", "description": "Beachfront resort on Sand Key with pools, beach, and a more relaxed atmosphere than Clearwater Beach proper.", "priceRange": "$$$", "distanceNote": "Sand Key beachfront", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Pier House 60 Marina Hotel", "description": "Waterfront hotel on Clearwater Harbor with marina views and walking distance to beach and Pier 60.", "priceRange": "$$", "distanceNote": "Harbor side, walk to beach", "website": "https://www.pierhouse60.com", "websiteDomain": "pierhouse60.com"},
+      {"name": "Quality Hotel Beach Resort", "description": "Budget-friendly beachfront option with pool and direct beach access.", "priceRange": "$", "distanceNote": "Beachfront", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "Clearwater Beach offers a Gulf Coast beach experience that is hard to beat. The beach is about 90 minutes from Orlando, making it an easy day trip or a multi-day beach add-on to an Orlando vacation. The nightly Sunsets at Pier 60 festival celebrates each sunset with artisans, musicians, and street performers.",
+    "gettingAroundContent": "Clearwater Beach is accessible via the Clearwater Memorial Causeway from the mainland. The Jolley Trolley provides free transportation along the beach and to nearby areas. BusBrother provides group shuttle service from Orlando hotels to Clearwater Beach.",
+    "externalLinks": [
+      {"url": "https://www.visitclearwaterflorida.com/", "label": "Visit Clearwater", "domain": "visitclearwaterflorida.com", "emoji": "🏖️"},
+      {"url": "https://www.visitstpeteclearwater.com/", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "☀️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-st-pete-beach",
+    "pageHeading": "Best Hotels in St. Pete Beach",
+    "pageSubtitle": "Award-winning Gulf Coast beach hotels and resorts on one of Florida's most beautiful barrier islands.",
+    "areaName": "St. Pete Beach",
+    "introContent": "St. Pete Beach is a barrier island on Florida's Gulf Coast, home to the iconic Don CeSar hotel and miles of white sand beach. The area offers a mix of grand resorts, boutique hotels, and family-friendly properties along Gulf Boulevard.",
+    "hotels": [
+      {"name": "The Don CeSar", "description": "The legendary Pink Palace - a 1928 landmark resort with Gulf views, spa, pools, and multiple restaurants.", "priceRange": "$$$$", "distanceNote": "Beachfront landmark", "website": "https://www.doncesar.com", "websiteDomain": "doncesar.com"},
+      {"name": "TradeWinds Island Grand Resort", "description": "Full-service beachfront mega-resort with water slides, pools, beach, and multiple dining venues.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.tradewindsresort.com", "websiteDomain": "tradewindsresort.com"},
+      {"name": "Sirata Beach Resort", "description": "Family-friendly beachfront resort with pools, tiki bar, and direct beach access.", "priceRange": "$$", "distanceNote": "Beachfront", "website": "https://www.sirata.com", "websiteDomain": "sirata.com"},
+      {"name": "Hotel Zamora", "description": "Boutique Mediterranean-style hotel with rooftop restaurant and Intracoastal views.", "priceRange": "$$$", "distanceNote": "Steps from beach", "website": "https://www.thehotelzamora.com", "websiteDomain": "thehotelzamora.com"},
+      {"name": "Postcard Inn on the Beach", "description": "Retro-cool beachfront hotel with a laid-back surf vibe, pool, and PCI Bar & Grill.", "priceRange": "$$", "distanceNote": "Beachfront", "website": "https://www.postcardinn.com", "websiteDomain": "postcardinn.com"}
+    ],
+    "whyStayContent": "St. Pete Beach offers a more relaxed, less commercialized beach experience than Clearwater Beach while maintaining excellent hotel options. The Don CeSar alone is worth the visit as a Florida landmark. The beach is about 90 minutes from Orlando.",
+    "gettingAroundContent": "St. Pete Beach runs along Gulf Boulevard on a barrier island. The Suncoast Beach Trolley connects beach communities along the Gulf Coast. Downtown St. Petersburg with its museums and restaurants is 15 minutes east. BusBrother provides group transportation from Orlando to St. Pete Beach.",
+    "externalLinks": [
+      {"url": "https://www.visitstpeteclearwater.com/", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "☀️"},
+      {"url": "https://www.stpetebeach.org/", "label": "St. Pete Beach", "domain": "stpetebeach.org", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-busch-gardens-tampa",
+    "pageHeading": "Best Hotels Near Busch Gardens Tampa",
+    "pageSubtitle": "Top hotels near Tampa's premier theme park - from on-site convenience to budget-friendly options along Busch Boulevard.",
+    "areaName": "Busch Gardens Tampa",
+    "introContent": "Busch Gardens Tampa Bay is located in north Tampa along Busch Boulevard. Hotels near the park put you within minutes of the entrance, eliminating the need for a long commute from downtown or the beaches.",
+    "hotels": [
+      {"name": "SpringHill Suites Tampa North/Tampa Palms", "description": "Modern suite-style hotel with free breakfast near Busch Gardens and USF.", "priceRange": "$$", "distanceNote": "3 miles from Busch Gardens", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "La Quinta Inn Tampa Near Busch Gardens", "description": "Budget-friendly option on Busch Boulevard with free breakfast and pool.", "priceRange": "$", "distanceNote": "1 mile from Busch Gardens", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Holiday Inn Express Tampa Busch Gardens", "description": "Reliable IHG property with free breakfast and close proximity to the park.", "priceRange": "$$", "distanceNote": "2 miles from Busch Gardens", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Embassy Suites Tampa USF/Busch Gardens", "description": "All-suite hotel with free breakfast and evening reception near USF and Busch Gardens.", "priceRange": "$$", "distanceNote": "3 miles from Busch Gardens", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Tampa Busch Gardens Area", "description": "Solid mid-range Hilton brand option near the park with free breakfast.", "priceRange": "$$", "distanceNote": "2 miles from Busch Gardens", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Busch Gardens is about 75 minutes from the Orlando tourist district, so staying near the park in Tampa eliminates a significant commute. A two-day visit combining Busch Gardens and Adventure Island makes a Tampa stay worthwhile. The north Tampa area also provides access to downtown Tampa, Ybor City, and the Tampa Riverwalk.",
+    "gettingAroundContent": "Busch Gardens is on Busch Boulevard (SR-580) in north Tampa. Most hotels are along Busch Boulevard or Fowler Avenue. Downtown Tampa is about 20 minutes south. BusBrother provides group transportation from area hotels to Busch Gardens and other Tampa attractions.",
+    "externalLinks": [
+      {"url": "https://buschgardens.com/tampa/", "label": "Busch Gardens Tampa", "domain": "buschgardens.com", "emoji": "🎢"},
+      {"url": "https://www.visittampabay.com/", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌊"}
+    ]
+  },
+  {
+    "slug": "hotels-downtown-tampa",
+    "pageHeading": "Best Hotels in Downtown Tampa",
+    "pageSubtitle": "Waterfront hotels along the Tampa Riverwalk - near the cruise port, Ybor City, Amalie Arena, and the Tampa Bay arts district.",
+    "areaName": "Downtown Tampa",
+    "introContent": "Downtown Tampa has transformed into a vibrant urban destination with the Tampa Riverwalk, Water Street Tampa development, and a growing dining and nightlife scene. Hotels here put you near the cruise port, Amalie Arena, the Tampa Museum of Art, and the Channel District.",
+    "hotels": [
+      {"name": "Tampa Marriott Water Street", "description": "Premier waterfront hotel with rooftop pool, multiple restaurants, and walkable to cruise port and Riverwalk.", "priceRange": "$$$", "distanceNote": "On the Riverwalk", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "JW Marriott Tampa Water Street", "description": "Luxury hotel in the new Water Street Tampa development with rooftop bar and fine dining.", "priceRange": "$$$$", "distanceNote": "Water Street Tampa", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Tampa Downtown", "description": "Connected to the convention center with harbor views and full-service amenities.", "priceRange": "$$$", "distanceNote": "On the Riverwalk", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Aloft Tampa Downtown", "description": "Trendy boutique-style hotel with rooftop bar and vibrant social spaces.", "priceRange": "$$", "distanceNote": "Channel District", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Le Meridien Tampa", "description": "Sophisticated hotel in a converted 1905 federal courthouse with upscale dining and bar.", "priceRange": "$$$", "distanceNote": "Downtown Tampa", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "Downtown Tampa offers an urban experience with walkable access to the Riverwalk, museums, restaurants, and nightlife. The cruise port is minutes away, and the TECO Line Streetcar connects downtown to Ybor City's historic entertainment district.",
+    "gettingAroundContent": "The Tampa Riverwalk connects most downtown attractions on a 2.6-mile waterfront path. The TECO Line Streetcar runs from downtown to Ybor City. Pirate Water Taxi provides water transportation along the Riverwalk. BusBrother provides group transportation from downtown Tampa hotels to area attractions.",
+    "externalLinks": [
+      {"url": "https://www.visittampabay.com/", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌊"},
+      {"url": "https://www.tampasdowntown.com/", "label": "Tampa's Downtown", "domain": "tampasdowntown.com", "emoji": "🏙️"}
+    ]
+  },
+  {
+    "slug": "hotels-downtown-orlando",
+    "pageHeading": "Best Hotels in Downtown Orlando",
+    "pageSubtitle": "Hotels near Lake Eola, the Amway Center, Church Street, and Orlando's thriving urban core.",
+    "areaName": "Downtown Orlando",
+    "introContent": "Downtown Orlando is the city's urban core, centered around Lake Eola and anchored by the Amway Center, Wall Street Plaza nightlife district, and a growing restaurant scene. Downtown hotels are ideal for business travelers, concert-goers, and those who prefer a city atmosphere over tourist corridors.",
+    "hotels": [
+      {"name": "The Delaney Hotel", "description": "Boutique luxury hotel in downtown Orlando's Thornton Park district near Lake Eola.", "priceRange": "$$$", "distanceNote": "Thornton Park, walk to Lake Eola", "website": "https://www.thedelaneyhotel.com", "websiteDomain": "thedelaneyhotel.com"},
+      {"name": "Grand Bohemian Hotel Orlando", "description": "Luxury Kessler Collection hotel with art gallery, rooftop pool, and acclaimed Boheme restaurant.", "priceRange": "$$$$", "distanceNote": "Downtown Orlando", "website": "https://www.grandbohemianhotel.com", "websiteDomain": "grandbohemianhotel.com"},
+      {"name": "Aloft Orlando Downtown", "description": "Modern Marriott-brand hotel with rooftop bar and downtown location.", "priceRange": "$$", "distanceNote": "Downtown Orlando", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Embassy Suites Orlando Downtown", "description": "All-suite hotel near Lake Eola with free breakfast and evening reception.", "priceRange": "$$", "distanceNote": "Near Lake Eola", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Home2 Suites Downtown Orlando", "description": "Extended-stay style hotel with kitchenettes and downtown access.", "priceRange": "$$", "distanceNote": "Downtown Orlando", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Downtown Orlando offers a very different experience from the tourist corridor. The city's urban core features Lake Eola's scenic park, Thornton Park's boutique shops and restaurants, and a vibrant nightlife scene on Wall Street and Church Street. The Amway Center hosts major concerts and Orlando Magic NBA games.",
+    "gettingAroundContent": "Downtown Orlando is walkable with SunRail commuter rail connecting to Winter Park and other suburbs. The theme parks are about 20-30 minutes by car. BusBrother provides group transportation from downtown Orlando hotels to all area attractions.",
+    "externalLinks": [
+      {"url": "https://www.downtownorlando.com/", "label": "Downtown Orlando", "domain": "downtownorlando.com", "emoji": "🏙️"},
+      {"url": "https://www.visitorlando.com/", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "hotels-in-winter-park",
+    "pageHeading": "Best Hotels in Winter Park",
+    "pageSubtitle": "Charming boutique hotels in Orlando's most upscale neighborhood - tree-lined Park Avenue, world-class museums, and lakefront dining.",
+    "areaName": "Winter Park",
+    "introContent": "Winter Park is Orlando's most charming neighborhood, featuring tree-lined Park Avenue with boutique shops and restaurants, the Morse Museum's Tiffany glass collection, and scenic boat tours on the Winter Park chain of lakes. Hotels here offer a sophisticated alternative to the tourist district.",
+    "hotels": [
+      {"name": "The Alfond Inn", "description": "AAA Four Diamond boutique hotel owned by Rollins College with contemporary art collection, pool, and Hamilton's Kitchen restaurant.", "priceRange": "$$$", "distanceNote": "Steps from Park Avenue", "website": "https://thealfondinn.com", "websiteDomain": "thealfondinn.com"},
+      {"name": "Park Plaza Hotel", "description": "Historic boutique hotel directly on Park Avenue with balcony rooms overlooking the shops and restaurants below.", "priceRange": "$$", "distanceNote": "On Park Avenue", "website": "https://www.parkplazahotel.com", "websiteDomain": "parkplazahotel.com"},
+      {"name": "Best Western Plus Winter Park", "description": "Affordable option near Park Avenue with free breakfast and pool.", "priceRange": "$", "distanceNote": "0.5 miles from Park Avenue", "website": "https://www.bestwestern.com", "websiteDomain": "bestwestern.com"},
+      {"name": "Hilton Garden Inn Winter Park", "description": "Modern mid-range hotel near Full Sail University and downtown Winter Park.", "priceRange": "$$", "distanceNote": "1 mile from Park Avenue", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Eo Inn", "description": "Boutique downtown Orlando hotel near Winter Park with a stylish, intimate atmosphere.", "priceRange": "$$", "distanceNote": "Between downtown and Winter Park", "website": "https://www.eoinn.com", "websiteDomain": "eoinn.com"}
+    ],
+    "whyStayContent": "Winter Park offers a sophisticated, walkable experience unlike anything in the tourist district. Park Avenue features upscale dining, boutique shopping, and sidewalk cafes. The Morse Museum houses the world's largest collection of Tiffany glass. Scenic boat tours cruise through the chain of lakes. The SunRail commuter train connects Winter Park to downtown Orlando.",
+    "gettingAroundContent": "Winter Park's Park Avenue and surrounding streets are highly walkable. SunRail connects Winter Park to downtown Orlando. The theme parks are about 25-35 minutes by car. BusBrother provides group transportation from Winter Park to all Orlando attractions.",
+    "externalLinks": [
+      {"url": "https://cityofwinterpark.org/departments/communications/visit-winter-park/", "label": "Visit Winter Park", "domain": "cityofwinterpark.org", "emoji": "🌳"},
+      {"url": "https://www.morsemuseum.org/", "label": "Morse Museum", "domain": "morsemuseum.org", "emoji": "🎨"}
+    ]
+  },
+  {
+    "slug": "hotels-in-kissimmee",
+    "pageHeading": "Best Hotels in Kissimmee",
+    "pageSubtitle": "Budget-friendly hotels and vacation rentals along US-192 - the most affordable gateway to Walt Disney World.",
+    "areaName": "Kissimmee",
+    "introContent": "Kissimmee stretches along US-192 (Irlo Bronson Memorial Highway) south of Walt Disney World, offering some of the most affordable lodging in the Orlando area. The corridor features everything from budget hotels to large vacation home resorts, all within 10-15 minutes of Disney's main entrance.",
+    "hotels": [
+      {"name": "Gaylord Palms Resort", "description": "Massive Marriott convention resort with glass atrium, indoor river, and immersive Florida-themed environments.", "priceRange": "$$$", "distanceNote": "5 minutes from Disney", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Margaritaville Resort Orlando", "description": "Jimmy Buffett-themed resort with water park, restaurants, and vacation cottages.", "priceRange": "$$$", "distanceNote": "10 minutes from Disney", "website": "https://www.margaritavilleresorts.com", "websiteDomain": "margaritavilleresorts.com"},
+      {"name": "Comfort Suites Maingate East", "description": "Budget suites with free breakfast and Disney shuttle on US-192.", "priceRange": "$", "distanceNote": "5 minutes from Disney", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "Holiday Inn Resort Orlando Suites", "description": "Family resort with kids' suites, mini water park, and dining on US-192.", "priceRange": "$$", "distanceNote": "8 minutes from Disney", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Champions World Resort", "description": "Affordable family resort with pools and close Disney access.", "priceRange": "$", "distanceNote": "10 minutes from Disney", "website": "https://www.championsworld.com", "websiteDomain": "championsworld.com"},
+      {"name": "Westgate Vacation Villas", "description": "Spacious villa-style accommodations with full kitchens and multiple pool areas.", "priceRange": "$$", "distanceNote": "8 minutes from Disney", "website": "https://www.westgateresorts.com", "websiteDomain": "westgateresorts.com"}
+    ],
+    "whyStayContent": "Kissimmee offers the most affordable lodging near Walt Disney World. Hotels along US-192 are often 40-70% cheaper than Disney's own resorts and even less expensive than Lake Buena Vista options. The trade-off is a slightly longer commute and less upscale surroundings, but the savings can be substantial for families on a budget.",
+    "gettingAroundContent": "US-192 connects to Walt Disney World via World Drive. Most hotels offer Disney shuttle service. The Kissimmee area is also convenient to LEGOLAND Florida (30 minutes south). BusBrother provides group shuttle service from Kissimmee hotels to all Orlando area attractions.",
+    "externalLinks": [
+      {"url": "https://www.experiencekissimmee.com/", "label": "Experience Kissimmee", "domain": "experiencekissimmee.com", "emoji": "🌴"},
+      {"url": "https://www.visitorlando.com/", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🏰"}
+    ]
+  },
+  {
+    "slug": "hotels-in-melbourne-fl",
+    "pageHeading": "Best Hotels in Melbourne, Florida",
+    "pageSubtitle": "Space Coast hotels between Orlando and the Treasure Coast - near Melbourne Beach, the Eau Gallie Arts District, and Patrick Space Force Base.",
+    "areaName": "Melbourne FL",
+    "introContent": "Melbourne is a mid-sized city on Florida's Space Coast, located between Orlando and the Treasure Coast. The city offers access to beautiful, uncrowded beaches, the Eau Gallie Arts District, and proximity to Kennedy Space Center and Port Canaveral.",
+    "hotels": [
+      {"name": "Hilton Melbourne", "description": "Full-service hotel in downtown Melbourne with pool and on-site dining.", "priceRange": "$$", "distanceNote": "Downtown Melbourne, 8 miles to beach", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Crowne Plaza Melbourne Oceanfront", "description": "Beachfront hotel in Indialantic with Gulf Stream views and pool.", "priceRange": "$$$", "distanceNote": "Beachfront in Indialantic", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Holiday Inn Melbourne Viera Conference Center", "description": "Modern hotel in the Viera community with conference facilities.", "priceRange": "$$", "distanceNote": "Viera, 15 miles to beach", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Hampton Inn Melbourne", "description": "Reliable mid-range option with free breakfast near downtown.", "priceRange": "$$", "distanceNote": "Near downtown Melbourne", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "La Quinta Inn Melbourne", "description": "Budget-friendly option with free breakfast and pool.", "priceRange": "$", "distanceNote": "West Melbourne", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Melbourne offers a quieter, more affordable Space Coast experience compared to Cocoa Beach. The beaches in Melbourne Beach and Indialantic are less crowded and more natural. The Eau Gallie Arts District provides a walkable arts and dining scene. Melbourne is about 75 minutes from Orlando.",
+    "gettingAroundContent": "Melbourne is spread along US-1 and I-95 with beach communities to the east across the Indian River. Melbourne-Orlando International Airport (MLB) offers some commercial flights. Orlando (MCO) is about 75 minutes northwest. BusBrother provides group transportation from Melbourne area hotels.",
+    "externalLinks": [
+      {"url": "https://www.visitspacecoast.com/", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🚀"},
+      {"url": "https://www.melbourneflorida.org/", "label": "City of Melbourne", "domain": "melbourneflorida.org", "emoji": "🏙️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-amway-center",
+    "pageHeading": "Best Hotels Near Amway Center Orlando",
+    "pageSubtitle": "Hotels within walking distance of the Amway Center - home of the Orlando Magic and host to major concerts and events.",
+    "areaName": "Amway Center",
+    "introContent": "The Amway Center is downtown Orlando's premier arena, home to the NBA's Orlando Magic and host to major concerts, UFC events, and entertainment tours. Hotels near the Amway Center put you within walking distance, avoiding post-event traffic and parking hassles.",
+    "hotels": [
+      {"name": "Grand Bohemian Hotel Orlando", "description": "Luxury boutique hotel one block from the Amway Center with rooftop pool and acclaimed restaurant.", "priceRange": "$$$$", "distanceNote": "1 block from Amway Center", "website": "https://www.grandbohemianhotel.com", "websiteDomain": "grandbohemianhotel.com"},
+      {"name": "Aloft Orlando Downtown", "description": "Modern hotel within walking distance of the arena with rooftop bar.", "priceRange": "$$", "distanceNote": "0.5 miles from Amway Center", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Embassy Suites Orlando Downtown", "description": "All-suite hotel near Lake Eola with free breakfast and evening reception.", "priceRange": "$$", "distanceNote": "0.5 miles from Amway Center", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Home2 Suites Orlando Downtown", "description": "Extended-stay hotel with kitchenettes in downtown Orlando.", "priceRange": "$$", "distanceNote": "0.7 miles from Amway Center", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "The Delaney Hotel", "description": "Boutique hotel in Thornton Park, a short walk or ride from the arena.", "priceRange": "$$$", "distanceNote": "1 mile from Amway Center", "website": "https://www.thedelaneyhotel.com", "websiteDomain": "thedelaneyhotel.com"}
+    ],
+    "whyStayContent": "Walking to the Amway Center from a nearby hotel eliminates parking costs ($20-40 per event), traffic delays, and the stress of navigating downtown after a show. Downtown hotels also put you near Orlando's best restaurants, bars, and nightlife for pre and post-event dining.",
+    "gettingAroundContent": "Downtown Orlando is walkable from most nearby hotels to the Amway Center. Church Street and Wall Street nightlife districts are within walking distance. SunRail commuter rail stops one block from the arena. BusBrother provides group transportation for events at the Amway Center.",
+    "externalLinks": [
+      {"url": "https://www.amwaycenter.com/", "label": "Amway Center", "domain": "amwaycenter.com", "emoji": "🏀"},
+      {"url": "https://www.downtownorlando.com/", "label": "Downtown Orlando", "domain": "downtownorlando.com", "emoji": "🏙️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-raymond-james-stadium",
+    "pageHeading": "Best Hotels Near Raymond James Stadium",
+    "pageSubtitle": "Hotels near the home of the Tampa Bay Buccaneers - ideal for NFL game days, concerts, and major events.",
+    "areaName": "Raymond James Stadium",
+    "introContent": "Raymond James Stadium is home to the Tampa Bay Buccaneers and hosts major events including the Outback Bowl, concerts, and monster truck shows. The stadium is in north Tampa near the airport, and hotels in the area provide easy game-day access.",
+    "hotels": [
+      {"name": "Renaissance Tampa International Plaza", "description": "Upscale hotel near International Plaza mall and the stadium area.", "priceRange": "$$$", "distanceNote": "3 miles from stadium", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Embassy Suites Tampa Airport Westshore", "description": "All-suite hotel with free breakfast near the stadium and airport.", "priceRange": "$$", "distanceNote": "4 miles from stadium", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Tampa Airport Westshore", "description": "Reliable mid-range option with free breakfast and close stadium access.", "priceRange": "$$", "distanceNote": "4 miles from stadium", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "DoubleTree by Hilton Tampa Rocky Point Waterfront", "description": "Waterfront hotel on Tampa Bay with pool and bayfront dining.", "priceRange": "$$", "distanceNote": "5 miles from stadium", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Quality Inn Tampa Airport", "description": "Budget option near the stadium and airport.", "priceRange": "$", "distanceNote": "5 miles from stadium", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "Hotels near Raymond James Stadium in the Westshore/airport area provide easy access on game days when Dale Mabry Highway traffic can be intense. Staying nearby lets you walk, bike, or take a short ride to the stadium. The Westshore area also offers excellent shopping at International Plaza and WestShore Plaza.",
+    "gettingAroundContent": "Raymond James Stadium is on Dale Mabry Highway in north Tampa. The Westshore area has numerous hotels along the airport corridor. BusBrother provides group transportation for Bucs games and stadium events from any Tampa-area hotel.",
+    "externalLinks": [
+      {"url": "https://www.raymondjames.com/stadium/", "label": "Raymond James Stadium", "domain": "raymondjames.com", "emoji": "🏈"},
+      {"url": "https://www.visittampabay.com/", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌊"}
+    ]
+  },
+  {
+    "slug": "hotels-near-camping-world-stadium",
+    "pageHeading": "Best Hotels Near Camping World Stadium Orlando",
+    "pageSubtitle": "Hotels near Orlando's multi-purpose stadium - home to the Citrus Bowl, Florida Classic, and major concerts and events.",
+    "areaName": "Camping World Stadium",
+    "introContent": "Camping World Stadium is Orlando's largest outdoor venue, hosting college football bowl games, the Florida Classic, international soccer matches, and major concert tours. The stadium is located west of downtown Orlando near the intersection of Church Street and Rio Grande Avenue.",
+    "hotels": [
+      {"name": "Grand Bohemian Hotel Orlando", "description": "Luxury downtown hotel within a short drive of the stadium.", "priceRange": "$$$$", "distanceNote": "3 miles from stadium", "website": "https://www.grandbohemianhotel.com", "websiteDomain": "grandbohemianhotel.com"},
+      {"name": "Embassy Suites Orlando Downtown", "description": "All-suite hotel with free breakfast near downtown and the stadium.", "priceRange": "$$", "distanceNote": "2 miles from stadium", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Rosen Inn International", "description": "Budget-friendly I-Drive hotel with easy access to the stadium via I-4.", "priceRange": "$", "distanceNote": "8 miles via I-4", "website": "https://www.rosenhotels.com", "websiteDomain": "rosenhotels.com"},
+      {"name": "Aloft Orlando Downtown", "description": "Modern downtown hotel within a short drive of events.", "priceRange": "$$", "distanceNote": "3 miles from stadium", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Home2 Suites Orlando Downtown", "description": "Extended-stay downtown option with kitchenettes.", "priceRange": "$$", "distanceNote": "2.5 miles from stadium", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Camping World Stadium events draw large crowds and create significant traffic on Church Street and the surrounding area. Staying at a downtown Orlando hotel lets you use rideshare or take a short drive to events while enjoying downtown dining and nightlife before and after.",
+    "gettingAroundContent": "Camping World Stadium is accessible from I-4 and Church Street. Event parking is available at the stadium. Downtown Orlando hotels are 2-3 miles east. BusBrother provides group transportation for events at Camping World Stadium.",
+    "externalLinks": [
+      {"url": "https://www.campingworldstadium.com/", "label": "Camping World Stadium", "domain": "campingworldstadium.com", "emoji": "🏟️"},
+      {"url": "https://www.visitorlando.com/", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "hotels-in-west-palm-beach",
+    "pageHeading": "Best Hotels in West Palm Beach",
+    "pageSubtitle": "Hotels in the cultural heart of Palm Beach County - near Clematis Street, CityPlace, Norton Museum, and the Kravis Center.",
+    "areaName": "West Palm Beach",
+    "introContent": "West Palm Beach is the urban center of Palm Beach County, offering a vibrant downtown with Clematis Street nightlife, Rosemary Square (formerly CityPlace) shopping and dining, the Norton Museum of Art, and the Kravis Center for the Performing Arts.",
+    "hotels": [
+      {"name": "The Ben West Palm", "description": "Luxury Marriott Autograph Collection hotel in downtown West Palm Beach with rooftop pool and restaurant.", "priceRange": "$$$$", "distanceNote": "Downtown, walk to Clematis Street", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton West Palm Beach", "description": "Full-service hotel connected to the Palm Beach County Convention Center.", "priceRange": "$$$", "distanceNote": "Downtown, near convention center", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hyatt Place West Palm Beach Downtown", "description": "Modern select-service hotel in the heart of downtown with rooftop pool.", "priceRange": "$$", "distanceNote": "Downtown West Palm", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Hampton Inn West Palm Beach Downtown", "description": "Budget-friendly downtown option with free breakfast.", "priceRange": "$$", "distanceNote": "Near Clematis Street", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Marriott West Palm Beach", "description": "Reliable full-service Marriott near downtown and the waterfront.", "priceRange": "$$$", "distanceNote": "Near waterfront", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"}
+    ],
+    "whyStayContent": "West Palm Beach is the mainland cultural hub across the Intracoastal from Palm Beach island. The city offers excellent museums, performing arts, dining, and nightlife at a more accessible price point than Palm Beach proper. Downtown is walkable and vibrant, especially along Clematis Street.",
+    "gettingAroundContent": "Downtown West Palm Beach is walkable. The Brightline high-speed train connects West Palm to Fort Lauderdale (30 min) and Miami (60 min). Palm Beach International Airport (PBI) is 5 minutes away. BusBrother provides group transportation from West Palm Beach hotels.",
+    "externalLinks": [
+      {"url": "https://www.thepalmbeaches.com/", "label": "The Palm Beaches", "domain": "thepalmbeaches.com", "emoji": "🌴"},
+      {"url": "https://www.wpb.org/", "label": "City of West Palm Beach", "domain": "wpb.org", "emoji": "🏙️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-boca-raton",
+    "pageHeading": "Best Hotels in Boca Raton",
+    "pageSubtitle": "Upscale resort hotels and beachfront stays in South Florida's most refined coastal city.",
+    "areaName": "Boca Raton",
+    "introContent": "Boca Raton is an affluent South Florida city known for its Mediterranean Revival architecture, beautiful beaches, upscale shopping at Town Center Mall, and the iconic Boca Raton Resort and Club. Hotels here range from the legendary resort to modern business hotels.",
+    "hotels": [
+      {"name": "Boca Raton Resort and Club", "description": "Legendary 356-acre luxury resort with multiple pools, private beach, golf courses, spa, and over a dozen restaurants.", "priceRange": "$$$$", "distanceNote": "On the Intracoastal, private beach", "website": "https://www.bocaresort.com", "websiteDomain": "bocaresort.com"},
+      {"name": "Waterstone Resort and Marina", "description": "Boutique waterfront hotel on the Intracoastal with pool and marina.", "priceRange": "$$$", "distanceNote": "Intracoastal waterfront", "website": "https://www.waterstoneboca.com", "websiteDomain": "waterstoneboca.com"},
+      {"name": "Hyatt Place Boca Raton Downtown", "description": "Modern downtown hotel with pool and walkable to Mizner Park.", "priceRange": "$$", "distanceNote": "Near Mizner Park", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Marriott Boca Raton at Boca Center", "description": "Full-service Marriott near Town Center and I-95.", "priceRange": "$$$", "distanceNote": "Near Town Center Mall", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Garden Inn Boca Raton", "description": "Reliable mid-range option near FAU and downtown.", "priceRange": "$$", "distanceNote": "Near FAU campus", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Boca Raton offers a refined South Florida experience with excellent beaches, world-class dining at Mizner Park and Royal Palm Place, and the legendary Boca Resort. The city is centrally located between West Palm Beach and Fort Lauderdale on I-95.",
+    "gettingAroundContent": "Boca Raton is accessible from I-95 and the Florida Turnpike. Brightline train service stops in Boca Raton. The beach is east of A1A. BusBrother provides group transportation from Boca Raton hotels to area attractions and cruise ports.",
+    "externalLinks": [
+      {"url": "https://www.myboca.us/", "label": "City of Boca Raton", "domain": "myboca.us", "emoji": "🌴"},
+      {"url": "https://www.thepalmbeaches.com/boca-raton", "label": "Visit Boca Raton", "domain": "thepalmbeaches.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-fort-lauderdale-beach",
+    "pageHeading": "Best Hotels on Fort Lauderdale Beach",
+    "pageSubtitle": "Beachfront resorts and hotels along Fort Lauderdale's iconic A1A strip - near Las Olas, the Riverwalk, and Port Everglades.",
+    "areaName": "Fort Lauderdale Beach",
+    "introContent": "Fort Lauderdale Beach stretches along the A1A corridor with a wide promenade, beachfront restaurants, and a mix of luxury resorts and mid-range hotels. The beach is minutes from Las Olas Boulevard's dining scene, the Riverwalk Arts District, and Port Everglades cruise port.",
+    "hotels": [
+      {"name": "W Fort Lauderdale", "description": "Trendy luxury beachfront hotel with Whiskey Blue rooftop bar, pool scene, and modern rooms.", "priceRange": "$$$$", "distanceNote": "Beachfront", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "The Ritz-Carlton Fort Lauderdale", "description": "Ultra-luxury oceanfront resort with full spa, pool, and fine dining.", "priceRange": "$$$$", "distanceNote": "Beachfront", "website": "https://www.ritzcarlton.com", "websiteDomain": "ritzcarlton.com"},
+      {"name": "Marriott Fort Lauderdale Beach", "description": "Full-service beachfront Marriott with pools and ocean views.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Courtyard by Marriott Fort Lauderdale Beach", "description": "Mid-range beachfront option with pool and beach access.", "priceRange": "$$", "distanceNote": "Beachfront", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Pelican Grand Beach Resort", "description": "Oceanfront boutique resort with lazy river pool, private beach, and classic Florida charm.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.pelicanbeach.com", "websiteDomain": "pelicanbeach.com"},
+      {"name": "Bahia Mar Fort Lauderdale Beach", "description": "Marina resort on the Intracoastal with pool, marina, and close beach access.", "priceRange": "$$", "distanceNote": "Steps from beach", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Fort Lauderdale Beach offers a more upscale, less crowded alternative to Miami Beach. The beachfront promenade is perfect for walking and cycling. Las Olas Boulevard is minutes away for dining and shopping. Port Everglades is nearby for pre and post-cruise beach stays.",
+    "gettingAroundContent": "Fort Lauderdale Beach runs along A1A. The Water Taxi connects beach hotels to Las Olas and the Riverwalk. FLL airport is 15 minutes away. BusBrother provides group shuttle service from Fort Lauderdale Beach hotels to cruise ports and area attractions.",
+    "externalLinks": [
+      {"url": "https://www.sunny.org/", "label": "Visit Fort Lauderdale", "domain": "sunny.org", "emoji": "☀️"},
+      {"url": "https://www.fortlauderdale.gov/", "label": "City of Fort Lauderdale", "domain": "fortlauderdale.gov", "emoji": "🏙️"}
+    ]
+  },
+  {
+    "slug": "hotels-near-sawgrass-mills",
+    "pageHeading": "Best Hotels Near Sawgrass Mills Mall",
+    "pageSubtitle": "Hotels near South Florida's largest outlet mall - perfect for a shopping getaway near Fort Lauderdale.",
+    "areaName": "Sawgrass Mills",
+    "introContent": "Sawgrass Mills is the largest outlet and value retail shopping destination in South Florida, located in Sunrise just west of Fort Lauderdale. The mall features over 350 stores including The Colonnade Outlets with luxury brands at outlet prices.",
+    "hotels": [
+      {"name": "Sawgrass Marriott Golf Resort & Spa", "description": "Full-service resort adjacent to Sawgrass Mills with golf, spa, and pools.", "priceRange": "$$$", "distanceNote": "Adjacent to Sawgrass Mills", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Hilton Garden Inn Ft. Lauderdale Airport-Cruise Port", "description": "Modern hotel near Sawgrass with pool and restaurant.", "priceRange": "$$", "distanceNote": "5 miles from Sawgrass Mills", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Comfort Suites Sawgrass", "description": "Budget suites near the mall with free breakfast.", "priceRange": "$", "distanceNote": "1 mile from Sawgrass Mills", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "Hampton Inn Ft. Lauderdale Sawgrass", "description": "Reliable mid-range option near the mall.", "priceRange": "$$", "distanceNote": "2 miles from Sawgrass Mills", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "La Quinta Inn Sawgrass", "description": "Budget-friendly option near the mall and BB&T Center.", "priceRange": "$", "distanceNote": "1.5 miles from mall", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Sawgrass Mills is a destination in itself for shopping enthusiasts. The mall and surrounding retail area offer full-day shopping experiences. The area is also home to the Florida Panthers' Amerant Bank Arena and is centrally located between Fort Lauderdale Beach and the Everglades.",
+    "gettingAroundContent": "Sawgrass Mills is located off Sawgrass Expressway (SR-869) in Sunrise. Fort Lauderdale Beach is about 30 minutes east. FLL airport is 20 minutes southeast. BusBrother provides group shopping shuttle service from area hotels to Sawgrass Mills.",
+    "externalLinks": [
+      {"url": "https://www.simon.com/mall/sawgrass-mills", "label": "Sawgrass Mills Mall", "domain": "simon.com", "emoji": "🛍️"},
+      {"url": "https://www.sunny.org/", "label": "Visit Fort Lauderdale", "domain": "sunny.org", "emoji": "☀️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-jupiter-fl",
+    "pageHeading": "Best Hotels in Jupiter, Florida",
+    "pageSubtitle": "Waterfront hotels in Jupiter - near the inlet, lighthouse, spring training stadiums, and beautiful North Palm Beach County beaches.",
+    "areaName": "Jupiter FL",
+    "introContent": "Jupiter is an upscale coastal community in northern Palm Beach County known for the Jupiter Inlet Lighthouse, spring training baseball (Roger Dean Stadium hosts the Marlins and Cardinals), and pristine beaches. Hotels are spread along US-1 and A1A.",
+    "hotels": [
+      {"name": "Jupiter Beach Resort and Spa", "description": "Oceanfront resort on Jupiter Beach with spa, pools, and Sinclair's Ocean Grill restaurant.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.jupiterbeachresort.com", "websiteDomain": "jupiterbeachresort.com"},
+      {"name": "Wyndham Grand Jupiter at Harbourside Place", "description": "Waterfront hotel at Harbourside Place with Intracoastal views, pool, and dining.", "priceRange": "$$$", "distanceNote": "Harbourside Place waterfront", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"},
+      {"name": "Fairfield Inn & Suites Jupiter", "description": "Modern Marriott property with pool and free breakfast.", "priceRange": "$$", "distanceNote": "Near I-95 and US-1", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Homewood Suites Jupiter", "description": "Suite-style hotel with full kitchens and complimentary breakfast.", "priceRange": "$$", "distanceNote": "Near I-95", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Hampton Inn Jupiter/Juno Beach", "description": "Reliable mid-range option between Jupiter and Juno Beach.", "priceRange": "$$", "distanceNote": "Near Juno Beach", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Jupiter offers a quieter, more natural Florida beach experience. The Jupiter Inlet Lighthouse, Blowing Rocks Preserve, and Jonathan Dickinson State Park provide outdoor adventures. During spring training season (February-March), Roger Dean Stadium hosts MLB games in a relaxed setting.",
+    "gettingAroundContent": "Jupiter is accessible from I-95 and the Florida Turnpike. The beach is east of A1A. PBI airport is 25 minutes south. BusBrother provides group transportation from Jupiter hotels.",
+    "externalLinks": [
+      {"url": "https://www.thepalmbeaches.com/jupiter", "label": "Visit Jupiter", "domain": "thepalmbeaches.com", "emoji": "🏖️"},
+      {"url": "https://www.jupiterlighthouse.org/", "label": "Jupiter Lighthouse", "domain": "jupiterlighthouse.org", "emoji": "🗼"}
+    ]
+  },
+  {
+    "slug": "hotels-in-vero-beach",
+    "pageHeading": "Best Hotels in Vero Beach",
+    "pageSubtitle": "Treasure Coast hotels in Vero Beach - uncrowded beaches, the Vero Beach Hotel and Spa, and Disney's Vero Beach Resort.",
+    "areaName": "Vero Beach",
+    "introContent": "Vero Beach is a charming Treasure Coast city known for its uncrowded beaches, thriving arts community, and a more relaxed pace than South Florida. The town features Disney's Vero Beach Resort (Disney's only non-park resort on the East Coast) and upscale beachside accommodations.",
+    "hotels": [
+      {"name": "Vero Beach Hotel and Spa", "description": "Upscale oceanfront resort with spa, pools, and Cobalt Restaurant.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.verobeachhotelandspa.com", "websiteDomain": "verobeachhotelandspa.com"},
+      {"name": "Disney's Vero Beach Resort", "description": "Disney's beachfront resort with Disney theming, pool, and relaxed atmosphere far from the theme parks.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://disneyworld.disney.go.com/resorts/vero-beach-resort/", "websiteDomain": "disneyworld.disney.go.com"},
+      {"name": "Kimpton Vero Beach Hotel and Spa", "description": "Boutique beachfront hotel with modern design and oceanfront pool.", "priceRange": "$$$", "distanceNote": "Beachfront", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Holiday Inn Vero Beach Oceanside", "description": "Oceanfront hotel with pool and direct beach access at a moderate price.", "priceRange": "$$", "distanceNote": "Oceanside", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Hampton Inn Vero Beach", "description": "Budget-friendly option near the beach with free breakfast.", "priceRange": "$$", "distanceNote": "1 mile from beach", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"}
+    ],
+    "whyStayContent": "Vero Beach offers pristine, uncrowded beaches without the development and traffic of South Florida beach towns. The McKee Botanical Garden, Riverside Theatre, and a charming downtown arts district add cultural depth. Vero Beach is about 90 minutes from Orlando.",
+    "gettingAroundContent": "Vero Beach is located on the Treasure Coast along US-1 and I-95. The beach area is east across the barrier island. Orlando is about 90 minutes west via SR-60. BusBrother provides group transportation from Vero Beach.",
+    "externalLinks": [
+      {"url": "https://www.visitverobeach.com/", "label": "Visit Vero Beach", "domain": "visitverobeach.com", "emoji": "🏖️"},
+      {"url": "https://www.indianriverchamber.com/", "label": "Indian River County", "domain": "indianriverchamber.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "hotels-near-blue-spring-state-park",
+    "pageHeading": "Best Hotels Near Blue Spring State Park",
+    "pageSubtitle": "Hotels near Florida's premier manatee viewing destination - where hundreds of manatees gather in crystal-clear spring water.",
+    "areaName": "Blue Spring State Park",
+    "introContent": "Blue Spring State Park in Orange City is one of Florida's best manatee viewing locations, with hundreds of manatees visible in the crystal-clear spring run during winter months. Hotels in the DeLand and Orange City area provide convenient access to the park.",
+    "hotels": [
+      {"name": "Holiday Inn Express DeLand South", "description": "Modern hotel near Blue Spring State Park with free breakfast and pool.", "priceRange": "$$", "distanceNote": "5 miles from Blue Spring", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Quality Inn DeLand", "description": "Budget-friendly option near Blue Spring with pool and free breakfast.", "priceRange": "$", "distanceNote": "7 miles from Blue Spring", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "Hampton Inn DeLand", "description": "Reliable Hilton brand near the historic DeLand downtown and Blue Spring.", "priceRange": "$$", "distanceNote": "8 miles from Blue Spring", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Artisan Downtown Hotel DeLand", "description": "Boutique hotel in historic downtown DeLand with unique character and walkable dining.", "priceRange": "$$", "distanceNote": "10 miles from Blue Spring", "website": "https://www.artisandowntown.com", "websiteDomain": "artisandowntown.com"},
+      {"name": "Comfort Suites DeLand/Orange City", "description": "Suite-style hotel between DeLand and Orange City.", "priceRange": "$", "distanceNote": "6 miles from Blue Spring", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "Blue Spring State Park is one of the most popular day trips from Orlando (about 45 minutes north). Staying in DeLand or Orange City lets you arrive at the park before it reaches capacity on busy winter mornings. DeLand's historic downtown also offers a charming small-town Florida experience.",
+    "gettingAroundContent": "Blue Spring State Park is on US-17/92 in Orange City. DeLand is 8 miles northwest. Orlando is 45 minutes south via I-4. BusBrother provides group transportation from Orlando hotels to Blue Spring State Park.",
+    "externalLinks": [
+      {"url": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park", "label": "Blue Spring State Park", "domain": "floridastateparks.org", "emoji": "🦭"},
+      {"url": "https://www.mainstreetdeland.org/", "label": "Downtown DeLand", "domain": "mainstreetdeland.org", "emoji": "🏘️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-mount-dora",
+    "pageHeading": "Best Hotels in Mount Dora",
+    "pageSubtitle": "Charming bed-and-breakfasts and inns in Florida's antique capital - a lakeside village with festivals, shops, and small-town charm.",
+    "areaName": "Mount Dora",
+    "introContent": "Mount Dora is a picturesque lakeside village about 40 minutes northwest of Orlando. Known as the antique capital of Florida, the town features a walkable downtown with antique shops, art galleries, restaurants, and a year-round calendar of festivals and events.",
+    "hotels": [
+      {"name": "Lakeside Inn", "description": "Historic 1883 waterfront inn on Lake Dora with pool, restaurant, and classic Florida charm.", "priceRange": "$$", "distanceNote": "Lakefront downtown", "website": "https://www.lakeside-inn.com", "websiteDomain": "lakeside-inn.com"},
+      {"name": "Adora Inn", "description": "Boutique bed-and-breakfast in a restored 1916 home with themed rooms and gourmet breakfast.", "priceRange": "$$", "distanceNote": "Downtown Mount Dora", "website": "https://www.adorainn.com", "websiteDomain": "adorainn.com"},
+      {"name": "Magnolia Inn", "description": "Historic bed-and-breakfast in a restored Victorian home near downtown.", "priceRange": "$$", "distanceNote": "Walk to downtown", "website": "https://www.magnoliainn.com", "websiteDomain": "magnoliainn.com"},
+      {"name": "Hampton Inn Mount Dora", "description": "Modern hotel on the outskirts of town with free breakfast and pool.", "priceRange": "$$", "distanceNote": "2 miles from downtown", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Comfort Inn Mount Dora", "description": "Budget option with free breakfast near US-441.", "priceRange": "$", "distanceNote": "3 miles from downtown", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "Mount Dora is one of Florida's most charming small towns, offering a refreshing contrast to the Orlando theme park scene. The town's festivals (Craft Fair, Antique Extravaganza, Scottish Festival) draw visitors year-round. The lakeside setting and walkable downtown make it perfect for a relaxing getaway.",
+    "gettingAroundContent": "Mount Dora's downtown is highly walkable. The town is about 40 minutes northwest of Orlando via US-441. BusBrother can arrange group day trips from Orlando hotels to Mount Dora.",
+    "externalLinks": [
+      {"url": "https://www.mountdora.com/", "label": "Visit Mount Dora", "domain": "mountdora.com", "emoji": "🏘️"},
+      {"url": "https://www.mountdorachamber.com/", "label": "Mount Dora Chamber", "domain": "mountdorachamber.com", "emoji": "🛍️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-sanford",
+    "pageHeading": "Best Hotels in Sanford, Florida",
+    "pageSubtitle": "Hotels near historic downtown Sanford, Orlando Sanford International Airport, and the St. Johns River.",
+    "areaName": "Sanford FL",
+    "introContent": "Sanford is a historic city on the St. Johns River about 25 minutes north of Orlando. The revitalized downtown features craft breweries, restaurants, and antique shops. Orlando Sanford International Airport (SFB) is a popular alternative to MCO, serving budget airlines like Allegiant Air.",
+    "hotels": [
+      {"name": "SpringHill Suites Orlando North/Sanford", "description": "Modern suite-style hotel near the airport with free breakfast.", "priceRange": "$$", "distanceNote": "Near SFB airport", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Best Western Sanford Airport/Lake Mary", "description": "Affordable option near the airport with pool and free breakfast.", "priceRange": "$", "distanceNote": "Near SFB airport", "website": "https://www.bestwestern.com", "websiteDomain": "bestwestern.com"},
+      {"name": "Hilton Garden Inn Sanford", "description": "Modern hotel near downtown Sanford with restaurant and pool.", "priceRange": "$$", "distanceNote": "Near downtown Sanford", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "TownePlace Suites Sanford", "description": "Extended-stay option with kitchenettes near I-4 and downtown.", "priceRange": "$$", "distanceNote": "Near I-4", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "La Quinta Inn Sanford", "description": "Budget-friendly option with free breakfast and pool.", "priceRange": "$", "distanceNote": "Near I-4", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Sanford is an affordable base for visiting Orlando attractions while enjoying a historic, walkable downtown. The town's riverwalk, breweries (Wop's Hops, Sanford Brewing), and farmer's market provide a local Florida experience. Sanford Airport (SFB) serves budget airlines for significant flight savings.",
+    "gettingAroundContent": "Sanford is on I-4 about 25 minutes north of Orlando. SunRail commuter rail connects Sanford to downtown Orlando and Winter Park. Orlando theme parks are 30-45 minutes south. BusBrother provides group transportation from Sanford area hotels to Orlando attractions.",
+    "externalLinks": [
+      {"url": "https://www.sanfordfl.gov/", "label": "City of Sanford", "domain": "sanfordfl.gov", "emoji": "🏙️"},
+      {"url": "https://www.historicdowntownsanford.com/", "label": "Historic Downtown Sanford", "domain": "historicdowntownsanford.com", "emoji": "🍺"}
+    ]
+  },
+  {
+    "slug": "hotels-near-legoland-florida",
+    "pageHeading": "Best Hotels Near LEGOLAND Florida",
+    "pageSubtitle": "Family-friendly hotels in Winter Haven near LEGOLAND - including the LEGOLAND Hotel with themed rooms and character breakfast.",
+    "areaName": "LEGOLAND Florida",
+    "introContent": "LEGOLAND Florida is located in Winter Haven, about 45 minutes south of Orlando. The resort offers its own themed hotels directly at the park, and the surrounding area has additional family-friendly options.",
+    "hotels": [
+      {"name": "LEGOLAND Hotel", "description": "On-site themed hotel with LEGO-themed rooms, character breakfast, nightly entertainment, and early park access.", "priceRange": "$$$", "distanceNote": "At the park entrance", "website": "https://www.legoland.com/florida/places-to-stay/", "websiteDomain": "legoland.com"},
+      {"name": "LEGOLAND Pirate Island Hotel", "description": "On-site pirate-themed hotel with themed rooms, treasure hunt, and character dining.", "priceRange": "$$$", "distanceNote": "At the park entrance", "website": "https://www.legoland.com/florida/places-to-stay/", "websiteDomain": "legoland.com"},
+      {"name": "LEGOLAND Beach Retreat", "description": "Village-style bungalows in a beach-themed setting with pool and playground.", "priceRange": "$$", "distanceNote": "At the resort", "website": "https://www.legoland.com/florida/places-to-stay/", "websiteDomain": "legoland.com"},
+      {"name": "Hampton Inn Winter Haven", "description": "Budget-friendly option near LEGOLAND with free breakfast.", "priceRange": "$$", "distanceNote": "5 miles from LEGOLAND", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Holiday Inn Express Winter Haven", "description": "Reliable IHG option near LEGOLAND with pool and free breakfast.", "priceRange": "$$", "distanceNote": "6 miles from LEGOLAND", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"}
+    ],
+    "whyStayContent": "Staying at one of LEGOLAND's on-site hotels is a magical experience for kids ages 2-12, with LEGO models in every corner, themed rooms, character meet-and-greets, and early park access. The hotels also include breakfast and evening entertainment. Off-site hotels in Winter Haven offer significant savings.",
+    "gettingAroundContent": "LEGOLAND is on SR-540 in Winter Haven. Orlando is about 45 minutes northeast via I-4. Tampa is about 45 minutes west. BusBrother provides group shuttle service from Orlando and Tampa hotels to LEGOLAND Florida.",
+    "externalLinks": [
+      {"url": "https://www.legoland.com/florida/", "label": "LEGOLAND Florida", "domain": "legoland.com", "emoji": "🧱"},
+      {"url": "https://www.legoland.com/florida/places-to-stay/", "label": "LEGOLAND Hotels", "domain": "legoland.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "hotels-in-lakeland",
+    "pageHeading": "Best Hotels in Lakeland, Florida",
+    "pageSubtitle": "Hotels in the heart of Central Florida - near Florida Southern College, Publix headquarters, and between Orlando and Tampa.",
+    "areaName": "Lakeland FL",
+    "introContent": "Lakeland is centrally located between Orlando and Tampa on I-4, making it a convenient base for exploring both cities. The city is home to Florida Southern College (with the largest collection of Frank Lloyd Wright architecture in the world), Publix corporate headquarters, and the revitalized downtown with mugs and the Lakeland Mural Trail.",
+    "hotels": [
+      {"name": "Terrace Hotel Lakeland", "description": "Historic boutique hotel in downtown Lakeland's tallest building with lake views.", "priceRange": "$$", "distanceNote": "Downtown Lakeland", "website": "https://www.terracehotel.com", "websiteDomain": "terracehotel.com"},
+      {"name": "Hyatt Place Lakeland Center", "description": "Modern hotel near the civic center with pool and free breakfast.", "priceRange": "$$", "distanceNote": "Near downtown", "website": "https://www.hyatt.com", "websiteDomain": "hyatt.com"},
+      {"name": "Hampton Inn Lakeland", "description": "Reliable mid-range option near I-4 with free breakfast.", "priceRange": "$$", "distanceNote": "Near I-4", "website": "https://www.hilton.com", "websiteDomain": "hilton.com"},
+      {"name": "Comfort Suites Lakeland", "description": "Budget suites near I-4 with free breakfast.", "priceRange": "$", "distanceNote": "Near I-4", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"},
+      {"name": "La Quinta Inn Lakeland", "description": "Budget-friendly option with free breakfast and pool.", "priceRange": "$", "distanceNote": "Near I-4", "website": "https://www.wyndhamhotels.com", "websiteDomain": "wyndhamhotels.com"}
+    ],
+    "whyStayContent": "Lakeland offers affordable lodging in a central location between Orlando (50 minutes) and Tampa (40 minutes) along I-4. The city itself has interesting attractions including Frank Lloyd Wright's architecture at Florida Southern College and the new Bonnet Springs Park. Detroit Tigers spring training takes place at Publix Field at Joker Marchant Stadium.",
+    "gettingAroundContent": "Lakeland is directly on I-4 between Orlando and Tampa. Downtown is walkable. LEGOLAND Florida is about 25 minutes south. BusBrother provides group transportation from Lakeland hotels to Orlando and Tampa attractions.",
+    "externalLinks": [
+      {"url": "https://www.lakelandgov.net/", "label": "City of Lakeland", "domain": "lakelandgov.net", "emoji": "🏙️"},
+      {"url": "https://visitcentralflorida.org/", "label": "Visit Central Florida", "domain": "visitcentralflorida.org", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "hotels-in-celebration-fl",
+    "pageHeading": "Best Hotels in Celebration, Florida",
+    "pageSubtitle": "Hotels in Disney's charming planned community - walkable streets, lakefront dining, and a magical small-town atmosphere minutes from the parks.",
+    "areaName": "Celebration FL",
+    "introContent": "Celebration is a master-planned community originally developed by the Walt Disney Company, located just south of Walt Disney World. The town features a walkable downtown with restaurants, shops, and a lakefront promenade. Hotels in Celebration offer a charming alternative to the typical tourist corridor hotels.",
+    "hotels": [
+      {"name": "Melia Orlando Celebration", "description": "Spanish-inspired resort in Celebration with pools, spa, and European-style dining.", "priceRange": "$$$", "distanceNote": "In Celebration, 5 min to Disney", "website": "https://www.melia.com", "websiteDomain": "melia.com"},
+      {"name": "Bohemian Hotel Celebration", "description": "Boutique hotel on Celebration's lakefront with charming rooms and walkable downtown access.", "priceRange": "$$$", "distanceNote": "Downtown Celebration lakefront", "website": "https://www.bohemianhotelcelebration.com", "websiteDomain": "bohemianhotelcelebration.com"},
+      {"name": "Holiday Inn Express Celebration", "description": "Budget-friendly IHG hotel near Celebration with free breakfast.", "priceRange": "$$", "distanceNote": "Edge of Celebration", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "TownePlace Suites Celebration", "description": "Extended-stay Marriott option with kitchenettes near Celebration.", "priceRange": "$$", "distanceNote": "Near Celebration", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Comfort Suites Celebration", "description": "Affordable suites near Celebration and Disney.", "priceRange": "$", "distanceNote": "Near Celebration", "website": "https://www.choicehotels.com", "websiteDomain": "choicehotels.com"}
+    ],
+    "whyStayContent": "Celebration offers a unique small-town atmosphere that feels worlds away from the tourist strip, yet Disney World is just 5 minutes north. The walkable downtown features local restaurants, a lakefront park, and seasonal events including an annual Christmas celebration with simulated snow. It is a charming, quieter base for a Disney vacation.",
+    "gettingAroundContent": "Celebration is located off US-192 near the I-4/US-192 interchange. Disney World is 5 minutes north. The town center is walkable. BusBrother provides group shuttle service from Celebration to all Orlando area theme parks.",
+    "externalLinks": [
+      {"url": "https://www.celebration.fl.us/", "label": "Town of Celebration", "domain": "celebration.fl.us", "emoji": "🏘️"},
+      {"url": "https://www.celebrationtowncenter.com/", "label": "Celebration Town Center", "domain": "celebrationtowncenter.com", "emoji": "🛍️"}
+    ]
+  },
+  {
+    "slug": "hotels-in-palm-coast",
+    "pageHeading": "Best Hotels in Palm Coast",
+    "pageSubtitle": "Hotels in Flagler County between Daytona Beach and St. Augustine - quiet beaches, championship golf, and state park access.",
+    "areaName": "Palm Coast FL",
+    "introContent": "Palm Coast is a planned community in Flagler County between Daytona Beach and St. Augustine. The area offers quieter, less developed beaches, championship golf courses, Washington Oaks Gardens State Park, and Flagler Beach's small-town charm.",
+    "hotels": [
+      {"name": "Hammock Beach Golf Resort & Spa", "description": "Luxury oceanfront resort with Jack Nicklaus golf, spa, pools, and multiple restaurants.", "priceRange": "$$$$", "distanceNote": "Beachfront in Palm Coast", "website": "https://www.hammockbeach.com", "websiteDomain": "hammockbeach.com"},
+      {"name": "Fairfield Inn & Suites Palm Coast", "description": "Modern Marriott property near I-95 with pool and free breakfast.", "priceRange": "$$", "distanceNote": "Near I-95", "website": "https://www.marriott.com", "websiteDomain": "marriott.com"},
+      {"name": "Holiday Inn Express Palm Coast", "description": "Budget-friendly IHG hotel near I-95 with free breakfast.", "priceRange": "$$", "distanceNote": "Near I-95", "website": "https://www.ihg.com", "websiteDomain": "ihg.com"},
+      {"name": "Best Western Palm Coast", "description": "Affordable option near the beaches and downtown.", "priceRange": "$", "distanceNote": "Palm Coast Parkway", "website": "https://www.bestwestern.com", "websiteDomain": "bestwestern.com"},
+      {"name": "Red Roof Inn Palm Coast", "description": "Budget option near I-95 for value-focused travelers.", "priceRange": "$", "distanceNote": "Near I-95", "website": "https://www.redroof.com", "websiteDomain": "redroof.com"}
+    ],
+    "whyStayContent": "Palm Coast offers a quieter, more natural Northeast Florida experience. The area is between Daytona Beach (30 minutes south) and St. Augustine (30 minutes north), making it a great base for exploring both. Flagler Beach's pier and surf town vibe and Washington Oaks' coquina rock beach are highlights.",
+    "gettingAroundContent": "Palm Coast is along I-95 and US-1 in Flagler County. Flagler Beach is 15 minutes east. Orlando is about 90 minutes south. BusBrother provides group transportation from Palm Coast area hotels.",
+    "externalLinks": [
+      {"url": "https://www.visitflagler.com/", "label": "Visit Flagler County", "domain": "visitflagler.com", "emoji": "🏖️"},
+      {"url": "https://www.palmcoastgov.com/", "label": "City of Palm Coast", "domain": "palmcoastgov.com", "emoji": "🌴"}
+    ]
+  }
+]

@@ -1,0 +1,1829 @@
+[
+  {
+    "fromSlug": "orlando",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "The Orlando to Cape Canaveral route follows SR-528 east through the heart of Central Florida, passing through Brevard County to the Space Coast.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center day trip", "beach day trip"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "tampa",
+    "distanceMiles": 84,
+    "driveMinutes": 80,
+    "highway": "I-4 West",
+    "description": "The Orlando to Tampa corridor runs along I-4 through Lakeland and Plant City, connecting Central Florida's two largest metro areas.",
+    "popularReasons": ["corporate event shuttle", "theme park transfers", "convention transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 230,
+    "driveMinutes": 210,
+    "highway": "Florida's Turnpike",
+    "description": "Orlando to Fort Lauderdale travels south on Florida's Turnpike through rural Central and South Florida, arriving in Broward County.",
+    "popularReasons": ["cruise port transfer", "airport shuttle", "corporate event transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 170,
+    "driveMinutes": 160,
+    "highway": "Florida's Turnpike",
+    "description": "Orlando to West Palm Beach follows Florida's Turnpike south through Osceola and Okeechobee counties into Palm Beach County.",
+    "popularReasons": ["corporate charter", "airport transfer", "event transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 56,
+    "driveMinutes": 60,
+    "highway": "I-4 East",
+    "description": "Orlando to Daytona Beach heads northeast on I-4 through Volusia County to the Atlantic coast and the World's Most Famous Beach.",
+    "popularReasons": ["Daytona 500 shuttle", "beach day trip", "Bike Week transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "melbourne",
+    "distanceMiles": 72,
+    "driveMinutes": 75,
+    "highway": "SR-528 / I-95",
+    "description": "Orlando to Melbourne follows SR-528 east then I-95 south along the Space Coast to Brevard County's largest city.",
+    "popularReasons": ["corporate shuttle", "cruise port connection", "tech corridor transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "kissimmee",
+    "distanceMiles": 18,
+    "driveMinutes": 25,
+    "highway": "US-192 / I-4",
+    "description": "Orlando to Kissimmee is a short trip south along I-4 or US-192, connecting downtown Orlando to the Osceola County tourist district.",
+    "popularReasons": ["theme park shuttle", "hotel transfer", "vacation rental pickup"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "lakeland",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "I-4 West",
+    "description": "Orlando to Lakeland follows I-4 west through Polk County, the geographic center of Florida.",
+    "popularReasons": ["corporate event transport", "sports team shuttle", "convention transfer"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "cocoa-beach",
+    "distanceMiles": 55,
+    "driveMinutes": 60,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Orlando to Cocoa Beach follows the Beachline Expressway east to Brevard County's famous beach town near the Kennedy Space Center.",
+    "popularReasons": ["beach day trip", "pre-cruise overnight", "surf trip"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "sanford",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-4 / US-17-92",
+    "description": "Orlando to Sanford heads north on I-4 to Seminole County, home to Orlando Sanford International Airport and the historic downtown waterfront.",
+    "popularReasons": ["airport transfer", "SunRail connection", "Amtrak Auto Train pickup"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "st-petersburg",
+    "distanceMiles": 107,
+    "driveMinutes": 105,
+    "highway": "I-4 / I-275",
+    "description": "Orlando to St. Petersburg follows I-4 west to Tampa then crosses the Howard Frankland Bridge into Pinellas County.",
+    "popularReasons": ["beach vacation shuttle", "corporate event", "museum and arts trip"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "clearwater",
+    "distanceMiles": 110,
+    "driveMinutes": 110,
+    "highway": "I-4 / SR-60",
+    "description": "Orlando to Clearwater crosses Central Florida via I-4 and SR-60, arriving at one of Florida's top-rated Gulf Coast beaches.",
+    "popularReasons": ["beach trip", "resort transfer", "wedding shuttle"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "gainesville",
+    "distanceMiles": 115,
+    "driveMinutes": 120,
+    "highway": "Florida's Turnpike / I-75",
+    "description": "Orlando to Gainesville travels north through Ocala National Forest country to the home of the University of Florida.",
+    "popularReasons": ["UF game day shuttle", "college visit trip", "corporate charter"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "miami",
+    "distanceMiles": 235,
+    "driveMinutes": 220,
+    "highway": "Florida's Turnpike",
+    "description": "Orlando to Miami follows Florida's Turnpike south through the state's interior, passing through the Everglades region into Miami-Dade County.",
+    "popularReasons": ["airport transfer", "corporate shuttle", "cruise port connection"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "sarasota",
+    "distanceMiles": 130,
+    "driveMinutes": 125,
+    "highway": "I-4 / I-75",
+    "description": "Orlando to Sarasota follows I-4 west then I-75 south to the Gulf Coast cultural capital known for Siesta Key Beach and the Ringling Museum.",
+    "popularReasons": ["beach vacation shuttle", "corporate retreat", "arts and culture trip"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "lake-buena-vista",
+    "distanceMiles": 15,
+    "driveMinutes": 20,
+    "highway": "I-4 / SR-535",
+    "description": "Orlando to Lake Buena Vista is a short trip to the Walt Disney World resort area, home to major theme parks and convention hotels.",
+    "popularReasons": ["theme park transfer", "convention shuttle", "wedding transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "st-augustine",
+    "distanceMiles": 105,
+    "driveMinutes": 110,
+    "highway": "I-4 / I-95",
+    "description": "Orlando to St. Augustine heads northeast via I-4 and I-95 to the oldest city in the United States, a popular day trip destination.",
+    "popularReasons": ["historical tour", "school field trip", "day trip excursion"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "ocala",
+    "distanceMiles": 82,
+    "driveMinutes": 80,
+    "highway": "Florida's Turnpike / I-75",
+    "description": "Orlando to Ocala travels northwest through horse country and the Ocala National Forest in Marion County.",
+    "popularReasons": ["horse farm tour", "nature excursion", "corporate charter"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "winter-haven",
+    "distanceMiles": 50,
+    "driveMinutes": 55,
+    "highway": "I-4 / US-27",
+    "description": "Orlando to Winter Haven follows I-4 and US-27 to Polk County, home to LEGOLAND Florida Resort.",
+    "popularReasons": ["LEGOLAND shuttle", "school group trip", "sports event transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "new-smyrna-beach",
+    "distanceMiles": 55,
+    "driveMinutes": 60,
+    "highway": "I-4 / SR-44",
+    "description": "Orlando to New Smyrna Beach follows I-4 east then SR-44 through DeLand to the laid-back surf town on Volusia County's coast.",
+    "popularReasons": ["beach day trip", "surf excursion", "nature tour"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 58,
+    "driveMinutes": 60,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Orlando to Port Canaveral follows the Beachline east directly to the cruise terminals, the most popular cruise transfer route in Florida.",
+    "popularReasons": ["cruise ship embarkation", "cruise port pickup", "pre-cruise transfer"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "vero-beach",
+    "distanceMiles": 110,
+    "driveMinutes": 110,
+    "highway": "SR-528 / I-95",
+    "description": "Orlando to Vero Beach follows SR-528 east to I-95 south along the Treasure Coast to Indian River County.",
+    "popularReasons": ["resort transfer", "beach vacation shuttle", "corporate retreat"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "port-st-lucie",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "Florida's Turnpike / I-95",
+    "description": "Orlando to Port St. Lucie follows Florida's Turnpike south to the Treasure Coast in St. Lucie County.",
+    "popularReasons": ["spring training shuttle", "corporate charter", "event transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "boca-raton",
+    "distanceMiles": 195,
+    "driveMinutes": 185,
+    "highway": "Florida's Turnpike",
+    "description": "Orlando to Boca Raton follows Florida's Turnpike south to the upscale Palm Beach County city known for FAU and resort living.",
+    "popularReasons": ["corporate shuttle", "university visit", "event transport"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "naples",
+    "distanceMiles": 215,
+    "driveMinutes": 210,
+    "highway": "I-4 / I-75",
+    "description": "Orlando to Naples follows I-4 west to I-75 south through Southwest Florida to the upscale Gulf Coast city.",
+    "popularReasons": ["corporate retreat", "golf trip shuttle", "resort transfer"]
+  },
+  {
+    "fromSlug": "orlando",
+    "toSlug": "fort-myers",
+    "distanceMiles": 180,
+    "driveMinutes": 180,
+    "highway": "I-4 / I-75",
+    "description": "Orlando to Fort Myers follows I-4 west to I-75 south through Charlotte County to Lee County on the Gulf Coast.",
+    "popularReasons": ["spring training shuttle", "beach vacation", "corporate charter"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "orlando",
+    "distanceMiles": 84,
+    "driveMinutes": 80,
+    "highway": "I-4 East",
+    "description": "Tampa to Orlando follows I-4 east through Lakeland and Polk County to the theme park capital of the world.",
+    "popularReasons": ["theme park shuttle", "convention transport", "airport transfer"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 140,
+    "driveMinutes": 140,
+    "highway": "I-4 / SR-528",
+    "description": "Tampa to Cape Canaveral follows I-4 east to SR-528, connecting the Gulf Coast to the Space Coast for cruise departures.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center trip", "beach excursion"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 138,
+    "driveMinutes": 135,
+    "highway": "I-4 / SR-528",
+    "description": "Tampa to Port Canaveral crosses the state via I-4 and SR-528, a popular route for cruise passengers departing from the east coast.",
+    "popularReasons": ["cruise embarkation", "cruise port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 270,
+    "driveMinutes": 250,
+    "highway": "I-75 / I-595",
+    "description": "Tampa to Fort Lauderdale follows I-75 south through Southwest Florida then Alligator Alley east across the Everglades.",
+    "popularReasons": ["cruise port transfer", "airport shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "miami",
+    "distanceMiles": 280,
+    "driveMinutes": 260,
+    "highway": "I-75 / SR-826",
+    "description": "Tampa to Miami follows I-75 south and Alligator Alley across the Everglades into Miami-Dade County.",
+    "popularReasons": ["corporate shuttle", "airport transfer", "event transport"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "st-petersburg",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-275",
+    "description": "Tampa to St. Petersburg crosses Tampa Bay via the Howard Frankland Bridge on I-275 to the Pinellas County peninsula.",
+    "popularReasons": ["beach shuttle", "corporate event", "arts district transfer"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "clearwater",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "SR-60 / I-275",
+    "description": "Tampa to Clearwater heads west across the Courtney Campbell Causeway or via I-275 to Pinellas County's famous beach.",
+    "popularReasons": ["beach resort transfer", "wedding shuttle", "corporate outing"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "sarasota",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "I-75 South",
+    "description": "Tampa to Sarasota follows I-75 south through Manatee County to the cultural and beach destination on the Gulf Coast.",
+    "popularReasons": ["beach shuttle", "arts and culture trip", "corporate retreat"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "lakeland",
+    "distanceMiles": 35,
+    "driveMinutes": 35,
+    "highway": "I-4 East",
+    "description": "Tampa to Lakeland is a short I-4 corridor trip through eastern Hillsborough County into Polk County.",
+    "popularReasons": ["corporate shuttle", "event transport", "spring training transfer"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 135,
+    "driveMinutes": 135,
+    "highway": "I-4 East",
+    "description": "Tampa to Daytona Beach follows I-4 east across Central Florida through Orlando to the Atlantic coast.",
+    "popularReasons": ["Daytona 500 shuttle", "Bike Week transport", "beach day trip"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "kissimmee",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "I-4 East",
+    "description": "Tampa to Kissimmee follows I-4 east to the Osceola County tourist corridor near Walt Disney World.",
+    "popularReasons": ["theme park shuttle", "resort transfer", "vacation package transport"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "naples",
+    "distanceMiles": 170,
+    "driveMinutes": 170,
+    "highway": "I-75 South",
+    "description": "Tampa to Naples follows I-75 south through Fort Myers to the upscale Gulf Coast resort city in Collier County.",
+    "popularReasons": ["golf trip shuttle", "corporate retreat", "resort transfer"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "fort-myers",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "I-75 South",
+    "description": "Tampa to Fort Myers follows I-75 south through Charlotte County to Lee County's largest city on the Caloosahatchee River.",
+    "popularReasons": ["spring training shuttle", "beach vacation", "corporate charter"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "gainesville",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "I-75 North",
+    "description": "Tampa to Gainesville follows I-75 north through Pasco and Marion counties to the home of the University of Florida.",
+    "popularReasons": ["UF game day shuttle", "college visit", "corporate charter"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 210,
+    "driveMinutes": 200,
+    "highway": "I-4 / Florida's Turnpike",
+    "description": "Tampa to West Palm Beach crosses Central Florida via I-4 then heads south on Florida's Turnpike to Palm Beach County.",
+    "popularReasons": ["corporate shuttle", "airport transfer", "event transport"]
+  },
+  {
+    "fromSlug": "tampa",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 5,
+    "driveMinutes": 12,
+    "highway": "Channelside Drive",
+    "description": "Tampa to Port Tampa Bay is a short drive through the Channelside district to the cruise terminals on the Ybor Channel.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "orlando",
+    "distanceMiles": 230,
+    "driveMinutes": 210,
+    "highway": "Florida's Turnpike",
+    "description": "Fort Lauderdale to Orlando heads north on Florida's Turnpike through Palm Beach and Indian River counties to Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transport", "airport transfer"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 190,
+    "driveMinutes": 185,
+    "highway": "I-95 / SR-528",
+    "description": "Fort Lauderdale to Port Canaveral follows I-95 north to SR-528 east, connecting South Florida to the Space Coast cruise port.",
+    "popularReasons": ["cruise port transfer", "repositioning cruise connection", "group cruise shuttle"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "port-everglades",
+    "distanceMiles": 5,
+    "driveMinutes": 10,
+    "highway": "US-1 / SE 17th Street",
+    "description": "Fort Lauderdale to Port Everglades is a short drive from downtown or the beach to the cruise terminals at one of the world's busiest ports.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "airport-to-port transfer"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "miami",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "I-95 South",
+    "description": "Fort Lauderdale to Miami follows I-95 south through Broward County into Miami-Dade County's urban core.",
+    "popularReasons": ["airport shuttle", "corporate event", "nightlife shuttle"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 45,
+    "driveMinutes": 50,
+    "highway": "I-95 North",
+    "description": "Fort Lauderdale to West Palm Beach follows I-95 north through Boca Raton and Delray Beach to Palm Beach County.",
+    "popularReasons": ["corporate shuttle", "airport transfer", "event transport"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "tampa",
+    "distanceMiles": 270,
+    "driveMinutes": 250,
+    "highway": "I-75 (Alligator Alley)",
+    "description": "Fort Lauderdale to Tampa follows I-75 west across the Everglades on Alligator Alley then north to the Gulf Coast.",
+    "popularReasons": ["corporate shuttle", "cruise port transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "boca-raton",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-95 North",
+    "description": "Fort Lauderdale to Boca Raton follows I-95 north through Pompano Beach and Deerfield Beach to southern Palm Beach County.",
+    "popularReasons": ["corporate shuttle", "university visit", "resort transfer"]
+  },
+  {
+    "fromSlug": "fort-lauderdale",
+    "toSlug": "naples",
+    "distanceMiles": 125,
+    "driveMinutes": 130,
+    "highway": "I-75 (Alligator Alley)",
+    "description": "Fort Lauderdale to Naples crosses the Everglades on Alligator Alley, connecting South Florida's Atlantic and Gulf coasts.",
+    "popularReasons": ["corporate retreat", "golf trip shuttle", "resort transfer"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "orlando",
+    "distanceMiles": 170,
+    "driveMinutes": 160,
+    "highway": "Florida's Turnpike",
+    "description": "West Palm Beach to Orlando follows Florida's Turnpike north through St. Lucie and Osceola counties to Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transport", "corporate charter"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 155,
+    "driveMinutes": 150,
+    "highway": "I-95 North / SR-528",
+    "description": "West Palm Beach to Port Canaveral follows I-95 north to SR-528 east, connecting Palm Beach County to the Space Coast cruise port.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "pre-cruise transport"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 45,
+    "driveMinutes": 50,
+    "highway": "I-95 South",
+    "description": "West Palm Beach to Fort Lauderdale follows I-95 south through Boca Raton and Deerfield Beach to Broward County.",
+    "popularReasons": ["airport shuttle", "cruise port connection", "corporate event"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "miami",
+    "distanceMiles": 70,
+    "driveMinutes": 75,
+    "highway": "I-95 South",
+    "description": "West Palm Beach to Miami follows I-95 south through Broward County into Miami-Dade County.",
+    "popularReasons": ["airport shuttle", "corporate shuttle", "event transport"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "port-everglades",
+    "distanceMiles": 50,
+    "driveMinutes": 55,
+    "highway": "I-95 South",
+    "description": "West Palm Beach to Port Everglades follows I-95 south to Fort Lauderdale's cruise terminal at one of the busiest ports in the world.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "pre-cruise transport"]
+  },
+  {
+    "fromSlug": "west-palm-beach",
+    "toSlug": "tampa",
+    "distanceMiles": 210,
+    "driveMinutes": 200,
+    "highway": "Florida's Turnpike / I-4",
+    "description": "West Palm Beach to Tampa heads north on Florida's Turnpike then west on I-4 across Central Florida.",
+    "popularReasons": ["corporate charter", "cruise port connection", "event transport"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "orlando",
+    "distanceMiles": 56,
+    "driveMinutes": 60,
+    "highway": "I-4 West",
+    "description": "Daytona Beach to Orlando follows I-4 southwest through Volusia County to the theme park capital.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 65,
+    "driveMinutes": 70,
+    "highway": "I-95 South / SR-528",
+    "description": "Daytona Beach to Cape Canaveral follows I-95 south along the Atlantic coast to the Space Coast.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center trip", "beach hopping"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 67,
+    "driveMinutes": 70,
+    "highway": "I-95 South / SR-528",
+    "description": "Daytona Beach to Port Canaveral follows I-95 south to SR-528 east for cruise departures from the Space Coast.",
+    "popularReasons": ["cruise embarkation", "cruise port shuttle", "group transfer"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "st-augustine",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "I-95 North",
+    "description": "Daytona Beach to St. Augustine follows I-95 north along the coast to America's oldest city in St. Johns County.",
+    "popularReasons": ["historical day trip", "school field trip", "sightseeing tour"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "sanford",
+    "distanceMiles": 40,
+    "driveMinutes": 40,
+    "highway": "I-4 West",
+    "description": "Daytona Beach to Sanford follows I-4 southwest to Seminole County and the Orlando Sanford International Airport.",
+    "popularReasons": ["airport transfer", "Amtrak connection", "SunRail shuttle"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "melbourne",
+    "distanceMiles": 90,
+    "driveMinutes": 90,
+    "highway": "I-95 South",
+    "description": "Daytona Beach to Melbourne follows I-95 south along the Atlantic coast through Brevard County.",
+    "popularReasons": ["corporate shuttle", "Space Coast transfer", "sports event transport"]
+  },
+  {
+    "fromSlug": "daytona-beach",
+    "toSlug": "tampa",
+    "distanceMiles": 135,
+    "driveMinutes": 135,
+    "highway": "I-4 West",
+    "description": "Daytona Beach to Tampa follows I-4 west across Central Florida through Orlando and Lakeland.",
+    "popularReasons": ["corporate shuttle", "cruise port connection", "convention transport"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "orlando",
+    "distanceMiles": 72,
+    "driveMinutes": 75,
+    "highway": "I-95 / SR-528",
+    "description": "Melbourne to Orlando follows I-95 north to SR-528 west through the Space Coast into Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 22,
+    "driveMinutes": 25,
+    "highway": "SR-A1A / I-95",
+    "description": "Melbourne to Cape Canaveral follows I-95 north or A1A along the coast to the Space Coast cruise port area.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center trip", "beach shuttle"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-95 / SR-528",
+    "description": "Melbourne to Port Canaveral follows I-95 north to SR-528 east to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "cruise port shuttle", "pre-cruise transfer"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "cocoa-beach",
+    "distanceMiles": 18,
+    "driveMinutes": 22,
+    "highway": "SR-520",
+    "description": "Melbourne to Cocoa Beach crosses the Indian River and Banana River via SR-520 to the beach community.",
+    "popularReasons": ["beach day trip", "pre-cruise overnight", "surf excursion"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 90,
+    "driveMinutes": 90,
+    "highway": "I-95 North",
+    "description": "Melbourne to Daytona Beach follows I-95 north along the Atlantic coast through Brevard and Volusia counties.",
+    "popularReasons": ["Daytona 500 shuttle", "beach trip", "event transport"]
+  },
+  {
+    "fromSlug": "melbourne",
+    "toSlug": "vero-beach",
+    "distanceMiles": 35,
+    "driveMinutes": 35,
+    "highway": "I-95 South",
+    "description": "Melbourne to Vero Beach follows I-95 south along the Treasure Coast to Indian River County.",
+    "popularReasons": ["resort transfer", "beach shuttle", "nature tour"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "orlando",
+    "distanceMiles": 18,
+    "driveMinutes": 25,
+    "highway": "I-4 / US-192",
+    "description": "Kissimmee to Orlando is a short trip north connecting the Osceola tourist corridor to downtown Orlando.",
+    "popularReasons": ["airport transfer", "convention shuttle", "entertainment district"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 70,
+    "driveMinutes": 75,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Kissimmee to Cape Canaveral follows SR-528 east from the tourist corridor to the Space Coast.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center trip", "beach day trip"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 68,
+    "driveMinutes": 70,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Kissimmee to Port Canaveral follows the Beachline east, popular with theme park vacationers adding a cruise.",
+    "popularReasons": ["cruise embarkation", "vacation-to-cruise transfer", "group shuttle"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "tampa",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "I-4 West",
+    "description": "Kissimmee to Tampa follows I-4 west through Polk County to Hillsborough County.",
+    "popularReasons": ["cruise port transfer", "corporate event", "airport shuttle"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "lake-buena-vista",
+    "distanceMiles": 8,
+    "driveMinutes": 15,
+    "highway": "US-192 / World Drive",
+    "description": "Kissimmee to Lake Buena Vista connects the US-192 hotel strip to the Walt Disney World resort area.",
+    "popularReasons": ["theme park shuttle", "resort transfer", "dinner show transport"]
+  },
+  {
+    "fromSlug": "kissimmee",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 75,
+    "driveMinutes": 75,
+    "highway": "I-4 East",
+    "description": "Kissimmee to Daytona Beach follows I-4 northeast through Volusia County to the beachfront.",
+    "popularReasons": ["beach day trip", "racing event shuttle", "school trip"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "orlando",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "I-4 East",
+    "description": "Lakeland to Orlando follows I-4 east through Polk County into the Orlando metro area.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "tampa",
+    "distanceMiles": 35,
+    "driveMinutes": 35,
+    "highway": "I-4 West",
+    "description": "Lakeland to Tampa follows I-4 west through eastern Hillsborough County to downtown Tampa.",
+    "popularReasons": ["corporate shuttle", "cruise port connection", "event transport"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 115,
+    "driveMinutes": 115,
+    "highway": "I-4 / SR-528",
+    "description": "Lakeland to Cape Canaveral follows I-4 east to SR-528 through Orlando to the Space Coast.",
+    "popularReasons": ["cruise port transfer", "Kennedy Space Center trip", "beach day trip"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 113,
+    "driveMinutes": 110,
+    "highway": "I-4 / SR-528",
+    "description": "Lakeland to Port Canaveral crosses Central Florida via I-4 and SR-528 to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "group cruise shuttle", "pre-cruise transfer"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "winter-haven",
+    "distanceMiles": 16,
+    "driveMinutes": 20,
+    "highway": "US-98",
+    "description": "Lakeland to Winter Haven is a short Polk County trip to the home of LEGOLAND Florida Resort.",
+    "popularReasons": ["LEGOLAND shuttle", "school trip", "event transport"]
+  },
+  {
+    "fromSlug": "lakeland",
+    "toSlug": "sarasota",
+    "distanceMiles": 75,
+    "driveMinutes": 75,
+    "highway": "I-4 / I-75",
+    "description": "Lakeland to Sarasota follows I-4 west to I-75 south toward the Gulf Coast cultural capital.",
+    "popularReasons": ["beach shuttle", "arts trip", "corporate outing"]
+  },
+  {
+    "fromSlug": "sanford",
+    "toSlug": "orlando",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-4 / US-17-92",
+    "description": "Sanford to Orlando follows I-4 south from Seminole County into the Orlando metro area.",
+    "popularReasons": ["airport connection", "theme park shuttle", "downtown Orlando transfer"]
+  },
+  {
+    "fromSlug": "sanford",
+    "toSlug": "cape-canaveral",
+    "distanceMiles": 70,
+    "driveMinutes": 75,
+    "highway": "SR-417 / SR-528",
+    "description": "Sanford to Cape Canaveral follows SR-417 south to SR-528 east across Brevard County.",
+    "popularReasons": ["cruise port transfer", "beach day trip", "Kennedy Space Center trip"]
+  },
+  {
+    "fromSlug": "sanford",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 68,
+    "driveMinutes": 70,
+    "highway": "SR-417 / SR-528",
+    "description": "Sanford to Port Canaveral connects SFB airport travelers to cruise terminals via SR-417 and SR-528.",
+    "popularReasons": ["cruise embarkation", "airport-to-port transfer", "charter flight connection"]
+  },
+  {
+    "fromSlug": "sanford",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 40,
+    "driveMinutes": 40,
+    "highway": "I-4 East",
+    "description": "Sanford to Daytona Beach follows I-4 east through Volusia County to the Atlantic coast.",
+    "popularReasons": ["beach shuttle", "racing event transport", "Bike Week shuttle"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "MCO Airport to Port Canaveral is the most popular cruise transfer route in Florida, following SR-528 east to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "fly-and-cruise package", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "lake-buena-vista",
+    "distanceMiles": 20,
+    "driveMinutes": 25,
+    "highway": "SR-417 / I-4",
+    "description": "MCO to Lake Buena Vista connects the airport to Walt Disney World and surrounding resort hotels.",
+    "popularReasons": ["theme park transfer", "resort shuttle", "convention hotel pickup"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "international-drive",
+    "distanceMiles": 12,
+    "driveMinutes": 18,
+    "highway": "SR-528 / I-4",
+    "description": "MCO to International Drive connects the airport to Orlando's primary tourist corridor with hundreds of hotels and attractions.",
+    "popularReasons": ["hotel shuttle", "convention center transfer", "attraction transport"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "kissimmee",
+    "distanceMiles": 20,
+    "driveMinutes": 25,
+    "highway": "SR-417 / US-192",
+    "description": "MCO to Kissimmee connects the airport to the US-192 hotel strip and vacation rental area near Walt Disney World.",
+    "popularReasons": ["vacation rental transfer", "hotel shuttle", "theme park access"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "cocoa-beach",
+    "distanceMiles": 50,
+    "driveMinutes": 55,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "MCO to Cocoa Beach follows the Beachline east to the popular beach community near the Space Coast.",
+    "popularReasons": ["beach resort transfer", "pre-cruise overnight", "vacation shuttle"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "SR-417 / I-4",
+    "description": "MCO to Daytona Beach follows SR-417 north to I-4 east, connecting the airport to the World's Most Famous Beach.",
+    "popularReasons": ["race event shuttle", "beach vacation transfer", "spring break transport"]
+  },
+  {
+    "fromSlug": "mco",
+    "toSlug": "tampa",
+    "distanceMiles": 85,
+    "driveMinutes": 80,
+    "highway": "SR-417 / I-4",
+    "description": "MCO to Tampa connects Orlando's main airport to the Gulf Coast via I-4 west.",
+    "popularReasons": ["corporate shuttle", "cruise port connection", "convention transport"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 138,
+    "driveMinutes": 135,
+    "highway": "I-4 / SR-528",
+    "description": "TPA Airport to Port Canaveral crosses the state via I-4 and SR-528 for east coast cruise departures.",
+    "popularReasons": ["cruise embarkation", "fly-and-cruise transfer", "group cruise shuttle"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 8,
+    "driveMinutes": 15,
+    "highway": "SR-60 / Channelside",
+    "description": "TPA Airport to Port Tampa Bay is a quick drive to the cruise terminals on the Ybor Channel.",
+    "popularReasons": ["cruise embarkation", "airport-to-port transfer", "group cruise shuttle"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "clearwater",
+    "distanceMiles": 22,
+    "driveMinutes": 25,
+    "highway": "SR-60 West",
+    "description": "TPA to Clearwater follows SR-60 west across the Courtney Campbell Causeway to the beach.",
+    "popularReasons": ["beach resort transfer", "vacation shuttle", "wedding transport"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "st-petersburg",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-275 South",
+    "description": "TPA to St. Petersburg crosses the Howard Frankland Bridge on I-275 to the downtown St. Pete waterfront.",
+    "popularReasons": ["hotel transfer", "corporate event", "arts district shuttle"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "sarasota",
+    "distanceMiles": 60,
+    "driveMinutes": 60,
+    "highway": "I-275 / I-75",
+    "description": "TPA to Sarasota follows I-275 south to I-75, reaching the Gulf Coast cultural center in under an hour.",
+    "popularReasons": ["beach transfer", "corporate retreat", "cultural trip"]
+  },
+  {
+    "fromSlug": "tpa",
+    "toSlug": "orlando",
+    "distanceMiles": 85,
+    "driveMinutes": 80,
+    "highway": "I-4 East",
+    "description": "TPA to Orlando follows I-4 east through Lakeland and Polk County to the Central Florida metro.",
+    "popularReasons": ["theme park shuttle", "convention transfer", "corporate event"]
+  },
+  {
+    "fromSlug": "fll",
+    "toSlug": "port-everglades",
+    "distanceMiles": 3,
+    "driveMinutes": 8,
+    "highway": "US-1 / SE 17th Street",
+    "description": "FLL Airport to Port Everglades is one of the shortest airport-to-cruise-port transfers in the country.",
+    "popularReasons": ["cruise embarkation", "fly-and-cruise transfer", "group cruise shuttle"]
+  },
+  {
+    "fromSlug": "fll",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 190,
+    "driveMinutes": 185,
+    "highway": "I-95 / SR-528",
+    "description": "FLL to Port Canaveral follows I-95 north to SR-528 east for cruise departures from the Space Coast.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter bus service"]
+  },
+  {
+    "fromSlug": "fll",
+    "toSlug": "miami",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "I-95 South",
+    "description": "FLL to Miami follows I-95 south into Miami-Dade County's downtown and beach areas.",
+    "popularReasons": ["hotel shuttle", "event transport", "corporate transfer"]
+  },
+  {
+    "fromSlug": "fll",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 45,
+    "driveMinutes": 50,
+    "highway": "I-95 North",
+    "description": "FLL to West Palm Beach follows I-95 north through Boca Raton to Palm Beach County.",
+    "popularReasons": ["corporate shuttle", "event transport", "hotel transfer"]
+  },
+  {
+    "fromSlug": "fll",
+    "toSlug": "orlando",
+    "distanceMiles": 230,
+    "driveMinutes": 210,
+    "highway": "Florida's Turnpike",
+    "description": "FLL to Orlando follows Florida's Turnpike north to Central Florida's theme park and convention hub.",
+    "popularReasons": ["theme park transfer", "convention shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "pbi",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 155,
+    "driveMinutes": 150,
+    "highway": "I-95 / SR-528",
+    "description": "PBI Airport to Port Canaveral follows I-95 north to SR-528 east for Space Coast cruise departures.",
+    "popularReasons": ["cruise port transfer", "fly-and-cruise shuttle", "group charter"]
+  },
+  {
+    "fromSlug": "pbi",
+    "toSlug": "port-everglades",
+    "distanceMiles": 50,
+    "driveMinutes": 55,
+    "highway": "I-95 South",
+    "description": "PBI to Port Everglades follows I-95 south to Fort Lauderdale's cruise terminals.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter bus service"]
+  },
+  {
+    "fromSlug": "pbi",
+    "toSlug": "orlando",
+    "distanceMiles": 170,
+    "driveMinutes": 160,
+    "highway": "Florida's Turnpike",
+    "description": "PBI to Orlando follows Florida's Turnpike north to Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transfer", "corporate charter"]
+  },
+  {
+    "fromSlug": "sfb",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 68,
+    "driveMinutes": 70,
+    "highway": "SR-417 / SR-528",
+    "description": "SFB Airport to Port Canaveral connects charter flight arrivals to cruise terminals via SR-417 and SR-528.",
+    "popularReasons": ["cruise embarkation", "charter flight-to-cruise", "group transfer"]
+  },
+  {
+    "fromSlug": "sfb",
+    "toSlug": "orlando",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-4 South",
+    "description": "SFB to Orlando connects the Sanford airport to downtown Orlando and the tourist district.",
+    "popularReasons": ["hotel transfer", "theme park shuttle", "convention transport"]
+  },
+  {
+    "fromSlug": "sfb",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 40,
+    "driveMinutes": 40,
+    "highway": "I-4 East",
+    "description": "SFB to Daytona Beach follows I-4 east to the Atlantic coast.",
+    "popularReasons": ["beach transfer", "race event shuttle", "hotel shuttle"]
+  },
+  {
+    "fromSlug": "dab",
+    "toSlug": "orlando",
+    "distanceMiles": 56,
+    "driveMinutes": 60,
+    "highway": "I-4 West",
+    "description": "DAB Airport to Orlando follows I-4 southwest through Volusia County to Central Florida.",
+    "popularReasons": ["theme park shuttle", "hotel transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "dab",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 67,
+    "driveMinutes": 70,
+    "highway": "I-95 / SR-528",
+    "description": "DAB to Port Canaveral follows I-95 south to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter bus service"]
+  },
+  {
+    "fromSlug": "cocoa-beach",
+    "toSlug": "orlando",
+    "distanceMiles": 55,
+    "driveMinutes": 60,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Cocoa Beach to Orlando follows the Beachline west from the coast to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "convention transport"]
+  },
+  {
+    "fromSlug": "cocoa-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 5,
+    "driveMinutes": 10,
+    "highway": "SR-A1A",
+    "description": "Cocoa Beach to Port Canaveral is a short beachside drive to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "pre-cruise hotel shuttle", "port pickup"]
+  },
+  {
+    "fromSlug": "cocoa-beach",
+    "toSlug": "melbourne",
+    "distanceMiles": 18,
+    "driveMinutes": 22,
+    "highway": "SR-A1A / SR-520",
+    "description": "Cocoa Beach to Melbourne follows the coastal road south through the Space Coast.",
+    "popularReasons": ["beach hopping", "resort transfer", "dinner shuttle"]
+  },
+  {
+    "fromSlug": "st-augustine",
+    "toSlug": "orlando",
+    "distanceMiles": 105,
+    "driveMinutes": 110,
+    "highway": "I-95 / I-4",
+    "description": "St. Augustine to Orlando follows I-95 south to I-4 west, connecting the nation's oldest city to the theme park capital.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "school group trip"]
+  },
+  {
+    "fromSlug": "st-augustine",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "I-95 South",
+    "description": "St. Augustine to Daytona Beach follows I-95 south along the northeast Florida coast.",
+    "popularReasons": ["beach shuttle", "racing event transport", "historical tour connection"]
+  },
+  {
+    "fromSlug": "gainesville",
+    "toSlug": "orlando",
+    "distanceMiles": 115,
+    "driveMinutes": 120,
+    "highway": "I-75 / Florida's Turnpike",
+    "description": "Gainesville to Orlando follows I-75 south to Florida's Turnpike, connecting UF to Central Florida.",
+    "popularReasons": ["game day shuttle", "student group trip", "airport transfer"]
+  },
+  {
+    "fromSlug": "gainesville",
+    "toSlug": "tampa",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "I-75 South",
+    "description": "Gainesville to Tampa follows I-75 south through Ocala and Pasco County to the Tampa Bay area.",
+    "popularReasons": ["game day shuttle", "airport transfer", "corporate charter"]
+  },
+  {
+    "fromSlug": "celebration",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Celebration to Port Canaveral follows SR-528 east from the master-planned Disney community to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "vacation-to-cruise transfer", "group shuttle"]
+  },
+  {
+    "fromSlug": "celebration",
+    "toSlug": "orlando",
+    "distanceMiles": 20,
+    "driveMinutes": 25,
+    "highway": "I-4 North",
+    "description": "Celebration to Orlando heads north on I-4 from the Osceola County community to downtown Orlando.",
+    "popularReasons": ["airport transfer", "convention shuttle", "downtown event transport"]
+  },
+  {
+    "fromSlug": "lake-buena-vista",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Lake Buena Vista to Port Canaveral follows the Beachline east from the Disney resort area to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "theme-park-to-cruise transfer", "group shuttle"]
+  },
+  {
+    "fromSlug": "lake-buena-vista",
+    "toSlug": "mco",
+    "distanceMiles": 20,
+    "driveMinutes": 25,
+    "highway": "SR-417 / SR-528",
+    "description": "Lake Buena Vista to MCO connects the Disney resort area to Orlando International Airport.",
+    "popularReasons": ["airport transfer", "flight connection shuttle", "group transport"]
+  },
+  {
+    "fromSlug": "international-drive",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 60,
+    "driveMinutes": 60,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "International Drive to Port Canaveral follows the Beachline east from Orlando's tourist corridor to the cruise port.",
+    "popularReasons": ["cruise embarkation", "convention-to-cruise transfer", "hotel group shuttle"]
+  },
+  {
+    "fromSlug": "international-drive",
+    "toSlug": "mco",
+    "distanceMiles": 12,
+    "driveMinutes": 18,
+    "highway": "SR-528 East",
+    "description": "International Drive to MCO connects the tourist corridor to Orlando International Airport.",
+    "popularReasons": ["airport shuttle", "convention transfer", "hotel group transport"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 195,
+    "driveMinutes": 195,
+    "highway": "I-95 / SR-528",
+    "description": "Miami to Port Canaveral follows I-95 north along the coast to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise embarkation", "repositioning cruise", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "port-everglades",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "I-95 North",
+    "description": "Miami to Port Everglades follows I-95 north to Fort Lauderdale's cruise port.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "orlando",
+    "distanceMiles": 235,
+    "driveMinutes": 220,
+    "highway": "Florida's Turnpike",
+    "description": "Miami to Orlando follows Florida's Turnpike north through the interior of the state to Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transport", "corporate charter"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "tampa",
+    "distanceMiles": 280,
+    "driveMinutes": 260,
+    "highway": "I-75 (Alligator Alley)",
+    "description": "Miami to Tampa follows I-75 north across the Everglades on Alligator Alley then up the Gulf Coast.",
+    "popularReasons": ["corporate shuttle", "cruise port connection", "convention transport"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 70,
+    "driveMinutes": 75,
+    "highway": "I-95 North",
+    "description": "Miami to West Palm Beach follows I-95 north through Broward County to Palm Beach County.",
+    "popularReasons": ["corporate shuttle", "airport transfer", "event transport"]
+  },
+  {
+    "fromSlug": "miami",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "I-95 North",
+    "description": "Miami to Fort Lauderdale follows I-95 north through Broward County to the beach and cruise port area.",
+    "popularReasons": ["cruise port connection", "airport shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "boca-raton",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 170,
+    "driveMinutes": 165,
+    "highway": "I-95 / SR-528",
+    "description": "Boca Raton to Port Canaveral follows I-95 north to SR-528 east for Space Coast cruise departures.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "boca-raton",
+    "toSlug": "port-everglades",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-95 South",
+    "description": "Boca Raton to Port Everglades follows I-95 south to Fort Lauderdale's cruise terminals.",
+    "popularReasons": ["cruise port transfer", "hotel shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "boca-raton",
+    "toSlug": "orlando",
+    "distanceMiles": 195,
+    "driveMinutes": 185,
+    "highway": "Florida's Turnpike",
+    "description": "Boca Raton to Orlando follows Florida's Turnpike north through the state's interior to Central Florida.",
+    "popularReasons": ["theme park shuttle", "corporate charter", "convention transport"]
+  },
+  {
+    "fromSlug": "vero-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 75,
+    "driveMinutes": 75,
+    "highway": "I-95 / SR-528",
+    "description": "Vero Beach to Port Canaveral follows I-95 north to SR-528 east along the Space Coast.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "vero-beach",
+    "toSlug": "orlando",
+    "distanceMiles": 110,
+    "driveMinutes": 110,
+    "highway": "I-95 / SR-528",
+    "description": "Vero Beach to Orlando follows I-95 north to SR-528 west through the Space Coast to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "port-st-lucie",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 100,
+    "driveMinutes": 95,
+    "highway": "I-95 / SR-528",
+    "description": "Port St. Lucie to Port Canaveral follows I-95 north to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "port-st-lucie",
+    "toSlug": "orlando",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "Florida's Turnpike / I-95",
+    "description": "Port St. Lucie to Orlando follows Florida's Turnpike north through the state's interior.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "corporate charter"]
+  },
+  {
+    "fromSlug": "clearwater",
+    "toSlug": "orlando",
+    "distanceMiles": 110,
+    "driveMinutes": 110,
+    "highway": "SR-60 / I-4",
+    "description": "Clearwater to Orlando follows SR-60 east to I-4 through Tampa and across Central Florida.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "clearwater",
+    "toSlug": "tampa",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "SR-60 / Courtney Campbell",
+    "description": "Clearwater to Tampa crosses Old Tampa Bay via the Courtney Campbell Causeway or I-275.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "clearwater",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 28,
+    "driveMinutes": 35,
+    "highway": "SR-60 / I-275",
+    "description": "Clearwater to Port Tampa Bay crosses the bay to reach the cruise terminals on the Ybor Channel.",
+    "popularReasons": ["cruise embarkation", "resort-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "st-petersburg",
+    "toSlug": "orlando",
+    "distanceMiles": 107,
+    "driveMinutes": 105,
+    "highway": "I-275 / I-4",
+    "description": "St. Petersburg to Orlando follows I-275 north across the Howard Frankland Bridge then I-4 east.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "st-petersburg",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 20,
+    "driveMinutes": 25,
+    "highway": "I-275 North",
+    "description": "St. Petersburg to Port Tampa Bay crosses the bay via I-275 to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "st-petersburg",
+    "toSlug": "tampa",
+    "distanceMiles": 25,
+    "driveMinutes": 30,
+    "highway": "I-275 North",
+    "description": "St. Petersburg to Tampa crosses the Howard Frankland Bridge on I-275.",
+    "popularReasons": ["airport shuttle", "corporate event", "convention transport"]
+  },
+  {
+    "fromSlug": "sarasota",
+    "toSlug": "tampa",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "I-75 North",
+    "description": "Sarasota to Tampa follows I-75 north through Manatee County to Hillsborough County.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "sarasota",
+    "toSlug": "orlando",
+    "distanceMiles": 130,
+    "driveMinutes": 125,
+    "highway": "I-75 / I-4",
+    "description": "Sarasota to Orlando follows I-75 north to I-4 east across Central Florida.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "convention transport"]
+  },
+  {
+    "fromSlug": "sarasota",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "I-75 / I-275",
+    "description": "Sarasota to Port Tampa Bay follows I-75 north to I-275 and the Ybor Channel cruise terminals.",
+    "popularReasons": ["cruise embarkation", "resort-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "naples",
+    "toSlug": "tampa",
+    "distanceMiles": 170,
+    "driveMinutes": 170,
+    "highway": "I-75 North",
+    "description": "Naples to Tampa follows I-75 north along the Gulf Coast through Lee and Charlotte counties.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "naples",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 125,
+    "driveMinutes": 130,
+    "highway": "I-75 (Alligator Alley)",
+    "description": "Naples to Fort Lauderdale crosses the Everglades on Alligator Alley connecting the Gulf and Atlantic coasts.",
+    "popularReasons": ["cruise port shuttle", "airport transfer", "corporate charter"]
+  },
+  {
+    "fromSlug": "naples",
+    "toSlug": "orlando",
+    "distanceMiles": 215,
+    "driveMinutes": 210,
+    "highway": "I-75 / I-4",
+    "description": "Naples to Orlando follows I-75 north to I-4 east across Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transport", "corporate charter"]
+  },
+  {
+    "fromSlug": "fort-myers",
+    "toSlug": "tampa",
+    "distanceMiles": 130,
+    "driveMinutes": 130,
+    "highway": "I-75 North",
+    "description": "Fort Myers to Tampa follows I-75 north through Charlotte and Sarasota counties to the Tampa Bay area.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "fort-myers",
+    "toSlug": "orlando",
+    "distanceMiles": 180,
+    "driveMinutes": 180,
+    "highway": "I-75 / I-4",
+    "description": "Fort Myers to Orlando follows I-75 north to I-4 east across Central Florida.",
+    "popularReasons": ["theme park shuttle", "convention transport", "corporate charter"]
+  },
+  {
+    "fromSlug": "fort-myers",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 210,
+    "driveMinutes": 205,
+    "highway": "I-75 / I-4 / SR-528",
+    "description": "Fort Myers to Port Canaveral crosses the state via I-75, I-4, and SR-528 for east coast cruise departures.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "winter-haven",
+    "toSlug": "orlando",
+    "distanceMiles": 50,
+    "driveMinutes": 55,
+    "highway": "I-4 / US-27",
+    "description": "Winter Haven to Orlando follows I-4 east from Polk County's chain of lakes to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "convention transport"]
+  },
+  {
+    "fromSlug": "winter-haven",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 105,
+    "driveMinutes": 105,
+    "highway": "I-4 / SR-528",
+    "description": "Winter Haven to Port Canaveral follows I-4 east to SR-528 for cruise departures from the Space Coast.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "winter-haven",
+    "toSlug": "tampa",
+    "distanceMiles": 50,
+    "driveMinutes": 50,
+    "highway": "I-4 West",
+    "description": "Winter Haven to Tampa follows I-4 west through Lakeland to the Gulf Coast.",
+    "popularReasons": ["airport transfer", "cruise port connection", "corporate shuttle"]
+  },
+  {
+    "fromSlug": "ocala",
+    "toSlug": "orlando",
+    "distanceMiles": 82,
+    "driveMinutes": 80,
+    "highway": "Florida's Turnpike / I-75",
+    "description": "Ocala to Orlando follows I-75 south to Florida's Turnpike through horse country to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "ocala",
+    "toSlug": "tampa",
+    "distanceMiles": 100,
+    "driveMinutes": 100,
+    "highway": "I-75 South",
+    "description": "Ocala to Tampa follows I-75 south through Pasco County to the Tampa Bay area.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "ocala",
+    "toSlug": "gainesville",
+    "distanceMiles": 35,
+    "driveMinutes": 40,
+    "highway": "I-75 North",
+    "description": "Ocala to Gainesville follows I-75 north through Marion County to the University of Florida.",
+    "popularReasons": ["game day shuttle", "university visit", "medical appointment transport"]
+  },
+  {
+    "fromSlug": "new-smyrna-beach",
+    "toSlug": "orlando",
+    "distanceMiles": 55,
+    "driveMinutes": 60,
+    "highway": "I-4 / SR-44",
+    "description": "New Smyrna Beach to Orlando follows SR-44 west to I-4 through DeLand to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "convention transport"]
+  },
+  {
+    "fromSlug": "new-smyrna-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 40,
+    "driveMinutes": 40,
+    "highway": "SR-A1A / I-95",
+    "description": "New Smyrna Beach to Port Canaveral follows the coast south to the Space Coast cruise port.",
+    "popularReasons": ["cruise port transfer", "beach-to-cruise shuttle", "group transfer"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "orlando",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Cape Canaveral to Orlando follows SR-528 west from the Space Coast to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "post-cruise transport"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "tampa",
+    "distanceMiles": 140,
+    "driveMinutes": 140,
+    "highway": "SR-528 / I-4",
+    "description": "Cape Canaveral to Tampa follows SR-528 west to I-4 across Central Florida to the Gulf Coast.",
+    "popularReasons": ["post-cruise transfer", "corporate shuttle", "airport connection"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 65,
+    "driveMinutes": 70,
+    "highway": "SR-528 / I-95",
+    "description": "Cape Canaveral to Daytona Beach follows I-95 north along the Atlantic coast.",
+    "popularReasons": ["post-cruise beach shuttle", "racing event connection", "coastal tour"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "melbourne",
+    "distanceMiles": 22,
+    "driveMinutes": 25,
+    "highway": "I-95 / SR-A1A",
+    "description": "Cape Canaveral to Melbourne follows I-95 south along the Space Coast.",
+    "popularReasons": ["post-cruise hotel transfer", "tech corridor shuttle", "dinner transfer"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "fort-lauderdale",
+    "distanceMiles": 190,
+    "driveMinutes": 185,
+    "highway": "SR-528 / I-95",
+    "description": "Cape Canaveral to Fort Lauderdale follows SR-528 to I-95 south down the Atlantic coast.",
+    "popularReasons": ["post-cruise transport", "airport transfer", "hotel shuttle"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "west-palm-beach",
+    "distanceMiles": 155,
+    "driveMinutes": 150,
+    "highway": "I-95 South",
+    "description": "Cape Canaveral to West Palm Beach follows I-95 south through the Treasure Coast to Palm Beach County.",
+    "popularReasons": ["post-cruise transport", "airport transfer", "hotel shuttle"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "miami",
+    "distanceMiles": 195,
+    "driveMinutes": 195,
+    "highway": "I-95 South",
+    "description": "Cape Canaveral to Miami follows I-95 south along the entire east coast of Florida.",
+    "popularReasons": ["post-cruise transport", "airport transfer", "corporate shuttle"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "cocoa-beach",
+    "distanceMiles": 5,
+    "driveMinutes": 10,
+    "highway": "SR-A1A",
+    "description": "Cape Canaveral to Cocoa Beach is a short coastal drive between neighboring Space Coast communities.",
+    "popularReasons": ["pre-cruise hotel transfer", "beach shuttle", "dinner transport"]
+  },
+  {
+    "fromSlug": "cape-canaveral",
+    "toSlug": "kissimmee",
+    "distanceMiles": 70,
+    "driveMinutes": 75,
+    "highway": "SR-528 / I-4",
+    "description": "Cape Canaveral to Kissimmee follows SR-528 west to the US-192 tourist corridor near Disney World.",
+    "popularReasons": ["post-cruise theme park transfer", "vacation shuttle", "resort connection"]
+  },
+  {
+    "fromSlug": "delray-beach",
+    "toSlug": "port-everglades",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "I-95 South",
+    "description": "Delray Beach to Port Everglades follows I-95 south through Boca Raton to Fort Lauderdale's cruise port.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "delray-beach",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 175,
+    "driveMinutes": 170,
+    "highway": "I-95 / SR-528",
+    "description": "Delray Beach to Port Canaveral follows I-95 north to SR-528 east for Space Coast cruise departures.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter bus service"]
+  },
+  {
+    "fromSlug": "jupiter",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 140,
+    "driveMinutes": 135,
+    "highway": "I-95 / SR-528",
+    "description": "Jupiter to Port Canaveral follows I-95 north to SR-528 east along the Treasure Coast to the Space Coast.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "jupiter",
+    "toSlug": "port-everglades",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "I-95 South",
+    "description": "Jupiter to Port Everglades follows I-95 south through Palm Beach and Broward counties to the cruise port.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "deland",
+    "toSlug": "orlando",
+    "distanceMiles": 40,
+    "driveMinutes": 45,
+    "highway": "I-4 West",
+    "description": "DeLand to Orlando follows I-4 southwest from the Volusia County seat to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "Stetson University trip"]
+  },
+  {
+    "fromSlug": "deland",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 25,
+    "driveMinutes": 25,
+    "highway": "I-4 / US-92",
+    "description": "DeLand to Daytona Beach follows US-92 or I-4 east through Volusia County to the coast.",
+    "popularReasons": ["beach shuttle", "racing event", "school trip"]
+  },
+  {
+    "fromSlug": "bradenton",
+    "toSlug": "tampa",
+    "distanceMiles": 50,
+    "driveMinutes": 50,
+    "highway": "I-75 / I-275",
+    "description": "Bradenton to Tampa follows I-75 north and I-275 through Manatee County to Hillsborough County.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "bradenton",
+    "toSlug": "port-tampa-bay",
+    "distanceMiles": 55,
+    "driveMinutes": 55,
+    "highway": "I-75 / I-275",
+    "description": "Bradenton to Port Tampa Bay follows I-75 and I-275 north to the cruise terminals in Tampa.",
+    "popularReasons": ["cruise embarkation", "group cruise shuttle", "resort-to-port transfer"]
+  },
+  {
+    "fromSlug": "titusville",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 15,
+    "driveMinutes": 20,
+    "highway": "SR-405 / SR-528",
+    "description": "Titusville to Port Canaveral is a short drive across the Indian River to the cruise terminals and Kennedy Space Center.",
+    "popularReasons": ["cruise embarkation", "KSC visitor transfer", "pre-cruise hotel shuttle"]
+  },
+  {
+    "fromSlug": "titusville",
+    "toSlug": "orlando",
+    "distanceMiles": 48,
+    "driveMinutes": 50,
+    "highway": "SR-528 / I-4",
+    "description": "Titusville to Orlando follows SR-528 west or SR-50 through the Space Coast to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "palm-coast",
+    "toSlug": "daytona-beach",
+    "distanceMiles": 25,
+    "driveMinutes": 25,
+    "highway": "I-95 South",
+    "description": "Palm Coast to Daytona Beach follows I-95 south through Flagler County into Volusia County.",
+    "popularReasons": ["beach shuttle", "race event transfer", "shopping trip"]
+  },
+  {
+    "fromSlug": "palm-coast",
+    "toSlug": "orlando",
+    "distanceMiles": 80,
+    "driveMinutes": 80,
+    "highway": "I-95 / I-4",
+    "description": "Palm Coast to Orlando follows I-95 south to I-4 west through Volusia County to Central Florida.",
+    "popularReasons": ["theme park shuttle", "airport transfer", "corporate charter"]
+  },
+  {
+    "fromSlug": "palm-coast",
+    "toSlug": "st-augustine",
+    "distanceMiles": 30,
+    "driveMinutes": 30,
+    "highway": "I-95 North",
+    "description": "Palm Coast to St. Augustine follows I-95 north to America's oldest city.",
+    "popularReasons": ["historical tour", "school field trip", "day trip excursion"]
+  },
+  {
+    "fromSlug": "sebring",
+    "toSlug": "orlando",
+    "distanceMiles": 95,
+    "driveMinutes": 95,
+    "highway": "US-27 / I-4",
+    "description": "Sebring to Orlando follows US-27 north through the Highlands to I-4 east into Central Florida.",
+    "popularReasons": ["racing event shuttle", "airport transfer", "theme park trip"]
+  },
+  {
+    "fromSlug": "sebring",
+    "toSlug": "tampa",
+    "distanceMiles": 95,
+    "driveMinutes": 95,
+    "highway": "US-27 / I-4",
+    "description": "Sebring to Tampa follows US-27 north to I-4 west through Polk County to the Gulf Coast.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "the-villages",
+    "toSlug": "orlando",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "Florida's Turnpike",
+    "description": "The Villages to Orlando follows Florida's Turnpike south through Lake County to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "cruise port connection"]
+  },
+  {
+    "fromSlug": "the-villages",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 115,
+    "driveMinutes": 115,
+    "highway": "Florida's Turnpike / SR-528",
+    "description": "The Villages to Port Canaveral follows Florida's Turnpike south to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise port transfer", "group cruise shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "the-villages",
+    "toSlug": "tampa",
+    "distanceMiles": 80,
+    "driveMinutes": 80,
+    "highway": "I-75 / I-275",
+    "description": "The Villages to Tampa follows I-75 south through Pasco County to the Tampa Bay area.",
+    "popularReasons": ["airport transfer", "cruise port shuttle", "corporate charter"]
+  },
+  {
+    "fromSlug": "pompano-beach",
+    "toSlug": "port-everglades",
+    "distanceMiles": 12,
+    "driveMinutes": 18,
+    "highway": "I-95 South",
+    "description": "Pompano Beach to Port Everglades follows I-95 south through Fort Lauderdale to the cruise port.",
+    "popularReasons": ["cruise embarkation", "group cruise shuttle", "hotel-to-port transfer"]
+  },
+  {
+    "fromSlug": "deerfield-beach",
+    "toSlug": "port-everglades",
+    "distanceMiles": 18,
+    "driveMinutes": 22,
+    "highway": "I-95 South",
+    "description": "Deerfield Beach to Port Everglades follows I-95 south to Fort Lauderdale's cruise terminals.",
+    "popularReasons": ["cruise port transfer", "hotel shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "hollywood",
+    "toSlug": "port-everglades",
+    "distanceMiles": 5,
+    "driveMinutes": 10,
+    "highway": "US-1 / I-95",
+    "description": "Hollywood to Port Everglades is a short drive to the cruise terminals just north in Fort Lauderdale.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "beach-to-cruise transfer"]
+  },
+  {
+    "fromSlug": "aventura",
+    "toSlug": "port-everglades",
+    "distanceMiles": 15,
+    "driveMinutes": 20,
+    "highway": "I-95 North",
+    "description": "Aventura to Port Everglades follows I-95 north from the Miami-Dade border to Fort Lauderdale's cruise port.",
+    "popularReasons": ["cruise embarkation", "hotel-to-port shuttle", "group cruise transfer"]
+  },
+  {
+    "fromSlug": "lake-nona",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 50,
+    "driveMinutes": 50,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Lake Nona to Port Canaveral follows SR-528 east from Orlando's medical city to the cruise terminals.",
+    "popularReasons": ["cruise embarkation", "beach day trip", "corporate shuttle"]
+  },
+  {
+    "fromSlug": "lake-nona",
+    "toSlug": "mco",
+    "distanceMiles": 8,
+    "driveMinutes": 12,
+    "highway": "Jeff Fuqua Blvd",
+    "description": "Lake Nona to MCO is a quick drive from the medical and tech hub to Orlando International Airport.",
+    "popularReasons": ["airport transfer", "corporate shuttle", "medical conference transport"]
+  },
+  {
+    "fromSlug": "dr-phillips",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 62,
+    "driveMinutes": 65,
+    "highway": "SR-528 (Beachline Expressway)",
+    "description": "Dr. Phillips to Port Canaveral follows SR-528 east from Orlando's upscale dining district to the cruise port.",
+    "popularReasons": ["cruise embarkation", "group cruise shuttle", "pre-cruise transfer"]
+  },
+  {
+    "fromSlug": "winter-park",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 60,
+    "driveMinutes": 65,
+    "highway": "SR-408 / SR-528",
+    "description": "Winter Park to Port Canaveral follows SR-408 east to SR-528 from the charming Orlando suburb to the cruise port.",
+    "popularReasons": ["cruise embarkation", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "winter-park",
+    "toSlug": "mco",
+    "distanceMiles": 18,
+    "driveMinutes": 22,
+    "highway": "SR-408 / SR-436",
+    "description": "Winter Park to MCO connects the upscale Orlando suburb to Orlando International Airport.",
+    "popularReasons": ["airport transfer", "corporate shuttle", "Rollins College travel"]
+  },
+  {
+    "fromSlug": "altamonte-springs",
+    "toSlug": "orlando",
+    "distanceMiles": 10,
+    "driveMinutes": 15,
+    "highway": "I-4 South",
+    "description": "Altamonte Springs to Orlando follows I-4 south from Seminole County to downtown Orlando.",
+    "popularReasons": ["corporate shuttle", "convention transfer", "entertainment district"]
+  },
+  {
+    "fromSlug": "altamonte-springs",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "SR-417 / SR-528",
+    "description": "Altamonte Springs to Port Canaveral follows SR-417 to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "ocoee",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 65,
+    "driveMinutes": 65,
+    "highway": "SR-408 / SR-528",
+    "description": "Ocoee to Port Canaveral follows SR-408 east to SR-528 from west Orange County to the cruise port.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "clermont",
+    "toSlug": "orlando",
+    "distanceMiles": 30,
+    "driveMinutes": 35,
+    "highway": "US-27 / Florida's Turnpike",
+    "description": "Clermont to Orlando follows US-27 or Florida's Turnpike from the hilly Lake County suburb to Central Florida.",
+    "popularReasons": ["airport transfer", "theme park shuttle", "corporate event"]
+  },
+  {
+    "fromSlug": "clermont",
+    "toSlug": "port-canaveral",
+    "distanceMiles": 85,
+    "driveMinutes": 85,
+    "highway": "Florida's Turnpike / SR-528",
+    "description": "Clermont to Port Canaveral follows Florida's Turnpike to SR-528 east for cruise departures.",
+    "popularReasons": ["cruise port transfer", "group shuttle", "charter service"]
+  },
+  {
+    "fromSlug": "apopka",
+    "toSlug": "orlando",
+    "distanceMiles": 15,
+    "driveMinutes": 20,
+    "highway": "US-441 / SR-429",
+    "description": "Apopka to Orlando follows US-441 south or SR-429 from northwest Orange County to the metro area.",
+    "popularReasons": ["airport transfer", "corporate shuttle", "theme park transport"]
+  },
+  {
+    "fromSlug": "mount-dora",
+    "toSlug": "orlando",
+    "distanceMiles": 35,
+    "driveMinutes": 40,
+    "highway": "US-441 / SR-429",
+    "description": "Mount Dora to Orlando follows US-441 south from the charming Lake County town to Central Florida.",
+    "popularReasons": ["airport transfer", "festival shuttle", "group day trip"]
+  }
+]

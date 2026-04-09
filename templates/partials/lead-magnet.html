@@ -1,0 +1,24 @@
+<div style="margin:3rem 0;padding:2.5rem;background:linear-gradient(135deg,var(--navy),var(--card));border:1px solid var(--border);border-radius:var(--radius);position:relative;overflow:hidden;">
+  <div style="position:absolute;top:-20px;right:-20px;font-size:8rem;opacity:0.06;transform:rotate(-15deg);">&#x1F4E9;</div>
+  <div style="position:relative;z-index:2;">
+    <span class="section-label">Free Download</span>
+    <h3 style="font-size:1.6rem;margin-bottom:0.6rem;">Florida Group Travel Planning Kit</h3>
+    <p style="color:var(--muted);font-size:0.92rem;margin-bottom:1.2rem;max-width:500px;">Get our free planning checklist, packing guide, and group transportation cost calculator. Everything you need to organize a flawless group trip to Florida.</p>
+    <form name="lead-magnet" method="POST" action="{{canonicalUrl}}" data-netlify="true" netlify-honeypot="bot-field" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
+      <input type="hidden" name="form-name" value="lead-magnet"/>
+      <input type="hidden" name="page-url" value="{{canonicalUrl}}"/>
+      <input type="hidden" name="magnet-type" value="planning-kit"/>
+      <p style="display:none;"><input name="bot-field"/></p>
+      <div style="flex:1;min-width:200px;">
+        <label style="display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;">Email Address</label>
+        <input type="email" name="email" placeholder="your@email.com" required style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.8rem 1rem;border-radius:4px;font-family:'DM Sans',sans-serif;font-size:0.9rem;"/>
+      </div>
+      <div style="min-width:200px;">
+        <label style="display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;">Your Name</label>
+        <input type="text" name="name" placeholder="Full name" required style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.8rem 1rem;border-radius:4px;font-family:'DM Sans',sans-serif;font-size:0.9rem;"/>
+      </div>
+      <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Download Free Kit &rarr;</button>
+    </form>
+    <p style="color:var(--muted);font-size:0.72rem;margin-top:0.6rem;opacity:0.7;">No spam. Unsubscribe anytime. We also send exclusive group travel deals.</p>
+  </div>
+</div>

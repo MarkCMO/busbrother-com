@@ -1,0 +1,71 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/venues/">Venues</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{venueName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{venueEmoji}}</div>
+    <h1>{{venueName}} Group Transportation | BusBrother</h1>
+    <p class="subtitle">Charter bus and shuttle service for events at {{venueName}} in {{cityName}}, Florida.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Event Transportation to {{venueName}}</h2>
+        <p>{{venueDescription}}</p>
+
+        <h3>Transportation Services for {{venueName}}</h3>
+        <p>BusBrother provides group transportation for conferences, corporate events, trade shows, weddings, and private gatherings at {{venueName}}. Our drivers know the venue layout, parking areas, and loading zones to ensure smooth drop-offs and pickups for your group.</p>
+        <ul class="check-list">
+          {{#each transportNeeds}}<li><span class="check-icon">&#10003;</span><span><a href="/services/{{_item}}/">{{_item}}</a></span></li>
+          {{/each}}
+        </ul>
+
+        {{#if popularEvents}}<h3>Popular Events at {{venueName}}</h3>
+        <ul>
+          {{#each popularEvents}}<li style="color:var(--muted);margin-bottom:0.5rem;">{{_item}}</li>
+          {{/each}}
+        </ul>{{/if}}
+
+        <h3>Why BusBrother for {{venueName}} Events</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Multiple pickup locations - hotels, airports, offices</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Coordinated multi-bus service for large groups</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip and multi-stop scheduling</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available on request</span></li>
+          <li><span class="check-icon">&#10003;</span><span>On-site standby for flexible departure times</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Dedicated event coordinator for groups of 100+</span></li>
+        </ul>
+
+        <div class="callout"><p><strong>Corporate Event?</strong> BusBrother specializes in multi-bus corporate event transportation. We coordinate hotel-to-venue shuttles, airport transfers, and evening event transport for conferences and retreats at {{venueName}}.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Event Transportation</h3>
+          <p style="color:var(--muted);">Get a free quote for group bus service to {{venueName}}. Tell us your event dates, group size, and pickup locations.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Venue Details</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Location: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Address: {{venueAddress}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Capacity: {{venueCapacity}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Type: {{venueType}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

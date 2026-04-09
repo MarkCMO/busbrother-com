@@ -1,0 +1,66 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/hotel-guides/">Hotel Guides</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{pageHeading}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F3E8;</div>
+    <h1>{{pageHeading}}</h1>
+    <p class="subtitle">{{pageSubtitle}}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{areaName}} Hotel Guide</h2>
+        <p>{{introContent}}</p>
+
+        <h3>Top Hotels</h3>
+        {{#each hotels}}<div style="padding:1.5rem 0;border-bottom:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <span style="font-size:1.5rem;flex-shrink:0;">&#x1F3E8;</span>
+            <div>
+              <h4 style="font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:0.03em;">{{name}}</h4>
+              <p style="color:var(--muted);font-size:0.9rem;margin:0.3rem 0;">{{description}}</p>
+              <div style="display:flex;gap:1rem;flex-wrap:wrap;font-size:0.8rem;font-family:'Space Mono',monospace;">
+                {{#if priceRange}}<span style="color:var(--gold);">{{priceRange}}</span>{{/if}}
+                {{#if distanceNote}}<span style="color:var(--muted);">{{distanceNote}}</span>{{/if}}
+              </div>
+              {{#if website}}<a href="{{website}}" target="_blank" rel="noopener" style="font-size:0.85rem;display:inline-block;margin-top:0.4rem;">Book on {{websiteDomain}} &rarr;</a>{{/if}}
+            </div>
+          </div>
+        </div>
+        {{/each}}
+
+        <h3>Why Stay in This Area</h3>
+        <p>{{whyStayContent}}</p>
+
+        <h3>Getting Around from Here</h3>
+        <p>{{gettingAroundContent}}</p>
+
+        {{#if externalLinks}}<div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Booking Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>{{/if}}
+
+        {{> lead-magnet}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Hotel Group Shuttle:</strong> BusBrother picks up from any hotel in this area. Cruise port transfers, airport shuttles, theme park day trips, event transportation - all with lobby-level pickup and luggage assistance. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Hotel Shuttle &rarr;</a>
+            <a href="/hotel-guides/" class="btn btn-outline">More Hotel Guides &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

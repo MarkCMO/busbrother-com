@@ -1,0 +1,62 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/blog/">Blog</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{blogTitle}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{blogEmoji}}</div>
+    <h1>{{blogTitle}}</h1>
+    <p class="subtitle">{{metaDescription}}</p>
+    <div class="blog-meta" style="margin-top:1rem;"><span>{{blogDate}}</span><span>{{blogReadTime}} read</span><span>{{blogCategory}}</span></div>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        {{#each sections}}<h2>{{heading}}</h2>
+        <p>{{content}}</p>
+        {{/each}}
+
+        {{> lead-magnet}}
+
+        <div class="callout"><p><strong>Need Group Transportation?</strong> BusBrother provides charter bus and shuttle service for groups across Central Florida. Get a free quote in minutes - we respond within 2 hours.</p></div>
+
+        {{#if relatedServiceLinks}}<h3>Related Services</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each relatedServiceLinks}}<a href="/services/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>{{/if}}
+
+        {{#if relatedCityLinks}}<h3>Related Destinations</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each relatedCityLinks}}<a href="/areas/{{slug}}/" class="area-chip">{{name}}, FL</a>
+          {{/each}}
+        </div>{{/if}}
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Ready to Book Your Group Trip?</h3>
+          <p style="color:var(--muted);">BusBrother serves 120+ cities across Central and South Florida with charter bus and group transportation. Available 24/7.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/blog/" class="btn btn-outline">More Articles &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Recent Articles</h3>
+            <ul class="footer-links">
+              {{#each recentPosts}}<li><a href="/blog/{{slug}}/">{{title}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

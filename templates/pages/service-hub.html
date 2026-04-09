@@ -1,0 +1,71 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/">Services</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{serviceName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{serviceEmoji}}</div>
+    <h1>{{serviceName}} | BusBrother</h1>
+    <p class="subtitle">Professional {{serviceNameLower}} across 120+ Florida cities. Licensed, insured, available 24/7.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{serviceName}} Across Central Florida</h2>
+        <p>{{serviceDescription}}</p>
+
+        {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
+
+        <h3>What's Included</h3>
+        <ul class="check-list">
+          {{#each serviceFeatures}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+          <li><span class="check-icon">&#10003;</span><span>One-way, round trip, and multi-stop options</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA wheelchair accessible vehicles on request</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Luggage assistance included</span></li>
+        </ul>
+
+        <h3>Cities We Serve</h3>
+        <p>BusBrother provides {{serviceNameLower}} in 120+ cities across Central and South Florida. Select your city below for local service details and pricing.</p>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each topCities}}<a href="/areas/{{slug}}/{{serviceSlug}}/" class="area-chip">{{name}}, FL</a>
+          {{/each}}
+        </div>
+
+        <h3>Frequently Asked Questions</h3>
+        <div style="margin-top:1rem;">
+          {{#each faqs}}<div class="faq-item">
+            <button class="faq-btn" aria-expanded="false">{{q}}<span class="faq-icon">+</span></button>
+            <div class="faq-answer">{{a}}</div>
+          </div>
+          {{/each}}
+        </div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book {{serviceName}}</h3>
+          <p style="color:var(--muted);">Get a free quote for {{serviceNameLower}} anywhere in Florida. We respond within 2 hours.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">All Services</h3>
+            <ul class="footer-links">
+              {{#each allServices}}<li><a href="/services/{{slug}}/">{{name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

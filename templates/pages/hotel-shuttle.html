@@ -1,0 +1,48 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/hotels/">Hotels</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{hotelName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F3E8;</div>
+    <h1>{{hotelName}} Shuttle Service | BusBrother</h1>
+    <p class="subtitle">Group shuttle and charter bus service from {{hotelName}} in {{cityName}}, Florida to cruise ports, airports, theme parks, and events.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Group Shuttle from {{hotelName}}</h2>
+        <p>{{hotelDescription}}</p>
+        <h3>Available Services from {{hotelName}}</h3>
+        <ul class="check-list">
+          {{#each transportNeeds}}<li><span class="check-icon">&#10003;</span><span><a href="/services/{{_item}}/">{{_item}}</a></span></li>
+          {{/each}}
+        </ul>
+        <h3>Why Book BusBrother from {{hotelName}}</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Lobby pickup - our driver meets you at the hotel entrance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Luggage assistance included on every trip</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip scheduling with flexible return times</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available on request</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Multi-stop option for groups at multiple hotels</span></li>
+        </ul>
+        <div class="callout"><p><strong>Hotel Group Pickup:</strong> BusBrother coordinates directly with {{hotelName}} for smooth lobby-level pickups. We handle the logistics so your group can focus on the trip.</p></div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Hotel Shuttle</h3>
+          <p style="color:var(--muted);">Get a free quote for group shuttle service from {{hotelName}}.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

@@ -1,0 +1,67 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/scenic-drives/">Scenic Drives</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{routeName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F6E3;&#xFE0F;</div>
+    <h1>{{routeName}} | Florida Scenic Drive Guide</h1>
+    <p class="subtitle">{{routeSubtitle}}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{routeName}}</h2>
+        <p>{{description}}</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
+          <div class="stat"><div class="stat-num">{{distanceMiles}}</div><div class="stat-lbl">Miles</div></div>
+          <div class="stat"><div class="stat-num">{{driveTime}}</div><div class="stat-lbl">Drive Time</div></div>
+          <div class="stat"><div class="stat-num">{{numStops}}</div><div class="stat-lbl">Stops</div></div>
+          <div class="stat"><div class="stat-num">{{bestSeason}}</div><div class="stat-lbl">Best Season</div></div>
+        </div>
+
+        <h3>Route Overview</h3>
+        <p>{{routeOverview}}</p>
+
+        <h3>Stops Along the Way</h3>
+        {{#each stops}}<div style="padding:1.2rem 0;border-bottom:1px solid var(--border);">
+          <h4 style="font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:0.03em;">{{stopNum}}. {{name}}</h4>
+          <p style="color:var(--muted);font-size:0.9rem;margin-top:0.4rem;">{{description}}</p>
+          {{#if website}}<a href="{{website}}" target="_blank" rel="noopener" style="font-size:0.85rem;">Visit website &rarr;</a>{{/if}}
+        </div>
+        {{/each}}
+
+        <h3>Driving Tips</h3>
+        <ul class="check-list">
+          {{#each drivingTips}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        {{#if externalLinks}}<div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>{{/if}}
+
+        {{> lead-magnet}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Group Road Trip?</strong> BusBrother provides charter bus service along this route. Let a professional driver handle the road while your group enjoys the scenery. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book a Charter Bus &rarr;</a>
+            <a href="/scenic-drives/" class="btn btn-outline">More Scenic Drives &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

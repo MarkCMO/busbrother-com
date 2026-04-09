@@ -1,0 +1,57 @@
+<div class="quote-widget anim">
+  <h3>Get a Free Quote</h3>
+  <form name="quote-sidebar" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="quote-sidebar"/>
+    <input type="hidden" name="page-url" value="{{canonicalUrl}}"/>
+    <p style="display:none;"><input name="bot-field"/></p>
+    <div class="form-group"><label>Your Name</label><input type="text" name="name" placeholder="Full name" required/></div>
+    <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="email@example.com" required/></div>
+    <div class="form-group"><label>Phone</label><input type="tel" name="phone" placeholder="(555) 555-5555"/></div>
+    <div class="form-group"><label>Service Needed</label>
+      <select name="service" required>
+        <option value="">Select a service...</option>
+        <option value="cruise">Cruise Port Shuttle</option>
+        <option value="ksc">Kennedy Space Center</option>
+        <option value="airport">Airport Transfer</option>
+        <option value="rocket">Rocket Launch Viewing</option>
+        <option value="corporate">Corporate Charter</option>
+        <option value="wedding">Wedding / Event</option>
+        <option value="school">School Group</option>
+        <option value="themepark">Theme Parks</option>
+        <option value="hotel">Hotel Shuttle</option>
+        <option value="sports">Sports Event</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Trip Type</label>
+      <select name="trip-type">
+        <option value="one-way">One-Way</option>
+        <option value="round-trip">Round Trip</option>
+        <option value="multi-stop">Multi-Stop</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Pickup Date</label><input type="date" name="date" required/></div>
+      <div class="form-group"><label>Passengers</label>
+        <select name="passengers">
+          <option value="">Group size...</option>
+          <option>1-15</option><option>16-30</option><option>31-45</option><option>46-57</option><option>57+</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group"><label>Pickup Location</label><input type="text" name="pickup" placeholder="Hotel, airport, address..."/></div>
+    <div class="form-group"><label>Drop-off Location</label><input type="text" name="dropoff" placeholder="Port, attraction, venue..."/></div>
+    <div style="display:flex;flex-direction:column;gap:0.6rem;margin-bottom:1rem;">
+      <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+        <input type="checkbox" name="ada-accessible" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> ADA Wheelchair Accessible Vehicle
+      </label>
+      <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+        <input type="checkbox" name="multi-stop" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> Multiple Pickup/Drop-off Stops
+      </label>
+      <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+        <input type="checkbox" name="luggage-assist" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> Luggage Assistance Needed
+      </label>
+    </div>
+    <div class="form-group"><label>Special Requests</label><textarea name="notes" rows="3" placeholder="Return trip details, extra stops, accessibility needs, etc."></textarea></div>
+    <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Quote Request &rarr;</button>
+  </form>
+</div>

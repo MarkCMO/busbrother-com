@@ -1,0 +1,8 @@
+[
+  {"slug": "mco", "name": "Orlando International Airport", "code": "MCO", "citySlug": "orlando", "lat": 28.4312, "lng": -81.3081, "description": "Central Florida's primary airport serving over 50 million passengers annually. Located 60 miles west of Port Canaveral and minutes from Orlando's theme parks."},
+  {"slug": "sfb", "name": "Orlando Sanford International Airport", "code": "SFB", "citySlug": "sanford", "lat": 28.7776, "lng": -81.2375, "description": "Handles many international charter flights and low-cost carriers. Located 70 miles from Port Canaveral in Seminole County."},
+  {"slug": "tpa", "name": "Tampa International Airport", "code": "TPA", "citySlug": "tampa", "lat": 27.9755, "lng": -82.5332, "description": "Tampa Bay area's main airport serving the Gulf Coast. Award-winning facility located minutes from downtown Tampa and Ybor City."},
+  {"slug": "fll", "name": "Fort Lauderdale-Hollywood International Airport", "code": "FLL", "citySlug": "fort-lauderdale", "lat": 26.0726, "lng": -80.1527, "description": "Major airport in South Florida serving Broward County and the greater Fort Lauderdale area. Close to Port Everglades cruise terminal."},
+  {"slug": "pbi", "name": "Palm Beach International Airport", "code": "PBI", "citySlug": "west-palm-beach", "lat": 26.6832, "lng": -80.0956, "description": "Serves the Palm Beach County area including West Palm Beach, Boca Raton, and Jupiter. Popular for corporate and private travel."},
+  {"slug": "dab", "name": "Daytona Beach International Airport", "code": "DAB", "citySlug": "daytona-beach", "lat": 29.1799, "lng": -81.0581, "description": "Serves the Volusia County area. Located near Daytona International Speedway and the Daytona Beach boardwalk."}
+]

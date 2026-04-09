@@ -1,0 +1,68 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/guides/">Guides</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{guideTitle}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{guideEmoji}}</div>
+    <h1>{{guideTitle}}</h1>
+    <p class="subtitle">{{guideSubtitle}}</p>
+    <div class="blog-meta" style="margin-top:1rem;"><span>Updated {{guideDate}}</span><span>{{guideReadTime}} read</span><span>{{guideCategory}}</span></div>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        {{#each sections}}<h2>{{heading}}</h2>
+        <p>{{content}}</p>
+        {{/each}}
+
+        {{#if externalLinks}}<div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Resources & Links</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:0.5rem;font-size:0.95rem;">{{emoji}} {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>{{/if}}
+
+        {{> lead-magnet}}
+
+        {{#if relatedGuides}}<h3 style="margin-top:2.5rem;">Related Guides</h3>
+        <div class="areas-grid" style="margin:1rem 0;">
+          {{#each relatedGuides}}<a href="/guides/{{slug}}/" class="area-chip">{{emoji}} {{title}}</a>
+          {{/each}}
+        </div>{{/if}}
+
+        {{#if nearbyAttractions}}<h3>Nearby Attractions</h3>
+        <div class="areas-grid" style="margin:1rem 0;">
+          {{#each nearbyAttractions}}<a href="/attractions/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>{{/if}}
+
+        <div class="callout"><p><strong>Need Group Transportation?</strong> BusBrother provides charter bus and shuttle service for groups visiting this area. One-way, round trip, multi-stop, ADA accessible. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/guides/" class="btn btn-outline">More Guides &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        {{#if quickFacts}}<div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Quick Facts</h3>
+            <ul class="footer-links">
+              {{#each quickFacts}}<li style="color:var(--muted);font-size:0.88rem;">{{_item}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>{{/if}}
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

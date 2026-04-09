@@ -1,0 +1,78 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/cruise-lines/">Cruise Lines</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{cruiseLineName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F6F3;&#xFE0F;</div>
+    <h1>{{cruiseLineName}} - {{portName}} Guide | BusBrother</h1>
+    <p class="subtitle">Complete guide to sailing {{cruiseLineName}} from {{portName}}. Terminals, embarkation, pre-cruise hotels, and group transportation.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{cruiseLineName}} at {{portName}}</h2>
+        <p>{{description}}</p>
+
+        <h3>Terminal Information</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span><strong>Port:</strong> {{portName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Terminal:</strong> {{terminalInfo}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Check-in Opens:</strong> {{checkInTime}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Popular Ships:</strong> {{popularShips}}</span></li>
+        </ul>
+
+        <h3>Getting to {{portName}} for Your {{cruiseLineShort}} Cruise</h3>
+        <p>{{gettingThereContent}}</p>
+
+        <h3>Pre-Cruise Hotels</h3>
+        <p>{{preCruiseHotels}}</p>
+
+        <h3>What to Know Before You Board</h3>
+        {{#each tips}}<div class="callout" style="margin-bottom:1rem;"><p>{{_item}}</p></div>
+        {{/each}}
+
+        <h3>Embarkation Day Checklist</h3>
+        <ul class="check-list">
+          {{#each checklist}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>
+
+        {{> lead-magnet-cruise}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Group Cruise Transfer:</strong> BusBrother specializes in cruise port shuttle service. We pick up your group from any hotel, airport, or address and deliver you directly to your {{cruiseLineShort}} terminal at {{portName}}. Meet-and-greet, luggage assistance, 24/7 service. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Cruise Shuttle &rarr;</a>
+            <a href="/cruise-lines/" class="btn btn-outline">All Cruise Lines &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Other Cruise Lines at {{portName}}</h3>
+            <ul class="footer-links">
+              {{#each otherLines}}<li><a href="/cruise-lines/{{slug}}/">{{name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

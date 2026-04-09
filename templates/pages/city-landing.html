@@ -1,0 +1,91 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/areas/">Destinations</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{cityName}}, Florida</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{cityEmoji}}</div>
+    <h1>Charter Bus {{cityName}} FL - Group Transportation</h1>
+    <p class="subtitle">Professional charter bus and group transportation in {{cityName}}, {{countyName}}. Cruise port shuttles, airport transfers, corporate charters, wedding transportation, and more.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Group Transportation in {{cityName}}, Florida</h2>
+        <p>{{introContent}}</p>
+
+        {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
+
+        <h3>Charter Bus Services Available in {{cityName}}</h3>
+        <p>BusBrother provides full-service group transportation from {{cityName}} to destinations across Central and South Florida. Whether your group needs a cruise port shuttle, airport transfer, corporate event charter, or theme park day trip, our fleet of motorcoaches and minibuses has you covered.</p>
+        <ul class="check-list">
+          {{#each serviceLinks}}<li><span class="check-icon">&#10003;</span><span><a href="/areas/{{citySlug}}/{{slug}}/">{{name}}</a> - serving {{cityName}} groups</span></li>
+          {{/each}}
+        </ul>
+
+        <h3>Why Choose BusBrother in {{cityName}}?</h3>
+        <p>{{whyChooseContent}}</p>
+
+        {{#if nearbyAttractions}}<h3>Popular Destinations from {{cityName}}</h3>
+        <p>Groups departing from {{cityName}} frequently travel to these top Central Florida attractions:</p>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each nearbyAttractions}}<a href="/attractions/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>{{/if}}
+
+        <h3>{{cityName}} Group Travel FAQs</h3>
+        <div style="margin-top:1rem;">
+          {{#each faqs}}<div class="faq-item">
+            <button class="faq-btn" aria-expanded="false">{{q}}<span class="faq-icon">+</span></button>
+            <div class="faq-answer">{{a}}</div>
+          </div>
+          {{/each}}
+        </div>
+
+        {{> lead-magnet}}
+
+        {{#if nearbyCities}}<h3>Nearby Service Areas</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each nearbyCities}}<a href="/areas/{{slug}}/" class="area-chip">{{name}}, FL</a>
+          {{/each}}
+        </div>{{/if}}
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Group Transportation in {{cityName}}</h3>
+          <p style="color:var(--muted);">BusBrother provides reliable charter bus and group transportation throughout {{cityName}} and {{countyName}}. Get a free quote in minutes - available 24/7 including holidays.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">{{cityName}} Quick Facts</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">County: {{countyName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Region: {{regionName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ZIP: {{cityZip}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Population: {{cityPopulation}}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">All Services</h3>
+            <ul class="footer-links">
+              {{#each serviceLinks}}<li><a href="/areas/{{citySlug}}/{{slug}}/">{{name}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

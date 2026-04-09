@@ -1,0 +1,353 @@
+[
+  {
+    "slug": "international-drive",
+    "name": "International Drive",
+    "citySlug": "orlando",
+    "description": "Orlando's primary tourist corridor featuring ICON Park, convention center, hundreds of hotels, restaurants, and attractions along a 15-mile stretch.",
+    "highlights": ["ICON Park", "Orange County Convention Center", "SeaWorld Orlando"]
+  },
+  {
+    "slug": "downtown-orlando",
+    "name": "Downtown Orlando",
+    "citySlug": "orlando",
+    "description": "The urban core of Orlando featuring Lake Eola, the Amway Center, Wall Street Plaza, and a growing residential district with nightlife and dining.",
+    "highlights": ["Amway Center", "Lake Eola Park", "Wall Street Plaza"]
+  },
+  {
+    "slug": "lake-nona",
+    "name": "Lake Nona",
+    "citySlug": "orlando",
+    "description": "Orlando's master-planned medical city and tech hub southeast of downtown, home to major hospitals, the USTA campus, and innovative wellness community.",
+    "highlights": ["Lake Nona Medical City", "USTA National Campus", "Lake Nona Wave Hotel"]
+  },
+  {
+    "slug": "dr-phillips",
+    "name": "Dr. Phillips",
+    "citySlug": "orlando",
+    "description": "Upscale Orlando neighborhood known as Restaurant Row, featuring hundreds of dining options along Sand Lake Road and proximity to theme parks.",
+    "highlights": ["Restaurant Row", "Dr. Phillips Center for the Performing Arts", "Sand Lake Road dining"]
+  },
+  {
+    "slug": "celebration",
+    "name": "Celebration",
+    "citySlug": "orlando",
+    "description": "Master-planned community originally developed by The Walt Disney Company, featuring charming downtown area, lakefront, and proximity to Disney World.",
+    "highlights": ["Celebration Town Center", "Lakeside Park", "Disney proximity"]
+  },
+  {
+    "slug": "lake-buena-vista",
+    "name": "Lake Buena Vista",
+    "citySlug": "orlando",
+    "description": "The municipality containing Walt Disney World Resort, Disney Springs, and dozens of official and partner hotels serving millions of visitors annually.",
+    "highlights": ["Walt Disney World", "Disney Springs", "Hotel Plaza Boulevard"]
+  },
+  {
+    "slug": "winter-park",
+    "name": "Winter Park",
+    "citySlug": "orlando",
+    "description": "Charming affluent suburb north of Orlando featuring Park Avenue boutiques, Rollins College, scenic boat tours, and world-class dining.",
+    "highlights": ["Park Avenue", "Rollins College", "Charles Hosmer Morse Museum"]
+  },
+  {
+    "slug": "universal-area",
+    "name": "Universal Boulevard Area",
+    "citySlug": "orlando",
+    "description": "The corridor surrounding Universal Orlando Resort, featuring major hotels, the convention center south end, and easy access to I-4.",
+    "highlights": ["Universal Orlando Resort", "Universal CityWalk", "Volcano Bay"]
+  },
+  {
+    "slug": "kissimmee-192-corridor",
+    "name": "US-192 Corridor",
+    "citySlug": "kissimmee",
+    "description": "Kissimmee's main tourist strip along Irlo Bronson Memorial Highway, featuring budget hotels, vacation rentals, restaurants, and attractions near Disney.",
+    "highlights": ["Old Town", "Fun Spot Kissimmee", "Vacation rental communities"]
+  },
+  {
+    "slug": "downtown-kissimmee",
+    "name": "Downtown Kissimmee",
+    "citySlug": "kissimmee",
+    "description": "Historic district along Broadway featuring locally owned shops, restaurants, the Kissimmee Lakefront Park, and the Osceola County courthouse.",
+    "highlights": ["Kissimmee Lakefront Park", "Broadway shops", "Toho Square"]
+  },
+  {
+    "slug": "championsgate",
+    "name": "ChampionsGate",
+    "citySlug": "kissimmee",
+    "description": "Resort and golf community at the junction of I-4 and US-27, featuring the Omni resort, vacation rentals, and proximity to Disney World.",
+    "highlights": ["Omni Orlando Resort", "ChampionsGate Golf Club", "Vacation home communities"]
+  },
+  {
+    "slug": "ybor-city",
+    "name": "Ybor City",
+    "citySlug": "tampa",
+    "description": "Tampa's historic Latin Quarter and National Historic Landmark District featuring cigar factories, nightlife, restaurants, and the Columbia Restaurant.",
+    "highlights": ["Columbia Restaurant", "Centro Ybor", "7th Avenue entertainment"]
+  },
+  {
+    "slug": "downtown-tampa",
+    "name": "Downtown Tampa",
+    "citySlug": "tampa",
+    "description": "Tampa's central business district featuring Water Street Tampa, the Tampa Riverwalk, Amalie Arena, and the convention center.",
+    "highlights": ["Tampa Riverwalk", "Amalie Arena", "Tampa Convention Center"]
+  },
+  {
+    "slug": "south-tampa",
+    "name": "South Tampa",
+    "citySlug": "tampa",
+    "description": "Upscale residential area featuring Bayshore Boulevard, Hyde Park Village, SoHo district, and waterfront dining along the world's longest sidewalk.",
+    "highlights": ["Bayshore Boulevard", "Hyde Park Village", "SoHo dining district"]
+  },
+  {
+    "slug": "hyde-park",
+    "name": "Hyde Park",
+    "citySlug": "tampa",
+    "description": "Historic Tampa neighborhood featuring upscale shopping at Hyde Park Village, trendy restaurants, and beautiful tree-lined streets near Bayshore.",
+    "highlights": ["Hyde Park Village", "Bayshore Boulevard", "Bern's Steak House"]
+  },
+  {
+    "slug": "channelside",
+    "name": "Channelside District",
+    "citySlug": "tampa",
+    "description": "Tampa's waterfront entertainment district near the cruise port, featuring Sparkman Wharf, the Florida Aquarium, and Water Street Tampa.",
+    "highlights": ["Sparkman Wharf", "Florida Aquarium", "Port Tampa Bay cruise terminal"]
+  },
+  {
+    "slug": "water-street-tampa",
+    "name": "Water Street Tampa",
+    "citySlug": "tampa",
+    "description": "Tampa's newest mixed-use district featuring luxury hotels, restaurants, the Tampa EDITION, and JW Marriott along the downtown waterfront.",
+    "highlights": ["Tampa EDITION", "JW Marriott", "Tampa Museum of Art"]
+  },
+  {
+    "slug": "westshore",
+    "name": "Westshore",
+    "citySlug": "tampa",
+    "description": "Tampa's business district near the airport featuring International Plaza mall, corporate offices, and major chain hotels.",
+    "highlights": ["International Plaza", "Tampa International Airport", "Corporate offices"]
+  },
+  {
+    "slug": "busch-gardens-area",
+    "name": "Busch Gardens Area",
+    "citySlug": "tampa",
+    "description": "North Tampa district centered around Busch Gardens Tampa Bay, the University of South Florida, and Adventure Island water park.",
+    "highlights": ["Busch Gardens Tampa Bay", "USF campus", "Adventure Island"]
+  },
+  {
+    "slug": "clearwater-beach",
+    "name": "Clearwater Beach",
+    "citySlug": "clearwater",
+    "description": "Award-winning beach destination on the Gulf Coast barrier island, featuring sugar-white sand, Pier 60, and beachfront resorts.",
+    "highlights": ["Pier 60", "Sand Key Park", "Clearwater Marine Aquarium"]
+  },
+  {
+    "slug": "downtown-clearwater",
+    "name": "Downtown Clearwater",
+    "citySlug": "clearwater",
+    "description": "Clearwater's mainland downtown core featuring the Coachman Park waterfront, Cleveland Street dining, and access to the beach via the Memorial Causeway.",
+    "highlights": ["Coachman Park", "Cleveland Street District", "Ruth Eckerd Hall"]
+  },
+  {
+    "slug": "downtown-st-pete",
+    "name": "Downtown St. Petersburg",
+    "citySlug": "st-petersburg",
+    "description": "Vibrant waterfront downtown featuring the Salvador Dali Museum, craft breweries, murals, and the St. Pete Pier.",
+    "highlights": ["Dali Museum", "St. Pete Pier", "Central Avenue arts district"]
+  },
+  {
+    "slug": "st-pete-beach",
+    "name": "St. Pete Beach",
+    "citySlug": "st-petersburg",
+    "description": "Award-winning Gulf Coast beach community south of St. Petersburg, home to the iconic Don CeSar hotel and TradeWinds resort.",
+    "highlights": ["The Don CeSar", "TradeWinds Resort", "Pass-a-Grille Beach"]
+  },
+  {
+    "slug": "grand-central-st-pete",
+    "name": "Grand Central District",
+    "citySlug": "st-petersburg",
+    "description": "St. Petersburg's eclectic arts and antique district along Central Avenue, featuring galleries, vintage shops, and diverse restaurants.",
+    "highlights": ["Central Avenue galleries", "Antique shops", "Local restaurants"]
+  },
+  {
+    "slug": "fort-lauderdale-beach",
+    "name": "Fort Lauderdale Beach",
+    "citySlug": "fort-lauderdale",
+    "description": "Iconic stretch of Atlantic coastline along A1A, featuring luxury hotels, beachside restaurants, and the famous wavewall promenade.",
+    "highlights": ["A1A beach promenade", "Beachfront hotels", "Elbo Room"]
+  },
+  {
+    "slug": "las-olas",
+    "name": "Las Olas Boulevard",
+    "citySlug": "fort-lauderdale",
+    "description": "Fort Lauderdale's premier dining and shopping boulevard connecting downtown to the beach, lined with galleries, boutiques, and restaurants.",
+    "highlights": ["Las Olas dining", "Riverwalk Fort Lauderdale", "Art galleries"]
+  },
+  {
+    "slug": "downtown-fort-lauderdale",
+    "name": "Downtown Fort Lauderdale",
+    "citySlug": "fort-lauderdale",
+    "description": "Fort Lauderdale's urban core featuring the Broward Center for the Performing Arts, Museum of Discovery and Science, and the New River.",
+    "highlights": ["Broward Center", "Museum of Discovery and Science", "New River"]
+  },
+  {
+    "slug": "port-everglades-area",
+    "name": "Port Everglades Area",
+    "citySlug": "fort-lauderdale",
+    "description": "The area surrounding Fort Lauderdale's cruise port, including nearby hotels on SE 17th Street and the Hilton Marina district.",
+    "highlights": ["Port Everglades cruise terminals", "SE 17th Street hotels", "Convention Center"]
+  },
+  {
+    "slug": "hollywood-beach",
+    "name": "Hollywood Beach",
+    "citySlug": "fort-lauderdale",
+    "description": "Charming beachfront community between Fort Lauderdale and Miami featuring the famous Hollywood Beach Broadwalk, a 2.5-mile oceanfront promenade.",
+    "highlights": ["Hollywood Broadwalk", "Margaritaville Beach Resort", "Hollywood Beach Theatre"]
+  },
+  {
+    "slug": "daytona-beach-boardwalk",
+    "name": "Daytona Beach Boardwalk",
+    "citySlug": "daytona-beach",
+    "description": "The heart of Daytona Beach tourism featuring the oceanfront boardwalk, amusement rides, the Bandshell, and classic beach attractions.",
+    "highlights": ["Daytona Beach Boardwalk", "Main Street Pier", "Oceanfront Park Bandshell"]
+  },
+  {
+    "slug": "daytona-speedway-area",
+    "name": "Daytona International Speedway Area",
+    "citySlug": "daytona-beach",
+    "description": "District surrounding the World Center of Racing, buzzing during the Daytona 500, Bike Week, and Coke Zero Sugar 400 with massive bus charter demand.",
+    "highlights": ["Daytona International Speedway", "ONE Daytona", "Motorsports Hall of Fame"]
+  },
+  {
+    "slug": "daytona-mainland",
+    "name": "Daytona Beach Mainland",
+    "citySlug": "daytona-beach",
+    "description": "The mainland side of Daytona Beach across the Halifax River, featuring LPGA Boulevard shopping, Embry-Riddle University, and residential areas.",
+    "highlights": ["LPGA International", "Embry-Riddle University", "Daytona State College"]
+  },
+  {
+    "slug": "cocoa-beach-pier",
+    "name": "Cocoa Beach Pier Area",
+    "citySlug": "cocoa-beach",
+    "description": "The central stretch of Cocoa Beach surrounding the historic pier, featuring surf shops, restaurants, and beachfront hotels popular with pre-cruise travelers.",
+    "highlights": ["Westgate Cocoa Beach Pier", "Ron Jon Surf Shop", "Beachside restaurants"]
+  },
+  {
+    "slug": "port-canaveral-area",
+    "name": "Port Canaveral Terminal Area",
+    "citySlug": "cape-canaveral",
+    "description": "The cruise terminal district along George King Boulevard, featuring cruise parking lots, The Cove shopping area, and Exploration Tower.",
+    "highlights": ["Cruise terminals", "The Cove at Port Canaveral", "Exploration Tower"]
+  },
+  {
+    "slug": "astronaut-blvd",
+    "name": "Astronaut Boulevard Corridor",
+    "citySlug": "cape-canaveral",
+    "description": "Cape Canaveral's main commercial strip along SR-A1A, featuring pre-cruise hotels, restaurants, and the approach to Port Canaveral.",
+    "highlights": ["Pre-cruise hotels", "Port Canaveral access", "Local dining"]
+  },
+  {
+    "slug": "downtown-melbourne",
+    "name": "Downtown Melbourne",
+    "citySlug": "melbourne",
+    "description": "Historic downtown district featuring locally owned shops and restaurants along New Haven Avenue, with regular events and farmers markets.",
+    "highlights": ["New Haven Avenue", "Henegar Center", "Downtown farmers market"]
+  },
+  {
+    "slug": "eau-gallie-arts-district",
+    "name": "Eau Gallie Arts District",
+    "citySlug": "melbourne",
+    "description": "Melbourne's creative hub featuring art galleries, murals, studios, and restaurants along Highland Avenue in the Eau Gallie neighborhood.",
+    "highlights": ["Eau Gallie murals", "Art galleries", "Highland Avenue dining"]
+  },
+  {
+    "slug": "viera",
+    "name": "Viera",
+    "citySlug": "melbourne",
+    "description": "Master-planned community in central Brevard County featuring The Avenue Viera shopping, USSSA Space Coast Stadium, and suburban amenities.",
+    "highlights": ["The Avenue Viera", "USSSA Space Coast Stadium", "Brevard Zoo"]
+  },
+  {
+    "slug": "downtown-west-palm-beach",
+    "name": "Downtown West Palm Beach",
+    "citySlug": "west-palm-beach",
+    "description": "Vibrant downtown district featuring Clematis Street nightlife, the Kravis Center, CityPlace (Rosemary Square), and waterfront dining.",
+    "highlights": ["Clematis Street", "Rosemary Square", "Kravis Center for the Performing Arts"]
+  },
+  {
+    "slug": "palm-beach-island",
+    "name": "Palm Beach Island",
+    "citySlug": "west-palm-beach",
+    "description": "Exclusive barrier island featuring The Breakers resort, Worth Avenue luxury shopping, the Flagler Museum, and some of the most expensive real estate in the country.",
+    "highlights": ["The Breakers", "Worth Avenue", "Flagler Museum"]
+  },
+  {
+    "slug": "palm-beach-gardens",
+    "name": "Palm Beach Gardens",
+    "citySlug": "west-palm-beach",
+    "description": "Upscale North Palm Beach community featuring The Gardens Mall, PGA National Resort, and miles of nature trails.",
+    "highlights": ["PGA National Resort", "The Gardens Mall", "MacArthur Beach State Park"]
+  },
+  {
+    "slug": "downtown-lakeland",
+    "name": "Downtown Lakeland",
+    "citySlug": "lakeland",
+    "address": null,
+    "description": "Historic downtown centered around Lake Mirror and Munn Park, featuring locally owned shops, restaurants, and the Polk Theatre.",
+    "highlights": ["Lake Mirror", "Munn Park Historic District", "Polk Theatre"]
+  },
+  {
+    "slug": "florida-southern-campus",
+    "name": "Florida Southern College Area",
+    "citySlug": "lakeland",
+    "description": "Neighborhood surrounding Florida Southern College featuring the largest single-site collection of Frank Lloyd Wright architecture in the world.",
+    "highlights": ["Frank Lloyd Wright architecture", "Lake Hollingsworth", "Florida Southern College"]
+  },
+  {
+    "slug": "downtown-sanford",
+    "name": "Downtown Sanford",
+    "citySlug": "sanford",
+    "description": "Historic waterfront downtown on Lake Monroe featuring antique shops, craft breweries, and the Amtrak Auto Train terminal.",
+    "highlights": ["Lake Monroe waterfront", "First Street shops", "Amtrak Auto Train terminal"]
+  },
+  {
+    "slug": "downtown-deland",
+    "name": "Downtown DeLand",
+    "citySlug": "deland",
+    "description": "Charming Main Street America community featuring locally owned shops, restaurants, and Stetson University's campus atmosphere.",
+    "highlights": ["Woodland Boulevard shops", "Stetson University", "Athens Theatre"]
+  },
+  {
+    "slug": "siesta-key",
+    "name": "Siesta Key",
+    "citySlug": "sarasota",
+    "description": "Barrier island off Sarasota featuring the number-one rated beach in the United States with powdery quartz crystal sand.",
+    "highlights": ["Siesta Beach", "Siesta Key Village", "Point of Rocks"]
+  },
+  {
+    "slug": "st-armands-circle",
+    "name": "St. Armands Circle",
+    "citySlug": "sarasota",
+    "description": "Upscale shopping and dining circle on St. Armands Key between downtown Sarasota and Lido Beach, designed by John Ringling.",
+    "highlights": ["St. Armands Circle shops", "Lido Beach", "Columbia Restaurant"]
+  },
+  {
+    "slug": "downtown-sarasota",
+    "name": "Downtown Sarasota",
+    "citySlug": "sarasota",
+    "description": "Cultural hub of the Gulf Coast featuring the Ringling Museum, Van Wezel Performing Arts Hall, and Main Street dining and shopping.",
+    "highlights": ["Ringling Museum", "Van Wezel", "Main Street Sarasota"]
+  },
+  {
+    "slug": "fifth-avenue-naples",
+    "name": "Fifth Avenue South",
+    "citySlug": "naples",
+    "description": "Naples' premier downtown street featuring upscale dining, boutiques, galleries, and cultural venues in a walkable setting.",
+    "highlights": ["Fifth Avenue dining", "Naples Players", "Art galleries"]
+  },
+  {
+    "slug": "third-street-south-naples",
+    "name": "Third Street South",
+    "citySlug": "naples",
+    "description": "Charming shopping and dining district in Old Naples featuring boutiques, outdoor cafes, and Saturday farmers market.",
+    "highlights": ["Third Street Plaza", "Farmers market", "Old Naples shops"]
+  }
+]

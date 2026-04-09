@@ -1,0 +1,39 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/areas/{{citySlug}}/">{{cityName}}</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{neighborhoodName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F4CD;</div>
+    <h1>{{neighborhoodName}} Charter Bus | {{cityName}} FL | BusBrother</h1>
+    <p class="subtitle">Group transportation serving {{neighborhoodName}} in {{cityName}}, Florida. Hotel shuttles, event transport, and charter bus service.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Group Transportation in {{neighborhoodName}}, {{cityName}}</h2>
+        <p>{{neighborhoodDescription}}</p>
+        {{#if highlights}}<h3>Key Destinations in {{neighborhoodName}}</h3>
+        <ul class="check-list">{{#each highlights}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>{{/each}}</ul>{{/if}}
+        <h3>Services Available</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each serviceLinks}}<a href="/areas/{{citySlug}}/{{slug}}/" class="area-chip">{{emoji}} {{shortName}}</a>
+          {{/each}}
+        </div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Transportation in {{neighborhoodName}}</h3>
+          <p style="color:var(--muted);">Get a free quote for charter bus service from {{neighborhoodName}}, {{cityName}}.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/areas/{{citySlug}}/" class="btn btn-outline">All {{cityName}} Services &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

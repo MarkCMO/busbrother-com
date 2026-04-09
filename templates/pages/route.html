@@ -1,0 +1,79 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/routes/">Routes</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{fromName}} to {{toName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F68C;</div>
+    <h1>{{fromName}} to {{toName}} Charter Bus | BusBrother</h1>
+    <p class="subtitle">Group bus transportation from {{fromName}} to {{toName}}, Florida. {{distanceMiles}} miles, approximately {{driveMinutes}} minutes.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{fromName}} to {{toName}} Group Transportation</h2>
+        <p>{{routeDescription}}</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
+          <div class="stat"><div class="stat-num">{{distanceMiles}}</div><div class="stat-lbl">Miles</div></div>
+          <div class="stat"><div class="stat-num">{{driveMinutes}}</div><div class="stat-lbl">Minutes</div></div>
+          <div class="stat"><div class="stat-num">15-57</div><div class="stat-lbl">Passengers</div></div>
+          <div class="stat"><div class="stat-num">24/7</div><div class="stat-lbl">Available</div></div>
+        </div>
+
+        <h3>Route Details</h3>
+        <p>The {{fromName}} to {{toName}} route follows {{highway}}. BusBrother drivers know this corridor and monitor real-time traffic to ensure on-time arrivals for your group.</p>
+
+        <h3>Popular Reasons for This Route</h3>
+        <ul class="check-list">
+          {{#each popularReasons}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <h3>What's Included</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Climate-controlled motorcoach or minibus</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Professional, licensed driver</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Luggage storage and assistance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Pickup from any address in {{fromName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Direct drop-off at your destination in {{toName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip and multi-stop options available</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
+        </ul>
+
+        <div class="callout"><p><strong>Return Trip Available:</strong> Need a round trip from {{fromName}} to {{toName}} and back? Select "Round Trip" when requesting your quote and we will coordinate both legs of your journey.</p></div>
+
+        <h3>Also Available: {{toName}} to {{fromName}}</h3>
+        <p>BusBrother also provides group transportation in the opposite direction. <a href="/routes/{{reverseSlug}}/">View {{toName}} to {{fromName}} route details</a>.</p>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book {{fromName}} to {{toName}} Bus</h3>
+          <p style="color:var(--muted);">Get a free quote for charter bus service from {{fromName}} to {{toName}}. One-way, round trip, and multi-stop options.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Route Quick Facts</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Distance: {{distanceMiles}} miles</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Drive Time: ~{{driveMinutes}} min</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Highway: {{highway}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Trip Types: One-way, Round trip, Multi-stop</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ADA Accessible: Yes, on request</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

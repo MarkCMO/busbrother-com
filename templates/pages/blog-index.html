@@ -1,0 +1,31 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><span>Blog</span></div>
+    <h1>Travel Blog & Guides</h1>
+    <p class="subtitle">Insider tips, travel guides, and everything you need to know about group transportation in Florida.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+      {{#each posts}}<div class="card blog-card anim">
+        <div class="blog-img"><div class="emoji-cover">{{emoji}}</div></div>
+        <div class="blog-body">
+          <span class="blog-cat">{{category}}</span>
+          <h3><a href="/blog/{{slug}}/">{{title}}</a></h3>
+          <p class="blog-excerpt">{{metaDescription}}</p>
+          <div class="blog-meta"><span>{{date}}</span><span>{{readTime}} read</span></div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{#if noPosts}}<div style="text-align:center;padding:3rem 0;">
+      <p style="color:var(--muted);font-size:1.1rem;">Blog articles coming soon. In the meantime, explore our <a href="/areas/">service areas</a> and <a href="/attractions/">attractions</a>.</p>
+    </div>{{/if}}
+  </div>
+</section>
+{{> footer}}

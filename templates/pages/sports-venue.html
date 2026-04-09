@@ -1,0 +1,44 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/sports/">Sports</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{venueName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{venueEmoji}}</div>
+    <h1>{{venueName}} Game Day Transportation | BusBrother</h1>
+    <p class="subtitle">Charter bus and group shuttle to {{venueName}} in {{cityName}}, FL. Skip the parking, arrive together.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Game Day Group Transportation to {{venueName}}</h2>
+        <p>{{venueDescription}}</p>
+        <h3>Why Charter a Bus to {{venueName}}</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Skip expensive stadium parking - driver drops you at the gate</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Tailgate together - arrive as a group, leave as a group</span></li>
+          <li><span class="check-icon">&#10003;</span><span>No surge pricing after the game like rideshare apps</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip with post-game pickup coordinated</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Multi-stop pickup from hotels, bars, restaurants</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available</span></li>
+        </ul>
+        {{#if majorEvents}}<h3>Major Events at {{venueName}}</h3>
+        <ul>{{#each majorEvents}}<li style="color:var(--muted);margin-bottom:0.5rem;">{{_item}}</li>{{/each}}</ul>{{/if}}
+        <div class="callout"><p><strong>Capacity: {{venueCapacity}}</strong> - When {{venueName}} fills up, parking and rideshare become a nightmare. BusBrother drops your group at the entrance and picks you up after the event.</p></div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Game Day Bus</h3>
+          <p style="color:var(--muted);">Get a free quote for group transportation to {{venueName}}.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

@@ -1,0 +1,136 @@
+[build]
+  command = "node build.js"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Force www to non-www ──────────────────────────────
+[[redirects]]
+  from = "https://www.busbrother.com/*"
+  to = "https://busbrother.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.busbrother.com/*"
+  to = "https://busbrother.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://busbrother.com/*"
+  to = "https://busbrother.com/:splat"
+  status = 301
+  force = true
+
+# ── Old site 404s - redirect to new equivalents ──────
+[[redirects]]
+  from = "/book-a-trip"
+  to = "/book/"
+  status = 301
+
+[[redirects]]
+  from = "/shuttle"
+  to = "/services/cruise-shuttle/"
+  status = 301
+
+[[redirects]]
+  from = "/charter"
+  to = "/services/corporate-charter/"
+  status = 301
+
+[[redirects]]
+  from = "/lander"
+  to = "/"
+  status = 301
+
+# ── Old area pages without trailing slash ─────────────
+[[redirects]]
+  from = "/areas/port-canaveral"
+  to = "/areas/port-canaveral/"
+  status = 301
+
+[[redirects]]
+  from = "/areas/cape-canaveral"
+  to = "/areas/cape-canaveral/"
+  status = 301
+
+[[redirects]]
+  from = "/areas/titusville"
+  to = "/areas/titusville/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact/"
+  status = 301
+
+# ── Old .html URLs from v1 site ──────────────────────
+[[redirects]]
+  from = "/services/:service.html"
+  to = "/services/:service/"
+  status = 301
+
+[[redirects]]
+  from = "/areas/:area.html"
+  to = "/areas/:area/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/:post.html"
+  to = "/blog/:post/"
+  status = 301
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/about/index.html"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/contact/index.html"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/book/index.html"
+  to = "/book/"
+  status = 301
+
+[[redirects]]
+  from = "/fleet/index.html"
+  to = "/fleet/"
+  status = 301
+
+[[redirects]]
+  from = "/faq/index.html"
+  to = "/faq/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/blog/"
+  status = 301

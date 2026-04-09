@@ -1,0 +1,72 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/attractions/">Attractions</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{attractionName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{attractionEmoji}}</div>
+    <h1>{{attractionName}} Group Transportation | BusBrother</h1>
+    <p class="subtitle">Charter bus and group shuttle service to {{attractionName}} in {{cityName}}, Florida.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Group Transportation to {{attractionName}}</h2>
+        <p>{{attractionDescription}}</p>
+
+        {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
+
+        <h3>BusBrother Transportation to {{attractionName}}</h3>
+        <p>{{transportNotes}}</p>
+
+        <h3>Available Services</h3>
+        <ul class="check-list">
+          {{#each popularServiceLinks}}<li><span class="check-icon">&#10003;</span><span><a href="/services/{{slug}}/">{{name}}</a></span></li>
+          {{/each}}
+        </ul>
+
+        {{#if tips}}<h3>Group Travel Tips</h3>
+        <ul>
+          {{#each tips}}<li style="color:var(--muted);margin-bottom:0.5rem;">{{_item}}</li>
+          {{/each}}
+        </ul>{{/if}}
+
+        <div class="callout"><p><strong>Book Your Group Trip:</strong> BusBrother picks up from any hotel, airport, or address in {{cityName}} and delivers your group directly to {{attractionName}}. Round-trip and multi-stop options available.</p></div>
+
+        {{> lead-magnet}}
+
+        <h3>Other Attractions Nearby</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each nearbyAttractions}}<a href="/attractions/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Transportation to {{attractionName}}</h3>
+          <p style="color:var(--muted);">Get a free quote for group bus service to {{attractionName}} from anywhere in Central Florida.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/areas/{{citySlug}}/" class="btn btn-outline">More in {{cityName}} &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Attraction Details</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Location: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Address: {{attractionAddress}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Type: {{attractionType}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

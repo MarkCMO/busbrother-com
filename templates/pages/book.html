@@ -1,0 +1,76 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><span>Get a Quote</span></div>
+    <h1>Get a Free Quote</h1>
+    <p class="subtitle">Tell us about your trip and we will send you a custom quote within 2 hours. Available 24/7.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <div class="quote-widget" style="margin-top:0;">
+      <h3 style="font-size:1.8rem;margin-bottom:1.5rem;">Request a Quote</h3>
+      <form name="quote-full" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="quote-full"/>
+        <p style="display:none;"><input name="bot-field"/></p>
+        <div class="form-row">
+          <div class="form-group"><label for="fname">Your Name</label><input type="text" id="fname" name="name" placeholder="Full name" required/></div>
+          <div class="form-group"><label for="femail">Email</label><input type="email" id="femail" name="email" placeholder="email@example.com" required/></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label for="fphone">Phone</label><input type="tel" id="fphone" name="phone" placeholder="(555) 555-5555"/></div>
+          <div class="form-group"><label for="fservice">Service Needed</label>
+            <select id="fservice" name="service" required>
+              <option value="">Select a service...</option>
+              <option value="cruise">Cruise Port Shuttle</option>
+              <option value="ksc">Kennedy Space Center</option>
+              <option value="airport">Airport Transfer</option>
+              <option value="rocket">Rocket Launch Viewing</option>
+              <option value="corporate">Corporate Charter</option>
+              <option value="wedding">Wedding / Event</option>
+              <option value="school">School Group</option>
+              <option value="themepark">Theme Parks</option>
+              <option value="hotel">Hotel Shuttle</option>
+              <option value="sports">Sports Event</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label for="ftrip">Trip Type</label>
+          <select id="ftrip" name="trip-type">
+            <option value="one-way">One-Way</option>
+            <option value="round-trip">Round Trip</option>
+            <option value="multi-stop">Multi-Stop</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label for="fdate">Pickup Date</label><input type="date" id="fdate" name="date" required/></div>
+          <div class="form-group"><label for="fpax">Number of Passengers</label>
+            <select id="fpax" name="passengers" required>
+              <option value="">Group size...</option>
+              <option>1-15</option><option>16-30</option><option>31-45</option><option>46-57</option><option>57+</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label for="fpickup">Pickup Location</label><input type="text" id="fpickup" name="pickup" placeholder="Hotel name, airport code, address..." required/></div>
+        <div class="form-group"><label for="fdropoff">Drop-off Location</label><input type="text" id="fdropoff" name="dropoff" placeholder="Cruise port, attraction, venue, address..." required/></div>
+        <div style="display:flex;flex-direction:column;gap:0.6rem;margin-bottom:1rem;">
+          <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+            <input type="checkbox" name="ada-accessible" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> ADA Wheelchair Accessible Vehicle Needed
+          </label>
+          <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+            <input type="checkbox" name="multi-stop" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> Multiple Pickup/Drop-off Stops
+          </label>
+          <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--muted);cursor:pointer;">
+            <input type="checkbox" name="luggage-assist" value="yes" style="accent-color:var(--gold);width:16px;height:16px;"/> Luggage Assistance Needed
+          </label>
+        </div>
+        <div class="form-group"><label for="fnotes">Special Requests / Additional Details</label><textarea id="fnotes" name="notes" rows="4" placeholder="Return trip details, extra stops, accessibility needs, event timing, number of buses needed, etc."></textarea></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">Send Quote Request &rarr;</button>
+      </form>
+    </div>
+  </div>
+</section>
+{{> footer}}

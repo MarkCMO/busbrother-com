@@ -1,0 +1,57 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/attractions/{{attractionSlug}}/">{{attractionName}}</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{serviceName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{serviceEmoji}}</div>
+    <h1>{{serviceName}} to {{attractionName}} | BusBrother</h1>
+    <p class="subtitle">Professional {{serviceNameLower}} for groups visiting {{attractionName}} in {{cityName}}, Florida.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{serviceName}} to {{attractionName}}</h2>
+        <p>{{introContent}}</p>
+
+        <h3>What's Included</h3>
+        <ul class="check-list">
+          {{#each serviceFeatures}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+          <li><span class="check-icon">&#10003;</span><span>Direct drop-off at {{attractionName}} entrance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip with flexible return scheduling</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
+        </ul>
+
+        <h3>About {{attractionName}}</h3>
+        <p>{{attractionDescription}}</p>
+
+        <h3>Getting There</h3>
+        <p>{{attractionName}} is located in {{cityName}}, Florida. BusBrother picks up from any hotel, airport, or address and delivers your group directly to the entrance. No parking fees, no navigation stress - just arrive and enjoy.</p>
+
+        {{#if tips}}<h3>Group Travel Tips</h3>
+        <ul>{{#each tips}}<li style="color:var(--muted);margin-bottom:0.5rem;">{{_item}}</li>{{/each}}</ul>{{/if}}
+
+        <div class="callout"><p><strong>Book Now:</strong> Get a free quote for {{serviceNameLower}} to {{attractionName}}. We respond within 2 hours. <a href="/book/">Request a quote</a>.</p></div>
+
+        <h3>Other Services to {{attractionName}}</h3>
+        <div class="areas-grid" style="margin:1rem 0;">
+          {{#each otherServices}}<a href="/attractions/{{attractionSlug}}/{{slug}}/" class="area-chip">{{emoji}} {{shortName}}</a>
+          {{/each}}
+        </div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/attractions/{{attractionSlug}}/" class="btn btn-outline">More About {{attractionName}} &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

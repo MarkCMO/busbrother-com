@@ -1,0 +1,37 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><span>All Service Areas</span></div>
+    <h1>120+ Florida Cities Served | BusBrother</h1>
+    <p class="subtitle">Charter bus and group transportation across Central and South Florida. From Tampa to Daytona Beach to Fort Lauderdale - BusBrother serves them all.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <span class="section-label">Major Cities</span>
+    <h2>Tier 1 Service Areas</h2>
+    <div class="areas-grid" style="margin:1.5rem 0 3rem;">
+      {{#each tier1Cities}}<a href="/areas/{{slug}}/" class="area-chip">{{emoji}} {{name}}, FL</a>
+      {{/each}}
+    </div>
+    <span class="section-label">Mid-Size Cities</span>
+    <h2>Tier 2 Service Areas</h2>
+    <div class="areas-grid" style="margin:1.5rem 0 3rem;">
+      {{#each tier2Cities}}<a href="/areas/{{slug}}/" class="area-chip">{{name}}, FL</a>
+      {{/each}}
+    </div>
+    <span class="section-label">All Areas</span>
+    <h2>Complete Coverage</h2>
+    <div class="areas-grid" style="margin:1.5rem 0 3rem;">
+      {{#each tier3Cities}}<a href="/areas/{{slug}}/" class="area-chip">{{name}}</a>
+      {{/each}}
+    </div>
+    <div style="text-align:center;margin-top:3rem;">
+      <a href="/book/" class="btn btn-primary btn-lg">Get a Free Quote &rarr;</a>
+    </div>
+  </div>
+</section>
+{{> footer}}

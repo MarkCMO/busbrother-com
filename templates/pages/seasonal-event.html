@@ -1,0 +1,44 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/events/">Events</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{eventName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{eventEmoji}}</div>
+    <h1>{{eventName}} Transportation | BusBrother</h1>
+    <p class="subtitle">Group bus and shuttle service for {{eventName}} in {{cityName}}, Florida. {{eventMonths}}.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>Group Transportation for {{eventName}}</h2>
+        <p>{{eventDescription}}</p>
+        {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
+        <h3>BusBrother Event Shuttle Service</h3>
+        <p>{{transportNotes}}</p>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Hotel-to-event shuttle service</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Airport transfers for out-of-town attendees</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip with flexible return scheduling</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Multi-stop pickup from multiple hotels</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
+          <li><span class="check-icon">&#10003;</span><span>On-site standby for flexible departures</span></li>
+        </ul>
+        <div class="callout"><p><strong>Book Early:</strong> {{eventName}} is one of {{cityName}}'s most popular events. Group transportation fills up fast - we recommend booking at least 3 weeks in advance.</p></div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Event Transportation</h3>
+          <p style="color:var(--muted);">Get a free quote for group bus service to {{eventName}}.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/areas/{{citySlug}}/" class="btn btn-outline">More in {{cityName}} &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

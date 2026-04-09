@@ -1,0 +1,27 @@
+<div style="margin:3rem 0;padding:2.5rem;background:linear-gradient(135deg,rgba(245,166,35,0.08),var(--card));border:1px solid rgba(245,166,35,0.3);border-radius:var(--radius);position:relative;overflow:hidden;">
+  <div style="position:absolute;top:-20px;right:-20px;font-size:8rem;opacity:0.06;transform:rotate(-15deg);">&#x1F6F3;&#xFE0F;</div>
+  <div style="position:relative;z-index:2;">
+    <span class="section-label">Free Cruise Guide</span>
+    <h3 style="font-size:1.6rem;margin-bottom:0.6rem;">Port Canaveral Cruise Checklist</h3>
+    <p style="color:var(--muted);font-size:0.92rem;margin-bottom:1.2rem;max-width:500px;">Don't forget anything. Get our free embarkation day checklist, packing guide, and pre-cruise hotel recommendations for Port Canaveral, Port Tampa Bay, and Port Everglades.</p>
+    <form name="lead-magnet-cruise" method="POST" action="{{canonicalUrl}}" data-netlify="true" netlify-honeypot="bot-field" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
+      <input type="hidden" name="form-name" value="lead-magnet-cruise"/>
+      <input type="hidden" name="page-url" value="{{canonicalUrl}}"/>
+      <input type="hidden" name="magnet-type" value="cruise-checklist"/>
+      <p style="display:none;"><input name="bot-field"/></p>
+      <div style="flex:1;min-width:200px;">
+        <label style="display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;">Email Address</label>
+        <input type="email" name="email" placeholder="your@email.com" required style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.8rem 1rem;border-radius:4px;font-family:'DM Sans',sans-serif;font-size:0.9rem;"/>
+      </div>
+      <div style="min-width:150px;">
+        <label style="display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;">Cruise Line</label>
+        <select name="cruise-line" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.8rem 1rem;border-radius:4px;font-family:'DM Sans',sans-serif;font-size:0.9rem;">
+          <option value="">Any</option>
+          <option>Carnival</option><option>Royal Caribbean</option><option>Disney</option><option>Norwegian</option><option>MSC</option><option>Celebrity</option><option>Virgin Voyages</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Get Free Checklist &rarr;</button>
+    </form>
+    <p style="color:var(--muted);font-size:0.72rem;margin-top:0.6rem;opacity:0.7;">Instant download. Plus exclusive cruise shuttle deals and port updates.</p>
+  </div>
+</div>

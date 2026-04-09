@@ -1,0 +1,45 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/airports/">Airports</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{airportCode}} to {{cityName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#9992;&#65039;</div>
+    <h1>{{airportName}} ({{airportCode}}) to {{cityName}} Group Shuttle | BusBrother</h1>
+    <p class="subtitle">Group airport transfer from {{airportCode}} to {{cityName}}, FL. Meet-and-greet, luggage assistance, direct service.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{airportCode}} Airport to {{cityName}} Group Transfer</h2>
+        <p>{{airportDescription}}</p>
+        {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
+        <h3>What's Included</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Meet-and-greet at baggage claim with your group name</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Full luggage assistance - loading and unloading</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Climate-controlled motorcoach or minibus</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Direct service to any address in {{cityName}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Flight delay monitoring - we adjust pickup time automatically</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Round trip option with return airport transfer</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Multi-stop for groups at different terminals</span></li>
+          <li><span class="check-icon">&#10003;</span><span>ADA wheelchair accessible vehicles available</span></li>
+        </ul>
+        <div class="callout"><p><strong>Flight Monitoring:</strong> BusBrother monitors your flight status. If your flight is delayed, we automatically adjust your pickup time at no extra charge.</p></div>
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Book Airport Transfer</h3>
+          <p style="color:var(--muted);">Get a free quote for group airport transfer from {{airportCode}} to {{cityName}}. Include your flight number for monitoring.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

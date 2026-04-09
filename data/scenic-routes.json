@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "a1a-scenic-highway-space-coast",
+    "routeName": "A1A Scenic Highway - Space Coast",
+    "routeSubtitle": "Drive Florida's most iconic coastal highway along the Space Coast, from Cocoa Beach through Cape Canaveral to Titusville.",
+    "description": "State Road A1A is Florida's legendary coastal highway, hugging the Atlantic Ocean shoreline from Miami to Jacksonville. The Space Coast section from Cocoa Beach north through Cape Canaveral to Titusville offers some of the most dramatic scenery in Central Florida, with views of rocket launch pads, pristine beaches, and the Indian River Lagoon.",
+    "distanceMiles": "45",
+    "driveTime": "1.5 hrs",
+    "numStops": "8",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting in Cocoa Beach at the famous pier, A1A heads north through Cape Canaveral, past Patrick Space Force Base, and into the Canaveral National Seashore. The route crosses the Indian River into Titusville, home of the US Space Walk of Fame. Along the way you pass surfers, sea turtles, manatees, and occasional rocket launches from nearby Kennedy Space Center.",
+    "stops": [
+      {"stopNum": "1", "name": "Cocoa Beach Pier", "description": "Start at the historic Cocoa Beach Pier, an 800-foot fishing pier with restaurants, bars, and gift shops stretching over the Atlantic Ocean. Great for sunrise views and people watching.", "website": "https://cocoabeachpier.com"},
+      {"stopNum": "2", "name": "Ron Jon Surf Shop", "description": "The world's largest surf shop is a Cocoa Beach landmark. Open 24 hours, this two-story emporium has everything from surfboards to souvenirs.", "website": "https://www.ronjonsurfshop.com"},
+      {"stopNum": "3", "name": "Lori Wilson Park", "description": "A beautiful beachside park with boardwalks through coastal hammock, picnic pavilions, and one of the best public beach access points on the Space Coast.", "website": "https://www.brevardfl.gov/parks"},
+      {"stopNum": "4", "name": "Port Canaveral Cove", "description": "Watch cruise ships and cargo vessels from the waterfront restaurants and shops at the Cove. The Exploration Tower offers panoramic views of the port and launch pads.", "website": "https://www.portcanaveral.com"},
+      {"stopNum": "5", "name": "Jetty Park Beach", "description": "A family-friendly beach at the mouth of Port Canaveral's channel. Watch ships pass by while swimming, fishing from the jetty, or camping at the campground.", "website": "https://www.jettypark.org"},
+      {"stopNum": "6", "name": "Canaveral National Seashore", "description": "Twenty-four miles of undeveloped barrier island beach managed by the National Park Service. Playalinda Beach on the south end has views of Kennedy Space Center launch pads.", "website": "https://www.nps.gov/cana"},
+      {"stopNum": "7", "name": "Merritt Island National Wildlife Refuge", "description": "Over 140,000 acres of wildlife habitat surrounding Kennedy Space Center. Drive the Black Point Wildlife Drive for birdwatching and alligator sightings.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "8", "name": "US Space Walk of Fame", "description": "End in Titusville at this outdoor monument honoring the astronauts and workers of America's space program. Located along the Indian River with views of Kennedy Space Center across the water.", "website": "https://spacewalkoffame.org"}
+    ],
+    "drivingTips": [
+      "A1A has a 35-45 mph speed limit through most beach towns - enjoy the slow pace",
+      "Watch for sea turtle nesting signs from May through October - lights out after dark near beaches",
+      "Pull off at any beach access point for quick swimming stops",
+      "Fill up on gas in Cocoa Beach - stations are sparse through the National Seashore section"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🚀"},
+      {"url": "https://www.nps.gov/cana", "label": "Canaveral National Seashore", "domain": "nps.gov", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "a1a-fort-lauderdale-to-palm-beach",
+    "routeName": "A1A Fort Lauderdale to Palm Beach",
+    "routeSubtitle": "Cruise the Gold Coast along A1A from Fort Lauderdale Beach through Boca Raton and Delray Beach to glamorous Palm Beach.",
+    "description": "The Gold Coast stretch of A1A from Fort Lauderdale to Palm Beach showcases South Florida's most beautiful oceanfront communities. This scenic drive passes pristine beaches, luxury estates, charming downtown districts, and world-class shopping. The route transitions from Fort Lauderdale's lively beach scene through the quaint villages of Highland Beach and Gulf Stream to the old-money elegance of Palm Beach.",
+    "distanceMiles": "50",
+    "driveTime": "1.5 hrs",
+    "numStops": "7",
+    "bestSeason": "November through April",
+    "routeOverview": "Starting at Fort Lauderdale Beach, A1A winds north through Lauderdale-by-the-Sea, Pompano Beach, Hillsboro Beach (home of the famous Hillsboro Inlet Lighthouse), Deerfield Beach, Boca Raton, Delray Beach, Boynton Beach, Manalapan, and into Palm Beach. The drive showcases South Florida's diverse coastal communities, from casual beach towns to exclusive island retreats.",
+    "stops": [
+      {"stopNum": "1", "name": "Fort Lauderdale Beach", "description": "Start at Fort Lauderdale's famous beach strip along A1A. The recently renovated beachfront promenade features wave walls, palm trees, and some of the widest white sand beaches in South Florida.", "website": "https://www.visitlauderdale.com"},
+      {"stopNum": "2", "name": "Lauderdale-by-the-Sea", "description": "A charming small beach town with a fishing pier, colorful shops along Commercial Boulevard, and some of the best shore diving and snorkeling in Florida thanks to a nearshore reef.", "website": "https://www.lauderdalebythesea-fl.gov"},
+      {"stopNum": "3", "name": "Hillsboro Inlet Lighthouse", "description": "Look for the historic 1907 Hillsboro Inlet Lighthouse as you cross the Hillsboro Mile. This iron lighthouse is one of the most powerful on the East Coast and sits at the border of Broward and Palm Beach counties.", "website": "https://www.hillsborolighthouse.org"},
+      {"stopNum": "4", "name": "Deerfield Beach International Fishing Pier", "description": "A 976-foot pier stretching into the Atlantic with a small beach cafe. The surrounding beach is clean and family-friendly with lifeguards year-round.", "website": "https://www.deerfield-beach.com"},
+      {"stopNum": "5", "name": "Red Reef Park and Gumbo Limbo Nature Center", "description": "A beautiful Boca Raton oceanfront park with a nature center featuring sea turtle rehabilitation tanks, butterfly gardens, and a boardwalk through a coastal hammock.", "website": "https://www.gumbolimbo.org"},
+      {"stopNum": "6", "name": "Atlantic Avenue in Delray Beach", "description": "Turn west onto Atlantic Avenue for one of South Florida's best downtown strips. Art galleries, restaurants, craft cocktail bars, and boutique shops line this walkable street from the beach to Swinton Avenue.", "website": "https://www.downtowndelraybeach.com"},
+      {"stopNum": "7", "name": "Worth Avenue in Palm Beach", "description": "End your drive on Worth Avenue, Palm Beach's legendary shopping street. Mediterranean-style architecture, luxury boutiques, art galleries, and outdoor cafes make this one of the most exclusive shopping destinations in the world.", "website": "https://www.worth-avenue.com"}
+    ],
+    "drivingTips": [
+      "Traffic on A1A through Fort Lauderdale can be heavy during spring break and winter season - plan for slower than usual travel",
+      "Many A1A sections are two lanes with a 35 mph speed limit - do not try to rush this drive",
+      "Parking in Delray Beach and Palm Beach is metered and fills quickly on weekends - arrive before 11 AM",
+      "Watch for cyclists - A1A is a popular cycling route and many sections have bike lanes"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visitlauderdale.com", "label": "Visit Lauderdale", "domain": "visitlauderdale.com", "emoji": "🌴"},
+      {"url": "https://www.thepalmbeaches.com", "label": "The Palm Beaches", "domain": "thepalmbeaches.com", "emoji": "🏖️"},
+      {"url": "https://www.downtowndelraybeach.com", "label": "Downtown Delray Beach", "domain": "downtowndelraybeach.com", "emoji": "🎨"}
+    ]
+  },
+  {
+    "slug": "merritt-island-wildlife-drive",
+    "routeName": "Merritt Island Wildlife Drive",
+    "routeSubtitle": "A one-way loop through one of America's most diverse wildlife refuges, where rockets share the sky with bald eagles.",
+    "description": "The Merritt Island National Wildlife Refuge surrounds Kennedy Space Center and protects over 140,000 acres of coastal habitat. The 7-mile Black Point Wildlife Drive is the main scenic route, but the broader Merritt Island experience includes multiple scenic drives, hiking trails, and kayak launches through mangroves, marshes, and hammocks teeming with wildlife.",
+    "distanceMiles": "7",
+    "driveTime": "1 hr",
+    "numStops": "5",
+    "bestSeason": "October through March",
+    "routeOverview": "The Black Point Wildlife Drive is a one-way gravel road loop through salt marshes and impoundments. During winter months, the refuge hosts over 300 species of migratory birds including roseate spoonbills, great blue herons, wood storks, and bald eagles. Alligators sun themselves along the road and manatees swim in the adjacent waterways. The drive is slow and meditative, perfect for photography.",
+    "stops": [
+      {"stopNum": "1", "name": "Refuge Visitor Center", "description": "Start at the Visitor Center on State Road 402 for maps, wildlife checklists, and information about current sightings. Rangers can tell you what species have been spotted recently.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "2", "name": "Black Point Wildlife Drive Entrance", "description": "Enter the 7-mile one-way gravel loop. Drive slowly (15 mph max) and scan the marshes for wading birds, raptors, and alligators. Bring binoculars and a camera with a zoom lens.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "3", "name": "Observation Tower", "description": "Climb the observation tower near the midpoint of the drive for elevated views across the marsh. This is the best vantage point for spotting distant wildlife and photographing the landscape.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "4", "name": "Cruickshank Trail", "description": "A 5-mile hiking trail along the edge of the Indian River. Walk the dike trail for close-up views of shorebirds, pelicans, and dolphins in the river. The trail loops through marsh habitat.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "5", "name": "Manatee Observation Deck at Haulover Canal", "description": "Drive north on US-3 to Haulover Canal for almost guaranteed manatee sightings from November through March. The observation deck overlooks the canal where manatees gather in cooler months.", "website": "https://www.fws.gov/refuge/merritt-island"}
+    ],
+    "drivingTips": [
+      "Black Point Wildlife Drive is closed seasonally for hunting (usually November) - check the refuge website before visiting",
+      "Drive at 15 mph or slower for the best wildlife sightings - rushing means missing everything",
+      "Bring mosquito repellent, especially during summer months - the marshes breed mosquitoes",
+      "Visit at sunrise or the last hour before sunset for the most active wildlife"
+    ],
+    "externalLinks": [
+      {"url": "https://www.fws.gov/refuge/merritt-island", "label": "Merritt Island NWR", "domain": "fws.gov", "emoji": "🦅"},
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🚀"}
+    ]
+  },
+  {
+    "slug": "black-point-wildlife-drive",
+    "routeName": "Black Point Wildlife Drive",
+    "routeSubtitle": "A slow, winding gravel road through salt marshes where hundreds of bird species gather in the shadow of Kennedy Space Center.",
+    "description": "Black Point Wildlife Drive is the signature driving trail within the Merritt Island National Wildlife Refuge. This 7-mile one-way loop takes you through some of the most productive bird habitat on the East Coast. The drive is especially spectacular from October through March when thousands of migratory birds arrive from across North America.",
+    "distanceMiles": "7",
+    "driveTime": "45 min to 1.5 hrs",
+    "numStops": "6",
+    "bestSeason": "October through March",
+    "routeOverview": "The drive begins off State Road 406 east of Titusville. The gravel road winds through impounded marshes managed specifically for waterfowl and wading birds. Water levels are manipulated throughout the year to create ideal feeding conditions. In winter, expect to see roseate spoonbills, wood storks, white pelicans, bald eagles, northern harriers, and hundreds of ducks and shorebirds.",
+    "stops": [
+      {"stopNum": "1", "name": "Drive Entrance and Kiosk", "description": "Pull in at the entrance kiosk for a printed map and bird checklist. The refuge is free to visit. Read the information boards about current wildlife management activities on the impoundments.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "2", "name": "First Impoundment Overlook", "description": "The first large impoundment often has the highest concentration of wading birds. Look for roseate spoonbills, great egrets, snowy egrets, and tricolored herons feeding in the shallows.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "3", "name": "Alligator Bend", "description": "A stretch of road where alligators frequently bask on the banks. Do not leave your vehicle near alligators and never feed wildlife. This is also a productive spot for anhingas and cormorants.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "4", "name": "Observation Tower and Boardwalk", "description": "The observation tower provides a 360-degree view of the marshes and distant Kennedy Space Center launch pads. Climb to the top for the best photography angles across the impoundments.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "5", "name": "Eagle Nest Area", "description": "Look for the active bald eagle nest visible from the road during nesting season (October through May). The eagles often perch in tall pines near the road. Use binoculars to avoid disturbing them.", "website": "https://www.fws.gov/refuge/merritt-island"},
+      {"stopNum": "6", "name": "Drive Exit and Marsh Overlook", "description": "The final section of the drive passes through open marsh with panoramic views. Stop at the pullout near the exit for one last scan of the wetlands before returning to paved roads.", "website": "https://www.fws.gov/refuge/merritt-island"}
+    ],
+    "drivingTips": [
+      "Keep your windows rolled down and engine quiet for the best wildlife encounters",
+      "A spotting scope or binoculars are essential - many birds are distant across the impoundments",
+      "The road is unpaved gravel and can be muddy after rain - drive carefully",
+      "No restrooms on the drive - use facilities at the Visitor Center before entering",
+      "Sunrise is the absolute best time for photography and birding"
+    ],
+    "externalLinks": [
+      {"url": "https://www.fws.gov/refuge/merritt-island", "label": "Merritt Island NWR", "domain": "fws.gov", "emoji": "🦅"},
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🌿"}
+    ]
+  },
+  {
+    "slug": "ormond-scenic-loop",
+    "routeName": "Ormond Scenic Loop and Trail",
+    "routeSubtitle": "A canopy road through ancient live oaks, past Tomoka State Park, and along the Halifax River north of Daytona Beach.",
+    "description": "The Ormond Scenic Loop and Trail is a 30-mile designated scenic drive that winds through some of the most beautiful old-Florida landscapes in Volusia County. The route follows narrow roads beneath towering live oaks draped in Spanish moss, past the Tomoka River Basin, and along the Halifax River. It is one of the few scenic drives in Florida where the canopy road experience rivals the best in the Deep South.",
+    "distanceMiles": "30",
+    "driveTime": "1.5 hrs",
+    "numStops": "6",
+    "bestSeason": "Year-round",
+    "routeOverview": "The loop starts in Ormond Beach and heads north on John Anderson Drive along the Halifax River, then west on Walter Boardman Lane through dense maritime hammock, south on Old Dixie Highway under massive live oak canopies, and east on High Bridge Road back toward the coast. The route passes through Tomoka State Park, the Bulow Plantation Ruins, and several historic sites.",
+    "stops": [
+      {"stopNum": "1", "name": "Ormond Beach Scenic Trailhead", "description": "Begin at the trailhead on North Beach Street in Ormond Beach. The informational kiosk has maps and interpretive panels about the scenic loop's natural and cultural history.", "website": "https://www.ormondbeach.org"},
+      {"stopNum": "2", "name": "Tomoka State Park", "description": "A beautiful park at the confluence of the Tomoka and Halifax rivers. Kayak the mangrove-lined waterways, hike nature trails, or visit the Fred Dana Marsh Museum about the Timucuan people who lived here.", "website": "https://www.floridastateparks.org/parks-and-trails/tomoka-state-park"},
+      {"stopNum": "3", "name": "Bulow Plantation Ruins Historic State Park", "description": "Explore the ruins of a 19th-century sugar mill plantation destroyed during the Second Seminole War. The coquina stone ruins are surrounded by dense hammock forest and are eerily beautiful.", "website": "https://www.floridastateparks.org/parks-and-trails/bulow-plantation-ruins-historic-state-park"},
+      {"stopNum": "4", "name": "Old Dixie Highway Canopy Road", "description": "The most scenic stretch of the loop features massive live oaks forming a cathedral-like canopy over the road. Spanish moss drapes from every branch and the filtered sunlight creates a magical atmosphere.", "website": "https://www.ormondbeach.org"},
+      {"stopNum": "5", "name": "Bulow Creek State Park and Fairchild Oak", "description": "Home to the Fairchild Oak, one of the largest live oak trees in the Southern United States. The tree is estimated to be over 400 years old with a canopy spread of over 130 feet.", "website": "https://www.floridastateparks.org/parks-and-trails/bulow-creek-state-park"},
+      {"stopNum": "6", "name": "Highbridge Park", "description": "End the loop at Highbridge Park where the Tomoka River meets the Halifax River. The park has a boat ramp, fishing pier, and scenic views. Great for spotting dolphins, manatees, and ospreys.", "website": "https://www.volusia.org/services/community-services/parks-recreation-and-culture"}
+    ],
+    "drivingTips": [
+      "The canopy road sections are narrow with low-hanging branches - use caution with tall vehicles",
+      "Speed limit is 25-35 mph through most of the loop - this is meant to be a slow, meditative drive",
+      "Watch for cyclists and joggers on the multi-use trail that parallels parts of the route",
+      "Mosquitoes can be intense near the river during summer - bring repellent if you plan to stop and hike"
+    ],
+    "externalLinks": [
+      {"url": "https://www.ormondbeach.org", "label": "Ormond Beach Official", "domain": "ormondbeach.org", "emoji": "🌳"},
+      {"url": "https://www.floridastateparks.org", "label": "Florida State Parks", "domain": "floridastateparks.org", "emoji": "🏞️"},
+      {"url": "https://www.daytonabeach.com", "label": "Daytona Beach Area CVB", "domain": "daytonabeach.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "indian-river-lagoon-scenic-byway",
+    "routeName": "Indian River Lagoon Scenic Byway",
+    "routeSubtitle": "Follow the shores of the most biologically diverse estuary in North America from Melbourne through Indialantic and along US-1.",
+    "description": "The Indian River Lagoon Scenic Byway traces the shoreline of the Indian River Lagoon, a 156-mile estuary recognized as the most biodiverse in North America. The route follows US-1 and Indian River Drive through historic fishing villages, waterfront parks, and communities that have depended on the lagoon for centuries. Expect manatees, dolphins, pelicans, and stunning water views.",
+    "distanceMiles": "40",
+    "driveTime": "1.5 hrs",
+    "numStops": "6",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting in Melbourne, the route follows US-1 and Indian River Drive north through Rockledge, Cocoa, and into Titusville. Along the way, you pass historic homes, waterfront parks, and small fishing communities. The lagoon is visible for much of the drive, and pullouts allow for wildlife viewing and photography.",
+    "stops": [
+      {"stopNum": "1", "name": "Downtown Melbourne and Crane Creek Promenade", "description": "Start in Historic Downtown Melbourne's walkable district with restaurants, art galleries, and the Crane Creek Promenade along the waterfront. The creek is a popular manatee viewing spot.", "website": "https://www.downtownmelbourne.com"},
+      {"stopNum": "2", "name": "Brevard Zoo", "description": "An award-winning zoo with over 900 animals and unique kayaking through animal habitats. The Treetop Trek features ziplines and aerial adventures above the zoo grounds.", "website": "https://www.brevardzoo.org"},
+      {"stopNum": "3", "name": "Historic Cocoa Village", "description": "A charming riverside district with over 60 shops, restaurants, and galleries housed in restored historic buildings. The Cocoa Village Playhouse is the oldest continuously operating theater in Florida.", "website": "https://www.cocoavillage.com"},
+      {"stopNum": "4", "name": "Indian River Drive", "description": "The most scenic section of the byway follows Indian River Drive along the western shore of the lagoon. Massive live oaks, historic homes, and water views make this a quintessential Old Florida experience.", "website": "https://www.visitspacecoast.com"},
+      {"stopNum": "5", "name": "Parrish Park and Marina", "description": "A waterfront park in Titusville with a marina, boat ramps, and picnic areas. Views across the Indian River to Kennedy Space Center make this one of the best free rocket launch viewing spots in the area.", "website": "https://www.titusville.com"},
+      {"stopNum": "6", "name": "Titusville Historic Downtown", "description": "End in downtown Titusville with its murals, craft breweries, and the Playalinda Brewing Company. The US Space Walk of Fame is along the waterfront.", "website": "https://www.titusville.com"}
+    ],
+    "drivingTips": [
+      "Indian River Drive is a narrow two-lane road with a 30-35 mph speed limit - perfect for sightseeing",
+      "Pull over at waterfront pullouts to scan for manatees and dolphins in the lagoon",
+      "Avoid US-1 during rush hour - take Indian River Drive instead for a more scenic and less congested route",
+      "Bring binoculars for birdwatching along the lagoon shoreline"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🌊"},
+      {"url": "https://www.brevardzoo.org", "label": "Brevard Zoo", "domain": "brevardzoo.org", "emoji": "🦁"}
+    ]
+  },
+  {
+    "slug": "old-dixie-highway-daytona",
+    "routeName": "Old Dixie Highway - Daytona",
+    "routeSubtitle": "Travel the original north-south highway through Volusia County, under towering oaks and past forgotten Florida roadside history.",
+    "description": "Old Dixie Highway was one of the first paved routes through Florida's interior, connecting northern cities to the growing resort towns of the early 1900s. Today, the Volusia County section between Daytona Beach and New Smyrna Beach is a quiet, tree-canopied road offering a glimpse of Florida before the interstate era. Massive oaks, historic homes, and forgotten roadside attractions line the route.",
+    "distanceMiles": "18",
+    "driveTime": "45 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting in South Daytona, Old Dixie Highway winds south through Port Orange, past Spruce Creek, and into New Smyrna Beach. The road is flanked by live oaks, abandoned citrus groves, and small historic communities. This is a drive for history buffs and anyone who appreciates the slower side of Florida travel.",
+    "stops": [
+      {"stopNum": "1", "name": "Dunlawton Sugar Mill Gardens", "description": "Free botanical gardens built around the ruins of a 19th-century sugar mill. The gardens feature dinosaur sculptures (a beloved local quirk), native plants, and shaded walking paths.", "website": "https://www.dunlawtonsugarmillgardens.org"},
+      {"stopNum": "2", "name": "Spruce Creek Preserve", "description": "A Volusia County park with hiking trails through pine flatwoods and hardwood hammock. The preserve protects a portion of Spruce Creek, one of the best paddling creeks in Central Florida.", "website": "https://www.volusia.org/services/community-services/parks-recreation-and-culture"},
+      {"stopNum": "3", "name": "Old Sugar Mill Pancake House", "description": "A beloved local breakfast spot inside a restored sugar mill in De Leon Springs State Park. Cook your own pancakes on griddles built into the tables - a Central Florida tradition since the 1960s.", "website": "https://www.oldfloridabreakfast.com"},
+      {"stopNum": "4", "name": "Turnbull Ruins", "description": "Remnants of the New Smyrna Colony founded in 1768 by Dr. Andrew Turnbull. These are some of the oldest European ruins in Florida, dating back over 250 years.", "website": "https://www.nsbfla.com"},
+      {"stopNum": "5", "name": "Flagler Avenue in New Smyrna Beach", "description": "End on Flagler Avenue, New Smyrna Beach's main street with surf shops, art galleries, restaurants, and beach access. The town is known as the East Coast Surfing Capital.", "website": "https://www.flaglerave.com"}
+    ],
+    "drivingTips": [
+      "Old Dixie Highway is a narrow two-lane road with no shoulder in many sections - drive carefully",
+      "Speed limits are 35-45 mph and enforced through the small communities along the route",
+      "Stop at the Old Sugar Mill Pancake House early - it fills up fast on weekend mornings",
+      "Watch for cyclists on the road, especially near Spruce Creek and New Smyrna Beach"
+    ],
+    "externalLinks": [
+      {"url": "https://www.daytonabeach.com", "label": "Daytona Beach CVB", "domain": "daytonabeach.com", "emoji": "🌴"},
+      {"url": "https://www.nsbfla.com", "label": "New Smyrna Beach", "domain": "nsbfla.com", "emoji": "🏄"}
+    ]
+  },
+  {
+    "slug": "courtney-campbell-causeway-tampa",
+    "routeName": "Courtney Campbell Causeway - Tampa",
+    "routeSubtitle": "Cross Tampa Bay on this scenic causeway with stunning water views, kayak launches, and a paved recreation trail.",
+    "description": "The Courtney Campbell Causeway (State Road 60) connects Tampa to Clearwater across upper Tampa Bay. This 10-mile bridge and causeway features a paved recreation trail, multiple beach areas, kayak launches, and panoramic views of Tampa Bay. At sunset, the causeway offers some of the most dramatic views in the Tampa Bay area.",
+    "distanceMiles": "10",
+    "driveTime": "20 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "The causeway runs east-west across Old Tampa Bay between Tampa and Clearwater. The Ben T. Davis Beach on the Tampa side offers swimming and picnicking. The recreation trail runs the full length, popular with cyclists and joggers. Several pullouts along the causeway allow for fishing, kayaking, and enjoying the bay views.",
+    "stops": [
+      {"stopNum": "1", "name": "Ben T. Davis Beach", "description": "A popular city beach on the Tampa side of the causeway. The beach features white sand, picnic tables, restrooms, and views of the Courtney Campbell bridge stretching across the bay.", "website": "https://www.tampa.gov/parks-and-recreation"},
+      {"stopNum": "2", "name": "Courtney Campbell Trail", "description": "A 10.5-mile paved trail running alongside the causeway. Perfect for walking, jogging, or cycling with unobstructed bay views. The trail connects to the Upper Tampa Bay Trail on the Tampa side.", "website": "https://www.hillsboroughcounty.org/residents/recreation-and-culture/trails"},
+      {"stopNum": "3", "name": "Causeway Kayak Launch", "description": "Multiple kayak and paddleboard launch points along the causeway provide access to the shallow waters of upper Tampa Bay. Paddle among mangrove islands and look for dolphins, manatees, and rays.", "website": "https://www.visitstpeteclearwater.com"},
+      {"stopNum": "4", "name": "Rocky Point Golf Course Views", "description": "The stretch near Rocky Point offers views of the golf course, Tampa International Airport planes on approach, and the Tampa skyline across the bay.", "website": "https://www.tampa.gov"},
+      {"stopNum": "5", "name": "Safety Harbor Spa and Waterfront", "description": "Just north of the causeway, the charming town of Safety Harbor has a historic spa resort, waterfront parks, and a walkable Main Street with restaurants and boutiques.", "website": "https://www.cityofsafetyharbor.com"}
+    ],
+    "drivingTips": [
+      "The causeway can be windy - keep a firm grip on the steering wheel, especially in larger vehicles",
+      "Sunset drives from east to west are spectacular but can cause sun glare - bring sunglasses",
+      "Parking along the causeway pullouts fills quickly on weekends - arrive early for kayaking or fishing",
+      "Speed limit is 50 mph on the causeway - respect it as there are often cyclists and pedestrians on the adjacent trail"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visittampabay.com", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌅"},
+      {"url": "https://www.visitstpeteclearwater.com", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "bayshore-boulevard-tampa",
+    "routeName": "Bayshore Boulevard - Tampa",
+    "routeSubtitle": "Drive the longest continuous sidewalk in the world along Tampa Bay, past historic mansions, Hyde Park, and the Tampa skyline.",
+    "description": "Bayshore Boulevard runs along the western shore of Hillsborough Bay in Tampa and is home to the world's longest continuous sidewalk at 4.5 miles. The boulevard is lined with grand historic homes, towering palm trees, and unobstructed views of Tampa Bay. It is the most prestigious address in Tampa and one of the most beautiful urban drives in Florida.",
+    "distanceMiles": "5",
+    "driveTime": "15 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting at the southern end near Gandy Boulevard, Bayshore Boulevard curves north along the bay through the neighborhoods of Palma Ceia and Beach Park, past Ballast Point Park, and into the South Tampa and Hyde Park neighborhoods. The road ends near downtown Tampa's Bayshore Arts District. Along the way, you pass million-dollar homes, joggers on the sidewalk, and stunning bay views.",
+    "stops": [
+      {"stopNum": "1", "name": "Ballast Point Park", "description": "A waterfront park with a fishing pier, playground, splash pad, and restaurant (Taste of Boston). Views across Hillsborough Bay to MacDill Air Force Base and downtown Tampa.", "website": "https://www.tampa.gov/parks-and-recreation"},
+      {"stopNum": "2", "name": "Bayshore Boulevard Sidewalk", "description": "The 4.5-mile continuous sidewalk is a Tampa icon. Walkers, joggers, cyclists, and rollerbladers share the path with views of the bay, the Selmon Expressway bridge, and the Tampa skyline.", "website": "https://www.tampa.gov"},
+      {"stopNum": "3", "name": "Hyde Park Village", "description": "Turn west on Swann Avenue to reach Hyde Park Village, Tampa's premier open-air shopping and dining destination. Boutiques, restaurants, and a Saturday morning farmers market make this a Tampa essential.", "website": "https://www.hydeparkvillage.com"},
+      {"stopNum": "4", "name": "Plant Museum at University of Tampa", "description": "The Henry B. Plant Museum is housed in the stunning minarets of the former Tampa Bay Hotel (1891). The Moorish Revival architecture is one of Tampa's most iconic landmarks.", "website": "https://www.plantmuseum.com"},
+      {"stopNum": "5", "name": "Bayshore Arts District", "description": "The northern end of Bayshore meets the growing arts district with galleries, studios, and the new Westshore Marina District. Stop for coffee and enjoy the view of the Garrison Channel.", "website": "https://www.visittampabay.com"}
+    ],
+    "drivingTips": [
+      "Speed limit on Bayshore is 40 mph but traffic often moves slower - enjoy the views",
+      "Parallel parking along Bayshore is available but spaces fill on busy evenings and weekends",
+      "Watch for joggers and cyclists crossing at intersections - the sidewalk is extremely popular",
+      "Sunset drives heading south on Bayshore offer the best light and reflections on the bay"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visittampabay.com", "label": "Visit Tampa Bay", "domain": "visittampabay.com", "emoji": "🌅"},
+      {"url": "https://www.hydeparkvillage.com", "label": "Hyde Park Village", "domain": "hydeparkvillage.com", "emoji": "🛍️"}
+    ]
+  },
+  {
+    "slug": "pinellas-trail",
+    "routeName": "Pinellas Trail",
+    "routeSubtitle": "Follow Florida's premier rail-trail from Tarpon Springs to St. Petersburg, passing through charming Gulf Coast communities.",
+    "description": "The Fred Marquis Pinellas Trail is a 75-mile paved multi-use trail built on a former railroad corridor running the length of Pinellas County. While primarily a cycling and walking trail, the parallel roads offer a scenic driving route through historic downtowns, coastal communities, and waterfront parks along Florida's Gulf Coast. The trail connects Tarpon Springs, Dunedin, Clearwater, Largo, Seminole, and St. Petersburg.",
+    "distanceMiles": "42",
+    "driveTime": "1.5 hrs",
+    "numStops": "7",
+    "bestSeason": "Year-round",
+    "routeOverview": "Driving the roads parallel to the Pinellas Trail from Tarpon Springs south to St. Petersburg takes you through the heart of Pinellas County's charming communities. Each town along the route has its own character, from the Greek sponge diving heritage of Tarpon Springs to the Scottish roots of Dunedin and the urban energy of downtown St. Petersburg.",
+    "stops": [
+      {"stopNum": "1", "name": "Tarpon Springs Sponge Docks", "description": "Start at the historic Sponge Docks, where Greek sponge divers settled over a century ago. The waterfront district has Greek restaurants, bakeries, boat tours, and sponge shops.", "website": "https://www.tarponsprings.com"},
+      {"stopNum": "2", "name": "Downtown Dunedin", "description": "A walkable Scottish-themed downtown with craft breweries (Dunedin Brewery is Florida's oldest), restaurants, art galleries, and the Pinellas Trail running right through the middle.", "website": "https://www.dunedingov.com"},
+      {"stopNum": "3", "name": "Caladesi Island State Park", "description": "Accessible by ferry from Honeymoon Island, Caladesi is consistently rated among the top beaches in the United States. Pristine white sand, clear water, and a mangrove kayak trail.", "website": "https://www.floridastateparks.org/parks-and-trails/caladesi-island-state-park"},
+      {"stopNum": "4", "name": "Clearwater Beach", "description": "One of Florida's most famous beaches with sugar-white sand and clear Gulf waters. Pier 60 has nightly sunset celebrations with street performers and artisans.", "website": "https://www.visitclearwaterflorida.com"},
+      {"stopNum": "5", "name": "Largo Central Park", "description": "A beautiful 70-acre park in the center of Largo with nature trails, a recreation complex, and regular outdoor events and festivals.", "website": "https://www.largo.com/parks"},
+      {"stopNum": "6", "name": "Walsingham Park", "description": "A hidden gem with trails through pine flatwoods, a narrows boardwalk, and access to the Pinellas Trail. The park connects to other preserves creating miles of nature trails.", "website": "https://www.pinellascounty.org/park"},
+      {"stopNum": "7", "name": "Downtown St. Petersburg", "description": "End in the vibrant heart of St. Pete with world-class museums (The Dali, Museum of Fine Arts), murals, craft breweries, waterfront parks, and the St. Pete Pier.", "website": "https://www.visitstpeteclearwater.com"}
+    ],
+    "drivingTips": [
+      "The Pinellas Trail parallels Alternate US-19 and local roads - follow signs for the trail communities",
+      "Parking in downtown Dunedin and Clearwater Beach fills quickly on weekends - arrive before noon",
+      "Each community along the trail has a distinct character - budget time for exploring, not just driving through",
+      "The Gulf Coast has spectacular sunsets year-round - plan your drive to end in St. Pete or Clearwater at sunset"
+    ],
+    "externalLinks": [
+      {"url": "https://www.pinellascounty.org/trailgd", "label": "Pinellas Trail Guide", "domain": "pinellascounty.org", "emoji": "🚴"},
+      {"url": "https://www.visitstpeteclearwater.com", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "🌅"}
+    ]
+  },
+  {
+    "slug": "cross-seminole-trail",
+    "routeName": "Cross Seminole Trail",
+    "routeSubtitle": "A peaceful paved trail through suburban Seminole County, connecting neighborhoods, parks, and natural springs.",
+    "description": "The Cross Seminole Trail is a 23-mile paved multi-use trail running through Seminole County north of Orlando. The trail passes through shaded neighborhoods, connects to several parks and natural springs, and provides a peaceful alternative to the busy roads of suburban Central Florida. The parallel roads and trail access points create a scenic driving and stopping tour.",
+    "distanceMiles": "23",
+    "driveTime": "45 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "The trail runs from Oviedo through Winter Springs, Casselberry, and Lake Mary. Driving the roads parallel to the trail, you pass through quiet residential neighborhoods, along lakefronts, and past natural areas. The trail connects to Big Tree Park (home of a famous bald cypress), multiple springs, and the scenic shores of several Seminole County lakes.",
+    "stops": [
+      {"stopNum": "1", "name": "Oviedo on the Park", "description": "Start in downtown Oviedo at this mixed-use development with restaurants, shops, and a community gathering space. Oviedo is known for its friendly chickens that roam the streets.", "website": "https://www.cityofoviedo.net"},
+      {"stopNum": "2", "name": "Black Hammock Adventures", "description": "An airboat tour and wildlife attraction on Lake Jesup, home to one of the largest alligator populations in Florida. Take a thrilling airboat ride or dine at the waterfront restaurant.", "website": "https://www.theblackhammock.com"},
+      {"stopNum": "3", "name": "Winter Springs Town Center", "description": "A pedestrian-friendly town center with shops, restaurants, and community events. The Cross Seminole Trail runs right through the area with easy access.", "website": "https://www.winterspringsfl.org"},
+      {"stopNum": "4", "name": "Big Tree Park", "description": "Home to the Senator, which was one of the oldest and largest bald cypress trees in the world before a fire in 2012. The park still features Lady Liberty, a large companion cypress, and peaceful boardwalks.", "website": "https://www.seminolecountyfl.gov/departments-services/leisure-services/parks-recreation"},
+      {"stopNum": "5", "name": "Lake Mary Natural Area and Greeneway", "description": "A scenic natural area with boardwalks over wetlands, wildlife viewing, and connections to the trail system. The area is home to gopher tortoises, hawks, and various wading birds.", "website": "https://www.seminolecountyfl.gov"}
+    ],
+    "drivingTips": [
+      "The trail parallels multiple local roads - use State Road 434 and local streets to access trailheads and stops",
+      "Parking is available at most trailheads and parks along the route",
+      "Watch for trail users crossing roads at marked crossings throughout Seminole County",
+      "Visit Big Tree Park in the morning when the light filters beautifully through the cypress canopy"
+    ],
+    "externalLinks": [
+      {"url": "https://www.seminolecountyfl.gov", "label": "Seminole County Parks", "domain": "seminolecountyfl.gov", "emoji": "🌲"},
+      {"url": "https://www.visitseminole.com", "label": "Visit Seminole County", "domain": "visitseminole.com", "emoji": "🌿"}
+    ]
+  },
+  {
+    "slug": "west-orange-trail",
+    "routeName": "West Orange Trail",
+    "routeSubtitle": "Ride or drive through Orange County's rolling hills, past horse farms, citrus groves, and the charming towns of Winter Garden and Oakland.",
+    "description": "The West Orange Trail is a 22-mile paved rail-trail running through western Orange County from Apopka through Winter Garden to the Oakland Nature Preserve. The surrounding roads pass through some of the most scenic countryside in the Orlando metro area, with horse farms, remnant citrus groves, rolling hills, and historic small towns that predate the theme park era.",
+    "distanceMiles": "22",
+    "driveTime": "40 min",
+    "numStops": "6",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting in Apopka, the route follows the trail corridor south through Killarney Station and into downtown Winter Garden. From Winter Garden, it continues west through the rural landscapes of Oakland and Horizons West. The drive showcases a side of Orlando most visitors never see - rolling terrain, horse pastures, old Florida homes, and thriving small-town downtowns.",
+    "stops": [
+      {"stopNum": "1", "name": "Apopka Trailhead", "description": "The northern terminus of the West Orange Trail in Apopka. The area features a bike rental station, restrooms, and parking. Start here to ride or drive the full trail corridor.", "website": "https://www.orangecountyfl.net/cultureparks/trails.aspx"},
+      {"stopNum": "2", "name": "Killarney Station", "description": "A historic railroad station along the trail that has been restored as a rest stop. The surrounding area has old Florida charm with towering oaks and remnants of the orange grove era.", "website": "https://www.orangecountyfl.net"},
+      {"stopNum": "3", "name": "Downtown Winter Garden", "description": "The crown jewel of the West Orange Trail. The beautifully restored downtown features Plant Street, the Garden Theatre, dozens of restaurants and shops, and the Winter Garden Heritage Foundation Museum.", "website": "https://www.cwgdn.com"},
+      {"stopNum": "4", "name": "Garden Theatre", "description": "A restored 1935 movie palace now operating as a live performance venue. The Art Deco facade is one of Winter Garden's most photographed landmarks.", "website": "https://www.gardentheatre.org"},
+      {"stopNum": "5", "name": "Oakland Nature Preserve", "description": "A 128-acre preserve at the western end of the trail featuring boardwalks through cypress swamp and hardwood hammock along the shore of Lake Apopka. Look for barred owls, great blue herons, and river otters.", "website": "https://www.oaklandnaturepreserve.org"},
+      {"stopNum": "6", "name": "Lake Apopka Wildlife Drive", "description": "Just north of the trail, this 11-mile one-way drive around the northern shore of Lake Apopka is one of the best birding drives in Central Florida, with hundreds of species visible from your car.", "website": "https://www.sjrwmd.com/lands/recreation/lake-apopka"}
+    ],
+    "drivingTips": [
+      "Plant Street in Winter Garden has angled parking that fills on weekends - use the public parking garage on Dillard Street",
+      "The Lake Apopka Wildlife Drive is only open weekends and holidays (Friday through Sunday, sunrise to sunset)",
+      "Bring a bike rack if you have one - the trail is excellent for cycling and you can park at any trailhead",
+      "Horse farms along the route are private property - admire from the road but do not enter"
+    ],
+    "externalLinks": [
+      {"url": "https://www.cwgdn.com", "label": "Winter Garden Official", "domain": "cwgdn.com", "emoji": "🌳"},
+      {"url": "https://www.orangecountyfl.net", "label": "Orange County Trails", "domain": "orangecountyfl.net", "emoji": "🚴"}
+    ]
+  },
+  {
+    "slug": "little-econ-greenway",
+    "routeName": "Little Econ Greenway",
+    "routeSubtitle": "A hidden urban greenway along the Little Econlockhatchee River through east Orlando's natural corridors.",
+    "description": "The Little Econ Greenway is a paved multi-use trail following the Little Econlockhatchee River through east Orlando. The adjacent roads and the trail itself pass through surprisingly wild natural corridors within the urban landscape, with river crossings, wetland views, and oak hammocks. This is a favorite of local runners, cyclists, and nature lovers seeking a green escape without leaving the city.",
+    "distanceMiles": "8",
+    "driveTime": "20 min",
+    "numStops": "4",
+    "bestSeason": "Year-round",
+    "routeOverview": "The greenway runs through east Orlando along the Little Econlockhatchee River corridor. Access points are scattered along the route via local roads. The trail passes through Blanchard Park, Jay Blanchard Park, and other green spaces, connecting neighborhoods to natural areas along the river.",
+    "stops": [
+      {"stopNum": "1", "name": "Jay Blanchard Park", "description": "The main access point for the Little Econ Greenway. This large park has picnic pavilions, sports fields, playgrounds, and a trailhead with parking. The river is accessible for kayaking and canoeing.", "website": "https://www.orangecountyfl.net/cultureparks"},
+      {"stopNum": "2", "name": "Little Econ River Overlook", "description": "A scenic overlook along the trail where the river bends through a dense oak hammock. Herons, egrets, and turtles are commonly spotted from this vantage point.", "website": "https://www.orangecountyfl.net"},
+      {"stopNum": "3", "name": "Barber Park", "description": "A community park along the greenway with sports facilities, a disc golf course, and direct trail access. The park's location along the river provides a nice rest stop.", "website": "https://www.orangecountyfl.net/cultureparks"},
+      {"stopNum": "4", "name": "UCF Arboretum Connection", "description": "The eastern end of the greenway connects near the University of Central Florida campus area. The UCF Arboretum offers nature walks through native plant communities and a butterfly garden.", "website": "https://arboretum.ucf.edu"}
+    ],
+    "drivingTips": [
+      "Access the greenway from Jay Blanchard Park off State Road 50 (Colonial Drive) for the best parking",
+      "The trail floods after heavy rains due to its river-adjacent location - check conditions after storms",
+      "Bring water and sunscreen - shade varies along different sections of the trail",
+      "This is an excellent route for bird photography in the early morning hours"
+    ],
+    "externalLinks": [
+      {"url": "https://www.orangecountyfl.net", "label": "Orange County Parks", "domain": "orangecountyfl.net", "emoji": "🌿"},
+      {"url": "https://www.visitorlando.com", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "brevard-zoo-causeway-drive",
+    "routeName": "Brevard Zoo Causeway Drive",
+    "routeSubtitle": "A scenic drive from the Brevard Zoo across the causeways of Melbourne and Indialantic to the Atlantic beaches.",
+    "description": "This short scenic drive connects the Brevard Zoo on the mainland to the beautiful Atlantic beaches of Indialantic and Melbourne Beach via the Melbourne Causeway (US-192). The route crosses the Indian River Lagoon with panoramic water views, pelican sightings, and glimpses of the fishing and boating culture that defines this stretch of the Space Coast.",
+    "distanceMiles": "12",
+    "driveTime": "25 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting at the Brevard Zoo, the route heads east on Wickham Road to US-192, which becomes the Melbourne Causeway crossing the Indian River Lagoon. On the barrier island, you arrive in Indialantic with beach access, local surf shops, and oceanfront parks. Continue south on A1A for Melbourne Beach's quieter stretches.",
+    "stops": [
+      {"stopNum": "1", "name": "Brevard Zoo", "description": "An award-winning zoo with over 900 animals and unique kayak-through-the-zoo experiences. The Treetop Trek offers ziplining and aerial challenges above the animal habitats.", "website": "https://www.brevardzoo.org"},
+      {"stopNum": "2", "name": "Melbourne Causeway", "description": "Cross the Indian River Lagoon on US-192 with views of fishing boats, pelicans, and the barrier island ahead. Pull off at the small fishing pier midway for lagoon views and casting a line.", "website": "https://www.visitspacecoast.com"},
+      {"stopNum": "3", "name": "Indialantic Boardwalk", "description": "A public beach boardwalk with restrooms, showers, and access to Indialantic's beautiful beach. The surf break here is popular with local surfers.", "website": "https://www.indialantic.com"},
+      {"stopNum": "4", "name": "Long Point Park", "description": "A Brevard County park on the Indian River Lagoon side of Melbourne Beach with kayak launches, nature trails, and excellent birdwatching opportunities.", "website": "https://www.brevardfl.gov/parks"},
+      {"stopNum": "5", "name": "Sebastian Inlet State Park", "description": "Continue south on A1A to Sebastian Inlet, one of the best surfing spots on the East Coast. The park straddles the inlet with beaches, fishing, camping, and the McLarty Treasure Museum.", "website": "https://www.floridastateparks.org/parks-and-trails/sebastian-inlet-state-park"}
+    ],
+    "drivingTips": [
+      "The Melbourne Causeway can have slow traffic during rush hours - plan to cross midday for the smoothest drive",
+      "Beach parking in Indialantic is limited - arrive before 10 AM on weekends during summer",
+      "Sebastian Inlet State Park charges a per-vehicle entrance fee - bring cash or card",
+      "A1A south of Indialantic is quiet and scenic - perfect for a relaxed beach drive"
+    ],
+    "externalLinks": [
+      {"url": "https://www.brevardzoo.org", "label": "Brevard Zoo", "domain": "brevardzoo.org", "emoji": "🦁"},
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "us-1-through-cocoa-village",
+    "routeName": "US-1 Through Cocoa Village",
+    "routeSubtitle": "Drive the original US highway through historic Cocoa Village, one of the Space Coast's most charming waterfront districts.",
+    "description": "US-1 is the original highway running down Florida's east coast, and its passage through Cocoa is one of the most scenic sections in Brevard County. Historic Cocoa Village sits along the Indian River with restored buildings housing galleries, boutiques, and restaurants. This short drive combines American highway nostalgia with Old Florida waterfront charm.",
+    "distanceMiles": "8",
+    "driveTime": "20 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "The route follows US-1 (King Street) through downtown Cocoa, with a detour into Cocoa Village along the Indian River. The drive passes vintage motels, mid-century architecture, the historic Cocoa Village Playhouse, and waterfront parks. Continue south on US-1 for more historic Florida scenery through Rockledge.",
+    "stops": [
+      {"stopNum": "1", "name": "Cocoa Village", "description": "A walkable waterfront district with over 60 shops, restaurants, and galleries in restored historic buildings. The village hosts art walks, farmers markets, and live entertainment throughout the year.", "website": "https://www.cocoavillage.com"},
+      {"stopNum": "2", "name": "Cocoa Village Playhouse", "description": "The oldest continuously operating community theater in Florida, housed in a restored 1924 Vaudeville theater. The building's architecture and history are worth a stop even without catching a show.", "website": "https://www.cocoavillageplayhouse.com"},
+      {"stopNum": "3", "name": "Riverfront Park", "description": "A scenic park along the Indian River with views across to Merritt Island. Picnic tables, a boat ramp, and waterfront walking paths make this a peaceful stop.", "website": "https://www.cocoafl.org"},
+      {"stopNum": "4", "name": "Porcher House", "description": "A beautiful 1916 Classical Revival home listed on the National Register of Historic Places. The house is open for tours and events, showcasing early 20th-century Cocoa architecture.", "website": "https://www.cocoafl.org"},
+      {"stopNum": "5", "name": "Historic Rockledge Drive", "description": "Continue south on US-1 into Rockledge, then detour onto Rockledge Drive along the Indian River. This road is lined with some of the oldest homes in Brevard County, many dating to the 1800s.", "website": "https://www.visitspacecoast.com"}
+    ],
+    "drivingTips": [
+      "Parking in Cocoa Village is free in public lots off Brevard Avenue and Florida Avenue",
+      "US-1 through Cocoa has frequent traffic signals - plan for a leisurely pace",
+      "First Friday Art Walk in Cocoa Village (first Friday of each month) is the best time to visit",
+      "Rockledge Drive is narrow and winding along the river - drive slowly and watch for pedestrians"
+    ],
+    "externalLinks": [
+      {"url": "https://www.cocoavillage.com", "label": "Cocoa Village", "domain": "cocoavillage.com", "emoji": "🏘️"},
+      {"url": "https://www.visitspacecoast.com", "label": "Visit Space Coast", "domain": "visitspacecoast.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "park-avenue-winter-park",
+    "routeName": "Park Avenue - Winter Park",
+    "routeSubtitle": "Stroll or drive through one of Florida's most elegant streets, lined with boutiques, galleries, and century-old oaks in Winter Park.",
+    "description": "Park Avenue in Winter Park is one of the most beautiful and walkable streets in Central Florida. This tree-lined boulevard runs along the shore of Central Park and features upscale boutiques, art galleries, restaurants, and the world-class Charles Hosmer Morse Museum of American Art. Winter Park is Orlando's most sophisticated suburb, founded as a winter retreat for wealthy Northerners in the 1880s.",
+    "distanceMiles": "3",
+    "driveTime": "15 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "The route follows Park Avenue from the Amtrak station south through the heart of Winter Park's shopping and dining district, past Central Park, and along the chain of lakes. Side streets lead to Rollins College, the Alfond Inn, and scenic lakefront neighborhoods with some of the most beautiful homes in Central Florida.",
+    "stops": [
+      {"stopNum": "1", "name": "Winter Park Farmers Market", "description": "Held every Saturday morning in Central Park West, this is one of the best farmers markets in Florida with local produce, artisan foods, flowers, and live music.", "website": "https://www.winterpark.org"},
+      {"stopNum": "2", "name": "Charles Hosmer Morse Museum of American Art", "description": "Home to the world's most comprehensive collection of works by Louis Comfort Tiffany, including the stunning Tiffany Chapel from the 1893 World's Columbian Exposition.", "website": "https://www.morsemuseum.org"},
+      {"stopNum": "3", "name": "Scenic Boat Tour", "description": "A one-hour pontoon boat cruise through Winter Park's chain of lakes and canals. The tour passes Rollins College, lakefront mansions, and lush tropical landscaping. Operating since 1938.", "website": "https://www.scenicboattours.com"},
+      {"stopNum": "4", "name": "Rollins College Campus", "description": "Florida's oldest recognized college (1885) with a beautiful Spanish Mediterranean-style campus on the shore of Lake Virginia. The Cornell Fine Arts Museum on campus is free and open to the public.", "website": "https://www.rollins.edu"},
+      {"stopNum": "5", "name": "Hannibal Square Heritage Center", "description": "A museum and community center celebrating the history of Winter Park's African American neighborhood. Exhibits feature oral histories, photographs, and artwork from the community.", "website": "https://www.hannibalsquareheritagecenter.org"}
+    ],
+    "drivingTips": [
+      "Parking along Park Avenue is metered - bring quarters or use the ParkMobile app",
+      "Free parking is available in the SunTrust garage and city garage behind the shops",
+      "Park Avenue is one-way heading south - circle via New York Avenue to head back north",
+      "Visit on a weekday for easier parking and a more relaxed shopping experience"
+    ],
+    "externalLinks": [
+      {"url": "https://www.winterpark.org", "label": "City of Winter Park", "domain": "winterpark.org", "emoji": "🌳"},
+      {"url": "https://www.morsemuseum.org", "label": "Morse Museum", "domain": "morsemuseum.org", "emoji": "🎨"}
+    ]
+  },
+  {
+    "slug": "lakeshore-drive-orlando",
+    "routeName": "Lakeshore Drive - Orlando",
+    "routeSubtitle": "Wind through Orlando's most scenic lakefront road, passing grand homes, parks, and the shores of Lake Sue and Lake Osceola.",
+    "description": "Lakeshore Drive in Orlando runs through the city's most picturesque lakefront neighborhoods between College Park and Winter Park. The road winds past grand homes on the shores of multiple lakes, through canopied oak tunnels, and along the Scenic Orlando Trail. This is the Orlando most visitors never see - a quiet, elegant residential area that feels worlds away from the theme parks.",
+    "distanceMiles": "5",
+    "driveTime": "20 min",
+    "numStops": "4",
+    "bestSeason": "Year-round",
+    "routeOverview": "The drive follows Lakeshore Drive and connecting lakefront roads through the neighborhoods surrounding Lake Sue, Lake Estelle, Lake Highland, and Lake Formosa. The route passes Leu Gardens, several lakefront parks, and connects the Audubon Park and College Park neighborhoods. Towering oaks create green tunnels over the road.",
+    "stops": [
+      {"stopNum": "1", "name": "Harry P. Leu Gardens", "description": "Fifty acres of gardens including the largest rose garden in Florida, tropical butterfly garden, and a historic home. The gardens are an oasis of calm in the middle of the city.", "website": "https://www.leugardens.org"},
+      {"stopNum": "2", "name": "Audubon Park Garden District", "description": "A charming neighborhood commercial district along Corrine Drive with local coffee shops, restaurants, boutiques, and the East End Market food hall.", "website": "https://www.audubonparkgardendistrict.com"},
+      {"stopNum": "3", "name": "Lake Highland Park", "description": "A small lakefront park with a walking path, benches, and views across Lake Highland. The park is surrounded by some of Orlando's most beautiful historic homes.", "website": "https://www.orlando.gov/parks"},
+      {"stopNum": "4", "name": "College Park Main Street", "description": "End in College Park, one of Orlando's oldest neighborhoods, with a walkable main street featuring restaurants like K Restaurant and Sushi Tomi, plus locally owned shops.", "website": "https://www.collegeparkpartnership.com"}
+    ],
+    "drivingTips": [
+      "Lakeshore Drive is a narrow two-lane residential road with a 25-30 mph speed limit - drive accordingly",
+      "Watch for joggers, dog walkers, and cyclists on the road and adjacent paths",
+      "Parking at Leu Gardens is free with admission ($15 per adult) - arrive early on weekends",
+      "The route is best driven in the morning when the light on the lakes is most beautiful"
+    ],
+    "externalLinks": [
+      {"url": "https://www.leugardens.org", "label": "Leu Gardens", "domain": "leugardens.org", "emoji": "🌺"},
+      {"url": "https://www.visitorlando.com", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "clearwater-to-tarpon-springs-sponge-docks",
+    "routeName": "Clearwater to Tarpon Springs Sponge Docks",
+    "routeSubtitle": "Drive north along the Gulf Coast from Clearwater Beach to the historic Greek sponge diving community of Tarpon Springs.",
+    "description": "This Gulf Coast drive takes you from the famous white sand of Clearwater Beach north through Dunedin and Palm Harbor to the Sponge Docks of Tarpon Springs. The route passes pristine Gulf beaches, charming waterfront towns, and ends at one of the most unique cultural destinations in Florida - a living Greek community built around the sponge diving industry.",
+    "distanceMiles": "25",
+    "driveTime": "45 min",
+    "numStops": "6",
+    "bestSeason": "Year-round",
+    "routeOverview": "Starting at Clearwater Beach, the drive follows Alternate US-19 and local roads north through Dunedin, where you can stop at craft breweries and the Pinellas Trail. Continue through Palm Harbor and Ozona before arriving at the Tarpon Springs Sponge Docks. The route hugs the coast with occasional Gulf views and passes through some of Pinellas County's most charming communities.",
+    "stops": [
+      {"stopNum": "1", "name": "Clearwater Beach and Pier 60", "description": "Start at Clearwater Beach, consistently ranked among America's best beaches. Pier 60 hosts nightly sunset celebrations with street performers, artists, and breathtaking Gulf sunsets.", "website": "https://www.visitclearwaterflorida.com"},
+      {"stopNum": "2", "name": "Honeymoon Island State Park", "description": "A barrier island state park with pristine Gulf beaches, nature trails through virgin slash pine forest, and osprey nesting colonies. The ferry to Caladesi Island departs from here.", "website": "https://www.floridastateparks.org/parks-and-trails/honeymoon-island-state-park"},
+      {"stopNum": "3", "name": "Downtown Dunedin", "description": "A Scottish-heritage downtown with Florida's oldest craft brewery (Dunedin Brewery), excellent restaurants, art galleries, and the Pinellas Trail running through the heart of town.", "website": "https://www.dunedingov.com"},
+      {"stopNum": "4", "name": "Wall Springs Park", "description": "A Palm Harbor park with a spring-fed creek, nature trails, a historic observation tower, and waterfront views of St. Joseph Sound. Great for birdwatching and a peaceful walk.", "website": "https://www.pinellascounty.org/park"},
+      {"stopNum": "5", "name": "Fred Howard Park", "description": "A Tarpon Springs park with a mile-long causeway leading to a Gulf beach island. The causeway is popular for fishing and the beach has calm, shallow waters perfect for families.", "website": "https://www.pinellascounty.org/park"},
+      {"stopNum": "6", "name": "Tarpon Springs Sponge Docks", "description": "End at the historic Sponge Docks, a waterfront district where Greek sponge divers settled over a century ago. Enjoy authentic Greek restaurants, bakeries with fresh baklava, sponge boat tours, and working sponge warehouses.", "website": "https://www.tarponsprings.com"}
+    ],
+    "drivingTips": [
+      "Clearwater Beach traffic is heavy on weekends and holidays - plan to leave before 9 AM or after 3 PM",
+      "Alternate US-19 north of Dunedin is a pleasant drive through residential areas with less traffic than US-19",
+      "The Sponge Docks can be crowded on weekends - go for a weekday lunch for the best experience",
+      "Try the authentic Greek food at Hellas Restaurant, Mykonos, or Mr. Souvlaki on the Sponge Docks"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visitstpeteclearwater.com", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "🏖️"},
+      {"url": "https://www.tarponsprings.com", "label": "Tarpon Springs", "domain": "tarponsprings.com", "emoji": "🧽"}
+    ]
+  },
+  {
+    "slug": "fort-de-soto-park-loop",
+    "routeName": "Fort De Soto Park Loop",
+    "routeSubtitle": "Cross the bridge to one of America's top-rated beach parks, with historic fort ruins, kayak trails, and Gulf island beauty.",
+    "description": "Fort De Soto Park is a 1,136-acre county park spread across five interconnected islands at the southern tip of Pinellas County. The park consistently ranks among the top beaches in the United States and features pristine white sand, clear Gulf waters, mangrove kayak trails, and the historic Fort De Soto from the Spanish-American War era. The drive through the park is as scenic as any in Florida.",
+    "distanceMiles": "8",
+    "driveTime": "30 min",
+    "numStops": "6",
+    "bestSeason": "Year-round",
+    "routeOverview": "Cross the toll bridge from Tierra Verde to Mullet Key and the park's main entrance. The park road loops through the five islands with access to North Beach, East Beach, the fort ruins, a fishing pier, and the kayak launch. Every turn offers water views - the Gulf of Mexico to the west, Tampa Bay to the east, and mangrove islands throughout.",
+    "stops": [
+      {"stopNum": "1", "name": "North Beach", "description": "Rated among the top beaches in America, North Beach has sugar-white sand, clear emerald water, and gentle waves. The beach faces the Gulf of Mexico with views of Egmont Key to the south.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"},
+      {"stopNum": "2", "name": "East Beach and Fishing Pier", "description": "East Beach faces Tampa Bay with calmer waters ideal for young children. The 500-foot fishing pier extends into the bay and is free to use. Bait is available at the park store.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"},
+      {"stopNum": "3", "name": "Historic Fort De Soto", "description": "Explore the remains of Fort De Soto, built in 1898 during the Spanish-American War. Four 12-inch mortars are still in place. The fort never saw combat but is a fascinating piece of Florida military history.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"},
+      {"stopNum": "4", "name": "Mangrove Kayak Trail", "description": "A marked kayak and canoe trail winds through red mangrove islands between Mullet Key and St. Jean Key. Paddle among dolphins, manatees, rays, and wading birds in crystal-clear shallow water.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"},
+      {"stopNum": "5", "name": "Dog Beach", "description": "One of the best dog beaches in Florida, located on the park's southeast side. Dogs can run off-leash in the designated area and swim in the Gulf. Fresh water rinse stations are available.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"},
+      {"stopNum": "6", "name": "Campground", "description": "Fort De Soto's campground has 238 sites with water and electric hookups, restrooms, and views of Tampa Bay. Reservations are required and fill up months in advance - book early for weekend stays.", "website": "https://www.pinellascounty.org/park/05_ft_desoto.htm"}
+    ],
+    "drivingTips": [
+      "The toll bridge to Fort De Soto requires $5 (SunPass or toll-by-plate) - no cash toll booths",
+      "The park opens at sunrise and closes at sunset - no overnight stays except for registered campers",
+      "Arrive before 10 AM on weekends during summer to get parking near North Beach",
+      "Bring everything you need - there is a small park store but no nearby convenience stores on the islands",
+      "Mosquitoes can be fierce at sunset near the mangrove trails - bring repellent"
+    ],
+    "externalLinks": [
+      {"url": "https://www.pinellascounty.org/park/05_ft_desoto.htm", "label": "Fort De Soto Park", "domain": "pinellascounty.org", "emoji": "🏖️"},
+      {"url": "https://www.visitstpeteclearwater.com", "label": "Visit St. Pete/Clearwater", "domain": "visitstpeteclearwater.com", "emoji": "🌅"}
+    ]
+  },
+  {
+    "slug": "bok-tower-scenic-drive",
+    "routeName": "Bok Tower Scenic Drive",
+    "routeSubtitle": "Climb to one of the highest points in peninsular Florida through rolling citrus hills to the stunning Bok Tower Gardens.",
+    "description": "Bok Tower Gardens sits atop Iron Mountain in Lake Wales, one of the highest points in peninsular Florida at 298 feet above sea level. The drive to the gardens takes you through rolling citrus hills, past historic groves, and through the charming small town of Lake Wales. The gardens themselves feature the iconic 205-foot Singing Tower with a 60-bell carillon, surrounded by 250 acres of gardens designed by Frederick Law Olmsted Jr.",
+    "distanceMiles": "15",
+    "driveTime": "30 min",
+    "numStops": "5",
+    "bestSeason": "October through April",
+    "routeOverview": "Starting in Lake Wales, the drive follows Burns Avenue and local roads through citrus groves and rolling terrain to Bok Tower Gardens. The elevation change is subtle but noticeable, and the landscape feels distinctly different from the flat coastal areas. Along the way, you pass through the Lake Wales Ridge, a unique geological formation with rare scrub habitat.",
+    "stops": [
+      {"stopNum": "1", "name": "Downtown Lake Wales", "description": "Start in downtown Lake Wales with its historic Main Street, murals, and small-town Florida charm. The Lake Wales Arts Center and local restaurants are worth a stop before heading to the gardens.", "website": "https://www.lakewalesfl.gov"},
+      {"stopNum": "2", "name": "Spook Hill", "description": "A famous gravity hill where your car appears to roll uphill. Park at the designated spot, put your car in neutral, and watch it roll backward up the slope. A Lake Wales curiosity since the early 1900s.", "website": "https://www.lakewalesfl.gov"},
+      {"stopNum": "3", "name": "Bok Tower Gardens", "description": "The crown jewel of the drive - 250 acres of gardens and nature preserve surrounding the 205-foot Gothic and Art Deco Singing Tower. Daily carillon concerts at 1:00 PM and 3:00 PM fill the gardens with music.", "website": "https://www.boktowergardens.org"},
+      {"stopNum": "4", "name": "Pinewood Estate", "description": "A 20-room Mediterranean Revival mansion within Bok Tower Gardens, built in 1932. Tours are available and the home features period furnishings and beautiful gardens of its own.", "website": "https://www.boktowergardens.org"},
+      {"stopNum": "5", "name": "Lake Wales Ridge State Forest", "description": "Just south of Bok Tower, this state forest protects rare Florida scrub habitat found only on the Lake Wales Ridge. Hiking trails wind through ancient sand pine scrub, one of the rarest ecosystems in the world.", "website": "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Lake-Wales-Ridge-State-Forest"}
+    ],
+    "drivingTips": [
+      "Bok Tower Gardens admission is $15 for adults - buy tickets online for the best price",
+      "Time your visit to arrive for the 1:00 PM or 3:00 PM carillon concert - the music echoes across the gardens",
+      "Spook Hill works best if you follow the posted instructions exactly - stop at the white line and shift to neutral",
+      "The drive through citrus country is especially beautiful in spring when orange blossoms fill the air"
+    ],
+    "externalLinks": [
+      {"url": "https://www.boktowergardens.org", "label": "Bok Tower Gardens", "domain": "boktowergardens.org", "emoji": "🌸"},
+      {"url": "https://www.visitcentralflorida.org", "label": "Visit Central Florida", "domain": "visitcentralflorida.org", "emoji": "🍊"}
+    ]
+  },
+  {
+    "slug": "lake-wales-ridge",
+    "routeName": "Lake Wales Ridge",
+    "routeSubtitle": "Explore Florida's ancient sand ridge, home to rare scrub ecosystems, citrus groves, and the highest terrain in the state.",
+    "description": "The Lake Wales Ridge is an ancient geological formation running through Central Florida from Clermont south to Venus. This sandy ridge was once an island chain during higher sea levels and now supports some of the rarest plant communities in the world. The drive along the ridge passes through citrus groves, scrub preserves, and small towns that time forgot, offering a landscape unlike anywhere else in Florida.",
+    "distanceMiles": "60",
+    "driveTime": "2 hrs",
+    "numStops": "6",
+    "bestSeason": "November through April",
+    "routeOverview": "The route follows US-27 and local roads along the spine of the Lake Wales Ridge from Clermont south through Haines City, Lake Wales, Frostproof, and Avon Park. Along the way, the terrain rises and falls through citrus hills, scrub preserves, and lake-dotted landscapes. The ridge is the backbone of Florida's citrus industry and a biodiversity hotspot.",
+    "stops": [
+      {"stopNum": "1", "name": "Citrus Tower", "description": "A 226-foot observation tower in Clermont built in 1956 to overlook the citrus groves of the Ridge. While many groves have been replaced by development, the tower still offers panoramic views of the rolling hill country.", "website": "https://www.citrustower.com"},
+      {"stopNum": "2", "name": "Lake Louisa State Park", "description": "A beautiful state park with swimming, kayaking, and hiking trails through the rolling sandhill terrain. The park protects three lakes and features one of the most scenic camping areas in Central Florida.", "website": "https://www.floridastateparks.org/parks-and-trails/lake-louisa-state-park"},
+      {"stopNum": "3", "name": "Tiger Creek Preserve", "description": "A Nature Conservancy preserve protecting one of the best remaining examples of Florida scrub habitat. Hiking trails wind through ancient sand pine scrub with views of Tiger Creek ravine.", "website": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/tiger-creek-preserve"},
+      {"stopNum": "4", "name": "Bok Tower Gardens", "description": "The most famous landmark on the Lake Wales Ridge. The 205-foot Singing Tower sits atop Iron Mountain at 298 feet above sea level, surrounded by 250 acres of gardens and nature preserve.", "website": "https://www.boktowergardens.org"},
+      {"stopNum": "5", "name": "Frostproof Historical Museum", "description": "A small-town museum telling the story of the citrus industry and the people who built the Ridge communities. The name Frostproof was a marketing claim by early citrus growers.", "website": "https://www.cityoffrostproof.com"},
+      {"stopNum": "6", "name": "Archbold Biological Station", "description": "A world-renowned research station and nature preserve near Venus. The station studies Florida scrub ecology and offers occasional public tours and educational programs.", "website": "https://www.archbold-station.org"}
+    ],
+    "drivingTips": [
+      "US-27 is a busy four-lane highway - the scenic portions are on the smaller roads branching off the main route",
+      "Citrus groves are private property - enjoy the views from the road but do not enter without permission",
+      "Many ridge preserves have sandy trails - wear sturdy shoes and bring water",
+      "The ridge is hotter and drier than coastal areas - bring extra sun protection and hydration",
+      "Spring brings orange blossom season (March through April) when the air is incredibly fragrant"
+    ],
+    "externalLinks": [
+      {"url": "https://www.boktowergardens.org", "label": "Bok Tower Gardens", "domain": "boktowergardens.org", "emoji": "🌸"},
+      {"url": "https://www.visitcentralflorida.org", "label": "Visit Central Florida", "domain": "visitcentralflorida.org", "emoji": "🍊"},
+      {"url": "https://www.nature.org", "label": "The Nature Conservancy", "domain": "nature.org", "emoji": "🌿"}
+    ]
+  },
+  {
+    "slug": "green-mountain-scenic-byway",
+    "routeName": "Green Mountain Scenic Byway",
+    "routeSubtitle": "Drive through the rolling hills and scenic lakes of west Orange County on one of Central Florida's most beautiful back roads.",
+    "description": "The Green Mountain Scenic Byway winds through the rolling terrain of west Orange County near the town of Montverde. This area features some of the highest elevations in Central Florida, lush pastureland, horse farms, and beautiful lake views. The byway is a hidden gem that most visitors and even many locals have never discovered, offering a pastoral landscape that feels more like the Carolinas than Florida.",
+    "distanceMiles": "12",
+    "driveTime": "30 min",
+    "numStops": "4",
+    "bestSeason": "Year-round",
+    "routeOverview": "The byway follows County Road 455 and local roads through the hills around Montverde and Ferndale. The route passes by Lake Apopka, through wooded hillsides, past horse farms, and along the shores of several scenic lakes. The elevation changes are the most dramatic in the Orlando metro area.",
+    "stops": [
+      {"stopNum": "1", "name": "Montverde", "description": "A tiny hilltop town with a historic school campus (Montverde Academy, founded 1912), country charm, and views across the surrounding countryside. The town's name means green mountain in French.", "website": "https://www.mymontverde.com"},
+      {"stopNum": "2", "name": "Lake Apopka Scenic Overlook", "description": "Views of Lake Apopka, one of the largest lakes in Florida, from the elevated terrain along the byway. The lake is being restored to ecological health and attracts thousands of birds.", "website": "https://www.sjrwmd.com/lands/recreation/lake-apopka"},
+      {"stopNum": "3", "name": "Ferndale Preserve", "description": "A scenic preserve with hiking trails through rolling hills, scrub habitat, and hardwood hammock. The terrain here is remarkably hilly for Florida, with elevation changes of over 100 feet.", "website": "https://www.orangecountyfl.net"},
+      {"stopNum": "4", "name": "Oakland Nature Preserve", "description": "At the eastern end of the byway area, this preserve offers boardwalks through cypress swamp along the shore of Lake Apopka. An excellent spot for birdwatching and nature photography.", "website": "https://www.oaklandnaturepreserve.org"}
+    ],
+    "drivingTips": [
+      "The roads are narrow and winding through the hills - maintain a moderate speed",
+      "No gas stations or convenience stores along the byway - fill up before you start",
+      "Horse riders and cyclists share the road in this rural area - pass carefully",
+      "Fog can settle in the low areas on cool mornings, especially near the lakes"
+    ],
+    "externalLinks": [
+      {"url": "https://www.visitorlando.com", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌿"},
+      {"url": "https://www.oaklandnaturepreserve.org", "label": "Oakland Nature Preserve", "domain": "oaklandnaturepreserve.org", "emoji": "🌳"}
+    ]
+  },
+  {
+    "slug": "florida-black-bear-scenic-byway",
+    "routeName": "Florida Black Bear Scenic Byway",
+    "routeSubtitle": "Drive through the Ocala National Forest on one of Florida's most wild and remote scenic byways.",
+    "description": "The Florida Black Bear Scenic Byway is a designated National Scenic Byway running through the heart of the Ocala National Forest. This is one of the wildest drives in Florida, passing through longleaf pine sandhills, scrub, and spring-fed rivers. The forest is home to the largest population of Florida black bears in the state, along with deer, wild turkeys, and the endangered red-cockaded woodpecker.",
+    "distanceMiles": "65",
+    "driveTime": "2 hrs",
+    "numStops": "6",
+    "bestSeason": "October through April",
+    "routeOverview": "The byway follows State Road 40 and State Road 19 through the Ocala National Forest from Silver Springs east to the St. Johns River. The route passes crystal-clear springs for swimming, hiking trailheads, and scenic river crossings. The landscape transitions from pine flatwoods to scrub to hardwood hammock as you travel through the forest.",
+    "stops": [
+      {"stopNum": "1", "name": "Silver Springs State Park", "description": "Start at the headspring of the Silver River, one of the clearest bodies of water in the world. Glass-bottom boat tours have operated here since 1878. The spring produces 550 million gallons of water daily.", "website": "https://www.floridastateparks.org/parks-and-trails/silver-springs-state-park"},
+      {"stopNum": "2", "name": "Juniper Springs Recreation Area", "description": "A beautiful spring-fed swimming area with a historic stone bathhouse built by the Civilian Conservation Corps in the 1930s. The Juniper Springs Run is a 7-mile canoe and kayak trail through subtropical forest.", "website": "https://www.fs.usda.gov/recarea/ocala/recarea/?recid=33058"},
+      {"stopNum": "3", "name": "Alexander Springs", "description": "A first-magnitude spring producing 76 million gallons of clear 72-degree water daily. The spring pool is perfect for swimming, snorkeling, and scuba diving. A canoe and kayak trail runs downstream.", "website": "https://www.fs.usda.gov/recarea/ocala/recarea/?recid=33046"},
+      {"stopNum": "4", "name": "Salt Springs", "description": "A unique mineral spring with slightly salty water that maintains a constant 74 degrees. The springs feed into Lake George via Salt Springs Run, a popular paddling trail. Manatees visit in winter months.", "website": "https://www.fs.usda.gov/recarea/ocala/recarea/?recid=33073"},
+      {"stopNum": "5", "name": "Lake George Overlook", "description": "Views of Florida's second-largest lake from the eastern edge of the national forest. Lake George is part of the St. Johns River system and is surrounded by wild, undeveloped shoreline.", "website": "https://www.fs.usda.gov/ocala"},
+      {"stopNum": "6", "name": "Yearling Trail", "description": "A 1-mile interpretive trail near the home site of Marjorie Kinnan Rawlings, who wrote The Yearling based on life in the Ocala scrub. The trail passes through the landscape described in the novel.", "website": "https://www.fs.usda.gov/ocala"}
+    ],
+    "drivingTips": [
+      "Watch for Florida black bears crossing the road, especially at dawn and dusk - they are large and dark colored",
+      "Cell phone service is limited or nonexistent through much of the national forest - download maps in advance",
+      "Bring cash for spring recreation area entrance fees ($5 to $8 per vehicle at most sites)",
+      "The forest roads are mostly two-lane with no shoulder - drive carefully and watch for wildlife",
+      "Summer afternoon thunderstorms are intense in the forest - plan spring visits for the morning"
+    ],
+    "externalLinks": [
+      {"url": "https://www.fs.usda.gov/ocala", "label": "Ocala National Forest", "domain": "fs.usda.gov", "emoji": "🐻"},
+      {"url": "https://www.floridastateparks.org", "label": "Florida State Parks", "domain": "floridastateparks.org", "emoji": "🏞️"},
+      {"url": "https://www.floridablackbearscenicbyway.org", "label": "Black Bear Scenic Byway", "domain": "floridablackbearscenicbyway.org", "emoji": "🌲"}
+    ]
+  },
+  {
+    "slug": "big-tree-road-longwood",
+    "routeName": "Big Tree Road - Longwood",
+    "routeSubtitle": "A short canopy drive through historic Longwood to Big Tree Park, home of one of the oldest cypress trees in Florida.",
+    "description": "Big Tree Road in Longwood is a quiet residential road that leads to Big Tree Park, a Seminole County park that was once home to the Senator, a bald cypress tree estimated to be over 3,500 years old before it was destroyed by fire in 2012. The surrounding area features some of the most beautiful canopy roads in the Orlando metro area, with live oaks forming green tunnels over the streets.",
+    "distanceMiles": "5",
+    "driveTime": "15 min",
+    "numStops": "4",
+    "bestSeason": "Year-round",
+    "routeOverview": "The route follows Big Tree Road from US-17/92 in Longwood east to Big Tree Park. Along the way, you pass through a neighborhood of towering oaks, historic Longwood homes, and the quiet residential streets that make this area one of the most pleasant drives in Seminole County. The route connects to the Cross Seminole Trail for cycling and walking.",
+    "stops": [
+      {"stopNum": "1", "name": "Historic Longwood Village", "description": "Start in the charming historic district of Longwood with its 19th-century buildings, antique shops, and the Longwood Hotel (now a community building). The town was founded in 1873.", "website": "https://www.longwoodfl.org"},
+      {"stopNum": "2", "name": "Big Tree Road Canopy", "description": "The drive along Big Tree Road passes under some of the most impressive live oak canopies in Seminole County. Spanish moss hangs from every branch, creating a tunnel of green.", "website": "https://www.seminolecountyfl.gov"},
+      {"stopNum": "3", "name": "Big Tree Park", "description": "Home to Lady Liberty, a large bald cypress tree and companion to the former Senator tree. The park features boardwalks through cypress swamp, interpretive signs, and a peaceful atmosphere. The Senator was 3,500 years old before its loss.", "website": "https://www.seminolecountyfl.gov/departments-services/leisure-services/parks-recreation"},
+      {"stopNum": "4", "name": "Cross Seminole Trail Connection", "description": "Big Tree Park connects to the Cross Seminole Trail, a paved multi-use path. Walk or bike the trail through the surrounding wetlands for a longer nature experience.", "website": "https://www.seminolecountyfl.gov"}
+    ],
+    "drivingTips": [
+      "Big Tree Road is a narrow residential street - respect the 25 mph speed limit",
+      "Parking at Big Tree Park is limited to a small lot - visit on a weekday for easier access",
+      "The boardwalks can be slippery when wet - wear appropriate footwear",
+      "Combine this drive with a visit to the nearby Spring Hammock Preserve for more nature exploration"
+    ],
+    "externalLinks": [
+      {"url": "https://www.seminolecountyfl.gov", "label": "Seminole County Parks", "domain": "seminolecountyfl.gov", "emoji": "🌳"},
+      {"url": "https://www.visitseminole.com", "label": "Visit Seminole County", "domain": "visitseminole.com", "emoji": "🌿"}
+    ]
+  },
+  {
+    "slug": "cassadaga-spiritualist-drive",
+    "routeName": "Cassadaga Spiritualist Drive",
+    "routeSubtitle": "Visit one of the most unusual communities in Florida - the Cassadaga Spiritualist Camp, a village of mediums and healers since 1894.",
+    "description": "Cassadaga is a tiny community in Volusia County founded in 1894 as a winter camp for Spiritualists from the Lily Dale Assembly in New York. Today, it remains an active community of mediums, healers, and spiritual practitioners. The drive through Cassadaga and the surrounding countryside offers a unique blend of Florida rural beauty and metaphysical culture found nowhere else in the state.",
+    "distanceMiles": "15",
+    "driveTime": "30 min",
+    "numStops": "5",
+    "bestSeason": "Year-round",
+    "routeOverview": "The route follows County Road 4139 (Cassadaga Road) from I-4 into the Cassadaga Spiritualist Camp. The drive passes through quiet pine flatwoods and lakefront communities before arriving at the camp, where narrow streets are lined with historic cottages, meditation gardens, and the Cassadaga Hotel. The surrounding area includes the Green Springs natural area and Lake Helen.",
+    "stops": [
+      {"stopNum": "1", "name": "Cassadaga Spiritualist Camp", "description": "The heart of the community with historic cottages serving as homes and reading rooms for resident mediums and healers. Visitors can book private readings, attend church services, and explore the grounds.", "website": "https://www.cassadaga.org"},
+      {"stopNum": "2", "name": "Cassadaga Hotel", "description": "A historic 1928 hotel that serves as the community's social center. The hotel has a bookstore with metaphysical books, crystals, and spiritual supplies. The restaurant serves lunch and dinner.", "website": "https://www.cassadagahotel.net"},
+      {"stopNum": "3", "name": "Colby Memorial Temple", "description": "The main meeting hall of the Spiritualist Camp, named for founder George P. Colby. Sunday services, mediumship demonstrations, and special events are held throughout the year.", "website": "https://www.cassadaga.org"},
+      {"stopNum": "4", "name": "Spirit Pond and Meditation Gardens", "description": "A quiet pond and garden area within the camp grounds used for meditation and reflection. The area is said to have strong spiritual energy and is a peaceful spot for contemplation.", "website": "https://www.cassadaga.org"},
+      {"stopNum": "5", "name": "Green Springs Park", "description": "A Volusia County park just south of Cassadaga with a natural sulfur spring, boardwalks through cypress swamp, and hiking trails. The spring water is green-tinted from minerals and the park has a mystical feel.", "website": "https://www.volusia.org/services/community-services/parks-recreation-and-culture"}
+    ],
+    "drivingTips": [
+      "Cassadaga is a private community - be respectful of residents and their property",
+      "Readings with mediums should be booked in advance during busy weekends and holidays",
+      "The camp speed limit is 15 mph and the streets are narrow - drive carefully",
+      "Photography is welcome in public areas but ask permission before photographing homes or individuals",
+      "Do not enter private gardens or reading rooms without an appointment"
+    ],
+    "externalLinks": [
+      {"url": "https://www.cassadaga.org", "label": "Cassadaga Spiritualist Camp", "domain": "cassadaga.org", "emoji": "🔮"},
+      {"url": "https://www.daytonabeach.com", "label": "Daytona Beach Area CVB", "domain": "daytonabeach.com", "emoji": "🌴"}
+    ]
+  }
+]

@@ -1,0 +1,723 @@
+[
+  {
+    "slug": "carnival-port-canaveral",
+    "cruiseLineName": "Carnival Cruise Line",
+    "cruiseLineShort": "Carnival",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Carnival Cruise Line is the world's most popular cruise line and operates multiple ships from Port Canaveral year-round. Carnival's Fun Ships offer affordable family-friendly cruises to the Bahamas, Eastern Caribbean, and Western Caribbean. Port Canaveral is one of Carnival's busiest homeports, with ships like the Carnival Celebration, Carnival Elation, and Carnival Liberty sailing regularly.",
+    "terminalInfo": "Terminals 3, 5, 6, and 10",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Carnival Celebration, Carnival Liberty, Carnival Elation",
+    "gettingThereContent": "Port Canaveral is located 60 miles east of Orlando via SR-528 (Beachline Expressway). From MCO airport, the drive takes approximately 60 to 75 minutes. BusBrother provides direct group shuttle service with meet-and-greet pickup from any Orlando hotel, airport, or address. Our drivers know every terminal at Port Canaveral and deliver your group directly to the correct check-in entrance.",
+    "preCruiseHotels": "Popular pre-cruise hotels near Port Canaveral include the Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, Homewood Suites Cape Canaveral, Residence Inn Cape Canaveral, and Holiday Inn Express Cape Canaveral. Most offer park-and-cruise packages with parking while you sail.",
+    "tips": [
+      "Arrive at the terminal no later than 90 minutes before departure for smooth check-in",
+      "Download the Carnival HUB app before your cruise for digital boarding pass and onboard features",
+      "Bring a waterproof phone case - Carnival ships have amazing water features and pool decks"
+    ],
+    "checklist": [
+      "Valid passport or birth certificate plus government-issued photo ID",
+      "Printed or digital boarding pass from Carnival website",
+      "Credit card for onboard account setup",
+      "Any pre-purchased excursion confirmations",
+      "Medications in carry-on (checked bags go to your stateroom later)",
+      "Swimsuit in carry-on for pool access on embarkation day"
+    ],
+    "externalLinks": [
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line Official Site", "domain": "carnival.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com/cruise-port/port-canaveral-orlando-fl.aspx", "label": "Carnival Port Canaveral Page", "domain": "carnival.com", "emoji": "📋"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "disney-port-canaveral", "name": "Disney Cruise Line - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"},
+      {"slug": "msc-port-canaveral", "name": "MSC Cruises - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "royal-caribbean-port-canaveral",
+    "cruiseLineName": "Royal Caribbean International",
+    "cruiseLineShort": "Royal Caribbean",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Royal Caribbean International sails some of the world's largest and most innovative cruise ships from Port Canaveral. The line offers itineraries to the Bahamas, Perfect Day at CocoCay, Eastern Caribbean, and Western Caribbean. Port Canaveral serves as a major homeport for Royal Caribbean's Oasis-class and Freedom-class vessels, making it one of the busiest embarkation points on the East Coast.",
+    "terminalInfo": "Terminal 1",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Utopia of the Seas, Mariner of the Seas, Independence of the Seas",
+    "gettingThereContent": "Port Canaveral's Terminal 1 is approximately 60 miles east of Orlando International Airport via SR-528 (Beachline Expressway). The drive takes about 60 to 75 minutes depending on traffic. BusBrother offers direct group transportation from any Orlando-area pickup point straight to Terminal 1, ensuring your party arrives together and on time for your sailing.",
+    "preCruiseHotels": "Top pre-cruise hotels for Royal Caribbean guests include Radisson Resort at the Port (closest to terminal), Country Inn and Suites Cape Canaveral, Residence Inn Cape Canaveral, Hampton Inn Cocoa Beach, and Hilton Cocoa Beach Oceanfront. Many offer park-and-cruise deals that include overnight stay plus parking for your cruise duration.",
+    "tips": [
+      "Use the Royal Caribbean app to complete online check-in and get your assigned arrival time window",
+      "Crown and Anchor Society members at Gold level and above get priority check-in at Terminal 1",
+      "Pack a day bag with swimsuit and essentials - your checked luggage will arrive at your stateroom by evening"
+    ],
+    "checklist": [
+      "Valid passport or birth certificate plus government-issued photo ID",
+      "SetSail pass (digital boarding pass) on the Royal Caribbean app",
+      "Credit or debit card for onboard expenses",
+      "Luggage tags printed from your booking confirmation",
+      "Medications and valuables in your carry-on bag",
+      "Sunscreen and sunglasses for embarkation day pool time"
+    ],
+    "externalLinks": [
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean Official Site", "domain": "royalcaribbean.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://www.royalcaribbean.com/cruise-ports/port-canaveral", "label": "Royal Caribbean Port Canaveral Page", "domain": "royalcaribbean.com", "emoji": "📋"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "disney-port-canaveral", "name": "Disney Cruise Line - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"},
+      {"slug": "msc-port-canaveral", "name": "MSC Cruises - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "disney-port-canaveral",
+    "cruiseLineName": "Disney Cruise Line",
+    "cruiseLineShort": "Disney",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Disney Cruise Line delivers magical family vacations from Port Canaveral, sailing to the Bahamas, Castaway Cay (Disney's private island), and the Caribbean. Known for exceptional entertainment, character meet-and-greets, themed dining, and world-class kids clubs, Disney cruises are a top choice for families. Port Canaveral is Disney Cruise Line's primary homeport and closest embarkation point to Walt Disney World.",
+    "terminalInfo": "Terminal 8",
+    "checkInTime": "11:00 AM - 1:00 PM",
+    "popularShips": "Disney Fantasy, Disney Wish, Disney Dream",
+    "gettingThereContent": "Port Canaveral Terminal 8 is roughly 60 miles east of Orlando via SR-528 (Beachline Expressway). From Walt Disney World, the drive is about 70 to 80 minutes heading east. BusBrother specializes in group transportation for Disney cruise families - we pick up from any Walt Disney World resort, Orlando hotel, MCO airport, or private address and drive you directly to Terminal 8.",
+    "preCruiseHotels": "Many Disney cruise guests stay at Walt Disney World resorts the night before sailing. Closer options include Radisson Resort at the Port, Residence Inn Cape Canaveral, Country Inn and Suites Cape Canaveral, and Hampton Inn Cocoa Beach. The Hyatt Regency Orlando Airport is a great option for late arrivals at MCO.",
+    "tips": [
+      "Complete online check-in on the Disney Cruise Line website as soon as your window opens for the best port arrival times",
+      "Pack autograph books and pens in your carry-on - character meet-and-greets start on embarkation day",
+      "Bring glow sticks and pirate bandanas for Pirate Night - it is one of the most popular onboard events"
+    ],
+    "checklist": [
+      "Valid passport for all family members (required for Castaway Cay and Caribbean ports)",
+      "Printed or digital boarding documents from Disney Cruise Line",
+      "Credit card for onboard account",
+      "Comfortable shoes for exploring the ship on day one",
+      "Medications and baby supplies in carry-on bags",
+      "Autograph books, pens, and Disney-themed outfits for character photos"
+    ],
+    "externalLinks": [
+      {"url": "https://disneycruise.disney.go.com", "label": "Disney Cruise Line Official Site", "domain": "disney.go.com", "emoji": "🏰"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"},
+      {"url": "https://disneycruise.disney.go.com/port-canaveral/", "label": "Disney Port Canaveral Info", "domain": "disney.go.com", "emoji": "📋"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"},
+      {"slug": "celebrity-port-canaveral", "name": "Celebrity Cruises - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "norwegian-port-canaveral",
+    "cruiseLineName": "Norwegian Cruise Line",
+    "cruiseLineShort": "Norwegian",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Norwegian Cruise Line brings its signature Freestyle Cruising experience to Port Canaveral with sailings to the Bahamas, Great Stirrup Cay (Norwegian's private island), and the Caribbean. Norwegian is known for flexible dining with no fixed seating times, outstanding entertainment including Broadway-style shows, and a wide range of cabin options from studios to luxury Haven suites.",
+    "terminalInfo": "Terminal 9 (North Cargo Pier 2)",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Norwegian Escape, Norwegian Epic, Norwegian Gem",
+    "gettingThereContent": "Port Canaveral Terminal 9 is located about 60 miles east of Orlando via SR-528 (Beachline Expressway). From MCO airport, expect a 60 to 75 minute drive. BusBrother provides reliable group shuttle service to Terminal 9, picking up from Orlando hotels, MCO airport, vacation rentals, or any address in the greater Orlando area. Our drivers are familiar with the terminal layout and drop-off procedures.",
+    "preCruiseHotels": "Convenient pre-cruise hotels include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, Holiday Inn Express Cape Canaveral, and Courtyard by Marriott Cocoa Beach. Several offer park-and-cruise packages with parking included while you sail.",
+    "tips": [
+      "Download the Norwegian Cruise Line app and complete online check-in to get your digital boarding pass",
+      "Haven suite guests get exclusive check-in, a private lounge, and priority boarding at the terminal",
+      "Bring a reusable water bottle - Norwegian has hydration stations throughout the ship"
+    ],
+    "checklist": [
+      "Valid passport or birth certificate plus government-issued photo ID",
+      "Digital or printed boarding pass from Norwegian Cruise Line",
+      "Credit card for onboard account charges",
+      "Printed luggage tags from your booking confirmation",
+      "Medications in carry-on bag",
+      "Light jacket for air-conditioned ship interiors"
+    ],
+    "externalLinks": [
+      {"url": "https://www.ncl.com", "label": "Norwegian Cruise Line Official Site", "domain": "ncl.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "disney-port-canaveral", "name": "Disney Cruise Line - Port Canaveral"},
+      {"slug": "msc-port-canaveral", "name": "MSC Cruises - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "msc-port-canaveral",
+    "cruiseLineName": "MSC Cruises",
+    "cruiseLineShort": "MSC",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "MSC Cruises is Europe's largest cruise line and has expanded significantly in North America with sailings from Port Canaveral. MSC offers a European-inspired cruise experience with international cuisine, Cirque du Soleil at Sea entertainment, and the exclusive Yacht Club ship-within-a-ship luxury concept. Ships sail to the Bahamas, Ocean Cay MSC Marine Reserve (MSC's private island), and the Caribbean.",
+    "terminalInfo": "Terminal 9 (shared with Norwegian)",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "MSC Seascape, MSC Meraviglia, MSC Divina",
+    "gettingThereContent": "Port Canaveral Terminal 9 is about 60 miles east of Orlando via SR-528 (Beachline Expressway). The drive from MCO airport takes approximately 60 to 75 minutes. BusBrother handles group transportation to Terminal 9, picking up from any Orlando-area location. We ensure your group arrives with plenty of time for the MSC check-in process.",
+    "preCruiseHotels": "Recommended pre-cruise hotels include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Residence Inn Cape Canaveral, Hampton Inn Cocoa Beach, and Homewood Suites Cape Canaveral. Book a park-and-cruise package to save on parking while you sail.",
+    "tips": [
+      "MSC Yacht Club guests enjoy butler service, a private sundeck, and priority embarkation at the terminal",
+      "Download the MSC for Me app before boarding for digital check-in, deck plans, and onboard booking",
+      "Bring euros or US dollars for the onboard casino - MSC ships have a European-style gaming experience"
+    ],
+    "checklist": [
+      "Valid passport (required for all MSC sailings from Port Canaveral)",
+      "Printed or digital boarding pass from MSC Cruises",
+      "Credit card for onboard account",
+      "Luggage tags from your booking confirmation",
+      "Medications and essentials in carry-on",
+      "Power adapter if you have European devices (ships have both US and European outlets)"
+    ],
+    "externalLinks": [
+      {"url": "https://www.msccruisesusa.com", "label": "MSC Cruises Official Site", "domain": "msccruisesusa.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"},
+      {"slug": "virgin-voyages-port-canaveral", "name": "Virgin Voyages - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "virgin-voyages-port-canaveral",
+    "cruiseLineName": "Virgin Voyages",
+    "cruiseLineShort": "Virgin Voyages",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Virgin Voyages is the adults-only cruise line from Richard Branson, offering a fresh take on cruising with no kids, no buffets, and no extra charge for dining. Virgin Voyages ships feature tattoo parlors, DJ-driven pool parties, festival-style entertainment, and a rebellious attitude. Port Canaveral sailings head to the Bahamas, the Beach Club at Bimini, and the Caribbean.",
+    "terminalInfo": "Terminal 10 (new terminal facility)",
+    "checkInTime": "1:00 PM - 3:00 PM",
+    "popularShips": "Scarlet Lady, Valiant Lady",
+    "gettingThereContent": "Port Canaveral's Terminal 10 is located about 60 miles east of Orlando via SR-528 (Beachline Expressway). The drive from Orlando International Airport is approximately 60 to 75 minutes. BusBrother offers group transportation perfect for Virgin Voyages sailing groups - bachelor and bachelorette parties, friend groups, and corporate retreats. We pick up from any Orlando-area location.",
+    "preCruiseHotels": "Great pre-cruise hotels for Virgin Voyages guests include Radisson Resort at the Port, The Hilton Cocoa Beach Oceanfront, Courtyard by Marriott Cocoa Beach, Residence Inn Cape Canaveral, and Holiday Inn Express Cape Canaveral. The Cocoa Beach area has plenty of bars and restaurants for a pre-cruise night out.",
+    "tips": [
+      "Virgin Voyages is 18-plus only - no one under 18 is permitted to sail",
+      "All restaurants are included in your fare with no extra charge - make reservations early for popular spots like The Test Kitchen",
+      "Pack festival-style outfits for the Scarlet Night party - it is the signature event of every sailing"
+    ],
+    "checklist": [
+      "Valid passport (required for all Virgin Voyages sailings)",
+      "Digital boarding pass from the Virgin Voyages app",
+      "Credit card for onboard purchases",
+      "Government-issued photo ID matching your booking name",
+      "Medications in carry-on",
+      "Party outfits for themed nights and the Scarlet Night event"
+    ],
+    "externalLinks": [
+      {"url": "https://www.virginvoyages.com", "label": "Virgin Voyages Official Site", "domain": "virginvoyages.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"},
+      {"slug": "msc-port-canaveral", "name": "MSC Cruises - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "margaritaville-at-sea-port-canaveral",
+    "cruiseLineName": "Margaritaville at Sea",
+    "cruiseLineShort": "Margaritaville",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Margaritaville at Sea brings Jimmy Buffett's laid-back island lifestyle to the open ocean with fun, affordable short cruises from Port Canaveral. The line offers 2 to 5-night sailings to the Bahamas, Grand Bahama Island, and Nassau, making it perfect for quick getaways. Expect island-themed entertainment, tropical cocktails, Cheeseburger in Paradise restaurants, and a relaxed party atmosphere.",
+    "terminalInfo": "Terminal 3",
+    "checkInTime": "12:00 PM - 3:00 PM",
+    "popularShips": "Margaritaville at Sea Islander, Margaritaville at Sea Paradise",
+    "gettingThereContent": "Port Canaveral Terminal 3 is about 60 miles east of Orlando via SR-528 (Beachline Expressway). From MCO airport, the drive is roughly 60 to 75 minutes. BusBrother provides group transportation for Margaritaville at Sea guests, picking up from Orlando hotels, airports, and homes. Our service is ideal for groups looking for a hassle-free ride to the port.",
+    "preCruiseHotels": "Convenient pre-cruise hotels include Radisson Resort at the Port, Country Inn and Suites Cape Canaveral, Hampton Inn Cocoa Beach, and Holiday Inn Express Cape Canaveral. For a beachside experience before your cruise, try the Hilton Cocoa Beach Oceanfront or International Palms Resort.",
+    "tips": [
+      "Margaritaville at Sea offers some of the most affordable cruise fares from Port Canaveral - great for first-time cruisers",
+      "Bring a Hawaiian shirt or tropical outfit for the island-themed parties onboard",
+      "The ships offer all-inclusive beverage packages at a reasonable price - consider adding one at booking"
+    ],
+    "checklist": [
+      "Valid passport or birth certificate plus government-issued photo ID",
+      "Boarding pass from Margaritaville at Sea",
+      "Credit card for onboard account",
+      "Comfortable casual clothing and swimwear",
+      "Medications in carry-on",
+      "Sunscreen and a hat for outdoor deck activities"
+    ],
+    "externalLinks": [
+      {"url": "https://www.margaritavilleatsea.com", "label": "Margaritaville at Sea Official Site", "domain": "margaritavilleatsea.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "disney-port-canaveral", "name": "Disney Cruise Line - Port Canaveral"},
+      {"slug": "norwegian-port-canaveral", "name": "Norwegian - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "celebrity-port-canaveral",
+    "cruiseLineName": "Celebrity Cruises",
+    "cruiseLineShort": "Celebrity",
+    "portName": "Port Canaveral",
+    "portSlug": "port-canaveral",
+    "description": "Celebrity Cruises offers a premium cruise experience from Port Canaveral with modern luxury, award-winning dining, and sophisticated entertainment. Celebrity ships are known for their stunning design, wellness-focused spas, and The Retreat - an exclusive suite-class experience. Sailings from Port Canaveral visit the Bahamas, Eastern Caribbean, and Western Caribbean destinations.",
+    "terminalInfo": "Terminal 1 (shared with Royal Caribbean)",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Celebrity Edge, Celebrity Equinox, Celebrity Constellation",
+    "gettingThereContent": "Port Canaveral Terminal 1 is about 60 miles east of Orlando via SR-528 (Beachline Expressway). From MCO airport, expect a 60 to 75 minute drive. BusBrother provides premium group transportation to Terminal 1, offering a polished experience that matches Celebrity's upscale atmosphere. We pick up from Orlando hotels, resorts, airports, and private addresses.",
+    "preCruiseHotels": "Premium pre-cruise hotels for Celebrity guests include Hilton Cocoa Beach Oceanfront, Radisson Resort at the Port, Courtyard by Marriott Cocoa Beach, Residence Inn Cape Canaveral, and DoubleTree by Hilton at the Entrance to Universal. These offer the comfort and quality Celebrity guests expect.",
+    "tips": [
+      "The Retreat guests enjoy exclusive check-in, a private lounge, and priority boarding at the terminal",
+      "Download the Celebrity Cruises app to manage reservations, check in online, and access digital boarding pass",
+      "Celebrity's included dining is restaurant-quality - make specialty dining reservations for unique culinary experiences"
+    ],
+    "checklist": [
+      "Valid passport (recommended for all Caribbean sailings)",
+      "eCruise boarding pass from Celebrity Cruises website or app",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications and valuables in carry-on",
+      "Smart casual evening wear for upscale dining nights"
+    ],
+    "externalLinks": [
+      {"url": "https://www.celebritycruises.com", "label": "Celebrity Cruises Official Site", "domain": "celebritycruises.com", "emoji": "🛳️"},
+      {"url": "https://www.portcanaveral.com", "label": "Port Canaveral Official Site", "domain": "portcanaveral.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-canaveral", "name": "Royal Caribbean - Port Canaveral"},
+      {"slug": "carnival-port-canaveral", "name": "Carnival - Port Canaveral"},
+      {"slug": "disney-port-canaveral", "name": "Disney Cruise Line - Port Canaveral"},
+      {"slug": "virgin-voyages-port-canaveral", "name": "Virgin Voyages - Port Canaveral"}
+    ]
+  },
+  {
+    "slug": "carnival-port-tampa",
+    "cruiseLineName": "Carnival Cruise Line",
+    "cruiseLineShort": "Carnival",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "description": "Carnival Cruise Line operates year-round sailings from Port Tampa Bay to the Western Caribbean, Mexico, and Cozumel. Tampa is one of Carnival's most popular homeports on the Gulf Coast, offering convenient access for residents of Central and West Florida. Carnival ships from Tampa visit destinations like Cozumel, Grand Cayman, Belize, Roatan, and Progreso.",
+    "terminalInfo": "Terminal 6",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Carnival Paradise, Carnival Valor, Carnival Pride",
+    "gettingThereContent": "Port Tampa Bay is located on Hooker's Point in Tampa, about 15 minutes from Tampa International Airport via I-275 and the Crosstown Expressway. From Orlando, the drive is approximately 75 to 90 minutes via I-4 West. BusBrother offers group shuttle service from Orlando, Tampa, and surrounding areas directly to Terminal 6 at Port Tampa Bay.",
+    "preCruiseHotels": "Popular pre-cruise hotels near Port Tampa Bay include the Hilton Garden Inn Tampa Ybor Historic District, Hampton Inn Tampa Ybor City, Tampa Marriott Water Street, Aloft Tampa Downtown, and Embassy Suites Tampa Downtown. Ybor City offers a fun night out before your cruise with historic restaurants and nightlife.",
+    "tips": [
+      "Tampa's cruise terminal is much smaller and less crowded than Port Canaveral or Fort Lauderdale - enjoy the faster check-in",
+      "If arriving the night before, explore Ybor City's restaurants and nightlife - it is only 10 minutes from the port",
+      "Western Caribbean itineraries from Tampa are longer voyages - pack accordingly for 5 to 7-night sailings"
+    ],
+    "checklist": [
+      "Valid passport (strongly recommended for Western Caribbean ports of call)",
+      "Printed or digital boarding pass from Carnival website",
+      "Credit card for onboard account setup",
+      "Luggage tags from your booking confirmation",
+      "Medications in carry-on bag",
+      "Casual warm-weather clothing and swimwear"
+    ],
+    "externalLinks": [
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line Official Site", "domain": "carnival.com", "emoji": "🛳️"},
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official Site", "domain": "porttb.com", "emoji": "🏢"},
+      {"url": "https://www.carnival.com/cruise-port/tampa-fl.aspx", "label": "Carnival Tampa Page", "domain": "carnival.com", "emoji": "📋"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-tampa", "name": "Royal Caribbean - Port Tampa Bay"},
+      {"slug": "celebrity-port-tampa", "name": "Celebrity Cruises - Port Tampa Bay"},
+      {"slug": "holland-america-port-tampa", "name": "Holland America - Port Tampa Bay"}
+    ]
+  },
+  {
+    "slug": "royal-caribbean-port-tampa",
+    "cruiseLineName": "Royal Caribbean International",
+    "cruiseLineShort": "Royal Caribbean",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "description": "Royal Caribbean sails from Port Tampa Bay with itineraries to the Western Caribbean, Mexico, Honduras, and Belize. Tampa offers a more relaxed embarkation experience compared to larger ports, and Royal Caribbean's ships departing from Tampa provide the same world-class entertainment, dining, and amenities. Expect destinations like Cozumel, Costa Maya, Grand Cayman, and Roatan.",
+    "terminalInfo": "Terminal 2",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Brilliance of the Seas, Grandeur of the Seas, Serenade of the Seas",
+    "gettingThereContent": "Port Tampa Bay Terminal 2 is about 15 minutes from Tampa International Airport via I-275 and the Crosstown Expressway. From Orlando, the drive takes approximately 75 to 90 minutes heading west on I-4. BusBrother provides group transportation from Orlando, Tampa, St. Petersburg, and surrounding areas to Terminal 2 at Port Tampa Bay.",
+    "preCruiseHotels": "Recommended pre-cruise hotels include Tampa Marriott Water Street, Hilton Garden Inn Tampa Ybor Historic District, Hampton Inn Tampa Ybor City, Embassy Suites Tampa Downtown, and Hyatt Place Tampa Downtown. Tampa's Riverwalk and Water Street districts offer excellent dining and entertainment the night before sailing.",
+    "tips": [
+      "Complete online check-in via the Royal Caribbean app and download your SetSail pass before arriving at the terminal",
+      "Port Tampa Bay parking is more affordable than other Florida ports - on-site parking runs about $15 per day",
+      "Tampa departures typically head to Western Caribbean ports - great for visiting Mexico and Central America"
+    ],
+    "checklist": [
+      "Valid passport (required for Western Caribbean itineraries visiting Mexico and Central America)",
+      "SetSail pass (digital boarding pass) from the Royal Caribbean app",
+      "Credit card for onboard expenses",
+      "Printed luggage tags from booking confirmation",
+      "Medications and essentials in carry-on",
+      "Rain jacket or light layer for port days"
+    ],
+    "externalLinks": [
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean Official Site", "domain": "royalcaribbean.com", "emoji": "🛳️"},
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official Site", "domain": "porttb.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-tampa", "name": "Carnival - Port Tampa Bay"},
+      {"slug": "celebrity-port-tampa", "name": "Celebrity Cruises - Port Tampa Bay"},
+      {"slug": "holland-america-port-tampa", "name": "Holland America - Port Tampa Bay"}
+    ]
+  },
+  {
+    "slug": "celebrity-port-tampa",
+    "cruiseLineName": "Celebrity Cruises",
+    "cruiseLineShort": "Celebrity",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "description": "Celebrity Cruises offers seasonal sailings from Port Tampa Bay to the Western Caribbean, featuring the line's signature modern luxury experience. Celebrity ships from Tampa visit destinations like Cozumel, Grand Cayman, and Key West. The line is known for award-winning cuisine, stunning ship design, and a relaxed yet sophisticated atmosphere that appeals to adult travelers and couples.",
+    "terminalInfo": "Terminal 3",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Celebrity Constellation, Celebrity Equinox, Celebrity Silhouette",
+    "gettingThereContent": "Port Tampa Bay Terminal 3 is approximately 15 minutes from Tampa International Airport via I-275 and the Crosstown Expressway. From Orlando, the drive is about 75 to 90 minutes via I-4 West. BusBrother provides premium group transportation to Terminal 3, picking up from Orlando, Tampa, Lakeland, and surrounding areas.",
+    "preCruiseHotels": "Premium pre-cruise hotels for Celebrity guests in Tampa include the JW Marriott Tampa Water Street, Tampa Marriott Water Street, Le Meridien Tampa, Hilton Tampa Downtown, and Epicurean Hotel in South Tampa. These upscale properties match the Celebrity experience.",
+    "tips": [
+      "Celebrity's seasonal Tampa departures are less crowded than year-round homeports - enjoy a more relaxed embarkation",
+      "The Retreat suite guests enjoy exclusive check-in and priority boarding even at smaller ports like Tampa",
+      "Tampa's restaurant scene is outstanding - plan a pre-cruise dinner at Bern's Steak House or Columbia Restaurant in Ybor City"
+    ],
+    "checklist": [
+      "Valid passport (recommended for all Caribbean itineraries)",
+      "eCruise boarding pass from Celebrity Cruises",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Smart casual attire for evening dining"
+    ],
+    "externalLinks": [
+      {"url": "https://www.celebritycruises.com", "label": "Celebrity Cruises Official Site", "domain": "celebritycruises.com", "emoji": "🛳️"},
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official Site", "domain": "porttb.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-tampa", "name": "Carnival - Port Tampa Bay"},
+      {"slug": "royal-caribbean-port-tampa", "name": "Royal Caribbean - Port Tampa Bay"},
+      {"slug": "holland-america-port-tampa", "name": "Holland America - Port Tampa Bay"}
+    ]
+  },
+  {
+    "slug": "holland-america-port-tampa",
+    "cruiseLineName": "Holland America Line",
+    "cruiseLineShort": "Holland America",
+    "portName": "Port Tampa Bay",
+    "portSlug": "port-tampa-bay",
+    "description": "Holland America Line offers refined, classic cruising from Port Tampa Bay with seasonal sailings to the Western Caribbean and Mexico. Known for elegant ships, enrichment programs, exceptional dining through the Culinary Council, and a more traditional cruise experience, Holland America appeals to experienced cruisers and mature travelers who appreciate culture, cuisine, and comfort.",
+    "terminalInfo": "Terminal 3 (shared with Celebrity)",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Nieuw Amsterdam, Zuiderdam, Rotterdam",
+    "gettingThereContent": "Port Tampa Bay Terminal 3 is roughly 15 minutes from Tampa International Airport via I-275 and the Crosstown Expressway. From Orlando, the drive takes approximately 75 to 90 minutes via I-4 West. BusBrother provides comfortable group transportation to Terminal 3, ideal for Holland America guests who want a smooth, stress-free transfer from any pickup location.",
+    "preCruiseHotels": "Refined pre-cruise hotels for Holland America guests include the JW Marriott Tampa Water Street, Le Meridien Tampa, Tampa Marriott Water Street, Grand Hyatt Tampa Bay, and The Don CeSar in nearby St. Pete Beach. These properties offer the elevated experience Holland America guests expect.",
+    "tips": [
+      "Holland America's Club Orange premium dining is worth the upgrade - it includes a dedicated restaurant and priority services",
+      "The line's Explorations Central (EXC) program offers in-depth port lectures and cultural programming before each destination",
+      "Holland America ships have extensive libraries and quiet spaces - perfect for sea day relaxation"
+    ],
+    "checklist": [
+      "Valid passport (required for Western Caribbean and Mexico itineraries)",
+      "Boarding pass from Holland America Line",
+      "Credit card for onboard account",
+      "Printed luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Dressy casual and formal attire for Gala Evenings"
+    ],
+    "externalLinks": [
+      {"url": "https://www.hollandamerica.com", "label": "Holland America Line Official Site", "domain": "hollandamerica.com", "emoji": "🛳️"},
+      {"url": "https://www.porttb.com", "label": "Port Tampa Bay Official Site", "domain": "porttb.com", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "carnival-port-tampa", "name": "Carnival - Port Tampa Bay"},
+      {"slug": "royal-caribbean-port-tampa", "name": "Royal Caribbean - Port Tampa Bay"},
+      {"slug": "celebrity-port-tampa", "name": "Celebrity Cruises - Port Tampa Bay"}
+    ]
+  },
+  {
+    "slug": "royal-caribbean-port-everglades",
+    "cruiseLineName": "Royal Caribbean International",
+    "cruiseLineShort": "Royal Caribbean",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Royal Caribbean International operates a massive fleet from Port Everglades in Fort Lauderdale, one of the busiest cruise ports in the world. Ships sail to the Bahamas, Perfect Day at CocoCay, Eastern Caribbean, Western Caribbean, Southern Caribbean, and even transatlantic voyages. Port Everglades is home to some of Royal Caribbean's newest and largest vessels.",
+    "terminalInfo": "Terminal 18 and Terminal 25",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Allure of the Seas, Odyssey of the Seas, Symphony of the Seas",
+    "gettingThereContent": "Port Everglades is located in Fort Lauderdale, just 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami International Airport, the drive is about 30 to 40 minutes via I-95 or the Florida Turnpike. From Orlando, the drive is approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides group transportation from Orlando, Miami, and all South Florida locations directly to Port Everglades terminals.",
+    "preCruiseHotels": "Top pre-cruise hotels near Port Everglades include the Hilton Fort Lauderdale Marina, Hyatt Regency Pier Sixty-Six, Courtyard by Marriott Fort Lauderdale Cruise Port, Renaissance Fort Lauderdale Cruise Port Hotel, and B Ocean Resort on Fort Lauderdale Beach. Many are within 5 minutes of the port.",
+    "tips": [
+      "Port Everglades can be extremely busy on turnaround days - arrive during your assigned window to avoid long waits",
+      "FLL airport is the closest airport to any major cruise port in the US - consider flying in the morning of your cruise",
+      "Uber and Lyft are readily available at Port Everglades, but BusBrother is the best option for groups of 6 or more"
+    ],
+    "checklist": [
+      "Valid passport (required for most itineraries from Fort Lauderdale)",
+      "SetSail pass from the Royal Caribbean app",
+      "Credit card for onboard account",
+      "Printed luggage tags from booking confirmation",
+      "Medications and valuables in carry-on bag",
+      "Sunscreen for embarkation day on the pool deck"
+    ],
+    "externalLinks": [
+      {"url": "https://www.royalcaribbean.com", "label": "Royal Caribbean Official Site", "domain": "royalcaribbean.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"},
+      {"url": "https://www.royalcaribbean.com/cruise-ports/fort-lauderdale", "label": "Royal Caribbean Fort Lauderdale Page", "domain": "royalcaribbean.com", "emoji": "📋"}
+    ],
+    "otherLines": [
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "carnival-port-everglades", "name": "Carnival - Port Everglades"},
+      {"slug": "holland-america-port-everglades", "name": "Holland America - Port Everglades"},
+      {"slug": "norwegian-port-everglades", "name": "Norwegian - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "celebrity-port-everglades",
+    "cruiseLineName": "Celebrity Cruises",
+    "cruiseLineShort": "Celebrity",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Celebrity Cruises uses Port Everglades as its primary homeport, sailing a wide variety of itineraries to the Caribbean, Bahamas, Bermuda, and Europe. Celebrity's modern luxury ships feature The Retreat suite-class experience, innovative dining concepts from Michelin-starred chefs, and a sophisticated onboard atmosphere. Port Everglades is where you will find Celebrity's newest Edge-class ships.",
+    "terminalInfo": "Terminal 25",
+    "checkInTime": "11:00 AM - 1:30 PM",
+    "popularShips": "Celebrity Edge, Celebrity Apex, Celebrity Beyond",
+    "gettingThereContent": "Port Everglades Terminal 25 is just 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami International Airport, the drive is about 30 to 40 minutes. From Orlando, expect a 3.5 to 4-hour drive via the Florida Turnpike. BusBrother provides premium group transportation to Terminal 25, with service from Orlando, Miami, and all South Florida locations.",
+    "preCruiseHotels": "Premium pre-cruise hotels for Celebrity guests include the W Fort Lauderdale, Hilton Fort Lauderdale Beach Resort, The Ritz-Carlton Fort Lauderdale, Pelican Grand Beach Resort, and Renaissance Fort Lauderdale Cruise Port Hotel. Fort Lauderdale Beach and Las Olas Boulevard offer upscale dining and shopping before your voyage.",
+    "tips": [
+      "Celebrity's Terminal 25 at Port Everglades is one of the newest terminals in the country with a streamlined check-in experience",
+      "The Retreat guests enjoy a separate check-in area and priority boarding at Terminal 25",
+      "Book specialty dining reservations before your cruise through the Celebrity app for the best availability"
+    ],
+    "checklist": [
+      "Valid passport (required for Caribbean and international sailings)",
+      "eCruise boarding pass from Celebrity Cruises",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications and valuables in carry-on",
+      "Evening wear for Le Grand Bistro and specialty restaurant dining"
+    ],
+    "externalLinks": [
+      {"url": "https://www.celebritycruises.com", "label": "Celebrity Cruises Official Site", "domain": "celebritycruises.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "carnival-port-everglades", "name": "Carnival - Port Everglades"},
+      {"slug": "holland-america-port-everglades", "name": "Holland America - Port Everglades"},
+      {"slug": "princess-port-everglades", "name": "Princess Cruises - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "carnival-port-everglades",
+    "cruiseLineName": "Carnival Cruise Line",
+    "cruiseLineShort": "Carnival",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Carnival Cruise Line sails multiple ships from Port Everglades in Fort Lauderdale, offering affordable family-friendly cruises to the Bahamas, Eastern Caribbean, and Southern Caribbean. Carnival's Fun Ships from Fort Lauderdale range from shorter 4 and 5-night sailings to longer 7 and 8-night Caribbean voyages. The port's proximity to FLL airport makes it an easy fly-and-cruise option.",
+    "terminalInfo": "Terminal 2",
+    "checkInTime": "11:30 AM - 1:30 PM",
+    "popularShips": "Carnival Conquest, Carnival Sunrise, Carnival Venezia",
+    "gettingThereContent": "Port Everglades Terminal 2 is located in Fort Lauderdale, only 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami, the drive is about 30 to 40 minutes via I-95. From Orlando, it is approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides group transportation from Orlando, Miami, and all South Florida locations to Terminal 2.",
+    "preCruiseHotels": "Great pre-cruise hotels near Port Everglades for Carnival guests include Courtyard by Marriott Fort Lauderdale Cruise Port, Renaissance Fort Lauderdale Cruise Port Hotel, Hampton Inn Fort Lauderdale Cruise Port, Embassy Suites Fort Lauderdale 17th Street, and Hilton Fort Lauderdale Marina. Most are within a 5-minute drive of the port.",
+    "tips": [
+      "Carnival's Terminal 2 at Port Everglades handles multiple ships on busy days - follow signs for your specific ship",
+      "Fort Lauderdale has excellent pre-cruise parking rates if you are driving - compare port parking with off-site lots on Park N Cruise",
+      "The Carnival HUB app lets you complete check-in, choose your arrival time, and manage onboard reservations"
+    ],
+    "checklist": [
+      "Valid passport or birth certificate plus government-issued photo ID",
+      "Printed or digital boarding pass from Carnival",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Swimsuit in carry-on for pool access on embarkation day"
+    ],
+    "externalLinks": [
+      {"url": "https://www.carnival.com", "label": "Carnival Cruise Line Official Site", "domain": "carnival.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "holland-america-port-everglades", "name": "Holland America - Port Everglades"},
+      {"slug": "norwegian-port-everglades", "name": "Norwegian - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "holland-america-port-everglades",
+    "cruiseLineName": "Holland America Line",
+    "cruiseLineShort": "Holland America",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Holland America Line sails from Port Everglades with elegant ships visiting the Caribbean, Panama Canal, and South America. Fort Lauderdale is one of Holland America's most important homeports, offering a wide range of itineraries from short Caribbean getaways to extended Panama Canal transits and world cruises. The line is known for refined dining, enrichment programming, and a classic cruise experience.",
+    "terminalInfo": "Terminal 19",
+    "checkInTime": "11:30 AM - 1:00 PM",
+    "popularShips": "Nieuw Amsterdam, Rotterdam, Zaandam",
+    "gettingThereContent": "Port Everglades Terminal 19 is just 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami, the drive is about 30 to 40 minutes. From Orlando, expect approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides comfortable group transportation to Terminal 19 from Orlando, Miami, and throughout South Florida.",
+    "preCruiseHotels": "Upscale pre-cruise hotels for Holland America guests include The Ritz-Carlton Fort Lauderdale, Pelican Grand Beach Resort, Hilton Fort Lauderdale Beach Resort, Renaissance Fort Lauderdale Cruise Port Hotel, and B Ocean Resort Fort Lauderdale. Las Olas Boulevard offers excellent dining and shopping before your voyage.",
+    "tips": [
+      "Holland America's Club Orange program provides a dedicated restaurant, priority boarding, and enhanced amenities for a modest daily fee",
+      "Enrichment programs include guest lecturers, cooking demonstrations, and digital workshops at the Explorations Cafe",
+      "Panama Canal transit sailings from Fort Lauderdale are once-in-a-lifetime experiences - book well in advance"
+    ],
+    "checklist": [
+      "Valid passport (required for all Holland America sailings from Port Everglades)",
+      "Boarding pass from Holland America Line",
+      "Credit card for onboard account",
+      "Printed luggage tags",
+      "Medications in carry-on",
+      "Formal attire for Gala Night evenings"
+    ],
+    "externalLinks": [
+      {"url": "https://www.hollandamerica.com", "label": "Holland America Line Official Site", "domain": "hollandamerica.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "princess-port-everglades", "name": "Princess Cruises - Port Everglades"},
+      {"slug": "silversea-port-everglades", "name": "Silversea - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "princess-port-everglades",
+    "cruiseLineName": "Princess Cruises",
+    "cruiseLineShort": "Princess",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Princess Cruises sails from Port Everglades with itineraries to the Caribbean, Panama Canal, and transatlantic voyages. Known for the MedallionClass experience with touchless boarding and personalized service, Princess offers a premium cruise experience with excellent dining, Movies Under the Stars, and immersive destination programming. Fort Lauderdale is a key homeport for Princess's Caribbean and Panama Canal seasons.",
+    "terminalInfo": "Terminal 2 (shared with Carnival seasonally)",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Caribbean Princess, Sky Princess, Enchanted Princess",
+    "gettingThereContent": "Port Everglades Terminal 2 is only 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami, the drive is about 30 to 40 minutes. From Orlando, it is approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides group transportation from Orlando and all Florida locations to Port Everglades for Princess sailings.",
+    "preCruiseHotels": "Recommended hotels for Princess guests include Hilton Fort Lauderdale Marina, Renaissance Fort Lauderdale Cruise Port Hotel, Courtyard by Marriott Fort Lauderdale Cruise Port, Pelican Grand Beach Resort, and The Dalmar Fort Lauderdale. All are within a short drive of Port Everglades.",
+    "tips": [
+      "Order your OceanMedallion before your cruise - it ships free to your home and enables touchless boarding at the terminal",
+      "Princess's MedallionClass app lets you order food, find friends on the ship, and unlock your stateroom door",
+      "Movies Under the Stars on the pool deck is a signature Princess experience - bring a blanket for cool evening screenings"
+    ],
+    "checklist": [
+      "Valid passport (required for Caribbean and Panama Canal sailings)",
+      "OceanMedallion wearable device (shipped before your cruise)",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Smart casual attire for evening dining in the main dining room"
+    ],
+    "externalLinks": [
+      {"url": "https://www.princess.com", "label": "Princess Cruises Official Site", "domain": "princess.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "holland-america-port-everglades", "name": "Holland America - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "carnival-port-everglades", "name": "Carnival - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "silversea-port-everglades",
+    "cruiseLineName": "Silversea Cruises",
+    "cruiseLineShort": "Silversea",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Silversea Cruises is an ultra-luxury cruise line offering all-inclusive sailings from Port Everglades. Every fare includes butler service for all suites, premium wines and spirits, gratuities, and shore excursions on select itineraries. Silversea ships are intimate with fewer than 600 guests, creating an exclusive atmosphere. Sailings from Fort Lauderdale visit the Caribbean, South America, and transatlantic destinations.",
+    "terminalInfo": "Terminal 19 (shared with Holland America)",
+    "checkInTime": "11:00 AM - 1:00 PM",
+    "popularShips": "Silver Dawn, Silver Nova, Silver Moon",
+    "gettingThereContent": "Port Everglades Terminal 19 is 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami, the drive takes about 30 to 40 minutes. From Orlando, expect approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother offers luxury group transportation to Terminal 19, providing a premium transfer experience for Silversea guests.",
+    "preCruiseHotels": "Luxury pre-cruise hotels for Silversea guests include The Ritz-Carlton Fort Lauderdale, Four Seasons Hotel Fort Lauderdale, W Fort Lauderdale, Pelican Grand Beach Resort, and The Conrad Fort Lauderdale Beach. These properties offer the five-star experience Silversea guests expect.",
+    "tips": [
+      "Silversea is all-inclusive - your fare covers beverages, gratuities, and butler service in every suite category",
+      "The line's small ships access boutique ports that larger vessels cannot visit",
+      "S.A.L.T. (Sea and Land Taste) is Silversea's culinary program with destination-inspired cooking classes and excursions"
+    ],
+    "checklist": [
+      "Valid passport (required for all Silversea sailings)",
+      "Boarding documents from Silversea Cruises",
+      "Credit card for incidental charges (most items are included in fare)",
+      "Medications in carry-on",
+      "Formal evening wear for select dinner evenings",
+      "Binoculars for wildlife viewing on expedition-style itineraries"
+    ],
+    "externalLinks": [
+      {"url": "https://www.silversea.com", "label": "Silversea Cruises Official Site", "domain": "silversea.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "holland-america-port-everglades", "name": "Holland America - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "princess-port-everglades", "name": "Princess Cruises - Port Everglades"},
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "msc-port-everglades",
+    "cruiseLineName": "MSC Cruises",
+    "cruiseLineShort": "MSC",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "MSC Cruises sails from Port Everglades with European-inspired voyages to the Caribbean, Bahamas, and Ocean Cay MSC Marine Reserve. MSC is the world's third-largest cruise line and brings an international flair to Fort Lauderdale with diverse cuisine, Cirque du Soleil at Sea entertainment, and the luxury Yacht Club ship-within-a-ship experience. Port Everglades serves as a key North American homeport for MSC.",
+    "terminalInfo": "Terminal 18",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "MSC Seaside, MSC Seashore, MSC Divina",
+    "gettingThereContent": "Port Everglades Terminal 18 is located 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami International Airport, the drive is about 30 to 40 minutes. From Orlando, expect approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides group transportation to Terminal 18 from Orlando, Miami, and all South Florida locations.",
+    "preCruiseHotels": "Recommended pre-cruise hotels include Renaissance Fort Lauderdale Cruise Port Hotel, Courtyard by Marriott Fort Lauderdale Cruise Port, Hilton Fort Lauderdale Marina, Embassy Suites Fort Lauderdale 17th Street, and B Ocean Resort. The Fort Lauderdale Beach area offers great dining and nightlife the evening before your cruise.",
+    "tips": [
+      "MSC Yacht Club guests enjoy all-inclusive butler service, a private pool deck, and exclusive check-in at the terminal",
+      "Download the MSC for Me app before your cruise for digital check-in, onboard navigation, and restaurant reservations",
+      "Ocean Cay MSC Marine Reserve is MSC's private island in the Bahamas - it is one of the most beautiful private destinations in cruising"
+    ],
+    "checklist": [
+      "Valid passport (required for all MSC sailings from Port Everglades)",
+      "Digital or printed boarding pass from MSC Cruises",
+      "Credit card for onboard account",
+      "Luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Beach gear for Ocean Cay MSC Marine Reserve"
+    ],
+    "externalLinks": [
+      {"url": "https://www.msccruisesusa.com", "label": "MSC Cruises Official Site", "domain": "msccruisesusa.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "carnival-port-everglades", "name": "Carnival - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "norwegian-port-everglades", "name": "Norwegian - Port Everglades"}
+    ]
+  },
+  {
+    "slug": "norwegian-port-everglades",
+    "cruiseLineName": "Norwegian Cruise Line",
+    "cruiseLineShort": "Norwegian",
+    "portName": "Port Everglades (Fort Lauderdale)",
+    "portSlug": "port-everglades",
+    "description": "Norwegian Cruise Line sails from Port Everglades with Freestyle Cruising itineraries to the Bahamas, Eastern Caribbean, Western Caribbean, and Southern Caribbean. Norwegian's ships from Fort Lauderdale offer flexible dining with no fixed seating times, world-class entertainment including Broadway shows, and The Haven luxury suite complex. Port Everglades is one of Norwegian's busiest homeports.",
+    "terminalInfo": "Terminal 2 or Terminal 19 (varies by ship)",
+    "checkInTime": "11:00 AM - 2:00 PM",
+    "popularShips": "Norwegian Encore, Norwegian Getaway, Norwegian Sky",
+    "gettingThereContent": "Port Everglades is 3 miles from Fort Lauderdale-Hollywood International Airport (FLL). From Miami, the drive takes about 30 to 40 minutes via I-95. From Orlando, it is approximately 3.5 to 4 hours via the Florida Turnpike. BusBrother provides group transportation from Orlando and all Florida locations to Port Everglades for Norwegian sailings.",
+    "preCruiseHotels": "Top pre-cruise hotels for Norwegian guests include Hilton Fort Lauderdale Marina, Courtyard by Marriott Fort Lauderdale Cruise Port, Renaissance Fort Lauderdale Cruise Port Hotel, Hampton Inn Fort Lauderdale Cruise Port, and Embassy Suites Fort Lauderdale 17th Street. All are within minutes of the port.",
+    "tips": [
+      "Norwegian's Haven suite guests enjoy exclusive check-in, a private lounge, and dedicated concierge service at the terminal",
+      "Download the Norwegian Cruise Line app for digital check-in and your boarding pass",
+      "The Free at Sea promotion often includes free drinks, WiFi, and specialty dining - check for current offers when booking"
+    ],
+    "checklist": [
+      "Valid passport (required for Caribbean sailings from Fort Lauderdale)",
+      "Digital or printed boarding pass from Norwegian Cruise Line",
+      "Credit card for onboard account",
+      "Printed luggage tags from booking confirmation",
+      "Medications in carry-on",
+      "Casual and dressy outfits - Norwegian has relaxed dress codes but specialty restaurants appreciate smart casual"
+    ],
+    "externalLinks": [
+      {"url": "https://www.ncl.com", "label": "Norwegian Cruise Line Official Site", "domain": "ncl.com", "emoji": "🛳️"},
+      {"url": "https://www.porteverglades.net", "label": "Port Everglades Official Site", "domain": "porteverglades.net", "emoji": "🏢"}
+    ],
+    "otherLines": [
+      {"slug": "royal-caribbean-port-everglades", "name": "Royal Caribbean - Port Everglades"},
+      {"slug": "carnival-port-everglades", "name": "Carnival - Port Everglades"},
+      {"slug": "celebrity-port-everglades", "name": "Celebrity Cruises - Port Everglades"},
+      {"slug": "msc-port-everglades", "name": "MSC Cruises - Port Everglades"}
+    ]
+  }
+]

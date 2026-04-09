@@ -1,0 +1,95 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/theme-parks/">Theme Parks</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{parkName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{parkEmoji}}</div>
+    <h1>{{parkName}} | Complete Visitor Guide</h1>
+    <p class="subtitle">{{parkSubtitle}}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>About {{parkName}}</h2>
+        <p>{{parkDescription}}</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">{{openedYear}}</div><div class="stat-lbl">Opened</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">{{parkSize}}</div><div class="stat-lbl">Size</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">{{annualVisitors}}</div><div class="stat-lbl">Annual Visitors</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">{{numRides}}</div><div class="stat-lbl">Rides</div></div>
+        </div>
+
+        {{#if history}}<h3>History of {{parkName}}</h3>
+        <p>{{history}}</p>{{/if}}
+
+        <h3>Park Areas & Lands</h3>
+        {{#each areas}}<div style="padding:1.2rem 0;border-bottom:1px solid var(--border);">
+          <h4 style="font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:0.03em;">{{emoji}} {{name}}</h4>
+          <p style="color:var(--muted);font-size:0.9rem;margin-top:0.4rem;">{{description}}</p>
+          {{#if topRides}}<p style="color:var(--gold);font-size:0.82rem;font-family:'Space Mono',monospace;margin-top:0.3rem;">TOP RIDES: {{topRides}}</p>{{/if}}
+        </div>
+        {{/each}}
+
+        {{#if topAttractions}}<h3>Must-Do Attractions</h3>
+        <ul class="check-list">
+          {{#each topAttractions}}<li><span class="check-icon">&#10003;</span><span><strong>{{name}}</strong> - {{description}}</span></li>
+          {{/each}}
+        </ul>{{/if}}
+
+        <h3>Insider Tips</h3>
+        <ul class="check-list">
+          {{#each insiderTips}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <h3>Best Times to Visit</h3>
+        <p>{{bestTimes}}</p>
+
+        <h3>Tickets & Pricing</h3>
+        <p>{{ticketInfo}}</p>
+
+        {{#if dining}}<h3>Dining at {{parkName}}</h3>
+        <p>{{dining}}</p>{{/if}}
+
+        <div style="margin-top:2.5rem;padding:2rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);">
+          <h3 style="margin-bottom:1rem;">Official Resources</h3>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;">
+            {{#each externalLinks}}<li><a href="{{url}}" target="_blank" rel="noopener" style="font-size:0.95rem;">&#x1F517; {{label}} <span style="color:var(--muted);font-size:0.75rem;">&rarr; {{domain}}</span></a></li>
+            {{/each}}
+          </ul>
+        </div>
+
+        {{> lead-magnet}}
+
+        <div class="callout" style="margin-top:2rem;"><p><strong>Group Visit to {{parkName}}?</strong> BusBrother drops your group at the front gate and picks you up after the fireworks. No parking fees, no rideshare surge. Round trip, multi-stop, ADA accessible. <a href="/book/">Get a free quote</a>.</p></div>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Theme Park Shuttle &rarr;</a>
+            <a href="/theme-parks/" class="btn btn-outline">All Theme Parks &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Park Quick Facts</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Location: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Opened: {{openedYear}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Hours: {{parkHours}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Parking: {{parkingInfo}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

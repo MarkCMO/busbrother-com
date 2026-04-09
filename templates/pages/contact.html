@@ -1,0 +1,59 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><span>Contact</span></div>
+    <h1>Contact BusBrother</h1>
+    <p class="subtitle">Questions? Need a custom quote? Reach out anytime - we are available 24/7.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div>
+        <h2>Get in Touch</h2>
+        <form name="contact" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact"/>
+          <p style="display:none;"><input name="bot-field"/></p>
+          <div class="form-row">
+            <div class="form-group"><label for="cname">Your Name</label><input type="text" id="cname" name="name" placeholder="Full name" required/></div>
+            <div class="form-group"><label for="cemail">Email</label><input type="email" id="cemail" name="email" placeholder="email@example.com" required/></div>
+          </div>
+          <div class="form-group"><label for="cphone">Phone</label><input type="tel" id="cphone" name="phone" placeholder="(555) 555-5555"/></div>
+          <div class="form-group"><label for="csubject">Subject</label><input type="text" id="csubject" name="subject" placeholder="How can we help?"/></div>
+          <div class="form-group"><label for="cmessage">Message</label><textarea id="cmessage" name="message" rows="5" placeholder="Tell us about your transportation needs..." required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">Send Message &rarr;</button>
+        </form>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.4rem;margin-bottom:1rem;">Contact Information</h3>
+            <ul class="footer-links" style="gap:1rem;">
+              <li style="color:var(--muted);font-size:0.95rem;">Email: <a href="mailto:info@busbrother.com">info@busbrother.com</a></li>
+              <li style="color:var(--muted);font-size:0.95rem;">Available: 24/7 including holidays</li>
+              <li style="color:var(--muted);font-size:0.95rem;">Based in: Cape Canaveral, FL 32920</li>
+              <li style="color:var(--muted);font-size:0.95rem;">Service Area: 120+ Florida cities</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-bottom:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.4rem;margin-bottom:1rem;">Quick Quote</h3>
+            <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">Need a quote fast? Use our quote form for the fastest response.</p>
+            <a href="/book/" class="btn btn-primary" style="width:100%;justify-content:center;">Get a Free Quote &rarr;</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="font-size:1.4rem;margin-bottom:1rem;">Response Time</h3>
+            <p style="color:var(--muted);font-size:0.9rem;">We respond to all inquiries within 2 hours during business hours and within 4 hours overnight. For urgent same-day requests, please mention "URGENT" in your subject line.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

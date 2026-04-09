@@ -1,0 +1,1756 @@
+[
+  {
+    "slug": "magic-kingdom-complete-guide",
+    "parkName": "Magic Kingdom",
+    "parkEmoji": "🏰",
+    "parkSubtitle": "The most visited theme park in the world - home to Cinderella Castle, Space Mountain, Pirates of the Caribbean, and classic Disney magic.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Magic Kingdom at Walt Disney World is the most iconic theme park on Earth. Opened on October 1, 1971, it was the first park built at Walt Disney World and remains the most visited theme park in the world with over 20 million guests annually. The park spans 107 acres and is organized around six themed lands radiating from the central hub in front of Cinderella Castle.",
+    "openedYear": "1971",
+    "parkSize": "107 acres",
+    "annualVisitors": "20M+",
+    "numRides": "30+",
+    "parkHours": "9 AM - 10 PM (varies)",
+    "parkingInfo": "$25/day standard, $50/day preferred",
+    "history": "Magic Kingdom was Walt Disney's original vision for a theme park that improved upon the Disneyland concept in California. Construction began in 1967, and the park utilized a revolutionary underground utilidor system - a network of tunnels beneath the park that allows cast members and supplies to move unseen by guests. The park opened with 23 attractions and has grown to over 30, with the most recent additions including TRON Lightcycle Run in Tomorrowland.",
+    "areas": [
+      {"emoji": "🏰", "name": "Main Street U.S.A.", "description": "The grand entrance to Magic Kingdom, designed to evoke small-town America at the turn of the 20th century. Features shops, bakeries, and the iconic Cinderella Castle at the far end.", "topRides": "Walt Disney World Railroad, Main Street Vehicles"},
+      {"emoji": "🏴‍☠️", "name": "Adventureland", "description": "A tropical paradise inspired by exotic destinations from around the world. Home to some of Disney's most classic attractions.", "topRides": "Pirates of the Caribbean, Jungle Cruise, Magic Carpets of Aladdin"},
+      {"emoji": "🤠", "name": "Frontierland", "description": "The wild west comes alive with thrilling rides and classic Americana. Big Thunder Mountain is one of the park's most popular attractions.", "topRides": "Big Thunder Mountain Railroad, Splash Mountain, Tom Sawyer Island"},
+      {"emoji": "👻", "name": "Liberty Square", "description": "Colonial America themed area featuring the beloved Haunted Mansion attraction and the Hall of Presidents animatronic show.", "topRides": "Haunted Mansion, Hall of Presidents, Liberty Belle Riverboat"},
+      {"emoji": "🧚", "name": "Fantasyland", "description": "The largest land in Magic Kingdom, themed around classic Disney animated films. New Fantasyland expansion added in 2012 nearly doubled the area's size.", "topRides": "Seven Dwarfs Mine Train, Peter Pan's Flight, It's a Small World, Under the Sea"},
+      {"emoji": "🚀", "name": "Tomorrowland", "description": "A retro-futuristic vision of the future featuring high-speed attractions and space-themed experiences.", "topRides": "Space Mountain, TRON Lightcycle Run, Buzz Lightyear's Space Ranger Spin"}
+    ],
+    "topAttractions": [
+      {"name": "TRON Lightcycle Run", "description": "The newest coaster at Magic Kingdom, this high-speed indoor/outdoor launch coaster reaches 59 mph"},
+      {"name": "Space Mountain", "description": "Classic indoor roller coaster in the dark - a Magic Kingdom original since 1975"},
+      {"name": "Seven Dwarfs Mine Train", "description": "Family-friendly coaster through the diamond mine from Snow White with innovative swinging car technology"},
+      {"name": "Pirates of the Caribbean", "description": "Classic boat ride through scenes of pirate adventure - one of the last attractions Walt Disney personally helped design"},
+      {"name": "Haunted Mansion", "description": "Iconic dark ride through a haunted estate with 999 happy haunts and groundbreaking special effects"}
+    ],
+    "insiderTips": [
+      "Arrive 30-45 minutes before park opening to be at the front of the rope drop crowd",
+      "Use Lightning Lane (paid) or standby for the big rides - TRON and Seven Dwarfs Mine Train have the longest waits",
+      "The park is least crowded on weekdays during January, February, and September",
+      "Watch the fireworks from the bridge between the hub and Tomorrowland for a less crowded view",
+      "Eat lunch at 11 AM or 2 PM to avoid peak restaurant wait times",
+      "The monorail resort loop (Contemporary, Polynesian, Grand Floridian) is a free and fun way to see the resort area"
+    ],
+    "bestTimes": "Magic Kingdom is least crowded during mid-January through mid-February and mid-September through early October. Weekdays are always less crowded than weekends. Avoid the week between Christmas and New Year's, Spring Break weeks, and the Fourth of July - these are the busiest periods of the year.",
+    "ticketInfo": "Single-day tickets start at $109 for adults and $104 for children ages 3-9 (prices vary by date). Multi-day tickets offer significant per-day savings. Park Hopper add-on allows visiting multiple parks in one day. Annual passes range from $399 to $1,399 depending on the tier.",
+    "dining": "Magic Kingdom offers over 30 dining locations ranging from quick-service counter restaurants to table-service experiences. Be Our Guest Restaurant in Fantasyland is the most popular reservation and should be booked 60 days in advance. Other top picks include Liberty Tree Tavern for Thanksgiving-style meals and Skipper Canteen in Adventureland for adventurous cuisine.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/magic-kingdom/", "label": "Magic Kingdom Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🏰"},
+      {"url": "https://disneyworld.disney.go.com/tickets/", "label": "Disney World Tickets", "domain": "disneyworld.disney.go.com", "emoji": "🎟️"},
+      {"url": "https://disneyworld.disney.go.com/dining/", "label": "Disney Dining Reservations", "domain": "disneyworld.disney.go.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "epcot-complete-guide",
+    "parkName": "EPCOT",
+    "parkEmoji": "🌐",
+    "parkSubtitle": "A celebration of human achievement, world culture, and innovation - featuring the iconic Spaceship Earth and World Showcase.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "EPCOT (Experimental Prototype Community of Tomorrow) is Walt Disney World's second theme park, spanning 305 acres. Originally envisioned by Walt Disney as a real working city, the park instead became a showcase of technology, innovation, and world cultures. EPCOT is divided into four neighborhoods: World Celebration, World Discovery, World Nature, and World Showcase.",
+    "openedYear": "1982",
+    "parkSize": "305 acres",
+    "annualVisitors": "12M+",
+    "numRides": "20+",
+    "parkHours": "9 AM - 9 PM (varies)",
+    "parkingInfo": "$25/day standard, $50/day preferred",
+    "history": "EPCOT opened on October 1, 1982, as the second Walt Disney World theme park. Walt Disney originally envisioned EPCOT as a real, functioning city of the future where 20,000 residents would live and work. After his death in 1966, the concept was reimagined as a permanent world's fair. The park has undergone massive transformation since 2019, with new attractions like Guardians of the Galaxy: Cosmic Rewind and a reimagined entrance area replacing the aging Future World concept.",
+    "areas": [
+      {"emoji": "🌐", "name": "World Celebration", "description": "The central hub of EPCOT anchored by Spaceship Earth and the new CommuniCore Hall event space. This reimagined area replaced the former Future World center.", "topRides": "Spaceship Earth, Journey of Water - Inspired by Moana"},
+      {"emoji": "🔬", "name": "World Discovery", "description": "Home to EPCOT's most thrilling attractions with a focus on science, technology, and space exploration.", "topRides": "Guardians of the Galaxy: Cosmic Rewind, Test Track, Mission: SPACE"},
+      {"emoji": "🌿", "name": "World Nature", "description": "Celebrating the beauty and importance of the natural world through immersive attractions and stunning environments.", "topRides": "Soarin' Around the World, Living with the Land, The Seas with Nemo and Friends"},
+      {"emoji": "🌍", "name": "World Showcase", "description": "Eleven country pavilions circle a 40-acre lagoon, each featuring authentic architecture, cuisine, shopping, and cultural experiences from Mexico, Norway, China, Germany, Italy, USA, Japan, Morocco, France, United Kingdom, and Canada.", "topRides": "Frozen Ever After (Norway), Remy's Ratatouille Adventure (France), Gran Fiesta Tour (Mexico)"}
+    ],
+    "topAttractions": [
+      {"name": "Guardians of the Galaxy: Cosmic Rewind", "description": "The first reverse-launch coaster at any Disney park - an innovative indoor coaster that rotates 360 degrees while racing through space"},
+      {"name": "Frozen Ever After", "description": "Boat ride through the kingdom of Arendelle in the Norway pavilion - one of the most popular rides at EPCOT"},
+      {"name": "Test Track", "description": "Design your own virtual concept car and then test it on a high-speed outdoor track reaching 65 mph"},
+      {"name": "Soarin' Around the World", "description": "Hang-gliding flight simulation over iconic world landmarks with wind, scents, and stunning visuals"},
+      {"name": "Remy's Ratatouille Adventure", "description": "Trackless dark ride that shrinks you to the size of a rat and sends you scurrying through Gusteau's restaurant in the France pavilion"}
+    ],
+    "insiderTips": [
+      "Enter through the International Gateway (back entrance near France) if staying at a nearby Disney resort to skip the main entrance crowds",
+      "EPCOT festivals (Food and Wine, Flower and Garden, Festival of the Arts, Festival of the Holidays) add dozens of food and drink booths - plan your visit around them",
+      "Guardians of the Galaxy: Cosmic Rewind uses a virtual queue - join at 7 AM or 1 PM sharp for a boarding group",
+      "World Showcase opens at 11 AM, two hours after the rest of the park - ride the big attractions first",
+      "Drinking Around the World (one drink per country pavilion) is a popular adult tradition but pace yourself across 11 countries",
+      "The France pavilion bakery, Les Halles Boulangerie Patisserie, serves the best pastries in all of Walt Disney World"
+    ],
+    "bestTimes": "EPCOT is least crowded on weekdays outside of festival periods and holidays. Mid-January through mid-February and September weekdays offer the shortest wait times. The park gets significantly busier during Food and Wine Festival (late August through November) and during spring break weeks.",
+    "ticketInfo": "Single-day tickets start at $109 for adults and $104 for children ages 3-9 (date-based pricing). Multi-day tickets offer savings. Park Hopper add-on available. Annual passes from $399 to $1,399.",
+    "dining": "EPCOT is widely considered the best Disney park for dining. World Showcase offers authentic cuisine from 11 countries. Top reservations include Le Cellier Steakhouse (Canada), Teppan Edo (Japan), Via Napoli (Italy), and Space 220 - a restaurant themed as a space station orbiting Earth with incredible views. During festivals, dozens of outdoor kitchens serve specialty items.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/epcot/", "label": "EPCOT Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🌐"},
+      {"url": "https://disneyworld.disney.go.com/entertainment/epcot/epcot-international-food-and-wine-festival/", "label": "EPCOT Festivals", "domain": "disneyworld.disney.go.com", "emoji": "🍷"},
+      {"url": "https://disneyworld.disney.go.com/dining/epcot/", "label": "EPCOT Dining", "domain": "disneyworld.disney.go.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "hollywood-studios-complete-guide",
+    "parkName": "Hollywood Studios",
+    "parkEmoji": "🎬",
+    "parkSubtitle": "Home to Star Wars: Galaxy's Edge, Toy Story Land, and Tower of Terror - where movies and entertainment come to life.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney's Hollywood Studios brings the magic of movies, television, music, and theater to life across 135 acres. Originally opened as Disney-MGM Studios, the park has been transformed with the additions of Star Wars: Galaxy's Edge and Toy Story Land, making it one of the most popular parks at Walt Disney World.",
+    "openedYear": "1989",
+    "parkSize": "135 acres",
+    "annualVisitors": "11M+",
+    "numRides": "15+",
+    "parkHours": "8:30 AM - 9 PM (varies)",
+    "parkingInfo": "$25/day standard, $50/day preferred",
+    "history": "Originally opened as Disney-MGM Studios on May 1, 1989, the park was conceived as a working film and television production facility combined with a theme park. Over time, actual production moved out and the park evolved into a fully themed entertainment destination. The name changed to Disney's Hollywood Studios in 2008. Major expansions include Toy Story Land (2018) and Star Wars: Galaxy's Edge (2019), which together reinvented the park and dramatically increased attendance.",
+    "areas": [
+      {"emoji": "🌟", "name": "Hollywood Boulevard", "description": "The park's grand entrance recreating the golden age of Hollywood in the 1930s and 1940s. The Chinese Theatre at the end houses Mickey and Minnie's Runaway Railway.", "topRides": "Mickey and Minnie's Runaway Railway"},
+      {"emoji": "⭐", "name": "Star Wars: Galaxy's Edge", "description": "A 14-acre immersive land set on the planet Batuu at the edge of the galaxy. Features incredible theming and two headliner attractions.", "topRides": "Star Wars: Rise of the Resistance, Millennium Falcon: Smugglers Run"},
+      {"emoji": "🧸", "name": "Toy Story Land", "description": "Shrink down to the size of a toy in Andy's backyard with colorful, family-friendly attractions.", "topRides": "Slinky Dog Dash, Alien Swirling Saucers, Toy Story Mania!"},
+      {"emoji": "🗼", "name": "Sunset Boulevard", "description": "Home to two of the park's most iconic thrill rides with a Sunset Strip Hollywood theming.", "topRides": "Tower of Terror, Rock 'n' Roller Coaster Starring Aerosmith"}
+    ],
+    "topAttractions": [
+      {"name": "Star Wars: Rise of the Resistance", "description": "Widely considered the most ambitious theme park attraction ever built - a 20-minute experience combining multiple ride systems into one epic adventure"},
+      {"name": "Tower of Terror", "description": "The Twilight Zone Tower of Terror drops riders 13 stories in a haunted Hollywood hotel elevator shaft"},
+      {"name": "Slinky Dog Dash", "description": "Family-friendly launched coaster themed around Slinky Dog from Toy Story - fun for all ages"},
+      {"name": "Mickey and Minnie's Runaway Railway", "description": "Trackless dark ride using projection technology to put guests inside a Mickey Mouse cartoon"},
+      {"name": "Rock 'n' Roller Coaster", "description": "Indoor launch coaster accelerating 0-57 mph in 2.8 seconds through a neon-lit cityscape set to Aerosmith music"}
+    ],
+    "insiderTips": [
+      "Rise of the Resistance is best experienced first thing at rope drop or via Lightning Lane Multi Pass",
+      "Slinky Dog Dash has the longest afternoon waits - ride it before 10 AM",
+      "Oga's Cantina in Galaxy's Edge requires a reservation and serves unique themed cocktails",
+      "The Fantasmic! nighttime show is one of the best at any Disney park - arrive 60 minutes early for good seats",
+      "Tower of Terror photos are included with Memory Maker - make your best scream face",
+      "Build a custom lightsaber at Savi's Workshop ($249) - reservations open 60 days in advance and sell out quickly"
+    ],
+    "bestTimes": "Hollywood Studios is busiest on weekends and during holiday periods. Weekday mornings in January, February, and September offer the shortest waits. The park is smaller than Magic Kingdom or EPCOT, so it can feel crowded even on moderate days. Early mornings before 10 AM are the best time for the big rides.",
+    "ticketInfo": "Single-day tickets start at $109 for adults and $104 for children (date-based pricing). Multi-day and Park Hopper options available. Annual passes from $399 to $1,399.",
+    "dining": "Hollywood Studios dining highlights include Docking Bay 7 Food and Cargo in Galaxy's Edge (quick-service with unique themed dishes), the 50's Prime Time Cafe (where servers act as your relatives and scold you for not eating your vegetables), and Woody's Lunch Box in Toy Story Land. The Hollywood Brown Derby is the park's signature table-service restaurant.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/hollywood-studios/", "label": "Hollywood Studios Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🎬"},
+      {"url": "https://disneyworld.disney.go.com/entertainment/hollywood-studios/fantasmic/", "label": "Fantasmic! Show", "domain": "disneyworld.disney.go.com", "emoji": "✨"},
+      {"url": "https://disneyworld.disney.go.com/dining/hollywood-studios/", "label": "Hollywood Studios Dining", "domain": "disneyworld.disney.go.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "animal-kingdom-complete-guide",
+    "parkName": "Animal Kingdom",
+    "parkEmoji": "🦁",
+    "parkSubtitle": "Disney's wildest theme park - home to Pandora - The World of Avatar, Kilimanjaro Safaris, and Expedition Everest.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney's Animal Kingdom is the largest theme park at Walt Disney World at 580 acres, making it one of the largest theme parks in the world. Opened in 1998, the park combines traditional theme park rides with a zoological experience featuring over 2,000 animals from 300 species. The iconic Tree of Life stands 145 feet tall at the center of the park.",
+    "openedYear": "1998",
+    "parkSize": "580 acres",
+    "annualVisitors": "13M+",
+    "numRides": "15+",
+    "parkHours": "8 AM - 8 PM (varies)",
+    "parkingInfo": "$25/day standard, $50/day preferred",
+    "history": "Disney's Animal Kingdom opened on April 22, 1998 (Earth Day), as the fourth Walt Disney World theme park. It was the brainchild of Imagineer Joe Rohde, who spent years researching and designing the park to authentically represent wildlife and conservation. The park's most transformative addition came in 2017 with the opening of Pandora - The World of Avatar, which brought the park into the nighttime entertainment era with bioluminescent lighting effects.",
+    "areas": [
+      {"emoji": "🌳", "name": "Discovery Island", "description": "The central hub of the park surrounding the Tree of Life, a 145-foot tall sculpted tree with over 300 animal carvings. It's Tough to be a Bug! 3D show is located inside the tree.", "topRides": "It's Tough to be a Bug!"},
+      {"emoji": "🪐", "name": "Pandora - The World of Avatar", "description": "A 12-acre immersive land bringing the moon of Pandora from James Cameron's Avatar to life with floating mountains, bioluminescent plants, and two incredible attractions.", "topRides": "Avatar Flight of Passage, Na'vi River Journey"},
+      {"emoji": "🦓", "name": "Africa", "description": "Themed as the fictional village of Harambe, this area features the park's signature safari attraction and the Gorilla Falls Exploration Trail.", "topRides": "Kilimanjaro Safaris, Gorilla Falls Exploration Trail"},
+      {"emoji": "🏔️", "name": "Asia", "description": "Featuring the fictional kingdom of Anandapur, this area showcases Asian wildlife and houses two major attractions.", "topRides": "Expedition Everest, Kali River Rapids"},
+      {"emoji": "🦕", "name": "DinoLand U.S.A.", "description": "A quirky area themed around a roadside dinosaur attraction with carnival games and one major thrill ride.", "topRides": "DINOSAUR, TriceraTop Spin"}
+    ],
+    "topAttractions": [
+      {"name": "Avatar Flight of Passage", "description": "A breathtaking flight simulator that puts you on the back of a banshee soaring over Pandora - consistently rated one of the best rides in the world"},
+      {"name": "Kilimanjaro Safaris", "description": "An 18-minute guided safari through 110 acres of African savanna with live animals including giraffes, elephants, lions, and rhinos"},
+      {"name": "Expedition Everest", "description": "High-speed roller coaster through the Himalayan mountains that includes a backwards section and an encounter with the Yeti"},
+      {"name": "Na'vi River Journey", "description": "Gentle boat ride through a bioluminescent rainforest on Pandora featuring the most complex animatronic Disney has ever created"},
+      {"name": "DINOSAUR", "description": "Intense dark ride through the Cretaceous period dodging dinosaurs in a time rover vehicle"}
+    ],
+    "insiderTips": [
+      "Avatar Flight of Passage has the longest waits in all of Walt Disney World - ride it first at rope drop or use Lightning Lane",
+      "Kilimanjaro Safaris is best in the early morning when animals are most active and temperatures are cooler",
+      "Pandora at night is one of the most beautiful experiences in any theme park - the bioluminescent effects are stunning",
+      "The Maharajah Jungle Trek and Gorilla Falls Exploration Trail are free walking trails with incredible animal viewing",
+      "Festival of the Lion King is a must-see live show - arrive 30 minutes early for the best seats",
+      "The park closes earlier than other Disney parks, so plan to arrive early and maximize morning hours"
+    ],
+    "bestTimes": "Animal Kingdom is least crowded during weekdays in January, February, and September. The park typically opens earliest and closes earliest among the four Disney parks. Early mornings are best for both ride wait times and animal viewing on the safari.",
+    "ticketInfo": "Single-day tickets start at $109 for adults and $104 for children (date-based pricing). Multi-day and Park Hopper options available. Annual passes from $399 to $1,399.",
+    "dining": "Satu'li Canteen in Pandora is the park's best quick-service restaurant with creative bowls and unique Pandora-themed cocktails. Tusker House offers a character breakfast buffet with African-inspired cuisine. Yak and Yeti is the signature table-service option with Asian fusion dishes. Flame Tree Barbecue offers some of the best quick-service food in any Disney park with great waterfront seating.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/", "label": "Animal Kingdom Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🦁"},
+      {"url": "https://disneyworld.disney.go.com/attractions/animal-kingdom/avatar-flight-of-passage/", "label": "Flight of Passage", "domain": "disneyworld.disney.go.com", "emoji": "🪐"},
+      {"url": "https://disneyworld.disney.go.com/dining/animal-kingdom/", "label": "Animal Kingdom Dining", "domain": "disneyworld.disney.go.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "typhoon-lagoon-complete-guide",
+    "parkName": "Typhoon Lagoon",
+    "parkEmoji": "🌊",
+    "parkSubtitle": "Disney's tropical water park featuring one of the largest wave pools in North America and the iconic Miss Tilly shrimp boat.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney's Typhoon Lagoon is a 61-acre water park themed around a fictional tropical paradise struck by a massive typhoon. The centerpiece is the iconic Miss Tilly shrimp boat perched atop Mount Mayday, a 95-foot peak. The park features one of the largest wave pools in North America, producing 6-foot waves every 90 seconds.",
+    "openedYear": "1989",
+    "parkSize": "61 acres",
+    "annualVisitors": "2M+",
+    "numRides": "10+",
+    "parkHours": "10 AM - 5 PM (seasonal)",
+    "parkingInfo": "Free parking for water park guests",
+    "history": "Typhoon Lagoon opened on June 1, 1989, as Disney's first purpose-built water park at Walt Disney World. The park's backstory tells of a powerful typhoon that struck a tropical paradise, scattering surfboards, fishing boats, and the shrimp boat Miss Tilly across the landscape. The park has received periodic updates including the addition of Miss Adventure Falls family raft ride in 2017.",
+    "areas": [
+      {"emoji": "🌊", "name": "Surf Pool", "description": "One of the largest wave pools in North America, producing 6-foot waves that roll across a massive 2.75 acre lagoon. Calm periods alternate with wave cycles.", "topRides": "Wave Pool, Sandy White Beach"},
+      {"emoji": "🏄", "name": "Thrill Slides", "description": "High-speed water slides launching from the slopes of Mount Mayday for adrenaline seekers.", "topRides": "Crush 'n' Gusher, Humunga Kowabunga, Miss Adventure Falls"},
+      {"emoji": "🏊", "name": "Family Areas", "description": "Calmer attractions perfect for families with younger children, including a lazy river and kiddie play area.", "topRides": "Castaway Creek lazy river, Ketchakiddee Creek, Bay Slides"}
+    ],
+    "topAttractions": [
+      {"name": "Crush 'n' Gusher", "description": "Water coaster with three different slide paths using jet propulsion to push riders both uphill and downhill"},
+      {"name": "Humunga Kowabunga", "description": "Three speed slides that send riders down a nearly vertical 214-foot enclosed flume at up to 30 mph"},
+      {"name": "Miss Adventure Falls", "description": "Family raft ride through the backstory of Captain Mary Oceaneer with treasure hunting theming"},
+      {"name": "Castaway Creek", "description": "2,100-foot lazy river winding through the entire park with caves, waterfalls, and tropical scenery"},
+      {"name": "Surf Pool Waves", "description": "Massive wave pool producing 6-foot waves - one of the best wave pool experiences in the world"}
+    ],
+    "insiderTips": [
+      "Arrive at park opening to claim a good spot - lounge chairs fill up fast on busy days",
+      "Rent a private cabana (reserve in advance) for shade, a locker, and dedicated service throughout the day",
+      "The park closes seasonally for refurbishment - check the calendar before visiting (typically closed January through mid-March)",
+      "Bring water shoes as the paths can get very hot in the Florida sun",
+      "The H2O Glow After Hours events offer exclusive nighttime access with shorter lines and glow effects"
+    ],
+    "bestTimes": "Typhoon Lagoon is least crowded on weekday mornings outside of summer and holiday periods. The park operates seasonally and alternates closures with Blizzard Beach. Summer weekends and holidays see the highest attendance. Arrive before 10 AM to beat the rush.",
+    "ticketInfo": "Single-day tickets are $80 for adults and $74 for children ages 3-9. Annual pass add-on available. Water park tickets are separate from theme park tickets unless you purchase the Water Park and Sports option.",
+    "dining": "Typhoon Lagoon offers several quick-service dining options including Leaning Palms (burgers, pizza, sandwiches), Typhoon Tilly's (fish and shrimp baskets), and Let's Go Slurpin' for frozen drinks and smoothies. No table-service restaurants are available inside the water park.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/typhoon-lagoon/", "label": "Typhoon Lagoon Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🌊"},
+      {"url": "https://disneyworld.disney.go.com/tickets/", "label": "Disney Water Park Tickets", "domain": "disneyworld.disney.go.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "blizzard-beach-complete-guide",
+    "parkName": "Blizzard Beach",
+    "parkEmoji": "🏔️",
+    "parkSubtitle": "Disney's ski resort-themed water park featuring Summit Plummet - one of the tallest and fastest free-fall water slides in the world.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney's Blizzard Beach is a 66-acre water park themed around a Florida ski resort that melted in the tropical heat, turning ski slopes into water slides. The park's centerpiece is Mount Gushmore, a 90-foot peak topped with Summit Plummet, one of the tallest and fastest free-fall body slides in the world.",
+    "openedYear": "1995",
+    "parkSize": "66 acres",
+    "annualVisitors": "2M+",
+    "numRides": "12+",
+    "parkHours": "10 AM - 5 PM (seasonal)",
+    "parkingInfo": "Free parking for water park guests",
+    "history": "Blizzard Beach opened on April 1, 1995, as Disney's third water park. The whimsical backstory involves a freak Florida snowstorm that inspired the construction of a ski resort. When the snow inevitably melted, the ski slopes became water slides. The park's theming includes melting snowdrifts, ski lift chairs (which serve as the actual chairlift to the top), and slalom flags along the slides.",
+    "areas": [
+      {"emoji": "⛷️", "name": "Mount Gushmore Summit", "description": "The peak of the mountain with the most thrilling slides in the park including the iconic Summit Plummet.", "topRides": "Summit Plummet, Slush Gusher, Teamboat Springs"},
+      {"emoji": "🏂", "name": "Green Slope", "description": "Moderate thrill slides on the north side of the mountain offering a variety of tube and body slide experiences.", "topRides": "Toboggan Racers, Snow Stormers, Downhill Double Dipper"},
+      {"emoji": "🧸", "name": "Tike's Peak", "description": "A scaled-down version of Mount Gushmore designed specifically for young children with gentle slides and a shallow wading pool.", "topRides": "Tike's Peak kiddie slides and play area"},
+      {"emoji": "🏊", "name": "Base Area", "description": "The main gathering area with the wave pool, lazy river, and dining facilities.", "topRides": "Melt-Away Bay wave pool, Cross Country Creek lazy river"}
+    ],
+    "topAttractions": [
+      {"name": "Summit Plummet", "description": "A 120-foot near-vertical free-fall body slide reaching speeds up to 55 mph - one of the tallest in the world"},
+      {"name": "Teamboat Springs", "description": "One of the longest family raft rides in the world at 1,200 feet - accommodates up to 6 riders"},
+      {"name": "Slush Gusher", "description": "A 90-foot double-humped body slide that sends riders airborne over two camel-back hills"},
+      {"name": "Cross Country Creek", "description": "3,000-foot lazy river circling the entire park passing through a chilly ice cave"},
+      {"name": "Downhill Double Dipper", "description": "Side-by-side racing tube slides where two riders compete head to head down the slope"}
+    ],
+    "insiderTips": [
+      "Summit Plummet is intimidating from the top - if you are unsure, watch from the observation deck first before committing",
+      "The chairlift to the top of Mount Gushmore saves a long walk up the stairs and offers great views",
+      "Blizzard Beach alternates seasonal closures with Typhoon Lagoon - check which one is open before your trip",
+      "Lockers are available near the front entrance - rent one early as they sell out on busy days",
+      "The Ice Cream Expedition near Lottawatta Lodge serves the best frozen treats in the park"
+    ],
+    "bestTimes": "Blizzard Beach is least crowded on weekday mornings and during the off-season months of September and October. The park operates seasonally and alternates with Typhoon Lagoon. Summer is the busiest season. Arrive right at opening for the shortest slide wait times.",
+    "ticketInfo": "Single-day tickets are $80 for adults and $74 for children ages 3-9. Annual pass add-on available. Water park tickets are separate from theme park admission.",
+    "dining": "Lottawatta Lodge is the main dining venue offering burgers, hot dogs, pizza, and salads. Avalunch serves wraps and sandwiches. The Warming Hut offers funnel cakes and snacks. Frostbite Freddy's and Polar Pub serve frozen cocktails and cold beverages.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/destinations/blizzard-beach/", "label": "Blizzard Beach Official Page", "domain": "disneyworld.disney.go.com", "emoji": "🏔️"},
+      {"url": "https://disneyworld.disney.go.com/tickets/", "label": "Disney Water Park Tickets", "domain": "disneyworld.disney.go.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "disney-springs-complete-guide",
+    "parkName": "Disney Springs",
+    "parkEmoji": "🛍️",
+    "parkSubtitle": "Walt Disney World's premier shopping, dining, and entertainment district - free admission with over 150 venues.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney Springs is a 120-acre outdoor shopping, dining, and entertainment complex at Walt Disney World. Formerly known as Downtown Disney, the district was completely reimagined and reopened in phases from 2013 to 2016. With over 150 shops, restaurants, and entertainment venues, Disney Springs is free to enter and offers complimentary parking.",
+    "openedYear": "2016",
+    "parkSize": "120 acres",
+    "annualVisitors": "15M+",
+    "numRides": "N/A",
+    "parkHours": "10 AM - 11 PM (varies)",
+    "parkingInfo": "Free self-parking in garages, valet available",
+    "history": "The area began as Lake Buena Vista Shopping Village in 1975, evolved into Downtown Disney Marketplace and West Side, and was fully reimagined as Disney Springs between 2013 and 2016. The $1.5 billion transformation added the Town Center section, new parking garages, and a reimagined waterfront with a cohesive story of a historic Florida spring-fed town.",
+    "areas": [
+      {"emoji": "🏪", "name": "Town Center", "description": "An open-air shopping promenade featuring premium brands like Zara, Uniqlo, Kate Spade, and Anthropologie in a Spanish-revival architectural style.", "topRides": "N/A - shopping and dining district"},
+      {"emoji": "🧸", "name": "Marketplace", "description": "The original shopping area featuring the World of Disney (one of the largest Disney merchandise stores in the world), LEGO Store, and family-friendly dining.", "topRides": "Marketplace Carousel, Amphicar boat tours"},
+      {"emoji": "🎬", "name": "West Side", "description": "Entertainment-focused area home to AMC Theatres, Splitsville Luxury Lanes bowling, Cirque du Soleil, and House of Blues.", "topRides": "Aerophile balloon ride, AMC Dine-In Theatre"},
+      {"emoji": "🌊", "name": "The Landing", "description": "Waterfront dining and nightlife area with some of Disney Springs' best restaurants including The Boathouse and Morimoto Asia.", "topRides": "Vintage Amphicar tours, The Boathouse watercraft"}
+    ],
+    "topAttractions": [
+      {"name": "World of Disney", "description": "One of the largest Disney merchandise stores in the world spanning over 50,000 square feet of shopping"},
+      {"name": "The BOATHOUSE", "description": "Upscale waterfront restaurant offering steaks, seafood, and vintage Amphicar boat tours on the lake"},
+      {"name": "Splitsville Luxury Lanes", "description": "Retro-modern bowling alley with 30 lanes, a full restaurant, and live entertainment"},
+      {"name": "Cirque du Soleil - Drawn to Life", "description": "Disney's exclusive Cirque du Soleil show combining animation-inspired acrobatics with a touching storyline"},
+      {"name": "LEGO Store", "description": "Massive LEGO retail experience with build stations, a pick-a-brick wall, and incredible LEGO sculptures throughout"}
+    ],
+    "insiderTips": [
+      "Disney Springs is free - no admission or parking charge, making it a great option for non-park days",
+      "The best dining reservations (The Boathouse, Morimoto Asia, Wine Bar George) should be booked 60 days out",
+      "Weekday mornings are the least crowded times for shopping",
+      "The Amphicar tours at The Boathouse let you ride in a vintage 1960s car that drives into the water",
+      "Happy hour deals are available at several restaurants including Wine Bar George, Morimoto Asia, and Raglan Road",
+      "Free bus transportation runs from all Disney resort hotels to Disney Springs"
+    ],
+    "bestTimes": "Disney Springs is least crowded on weekday mornings and early afternoons. Friday and Saturday evenings are the busiest. Holiday shopping season (November through December) brings the largest crowds. Dining reservations are essential during peak hours.",
+    "ticketInfo": "Disney Springs is completely free to visit - no admission or parking required. Individual venues, restaurants, and entertainment options have their own pricing. Cirque du Soleil tickets start at $79. Splitsville bowling starts at $17/person.",
+    "dining": "Disney Springs is a dining destination in its own right. Top picks include The Boathouse (seafood and steaks), Morimoto Asia (Iron Chef Morimoto's Asian fusion), Wine Bar George (Master Sommelier George Miliotes), Raglan Road Irish Pub, Homecomin' (Chef Art Smith's Southern comfort food), and Jaleo (Jose Andres' Spanish tapas). Quick-service favorites include Blaze Pizza, The Polite Pig, and D-Luxe Burger.",
+    "externalLinks": [
+      {"url": "https://www.disneysprings.com/", "label": "Disney Springs Official Site", "domain": "disneysprings.com", "emoji": "🛍️"},
+      {"url": "https://disneyworld.disney.go.com/destinations/disney-springs/", "label": "Disney Springs at Disney World", "domain": "disneyworld.disney.go.com", "emoji": "🏰"},
+      {"url": "https://www.disneysprings.com/dining/", "label": "Disney Springs Dining Guide", "domain": "disneysprings.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "disney-boardwalk-complete-guide",
+    "parkName": "Disney BoardWalk",
+    "parkEmoji": "🎡",
+    "parkSubtitle": "A charming waterfront entertainment district inspired by 1930s Atlantic City boardwalks - dining, nightlife, and Crescent Lake views.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Disney's BoardWalk is a quarter-mile waterfront entertainment, dining, and shopping promenade located along Crescent Lake between EPCOT and Hollywood Studios. Inspired by the mid-Atlantic boardwalks of the 1920s and 1930s, the BoardWalk offers a nostalgic atmosphere with restaurants, bakeries, nightlife venues, and stunning water views.",
+    "openedYear": "1996",
+    "parkSize": "Quarter-mile promenade",
+    "annualVisitors": "N/A",
+    "numRides": "N/A",
+    "parkHours": "Open 24 hours (venues vary)",
+    "parkingInfo": "Limited free self-parking at BoardWalk Inn, valet available",
+    "history": "Disney's BoardWalk opened on July 1, 1996, as part of the BoardWalk Inn and Villas resort. Imagineered by Robert A.M. Stern, the area was designed to capture the charm and energy of 1930s-era Atlantic City. The BoardWalk has remained a popular evening destination for guests staying at the EPCOT-area resorts, offering a scenic walking path between EPCOT's International Gateway and Hollywood Studios.",
+    "areas": [
+      {"emoji": "🎡", "name": "BoardWalk Promenade", "description": "The main waterfront walkway lined with shops, restaurants, and street performers in the evening. Perfect for a post-dinner stroll.", "topRides": "Surrey bike rentals, Crescent Lake boat service"},
+      {"emoji": "🍕", "name": "Dining Row", "description": "Several restaurants and eateries line the promenade, from quick pizza to upscale Italian dining.", "topRides": "N/A - dining experiences"},
+      {"emoji": "🎵", "name": "Entertainment Zone", "description": "Nightlife and entertainment venues including a dueling piano bar and a dance club.", "topRides": "Jellyrolls piano bar, Atlantic Dance Hall"}
+    ],
+    "topAttractions": [
+      {"name": "Jellyrolls", "description": "Lively dueling piano bar with audience participation, song requests, and a cover charge - ages 21+ only"},
+      {"name": "BoardWalk Deli", "description": "Quick-service bakery and deli open late offering pastries, sandwiches, and desserts"},
+      {"name": "Surrey Bike Rentals", "description": "Rent surrey bikes for a scenic ride along the waterfront around Crescent Lake"},
+      {"name": "EPCOT Fireworks Viewing", "description": "Watch EPCOT's nighttime spectacular from the BoardWalk waterfront for free - a hidden gem viewing spot"},
+      {"name": "Walking Path to Parks", "description": "A scenic walk to EPCOT's International Gateway (10 min) or Hollywood Studios (15 min) - no bus needed"}
+    ],
+    "insiderTips": [
+      "The BoardWalk is free to visit for anyone - you do not need to be a resort guest",
+      "Watch EPCOT's fireworks from the BoardWalk waterfront for a less crowded, free viewing experience",
+      "Walk from the BoardWalk to EPCOT's International Gateway in about 10 minutes",
+      "Jellyrolls piano bar is one of the best-kept secrets at Disney - arrive early on weekends as it fills up",
+      "BoardWalk Bakery opens early for breakfast pastries and coffee - a great pre-park stop",
+      "Street performers entertain along the promenade in the evenings"
+    ],
+    "bestTimes": "The BoardWalk comes alive in the evening with street performers, live music, and waterfront dining. Weekday evenings are the most relaxed. Weekend evenings and holiday periods bring larger crowds. The area is quiet during daytime hours, making it a peaceful morning walk.",
+    "ticketInfo": "Disney's BoardWalk is free to visit - no admission charge. Individual restaurants and entertainment venues have their own pricing. Jellyrolls cover charge is $15-20. Surrey bike rentals start at $25 for 30 minutes.",
+    "dining": "Trattoria al Forno serves Italian breakfast and dinner with house-made pasta. The BoardWalk Deli offers quick bites and bakery items. Big River Grille and Brewing Works is a casual brewpub. For a special occasion, the recently refreshed dining options along the promenade provide waterfront views of Crescent Lake.",
+    "externalLinks": [
+      {"url": "https://disneyworld.disney.go.com/entertainment/boardwalk/", "label": "Disney BoardWalk", "domain": "disneyworld.disney.go.com", "emoji": "🎡"},
+      {"url": "https://disneyworld.disney.go.com/resorts/boardwalk-inn/", "label": "BoardWalk Inn Resort", "domain": "disneyworld.disney.go.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "universal-studios-florida-complete-guide",
+    "parkName": "Universal Studios Florida",
+    "parkEmoji": "🎬",
+    "parkSubtitle": "The original Universal Orlando theme park - home to Harry Potter's Diagon Alley, Transformers, and classic movie-themed rides.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Universal Studios Florida is the original theme park at Universal Orlando Resort, opened in 1990. The park brings blockbuster movies and TV shows to life across themed areas including The Wizarding World of Harry Potter - Diagon Alley, Springfield (home of The Simpsons), and New York. The park spans 108 acres and features a mix of thrill rides, 3D experiences, and live shows.",
+    "openedYear": "1990",
+    "parkSize": "108 acres",
+    "annualVisitors": "10M+",
+    "numRides": "25+",
+    "parkHours": "9 AM - 9 PM (varies)",
+    "parkingInfo": "$30/day standard, $50/day prime, $70/day valet",
+    "history": "Universal Studios Florida opened on June 7, 1990, as the first theme park at what would become Universal Orlando Resort. The park was originally conceived as a working film studio and theme park, competing directly with Disney-MGM Studios. Major milestones include the opening of The Wizarding World of Harry Potter - Diagon Alley in 2014, which transformed the park and dramatically boosted attendance. The Hogwarts Express train connects Diagon Alley to Hogsmeade at Islands of Adventure.",
+    "areas": [
+      {"emoji": "⚡", "name": "The Wizarding World of Harry Potter - Diagon Alley", "description": "A meticulously recreated Diagon Alley from the Harry Potter films including Gringotts bank, Ollivanders wand shop, and Knockturn Alley. Enter through the London waterfront facade.", "topRides": "Harry Potter and the Escape from Gringotts, Hogwarts Express"},
+      {"emoji": "🎬", "name": "Production Central", "description": "The park entrance area featuring major attractions and an overview of movie production.", "topRides": "Hollywood Rip Ride Rockit, Transformers: The Ride 3D"},
+      {"emoji": "🏙️", "name": "New York", "description": "Recreated New York City streets with brownstones, a public library, and classic architecture.", "topRides": "Revenge of the Mummy, Race Through New York Starring Jimmy Fallon"},
+      {"emoji": "🍩", "name": "Springfield", "description": "The hometown of The Simpsons brought to life with Moe's Tavern, Krusty Burger, and Lard Lad Donuts.", "topRides": "The Simpsons Ride, Kang and Kodos' Twirl 'n' Hurl"},
+      {"emoji": "🌴", "name": "San Francisco / Amity", "description": "Themed areas representing San Francisco's waterfront and the fictional town of Amity from Jaws.", "topRides": "Fast and Furious: Supercharged"}
+    ],
+    "topAttractions": [
+      {"name": "Harry Potter and the Escape from Gringotts", "description": "Multi-dimensional thrill ride combining roller coaster track with 3D projections through the vaults of Gringotts bank"},
+      {"name": "Revenge of the Mummy", "description": "High-speed indoor coaster in the dark with fire effects, animatronics, and a surprising backwards launch"},
+      {"name": "Hollywood Rip Ride Rockit", "description": "17-story roller coaster where you choose your own soundtrack - features a near-vertical lift and a non-inverting loop"},
+      {"name": "Transformers: The Ride 3D", "description": "Intense 3D dark ride putting you in the middle of a battle between Autobots and Decepticons"},
+      {"name": "Hogwarts Express", "description": "Board the actual Hogwarts Express at King's Cross Station and ride to Hogsmeade at Islands of Adventure - requires park-to-park ticket"}
+    ],
+    "insiderTips": [
+      "A park-to-park ticket is required to ride the Hogwarts Express between Diagon Alley and Hogsmeade",
+      "Buy a wand at Ollivanders ($55+) and use it at interactive wand spots throughout Diagon Alley - the spell locations are marked on a map",
+      "Butterbeer (frozen is the most popular version) is available throughout the Wizarding World area",
+      "Revenge of the Mummy frequently has shorter waits than you would expect for how good it is",
+      "Universal Express Pass (purchased separately) lets you skip regular lines once per ride - stays at select Universal hotels include it free",
+      "The Horror Make-Up Show is one of the funniest and most underrated attractions in the park"
+    ],
+    "bestTimes": "Universal Studios Florida is least crowded on weekdays from mid-January through mid-February and mid-September through October (excluding Halloween Horror Nights event nights). The park is busiest during summer, spring break, and holiday weeks. Halloween Horror Nights (September through October) requires separate tickets for evening events.",
+    "ticketInfo": "Single-park tickets start at $119 for adults and $114 for children ages 3-9. Park-to-park tickets (required for Hogwarts Express) start at $174. Multi-day tickets offer savings. Universal Express Pass starts at $89/day (varies). Annual passes from $370 to $630.",
+    "dining": "Diagon Alley offers themed dining at the Leaky Cauldron (British pub fare including fish and chips, bangers and mash, and Butterbeer). Springfield features Krusty Burger, Moe's Tavern (where you can order a Flaming Moe), and Lard Lad Donuts (giant pink Homer-style donuts). Lombard's Seafood Grille near the lagoon is the park's best sit-down restaurant.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida", "label": "Universal Studios Florida", "domain": "universalorlando.com", "emoji": "🎬"},
+      {"url": "https://www.universalorlando.com/web/en/us/tickets", "label": "Universal Orlando Tickets", "domain": "universalorlando.com", "emoji": "🎟️"},
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/dining", "label": "Universal Dining", "domain": "universalorlando.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "islands-of-adventure-complete-guide",
+    "parkName": "Islands of Adventure",
+    "parkEmoji": "🏝️",
+    "parkSubtitle": "Home to the Wizarding World of Harry Potter - Hogsmeade, the Incredible Hulk Coaster, and the innovative VelociCoaster.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Universal's Islands of Adventure is widely considered one of the best theme parks in the world. Opened in 1999, the park features eight uniquely themed islands surrounding a central lagoon. The park is known for pushing the boundaries of ride technology, from the groundbreaking Amazing Adventures of Spider-Man to the world-class VelociCoaster.",
+    "openedYear": "1999",
+    "parkSize": "101 acres",
+    "annualVisitors": "11M+",
+    "numRides": "20+",
+    "parkHours": "9 AM - 9 PM (varies)",
+    "parkingInfo": "$30/day standard, $50/day prime, $70/day valet",
+    "history": "Islands of Adventure opened on May 28, 1999, as the second theme park at Universal Orlando. It was designed from the ground up by a team of legendary theme park designers and was immediately praised for its ambitious ride technology and immersive theming. The park's fortunes soared with the 2010 opening of The Wizarding World of Harry Potter - Hogsmeade, which fundamentally changed the Orlando theme park landscape. The 2021 opening of VelociCoaster further cemented the park's reputation for world-class attractions.",
+    "areas": [
+      {"emoji": "⚡", "name": "The Wizarding World of Harry Potter - Hogsmeade", "description": "An immersive recreation of Hogsmeade Village and Hogwarts Castle from the Harry Potter films. The snow-capped village feels like stepping into the movies.", "topRides": "Harry Potter and the Forbidden Journey, Hagrid's Magical Creatures Motorbike Adventure, Flight of the Hippogriff"},
+      {"emoji": "🦖", "name": "Jurassic Park", "description": "Themed around the Jurassic Park and Jurassic World films with lush tropical landscaping and encounters with dinosaurs.", "topRides": "VelociCoaster, Jurassic World River Adventure, Pteranodon Flyers"},
+      {"emoji": "🦸", "name": "Marvel Super Hero Island", "description": "Home to Marvel's greatest heroes with high-tech thrill rides and comic book theming.", "topRides": "The Incredible Hulk Coaster, The Amazing Adventures of Spider-Man, Doctor Doom's Fearfall"},
+      {"emoji": "📖", "name": "Seuss Landing", "description": "A whimsical area bringing Dr. Seuss books to life with colorful architecture and family-friendly rides.", "topRides": "The Cat in the Hat, One Fish Two Fish Red Fish Blue Fish, Caro-Seuss-el"},
+      {"emoji": "🗡️", "name": "The Lost Continent", "description": "Mythical themed area with Middle Eastern and ancient Greek architecture surrounding a mystical fountain.", "topRides": "Poseidon's Fury, Mystic Fountain"},
+      {"emoji": "🎭", "name": "Toon Lagoon", "description": "Classic comic strip characters come to life in this colorful area with two water rides.", "topRides": "Dudley Do-Right's Ripsaw Falls, Popeye and Bluto's Bilge-Rat Barges"}
+    ],
+    "topAttractions": [
+      {"name": "VelociCoaster", "description": "One of the best roller coasters in the world - a 155-foot, 70 mph launch coaster with four inversions and two launches through a Jurassic World raptor paddock"},
+      {"name": "Hagrid's Magical Creatures Motorbike Adventure", "description": "Highly themed coaster on motorbike and sidecar vehicles through the Forbidden Forest with multiple launches and show scenes"},
+      {"name": "The Incredible Hulk Coaster", "description": "Zero-to-40-mph gamma ray launch into seven inversions over the Islands of Adventure lagoon"},
+      {"name": "Harry Potter and the Forbidden Journey", "description": "Innovative dark ride using KUKA robotic arms to fly guests through scenes from Harry Potter around Hogwarts Castle"},
+      {"name": "The Amazing Adventures of Spider-Man", "description": "Pioneering 3D dark ride combining physical sets with high-definition projection - still one of the best dark rides ever made"}
+    ],
+    "insiderTips": [
+      "VelociCoaster and Hagrid's have the longest waits - ride them first thing at rope drop or buy Express Pass",
+      "Hagrid's frequently experiences weather-related closures and technical delays - check the app for real-time status",
+      "Three Broomsticks in Hogsmeade serves excellent British-style food (shepherd's pie, fish and chips) and Butterbeer",
+      "The single rider line for Forbidden Journey is one of the best time-savers in any theme park",
+      "Express Pass does not work on Hagrid's or VelociCoaster - standby or early entry are your only options",
+      "If you only have one day, arrive for Early Park Admission (hotel benefit) and head straight to Hagrid's"
+    ],
+    "bestTimes": "Islands of Adventure is least crowded during mid-January through mid-February weekdays and mid-September through October weekdays (excluding HHN event nights). Summer, spring break, and holidays see the highest attendance. Early mornings before 10 AM consistently offer the shortest wait times.",
+    "ticketInfo": "Single-park tickets start at $119 for adults and $114 for children. Park-to-park tickets (needed for Hogwarts Express) start at $174. Express Pass from $89/day. Annual passes from $370 to $630.",
+    "dining": "Three Broomsticks in Hogsmeade is the most popular restaurant with British-style meals and Butterbeer on tap. Mythos Restaurant in The Lost Continent has been voted the best theme park restaurant multiple times. The Burger Digs in Jurassic Park and Cafe 4 in Marvel Super Hero Island offer solid quick-service options.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure", "label": "Islands of Adventure Official Page", "domain": "universalorlando.com", "emoji": "🏝️"},
+      {"url": "https://www.universalorlando.com/web/en/us/tickets", "label": "Universal Orlando Tickets", "domain": "universalorlando.com", "emoji": "🎟️"},
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/rides-attractions/velocicoaster", "label": "VelociCoaster", "domain": "universalorlando.com", "emoji": "🦖"}
+    ]
+  },
+  {
+    "slug": "volcano-bay-complete-guide",
+    "parkName": "Universal's Volcano Bay",
+    "parkEmoji": "🌋",
+    "parkSubtitle": "Universal's high-tech water theme park featuring the iconic Krakatau volcano, TapuTapu wearable technology, and virtual queue lines.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Universal's Volcano Bay is a 28-acre water theme park that reimagines the traditional water park experience. Centered around the 200-foot Krakatau volcano, the park features 18 attractions across four themed areas. The TapuTapu wearable technology allows guests to reserve their place in virtual lines rather than standing in physical queues.",
+    "openedYear": "2017",
+    "parkSize": "28 acres",
+    "annualVisitors": "4M+",
+    "numRides": "18",
+    "parkHours": "10 AM - 6 PM (varies)",
+    "parkingInfo": "$30/day (included with Universal parking)",
+    "history": "Universal's Volcano Bay opened on May 25, 2017, replacing the aging Wet 'n Wild water park (which Universal had acquired in 1998). The park was designed as a water theme park rather than a traditional water park, with elaborate theming and storytelling woven throughout. The TapuTapu technology was a first-of-its-kind virtual queue system for water parks.",
+    "areas": [
+      {"emoji": "🌋", "name": "Krakatau", "description": "The centerpiece of the park - a 200-foot volcano housing the signature Krakatau Aqua Coaster and the dramatic Ko'okiri Body Plunge drop slide.", "topRides": "Krakatau Aqua Coaster, Ko'okiri Body Plunge"},
+      {"emoji": "🌊", "name": "Waturi Beach", "description": "The main beach area featuring a multi-directional wave pool and the park's largest sandy beach.", "topRides": "Waturi Beach wave pool, The Reef leisure pool"},
+      {"emoji": "🌺", "name": "Rainforest Village", "description": "Lush tropical theming with a variety of slide complexes and a winding river.", "topRides": "Maku and Puhi round raft slides, TeAwa The Fearless River, Taniwha Tubes"},
+      {"emoji": "⚡", "name": "River Village", "description": "Family-friendly area with gentler attractions and a kids' play area.", "topRides": "Kopiko Wai Winding River lazy river, Tot Tiki Reef, Honu of Honu ika Moana"}
+    ],
+    "topAttractions": [
+      {"name": "Krakatau Aqua Coaster", "description": "A water coaster using linear induction motor technology to propel four-person canoes uphill through the volcano"},
+      {"name": "Ko'okiri Body Plunge", "description": "A 125-foot, 70-degree drop slide through a trap door - one of the most terrifying water slides in Florida"},
+      {"name": "Honu and Honu ika Moana", "description": "Two multi-person raft slides with massive half-pipe-style walls that send riders soaring"},
+      {"name": "Maku and Puhi", "description": "Two massive round raft slides - one is an open bowl and one is an enclosed tube - both offering intense spinning action"},
+      {"name": "TeAwa The Fearless River", "description": "An intense whitewater rapid-style lazy river - much more thrilling than a typical lazy river experience"}
+    ],
+    "insiderTips": [
+      "TapuTapu wristbands let you tap into a virtual queue and explore the park while waiting - use it strategically for popular slides",
+      "Arrive at park opening to experience the most popular slides (Krakatau Aqua Coaster, Ko'okiri Body Plunge) before virtual wait times get long",
+      "Premium seating options include private cabanas ($200+) and padded loungers ($30+) - reserve in advance on busy days",
+      "The park closes early compared to other Universal parks - plan for a half-day or full-day visit accordingly",
+      "Volcano Bay is included in certain Universal annual pass tiers and multi-park tickets"
+    ],
+    "bestTimes": "Volcano Bay is least crowded on weekdays during the school year (September through May, excluding holidays). Summer weekends see the highest attendance. The park occasionally closes early or reaches capacity on peak days. Morning hours offer the shortest virtual wait times.",
+    "ticketInfo": "Single-day tickets start at $80 for adults and $75 for children. Multi-park tickets including Volcano Bay offer savings. Universal annual passes may include Volcano Bay access depending on the tier.",
+    "dining": "Kohola Reef Restaurant and Social Club is the park's main dining venue with burgers, chicken, and pizza. Whakawaiwai Eats offers tacos and burritos. The Dancing Dragons Boat Bar and Kunuku Boat Bar serve tropical cocktails and frozen drinks right at the water's edge.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/theme-parks/volcano-bay", "label": "Volcano Bay Official Page", "domain": "universalorlando.com", "emoji": "🌋"},
+      {"url": "https://www.universalorlando.com/web/en/us/tickets", "label": "Universal Tickets", "domain": "universalorlando.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "universal-citywalk-complete-guide",
+    "parkName": "Universal CityWalk",
+    "parkEmoji": "🎶",
+    "parkSubtitle": "Universal Orlando's free entertainment, dining, and nightlife district connecting the theme parks - open day and night.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Universal CityWalk is the dining, shopping, and entertainment complex connecting Universal Studios Florida, Islands of Adventure, and Volcano Bay. Spanning the walkway between the parking structures and the theme parks, CityWalk features over 30 restaurants, bars, shops, and entertainment venues. Admission to CityWalk is free.",
+    "openedYear": "1999",
+    "parkSize": "30+ venues",
+    "annualVisitors": "N/A",
+    "numRides": "N/A",
+    "parkHours": "11 AM - 2 AM (varies by venue)",
+    "parkingInfo": "$30/day, free after 6 PM",
+    "history": "Universal CityWalk opened in 1999 alongside Islands of Adventure as the entertainment hub of Universal Orlando Resort. Modeled after Universal CityWalk in Hollywood, the Orlando version has grown into a premier nightlife and dining destination. The complex has been continuously updated with new restaurants and venues, including the addition of VIVO Italian Kitchen, Toothsome Chocolate Emporium, and Bigfire.",
+    "areas": [
+      {"emoji": "🎵", "name": "Entertainment Row", "description": "Live music and nightlife venues including Rising Star karaoke, Red Coconut Club, and the groove dance club.", "topRides": "N/A - entertainment and nightlife"},
+      {"emoji": "🍽️", "name": "Restaurant Row", "description": "Over 20 dining options ranging from quick-service to upscale table-service restaurants.", "topRides": "N/A - dining experiences"},
+      {"emoji": "🎬", "name": "AMC Universal Cineplex", "description": "A 20-screen movie theater with reclining seats and dine-in options.", "topRides": "AMC Universal Cineplex 20"}
+    ],
+    "topAttractions": [
+      {"name": "Toothsome Chocolate Emporium", "description": "A steampunk-themed restaurant and chocolate factory with towering milkshakes, artisan chocolates, and full dinner menu"},
+      {"name": "Bob Marley - A Tribute to Freedom", "description": "Live reggae music venue recreating Bob Marley's home in Kingston, Jamaica with outdoor courtyard seating"},
+      {"name": "Rising Star", "description": "Interactive karaoke experience where you perform on stage backed by a live band - one of the most fun nightlife spots in Orlando"},
+      {"name": "Blue Man Group", "description": "The iconic Blue Man Group performs at their dedicated theater at CityWalk with high-energy shows combining music, art, and comedy"},
+      {"name": "Bigfire", "description": "Open-fire cooking restaurant serving flame-grilled steaks, seafood, and craft cocktails with a rustic-chic atmosphere"}
+    ],
+    "insiderTips": [
+      "CityWalk is free to enter - no admission required for dining or shopping",
+      "Parking is free after 6 PM, making CityWalk an affordable evening out",
+      "The CityWalk Party Pass ($13) provides access to all nightclub venues for one night",
+      "Toothsome Chocolate Emporium does not take reservations - arrive before 6 PM or after 9 PM to minimize waits",
+      "Happy hour deals at multiple restaurants make CityWalk a more affordable dining option than in-park restaurants",
+      "The miniature golf courses (Hollywood Drive-In Golf) are open late and fun for groups"
+    ],
+    "bestTimes": "CityWalk is busiest on Friday and Saturday nights and during holiday periods. Weekday evenings offer a more relaxed experience. Restaurants are most crowded from 6-8 PM. After 10 PM, the nightlife scene picks up with live music and dancing.",
+    "ticketInfo": "CityWalk is free to enter. Individual venues have their own pricing. CityWalk Party Pass ($13) covers nightclub admission. Blue Man Group tickets start at $59. Hollywood Drive-In Golf starts at $17. AMC movie tickets at standard pricing.",
+    "dining": "CityWalk's dining lineup includes Toothsome Chocolate Emporium (steampunk-themed chocolate factory), Bigfire (open-fire grilled cuisine), VIVO Italian Kitchen (fresh pasta), Antojitos Authentic Mexican Food, The Cowfish (burger and sushi fusion), Jimmy Buffett's Margaritaville, and NBC Sports Grill and Brew. Quick-service options include Bread Box Handcrafted Sandwiches, BK Whopper Bar, and Menchie's Frozen Yogurt.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/dining/citywalk", "label": "CityWalk Dining and Entertainment", "domain": "universalorlando.com", "emoji": "🎶"},
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/nightlife", "label": "Universal Nightlife", "domain": "universalorlando.com", "emoji": "🌙"}
+    ]
+  },
+  {
+    "slug": "epic-universe-complete-guide",
+    "parkName": "Universal Epic Universe",
+    "parkEmoji": "🌌",
+    "parkSubtitle": "Universal's massive new theme park opening in 2025 - featuring worlds themed to Nintendo, Harry Potter, How to Train Your Dragon, and more.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Universal Epic Universe is Universal Orlando's highly anticipated third theme park, opening on May 22, 2025. Located on a separate 750-acre campus south of the existing resort, Epic Universe will be the largest Universal park ever built with five immersive worlds connected by a central celestial hub. The park represents a multi-billion dollar investment and is expected to reshape the Orlando theme park landscape.",
+    "openedYear": "2025",
+    "parkSize": "750 acres (campus), ~100 acres (park)",
+    "annualVisitors": "Projected 10M+ first year",
+    "numRides": "30+ (projected)",
+    "parkHours": "9 AM - 9 PM (projected)",
+    "parkingInfo": "Expected $30-50/day with new parking complex",
+    "history": "Universal Epic Universe was announced on August 1, 2019, as Universal Orlando's third theme park. Construction was briefly paused during the COVID-19 pandemic but resumed quickly. The park is being built on land Universal acquired years ago south of Sand Lake Road, separate from the existing resort campus. A new hotel, Universal Helios Grand Hotel, is integrated directly into the park entrance. Epic Universe represents the largest single theme park investment in Florida history.",
+    "areas": [
+      {"emoji": "🍄", "name": "Super Nintendo World", "description": "A fully immersive recreation of the Mushroom Kingdom from Nintendo's Super Mario games. Interactive wristbands let guests collect coins and compete in activities throughout the land.", "topRides": "Mario Kart: Bowser's Challenge, Donkey Kong Mine Cart Madness, Yoshi's Adventure"},
+      {"emoji": "⚡", "name": "The Wizarding World of Harry Potter - Ministry of Magic", "description": "Set in 1920s Paris from the Fantastic Beasts films, this third Wizarding World land features the French Ministry of Magic and Parisian wizarding street.", "topRides": "Harry Potter and the Battle at the Ministry"},
+      {"emoji": "🐉", "name": "How to Train Your Dragon - Isle of Berk", "description": "An immersive land based on the DreamWorks franchise featuring the Viking village of Berk with live dragons (animatronics) and flying attractions.", "topRides": "Hiccup's Wing Gliders, Dragon Racer's Rally"},
+      {"emoji": "👹", "name": "Dark Universe", "description": "Based on Universal's classic movie monsters including Dracula, Frankenstein, and the Wolf Man in a gothic, atmospheric world.", "topRides": "Monsters Unchained: The Frankenstein Experiment"},
+      {"emoji": "🌟", "name": "Celestial Park", "description": "The central hub connecting all five worlds with a cosmic observatory theme, gardens, dining, and a spectacular central attraction.", "topRides": "Stardust Racers dual-launch coaster, Constellation Carousel"}
+    ],
+    "topAttractions": [
+      {"name": "Mario Kart: Bowser's Challenge", "description": "AR-enhanced dark ride racing through Mario Kart tracks using augmented reality goggles and physical sets"},
+      {"name": "Donkey Kong Mine Cart Madness", "description": "Family coaster through DK's mine with mine cart vehicles and encounters with Donkey Kong characters"},
+      {"name": "Harry Potter and the Battle at the Ministry", "description": "Next-generation dark ride through the French Ministry of Magic battling dark wizards"},
+      {"name": "Monsters Unchained: The Frankenstein Experiment", "description": "Large-scale dark ride through Dr. Frankenstein's laboratory encountering classic Universal monsters"},
+      {"name": "Stardust Racers", "description": "Dueling launched roller coasters in Celestial Park - two intertwining tracks racing through the cosmic-themed hub"}
+    ],
+    "insiderTips": [
+      "Epic Universe is on a separate campus from the existing Universal parks - plan for travel time between the two campuses",
+      "The Helios Grand Hotel connects directly to the park entrance, giving hotel guests early park admission and walkable access",
+      "Power-Up Bands in Super Nintendo World ($40) are optional but unlock interactive gameplay throughout the land",
+      "Expect very high crowds and long wait times during the opening year - visit on weekdays if possible",
+      "Multi-day tickets and new annual pass tiers will include Epic Universe access",
+      "The park is expected to add more worlds and attractions in future phases on the massive campus"
+    ],
+    "bestTimes": "As a new park opening in 2025, expect extremely high attendance throughout the first year. Weekdays will be less crowded than weekends. January and February traditionally see lower Orlando theme park attendance, but the novelty factor may override normal patterns for the first year.",
+    "ticketInfo": "Ticket pricing for Epic Universe is expected to start at $129-149 for single-day admission. Multi-park tickets including all three Universal parks will be available. New annual pass tiers will cover Epic Universe. Express Pass availability and pricing to be announced.",
+    "dining": "Each world within Epic Universe will feature themed dining. Super Nintendo World will include Toadstool Cafe (themed around Princess Peach's restaurant). The Wizarding World area will feature French-inspired magical cuisine. Celestial Park will house the park's largest dining venues. Full dining details will be revealed closer to opening.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/theme-parks/epic-universe", "label": "Epic Universe Official Page", "domain": "universalorlando.com", "emoji": "🌌"},
+      {"url": "https://www.universalorlando.com/web/en/us/tickets", "label": "Universal Tickets", "domain": "universalorlando.com", "emoji": "🎟️"},
+      {"url": "https://www.universalorlando.com/web/en/us/places-to-stay/universals-helios-grand-hotel", "label": "Helios Grand Hotel", "domain": "universalorlando.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "seaworld-orlando-complete-guide",
+    "parkName": "SeaWorld Orlando",
+    "parkEmoji": "🐬",
+    "parkSubtitle": "Marine life theme park featuring world-class roller coasters, animal encounters, and educational experiences in the heart of Orlando.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "SeaWorld Orlando is a 200-acre marine zoological theme park that combines world-class roller coasters with animal encounters and educational experiences. The park is home to over 200 species of animals and has evolved to feature some of Florida's most thrilling coasters including Mako, Kraken, Manta, Ice Breaker, and Pipeline: The Surf Coaster.",
+    "openedYear": "1973",
+    "parkSize": "200 acres",
+    "annualVisitors": "5M+",
+    "numRides": "20+",
+    "parkHours": "10 AM - 6 PM (varies)",
+    "parkingInfo": "$28/day standard, $38/day preferred",
+    "history": "SeaWorld Orlando opened on December 15, 1973, as the second SeaWorld park. The park has transformed significantly over the decades, evolving from primarily an animal show-based park to one of the premier roller coaster destinations in Florida. In 2016, SeaWorld announced the end of its orca breeding program and the phasing out of theatrical orca shows. The park has since invested heavily in new roller coasters and animal rescue programs.",
+    "areas": [
+      {"emoji": "🦈", "name": "Shark Encounter", "description": "Walk through an underwater tunnel surrounded by sharks, barracuda, and tropical fish in one of the largest underwater viewing tunnels in the world.", "topRides": "Sharks! exhibit, Shark Encounter"},
+      {"emoji": "🐧", "name": "Antarctica", "description": "An immersive area themed to the frozen continent featuring a penguin habitat with over 200 penguins in a climate-controlled environment.", "topRides": "Antarctica: Empire of the Penguin ride, penguin viewing area"},
+      {"emoji": "🎢", "name": "Coaster Row", "description": "SeaWorld's collection of world-class roller coasters spanning the park grounds.", "topRides": "Mako, Kraken, Manta, Ice Breaker, Pipeline: The Surf Coaster"},
+      {"emoji": "🐬", "name": "Dolphin Theater Area", "description": "Home to dolphin presentations, sea lion shows, and interactive animal experiences.", "topRides": "Dolphin Adventures show, Sea Lion and Otter show"},
+      {"emoji": "🌊", "name": "Waterfront", "description": "Scenic lakefront area with dining, paddle boats, and the Infinity Falls river rapids ride.", "topRides": "Infinity Falls, Journey to Atlantis, Sky Tower"}
+    ],
+    "topAttractions": [
+      {"name": "Mako", "description": "Orlando's tallest, fastest, and longest hypercoaster at 200 feet tall and 73 mph - themed after the fastest shark in the ocean"},
+      {"name": "Kraken Unleashed", "description": "Floorless coaster with VR option reaching 65 mph with seven inversions - one of the most intense coasters in Florida"},
+      {"name": "Manta", "description": "Flying coaster where riders are positioned face-down, soaring like a manta ray at 56 mph through pretzel loops"},
+      {"name": "Pipeline: The Surf Coaster", "description": "First-of-its-kind surf coaster where riders stand in a surfing position on a moving platform"},
+      {"name": "Ice Breaker", "description": "Launch coaster with four launches including a beyond-vertical 93-foot spike - the newest coaster at SeaWorld"}
+    ],
+    "insiderTips": [
+      "SeaWorld offers significant discounts when buying tickets online in advance versus at the gate",
+      "Quick Queue (SeaWorld's version of Express Pass) is very affordable compared to Universal's Express Pass",
+      "The park is far less crowded than Disney or Universal on most days - weekday visits often mean walk-on rides",
+      "Sit in the first few rows of Journey to Atlantis and Infinity Falls if you want to get soaked",
+      "All-Day Dining Deal ($40) offers unlimited meals at participating restaurants throughout the day",
+      "SeaWorld's annual pass is one of the best values in Orlando with free parking and discounts included"
+    ],
+    "bestTimes": "SeaWorld Orlando is significantly less crowded than Disney or Universal on most days. Weekdays during the school year offer the shortest waits, with many rides being walk-on. The park is busiest during summer weekends, spring break, and holiday weeks. Special events like Electric Ocean (summer) and SeaWorld's Christmas Celebration add extra entertainment.",
+    "ticketInfo": "Single-day tickets start at $79 online (higher at the gate). Fun Card (seasonal unlimited visits) from $99. Annual passes from $179 with free parking. Quick Queue starts at $25. Multi-park options with Busch Gardens and Aquatica available.",
+    "dining": "Voyager's Smokehouse offers excellent BBQ with waterfront seating overlooking the lake. Sharks Underwater Grill is the park's premier dining experience where you eat surrounded by a shark aquarium. Flamecraft Bar serves craft beer and cocktails. Quick-service options include Expedition Cafe and Waterway Grill.",
+    "externalLinks": [
+      {"url": "https://seaworld.com/orlando/", "label": "SeaWorld Orlando Official Site", "domain": "seaworld.com", "emoji": "🐬"},
+      {"url": "https://seaworld.com/orlando/tickets/", "label": "SeaWorld Tickets", "domain": "seaworld.com", "emoji": "🎟️"},
+      {"url": "https://seaworld.com/orlando/rides/", "label": "SeaWorld Rides", "domain": "seaworld.com", "emoji": "🎢"}
+    ]
+  },
+  {
+    "slug": "aquatica-orlando-complete-guide",
+    "parkName": "Aquatica Orlando",
+    "parkEmoji": "🐠",
+    "parkSubtitle": "SeaWorld's tropical water park blending high-speed water slides with animal encounters and a one-of-a-kind dolphin pass-through lazy river.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Aquatica Orlando is SeaWorld's water park featuring a unique blend of high-speed water slides, lazy rivers, and animal encounters. The park's signature feature is Commerson's Dolphin Pass - a lazy river section that flows through a clear underwater tunnel in a Commerson's dolphin habitat. Aquatica spans 59 acres with over 40 slides, rivers, and lagoons.",
+    "openedYear": "2008",
+    "parkSize": "59 acres",
+    "annualVisitors": "1.5M+",
+    "numRides": "40+",
+    "parkHours": "10 AM - 5 PM (seasonal)",
+    "parkingInfo": "$25/day, free with SeaWorld annual pass",
+    "history": "Aquatica Orlando opened on March 1, 2008, as SeaWorld's first dedicated water park. The park was designed to set itself apart from competitors by incorporating marine life encounters into the water park experience. New slides have been added regularly, including Riptide Race (dual-rider mat racer) in 2020 and KareKare Curl in 2021.",
+    "areas": [
+      {"emoji": "🌊", "name": "Thrill Slides", "description": "The park's most intense water slides launching from the central tower complex.", "topRides": "Ihu's Breakaway Falls, Dolphin Plunge, Taumata Racer"},
+      {"emoji": "🐬", "name": "Dolphin Area", "description": "The unique section featuring Commerson's dolphin viewing and the pass-through lazy river.", "topRides": "Commerson's Dolphin Pass, Loggerhead Lane lazy river"},
+      {"emoji": "🏖️", "name": "Wave Pools and Beaches", "description": "Two massive wave pools with sandy beaches and palm tree-lined shores.", "topRides": "Big Surf Shores, Cutback Cove"},
+      {"emoji": "🧸", "name": "Kata's Kookaburra Cove", "description": "Dedicated kids' area with scaled-down slides and a shallow play pool for younger children.", "topRides": "Kata's Kookaburra Cove, Walkabout Waters"}
+    ],
+    "topAttractions": [
+      {"name": "Ihu's Breakaway Falls", "description": "The tallest, steepest, and only multi-drop tower slide of its kind in Orlando - riders step onto a transparent floor that drops away"},
+      {"name": "Dolphin Plunge", "description": "Enclosed tube slide that passes through an underwater section in a Commerson's dolphin habitat"},
+      {"name": "Riptide Race", "description": "Dual-rider mat racer slide where two riders compete head-to-head down a 68-foot-tall slide tower"},
+      {"name": "Taumata Racer", "description": "Eight-lane mat racer slide where riders race head-first down the slope"},
+      {"name": "KareKare Curl", "description": "Open-air curl slide with a near-vertical wave wall that sends riders weightless at the top"}
+    ],
+    "insiderTips": [
+      "Aquatica is significantly less crowded than Disney water parks and typically offers much shorter waits",
+      "Combine an Aquatica visit with SeaWorld using a multi-park ticket for the best value",
+      "Ihu's Breakaway Falls is the most thrilling slide - the floor drops out from under you",
+      "Free life jackets are available for children at multiple locations throughout the park",
+      "The All-Day Dining Deal covers unlimited meals and is well worth it for a full-day visit"
+    ],
+    "bestTimes": "Aquatica is least crowded on weekdays during the school year. Summer weekends and holidays see the highest attendance. The park operates year-round but with reduced hours in winter months. Morning arrival ensures the best experience with shorter waits.",
+    "ticketInfo": "Single-day tickets from $49 online. Combo tickets with SeaWorld from $80. SeaWorld annual passes include Aquatica access at certain tiers. Quick Queue available for purchase.",
+    "dining": "Banana Beach Cook-Out is an all-you-can-eat buffet option included in some ticket packages. Waterstone Grill serves burgers, chicken, and salads. Mango Market offers quick bites and frozen treats. Multiple bar locations serve tropical cocktails and cold beer throughout the park.",
+    "externalLinks": [
+      {"url": "https://aquatica.com/orlando/", "label": "Aquatica Orlando Official Site", "domain": "aquatica.com", "emoji": "🐠"},
+      {"url": "https://aquatica.com/orlando/tickets/", "label": "Aquatica Tickets", "domain": "aquatica.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "discovery-cove-complete-guide",
+    "parkName": "Discovery Cove",
+    "parkEmoji": "🏝️",
+    "parkSubtitle": "An exclusive all-inclusive day resort where you swim with dolphins, snorkel with tropical fish, and relax in a tropical paradise - limited to 1,300 guests per day.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Discovery Cove is SeaWorld's ultra-premium, all-inclusive day resort limited to just 1,300 guests per day. The park offers an intimate tropical paradise experience including swimming with bottlenose dolphins, snorkeling in a coral reef with thousands of tropical fish and rays, floating down a lazy river through an aviary, and relaxing on pristine sandy beaches.",
+    "openedYear": "2000",
+    "parkSize": "30 acres",
+    "annualVisitors": "Limited to ~475,000 (1,300/day)",
+    "numRides": "N/A - resort experience",
+    "parkHours": "8 AM - 5:30 PM",
+    "parkingInfo": "Free parking included",
+    "history": "Discovery Cove opened on July 25, 2000, as a revolutionary concept in the theme park industry - a premium, reservation-only day resort. The park was designed to provide an exclusive, crowd-free alternative to traditional theme parks. Every guest receives all-inclusive access to food, drinks, gear, and experiences. The Dolphin Swim experience has been the park's signature offering since day one.",
+    "areas": [
+      {"emoji": "🐬", "name": "Dolphin Lagoon", "description": "The signature experience where guests interact with and swim alongside Atlantic bottlenose dolphins in a 30-minute guided encounter.", "topRides": "Dolphin Swim Experience"},
+      {"emoji": "🐠", "name": "Grand Reef", "description": "A massive snorkeling reef with thousands of tropical fish, rays, and marine life. Optional SeaVenture helmet diving experience available.", "topRides": "Grand Reef snorkeling, SeaVenture helmet diving"},
+      {"emoji": "🦜", "name": "Explorer's Aviary", "description": "A tropical aviary home to over 250 exotic birds where guests can feed and interact with the birds while floating through on the Wind-Away River.", "topRides": "Wind-Away River through aviary, bird feeding"},
+      {"emoji": "🏖️", "name": "Serenity Bay", "description": "A white sand beach area with crystal-clear freshwater pools, cabanas, and hammocks for relaxation.", "topRides": "Freshwater Oasis, Serenity Bay beach"}
+    ],
+    "topAttractions": [
+      {"name": "Dolphin Swim Experience", "description": "A 30-minute guided interaction with Atlantic bottlenose dolphins including swimming, hugging, and being towed through the water"},
+      {"name": "Grand Reef Snorkeling", "description": "Snorkel through a massive reef with thousands of tropical fish, stingrays, and even sharks behind a clear partition"},
+      {"name": "SeaVenture", "description": "Walk along the bottom of the Grand Reef in a diving helmet, hand-feeding fish and rays 10 feet underwater"},
+      {"name": "Wind-Away River", "description": "Lazy river winding through tropical landscapes and through the Explorer's Aviary filled with exotic birds"},
+      {"name": "Freshwater Oasis", "description": "Crystal-clear wading pool where guests walk among Asian small-clawed otters and tropical marmosets"}
+    ],
+    "insiderTips": [
+      "Book as far in advance as possible - Discovery Cove sells out regularly, especially during peak seasons",
+      "The all-inclusive admission includes breakfast, lunch, snacks, unlimited alcoholic and non-alcoholic drinks, wetsuit, snorkel gear, sunscreen, and towels",
+      "Packages include 14 days of unlimited admission to SeaWorld and Aquatica - an incredible bonus value",
+      "The Dolphin Swim upgrade adds about $100-150 to the base price but is the signature experience",
+      "SeaVenture ($60 add-on) is an unforgettable experience of walking on the reef floor in a diving helmet",
+      "Arrive right at 8 AM to maximize your day - the park feels like a private tropical island in the morning"
+    ],
+    "bestTimes": "Discovery Cove limits attendance to 1,300 guests per day regardless of the season, so the experience is consistently uncrowded. However, booking availability is harder to find during summer, spring break, and holidays. Weekdays tend to have more availability. The weather is most pleasant from March through May and October through November.",
+    "ticketInfo": "Day resort packages start at $199 per person (without dolphin swim) and $299+ per person (with dolphin swim). All-inclusive: breakfast, lunch, unlimited drinks (including alcohol), snorkel gear, wetsuit, towels, locker, sunscreen. Includes 14 consecutive days at SeaWorld and Aquatica. Reservations required.",
+    "dining": "All dining is included in admission. Laguna Grill serves a full hot breakfast and lunch buffet with grilled chicken, fish, burgers, salads, and sides. Freshly baked cookies and snacks are available throughout the day. Unlimited beer, wine, cocktails, and soft drinks are served at bars and kiosks around the park.",
+    "externalLinks": [
+      {"url": "https://discoverycove.com/orlando/", "label": "Discovery Cove Official Site", "domain": "discoverycove.com", "emoji": "🏝️"},
+      {"url": "https://discoverycove.com/orlando/book-now/", "label": "Book Discovery Cove", "domain": "discoverycove.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "legoland-florida-complete-guide",
+    "parkName": "LEGOLAND Florida",
+    "parkEmoji": "🧱",
+    "parkSubtitle": "The ultimate theme park for kids ages 2-12 - featuring over 50 rides, shows, and attractions plus Miniland USA built from millions of LEGO bricks.",
+    "cityName": "Winter Haven",
+    "citySlug": "winter-haven",
+    "parkDescription": "LEGOLAND Florida Resort is a 150-acre theme park and water park designed specifically for families with children ages 2-12. Located in Winter Haven about 45 minutes from Orlando, the park features over 50 rides, shows, and attractions, a water park, and Miniland USA - a massive display of American landmarks built from millions of LEGO bricks.",
+    "openedYear": "2011",
+    "parkSize": "150 acres",
+    "annualVisitors": "3M+",
+    "numRides": "50+",
+    "parkHours": "10 AM - 6 PM (varies)",
+    "parkingInfo": "$25/day standard, $35/day preferred",
+    "history": "LEGOLAND Florida opened on October 15, 2011, on the site of the former Cypress Gardens theme park, which operated from 1936 to 2009. The park preserved and incorporated the historic Cypress Gardens botanical gardens, including the iconic banyan tree and Florida Pool. LEGOLAND has expanded significantly since opening, adding Heartlake City (2015), The LEGO Movie World (2019), and Peppa Pig Theme Park (2022) adjacent to the resort.",
+    "areas": [
+      {"emoji": "🧱", "name": "Miniland USA", "description": "Incredible miniature recreations of American landmarks including Las Vegas, New York, Washington D.C., and the Kennedy Space Center - all built from millions of LEGO bricks.", "topRides": "Miniland USA walkthrough"},
+      {"emoji": "🎬", "name": "The LEGO Movie World", "description": "Based on The LEGO Movie films, featuring Bricksburg brought to life with a flying ride and character meet-and-greets.", "topRides": "The LEGO Movie Masters of Flight, Unikitty's Disco Drop, Battle of Bricksburg"},
+      {"emoji": "🏰", "name": "LEGO Kingdoms", "description": "Medieval-themed area with the park's signature coaster and a jousting show.", "topRides": "The Dragon coaster, Royal Joust, Merlin's Challenge"},
+      {"emoji": "🏗️", "name": "LEGO City", "description": "Kids can drive, fly, and navigate boats in a miniature LEGO City designed for hands-on play.", "topRides": "Driving School, Flying School, Rescue Academy, Coastersaurus"},
+      {"emoji": "🌺", "name": "Cypress Gardens", "description": "The historic botanical gardens preserved from the original Cypress Gardens park, featuring beautiful landscaping, the iconic Florida Pool, and towering banyan trees.", "topRides": "Cypress Gardens botanical walkthrough"}
+    ],
+    "topAttractions": [
+      {"name": "The Dragon", "description": "The park's signature coaster that begins as a dark ride through a LEGO castle and then launches outdoors for a thrilling coaster experience"},
+      {"name": "The LEGO Movie Masters of Flight", "description": "Immersive flying theater ride soaring over LEGO-built worlds from The LEGO Movie"},
+      {"name": "Miniland USA", "description": "Awe-inspiring miniature landmarks built from over 32 million LEGO bricks - including a functional LEGO Kennedy Space Center launch"},
+      {"name": "Coastersaurus", "description": "Wooden roller coaster winding through a life-sized LEGO dinosaur garden - fun for the whole family"},
+      {"name": "Build and Test", "description": "Hands-on building experience where kids construct LEGO vehicles and race them on a test track"}
+    ],
+    "insiderTips": [
+      "LEGOLAND is designed for kids ages 2-12 - teens and adults without children may find the rides too tame",
+      "The resort hotel (LEGOLAND Hotel and Pirate Island Hotel) offers themed rooms and early park access",
+      "Peppa Pig Theme Park is a separate gate adjacent to LEGOLAND with an additional ticket required",
+      "Bring your own LEGO minifigures to trade with park employees - they all carry them for trading",
+      "The water park requires a combo ticket and is well worth it on hot days",
+      "LEGOLAND is about 45 minutes from Orlando/Kissimmee - plan for the drive time"
+    ],
+    "bestTimes": "LEGOLAND is least crowded on weekdays during the school year (September through May, excluding holidays). The park does not operate daily year-round - check the calendar as some weekdays are closed during the off-season. Summer and holiday weeks see the highest attendance.",
+    "ticketInfo": "Single-day tickets start at $104 for ages 3+ ($99 online). Combo tickets with water park start at $129. Peppa Pig Theme Park is a separate ticket ($34). Annual passes from $199. Multi-day and hotel packages available for savings.",
+    "dining": "Bricksburg Market Food Hall in LEGO Movie World offers burgers, pizza, and chicken tenders. The Dragon's Den in LEGO Kingdoms serves turkey legs and BBQ. Fun Town Pizza and Pasta Buffet is a popular all-you-can-eat option. Granny's Apple Fries are a must-try park snack - cinnamon-sugar coated apple fries with whipped cream.",
+    "externalLinks": [
+      {"url": "https://www.legoland.com/florida/", "label": "LEGOLAND Florida Official Site", "domain": "legoland.com", "emoji": "🧱"},
+      {"url": "https://www.legoland.com/florida/tickets-passes/", "label": "LEGOLAND Tickets", "domain": "legoland.com", "emoji": "🎟️"},
+      {"url": "https://www.legoland.com/florida/places-to-stay/", "label": "LEGOLAND Hotels", "domain": "legoland.com", "emoji": "🏨"}
+    ]
+  },
+  {
+    "slug": "fun-spot-america-orlando-complete-guide",
+    "parkName": "Fun Spot America Orlando",
+    "parkEmoji": "🎢",
+    "parkSubtitle": "Orlando's affordable family fun park on International Drive - featuring Florida's only wooden coaster and go-kart tracks with free admission.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Fun Spot America Orlando is a family-owned amusement park on International Drive offering a mix of roller coasters, go-kart tracks, flat rides, and an arcade. The park features free admission with pay-per-ride or all-day wristband options, making it one of the most affordable theme park experiences in Orlando.",
+    "openedYear": "1997",
+    "parkSize": "15 acres",
+    "annualVisitors": "1M+",
+    "numRides": "15+",
+    "parkHours": "10 AM - 12 AM (varies)",
+    "parkingInfo": "Free parking",
+    "history": "Fun Spot America began as a small go-kart track operation in 1997 and has grown into a full amusement park with coasters and thrill rides. The park added White Lightning, the only wooden roller coaster in Orlando, in 2013 and Freedom Flyer, a suspended family coaster, in 2014. Fun Spot remains family-owned and operated, distinguishing it from the corporate mega-parks nearby.",
+    "areas": [
+      {"emoji": "🎢", "name": "Coaster Area", "description": "Home to the park's roller coasters including the signature White Lightning wooden coaster.", "topRides": "White Lightning, Freedom Flyer, Mine Blower"},
+      {"emoji": "🏎️", "name": "Go-Kart Tracks", "description": "Multiple multi-level go-kart tracks including the tallest SkyCoaster in the world.", "topRides": "Quad Helix track, Commander track, Thrasher track"},
+      {"emoji": "🎡", "name": "Rides and Attractions", "description": "Flat rides, a Ferris wheel, and family-friendly attractions throughout the park.", "topRides": "SkyCoaster, Fun Spot Ferris Wheel, Screamer, Rockstar Coaster"}
+    ],
+    "topAttractions": [
+      {"name": "White Lightning", "description": "Orlando's only wooden roller coaster - a compact but surprisingly intense ride with steep drops and airtime moments"},
+      {"name": "Freedom Flyer", "description": "Suspended family coaster where riders' feet dangle as they soar through turns and dips"},
+      {"name": "SkyCoaster", "description": "The world's tallest SkyCoaster - a free-fall swing launching riders from 300 feet at speeds up to 80 mph (separate ticket)"},
+      {"name": "Go-Kart Tracks", "description": "Multiple multi-level go-kart tracks including elevated tracks with great views of International Drive"},
+      {"name": "Mine Blower", "description": "Wooden coaster with an inversion - a rarity in wooden coaster design - fast and fun"}
+    ],
+    "insiderTips": [
+      "Admission to the park is free - you only pay for rides via individual tickets or a wristband",
+      "The all-day wristband ($55) is the best value if you plan to ride multiple attractions",
+      "Fun Spot is open late (until midnight on some nights), making it a great after-dinner activity",
+      "The SkyCoaster ($40+) is a separate charge even with a wristband but is an unforgettable experience",
+      "The park is right on International Drive, so it is easy to combine with nearby restaurants and attractions"
+    ],
+    "bestTimes": "Fun Spot is least crowded on weekday mornings. Weekend evenings and holiday periods see the most visitors. The park is a good rainy-day backup since many rides operate in light rain and you can wait for weather to pass without wasting an expensive park ticket.",
+    "ticketInfo": "Free admission. Individual ride tickets from $5. All-day ride armband $55 for guests over 54 inches, $45 for under 54 inches. SkyCoaster from $40 (separate charge). Go-kart rides from $9.",
+    "dining": "Fun Spot offers basic amusement park fare including pizza, burgers, hot dogs, and funnel cakes at the on-site food court. The International Drive location means dozens of restaurants are within walking distance.",
+    "externalLinks": [
+      {"url": "https://fun-spot.com/orlando/", "label": "Fun Spot Orlando Official Site", "domain": "fun-spot.com", "emoji": "🎢"},
+      {"url": "https://fun-spot.com/orlando/attractions/", "label": "Fun Spot Rides and Attractions", "domain": "fun-spot.com", "emoji": "🎡"}
+    ]
+  },
+  {
+    "slug": "fun-spot-kissimmee-complete-guide",
+    "parkName": "Fun Spot America Kissimmee",
+    "parkEmoji": "🏎️",
+    "parkSubtitle": "Kissimmee's family fun park near Disney with the headliner Mine Blower coaster, go-karts, and free admission.",
+    "cityName": "Kissimmee",
+    "citySlug": "kissimmee",
+    "parkDescription": "Fun Spot America Kissimmee is the sister park to Fun Spot Orlando, located on US-192 near Walt Disney World. The park features the headliner Mine Blower wooden coaster (one of the few wooden coasters in the world with an inversion), multiple go-kart tracks, flat rides, and an arcade.",
+    "openedYear": "2002",
+    "parkSize": "10 acres",
+    "annualVisitors": "500K+",
+    "numRides": "12+",
+    "parkHours": "10 AM - 12 AM (varies)",
+    "parkingInfo": "Free parking",
+    "history": "Fun Spot Kissimmee opened in 2002 as Old Town's adjacent amusement park before evolving into a standalone Fun Spot America location. The park's biggest addition was Mine Blower in 2017, a wooden roller coaster featuring an inversion - a rarity that generates enthusiast attention. The park shares ownership with Fun Spot Orlando but operates independently.",
+    "areas": [
+      {"emoji": "🎢", "name": "Mine Blower Area", "description": "The headliner coaster area featuring the park's signature wooden roller coaster.", "topRides": "Mine Blower, Headhunter"},
+      {"emoji": "🏎️", "name": "Go-Kart Zone", "description": "Multiple go-kart tracks of varying intensity for all ages.", "topRides": "Vortex track, Chaos track, Road Course"},
+      {"emoji": "🎡", "name": "Family Rides", "description": "A collection of flat rides and family-friendly attractions.", "topRides": "SkyCoaster, Hot Seat, Screamer, Kiddie rides"}
+    ],
+    "topAttractions": [
+      {"name": "Mine Blower", "description": "Wooden coaster with an inversion - a rare feat in wooden coaster engineering that draws coaster enthusiasts from around the world"},
+      {"name": "Headhunter", "description": "Spinning coaster that whips riders through tight turns and unexpected spins"},
+      {"name": "SkyCoaster", "description": "Free-fall swing experience launching from a high tower - an adrenaline rush beyond traditional rides"},
+      {"name": "Go-Kart Tracks", "description": "Multiple tracks including single-rider and double-rider karts for families and competitive racers"},
+      {"name": "Gator Spot", "description": "Alligator and wildlife exhibit within the park featuring Florida native animals"}
+    ],
+    "insiderTips": [
+      "Free admission - pay only for the rides you want or buy an all-day wristband",
+      "Mine Blower is a hidden gem that coaster enthusiasts specifically seek out",
+      "Located right next to Old Town Kissimmee, so you can combine both in one evening",
+      "Less crowded than the International Drive Fun Spot location",
+      "Open late on weekends - great for an evening activity after a day at Disney"
+    ],
+    "bestTimes": "Fun Spot Kissimmee is least crowded on weekday mornings and early afternoons. The park's proximity to Disney means it sees more traffic on Disney non-park days and evenings. Weekend evenings bring the largest crowds, especially when Old Town hosts car shows.",
+    "ticketInfo": "Free admission. Individual ride tickets from $5. All-day ride armband $55 over 54 inches, $45 under 54 inches. SkyCoaster from $40 (separate). Go-karts from $9.",
+    "dining": "Basic amusement park food court with pizza, burgers, and snacks. Old Town Kissimmee next door offers additional restaurant options including A&W, Flippers Pizza, and more.",
+    "externalLinks": [
+      {"url": "https://fun-spot.com/kissimmee/", "label": "Fun Spot Kissimmee Official Site", "domain": "fun-spot.com", "emoji": "🏎️"},
+      {"url": "https://fun-spot.com/kissimmee/attractions/", "label": "Fun Spot Kissimmee Rides", "domain": "fun-spot.com", "emoji": "🎡"}
+    ]
+  },
+  {
+    "slug": "gatorland-complete-guide",
+    "parkName": "Gatorland",
+    "parkEmoji": "🐊",
+    "parkSubtitle": "The Alligator Capital of the World - a classic Florida attraction since 1949 with thousands of alligators, zip lines, and the famous gator mouth entrance.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Gatorland is a 110-acre wildlife preserve and theme park known as the Alligator Capital of the World. Home to thousands of alligators and crocodiles, the park has been a Florida institution since 1949. The iconic giant alligator mouth entrance is one of the most photographed landmarks in Orlando. The park offers a more authentic, old-Florida experience compared to the mega theme parks.",
+    "openedYear": "1949",
+    "parkSize": "110 acres",
+    "annualVisitors": "1M+",
+    "numRides": "N/A - wildlife park",
+    "parkHours": "10 AM - 5 PM",
+    "parkingInfo": "Free parking",
+    "history": "Gatorland was founded by Owen Godwin in 1949 as the Florida Wildlife Institute, starting with just a handful of alligators and a roadside stand. The iconic giant gator mouth entrance was built in 1962 and has become one of the most recognized landmarks in Orlando. The park survived a devastating fire in 2006 that destroyed the main building but was rebuilt and reopened. Gatorland remains family-owned and operated to this day, now in its third generation.",
+    "areas": [
+      {"emoji": "🐊", "name": "Alligator Breeding Marsh", "description": "A massive natural marsh boardwalk where guests walk among free-roaming alligators in their natural habitat - one of the most unique experiences in Orlando.", "topRides": "Breeding Marsh boardwalk, observation tower"},
+      {"emoji": "🦅", "name": "Screamin' Gator Zip Line", "description": "A thrilling zip line course that sends riders soaring over alligator-filled ponds and the Cuban crocodile habitat.", "topRides": "Screamin' Gator Zip Line, Stompin' Gator Off-Road Adventure"},
+      {"emoji": "🎪", "name": "Shows and Encounters", "description": "Live shows featuring gator wrestling, gator jumparoo (where alligators leap out of the water for food), and animal encounters.", "topRides": "Gator Wrestlin' show, Gator Jumparoo, Up Close Encounters"},
+      {"emoji": "🐾", "name": "Wildlife Discovery", "description": "Beyond alligators, the park features a petting zoo, aviary, panther habitat, and native Florida wildlife exhibits.", "topRides": "Petting zoo, free-flight aviary, panther habitat"}
+    ],
+    "topAttractions": [
+      {"name": "Alligator Breeding Marsh Boardwalk", "description": "Walk along boardwalks surrounded by hundreds of free-roaming alligators in a natural marsh setting"},
+      {"name": "Gator Wrestlin' Show", "description": "Live gator wrestling demonstration by trained professionals - a classic Florida tradition"},
+      {"name": "Screamin' Gator Zip Line", "description": "Seven zip line stations soaring 65 feet above the park, crossing directly over alligator habitats"},
+      {"name": "Gator Jumparoo", "description": "Watch massive alligators leap several feet out of the water to snatch food - an impressive display of power"},
+      {"name": "Trainer for a Day", "description": "Premium experience where guests work alongside keepers, feeding alligators and learning about reptile care"}
+    ],
+    "insiderTips": [
+      "Gatorland is a fraction of the price of the major theme parks and provides a uniquely Florida experience",
+      "The Gator Night Shine (seasonal) lets you see thousands of glowing alligator eyes at night - unforgettable",
+      "Trainer for a Day ($130) is an incredible behind-the-scenes experience worth the upgrade",
+      "Visit in the morning when alligators are more active and sunning themselves on the banks",
+      "The zip line requires a separate ticket ($70+) but is one of the most unique zip line experiences anywhere",
+      "Gatorland is between Orlando and Kissimmee on US-441, about 20 minutes from Disney"
+    ],
+    "bestTimes": "Gatorland is least crowded on weekday mornings. The park is a hidden gem that even locals often overlook. Spring and fall offer the most comfortable weather for walking the outdoor exhibits. Summer afternoons can be very hot - bring water and sunscreen.",
+    "ticketInfo": "Adult tickets $29.99, children (3-12) $21.99. Zip line add-on $69.99+. Trainer for a Day $130. Stompin' Gator Off-Road Adventure $12. Annual passes available. Significant online discounts available.",
+    "dining": "Pearl's Smokehouse serves BBQ, burgers, and gator bites (yes, real alligator meat). Gator Jake's fry stand offers gator nuggets and fried fare. The gift shop sells gator jerky to take home.",
+    "externalLinks": [
+      {"url": "https://www.gatorland.com/", "label": "Gatorland Official Site", "domain": "gatorland.com", "emoji": "🐊"},
+      {"url": "https://www.gatorland.com/buy-tickets/", "label": "Gatorland Tickets", "domain": "gatorland.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "icon-park-rides-complete-guide",
+    "parkName": "ICON Park",
+    "parkEmoji": "🎡",
+    "parkSubtitle": "International Drive's entertainment complex anchored by The Wheel (400 feet), Madame Tussauds, SEA LIFE Aquarium, and Museum of Illusions.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "ICON Park is a 20-acre entertainment complex on International Drive featuring The Wheel at ICON Park (a 400-foot observation wheel), Madame Tussauds Orlando, SEA LIFE Orlando Aquarium, Museum of Illusions, and over 50 restaurants and shops. The complex serves as the anchor of the International Drive entertainment corridor.",
+    "openedYear": "2015",
+    "parkSize": "20 acres",
+    "annualVisitors": "5M+",
+    "numRides": "5+ attractions",
+    "parkHours": "11 AM - 11 PM (varies by venue)",
+    "parkingInfo": "Free parking garage",
+    "history": "ICON Park opened in 2015 as I-Drive 360, centered around the Orlando Eye observation wheel. The complex rebranded as ICON Park in 2018 and has expanded to include multiple attractions and over 50 dining and retail venues. The Wheel at ICON Park stands 400 feet tall, making it the tallest observation wheel on the East Coast of the United States.",
+    "areas": [
+      {"emoji": "🎡", "name": "The Wheel", "description": "The 400-foot observation wheel offering panoramic views of Orlando, including the theme parks on clear days. Each climate-controlled capsule holds up to 15 guests.", "topRides": "The Wheel at ICON Park"},
+      {"emoji": "🤳", "name": "Attractions Row", "description": "Multiple ticketed attractions including wax figures, aquarium, and optical illusion exhibits.", "topRides": "Madame Tussauds, SEA LIFE Aquarium, Museum of Illusions"},
+      {"emoji": "🍽️", "name": "Restaurant Row", "description": "Over 50 restaurants and bars ranging from casual dining to upscale options with outdoor seating.", "topRides": "N/A - dining and entertainment"}
+    ],
+    "topAttractions": [
+      {"name": "The Wheel at ICON Park", "description": "400-foot observation wheel with climate-controlled capsules offering 360-degree views of Orlando - the tallest on the US East Coast"},
+      {"name": "Madame Tussauds Orlando", "description": "Interactive wax museum featuring lifelike figures of celebrities, athletes, musicians, and historical figures with themed photo zones"},
+      {"name": "SEA LIFE Orlando Aquarium", "description": "Underwater aquarium with a 360-degree ocean tunnel, touch pools, and thousands of marine creatures from Florida and beyond"},
+      {"name": "Museum of Illusions", "description": "Interactive museum of optical illusions, holograms, and mind-bending exhibits designed for photos and social media"},
+      {"name": "Pearl Express Train", "description": "Scenic train ride around the ICON Park complex - a relaxing way to see the grounds"}
+    ],
+    "insiderTips": [
+      "Combo tickets for multiple ICON Park attractions offer significant savings over individual tickets",
+      "The Wheel is most spectacular at sunset and after dark when it is illuminated with LED lights",
+      "Free parking in the garage is a major perk - most I-Drive attractions charge for parking",
+      "Weekday mornings are the least crowded for the attractions",
+      "Many restaurants offer happy hour specials in the late afternoon",
+      "The complex is walkable to many other I-Drive attractions"
+    ],
+    "bestTimes": "ICON Park is open year-round with attractions busiest on weekends and during holiday periods. Weekday mornings offer the shortest waits for The Wheel, Madame Tussauds, and SEA LIFE. Evening visits are popular for the illuminated Wheel and restaurant scene.",
+    "ticketInfo": "The Wheel: $28 adults, $23 children. Madame Tussauds: $32 adults, $25 children. SEA LIFE: $28 adults, $23 children. Combo tickets from $52. Museum of Illusions: $25 adults, $20 children.",
+    "dining": "ICON Park offers a wide range of dining including Tin Roof (live music and Southern cuisine), Tapa Toro (Spanish tapas), Shake Shack, Yard House, and Blake's A Steakhouse. Sugar Factory is popular for over-the-top milkshakes and candy cocktails.",
+    "externalLinks": [
+      {"url": "https://iconparkorlando.com/", "label": "ICON Park Official Site", "domain": "iconparkorlando.com", "emoji": "🎡"},
+      {"url": "https://iconparkorlando.com/attractions/the-wheel/", "label": "The Wheel at ICON Park", "domain": "iconparkorlando.com", "emoji": "🎡"},
+      {"url": "https://iconparkorlando.com/eat-drink/", "label": "ICON Park Dining", "domain": "iconparkorlando.com", "emoji": "🍽️"}
+    ]
+  },
+  {
+    "slug": "wonderworks-orlando-complete-guide",
+    "parkName": "WonderWorks Orlando",
+    "parkEmoji": "🏠",
+    "parkSubtitle": "The upside-down house on International Drive - an interactive science museum with over 100 hands-on exhibits, ropes course, and laser tag.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "WonderWorks Orlando is an interactive science and entertainment attraction housed in a distinctive upside-down building on International Drive. The attraction features over 100 hands-on exhibits across six Wonder Zones, plus a 4D theater, indoor ropes course, and laser tag arena. The inverted building exterior is one of the most photographed landmarks on I-Drive.",
+    "openedYear": "1998",
+    "parkSize": "35,000 sq ft",
+    "annualVisitors": "500K+",
+    "numRides": "100+ exhibits",
+    "parkHours": "10 AM - 12 AM (varies)",
+    "parkingInfo": "Free parking lot",
+    "history": "WonderWorks Orlando opened in 1998 in its iconic upside-down building, becoming an instant landmark on International Drive. The backstory claims the building was a secret laboratory that was struck by a tornado experiment gone wrong, flipping the entire structure upside-down. The attraction has been continuously updated with new exhibits and experiences over the years.",
+    "areas": [
+      {"emoji": "🌪️", "name": "Natural Disasters Zone", "description": "Experience the power of hurricanes, earthquakes, and other natural phenomena through simulation exhibits.", "topRides": "Hurricane simulator, Earthquake simulator"},
+      {"emoji": "🔬", "name": "Physical Challenge Zone", "description": "Test your physical abilities with exhibits that challenge balance, agility, and strength.", "topRides": "Bed of nails, Bubble lab, Pulley challenge"},
+      {"emoji": "💡", "name": "Light and Sound Zone", "description": "Interactive exhibits exploring light, sound, and sensory perception.", "topRides": "Giant piano, Light exhibits, Tesla coil"},
+      {"emoji": "🚀", "name": "Space Discovery Zone", "description": "Space-themed exhibits including astronaut training simulations and space shuttle experiences.", "topRides": "Astronaut training gyroscope, Space shuttle simulator"},
+      {"emoji": "🧗", "name": "Ropes Course and Laser Tag", "description": "A three-story indoor ropes challenge course and a multi-level laser tag arena.", "topRides": "Indoor ropes course, Laser tag arena"}
+    ],
+    "topAttractions": [
+      {"name": "Hurricane Category 1 Simulator", "description": "Step inside a chamber and experience 74 mph hurricane-force winds"},
+      {"name": "Indoor Ropes Course", "description": "Three-story ropes course with 20+ elements suspended above the museum floor"},
+      {"name": "Astronaut Training Gyroscope", "description": "Spin in a multi-axis trainer used by NASA to prepare astronauts for space flight"},
+      {"name": "Laser Tag Arena", "description": "Multi-level, glow-in-the-dark laser tag arena with an immersive sci-fi theme"},
+      {"name": "Earthquake Simulator", "description": "Stand on a shaking platform to feel what a 5.3 magnitude earthquake feels like"}
+    ],
+    "insiderTips": [
+      "Buy tickets online in advance for the best prices - walk-up prices are significantly higher",
+      "The all-access combo ticket (exhibits + ropes course + laser tag) is the best value",
+      "WonderWorks is a great rainy-day activity since everything is indoors",
+      "Allow 2-3 hours to experience all the exhibits, ropes course, and laser tag",
+      "The Outta Control Magic Comedy Dinner Show is held at WonderWorks and is a fun add-on"
+    ],
+    "bestTimes": "WonderWorks is busiest during rainy days (when tourists come indoors) and holiday periods. Weekday mornings are the least crowded. The attraction is open late, making it a good evening activity after theme parks close.",
+    "ticketInfo": "All-access combo (exhibits + ropes course + laser tag) $43.99 adults, $33.99 children. Exhibits only $29.99 adults, $22.99 children. Dinner show add-on from $32. Online discounts available.",
+    "dining": "The Outta Control Magic Comedy Dinner Show at WonderWorks includes unlimited pizza, salad, beer, wine, and soft drinks with a 90-minute comedy and magic performance. Otherwise, the attraction is surrounded by International Drive restaurants within walking distance.",
+    "externalLinks": [
+      {"url": "https://www.wonderworksonline.com/orlando/", "label": "WonderWorks Orlando", "domain": "wonderworksonline.com", "emoji": "🏠"},
+      {"url": "https://www.wonderworksonline.com/orlando/tickets/", "label": "WonderWorks Tickets", "domain": "wonderworksonline.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "busch-gardens-tampa-complete-guide",
+    "parkName": "Busch Gardens Tampa Bay",
+    "parkEmoji": "🎢",
+    "parkSubtitle": "Tampa Bay's African-themed mega park - home to world-class roller coasters, a Serengeti Safari, and over 12,000 animals.",
+    "cityName": "Tampa",
+    "citySlug": "tampa",
+    "parkDescription": "Busch Gardens Tampa Bay is a 335-acre African-themed theme park and zoo that combines world-class roller coasters with a world-class zoological experience. The park is home to over 12,000 animals representing more than 300 species and features some of the most thrilling roller coasters in the Southeast United States, including SheiKra, Cheetah Hunt, Iron Gwazi, and Montu.",
+    "openedYear": "1959",
+    "parkSize": "335 acres",
+    "annualVisitors": "4M+",
+    "numRides": "20+",
+    "parkHours": "10 AM - 6 PM (varies)",
+    "parkingInfo": "$28/day standard, $38/day preferred",
+    "history": "Busch Gardens began as a hospitality house and bird garden for the Anheuser-Busch brewery in Tampa, opening to the public in 1959. The park evolved through the decades from a small attraction to a major theme park, adding African theming and significant animal collections in the 1970s and world-class roller coasters from the 1990s onward. Now owned by SeaWorld Entertainment, the park continues to add major coasters, with Iron Gwazi (2022) being the world's fastest and steepest hybrid coaster at its opening.",
+    "areas": [
+      {"emoji": "🦁", "name": "Serengeti Plain", "description": "A 65-acre open-air habitat where African animals roam freely, visible from the Serengeti Railway, Skyride, and the Serengeti Safari tour.", "topRides": "Serengeti Safari tour, Serengeti Railway, Cheetah Hunt"},
+      {"emoji": "🎢", "name": "Iron Gwazi Area", "description": "Home to the park's newest and most extreme roller coaster.", "topRides": "Iron Gwazi - the world's fastest and steepest hybrid coaster at opening"},
+      {"emoji": "🏺", "name": "Egypt", "description": "Ancient Egyptian theming surrounding one of the most acclaimed inverted coasters ever built.", "topRides": "Montu, King Tut's Tomb replica"},
+      {"emoji": "🌍", "name": "Nairobi", "description": "Animal exhibits and encounters including the Myombe Reserve great ape habitat and the Edge of Africa walking trail.", "topRides": "Myombe Reserve, Edge of Africa, Nairobi Station"},
+      {"emoji": "🏔️", "name": "Pantopia", "description": "A vibrant cultural area featuring the Falcon's Fury drop tower and Cheetah Hunt coaster launch point.", "topRides": "Falcon's Fury, Cheetah Hunt, Cobra's Curse"},
+      {"emoji": "🌊", "name": "Congo", "description": "Tropical river theming with water rides and the historic Kumba coaster.", "topRides": "Kumba, Congo River Rapids, Stanley Falls Flume"}
+    ],
+    "topAttractions": [
+      {"name": "Iron Gwazi", "description": "World-class hybrid coaster - 206 feet tall, 76 mph, 12 airtime moments, and a beyond-vertical 91-degree drop"},
+      {"name": "Cheetah Hunt", "description": "Triple-launch coaster inspired by the cheetah's hunting sprint, reaching 60 mph along a course that crosses the Serengeti edge"},
+      {"name": "Montu", "description": "Legendary inverted coaster considered one of the best in the world with seven inversions at 60 mph"},
+      {"name": "SheiKra", "description": "Floorless dive coaster with a 90-degree vertical drop from 200 feet and a water splash finale"},
+      {"name": "Serengeti Safari", "description": "Guided open-air truck tour across the 65-acre Serengeti Plain with opportunities to hand-feed giraffes"}
+    ],
+    "insiderTips": [
+      "Busch Gardens is about 75 minutes from Orlando - factor in the drive time when planning your day",
+      "Iron Gwazi and Cheetah Hunt have the longest waits - ride them first at rope drop",
+      "The Serengeti Safari ($39) is one of the best animal experiences in Florida and books up fast",
+      "Quick Queue is very affordable here compared to Universal's Express Pass and dramatically reduces wait times",
+      "Busch Gardens annual passes often include free admission to SeaWorld and Aquatica",
+      "The park is significantly less crowded than Orlando theme parks on most days"
+    ],
+    "bestTimes": "Busch Gardens Tampa is significantly less crowded than Orlando's major theme parks. Weekdays during the school year offer walk-on rides for most coasters. The park is busiest during summer weekends, spring break, and the Howl-O-Scream Halloween event. Morning hours consistently offer the shortest wait times.",
+    "ticketInfo": "Single-day tickets from $109 online (higher at gate). Annual passes from $199 (often include SeaWorld and Aquatica). Quick Queue from $25. Multi-park combos with SeaWorld available. Serengeti Safari tour $39+.",
+    "dining": "Dragon Fire Grill features live entertainment with flatbreads, burgers, and craft beer. Zambia Smokehouse serves excellent BBQ ribs and chicken. Serengeti Overlook Restaurant provides views of the Serengeti Plain. The Cheetah Run Cafe is a convenient quick-service option near Cheetah Hunt.",
+    "externalLinks": [
+      {"url": "https://buschgardens.com/tampa/", "label": "Busch Gardens Tampa Official Site", "domain": "buschgardens.com", "emoji": "🎢"},
+      {"url": "https://buschgardens.com/tampa/tickets/", "label": "Busch Gardens Tickets", "domain": "buschgardens.com", "emoji": "🎟️"},
+      {"url": "https://buschgardens.com/tampa/rides/", "label": "Busch Gardens Rides", "domain": "buschgardens.com", "emoji": "🎢"}
+    ]
+  },
+  {
+    "slug": "adventure-island-tampa-complete-guide",
+    "parkName": "Adventure Island Tampa",
+    "parkEmoji": "🌴",
+    "parkSubtitle": "Busch Gardens' tropical water park in Tampa - featuring high-speed slides, a massive wave pool, and a relaxing lazy river.",
+    "cityName": "Tampa",
+    "citySlug": "tampa",
+    "parkDescription": "Adventure Island is a 30-acre water park located adjacent to Busch Gardens Tampa Bay. The park features a tropical Key West theme with water slides, a wave pool, lazy river, and children's play areas. It operates as a seasonal complement to Busch Gardens, offering guests a way to cool off during Florida's hot summer months.",
+    "openedYear": "1980",
+    "parkSize": "30 acres",
+    "annualVisitors": "500K+",
+    "numRides": "10+",
+    "parkHours": "10 AM - 5 PM (seasonal)",
+    "parkingInfo": "$25/day, free with Busch Gardens annual pass",
+    "history": "Adventure Island opened in 1980 as a companion water park to Busch Gardens Tampa. Originally operated by Anheuser-Busch, the park is now part of the SeaWorld Entertainment portfolio. The park has undergone periodic updates with new slides and renovations, including the addition of Vanish Point and Solar Vortex in recent years.",
+    "areas": [
+      {"emoji": "🌊", "name": "Thrill Slides", "description": "High-speed water slides launching from the park's central tower.", "topRides": "Vanish Point, Colossal Curl, Solar Vortex"},
+      {"emoji": "🏖️", "name": "Wave Pool and Beach", "description": "A large wave pool with sandy beach area for relaxation.", "topRides": "Endless Surf wave pool, sandy beach"},
+      {"emoji": "🏊", "name": "Family Zone", "description": "Family-friendly slides, lazy river, and children's play areas.", "topRides": "Rambling Bayou lazy river, Splash Attack kiddie area, Fabian's Funport"}
+    ],
+    "topAttractions": [
+      {"name": "Vanish Point", "description": "Three drop slides using trap-door launch capsules - riders stand on a floor that drops away, sending them plummeting down enclosed tubes"},
+      {"name": "Colossal Curl", "description": "Family raft slide with a massive wave wall that sends riders soaring on a vertical half-pipe"},
+      {"name": "Solar Vortex", "description": "Florida's first dual-tailspin water slide with enclosed funnel elements"},
+      {"name": "Rambling Bayou", "description": "Scenic lazy river winding through tropical landscaping - the most relaxing experience in the park"},
+      {"name": "Endless Surf", "description": "Large wave pool with rolling waves and a sandy beach shoreline"}
+    ],
+    "insiderTips": [
+      "Adventure Island is right next to Busch Gardens - easy to do both parks in a two-day visit",
+      "The park operates seasonally (roughly March through October) - check the calendar",
+      "Busch Gardens annual pass holders often get free or discounted Adventure Island access",
+      "Arrive at opening on hot days - the park can reach capacity during summer weekends",
+      "Cabana rentals include shade, chairs, a locker, and food/drink delivery service"
+    ],
+    "bestTimes": "Adventure Island is least crowded on weekday mornings outside of summer school breaks. The park operates seasonally, generally from March through October. Summer weekends see the highest attendance. Morning arrival is recommended to claim a good spot and minimize slide waits.",
+    "ticketInfo": "Single-day tickets from $49 online. Combo tickets with Busch Gardens available. Busch Gardens annual pass may include Adventure Island access. Cabana rentals from $150+.",
+    "dining": "Mango Joe's Cafe serves burgers, chicken, and tropical-themed items. Surfside Sandwiches offers subs and wraps. Multiple bar locations serve frozen cocktails and cold beer.",
+    "externalLinks": [
+      {"url": "https://adventureisland.com/", "label": "Adventure Island Official Site", "domain": "adventureisland.com", "emoji": "🌴"},
+      {"url": "https://adventureisland.com/tickets/", "label": "Adventure Island Tickets", "domain": "adventureisland.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "zootampa-complete-guide",
+    "parkName": "ZooTampa at Lowry Park",
+    "parkEmoji": "🦒",
+    "parkSubtitle": "Voted the number one zoo in the US by multiple publications - home to the Florida Manatee rehabilitation center and African safari experiences.",
+    "cityName": "Tampa",
+    "citySlug": "tampa",
+    "parkDescription": "ZooTampa at Lowry Park is a 63-acre nonprofit zoo that has been consistently ranked among the top zoos in the United States. The zoo is home to over 1,300 animals representing more than 200 species and operates a critical Florida Manatee rehabilitation center. The zoo is known for its lush tropical setting, immersive habitats, and conservation-focused mission.",
+    "openedYear": "1957",
+    "parkSize": "63 acres",
+    "annualVisitors": "1.3M+",
+    "numRides": "N/A - zoo experience",
+    "parkHours": "9:30 AM - 5 PM",
+    "parkingInfo": "Free parking",
+    "history": "ZooTampa (formerly Lowry Park Zoo) has served the Tampa Bay community since 1957. The zoo underwent a major transformation in the 2000s and 2010s, earning recognition as the number one zoo in the US from publications including Yelp, TripAdvisor, and Parents Magazine. The zoo's David A. Straz Jr. Manatee Critical Care Center is one of only three facilities in Florida licensed to care for injured manatees.",
+    "areas": [
+      {"emoji": "🦒", "name": "Africa", "description": "African savanna habitat with giraffes, elephants, zebras, and meerkats. The giraffe feeding station is a guest favorite.", "topRides": "Giraffe feeding, elephant viewing, Bungee Jump"},
+      {"emoji": "🐒", "name": "Primate World", "description": "Habitats for multiple primate species including orangutans, chimpanzees, and lowland gorillas.", "topRides": "Primate walkthrough, orangutan viewing"},
+      {"emoji": "🐊", "name": "Florida Wildlife", "description": "Native Florida animals including Florida panthers, black bears, red wolves, and the manatee rehabilitation center.", "topRides": "Manatee viewing, Florida panther habitat"},
+      {"emoji": "🦘", "name": "Wallaroo Station", "description": "Family area with Australian wildlife, a petting zoo, and children's rides.", "topRides": "Kangaroo encounter, petting zoo, carousel"}
+    ],
+    "topAttractions": [
+      {"name": "Manatee Critical Care Center", "description": "One of only three licensed manatee rehabilitation facilities in Florida - watch rescued manatees being cared for before release"},
+      {"name": "Giraffe Feeding", "description": "Hand-feed Masai giraffes at the elevated feeding platform - one of the most popular experiences at the zoo"},
+      {"name": "Roaring Springs Water Ride", "description": "A log flume water ride through tropical scenery - unusual for a zoo and a fun surprise for visitors"},
+      {"name": "Florida Panther Habitat", "description": "Viewing area for the critically endangered Florida panther - one of the rarest large mammals in the world"},
+      {"name": "Orangutan Habitat", "description": "Expansive naturalistic habitat for Bornean orangutans with elevated platforms and enrichment activities"}
+    ],
+    "insiderTips": [
+      "ZooTampa is a nonprofit - your admission directly supports animal conservation and manatee rescue efforts",
+      "The giraffe feeding station ($7 per person) sells out on busy days - do it early in your visit",
+      "Morning hours offer the best animal activity and cooler temperatures for walking",
+      "The zoo is much more intimate than larger theme parks - allow 3-4 hours for a full visit",
+      "Behind-the-scenes tours offer close encounters with specific animals for an additional fee",
+      "The zoo's Creatures of the Night (Halloween) and Christmas in the Wild events are popular seasonal experiences"
+    ],
+    "bestTimes": "ZooTampa is least crowded on weekday mornings during the school year. The zoo is busiest on weekends, holidays, and during school field trip season (spring). Animals are most active in the morning hours and on cooler days. Summer afternoons see the lowest attendance but also the hottest temperatures.",
+    "ticketInfo": "Adult tickets $44.95, children (3-11) $34.95, seniors $39.95. Parking is free. Behind-the-scenes tours from $30+. Giraffe feeding $7. Annual memberships from $90 for individuals.",
+    "dining": "Safari Cafe offers burgers, salads, and sandwiches in a covered pavilion. Kat's Kitchen serves pizza and chicken tenders. The Canopy Cafe near Africa features African-inspired dishes. Multiple snack stands offer ice cream, churros, and cold drinks.",
+    "externalLinks": [
+      {"url": "https://zootampa.org/", "label": "ZooTampa Official Site", "domain": "zootampa.org", "emoji": "🦒"},
+      {"url": "https://zootampa.org/visit/tickets/", "label": "ZooTampa Tickets", "domain": "zootampa.org", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "florida-aquarium-tampa-complete-guide",
+    "parkName": "The Florida Aquarium",
+    "parkEmoji": "🐟",
+    "parkSubtitle": "Tampa's premier aquarium on the downtown waterfront - home to over 7,000 aquatic animals, a coral reef exhibit, and wild dolphin eco-tours.",
+    "cityName": "Tampa",
+    "citySlug": "tampa",
+    "parkDescription": "The Florida Aquarium is a 250,000-square-foot aquarium located on the Tampa waterfront in the Channel District. Home to over 7,000 aquatic plants and animals, the aquarium traces Florida's water journey from a freshwater spring to the open ocean. The aquarium is known for its coral reef restoration program and wild dolphin eco-cruise tours.",
+    "openedYear": "1995",
+    "parkSize": "250,000 sq ft",
+    "annualVisitors": "800K+",
+    "numRides": "N/A - aquarium experience",
+    "parkHours": "9:30 AM - 5 PM",
+    "parkingInfo": "$10/day in adjacent lot",
+    "history": "The Florida Aquarium opened on March 31, 1995, in Tampa's Channel District. The aquarium was designed to tell the story of water in Florida, tracing the journey from underground springs through wetlands and bays to the coral reefs of the Gulf of Mexico. The aquarium has been a leader in coral reef restoration, successfully breeding Atlantic coral species in its labs to help restore damaged reefs.",
+    "areas": [
+      {"emoji": "🌿", "name": "Wetlands Trail", "description": "Begin your journey in a Florida wetlands environment with otters, alligators, and freshwater fish in a naturally themed setting.", "topRides": "Wetlands walkthrough, otter viewing"},
+      {"emoji": "🐠", "name": "Coral Reef Gallery", "description": "A massive 500,000-gallon tank simulating a natural coral reef with sharks, sea turtles, and thousands of tropical fish.", "topRides": "Coral Reef dive window, shark viewing"},
+      {"emoji": "🐧", "name": "Penguin Exhibit", "description": "African penguin colony in a climate-controlled habitat.", "topRides": "Penguin viewing, penguin encounter (ticketed)"},
+      {"emoji": "💦", "name": "Splash Pad", "description": "Outdoor water play area for children.", "topRides": "Outdoor splash pad, touch tanks"}
+    ],
+    "topAttractions": [
+      {"name": "Coral Reef Gallery", "description": "A 500,000-gallon tank with floor-to-ceiling viewing windows showing sharks, sea turtles, rays, and a living coral reef"},
+      {"name": "Wild Dolphin Eco-Cruise", "description": "A 75-minute boat tour from the aquarium into Tampa Bay to see wild bottlenose dolphins in their natural habitat"},
+      {"name": "Penguin Backstage Pass", "description": "Behind-the-scenes encounter with African penguins including feeding and interaction"},
+      {"name": "Swim with the Fishes", "description": "Snorkel or SCUBA dive inside the 500,000-gallon coral reef tank alongside sharks and sea turtles"},
+      {"name": "Touch Tanks", "description": "Interactive pools where guests can touch stingrays, horseshoe crabs, sea urchins, and other marine invertebrates"}
+    ],
+    "insiderTips": [
+      "The Wild Dolphin Eco-Cruise departs from the aquarium dock and offers excellent dolphin sighting rates",
+      "Arrive when the aquarium opens at 9:30 AM for the least crowded experience and best animal activity",
+      "The Swim with the Fishes experience ($175+) lets you snorkel in the main reef tank - an incredible experience",
+      "The aquarium is on the Tampa waterfront near the cruise port - easy to combine with a pre-cruise visit",
+      "Penguin Backstage Pass sells out quickly during peak periods - book in advance"
+    ],
+    "bestTimes": "The Florida Aquarium is least crowded on weekday mornings during the school year. Rainy days tend to be busier as visitors seek indoor activities. Summer and holiday periods see the highest attendance. Allow 2-3 hours for the full aquarium experience plus additional time for eco-cruise or animal encounters.",
+    "ticketInfo": "Adult tickets $34.95, children (3-11) $29.95, seniors $31.95. Wild Dolphin Eco-Cruise $29.95 add-on. Penguin Backstage Pass $30+. Swim with the Fishes from $175. Annual memberships from $90.",
+    "dining": "Cafe Ray serves lunch items including sandwiches, salads, and kids' meals. The 4D Theater snack bar offers popcorn and drinks. The aquarium is located in Tampa's Channel District with numerous restaurants within walking distance.",
+    "externalLinks": [
+      {"url": "https://www.flaquarium.org/", "label": "The Florida Aquarium Official Site", "domain": "flaquarium.org", "emoji": "🐟"},
+      {"url": "https://www.flaquarium.org/tickets", "label": "Aquarium Tickets", "domain": "flaquarium.org", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "clearwater-marine-aquarium-complete-guide",
+    "parkName": "Clearwater Marine Aquarium",
+    "parkEmoji": "🐬",
+    "parkSubtitle": "Home of Winter the Dolphin from Dolphin Tale - a working marine rescue and rehabilitation hospital on Clearwater Beach.",
+    "cityName": "Clearwater",
+    "citySlug": "clearwater",
+    "parkDescription": "Clearwater Marine Aquarium is a marine animal rescue center and aquarium located on Clearwater Beach. The facility gained international fame as the home of Winter the dolphin, star of the Dolphin Tale movies. Unlike traditional aquariums, CMA functions as a working hospital where guests can see rescued animals being rehabilitated for release back into the wild.",
+    "openedYear": "1972",
+    "parkSize": "Waterfront campus",
+    "annualVisitors": "800K+",
+    "numRides": "N/A - marine rescue facility",
+    "parkHours": "10 AM - 5 PM",
+    "parkingInfo": "$8/day in lot, metered parking nearby",
+    "history": "Clearwater Marine Aquarium was founded in 1972 as the Clearwater Marine Science Center. The facility transformed from a small local aquarium into a major tourist destination after rescuing Winter the dolphin in 2005. Winter lost her tail and was fitted with a prosthetic, inspiring the Dolphin Tale movie (2011) starring Morgan Freeman. The aquarium completed a $90 million expansion in 2020, tripling its size. Winter passed away in 2021 but her legacy of rescue and rehabilitation continues.",
+    "areas": [
+      {"emoji": "🐬", "name": "Dolphin Terrace", "description": "The main dolphin habitat where rescued dolphins that cannot be returned to the wild live in a large open-air pool.", "topRides": "Dolphin presentations, underwater viewing"},
+      {"emoji": "🐢", "name": "Sea Turtle Rehabilitation", "description": "Working rehabilitation area for injured sea turtles with educational displays about rescue and recovery.", "topRides": "Sea turtle viewing, rehabilitation walkthrough"},
+      {"emoji": "🦈", "name": "Shark and Ray Bay", "description": "Touch tank and viewing area for nurse sharks and stingrays.", "topRides": "Shark and ray touch pool"},
+      {"emoji": "🚤", "name": "Boat Tours", "description": "Boat tours departing from the aquarium dock into Clearwater Harbor for wild dolphin and marine life sightings.", "topRides": "Sea Life Safari boat tour, dolphin sighting cruise"}
+    ],
+    "topAttractions": [
+      {"name": "Dolphin Presentations", "description": "Educational presentations with the aquarium's resident rescued dolphins - focused on their rescue stories and rehabilitation"},
+      {"name": "Sea Life Safari Boat Tour", "description": "Narrated boat cruise into Clearwater Harbor to see wild dolphins, manatees, and sea birds in their natural habitat"},
+      {"name": "Sea Turtle Rehabilitation", "description": "Walk through the working sea turtle hospital and see patients being treated before release"},
+      {"name": "Otter Exhibit", "description": "Playful North American river otters in a naturalistic habitat with underwater viewing windows"},
+      {"name": "Winter's Legacy", "description": "Exhibit honoring Winter the dolphin and the prosthetic tail technology that inspired a movie and medical breakthroughs"}
+    ],
+    "insiderTips": [
+      "CMA is a working rescue hospital, not a traditional aquarium - the focus is on rehabilitation and conservation education",
+      "The boat tour into Clearwater Harbor offers excellent wild dolphin sighting rates",
+      "Arrival at opening (10 AM) provides the best experience before school groups and afternoon crowds arrive",
+      "The aquarium is on the Clearwater Beach causeway, easily combined with a beach day",
+      "Behind-the-scenes tours offer closer animal encounters and support the rescue mission"
+    ],
+    "bestTimes": "Clearwater Marine Aquarium is least crowded on weekday mornings during the school year. The facility is busiest during summer vacation, spring break, and holiday weeks. Allow 2-3 hours for the full aquarium experience and additional time for boat tours.",
+    "ticketInfo": "Adult tickets $36, children (3-12) $26, seniors $34. Sea Life Safari boat tour $24 add-on. Behind-the-scenes tours $15+. Annual memberships from $95. Online discounts available.",
+    "dining": "The aquarium cafe offers sandwiches, snacks, and beverages. Clearwater Beach is steps away with dozens of waterfront restaurants including Frenchy's, Cooters, and the Beachcomber.",
+    "externalLinks": [
+      {"url": "https://www.cmaquarium.org/", "label": "Clearwater Marine Aquarium", "domain": "cmaquarium.org", "emoji": "🐬"},
+      {"url": "https://www.cmaquarium.org/tickets/", "label": "CMA Tickets", "domain": "cmaquarium.org", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "daytona-lagoon-complete-guide",
+    "parkName": "Daytona Lagoon",
+    "parkEmoji": "🏄",
+    "parkSubtitle": "Daytona Beach's waterpark and family entertainment center with water slides, go-karts, laser tag, and mini golf.",
+    "cityName": "Daytona Beach",
+    "citySlug": "daytona-beach",
+    "parkDescription": "Daytona Lagoon is a family entertainment center and water park located in Daytona Beach. The facility combines a water park with go-karts, laser tag, miniature golf, an arcade, and a rock climbing wall. It serves as one of the main family attractions in the Daytona Beach area beyond the beach and speedway.",
+    "openedYear": "2005",
+    "parkSize": "12 acres",
+    "annualVisitors": "300K+",
+    "numRides": "15+",
+    "parkHours": "10 AM - 8 PM (seasonal)",
+    "parkingInfo": "Free parking",
+    "history": "Daytona Lagoon opened in 2005 as a replacement for a previous water park on the site. The facility was designed to serve both the local Daytona Beach community and the tourist market. The park has been periodically updated with new slides and dry-side entertainment options.",
+    "areas": [
+      {"emoji": "🌊", "name": "Water Park", "description": "Water slides, a wave pool, lazy river, and kids' splash area.", "topRides": "Kraken's Revenge body slides, wave pool, lazy river"},
+      {"emoji": "🏎️", "name": "Dry Activities", "description": "Go-karts, laser tag, mini golf, and arcade games.", "topRides": "Go-kart track, laser tag arena, 18-hole mini golf"}
+    ],
+    "topAttractions": [
+      {"name": "Kraken's Revenge", "description": "Multi-lane speed slides launching from the park's main tower"},
+      {"name": "Wave Pool", "description": "Large wave pool with periodic wave cycles"},
+      {"name": "Go-Kart Track", "description": "Outdoor go-kart track with both single and double karts"},
+      {"name": "Laser Tag", "description": "Indoor multi-level laser tag arena"},
+      {"name": "Mini Golf", "description": "18-hole tropical-themed miniature golf course"}
+    ],
+    "insiderTips": [
+      "Daytona Lagoon is significantly cheaper than Orlando water parks and far less crowded",
+      "Combo passes covering water park plus dry activities offer the best value",
+      "The park is about an hour east of Orlando, making it a good day trip combined with Daytona Beach",
+      "Summer weekends are the busiest - weekday mornings are ideal",
+      "The park operates seasonally for the water park portion - dry activities may be available year-round"
+    ],
+    "bestTimes": "Daytona Lagoon is least crowded on weekday mornings. The water park portion is seasonal (roughly April through September). Summer weekends and Bike Week/Spring Break periods see the highest attendance in Daytona Beach.",
+    "ticketInfo": "Water park admission from $35 adults, $30 children. Combo passes from $45. Individual dry activities from $8-15 each. Group rates available.",
+    "dining": "On-site concessions include burgers, pizza, hot dogs, and snacks. The park is located near Daytona Beach's restaurant district with many options nearby.",
+    "externalLinks": [
+      {"url": "https://daytonalagoon.com/", "label": "Daytona Lagoon Official Site", "domain": "daytonalagoon.com", "emoji": "🏄"},
+      {"url": "https://www.daytonabeach.com/things-to-do/attractions/", "label": "Daytona Beach Attractions", "domain": "daytonabeach.com", "emoji": "🏖️"}
+    ]
+  },
+  {
+    "slug": "daytona-speedway-experience-complete-guide",
+    "parkName": "Daytona International Speedway",
+    "parkEmoji": "🏁",
+    "parkSubtitle": "The World Center of Racing - home of the Daytona 500, featuring behind-the-scenes tours, the DAYTONA 500 Experience museum, and race-day excitement.",
+    "cityName": "Daytona Beach",
+    "citySlug": "daytona-beach",
+    "parkDescription": "Daytona International Speedway is one of the most iconic motorsports venues in the world, home to the Daytona 500 - NASCAR's most prestigious race. Beyond race days, the speedway offers year-round experiences including the DAYTONA 500 Experience interactive museum, behind-the-scenes speedway tours, and the Richard Petty Driving Experience where visitors can drive a stock car on the famous 2.5-mile tri-oval.",
+    "openedYear": "1959",
+    "parkSize": "480 acres",
+    "annualVisitors": "2M+ (events and tours)",
+    "numRides": "N/A - motorsports venue",
+    "parkHours": "10 AM - 5 PM (tours), varies for events",
+    "parkingInfo": "Free for tours, varies for events",
+    "history": "Daytona International Speedway opened in 1959, replacing the legendary Daytona Beach Road Course that ran partially on the beach. Built by NASCAR founder Bill France Sr., the 2.5-mile tri-oval speedway with its signature 31-degree banking has hosted the Daytona 500 every February since 1959. The speedway completed a $400 million renovation called DAYTONA Rising in 2016, adding five expanded and reimagined entrances and modern amenities while preserving the track's racing heritage.",
+    "areas": [
+      {"emoji": "🏁", "name": "DAYTONA 500 Experience", "description": "Interactive motorsports museum with simulators, historical exhibits, Daytona 500 trophies, and the chance to experience a virtual pit stop.", "topRides": "Racing simulators, virtual pit stop, trophy room"},
+      {"emoji": "🏎️", "name": "Speedway Tours", "description": "Behind-the-scenes tours of the speedway including pit road, victory lane, and the 31-degree banked turns.", "topRides": "Speedway tour, pit road walkthrough, banking experience"},
+      {"emoji": "🚗", "name": "Driving Experiences", "description": "Various programs allowing guests to ride or drive on the actual speedway track.", "topRides": "Richard Petty Driving Experience, NASCAR Racing Experience, ride-along programs"}
+    ],
+    "topAttractions": [
+      {"name": "Speedway Tour", "description": "Guided tram tour of the 2.5-mile track including stops at pit road, victory lane, and a ride on the 31-degree banking"},
+      {"name": "DAYTONA 500 Experience Museum", "description": "Interactive museum with racing history, simulators, and a look at the trophies and heritage of America's great race"},
+      {"name": "Richard Petty Driving Experience", "description": "Drive an actual stock car on the Daytona speedway at speeds up to 160 mph - a bucket-list experience for racing fans"},
+      {"name": "NASCAR Racing Experience", "description": "Ride shotgun with a professional driver at over 150 mph around the superspeedway"},
+      {"name": "Daytona 500", "description": "The Super Bowl of NASCAR - held every February with over 100,000 fans packing the renovated grandstands"}
+    ],
+    "insiderTips": [
+      "Speedway tours run daily year-round and do not require advance reservations on most days",
+      "The Richard Petty Driving Experience books up during race weeks - reserve well in advance",
+      "Daytona 500 tickets go on sale a year in advance and premium seats sell out quickly",
+      "The DAYTONA Rising renovation made the speedway accessible and comfortable for non-racing fans too",
+      "Combine a speedway tour with a visit to the nearby Daytona Beach boardwalk and beach"
+    ],
+    "bestTimes": "The speedway offers tours year-round except during major race event weekends. The Daytona 500 (February) is the marquee event but tickets and hotels sell out well in advance. The Coke Zero Sugar 400 (August) and Rolex 24 (January) are other major events. Off-race periods offer the most relaxed tour experience.",
+    "ticketInfo": "Speedway tours from $25 adults, $20 children. DAYTONA 500 Experience museum from $29. Richard Petty Driving Experience from $199 (ride-along) to $549 (driving experience). Daytona 500 tickets from $75-500+ depending on seating.",
+    "dining": "During race events, the speedway offers extensive concessions throughout the facility. During non-event tour days, the DAYTONA 500 Experience has a small cafe. The speedway is located near Daytona Beach's restaurant scene on International Speedway Boulevard.",
+    "externalLinks": [
+      {"url": "https://www.daytonainternationalspeedway.com/", "label": "Daytona International Speedway", "domain": "daytonainternationalspeedway.com", "emoji": "🏁"},
+      {"url": "https://www.daytonainternationalspeedway.com/tours/", "label": "Speedway Tours", "domain": "daytonainternationalspeedway.com", "emoji": "🏎️"},
+      {"url": "https://www.drivepetty.com/", "label": "Richard Petty Driving Experience", "domain": "drivepetty.com", "emoji": "🚗"}
+    ]
+  },
+  {
+    "slug": "bok-tower-gardens-complete-guide",
+    "parkName": "Bok Tower Gardens",
+    "parkEmoji": "🌺",
+    "parkSubtitle": "A National Historic Landmark featuring the stunning 205-foot Singing Tower carillon, lush gardens, and one of the highest points in peninsular Florida.",
+    "cityName": "Lake Wales",
+    "citySlug": "lake-wales",
+    "parkDescription": "Bok Tower Gardens is a 250-acre garden and bird sanctuary in Lake Wales, about an hour south of Orlando. The centerpiece is the 205-foot neo-Gothic and Art Deco Singing Tower, which houses a 60-bell carillon that performs daily concerts. The gardens sit atop Iron Mountain, one of the highest points in peninsular Florida at 298 feet above sea level.",
+    "openedYear": "1929",
+    "parkSize": "250 acres",
+    "annualVisitors": "200K+",
+    "numRides": "N/A - garden attraction",
+    "parkHours": "8 AM - 5 PM daily",
+    "parkingInfo": "Free parking included with admission",
+    "history": "Bok Tower Gardens was created by Dutch-American author and Pulitzer Prize winner Edward W. Bok as a gift to the American people. The gardens and tower were dedicated by President Calvin Coolidge on February 1, 1929. Landscape architect Frederick Law Olmsted Jr. (son of the designer of Central Park) designed the gardens. The Singing Tower carillon was built by renowned sculptor Lee Lawrie. The property was designated a National Historic Landmark in 1972.",
+    "areas": [
+      {"emoji": "🗼", "name": "Singing Tower", "description": "The 205-foot neo-Gothic and Art Deco carillon tower housing 60 bronze bells. Daily carillon concerts at 1 PM and 3 PM fill the gardens with music.", "topRides": "Daily carillon concerts, tower viewing"},
+      {"emoji": "🌺", "name": "Gardens and Trails", "description": "Lush gardens featuring azaleas, camellias, ferns, palms, oaks, and pines arranged in a naturalistic style along winding paths.", "topRides": "Garden walkthrough, nature trails, Pine Ridge Trail"},
+      {"emoji": "🏠", "name": "Pinewood Estate", "description": "A 1930s Mediterranean Revival mansion with 20 rooms of period furnishings and surrounded by formal gardens.", "topRides": "Guided mansion tour (seasonal)"},
+      {"emoji": "🐦", "name": "Bird Sanctuary", "description": "The gardens serve as a bird sanctuary attracting over 100 species throughout the year.", "topRides": "Birdwatching, nature photography"}
+    ],
+    "topAttractions": [
+      {"name": "Carillon Concerts", "description": "Daily concerts at 1 PM and 3 PM when the 60-bell carillon fills the gardens with music - a peaceful and unique experience"},
+      {"name": "Singing Tower", "description": "The 205-foot tower features exquisite sculptural details and tile work - a masterpiece of neo-Gothic and Art Deco design"},
+      {"name": "Pinewood Estate", "description": "A beautifully preserved 1930s mansion with 20 rooms of original furnishings and stunning formal gardens"},
+      {"name": "Garden Trails", "description": "Miles of winding paths through themed garden areas with benches, overlooks, and tranquil reflecting pools"},
+      {"name": "Nature and Birdwatching", "description": "Over 100 bird species frequent the gardens - a premier birdwatching destination in Central Florida"}
+    ],
+    "insiderTips": [
+      "Time your visit to arrive before the 1 PM or 3 PM carillon concert - the music echoing through the gardens is magical",
+      "Bok Tower is about an hour from Orlando or 45 minutes from LEGOLAND - combine them for a full day",
+      "The gardens are most colorful during spring (February through April) when azaleas and camellias are in bloom",
+      "Bring comfortable walking shoes - the gardens cover 250 acres of gentle hills and paths",
+      "Pinewood Estate tours are available seasonally (primarily fall and winter holidays) and require a separate ticket",
+      "The Hammock Hollow Children's Garden is a wonderful play area for young children"
+    ],
+    "bestTimes": "Bok Tower Gardens is never truly crowded, making it a peaceful escape any time. Spring (February through April) offers the most colorful blooms. Winter holiday season brings festive decorations at Pinewood Estate. Summer afternoons can be very hot - morning visits are most comfortable.",
+    "ticketInfo": "Adults $15, children (5-12) $5, under 5 free. Pinewood Estate tour $8 additional (seasonal). Annual memberships from $75. Blue Star Museum - free for active military and families.",
+    "dining": "The Blue Palmetto Cafe offers sandwiches, salads, soups, and beverages on an outdoor terrace with garden views. Light snacks and coffee also available at the visitor center.",
+    "externalLinks": [
+      {"url": "https://boktowergardens.org/", "label": "Bok Tower Gardens Official Site", "domain": "boktowergardens.org", "emoji": "🌺"},
+      {"url": "https://boktowergardens.org/visit/", "label": "Plan Your Visit", "domain": "boktowergardens.org", "emoji": "🗺️"}
+    ]
+  },
+  {
+    "slug": "crystal-river-manatee-tours-complete-guide",
+    "parkName": "Crystal River Manatee Tours",
+    "parkEmoji": "🦭",
+    "parkSubtitle": "The only place in the United States where you can legally swim with wild manatees - a once-in-a-lifetime Florida experience.",
+    "cityName": "Crystal River",
+    "citySlug": "crystal-river",
+    "parkDescription": "Crystal River on Florida's Gulf Coast is the only place in the United States where swimming with wild manatees is legally permitted. The crystal-clear 72-degree springs of Kings Bay and Three Sisters Springs attract hundreds of West Indian manatees during the cooler months (November through March), and multiple licensed tour operators offer guided snorkeling tours to swim alongside these gentle giants.",
+    "openedYear": "N/A - natural attraction",
+    "parkSize": "Kings Bay watershed",
+    "annualVisitors": "400K+ (manatee season)",
+    "numRides": "N/A - nature experience",
+    "parkHours": "Tours typically 6 AM - 2 PM",
+    "parkingInfo": "Varies by tour operator",
+    "history": "Crystal River has been a manatee haven for centuries, thanks to the constant 72-degree spring water that attracts manatees seeking warmth during winter months. The area was designated as the Crystal River National Wildlife Refuge in 1983 to protect the manatee habitat. Swimming with manatees has been regulated and permitted under strict guidelines to ensure the animals are not harassed. Three Sisters Springs, a key gathering spot, was acquired by the U.S. Fish and Wildlife Service in 2010.",
+    "areas": [
+      {"emoji": "🦭", "name": "Kings Bay", "description": "The main bay area where manatees gather during cooler months. Tour boats depart from various marinas around Kings Bay.", "topRides": "Guided manatee snorkeling tours"},
+      {"emoji": "💧", "name": "Three Sisters Springs", "description": "The most popular manatee viewing area with crystal-clear spring water. Accessible by kayak, paddleboard, or guided boat tour. Boardwalk viewing area on land.", "topRides": "Three Sisters Springs snorkeling, boardwalk viewing"},
+      {"emoji": "🛶", "name": "Kayak and Paddleboard Routes", "description": "Self-guided or guided kayak and paddleboard tours through the springs and waterways.", "topRides": "Kayak tours, paddleboard tours"}
+    ],
+    "topAttractions": [
+      {"name": "Manatee Snorkeling Tour", "description": "Guided in-water tour where you snorkel alongside wild manatees in crystal-clear 72-degree spring water - truly a once-in-a-lifetime experience"},
+      {"name": "Three Sisters Springs Boardwalk", "description": "Elevated boardwalk with stunning views down into the crystal-clear springs where manatees gather - no swimming required"},
+      {"name": "Kayak Manatee Tour", "description": "Guided kayak tour through Kings Bay and the springs, paddling over and alongside manatees in their natural habitat"},
+      {"name": "Sunrise Tour", "description": "Early morning tours departing at sunrise offer the calmest water, fewest crowds, and most manatee activity"},
+      {"name": "Crystal River National Wildlife Refuge", "description": "Protected habitat encompassing the key springs and waterways that support the manatee population"}
+    ],
+    "insiderTips": [
+      "Peak manatee season is November through March when hundreds of manatees seek warm spring water",
+      "Book sunrise tours (6-7 AM departure) for the best experience - fewer boats, calmer water, and more active manatees",
+      "Crystal River is about 90 minutes northwest of Orlando - an easy day trip",
+      "You must follow strict guidelines - no chasing, grabbing, or actively approaching manatees, but they often come to you",
+      "Water is a constant 72 degrees year-round - a wetsuit is recommended even in summer for extended snorkeling",
+      "Three Sisters Springs boardwalk is free to walk and offers incredible views even without getting in the water"
+    ],
+    "bestTimes": "Peak manatee season runs from mid-November through mid-March, with the highest concentrations during cold snaps when manatees seek warm spring water. January and February typically offer the most manatees. Summer months have fewer manatees but the springs are still beautiful for kayaking and snorkeling. Book tours well in advance during peak season.",
+    "ticketInfo": "Guided manatee snorkeling tours from $35-75 per person (includes wetsuit, snorkel gear, and guide). Kayak tours from $40-65. Three Sisters Springs entry by boat $20 (seasonal). Boardwalk viewing is free. Multiple tour operators compete on price - book online for best rates.",
+    "dining": "Crystal River's waterfront offers several restaurants including The Plantation on Crystal River (upscale seafood), Crackers Bar and Grill (casual waterfront dining), and The Stumpknockers (Southern-style comfort food). The town is small but has solid dining options concentrated along US-19.",
+    "externalLinks": [
+      {"url": "https://www.fws.gov/refuge/crystal-river", "label": "Crystal River NWR", "domain": "fws.gov", "emoji": "🦭"},
+      {"url": "https://www.discovercrystalriverfl.com/", "label": "Discover Crystal River", "domain": "discovercrystalriverfl.com", "emoji": "🌊"},
+      {"url": "https://www.visitcitrus.com/", "label": "Visit Citrus County", "domain": "visitcitrus.com", "emoji": "🗺️"}
+    ]
+  },
+  {
+    "slug": "weeki-wachee-springs-complete-guide",
+    "parkName": "Weeki Wachee Springs State Park",
+    "parkEmoji": "🧜‍♀️",
+    "parkSubtitle": "Florida's legendary underwater mermaid show - a roadside attraction since 1947, now a state park with crystal-clear spring swimming and kayaking.",
+    "cityName": "Weeki Wachee",
+    "citySlug": "weeki-wachee",
+    "parkDescription": "Weeki Wachee Springs State Park is home to Florida's world-famous live mermaid show, where performers have been performing underwater in the crystal-clear spring since 1947. The park also features Buccaneer Bay water park, kayaking and paddleboarding on the Weeki Wachee River, riverboat cruises, and a wildlife show. The spring pumps 117 million gallons of fresh water daily at a constant 74 degrees.",
+    "openedYear": "1947",
+    "parkSize": "538 acres",
+    "annualVisitors": "400K+",
+    "numRides": "N/A - state park attraction",
+    "parkHours": "9 AM - 5:30 PM",
+    "parkingInfo": "Free parking included with admission",
+    "history": "Weeki Wachee Springs was developed as a roadside attraction in 1947 by former US Navy frogman Newton Perry, who trained young women to perform synchronized swimming acts while breathing through underwater air hoses. The mermaid show became a beloved Florida institution and a national sensation, featured in media from Life Magazine to The Simpsons. The attraction was acquired by the state of Florida and became a state park in 2008, preserving this unique piece of Florida history.",
+    "areas": [
+      {"emoji": "🧜‍♀️", "name": "Mermaid Theater", "description": "The legendary underwater theater where live mermaid shows are performed in the spring. Guests watch through thick glass windows as performers swim, dance, and eat underwater.", "topRides": "Live mermaid shows (multiple daily)"},
+      {"emoji": "🏊", "name": "Buccaneer Bay", "description": "A spring-fed swimming area with a sandy beach, water slides, and clear 74-degree water pumped directly from the spring.", "topRides": "Spring-fed swimming, water slides, sandy beach"},
+      {"emoji": "🛶", "name": "Weeki Wachee River", "description": "Crystal-clear river perfect for kayaking and paddleboarding through a natural Florida spring run lined with wildlife.", "topRides": "Kayak rental, paddleboard rental, riverboat cruise"},
+      {"emoji": "🐻", "name": "Wildlife Area", "description": "Live animal presentations featuring Florida native wildlife.", "topRides": "Wildlife show, animal presentations"}
+    ],
+    "topAttractions": [
+      {"name": "Live Mermaid Show", "description": "Performers in mermaid tails swim, dance, and perform choreographed routines underwater in the crystal-clear spring - a Florida tradition since 1947"},
+      {"name": "Buccaneer Bay Swimming", "description": "Swim in crystal-clear 74-degree spring water at this natural spring-fed swimming area with a sandy beach"},
+      {"name": "Weeki Wachee River Kayaking", "description": "Paddle down one of Florida's most beautiful spring-fed rivers through a natural canopy with fish, turtles, and manatees visible in the clear water"},
+      {"name": "Riverboat Cruise", "description": "Narrated boat cruise down the Weeki Wachee River spotting wildlife along the spring run"},
+      {"name": "Wildlife Show", "description": "Live animal presentation featuring Florida native species including birds of prey and reptiles"}
+    ],
+    "insiderTips": [
+      "The park reaches capacity and closes to new guests on hot summer weekends - arrive before 10 AM",
+      "Mermaid show seating is first-come, first-served - arrive 30 minutes before showtime for the best seats",
+      "Weeki Wachee is about 90 minutes west of Orlando - easily combined with a day at Clearwater Beach",
+      "Bring water shoes for the rocky spring bottom at Buccaneer Bay",
+      "Kayak rentals go fast on weekends - reserve early or arrive at opening",
+      "The park is a Florida state park, so admission is very affordable compared to commercial theme parks"
+    ],
+    "bestTimes": "Weeki Wachee Springs is busiest on summer weekends and holidays when the park can reach capacity by mid-morning. Weekdays during the school year offer the most relaxed experience. The park is open year-round. Spring and fall offer comfortable temperatures and smaller crowds.",
+    "ticketInfo": "Adults (13+) $13, children (6-12) $8, under 6 free. Kayak rentals from $25. Paddleboard rentals available. All shows and Buccaneer Bay swimming included in park admission. Florida residents receive discounted pricing.",
+    "dining": "The park has a small concession stand serving burgers, hot dogs, and snacks. For more dining options, Weeki Wachee is near Spring Hill and Brooksville with restaurants along US-19.",
+    "externalLinks": [
+      {"url": "https://www.floridastateparks.org/parks-and-trails/weeki-wachee-springs-state-park", "label": "Weeki Wachee Springs State Park", "domain": "floridastateparks.org", "emoji": "🧜‍♀️"},
+      {"url": "https://weekiwachee.com/", "label": "Weeki Wachee Official Site", "domain": "weekiwachee.com", "emoji": "🌊"}
+    ]
+  },
+  {
+    "slug": "medieval-times-orlando-complete-guide",
+    "parkName": "Medieval Times Orlando",
+    "parkEmoji": "⚔️",
+    "parkSubtitle": "An epic dinner tournament experience - jousting knights, sword fights, and a four-course feast eaten with your hands in a massive castle arena.",
+    "cityName": "Kissimmee",
+    "citySlug": "kissimmee",
+    "parkDescription": "Medieval Times Dinner and Tournament in Kissimmee is a two-hour dinner show experience set inside a massive castle arena. Guests are assigned a knight to cheer for as they watch live jousting, sword fighting, and equestrian performances while eating a four-course meal with their hands (no utensils, as was the medieval custom). The 72,000-square-foot castle seats over 1,000 guests per show.",
+    "openedYear": "1988",
+    "parkSize": "72,000 sq ft castle",
+    "annualVisitors": "500K+",
+    "numRides": "N/A - dinner show",
+    "parkHours": "Shows typically at 6 PM and 8 PM (varies)",
+    "parkingInfo": "Free parking",
+    "history": "Medieval Times opened its Kissimmee castle in 1988 as one of the company's flagship locations. The show concept originated in Spain in the 1970s and was brought to North America in 1983. The Orlando-area castle has been one of the most popular dinner show attractions in Central Florida for over three decades, adapting and updating its show while maintaining the core tournament format.",
+    "areas": [
+      {"emoji": "🏰", "name": "Castle Entrance and Hall of Arms", "description": "The pre-show experience includes exploring the Hall of Arms with medieval artifacts, weapons, and photo opportunities. Guests receive a crown in the color of their assigned knight.", "topRides": "Hall of Arms tour, bar and photo ops"},
+      {"emoji": "⚔️", "name": "Grand Arena", "description": "The massive 1,000+ seat arena where the tournament takes place, with guests seated in color-coded sections around a sand arena floor.", "topRides": "Live jousting tournament, sword fights, horsemanship displays"},
+      {"emoji": "🛍️", "name": "Gift Shop", "description": "Medieval-themed gift shop with swords, shields, cloaks, and souvenirs.", "topRides": "Gift shop and memorabilia"}
+    ],
+    "topAttractions": [
+      {"name": "Live Jousting Tournament", "description": "Full-speed jousting on horseback with real armor and lances - the centerpiece of the two-hour show"},
+      {"name": "Sword Fighting", "description": "Choreographed sword and weapon combat between knights on the arena floor"},
+      {"name": "Four-Course Feast", "description": "A hearty meal including garlic bread, tomato bisque, roasted chicken, corn on the cob, herb-roasted potato, and pastry - all eaten with your hands"},
+      {"name": "Horsemanship Displays", "description": "Skilled riders perform equestrian maneuvers and formations on beautiful Andalusian horses"},
+      {"name": "Royal Falconer", "description": "A trained falcon swoops over the audience as part of the pre-tournament entertainment"}
+    ],
+    "insiderTips": [
+      "Book online in advance for the best prices - walk-up prices are significantly higher",
+      "Request front row seating for the most immersive experience (may require an upgrade fee)",
+      "The show runs about 2 hours including the pre-show hall experience",
+      "Vegetarian meals are available upon request when booking",
+      "Arrive 30-45 minutes before showtime to enjoy the Hall of Arms and pre-show bar",
+      "Kids love this show - cheering for your knight and eating with your hands makes it incredibly fun for families"
+    ],
+    "bestTimes": "Medieval Times runs shows year-round with schedules varying by season. Summer and holidays see the most showings per day. Weekday shows tend to be less crowded than Friday and Saturday performances. During peak season, booking a week or more in advance is recommended.",
+    "ticketInfo": "General admission from $36.95 per person (online advance purchase). Royalty Package (priority seating, commemorative program) from $52.95. Children's pricing available. Group rates for 15+. Birthday and celebration packages available.",
+    "dining": "The four-course meal is included in admission: garlic bread, tomato bisque soup, roasted chicken (half chicken per guest), corn on the cob, herb-roasted potato, and a dessert pastry. Coffee, tea, and two rounds of soft drinks included. Beer, wine, and cocktails available for purchase. A vegetarian option is available upon request.",
+    "externalLinks": [
+      {"url": "https://www.medievaltimes.com/orlando", "label": "Medieval Times Orlando", "domain": "medievaltimes.com", "emoji": "⚔️"},
+      {"url": "https://www.medievaltimes.com/orlando/tickets", "label": "Medieval Times Tickets", "domain": "medievaltimes.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "pirates-dinner-adventure-orlando-complete-guide",
+    "parkName": "Pirate's Dinner Adventure",
+    "parkEmoji": "🏴‍☠️",
+    "parkSubtitle": "A swashbuckling dinner show featuring acrobatics, stunts, and musical performances aboard a full-sized pirate ship in a massive indoor lagoon.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Pirate's Dinner Adventure is an interactive dinner show set aboard a full-sized 46-foot pirate ship anchored in a 300,000-gallon indoor lagoon. The show features acrobatic stunts, aerial acts, sword fights, comedy, and musical performances while guests enjoy a three-course meal. After the main show, the party continues with a Buccaneer Bash dance party.",
+    "openedYear": "2003",
+    "parkSize": "Indoor arena",
+    "annualVisitors": "200K+",
+    "numRides": "N/A - dinner show",
+    "parkHours": "Shows typically at 6 PM or 7:30 PM (varies)",
+    "parkingInfo": "Free parking",
+    "history": "Pirate's Dinner Adventure opened in Orlando in 2003 on International Drive, later relocating to its current location near the convention center. The show has been updated multiple times over the years but maintains its core formula of pirate-themed entertainment, audience participation, and a multi-course dinner served during the performance.",
+    "areas": [
+      {"emoji": "🍸", "name": "Pre-Show Lounge", "description": "Appetizer bar and lounge area where guests enjoy hors d'oeuvres and drinks before the main show.", "topRides": "Pre-show appetizers and cocktails"},
+      {"emoji": "🏴‍☠️", "name": "Main Show Arena", "description": "The massive arena featuring a full-sized pirate ship in a 300,000-gallon lagoon surrounded by guest seating.", "topRides": "Pirate dinner show, acrobatic performances"},
+      {"emoji": "🎶", "name": "Buccaneer Bash", "description": "Post-show dance party included in admission for all guests.", "topRides": "Buccaneer Bash dance party"}
+    ],
+    "topAttractions": [
+      {"name": "Pirate Ship Show", "description": "Acrobatic and theatrical performances on and around a full-sized pirate ship with aerial stunts, sword fights, and comedy"},
+      {"name": "Three-Course Dinner", "description": "Appetizer bar followed by a three-course plated dinner served during the show"},
+      {"name": "Audience Participation", "description": "Guests cheer for their assigned pirate and volunteers are pulled from the audience to join the action"},
+      {"name": "Aerial Acrobatics", "description": "Performers swing from the ship's rigging and perform impressive aerial stunts over the lagoon"},
+      {"name": "Buccaneer Bash", "description": "Post-show dance party with music and dancing - included in admission"}
+    ],
+    "insiderTips": [
+      "The pre-show appetizer bar is included and quite generous - arrive on time to enjoy it",
+      "Online advance tickets are significantly cheaper than walk-up prices",
+      "The show is very interactive - be prepared to cheer and participate",
+      "The post-show Buccaneer Bash dance party is included and fun for kids and adults",
+      "Located near the Orange County Convention Center with plenty of nearby dining and hotel options"
+    ],
+    "bestTimes": "Pirate's Dinner Adventure runs year-round with showtimes varying by season. Weekday shows are less crowded than weekends. Summer and holiday periods offer the most showtimes. Booking in advance is recommended during peak season.",
+    "ticketInfo": "General admission from $39.95 per person (online). Upgrade packages with premium seating from $59.95. Children's pricing from $27.95. Group rates available. Birthday packages available.",
+    "dining": "The pre-show appetizer bar includes cheese, crackers, vegetables, and a complimentary drink. The three-course dinner during the show includes salad, a choice of entree (chicken, short ribs, or vegetarian option), and dessert. Beer, wine, and cocktails available for purchase.",
+    "externalLinks": [
+      {"url": "https://www.piratesdinneradventure.com/orlando/", "label": "Pirate's Dinner Adventure", "domain": "piratesdinneradventure.com", "emoji": "🏴‍☠️"},
+      {"url": "https://www.piratesdinneradventure.com/orlando/tickets/", "label": "Pirate's Dinner Tickets", "domain": "piratesdinneradventure.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "capones-dinner-show-complete-guide",
+    "parkName": "Capone's Dinner and Show",
+    "parkEmoji": "🎩",
+    "parkSubtitle": "A 1930s gangster-themed dinner show in Kissimmee with comedy, music, and unlimited Italian-American buffet and drinks.",
+    "cityName": "Kissimmee",
+    "citySlug": "kissimmee",
+    "parkDescription": "Capone's Dinner and Show is a 1930s-era gangster-themed dinner theater in Kissimmee. The interactive comedy show is set in a prohibition-era speakeasy where the audience gets caught up in a mob feud. The experience includes an unlimited Italian-American buffet and unlimited beer, wine, cocktails, and soft drinks - making it one of the best value dinner shows in the Orlando area.",
+    "openedYear": "1995",
+    "parkSize": "Indoor theater",
+    "annualVisitors": "100K+",
+    "numRides": "N/A - dinner show",
+    "parkHours": "Shows at 7:30 PM (varies)",
+    "parkingInfo": "Free parking",
+    "history": "Capone's Dinner and Show has been entertaining guests in Kissimmee since 1995. The locally-owned show has built a loyal following thanks to its combination of interactive comedy, unlimited food and drinks, and affordable pricing. The show has been updated over the years while maintaining its core prohibition-era gangster theme.",
+    "areas": [
+      {"emoji": "🍸", "name": "Speakeasy Entrance", "description": "Guests use a secret password to enter the speakeasy and are greeted by costumed mobster characters.", "topRides": "Speakeasy entrance experience"},
+      {"emoji": "🎭", "name": "Main Showroom", "description": "The dinner theater where the gangster comedy show unfolds with audience interaction.", "topRides": "Interactive gangster comedy show"},
+      {"emoji": "🍽️", "name": "Buffet Hall", "description": "Unlimited Italian-American buffet with pasta, chicken, sausage, and more.", "topRides": "Unlimited buffet and drinks"}
+    ],
+    "topAttractions": [
+      {"name": "Interactive Comedy Show", "description": "A gangster-themed comedy show with audience participation, music, and dancing"},
+      {"name": "Unlimited Buffet", "description": "All-you-can-eat Italian-American buffet including pasta, meatballs, chicken parmesan, sausage and peppers, salad, and dessert"},
+      {"name": "Unlimited Drinks", "description": "Unlimited beer, wine, rum runners, Sangria, and soft drinks included in admission - one of the best values in Orlando"},
+      {"name": "Speakeasy Experience", "description": "The immersive entrance experience using a secret password to enter the prohibition-era speakeasy"},
+      {"name": "Audience Participation", "description": "Guests are brought into the action as the mob feud unfolds around the dinner theater"}
+    ],
+    "insiderTips": [
+      "Capone's is the best value dinner show in Orlando - unlimited food and drinks (including alcohol) for one price",
+      "The show is more comedy-focused than the bigger dinner shows - expect laughs over spectacle",
+      "Arrive early to enjoy the unlimited drinks before the show begins",
+      "Online advance tickets offer significant savings over walk-up prices",
+      "Located on US-192 in Kissimmee, close to Disney World area hotels"
+    ],
+    "bestTimes": "Capone's runs shows year-round, typically nightly during peak season and select nights during slower periods. Check the schedule in advance. The show is less crowded on weeknights compared to Friday and Saturday.",
+    "ticketInfo": "Adults from $54.99, children (4-11) from $32.99 (online advance pricing). Walk-up prices higher. Group rates for 15+. Includes unlimited buffet and unlimited alcoholic and non-alcoholic beverages.",
+    "dining": "The unlimited Italian-American buffet includes pasta with marinara and Alfredo sauce, chicken parmesan, Italian sausage and peppers, meatballs, baked ziti, salad, bread, and dessert. Unlimited beer, wine, Sangria, rum runners, and soft drinks are included in the admission price.",
+    "externalLinks": [
+      {"url": "https://www.alcapones.com/", "label": "Capone's Dinner and Show", "domain": "alcapones.com", "emoji": "🎩"},
+      {"url": "https://www.alcapones.com/buy-tickets/", "label": "Capone's Tickets", "domain": "alcapones.com", "emoji": "🎟️"}
+    ]
+  },
+  {
+    "slug": "hollywood-drive-in-golf-complete-guide",
+    "parkName": "Hollywood Drive-In Golf",
+    "parkEmoji": "⛳",
+    "parkSubtitle": "Universal CityWalk's themed mini golf with two 18-hole courses - The Haunting of Ghostly Greens and Invaders from Planet Putt.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Hollywood Drive-In Golf at Universal CityWalk features two elaborately themed 18-hole miniature golf courses inspired by classic drive-in movie genres. The Haunting of Ghostly Greens is a spooky horror-themed course, while Invaders from Planet Putt takes players through a retro sci-fi alien invasion. Both courses feature special effects, animatronics, and creative hole designs.",
+    "openedYear": "2012",
+    "parkSize": "Two 18-hole courses",
+    "annualVisitors": "500K+",
+    "numRides": "N/A - mini golf",
+    "parkHours": "9 AM - 2 AM",
+    "parkingInfo": "Universal CityWalk parking ($30, free after 6 PM)",
+    "history": "Hollywood Drive-In Golf opened in 2012 as part of Universal CityWalk Orlando. The courses were designed to be among the most elaborately themed miniature golf experiences in the world, fitting Universal's reputation for immersive entertainment. The late-night hours (until 2 AM) make it one of the few mini golf options available after the theme parks close.",
+    "areas": [
+      {"emoji": "👻", "name": "The Haunting of Ghostly Greens", "description": "Horror-themed 18-hole course featuring ghosts, zombies, and haunted house elements with special lighting and sound effects.", "topRides": "18 horror-themed holes"},
+      {"emoji": "👽", "name": "Invaders from Planet Putt", "description": "Retro sci-fi themed 18-hole course featuring aliens, UFOs, and a 1950s B-movie invasion storyline.", "topRides": "18 sci-fi themed holes"}
+    ],
+    "topAttractions": [
+      {"name": "Ghostly Greens Course", "description": "18 spooky holes with graveyard, haunted house, and supernatural theming - the more challenging of the two courses"},
+      {"name": "Planet Putt Course", "description": "18 alien-themed holes with retro sci-fi styling, flying saucers, and extraterrestrial encounters"},
+      {"name": "Late Night Golf", "description": "Open until 2 AM with dramatic lighting effects that transform the courses after dark"},
+      {"name": "36-Hole Experience", "description": "Play both courses for the full Hollywood Drive-In Golf experience"},
+      {"name": "CityWalk Location", "description": "Conveniently located at CityWalk, making it easy to combine with dinner and entertainment"}
+    ],
+    "insiderTips": [
+      "Playing after dark is highly recommended - the lighting effects and atmosphere are much more impressive at night",
+      "The 36-hole combo ticket offers a significant discount over buying each course separately",
+      "CityWalk parking is free after 6 PM, making evening mini golf an affordable outing",
+      "Ghostly Greens is more challenging, Planet Putt is more family-friendly - play both if time allows",
+      "This is one of the best late-night activities in Orlando since it is open until 2 AM"
+    ],
+    "bestTimes": "Hollywood Drive-In Golf is busiest on weekend evenings and during holiday periods. Weekday evenings and late-night hours (after 10 PM) are the least crowded. The courses are most impressive after dark when the lighting effects create an immersive atmosphere.",
+    "ticketInfo": "Single course (18 holes) from $17.99 adults, $15.99 children. Both courses (36 holes) from $31.99 adults, $27.99 children. Annual and frequent player passes available.",
+    "dining": "No food on the course, but Universal CityWalk's 30+ restaurants and bars are steps away. Grab dinner before or after your round at any CityWalk venue.",
+    "externalLinks": [
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/entertainment/hollywood-drive-in-golf", "label": "Hollywood Drive-In Golf", "domain": "universalorlando.com", "emoji": "⛳"},
+      {"url": "https://www.universalorlando.com/web/en/us/things-to-do/entertainment", "label": "CityWalk Entertainment", "domain": "universalorlando.com", "emoji": "🎶"}
+    ]
+  },
+  {
+    "slug": "congo-river-golf-complete-guide",
+    "parkName": "Congo River Golf",
+    "parkEmoji": "🐊",
+    "parkSubtitle": "African rainforest-themed mini golf with live alligators, caves, waterfalls, and gem mining at multiple Orlando area locations.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Congo River Golf is a chain of African rainforest-themed miniature golf courses with multiple locations in the Orlando area (International Drive, Kissimmee, and Altamonte Springs). Each location features 36 holes of themed mini golf winding through caves, past waterfalls, and alongside live alligator habitats. Additional activities include gem mining and arcade games.",
+    "openedYear": "1993",
+    "parkSize": "36 holes per location",
+    "annualVisitors": "300K+",
+    "numRides": "N/A - mini golf",
+    "parkHours": "10 AM - 11 PM (varies by location)",
+    "parkingInfo": "Free parking",
+    "history": "Congo River Golf has been a Central Florida mini golf institution since 1993. The courses were designed with elaborate African explorer and rainforest theming, setting them apart from standard mini golf courses. The chain maintains multiple locations throughout the Orlando area, each featuring live alligators as a unique draw.",
+    "areas": [
+      {"emoji": "🌿", "name": "Rainforest Course", "description": "18-hole course winding through lush tropical landscaping, caves, and waterfalls with an African explorer theme.", "topRides": "18-hole rainforest themed course"},
+      {"emoji": "🐊", "name": "Alligator Habitat", "description": "Live alligator viewing areas integrated into the course design - a unique feature of Congo River Golf.", "topRides": "Live alligator viewing, gator feeding"},
+      {"emoji": "💎", "name": "Gem Mining", "description": "Sluice-style gem mining where guests pan for gemstones and fossils.", "topRides": "Gem mining, fossil discovery"}
+    ],
+    "topAttractions": [
+      {"name": "36-Hole Mini Golf", "description": "Two 18-hole courses through caves, waterfalls, and tropical landscaping with African explorer theming"},
+      {"name": "Live Alligators", "description": "View and feed live alligators at habitats integrated into the mini golf course"},
+      {"name": "Gem Mining", "description": "Pan for gemstones and fossils at the mining sluice - fun for kids"},
+      {"name": "Cave Holes", "description": "Several holes play through elaborately themed caves with water features and ambient lighting"},
+      {"name": "Waterfall Holes", "description": "Dramatic waterfall features create a tropical atmosphere throughout the courses"}
+    ],
+    "insiderTips": [
+      "The International Drive location is the most popular and offers the most elaborate theming",
+      "Alligator feeding is available for a small additional charge and is a fun add-on experience",
+      "Playing at dusk as the lights come on adds atmosphere to the tropical theming",
+      "Congo River is a budget-friendly alternative to Hollywood Drive-In Golf at Universal",
+      "Multiple locations make it convenient no matter where you are staying in the Orlando area"
+    ],
+    "bestTimes": "Congo River Golf is busiest on weekend evenings and during holiday periods. Weekday afternoons and evenings offer the most relaxed experience. The courses are enjoyable day or night, with evening visits offering cooler temperatures and dramatic lighting.",
+    "ticketInfo": "Single 18-hole course from $14.99 adults, $12.99 children. Both courses (36 holes) from $19.99 adults, $17.99 children. Gem mining from $6.99. Gator feeding $2.",
+    "dining": "No food on-site at most locations, but all Congo River Golf locations are near restaurants and dining. The International Drive location is surrounded by dining options.",
+    "externalLinks": [
+      {"url": "https://www.congoriver.com/", "label": "Congo River Golf Official Site", "domain": "congoriver.com", "emoji": "🐊"},
+      {"url": "https://www.congoriver.com/locations/", "label": "Congo River Locations", "domain": "congoriver.com", "emoji": "📍"}
+    ]
+  },
+  {
+    "slug": "international-drive-mini-golf-scene-complete-guide",
+    "parkName": "International Drive Mini Golf Scene",
+    "parkEmoji": "⛳",
+    "parkSubtitle": "Orlando's I-Drive is the mini golf capital of the world - a comprehensive guide to every course along the famous tourist corridor.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "International Drive in Orlando is home to the highest concentration of themed miniature golf courses in the world. Within a few miles, visitors can play courses themed around volcanoes, pirates, dinosaurs, aliens, and more. This guide covers every mini golf option along I-Drive, from budget-friendly community courses to elaborately themed experiences.",
+    "openedYear": "N/A - district guide",
+    "parkSize": "International Drive corridor",
+    "annualVisitors": "N/A",
+    "numRides": "N/A - district overview",
+    "parkHours": "Most courses 9 AM - 12 AM",
+    "parkingInfo": "Free at most locations",
+    "history": "International Drive has been Orlando's primary tourist corridor since the 1970s, and mini golf courses have been a fixture since the early days. The concentration of themed courses has grown over decades, making the stretch one of the most recognizable collections of miniature golf in the world. From simple putting courses to multi-million dollar themed experiences, I-Drive offers something for every budget.",
+    "areas": [
+      {"emoji": "👽", "name": "Hollywood Drive-In Golf at CityWalk", "description": "Universal's premium themed courses with horror and sci-fi themes. Open late until 2 AM.", "topRides": "Ghostly Greens, Planet Putt"},
+      {"emoji": "🐊", "name": "Congo River Golf I-Drive", "description": "Rainforest-themed courses with live alligators, caves, and waterfalls.", "topRides": "Two 18-hole rainforest courses"},
+      {"emoji": "🏝️", "name": "Pirate's Cove Adventure Golf", "description": "Pirate-themed courses with ship theming and waterfalls on I-Drive.", "topRides": "Captain's Course, Blackbeard's Challenge"},
+      {"emoji": "🌋", "name": "Volcano Island Mini Golf", "description": "Tropical volcano-themed course near ICON Park.", "topRides": "18-hole volcano themed course"},
+      {"emoji": "🦕", "name": "Bonanza Golf", "description": "Budget-friendly dinosaur and Western-themed mini golf on I-Drive.", "topRides": "Dino and Western themed courses"}
+    ],
+    "topAttractions": [
+      {"name": "Hollywood Drive-In Golf", "description": "The most elaborately themed courses on I-Drive with Universal-quality theming, special effects, and late-night hours"},
+      {"name": "Congo River Golf", "description": "Fan-favorite rainforest courses with the unique bonus of live alligator viewing and feeding"},
+      {"name": "Pirate's Cove Adventure Golf", "description": "Classic pirate-themed courses with waterfalls, rock formations, and treasure hunting storylines"},
+      {"name": "Volcano Island Mini Golf", "description": "Compact tropical course conveniently located near ICON Park attractions"},
+      {"name": "Bonanza Golf", "description": "Budget-friendly option with fun theming and straightforward pricing"}
+    ],
+    "insiderTips": [
+      "Hollywood Drive-In Golf is the most impressive for theming but also the most expensive",
+      "Congo River Golf offers the most unique bonus experience with live alligators",
+      "Most courses are open late (until 11 PM or later), making mini golf a great evening activity",
+      "Look for coupon books in hotel lobbies and tourist information centers for discounts",
+      "Free parking at most locations saves money compared to theme park parking fees",
+      "The I-Ride Trolley ($2 per ride) connects all the mini golf courses along International Drive"
+    ],
+    "bestTimes": "Mini golf on I-Drive is busiest on weekend evenings and during holiday vacation periods. Weekday afternoons and late evenings offer the shortest waits and most relaxed atmosphere. Evening play is recommended for most courses due to dramatic lighting and cooler temperatures.",
+    "ticketInfo": "Prices range from $10-18 per 18-hole round depending on the course and theming level. Hollywood Drive-In Golf starts at $17.99. Congo River Golf from $14.99. Budget courses from $10-12. Most offer combo discounts for 36 holes.",
+    "dining": "International Drive is one of Orlando's top dining corridors with hundreds of restaurants within walking distance of every mini golf course. Options range from fast food to upscale dining.",
+    "externalLinks": [
+      {"url": "https://www.internationaldriveorlando.com/", "label": "International Drive Orlando", "domain": "internationaldriveorlando.com", "emoji": "🛣️"},
+      {"url": "https://www.visitorlando.com/things-to-do/", "label": "Visit Orlando", "domain": "visitorlando.com", "emoji": "🌴"}
+    ]
+  },
+  {
+    "slug": "fun-spot-go-karts-overview-complete-guide",
+    "parkName": "Fun Spot Go-Karts Overview",
+    "parkEmoji": "🏎️",
+    "parkSubtitle": "A guide to the best go-kart experiences in Orlando - multi-level tracks, competitive racing, and family-friendly options.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "The Orlando area is home to some of the best go-kart experiences in Florida, with Fun Spot America's two locations leading the way. Fun Spot Orlando on International Drive and Fun Spot Kissimmee on US-192 both feature multi-level elevated go-kart tracks that are among the most thrilling non-theme-park driving experiences in Central Florida.",
+    "openedYear": "N/A - overview guide",
+    "parkSize": "Multiple locations",
+    "annualVisitors": "N/A",
+    "numRides": "N/A - go-kart overview",
+    "parkHours": "10 AM - 12 AM (varies by location)",
+    "parkingInfo": "Free at all Fun Spot locations",
+    "history": "Go-kart racing has been a fixture of Orlando's tourist corridor since the 1970s. Fun Spot America grew from a small go-kart operation into a full amusement park, but go-karts remain the heart of the experience. The multi-level elevated tracks at Fun Spot are some of the tallest and most exciting go-kart tracks in the southeastern United States.",
+    "areas": [
+      {"emoji": "🏎️", "name": "Fun Spot Orlando - Quad Helix", "description": "A multi-level elevated track that spirals four stories high with banked turns and sweeping helixes.", "topRides": "Quad Helix elevated track"},
+      {"emoji": "🏁", "name": "Fun Spot Orlando - Commander", "description": "Another elevated track with different layout and turn characteristics.", "topRides": "Commander elevated track"},
+      {"emoji": "🏎️", "name": "Fun Spot Kissimmee - Vortex", "description": "Multi-level track at the Kissimmee location with tight turns and banked curves.", "topRides": "Vortex elevated track"},
+      {"emoji": "🏁", "name": "Fun Spot Kissimmee - Chaos", "description": "A wild track with sharp turns and competitive racing opportunities.", "topRides": "Chaos track"}
+    ],
+    "topAttractions": [
+      {"name": "Quad Helix at Fun Spot Orlando", "description": "A four-story elevated go-kart track with banked turns, spiraling helixes, and fantastic views of International Drive"},
+      {"name": "Commander at Fun Spot Orlando", "description": "Multi-level elevated track offering a different racing experience from the Quad Helix"},
+      {"name": "Vortex at Fun Spot Kissimmee", "description": "Elevated track at the Kissimmee location with tight turns and competitive racing"},
+      {"name": "Andretti Indoor Karting", "description": "Indoor electric kart racing at Andretti Indoor Karting and Games on I-Drive - a more upscale experience"},
+      {"name": "I-Drive NASCAR", "description": "NASCAR-themed indoor go-kart experience on International Drive with high-speed electric karts"}
+    ],
+    "insiderTips": [
+      "Fun Spot's outdoor elevated tracks are more thrilling than most indoor karting options",
+      "Admission to Fun Spot is free - you only pay for the go-kart rides ($9+ per ride)",
+      "An all-day wristband at Fun Spot includes unlimited go-kart rides on all tracks",
+      "For indoor kart racing, Andretti Indoor Karting on I-Drive offers electric karts with competitive timing",
+      "Go-karts at Fun Spot can operate in light rain - a good backup activity on rainy days",
+      "Tall guests may find the karts snug - check height and weight limits before purchasing"
+    ],
+    "bestTimes": "Go-kart tracks are busiest on weekend evenings and during school vacation periods. Weekday afternoons offer the shortest lines and most track time. Evening racing is popular as temperatures cool down.",
+    "ticketInfo": "Fun Spot single go-kart ride from $9. All-day wristband (unlimited rides including karts) $55. Andretti Indoor Karting from $25 per race. I-Drive NASCAR from $12 per race.",
+    "dining": "Fun Spot parks have basic concession stands. The International Drive and US-192 corridors offer hundreds of nearby restaurant options.",
+    "externalLinks": [
+      {"url": "https://fun-spot.com/", "label": "Fun Spot America", "domain": "fun-spot.com", "emoji": "🏎️"},
+      {"url": "https://andrettikarting.com/orlando/", "label": "Andretti Indoor Karting", "domain": "andrettikarting.com", "emoji": "🏁"}
+    ]
+  },
+  {
+    "slug": "andretti-indoor-karting-complete-guide",
+    "parkName": "Andretti Indoor Karting and Games",
+    "parkEmoji": "🏁",
+    "parkSubtitle": "A 125,000 square foot indoor entertainment complex on I-Drive featuring high-speed electric go-karts, bowling, zip line, ropes course, and arcade.",
+    "cityName": "Orlando",
+    "citySlug": "orlando",
+    "parkDescription": "Andretti Indoor Karting and Games is a 125,000-square-foot indoor entertainment complex on International Drive. The facility features high-speed electric go-karts on a multi-level indoor track, a ropes course, zip line, bowling, full-motion racing simulators, and an extensive arcade. The venue also includes a full restaurant and bar.",
+    "openedYear": "2017",
+    "parkSize": "125,000 sq ft",
+    "annualVisitors": "500K+",
+    "numRides": "Multiple attractions",
+    "parkHours": "12 PM - 12 AM (varies)",
+    "parkingInfo": "Free parking garage",
+    "history": "Andretti Indoor Karting and Games opened in 2017, bringing the Andretti racing family name to Orlando's International Drive. The facility was designed as a premium indoor entertainment experience, differentiating itself from budget go-kart operations with high-speed Italian-made electric karts, elaborate track design, and a full suite of entertainment options under one roof.",
+    "areas": [
+      {"emoji": "🏎️", "name": "Indoor Go-Kart Track", "description": "Multi-level indoor track with high-speed Italian-made electric karts reaching speeds up to 45 mph. Timed laps with electronic scoring.", "topRides": "Electric go-kart racing"},
+      {"emoji": "🎳", "name": "Bowling and Games", "description": "Boutique bowling lanes, full-motion racing simulators, and an extensive arcade with redemption prizes.", "topRides": "Bowling, racing simulators, arcade"},
+      {"emoji": "🧗", "name": "Sky Trail and Zip Line", "description": "Indoor ropes course and zip line suspended above the facility.", "topRides": "Sky Trail ropes course, indoor zip line"},
+      {"emoji": "🍽️", "name": "Restaurant and Bar", "description": "Full-service restaurant and bar with craft cocktails, Italian-inspired menu, and large-screen TVs.", "topRides": "Andretti Grill restaurant"}
+    ],
+    "topAttractions": [
+      {"name": "Electric Go-Kart Racing", "description": "High-speed indoor kart racing on a multi-level track with electronic timing and competitive lap scoring"},
+      {"name": "Sky Trail Ropes Course", "description": "Indoor ropes course suspended high above the facility floor with over 30 challenge elements"},
+      {"name": "Bowling Lanes", "description": "Boutique bowling lanes with comfortable seating and a party atmosphere"},
+      {"name": "Racing Simulators", "description": "Full-motion racing simulators that replicate the feeling of driving a race car on famous tracks"},
+      {"name": "Extensive Arcade", "description": "Hundreds of arcade games from classic to cutting-edge VR, with a redemption prize counter"}
+    ],
+    "insiderTips": [
+      "The karts are fast - this is more intense than typical tourist go-karts and closer to real competitive karting",
+      "Book races online in advance to avoid waiting during peak times",
+      "Happy hour at the restaurant (4-7 PM weekdays) offers food and drink specials",
+      "Andretti is fully air-conditioned - a perfect rainy-day or hot-afternoon activity",
+      "Multi-race packages offer discounts over single race pricing",
+      "Closed-toe shoes are required for go-karts and the ropes course"
+    ],
+    "bestTimes": "Andretti is busiest on Friday and Saturday evenings and during holiday periods. Weekday afternoons offer the most availability and shortest waits between races. The venue is popular for corporate events and private parties, which can occasionally limit public access.",
+    "ticketInfo": "Single go-kart race from $25. Multi-race packages from $45. Bowling from $6/person/game. Ropes course from $15. Arcade game card from $10. Combo packages available for the best value.",
+    "dining": "Andretti Grill serves a full menu including flatbreads, burgers, wings, pasta, and salads. The bar features craft cocktails, draft beer, and wine. Happy hour specials available on weekdays.",
+    "externalLinks": [
+      {"url": "https://andrettikarting.com/orlando/", "label": "Andretti Indoor Karting Orlando", "domain": "andrettikarting.com", "emoji": "🏁"},
+      {"url": "https://andrettikarting.com/orlando/attractions/", "label": "Andretti Attractions", "domain": "andrettikarting.com", "emoji": "🏎️"}
+    ]
+  }
+]

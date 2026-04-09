@@ -1,0 +1,59 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/dining/">Dining</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{restaurantName}}</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{cuisineEmoji}}</div>
+    <h1>{{restaurantName}} | {{cityName}} FL Dining Guide</h1>
+    <p class="subtitle">{{cuisineType}} dining in {{cityName}}, Florida. Group-friendly restaurant near {{nearbyLandmark}}.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{restaurantName}}</h2>
+        <p>{{description}}</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;grid-template-columns:repeat(3,1fr);">
+          <div class="stat"><div class="stat-num" style="font-size:1.8rem;">{{priceRange}}</div><div class="stat-lbl">Price Range</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.8rem;">{{cuisineType}}</div><div class="stat-lbl">Cuisine</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.8rem;">{{groupFriendly}}</div><div class="stat-lbl">Group Dining</div></div>
+        </div>
+
+        <h3>Location & Details</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span><strong>Address:</strong> {{address}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Neighborhood:</strong> {{neighborhood}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Cuisine:</strong> {{cuisineType}}</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Price:</strong> {{priceRange}}</span></li>
+          {{#if website}}<li><span class="check-icon">&#10003;</span><span><strong>Website:</strong> <a href="{{website}}" target="_blank" rel="noopener">{{websiteDomain}}</a></span></li>{{/if}}
+        </ul>
+
+        {{#if groupDiningNotes}}<h3>Group Dining at {{restaurantName}}</h3>
+        <p>{{groupDiningNotes}}</p>{{/if}}
+
+        <div class="callout"><p><strong>Dining with a Group?</strong> BusBrother provides charter bus transportation to restaurants across Central Florida. We drop your group at the door and pick you up after dinner - no parking headaches, no designated drivers. <a href="/book/">Get a free quote</a>.</p></div>
+
+        {{#if nearbyAttractions}}<h3>Nearby Attractions</h3>
+        <div class="areas-grid" style="margin:1rem 0;">
+          {{#each nearbyAttractions}}<a href="/attractions/{{slug}}/" class="area-chip">{{emoji}} {{name}}</a>
+          {{/each}}
+        </div>{{/if}}
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="/book/" class="btn btn-primary">Book Group Transport &rarr;</a>
+            <a href="/dining/" class="btn btn-outline">More Restaurants &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

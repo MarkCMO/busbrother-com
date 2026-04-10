@@ -1,0 +1,162 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <h1>Job Details & Bid Submission</h1>
+    <p class="subtitle">Review the trip details below and submit your bid.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container" style="max-width:900px;">
+    <div id="job-loading" style="text-align:center;padding:3rem;">
+      <p style="color:var(--muted);font-size:1.1rem;">Loading job details...</p>
+    </div>
+    <div id="job-error" style="display:none;text-align:center;padding:3rem;">
+      <h2 style="color:var(--gold);">Job Not Found</h2>
+      <p style="color:var(--muted);">This job link may have expired or is invalid.</p>
+      <a href="/" class="btn btn-primary" style="margin-top:1rem;">Back to Home</a>
+    </div>
+    <div id="job-content" style="display:none;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:3rem;">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;">Trip Details</h3>
+            <table style="width:100%;" id="job-details-table"></table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;">Job Status</h3>
+            <p style="color:var(--muted);font-size:0.9rem;">Status: <span id="job-status" style="color:var(--gold);font-weight:600;text-transform:uppercase;"></span></p>
+            <p style="color:var(--muted);font-size:0.9rem;">Posted: <span id="job-date"></span></p>
+            <p style="color:var(--muted);font-size:0.9rem;">Bids received: <span id="bid-count" style="color:var(--gold);font-weight:600;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="bid-form-section">
+        <div class="quote-widget" style="max-width:100%;">
+          <h3 style="font-size:1.6rem;margin-bottom:0.5rem;">Submit Your Bid</h3>
+          <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1.5rem;">Fill in your company details, vehicle info, and price. The job owner will be notified immediately.</p>
+          <form id="bid-form">
+            <div class="form-row">
+              <div class="form-group"><label>Company Name *</label><input type="text" name="company_name" required/></div>
+              <div class="form-group"><label>Contact Name *</label><input type="text" name="contact_name" required/></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Email *</label><input type="email" name="contact_email" required/></div>
+              <div class="form-group"><label>Phone</label><input type="tel" name="contact_phone"/></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Total Price ($) *</label><input type="number" name="total_price" step="0.01" min="1" required placeholder="0.00"/></div>
+              <div class="form-group"><label>Vehicle Type *</label>
+                <select name="vehicle_type" required>
+                  <option value="">Select...</option>
+                  <option>Motorcoach (45-57 pax)</option>
+                  <option>Premium Coach (30-40 pax)</option>
+                  <option>Minibus (15-30 pax)</option>
+                  <option>Executive Van (8-14 pax)</option>
+                  <option>Multiple Vehicles</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Vehicle Year</label><input type="text" name="vehicle_year" placeholder="e.g. 2023"/></div>
+              <div class="form-group"><label>Vehicle Capacity</label><input type="text" name="vehicle_capacity" placeholder="e.g. 56 passengers"/></div>
+            </div>
+            <div class="form-group"><label>Assigned Driver Name</label><input type="text" name="driver_name" placeholder="Driver name (if known)"/></div>
+            <div class="form-group"><label>Insurance Information</label><textarea name="insurance_info" rows="2" placeholder="Insurance carrier, policy number, coverage limits..."></textarea></div>
+            <div class="form-group"><label>Additional Notes</label><textarea name="notes" rows="3" placeholder="Amenities, special accommodations, availability notes..."></textarea></div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;" id="bid-submit-btn">Submit Bid &rarr;</button>
+          </form>
+        </div>
+      </div>
+      <div id="bid-success" style="display:none;text-align:center;padding:3rem;">
+        <div style="font-size:4rem;margin-bottom:1rem;">&#10003;</div>
+        <h2 style="color:var(--gold);">Bid Submitted!</h2>
+        <p style="color:var(--muted);font-size:1.1rem;margin-top:1rem;">The job owner has been notified of your bid. They will contact you directly if your bid is selected.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get('token');
+  if (!token) { showError(); return; }
+
+  fetch('/.netlify/functions/job-view?token=' + encodeURIComponent(token))
+    .then(r => r.ok ? r.json() : Promise.reject('Not found'))
+    .then(data => {
+      document.getElementById('job-loading').style.display = 'none';
+      document.getElementById('job-content').style.display = 'block';
+
+      const job = data.job;
+      const rows = [
+        ['Service', job.service],
+        ['Trip Type', job.trip_type],
+        ['Pickup Date', job.pickup_date],
+        ['Passengers', job.passengers],
+        ['Pickup', job.pickup_location],
+        ['Drop-off', job.dropoff_location],
+        ['ADA Accessible', job.ada_accessible ? 'Yes - Required' : 'No'],
+        ['Multi-Stop', job.multi_stop ? 'Yes' : 'No'],
+        ['Luggage Help', job.luggage_assist ? 'Yes' : 'No'],
+        ['Notes', job.notes]
+      ].filter(r => r[1]).map(r =>
+        '<tr><td style="padding:8px 0;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;width:120px;vertical-align:top;">' + r[0] + '</td><td style="padding:8px 0;color:var(--muted);font-size:0.9rem;">' + r[1] + '</td></tr>'
+      ).join('');
+      document.getElementById('job-details-table').innerHTML = rows;
+      document.getElementById('job-status').textContent = job.status;
+      document.getElementById('job-date').textContent = new Date(job.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      document.getElementById('bid-count').textContent = data.bidCount;
+
+      if (job.status !== 'open') {
+        document.getElementById('bid-form-section').innerHTML = '<div class="callout"><p><strong>This job is no longer accepting bids.</strong> The job has been ' + job.status + '.</p></div>';
+      }
+    })
+    .catch(() => showError());
+
+  function showError() {
+    document.getElementById('job-loading').style.display = 'none';
+    document.getElementById('job-error').style.display = 'block';
+  }
+
+  // Bid form submission
+  document.getElementById('bid-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = document.getElementById('bid-submit-btn');
+    btn.textContent = 'Submitting...';
+    btn.disabled = true;
+
+    var formData = new FormData(this);
+    var body = { token: token };
+    formData.forEach(function(v, k) { body[k] = v; });
+
+    fetch('/.netlify/functions/bid-submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.success) {
+        document.getElementById('bid-form-section').style.display = 'none';
+        document.getElementById('bid-success').style.display = 'block';
+      } else {
+        btn.textContent = 'Submit Bid \u2192';
+        btn.disabled = false;
+        alert(data.error || 'Failed to submit bid. Please try again.');
+      }
+    })
+    .catch(function() {
+      btn.textContent = 'Submit Bid \u2192';
+      btn.disabled = false;
+      alert('Network error. Please try again.');
+    });
+  });
+})();
+</script>
+{{> footer}}

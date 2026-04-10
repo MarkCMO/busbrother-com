@@ -1,0 +1,173 @@
+{{> head}}
+{{> nav}}
+<div class="page-hero" style="padding:7rem 0 2rem;">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <h1>Job Manager</h1>
+    <p class="subtitle">View all quote requests and vendor bids.</p>
+  </div>
+</div>
+<section class="section" style="padding-top:2rem;">
+  <div class="container">
+    <div id="admin-login" style="max-width:400px;margin:0 auto;">
+      <div class="quote-widget">
+        <h3>Admin Access</h3>
+        <div class="form-group"><label>Admin Secret</label><input type="password" id="admin-secret-input" placeholder="Enter admin secret"/></div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="loadJobs()">View Jobs</button>
+      </div>
+    </div>
+    <div id="admin-content" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;">
+        <div>
+          <span class="section-label">Dashboard</span>
+          <h2 id="jobs-heading">All Jobs</h2>
+        </div>
+        <div id="stats-bar" style="display:flex;gap:1.5rem;"></div>
+      </div>
+      <div id="jobs-list"></div>
+      <div id="job-detail" style="display:none;"></div>
+    </div>
+  </div>
+</section>
+<script>
+var adminSecret = '';
+
+function loadJobs() {
+  adminSecret = document.getElementById('admin-secret-input').value;
+  if (!adminSecret) return alert('Enter admin secret');
+
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret))
+    .then(function(r) { return r.ok ? r.json() : Promise.reject('Unauthorized'); })
+    .then(function(data) {
+      document.getElementById('admin-login').style.display = 'none';
+      document.getElementById('admin-content').style.display = 'block';
+      localStorage.setItem('bb_admin', adminSecret);
+      renderJobs(data.jobs);
+    })
+    .catch(function() { alert('Invalid admin secret'); });
+}
+
+// Auto-login from localStorage
+(function() {
+  var saved = localStorage.getItem('bb_admin');
+  if (saved) {
+    document.getElementById('admin-secret-input').value = saved;
+    loadJobs();
+  }
+})();
+
+function renderJobs(jobs) {
+  var open = jobs.filter(function(j) { return j.status === 'open'; }).length;
+  var awarded = jobs.filter(function(j) { return j.status === 'awarded'; }).length;
+  var totalBids = jobs.reduce(function(s, j) { return s + (j.bidCount || 0); }, 0);
+
+  document.getElementById('stats-bar').innerHTML =
+    '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:var(--gold);">' + jobs.length + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Total</div></div>' +
+    '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:#2ecc71;">' + open + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Open</div></div>' +
+    '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:var(--gold);">' + totalBids + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Bids</div></div>';
+
+  if (jobs.length === 0) {
+    document.getElementById('jobs-list').innerHTML = '<div class="card"><div class="card-body" style="text-align:center;padding:3rem;"><p style="color:var(--muted);">No jobs yet. Jobs appear here when customers submit quote requests.</p></div></div>';
+    return;
+  }
+
+  var html = jobs.map(function(j) {
+    var statusColor = j.status === 'open' ? '#2ecc71' : j.status === 'awarded' ? '#f5a623' : '#8a9ab5';
+    var date = new Date(j.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    var lowestBid = j.bids && j.bids.length > 0 ? '$' + Math.min.apply(null, j.bids.map(function(b) { return b.total_price; })).toFixed(2) : '-';
+    return '<div class="card" style="margin-bottom:1rem;cursor:pointer;" onclick="viewJob(\'' + j.id + '\')">' +
+      '<div class="card-body" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">' +
+      '<div>' +
+      '<span style="display:inline-block;background:' + statusColor + ';color:#060e1c;padding:2px 10px;border-radius:100px;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem;">' + j.status + '</span>' +
+      '<h3 style="font-size:1.1rem;margin-bottom:0.3rem;">' + (j.service || 'Quote') + ' - ' + (j.passengers || '?') + ' pax</h3>' +
+      '<p style="color:var(--muted);font-size:0.85rem;margin:0;">' + (j.pickup_location || '?') + ' &rarr; ' + (j.dropoff_location || '?') + '</p>' +
+      '<p style="color:var(--muted);font-size:0.78rem;margin:0.3rem 0 0;">' + date + ' | ' + (j.pickup_date || 'No date') + ' | ' + (j.customer_name || 'Anonymous') + '</p>' +
+      '</div>' +
+      '<div style="text-align:right;">' +
+      '<div style="font-family:Bebas Neue,sans-serif;font-size:1.8rem;color:var(--gold);">' + (j.bidCount || 0) + '</div>' +
+      '<div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;">Bids</div>' +
+      (j.bids && j.bids.length > 0 ? '<div style="font-size:0.8rem;color:#2ecc71;margin-top:0.3rem;">Low: ' + lowestBid + '</div>' : '') +
+      '</div></div></div>';
+  }).join('');
+
+  document.getElementById('jobs-list').innerHTML = html;
+}
+
+function viewJob(jobId) {
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&job_id=' + jobId)
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      document.getElementById('jobs-list').style.display = 'none';
+      document.getElementById('jobs-heading').textContent = 'Job Details';
+
+      var j = data.job;
+      var bids = data.bids;
+      var statusColor = j.status === 'open' ? '#2ecc71' : j.status === 'awarded' ? '#f5a623' : '#8a9ab5';
+
+      var html = '<a href="#" onclick="backToList();return false;" style="font-size:0.85rem;margin-bottom:1rem;display:inline-block;">&larr; Back to all jobs</a>';
+
+      // Job details card
+      html += '<div class="card" style="margin-bottom:2rem;"><div class="card-body">';
+      html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;"><h3 style="color:var(--gold);font-size:1.4rem;">Trip Details</h3><span style="background:' + statusColor + ';color:#060e1c;padding:4px 14px;border-radius:100px;font-size:0.75rem;font-weight:700;text-transform:uppercase;">' + j.status + '</span></div>';
+      var fields = [
+        ['Customer', j.customer_name], ['Email', j.customer_email], ['Phone', j.customer_phone],
+        ['Service', j.service], ['Trip Type', j.trip_type], ['Pickup Date', j.pickup_date],
+        ['Passengers', j.passengers], ['Pickup', j.pickup_location], ['Drop-off', j.dropoff_location],
+        ['ADA', j.ada_accessible ? 'Yes' : 'No'], ['Multi-Stop', j.multi_stop ? 'Yes' : 'No'],
+        ['Luggage', j.luggage_assist ? 'Yes' : 'No'], ['Notes', j.notes]
+      ].filter(function(f) { return f[1]; });
+      html += '<table style="width:100%;">' + fields.map(function(f) {
+        return '<tr><td style="padding:6px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;width:100px;vertical-align:top;">' + f[0] + '</td><td style="padding:6px 0;color:var(--muted);font-size:0.9rem;">' + f[1] + '</td></tr>';
+      }).join('') + '</table>';
+
+      if (j.status === 'open') {
+        html += '<div style="margin-top:1rem;display:flex;gap:0.5rem;"><button class="btn btn-outline btn-sm" onclick="closeJob(\'' + j.id + '\')">Close Job</button></div>';
+      }
+      html += '</div></div>';
+
+      // Bids
+      html += '<h3 style="margin-bottom:1rem;">' + bids.length + ' Bid' + (bids.length !== 1 ? 's' : '') + '</h3>';
+      if (bids.length === 0) {
+        html += '<div class="card"><div class="card-body" style="text-align:center;padding:2rem;"><p style="color:var(--muted);">No bids yet.</p></div></div>';
+      } else {
+        html += bids.map(function(b) {
+          var isAwarded = j.awarded_bid_id === b.id;
+          return '<div class="card" style="margin-bottom:1rem;' + (isAwarded ? 'border-color:#2ecc71;' : '') + '"><div class="card-body">' +
+            '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">' +
+            '<div><h3 style="font-size:1.2rem;">' + b.company_name + (isAwarded ? ' <span style="color:#2ecc71;font-size:0.8rem;">AWARDED</span>' : '') + '</h3><p style="color:var(--muted);font-size:0.85rem;margin:0;">' + b.contact_name + ' - ' + b.contact_email + (b.contact_phone ? ' - ' + b.contact_phone : '') + '</p></div>' +
+            '<div style="font-family:Bebas Neue,sans-serif;font-size:2.2rem;color:#2ecc71;">$' + parseFloat(b.total_price).toFixed(2) + '</div></div>' +
+            '<table style="width:100%;"><tr><td style="padding:4px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;width:100px;">Vehicle</td><td style="padding:4px 0;color:var(--muted);font-size:0.88rem;">' + b.vehicle_type + (b.vehicle_year ? ' (' + b.vehicle_year + ')' : '') + (b.vehicle_capacity ? ' - ' + b.vehicle_capacity : '') + '</td></tr>' +
+            (b.driver_name ? '<tr><td style="padding:4px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;">Driver</td><td style="padding:4px 0;color:var(--muted);font-size:0.88rem;">' + b.driver_name + '</td></tr>' : '') +
+            (b.insurance_info ? '<tr><td style="padding:4px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;">Insurance</td><td style="padding:4px 0;color:var(--muted);font-size:0.88rem;">' + b.insurance_info + '</td></tr>' : '') +
+            (b.notes ? '<tr><td style="padding:4px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;">Notes</td><td style="padding:4px 0;color:var(--muted);font-size:0.88rem;">' + b.notes + '</td></tr>' : '') +
+            '</table>' +
+            (j.status === 'open' && !isAwarded ? '<div style="margin-top:1rem;display:flex;gap:0.5rem;"><button class="btn btn-primary btn-sm" onclick="awardBid(\'' + j.id + '\',\'' + b.id + '\')">Award This Bid</button><a href="mailto:' + b.contact_email + '?subject=BusBrother Job" class="btn btn-outline btn-sm">Email Vendor</a></div>' : '') +
+            '</div></div>';
+        }).join('');
+      }
+
+      document.getElementById('job-detail').innerHTML = html;
+      document.getElementById('job-detail').style.display = 'block';
+    });
+}
+
+function backToList() {
+  document.getElementById('jobs-list').style.display = 'block';
+  document.getElementById('job-detail').style.display = 'none';
+  document.getElementById('jobs-heading').textContent = 'All Jobs';
+  loadJobs();
+}
+
+function awardBid(jobId, bidId) {
+  if (!confirm('Award this bid? The vendor will need to be contacted separately.')) return;
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&action=award&job_id=' + jobId + '&bid_id=' + bidId, { method: 'POST' })
+    .then(function() { viewJob(jobId); });
+}
+
+function closeJob(jobId) {
+  if (!confirm('Close this job? No more bids will be accepted.')) return;
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&action=close&job_id=' + jobId, { method: 'POST' })
+    .then(function() { viewJob(jobId); });
+}
+</script>
+{{> footer}}

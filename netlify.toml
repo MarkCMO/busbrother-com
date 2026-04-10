@@ -23,6 +23,32 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/favicon.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── API Function Routes ──────────────────────────
+[[redirects]]
+  from = "/api/job-view"
+  to = "/.netlify/functions/job-view"
+  status = 200
+
+[[redirects]]
+  from = "/api/bid-submit"
+  to = "/.netlify/functions/bid-submit"
+  status = 200
+
+[[redirects]]
+  from = "/api/jobs-admin"
+  to = "/.netlify/functions/jobs-admin"
+  status = 200
+
 # ── Force www to non-www ──────────────────────────────
 [[redirects]]
   from = "https://www.busbrother.com/*"

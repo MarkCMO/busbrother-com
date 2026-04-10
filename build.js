@@ -173,7 +173,7 @@ const templateNames = [
   'blog-post', 'blog-index', 'venue', 'hotel-shuttle', 'school-transport',
   'seasonal-event', 'sports-venue', 'corporate-city', 'wedding-venue',
   'neighborhood', 'airport-transfer', 'index-areas',
-  'about', 'fleet', 'faq', 'book', 'contact', 'thank-you',
+  'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs',
   'guide', 'restaurant', 'cruise-line', 'scenic-route',
   'things-to-do', 'theme-park-guide', 'port-guide', 'hotel-area-guide',
   'service-attraction', 'city-attraction'
@@ -684,19 +684,23 @@ if (templates['service-hub']) {
 
 // ── 18. Static Pages ──────────────────────────────────────
 console.log('  Static pages...');
-const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you'];
+const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs'];
 const staticMeta = {
   about: { title: 'About BusBrother | Charter Bus & Group Transportation', desc: 'Learn about BusBrother - Central Florida charter bus and group transportation. 120+ cities, 24/7 service, professional drivers.' },
   fleet: { title: 'Our Fleet | BusBrother Charter Bus', desc: 'BusBrother fleet: motorcoaches (45-57 pax), premium coaches (30-40 pax), minibuses (15-30 pax). Climate-controlled, ADA accessible, DOT compliant.' },
   faq: { title: 'FAQ | BusBrother Charter Bus & Group Transportation', desc: 'Frequently asked questions about BusBrother charter bus service. Pricing, booking, vehicles, ADA access, service areas, and more.' },
   book: { title: 'Get a Free Quote | BusBrother Charter Bus', desc: 'Request a free charter bus quote from BusBrother. One-way, round trip, multi-stop. ADA accessible. We respond within 2 hours.' },
   contact: { title: 'Contact BusBrother | Charter Bus & Group Transportation', desc: 'Contact BusBrother for charter bus and group transportation in Florida. Available 24/7. Email info@busbrother.com.' },
-  'thank-you': { title: 'Quote Request Received | BusBrother', desc: 'Thank you for your quote request. BusBrother will respond within 2 hours with custom pricing.' }
+  'thank-you': { title: 'Quote Request Received | BusBrother', desc: 'Thank you for your quote request. BusBrother will respond within 2 hours with custom pricing.' },
+  'jobs': { title: 'Job Details & Bid Submission | BusBrother', desc: 'View job details and submit your bid for BusBrother transportation jobs.' },
+  'admin/jobs': { title: 'Job Manager | BusBrother Admin', desc: 'Admin dashboard for managing jobs and vendor bids.' }
 };
+const templateMap = { 'jobs': 'job-page', 'admin/jobs': 'admin-jobs' };
 for (const page of staticPages) {
-  if (templates[page]) {
+  const tplName = templateMap[page] || page;
+  if (templates[tplName]) {
     const meta = staticMeta[page];
-    const html = render(templates[page], {
+    const html = render(templates[tplName], {
       pageTitle: meta.title, metaDescription: meta.desc,
       canonicalPath: `/${page}`, geoPlacename: 'Central Florida', geoPosition: '28.3922;-80.6077',
       footerCities

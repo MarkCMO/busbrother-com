@@ -1,50 +1,131 @@
-<script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@type":"TransportationCompany",
-  "name":"BusBrother Transportation",
-  "url":"https://busbrother.com",
-  "logo":"https://busbrother.com/favicon.svg",
-  "image":"https://busbrother.com/images/bus-seats-interior.jpg",
-  "telephone":"info@busbrother.com",
-  "email":"info@busbrother.com",
-  "address":{"@type":"PostalAddress","streetAddress":"Cape Canaveral","addressLocality":"Cape Canaveral","addressRegion":"FL","postalCode":"32920","addressCountry":"US"},
-  "geo":{"@type":"GeoCoordinates","latitude":28.3922,"longitude":-80.6077},
-  "areaServed":[
-    {"@type":"State","name":"Florida"},
-    {"@type":"City","name":"Orlando"},
-    {"@type":"City","name":"Tampa"},
-    {"@type":"City","name":"Fort Lauderdale"},
-    {"@type":"City","name":"Daytona Beach"},
-    {"@type":"City","name":"Melbourne"},
-    {"@type":"City","name":"Kissimmee"},
-    {"@type":"City","name":"West Palm Beach"},
-    {"@type":"City","name":"Clearwater"},
-    {"@type":"City","name":"St. Petersburg"},
-    {"@type":"City","name":"Cape Canaveral"},
-    {"@type":"City","name":"Cocoa Beach"},
-    {"@type":"City","name":"Lakeland"},
-    {"@type":"City","name":"Sarasota"},
-    {"@type":"City","name":"Bradenton"},
-    {"@type":"City","name":"Sanford"}
-  ],
-  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
-  "priceRange":"$$",
-  "paymentAccepted":["Cash","Credit Card","Debit Card","Apple Pay"],
-  "currenciesAccepted":"USD",
-  "hasOfferCatalog":{
-    "@type":"OfferCatalog",
-    "name":"Charter Bus Services",
-    "itemListElement":[
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cruise Port Shuttle","description":"Group shuttle to Port Canaveral, Port Tampa Bay, and Port Everglades"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Airport Transfers","description":"Group airport shuttle from MCO, TPA, FLL, SFB, PBI, DAB"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporate Charter","description":"Professional motorcoach for conferences, retreats, and corporate events"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wedding Transportation","description":"Elegant guest shuttle for weddings and receptions"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"School Group Transportation","description":"Charter bus for field trips, athletics, and campus events"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Theme Park Shuttle","description":"Group transportation to Disney World, Universal, SeaWorld, LEGOLAND"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kennedy Space Center Tours","description":"Group transportation to KSC Visitor Complex"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Rocket Launch Viewing","description":"Coordinated transport to SpaceX and NASA launch viewing areas"}}
-    ]
-  },
-  "sameAs":["https://www.facebook.com/BusBrother","https://www.instagram.com/busbrother"],
-  "description":"Florida's #1 charter bus and group transportation broker serving 120+ cities. Cruise port shuttles, airport transfers, corporate charters, wedding transportation, school groups, theme park shuttles. Available 24/7. Serving Orlando, Tampa, Fort Lauderdale, Daytona Beach, Space Coast, and all of Central and South Florida."
-}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://busbrother.com/#organization",
+      "name": "BusBrother",
+      "alternateName": "BusBrother Transportation",
+      "legalName": "WETYR Corporation",
+      "url": "https://busbrother.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://busbrother.com/favicon.svg",
+        "width": 600,
+        "height": 60
+      },
+      "image": "https://busbrother.com/images/bus-seats-interior.jpg",
+      "description": "Florida's largest charter bus and group transportation broker serving 120+ cities. Cruise port shuttles, airport transfers, corporate charters, wedding transportation, school groups, theme park shuttles. Available 24/7. Licensed carriers with $5M+ insurance.",
+      "email": "info@busbrother.com",
+      "foundingDate": "2025",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cape Canaveral",
+        "addressLocality": "Cape Canaveral",
+        "addressRegion": "FL",
+        "postalCode": "32920",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.3922,
+        "longitude": -80.6077
+      },
+      "areaServed": [
+        { "@type": "State", "name": "Florida" },
+        { "@type": "City", "name": "Orlando", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Tampa", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Fort Lauderdale", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Daytona Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Cape Canaveral", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Cocoa Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Kissimmee", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "West Palm Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Clearwater", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "St. Petersburg", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Lakeland", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Sarasota", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Bradenton", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "City", "name": "Sanford", "containedInPlace": { "@type": "State", "name": "Florida" } },
+        { "@type": "AdministrativeArea", "name": "Brevard County" },
+        { "@type": "AdministrativeArea", "name": "Orange County" },
+        { "@type": "AdministrativeArea", "name": "Hillsborough County" },
+        { "@type": "AdministrativeArea", "name": "Broward County" },
+        { "@type": "AdministrativeArea", "name": "Palm Beach County" },
+        { "@type": "AdministrativeArea", "name": "Volusia County" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$",
+      "paymentAccepted": ["Cash","Credit Card","Debit Card","Apple Pay"],
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "Charter bus rental",
+        "Motorcoach service",
+        "Group transportation",
+        "Cruise port shuttles",
+        "Airport transfers",
+        "Corporate charters",
+        "Wedding transportation",
+        "School field trips",
+        "Theme park shuttles",
+        "Kennedy Space Center tours",
+        "Rocket launch viewing transportation",
+        "ADA accessible transportation",
+        "Florida tourism",
+        "Port Canaveral",
+        "Port Tampa Bay",
+        "Port Everglades"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Charter Bus Services",
+        "itemListElement": [
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cruise Port Shuttle","description":"Group shuttle to Port Canaveral, Port Tampa Bay, and Port Everglades"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Airport Transfers","description":"Group airport shuttle from MCO, TPA, FLL, SFB, PBI, DAB"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporate Charter","description":"Professional motorcoach for conferences, retreats, and corporate events"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wedding Transportation","description":"Elegant guest shuttle for weddings and receptions"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"School Group Transportation","description":"Charter bus for field trips, athletics, and campus events"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Theme Park Shuttle","description":"Group transportation to Disney World, Universal, SeaWorld, LEGOLAND, Busch Gardens"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kennedy Space Center Tours","description":"Group transportation to KSC Visitor Complex"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Rocket Launch Viewing","description":"Coordinated transport to SpaceX and NASA launch viewing areas"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Hotel Shuttle","description":"Recurring or one-time hotel guest shuttle service"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Sports Event Transport","description":"Game day group transportation to Florida stadiums and arenas"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Church Bus Rental","description":"Religious group transportation for outings, retreats, and conferences"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Employee Shuttle","description":"Daily commuter, campus, off-site parking, and construction site shuttles"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Conference Shuttle","description":"Hotel-to-venue and convention shuttle service"}}
+        ]
+      },
+      "sameAs": [
+        "https://www.facebook.com/BusBrother",
+        "https://www.instagram.com/busbrother",
+        "https://twitter.com/busbrother",
+        "https://www.linkedin.com/company/busbrother"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://busbrother.com/#website",
+      "url": "https://busbrother.com",
+      "name": "BusBrother",
+      "description": "Florida charter bus and group transportation broker serving 120+ cities",
+      "publisher": { "@id": "https://busbrother.com/#organization" },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://busbrother.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>

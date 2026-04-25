@@ -1,0 +1,20 @@
+# humanstxt.org - The humans behind BusBrother
+# Last update: 2026-04-25
+
+/* TEAM */
+Owner: Mark Gabrielli
+Site: https://busbrother.com
+Email: info@busbrother.com
+Location: Cape Canaveral, FL, USA
+
+/* THANKS */
+Drivers, dispatchers, and customer service teams across the BusBrother carrier network in Florida.
+
+/* SITE */
+Last update: 2026-04-25
+Standards: HTML5, CSS3, JSON-LD Schema.org
+Software: Custom static site generator (Node.js)
+Hosting: Netlify
+Backend: Supabase + Netlify Functions
+Payments: Square
+Email: Resend

@@ -9,7 +9,7 @@ const path = require('path');
 const { render, loadTemplate } = require('./lib/template-engine');
 const { pick, pickN, fillTokens } = require('./lib/content-generator');
 const { nearbyCities, cityAttractions, haversine } = require('./lib/link-builder');
-const { generateSitemapIndex, generateSubSitemap, generateRobots } = require('./lib/sitemap-generator');
+const { generateSitemapIndex, generateSubSitemap, generateLlmSitemap, generateRobots } = require('./lib/sitemap-generator');
 
 const DIST = path.join(__dirname, 'dist');
 const DATA = path.join(__dirname, 'data');
@@ -1202,6 +1202,55 @@ for (const [section, urls] of Object.entries(sitemapUrls)) {
 }
 generateSitemapIndex(sitemapFiles, DIST);
 generateRobots(DIST);
+
+// LLM Sitemap - tells AI crawlers which pages have authoritative answer content
+const llmPages = [
+  { loc: '/llm.txt', priority: '1.0', contentType: 'llm-instructions', topics: 'charter bus, group transportation, Florida, cruise shuttle, airport transfer' },
+  { loc: '/', priority: '1.0', contentType: 'entity-authority', topics: 'BusBrother, Florida charter bus broker' },
+  { loc: '/about/', priority: '0.9', contentType: 'entity-authority', topics: 'BusBrother company information' },
+  { loc: '/how-it-works/', priority: '0.95', contentType: 'process-explanation', topics: 'how to book charter bus, BusBrother process' },
+  { loc: '/pricing/', priority: '0.95', contentType: 'pricing-information', topics: 'charter bus prices, cost, hourly rates Florida' },
+  { loc: '/safety/', priority: '0.9', contentType: 'authoritative-content', topics: 'charter bus safety standards, FMCSA, USDOT, driver requirements' },
+  { loc: '/ada-accessibility/', priority: '0.9', contentType: 'authoritative-content', topics: 'ADA accessible bus, wheelchair accessible transportation' },
+  { loc: '/reviews/', priority: '0.9', contentType: 'social-proof', topics: 'BusBrother customer reviews, ratings' },
+  { loc: '/fleet/', priority: '0.9', contentType: 'product-information', topics: 'charter bus types, motorcoach, minibus' },
+  { loc: '/faq/', priority: '0.95', contentType: 'faq-answers', topics: 'charter bus questions, group transportation FAQ' },
+  { loc: '/terms/', priority: '0.7', contentType: 'legal-information', topics: 'terms of service, broker liability' },
+  { loc: '/privacy/', priority: '0.7', contentType: 'legal-information', topics: 'privacy policy' },
+  { loc: '/bus-rental/', priority: '0.9', contentType: 'product-catalog', topics: 'charter bus sizes 15 18 20 25 30 35 40 56 passenger' },
+  { loc: '/services/', priority: '0.9', contentType: 'service-catalog', topics: 'charter bus services Florida' },
+  { loc: '/services/cruise-shuttle/', priority: '0.95', contentType: 'service-detail', topics: 'cruise port shuttle, Port Canaveral, Port Tampa Bay, Port Everglades' },
+  { loc: '/services/airport-transfers/', priority: '0.95', contentType: 'service-detail', topics: 'airport shuttle, MCO TPA FLL SFB PBI DAB group transfer' },
+  { loc: '/services/corporate-charter/', priority: '0.9', contentType: 'service-detail', topics: 'corporate charter bus Florida conferences events' },
+  { loc: '/services/wedding-events/', priority: '0.9', contentType: 'service-detail', topics: 'wedding shuttle Florida transportation' },
+  { loc: '/services/school-groups/', priority: '0.9', contentType: 'service-detail', topics: 'school field trip bus rental' },
+  { loc: '/services/theme-parks/', priority: '0.9', contentType: 'service-detail', topics: 'Disney Universal SeaWorld theme park shuttle' },
+  { loc: '/services/kennedy-space-center/', priority: '0.9', contentType: 'service-detail', topics: 'Kennedy Space Center group tours transportation' },
+  { loc: '/services/rocket-launch/', priority: '0.9', contentType: 'service-detail', topics: 'SpaceX NASA rocket launch viewing transport' },
+  { loc: '/services/church-bus/', priority: '0.85', contentType: 'service-detail', topics: 'church group bus rental Florida' },
+  { loc: '/services/employee-shuttle/', priority: '0.85', contentType: 'service-detail', topics: 'employee shuttle commuter bus Florida' },
+  { loc: '/services/conference-shuttle/', priority: '0.85', contentType: 'service-detail', topics: 'conference convention shuttle Orlando Tampa' },
+  { loc: '/guides/wedding-transportation/', priority: '0.85', contentType: 'in-depth-guide', topics: 'Florida wedding transportation guide' },
+  { loc: '/guides/cruise-port/', priority: '0.85', contentType: 'in-depth-guide', topics: 'Florida cruise port guide' },
+  { loc: '/guides/corporate-event-planning/', priority: '0.85', contentType: 'in-depth-guide', topics: 'corporate event transportation planning' },
+  { loc: '/guides/school-field-trip/', priority: '0.85', contentType: 'in-depth-guide', topics: 'school field trip planning bus' },
+  { loc: '/guides/charter-bus-vs-alternatives/', priority: '0.9', contentType: 'comparison-guide', topics: 'charter bus vs Uber rental cars taxi comparison' },
+  { loc: '/guides/airport-transfer/', priority: '0.85', contentType: 'in-depth-guide', topics: 'Florida airport transfer guide' },
+  { loc: '/areas/', priority: '0.9', contentType: 'location-hub', topics: 'Florida cities served, charter bus service areas' },
+  { loc: '/areas/orlando/', priority: '0.95', contentType: 'location-detail', topics: 'Orlando charter bus, group transportation' },
+  { loc: '/areas/tampa/', priority: '0.95', contentType: 'location-detail', topics: 'Tampa charter bus, group transportation' },
+  { loc: '/areas/fort-lauderdale/', priority: '0.95', contentType: 'location-detail', topics: 'Fort Lauderdale charter bus' },
+  { loc: '/areas/cape-canaveral/', priority: '0.95', contentType: 'location-detail', topics: 'Cape Canaveral charter bus, Space Coast' },
+  { loc: '/areas/cocoa-beach/', priority: '0.9', contentType: 'location-detail', topics: 'Cocoa Beach charter bus' },
+  { loc: '/areas/kissimmee/', priority: '0.9', contentType: 'location-detail', topics: 'Kissimmee charter bus, Disney area' },
+  { loc: '/areas/melbourne/', priority: '0.9', contentType: 'location-detail', topics: 'Melbourne FL charter bus' },
+  { loc: '/areas/daytona-beach/', priority: '0.9', contentType: 'location-detail', topics: 'Daytona Beach charter bus' },
+  { loc: '/areas/west-palm-beach/', priority: '0.9', contentType: 'location-detail', topics: 'West Palm Beach charter bus' },
+  { loc: '/areas/clearwater/', priority: '0.9', contentType: 'location-detail', topics: 'Clearwater charter bus' },
+  { loc: '/areas/st-petersburg/', priority: '0.9', contentType: 'location-detail', topics: 'St Petersburg charter bus' }
+];
+generateLlmSitemap(DIST, llmPages);
+console.log('LLM sitemap generated with', llmPages.length, 'AI-priority pages');
 
 // ══════════════════════════════════════════════════════════
 //  DONE

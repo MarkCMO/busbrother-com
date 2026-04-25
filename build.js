@@ -185,7 +185,7 @@ const templateNames = [
   'seasonal-event', 'sports-venue', 'corporate-city', 'wedding-venue',
   'neighborhood', 'airport-transfer', 'index-areas',
   'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs', 'terms', 'pricing',
-  'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size',
+  'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size', 'privacy',
   'church-bus', 'employee-shuttle', 'conference-shuttle', 'government-military', 'movie-production',
   'wedding-transportation-guide', 'cruise-port-guide', 'corporate-event-planning',
   'school-field-trip-guide', 'charter-bus-vs-alternatives', 'airport-transfer-guide',
@@ -701,7 +701,7 @@ if (templates['service-hub']) {
 
 // ── 18. Static Pages ──────────────────────────────────────
 console.log('  Static pages...');
-const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
+const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'privacy', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
 const staticMeta = {
   about: { title: 'About BusBrother | Charter Bus & Group Transportation', desc: 'Learn about BusBrother - Central Florida charter bus and group transportation. 120+ cities, 24/7 service, professional drivers.' },
   fleet: { title: 'Our Fleet | BusBrother Charter Bus', desc: 'BusBrother fleet: motorcoaches (45-57 pax), premium coaches (30-40 pax), minibuses (15-30 pax). Climate-controlled, ADA accessible, DOT compliant.' },
@@ -713,6 +713,7 @@ const staticMeta = {
   'admin/jobs': { title: 'Job Manager | BusBrother Admin', desc: 'Admin dashboard for managing jobs and vendor bids.' },
   'terms': { title: 'Terms of Service | BusBrother', desc: 'BusBrother Terms of Service. Transportation broker operated by WETYR Corporation. Liability limitations, booking terms, and cancellation policy.' },
   'pricing': { title: 'Charter Bus Prices in Florida | How Much Does a Bus Cost? | BusBrother', desc: 'Charter bus rental prices in Florida. Motorcoach $150-$300/hr, minibus $100-$200/hr. See pricing by vehicle type, route estimates, and what affects cost. Free custom quotes.' },
+  'privacy': { title: 'Privacy Policy | BusBrother', desc: 'BusBrother Privacy Policy. How we collect, use, and protect your personal information when you use our charter bus booking service.' },
   'how-it-works': { title: 'How BusBrother Works | Charter Bus Booking in 3 Steps', desc: 'Book a charter bus in 3 easy steps. Tell us your trip, get a custom quote in 2 hours, ride with confidence. Licensed carriers, no hidden fees, 24/7 availability.' },
   'reviews': { title: 'Customer Reviews | BusBrother Charter Bus Florida', desc: 'Read reviews from BusBrother customers. 4.9/5 rating from 127+ reviews. Cruise transfers, weddings, corporate events, school trips across Florida.' },
   'ada-accessibility': { title: 'ADA Accessible Charter Bus Rental | Wheelchair Accessible Bus | BusBrother', desc: 'ADA accessible charter bus and minibus rental in Florida. Wheelchair lifts, ramp access, service animals welcome. Inclusive group transportation for all.' },

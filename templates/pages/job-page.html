@@ -69,6 +69,11 @@
             <div class="form-group"><label>Assigned Driver Name</label><input type="text" name="driver_name" placeholder="Driver name (if known)"/></div>
             <div class="form-group"><label>Insurance Information</label><textarea name="insurance_info" rows="2" placeholder="Insurance carrier, policy number, coverage limits..."></textarea></div>
             <div class="form-group"><label>Additional Notes</label><textarea name="notes" rows="3" placeholder="Amenities, special accommodations, availability notes..."></textarea></div>
+            <div style="background:rgba(245,166,35,0.05);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;margin-bottom:1rem;">
+              <label style="display:flex;align-items:flex-start;gap:0.5rem;font-size:0.82rem;color:var(--muted);cursor:pointer;line-height:1.5;">
+                <input type="checkbox" required style="accent-color:var(--gold);width:18px;height:18px;flex-shrink:0;margin-top:3px;"/> By submitting this bid, I certify that my company holds a valid USDOT number, is FMCSA registered, maintains minimum $5,000,000 commercial auto liability insurance, employs licensed CDL drivers with background checks and drug testing, and agrees to indemnify BusBrother from all claims arising from the transportation services provided.
+              </label>
+            </div>
             <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;" id="bid-submit-btn">Submit Bid &rarr;</button>
           </form>
         </div>

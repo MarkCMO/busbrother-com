@@ -1,0 +1,97 @@
+{{> head}}
+{{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Product",
+  "name":"{{busSize}} Passenger {{busType}} Rental - Florida",
+  "description":"{{metaDescription}}",
+  "brand":{"@type":"Brand","name":"BusBrother"},
+  "offers":{"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":"{{priceLow}}","highPrice":"{{priceHigh}}","offerCount":"120","availability":"https://schema.org/InStock"},
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"127","bestRating":"5"}
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Fleet","item":"https://busbrother.com/fleet/"},
+    {"@type":"ListItem","position":3,"name":"{{busSize}} Passenger {{busType}}","item":"https://busbrother.com/bus-rental/{{slug}}/"}
+  ]
+}</script>
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/fleet/">Fleet</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{busSize}} Passenger {{busType}}</span></div>
+    <h1>{{busSize}} Passenger {{busType}} Rental in Florida</h1>
+    <p class="subtitle">Rent a {{busSize}}-passenger {{busTypeLower}} for group transportation anywhere in Florida. {{idealFor}}.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem;align-items:start;">
+      <div class="article-body">
+        <h2>{{busSize}} Passenger {{busType}} Rental</h2>
+        <p>{{description}}</p>
+
+        <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">{{busSize}}</div><div class="stat-lbl">Passengers</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">${{priceLow}}-${{priceHigh}}</div><div class="stat-lbl">Per Hour</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">${{dailyLow}}-${{dailyHigh}}</div><div class="stat-lbl">Full Day</div></div>
+          <div class="stat"><div class="stat-num" style="font-size:1.6rem;">24/7</div><div class="stat-lbl">Available</div></div>
+        </div>
+
+        <h3>Features & Amenities</h3>
+        <ul class="check-list">
+          {{#each features}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <h3>Ideal For</h3>
+        <p>A {{busSize}}-passenger {{busTypeLower}} is perfect for:</p>
+        <ul class="check-list">
+          {{#each idealForList}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <h3>Pricing for {{busSize}} Passenger {{busType}}</h3>
+        <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;">
+          <thead><tr style="border-bottom:2px solid var(--gold);">
+            <th style="text-align:left;padding:10px;color:var(--gold);font-size:0.8rem;text-transform:uppercase;">Rate Type</th>
+            <th style="text-align:left;padding:10px;color:var(--gold);font-size:0.8rem;text-transform:uppercase;">Estimated Range</th>
+          </tr></thead>
+          <tbody>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;color:var(--white);">Hourly Rate</td><td style="padding:10px;color:var(--muted);">${{priceLow}} - ${{priceHigh}} per hour</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;color:var(--white);">Full Day (8-10 hrs)</td><td style="padding:10px;color:var(--muted);">${{dailyLow}} - ${{dailyHigh}}</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;color:var(--white);">Per Mile</td><td style="padding:10px;color:var(--muted);">${{mileLow}} - ${{mileHigh}} per mile</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;color:var(--white);">Per Person (est.)</td><td style="padding:10px;color:var(--muted);">${{perPersonLow}} - ${{perPersonHigh}} per person</td></tr>
+          </tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.85rem;">Prices vary by date, distance, and season. <a href="/pricing/">See full pricing guide</a>. Get an exact quote free.</p>
+
+        <h3>Compare Bus Sizes</h3>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each otherSizes}}<a href="/bus-rental/{{slug}}/" class="area-chip">{{size}} Passenger</a>
+          {{/each}}
+        </div>
+
+        <h3>Popular Routes for {{busSize}} Passenger {{busType}}</h3>
+        <ul class="check-list">
+          {{#each popularRoutes}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
+          {{/each}}
+        </ul>
+
+        <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <h3>Rent a {{busSize}} Passenger {{busType}}</h3>
+          <p style="color:var(--muted);">Get a free quote for a {{busSize}}-passenger {{busTypeLower}} anywhere in Florida. We respond within 2 hours.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+            <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
+          </div>
+        </div>
+      </div>
+      <div class="article-sidebar">{{> sidebar-quote}}</div>
+    </div>
+  </div>
+</section>
+{{> footer}}

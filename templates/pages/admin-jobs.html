@@ -24,8 +24,15 @@
         </div>
         <div id="stats-bar" style="display:flex;gap:1.5rem;"></div>
       </div>
+      <div style="display:flex;gap:0.5rem;margin-bottom:1.5rem;">
+        <button class="btn btn-primary btn-sm" id="tab-jobs-btn" onclick="showTab('jobs')">Jobs</button>
+        <button class="btn btn-outline btn-sm" id="tab-calendar-btn" onclick="showTab('calendar')">Calendar</button>
+        <button class="btn btn-outline btn-sm" id="tab-vendors-btn" onclick="showTab('vendors')">Vendors</button>
+      </div>
       <div id="jobs-list"></div>
       <div id="job-detail" style="display:none;"></div>
+      <div id="calendar-panel" style="display:none;"></div>
+      <div id="vendors-panel" style="display:none;"></div>
     </div>
   </div>
 </section>
@@ -57,11 +64,13 @@ function loadJobs() {
 })();
 
 function renderJobs(jobs) {
+  var pending = jobs.filter(function(j) { return j.status === 'pending'; }).length;
   var open = jobs.filter(function(j) { return j.status === 'open'; }).length;
   var awarded = jobs.filter(function(j) { return j.status === 'awarded'; }).length;
   var totalBids = jobs.reduce(function(s, j) { return s + (j.bidCount || 0); }, 0);
 
   document.getElementById('stats-bar').innerHTML =
+    '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:#e67e22;">' + pending + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Pending</div></div>' +
     '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:var(--gold);">' + jobs.length + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Total</div></div>' +
     '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:#2ecc71;">' + open + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Open</div></div>' +
     '<div style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:2rem;color:var(--gold);">' + totalBids + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Bids</div></div>';
@@ -72,21 +81,21 @@ function renderJobs(jobs) {
   }
 
   var html = jobs.map(function(j) {
-    var statusColor = j.status === 'open' ? '#2ecc71' : j.status === 'awarded' ? '#f5a623' : '#8a9ab5';
+    var statusColor = j.status === 'pending' ? '#e67e22' : j.status === 'open' ? '#2ecc71' : j.status === 'awarded' ? '#f5a623' : '#8a9ab5';
     var date = new Date(j.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     var lowestBid = j.bids && j.bids.length > 0 ? '$' + Math.min.apply(null, j.bids.map(function(b) { return b.total_price; })).toFixed(2) : '-';
-    return '<div class="card" style="margin-bottom:1rem;cursor:pointer;" onclick="viewJob(\'' + j.id + '\')">' +
+    return '<div class="card" style="margin-bottom:1rem;' + (j.status === 'pending' ? 'border-color:#e67e22;' : '') + '">' +
       '<div class="card-body" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">' +
-      '<div>' +
+      '<div style="cursor:pointer;" onclick="viewJob(\'' + j.id + '\')">' +
       '<span style="display:inline-block;background:' + statusColor + ';color:#060e1c;padding:2px 10px;border-radius:100px;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem;">' + j.status + '</span>' +
       '<h3 style="font-size:1.1rem;margin-bottom:0.3rem;">' + (j.service || 'Quote') + ' - ' + (j.passengers || '?') + ' pax</h3>' +
       '<p style="color:var(--muted);font-size:0.85rem;margin:0;">' + (j.pickup_location || '?') + ' &rarr; ' + (j.dropoff_location || '?') + '</p>' +
-      '<p style="color:var(--muted);font-size:0.78rem;margin:0.3rem 0 0;">' + date + ' | ' + (j.pickup_date || 'No date') + ' | ' + (j.customer_name || 'Anonymous') + '</p>' +
+      '<p style="color:var(--muted);font-size:0.78rem;margin:0.3rem 0 0;">' + date + ' | ' + (j.pickup_date || 'No date') + ' | ' + (j.customer_name || 'Anonymous') + ' | ' + (j.customer_email || '') + ' | ' + (j.customer_phone || '') + '</p>' +
       '</div>' +
       '<div style="text-align:right;">' +
-      '<div style="font-family:Bebas Neue,sans-serif;font-size:1.8rem;color:var(--gold);">' + (j.bidCount || 0) + '</div>' +
-      '<div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;">Bids</div>' +
-      (j.bids && j.bids.length > 0 ? '<div style="font-size:0.8rem;color:#2ecc71;margin-top:0.3rem;">Low: ' + lowestBid + '</div>' : '') +
+      (j.status === 'pending' ? '<button class="btn btn-primary btn-sm" style="margin-bottom:0.5rem;white-space:nowrap;" onclick="sendForBid(\'' + j.id + '\')">Send Out for Bid</button><br/><button class="btn btn-sm" style="border:1px solid #e74c3c;color:#e74c3c;background:transparent;white-space:nowrap;" onclick="rejectJob(\'' + j.id + '\')">Reject</button>' :
+      '<div style="font-family:Bebas Neue,sans-serif;font-size:1.8rem;color:var(--gold);">' + (j.bidCount || 0) + '</div><div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;">Bids</div>' +
+      (j.bids && j.bids.length > 0 ? '<div style="font-size:0.8rem;color:#2ecc71;margin-top:0.3rem;">Low: ' + lowestBid + '</div>' : '')) +
       '</div></div></div>';
   }).join('');
 
@@ -120,9 +129,14 @@ function viewJob(jobId) {
         return '<tr><td style="padding:6px 0;color:var(--gold);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;width:100px;vertical-align:top;">' + f[0] + '</td><td style="padding:6px 0;color:var(--muted);font-size:0.9rem;">' + f[1] + '</td></tr>';
       }).join('') + '</table>';
 
-      if (j.status === 'open') {
-        html += '<div style="margin-top:1rem;display:flex;gap:0.5rem;"><button class="btn btn-outline btn-sm" onclick="closeJob(\'' + j.id + '\')">Close Job</button></div>';
+      html += '<div style="margin-top:1rem;display:flex;gap:0.5rem;flex-wrap:wrap;">';
+      if (j.status === 'pending') {
+        html += '<button class="btn btn-primary btn-sm" onclick="sendForBid(\'' + j.id + '\')">Send Out for Bid</button><button class="btn btn-sm" style="border:1px solid #e74c3c;color:#e74c3c;background:transparent;" onclick="rejectJob(\'' + j.id + '\')">Reject Lead</button>';
+      } else if (j.status === 'open') {
+        html += '<button class="btn btn-outline btn-sm" onclick="closeJob(\'' + j.id + '\')">Close Job</button>';
       }
+      html += '<button class="btn btn-sm" style="border:1px solid #e74c3c;color:#e74c3c;background:transparent;margin-left:auto;" onclick="deleteJob(\'' + j.id + '\')">Delete Job</button>';
+      html += '</div>';
       html += '</div></div>';
 
       // Bids
@@ -146,6 +160,40 @@ function viewJob(jobId) {
         }).join('');
       }
 
+      // Deal Sheet (shows after bid is awarded)
+      if (j.status === 'awarded' || j.status === 'paid') {
+        var awardedBid = bids.find(function(b) { return b.id === j.awarded_bid_id; });
+        var vendorCost = awardedBid ? parseFloat(awardedBid.total_price) : 0;
+
+        html += '<div class="card" style="margin-top:2rem;border-color:var(--gold);"><div class="card-body">';
+        html += '<h3 style="color:var(--gold);font-size:1.4rem;margin-bottom:1.5rem;">Deal Sheet</h3>';
+
+        if (j.payment_status === 'invoiced' || j.payment_status === 'paid') {
+          // Show existing deal info
+          var payStatus = j.payment_status === 'paid' ? '<span style="color:#2ecc71;font-weight:700;">PAID</span>' : '<span style="color:#e67e22;font-weight:700;">INVOICED - AWAITING PAYMENT</span>';
+          html += '<table style="width:100%;">';
+          html += '<tr><td style="padding:8px 0;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;width:140px;">Vendor Cost</td><td style="padding:8px 0;color:var(--muted);font-size:1rem;">$' + (j.vendor_cost || vendorCost).toFixed(2) + '</td></tr>';
+          html += '<tr><td style="padding:8px 0;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;">Customer Price</td><td style="padding:8px 0;color:#f8f6f0;font-size:1.2rem;font-weight:700;">$' + (j.customer_price || 0).toFixed(2) + '</td></tr>';
+          html += '<tr><td style="padding:8px 0;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;">Your Profit</td><td style="padding:8px 0;color:#2ecc71;font-size:1.2rem;font-weight:700;">$' + (j.profit || 0).toFixed(2) + '</td></tr>';
+          html += '<tr><td style="padding:8px 0;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;">Payment Status</td><td style="padding:8px 0;">' + payStatus + '</td></tr>';
+          html += '</table>';
+          if (j.square_payment_url) {
+            html += '<div style="margin-top:1rem;"><a href="' + j.square_payment_url + '" target="_blank" class="btn btn-outline btn-sm">View Payment Link</a></div>';
+          }
+        } else {
+          // Show deal sheet form
+          html += '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1.5rem;">';
+          html += '<div style="background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:center;"><div style="color:var(--muted);font-size:0.7rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Vendor Cost</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.8rem;color:var(--muted);">$' + vendorCost.toFixed(2) + '</div></div>';
+          html += '<div style="background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:center;"><div style="color:var(--muted);font-size:0.7rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Your Price</div><div><input type="number" id="deal-price" step="0.01" min="' + vendorCost.toFixed(2) + '" value="' + (vendorCost * 1.25).toFixed(2) + '" style="width:100%;background:transparent;border:none;color:var(--gold);font-family:Bebas Neue,sans-serif;font-size:1.8rem;text-align:center;outline:none;" onchange="updateProfit(' + vendorCost + ')"/></div></div>';
+          html += '<div style="background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:center;"><div style="color:var(--muted);font-size:0.7rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Your Profit</div><div id="deal-profit" style="font-family:Bebas Neue,sans-serif;font-size:1.8rem;color:#2ecc71;">$' + (vendorCost * 0.25).toFixed(2) + '</div></div>';
+          html += '</div>';
+          html += '<div class="form-group" style="margin-bottom:1rem;"><label style="display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;">Note to Customer (optional)</label><input type="text" id="deal-note" placeholder="e.g. Includes meet-and-greet, luggage help, round trip" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.8rem 1rem;border-radius:4px;font-family:DM Sans,sans-serif;font-size:0.9rem;"/></div>';
+          html += '<button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="sendInvoice(\'' + j.id + '\')">Send Invoice to Customer &rarr;</button>';
+          html += '<p style="color:var(--muted);font-size:0.78rem;margin-top:0.5rem;text-align:center;">Creates a Square payment link and emails it to ' + (j.customer_email || 'customer') + '</p>';
+        }
+        html += '</div></div>';
+      }
+
       document.getElementById('job-detail').innerHTML = html;
       document.getElementById('job-detail').style.display = 'block';
     });
@@ -158,10 +206,241 @@ function backToList() {
   loadJobs();
 }
 
+function sendForBid(jobId) {
+  if (!confirm('Approve this lead and send to all vendors for bidding?')) return;
+  fetch('/.netlify/functions/send-to-vendors?secret=' + encodeURIComponent(adminSecret) + '&job_id=' + jobId)
+    .then(function() { alert('Sent to vendors!'); loadJobs(); });
+}
+
+function rejectJob(jobId) {
+  if (!confirm('Reject this lead? It will be closed.')) return;
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&action=close&job_id=' + jobId, { method: 'POST' })
+    .then(function() { loadJobs(); });
+}
+
 function awardBid(jobId, bidId) {
-  if (!confirm('Award this bid? The vendor will need to be contacted separately.')) return;
-  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&action=award&job_id=' + jobId + '&bid_id=' + bidId, { method: 'POST' })
-    .then(function() { viewJob(jobId); });
+  if (!confirm('Award this bid? The vendor will be notified by email automatically.')) return;
+  fetch('/.netlify/functions/award-bid?secret=' + encodeURIComponent(adminSecret) + '&job_id=' + jobId + '&bid_id=' + bidId)
+    .then(function() { alert('Bid awarded! Vendor has been notified.'); viewJob(jobId); });
+}
+
+function updateProfit(vendorCost) {
+  var price = parseFloat(document.getElementById('deal-price').value) || 0;
+  var profit = price - vendorCost;
+  document.getElementById('deal-profit').textContent = '$' + profit.toFixed(2);
+  document.getElementById('deal-profit').style.color = profit >= 0 ? '#2ecc71' : '#e74c3c';
+}
+
+function sendInvoice(jobId) {
+  var price = parseFloat(document.getElementById('deal-price').value);
+  var note = document.getElementById('deal-note').value;
+  if (!price || price <= 0) return alert('Enter a valid customer price');
+  if (!confirm('Send invoice for $' + price.toFixed(2) + ' to the customer? A Square payment link will be emailed to them.')) return;
+
+  fetch('/.netlify/functions/send-invoice', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ secret: adminSecret, job_id: jobId, customer_price: price, note: note })
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    if (data.success) {
+      alert('Invoice sent! Customer will receive payment link at their email.\n\nCustomer Price: $' + data.customer_price.toFixed(2) + '\nVendor Cost: $' + data.vendor_cost.toFixed(2) + '\nYour Profit: $' + data.profit.toFixed(2));
+      viewJob(jobId);
+    } else {
+      alert('Error: ' + (data.error || 'Failed to create invoice'));
+    }
+  })
+  .catch(function(e) { alert('Network error: ' + e.message); });
+}
+
+function showTab(tab) {
+  document.getElementById('jobs-list').style.display = tab === 'jobs' ? 'block' : 'none';
+  document.getElementById('job-detail').style.display = 'none';
+  document.getElementById('calendar-panel').style.display = tab === 'calendar' ? 'block' : 'none';
+  document.getElementById('vendors-panel').style.display = tab === 'vendors' ? 'block' : 'none';
+  document.getElementById('tab-jobs-btn').className = tab === 'jobs' ? 'btn btn-primary btn-sm' : 'btn btn-outline btn-sm';
+  document.getElementById('tab-calendar-btn').className = tab === 'calendar' ? 'btn btn-primary btn-sm' : 'btn btn-outline btn-sm';
+  document.getElementById('tab-vendors-btn').className = tab === 'vendors' ? 'btn btn-primary btn-sm' : 'btn btn-outline btn-sm';
+  if (tab === 'vendors') loadVendors();
+  if (tab === 'calendar') loadCalendar();
+}
+
+var calendarJobs = [];
+var calendarMonth = new Date().getMonth();
+var calendarYear = new Date().getFullYear();
+
+function loadCalendar() {
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret))
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      calendarJobs = (data.jobs || []).filter(function(j) { return j.pickup_date && j.payment_status === 'paid'; });
+      renderCalendar();
+    });
+}
+
+function renderCalendar() {
+  var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var dayNames = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+  var firstDay = new Date(calendarYear, calendarMonth, 1).getDay();
+  var daysInMonth = new Date(calendarYear, calendarMonth + 1, 0).getDate();
+  var todayStr = new Date().toISOString().split('T')[0];
+
+  var html = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;">';
+  html += '<button class="btn btn-outline btn-sm" onclick="prevMonth()">&larr; Prev</button>';
+  html += '<h2 style="margin:0;">' + monthNames[calendarMonth] + ' ' + calendarYear + '</h2>';
+  html += '<button class="btn btn-outline btn-sm" onclick="nextMonth()">Next &rarr;</button>';
+  html += '</div>';
+
+  // Day headers
+  html += '<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:2px;">';
+  dayNames.forEach(function(d) {
+    html += '<div style="text-align:center;padding:8px;color:var(--gold);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;">' + d + '</div>';
+  });
+  html += '</div>';
+
+  // Calendar grid
+  html += '<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px;">';
+
+  // Empty cells before first day
+  for (var i = 0; i < firstDay; i++) {
+    html += '<div style="background:var(--card);border:1px solid var(--border);border-radius:4px;min-height:90px;padding:6px;opacity:0.3;"></div>';
+  }
+
+  // Days
+  for (var day = 1; day <= daysInMonth; day++) {
+    var dateStr = calendarYear + '-' + String(calendarMonth + 1).padStart(2, '0') + '-' + String(day).padStart(2, '0');
+    var isToday = dateStr === todayStr;
+    var dayJobs = calendarJobs.filter(function(j) { return j.pickup_date === dateStr; });
+
+    html += '<div style="background:' + (isToday ? 'rgba(245,166,35,0.08)' : 'var(--card)') + ';border:1px solid ' + (isToday ? 'var(--gold)' : 'var(--border)') + ';border-radius:4px;min-height:90px;padding:6px;">';
+    html += '<div style="font-size:0.8rem;font-weight:' + (isToday ? '700' : '400') + ';color:' + (isToday ? 'var(--gold)' : 'var(--muted)') + ';margin-bottom:4px;">' + day + '</div>';
+
+    dayJobs.forEach(function(j) {
+      var bgColor = j.payment_status === 'paid' ? 'rgba(46,204,113,0.2)' : 'rgba(245,166,35,0.2)';
+      var borderColor = j.payment_status === 'paid' ? '#2ecc71' : '#f5a623';
+      var label = (j.service || 'Job').substring(0, 8);
+      html += '<div onclick="viewJob(\'' + j.id + '\');showTab(\'jobs\');" style="background:' + bgColor + ';border-left:3px solid ' + borderColor + ';border-radius:3px;padding:3px 6px;margin-bottom:3px;cursor:pointer;font-size:0.7rem;">';
+      html += '<div style="color:#f8f6f0;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + label + '</div>';
+      html += '<div style="color:var(--muted);font-size:0.65rem;">' + (j.passengers || '?') + ' pax' + (j.payment_status === 'paid' ? ' - PAID' : '') + '</div>';
+      html += '</div>';
+    });
+
+    html += '</div>';
+  }
+
+  // Empty cells after last day
+  var totalCells = firstDay + daysInMonth;
+  var remaining = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+  for (var r = 0; r < remaining; r++) {
+    html += '<div style="background:var(--card);border:1px solid var(--border);border-radius:4px;min-height:90px;padding:6px;opacity:0.3;"></div>';
+  }
+
+  html += '</div>';
+
+  // Upcoming trips list below calendar
+  var upcoming = calendarJobs.filter(function(j) { return j.pickup_date >= todayStr; }).sort(function(a,b) { return a.pickup_date.localeCompare(b.pickup_date); }).slice(0, 10);
+  if (upcoming.length > 0) {
+    html += '<h3 style="margin-top:2rem;margin-bottom:1rem;">Upcoming Trips</h3>';
+    upcoming.forEach(function(j) {
+      var paid = j.payment_status === 'paid';
+      html += '<div class="card" style="margin-bottom:0.5rem;cursor:pointer;' + (paid ? 'border-color:#2ecc71;' : 'border-color:#f5a623;') + '" onclick="viewJob(\'' + j.id + '\');showTab(\'jobs\');">';
+      html += '<div class="card-body" style="display:flex;justify-content:space-between;align-items:center;padding:0.8rem 1.2rem;">';
+      html += '<div><span style="color:var(--gold);font-family:Space Mono,monospace;font-size:0.8rem;margin-right:1rem;">' + j.pickup_date + '</span>';
+      html += '<span style="color:#f8f6f0;">' + (j.service || 'Job') + '</span>';
+      html += '<span style="color:var(--muted);font-size:0.85rem;margin-left:0.5rem;">' + (j.passengers || '?') + ' pax | ' + (j.pickup_location || '?') + ' &rarr; ' + (j.dropoff_location || '?') + '</span></div>';
+      html += '<span style="color:' + (paid ? '#2ecc71' : '#f5a623') + ';font-size:0.75rem;font-weight:700;text-transform:uppercase;">' + (paid ? 'PAID' : 'AWARDED') + '</span>';
+      html += '</div></div>';
+    });
+  }
+
+  document.getElementById('calendar-panel').innerHTML = html;
+}
+
+function prevMonth() { calendarMonth--; if (calendarMonth < 0) { calendarMonth = 11; calendarYear--; } renderCalendar(); }
+function nextMonth() { calendarMonth++; if (calendarMonth > 11) { calendarMonth = 0; calendarYear++; } renderCalendar(); }
+
+function loadVendors() {
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&resource=vendors')
+    .then(function(r) { return r.json(); })
+    .then(function(data) { renderVendors(data.vendors || []); });
+}
+
+function renderVendors(vendors) {
+  var html = '<div class="card" style="margin-bottom:1.5rem;"><div class="card-body">';
+  html += '<h3 style="color:var(--gold);font-size:1.3rem;margin-bottom:1rem;">Add New Vendor</h3>';
+  html += '<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto;gap:0.8rem;align-items:end;">';
+  html += '<div class="form-group" style="margin:0;"><label style="display:block;font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Company</label><input type="text" id="v-company" placeholder="Company name" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.6rem;border-radius:4px;font-size:0.85rem;"/></div>';
+  html += '<div class="form-group" style="margin:0;"><label style="display:block;font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Contact</label><input type="text" id="v-contact" placeholder="Contact name" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.6rem;border-radius:4px;font-size:0.85rem;"/></div>';
+  html += '<div class="form-group" style="margin:0;"><label style="display:block;font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Email</label><input type="email" id="v-email" placeholder="email@company.com" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.6rem;border-radius:4px;font-size:0.85rem;"/></div>';
+  html += '<div class="form-group" style="margin:0;"><label style="display:block;font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">Phone</label><input type="tel" id="v-phone" placeholder="555-1234" style="width:100%;background:rgba(6,14,28,0.6);border:1px solid var(--border);color:var(--white);padding:0.6rem;border-radius:4px;font-size:0.85rem;"/></div>';
+  html += '<button class="btn btn-primary btn-sm" onclick="addVendor()">Add</button>';
+  html += '</div></div></div>';
+
+  html += '<h3 style="margin-bottom:1rem;">' + vendors.length + ' Vendor' + (vendors.length !== 1 ? 's' : '') + '</h3>';
+
+  if (vendors.length === 0) {
+    html += '<div class="card"><div class="card-body" style="text-align:center;padding:2rem;"><p style="color:var(--muted);">No vendors yet. Add your first vendor above.</p></div></div>';
+  } else {
+    html += vendors.map(function(v) {
+      var statusColor = v.active ? '#2ecc71' : '#8a9ab5';
+      return '<div class="card" style="margin-bottom:0.8rem;' + (!v.active ? 'opacity:0.6;' : '') + '"><div class="card-body" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">' +
+        '<div>' +
+        '<span style="display:inline-block;background:' + statusColor + ';color:#060e1c;padding:2px 8px;border-radius:100px;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem;">' + (v.active ? 'Active' : 'Inactive') + '</span>' +
+        '<h3 style="font-size:1.1rem;margin-bottom:0.2rem;">' + v.company_name + '</h3>' +
+        '<p style="color:var(--muted);font-size:0.85rem;margin:0;">' + v.contact_name + ' - ' + v.email + (v.phone ? ' - ' + v.phone : '') + '</p>' +
+        '</div>' +
+        '<div style="display:flex;gap:0.4rem;">' +
+        '<button class="btn btn-outline btn-sm" onclick="toggleVendor(\'' + v.id + '\')">' + (v.active ? 'Deactivate' : 'Activate') + '</button>' +
+        '<button class="btn btn-sm" style="border:1px solid #e74c3c;color:#e74c3c;background:transparent;" onclick="deleteVendor(\'' + v.id + '\',\'' + v.company_name.replace(/'/g, '') + '\')">Delete</button>' +
+        '</div></div></div>';
+    }).join('');
+  }
+
+  document.getElementById('vendors-panel').innerHTML = html;
+}
+
+function addVendor() {
+  var company = document.getElementById('v-company').value;
+  var contact = document.getElementById('v-contact').value;
+  var email = document.getElementById('v-email').value;
+  var phone = document.getElementById('v-phone').value;
+  if (!company || !contact || !email) return alert('Company, contact, and email are required');
+
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&resource=vendors&action=add', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ company_name: company, contact_name: contact, email: email, phone: phone })
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) loadVendors();
+    else alert(d.error || 'Failed to add vendor');
+  });
+}
+
+function toggleVendor(id) {
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&resource=vendors&action=toggle&vendor_id=' + id, { method: 'POST' })
+    .then(function() { loadVendors(); });
+}
+
+function deleteVendor(id, name) {
+  if (!confirm('Delete vendor ' + name + '? This cannot be undone.')) return;
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&resource=vendors&action=delete&vendor_id=' + id, { method: 'POST' })
+    .then(function() { loadVendors(); });
+}
+
+function deleteJob(jobId) {
+  if (!confirm('Permanently delete this job and all its bids? This cannot be undone.')) return;
+  fetch('/.netlify/functions/jobs-admin?secret=' + encodeURIComponent(adminSecret) + '&action=delete&job_id=' + jobId, { method: 'POST' })
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.success) {
+        alert('Job deleted.');
+        setTimeout(function() { backToList(); }, 500);
+      } else {
+        alert('Error: ' + (d.error || 'Delete failed'));
+      }
+    });
 }
 
 function closeJob(jobId) {

@@ -3,10 +3,48 @@
   "@type":"TransportationCompany",
   "name":"BusBrother Transportation",
   "url":"https://busbrother.com",
-  "address":{"@type":"PostalAddress","addressLocality":"Cape Canaveral","addressRegion":"FL","postalCode":"32920","addressCountry":"US"},
+  "logo":"https://busbrother.com/favicon.svg",
+  "image":"https://busbrother.com/images/bus-seats-interior.jpg",
+  "telephone":"info@busbrother.com",
+  "email":"info@busbrother.com",
+  "address":{"@type":"PostalAddress","streetAddress":"Cape Canaveral","addressLocality":"Cape Canaveral","addressRegion":"FL","postalCode":"32920","addressCountry":"US"},
   "geo":{"@type":"GeoCoordinates","latitude":28.3922,"longitude":-80.6077},
-  "areaServed":["Central Florida","Orlando","Tampa","Fort Lauderdale","Daytona Beach","Space Coast","Brevard County","Orange County","Hillsborough County","Broward County","Palm Beach County","Volusia County"],
-  "openingHours":"Mo-Su 00:00-23:59",
+  "areaServed":[
+    {"@type":"State","name":"Florida"},
+    {"@type":"City","name":"Orlando"},
+    {"@type":"City","name":"Tampa"},
+    {"@type":"City","name":"Fort Lauderdale"},
+    {"@type":"City","name":"Daytona Beach"},
+    {"@type":"City","name":"Melbourne"},
+    {"@type":"City","name":"Kissimmee"},
+    {"@type":"City","name":"West Palm Beach"},
+    {"@type":"City","name":"Clearwater"},
+    {"@type":"City","name":"St. Petersburg"},
+    {"@type":"City","name":"Cape Canaveral"},
+    {"@type":"City","name":"Cocoa Beach"},
+    {"@type":"City","name":"Lakeland"},
+    {"@type":"City","name":"Sarasota"},
+    {"@type":"City","name":"Bradenton"},
+    {"@type":"City","name":"Sanford"}
+  ],
+  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
   "priceRange":"$$",
-  "description":"Charter bus and group transportation serving 120+ cities across Central and South Florida. Cruise port shuttles, airport transfers, corporate charters, wedding transportation, school groups, theme park shuttles, rocket launch viewing, and more."
+  "paymentAccepted":["Cash","Credit Card","Debit Card","Apple Pay"],
+  "currenciesAccepted":"USD",
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Charter Bus Services",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cruise Port Shuttle","description":"Group shuttle to Port Canaveral, Port Tampa Bay, and Port Everglades"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Airport Transfers","description":"Group airport shuttle from MCO, TPA, FLL, SFB, PBI, DAB"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporate Charter","description":"Professional motorcoach for conferences, retreats, and corporate events"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wedding Transportation","description":"Elegant guest shuttle for weddings and receptions"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"School Group Transportation","description":"Charter bus for field trips, athletics, and campus events"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Theme Park Shuttle","description":"Group transportation to Disney World, Universal, SeaWorld, LEGOLAND"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kennedy Space Center Tours","description":"Group transportation to KSC Visitor Complex"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Rocket Launch Viewing","description":"Coordinated transport to SpaceX and NASA launch viewing areas"}}
+    ]
+  },
+  "sameAs":["https://www.facebook.com/BusBrother","https://www.instagram.com/busbrother"],
+  "description":"Florida's #1 charter bus and group transportation broker serving 120+ cities. Cruise port shuttles, airport transfers, corporate charters, wedding transportation, school groups, theme park shuttles. Available 24/7. Serving Orlando, Tampa, Fort Lauderdale, Daytona Beach, Space Coast, and all of Central and South Florida."
 }</script>

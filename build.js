@@ -66,6 +66,7 @@ const thingsToDo = loadJSON('things-to-do');
 const themeParkGuides = loadJSON('theme-park-guides');
 const portTerminals = loadJSON('port-terminals');
 const hotelAreaGuides = loadJSON('hotel-area-guides');
+const busSizes = loadJSON('bus-sizes');
 const images = (() => { try { return JSON.parse(fs.readFileSync(path.join(DATA, 'images.json'), 'utf8')); } catch(e) { return {}; } })();
 
 // Build lookup maps
@@ -144,6 +145,16 @@ function getCityFaqs(slug, ctx, count = 5) {
   }));
 }
 
+// ── FAQ Schema Builder ────────────────────────────────────
+function buildFaqSchema(faqs) {
+  if (!faqs || !faqs.length) return '';
+  return faqs.map(f => {
+    const q = String(f.q).replace(/"/g, '\\"');
+    const a = String(f.a).replace(/"/g, '\\"');
+    return `{"@type":"Question","name":"${q}","acceptedAnswer":{"@type":"Answer","text":"${a}"}}`;
+  }).join(',');
+}
+
 // ── Page Counters ─────────────────────────────────────────
 let totalPages = 0;
 const sitemapUrls = {
@@ -173,7 +184,11 @@ const templateNames = [
   'blog-post', 'blog-index', 'venue', 'hotel-shuttle', 'school-transport',
   'seasonal-event', 'sports-venue', 'corporate-city', 'wedding-venue',
   'neighborhood', 'airport-transfer', 'index-areas',
-  'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs',
+  'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs', 'terms', 'pricing',
+  'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size',
+  'church-bus', 'employee-shuttle', 'conference-shuttle', 'government-military', 'movie-production',
+  'wedding-transportation-guide', 'cruise-port-guide', 'corporate-event-planning',
+  'school-field-trip-guide', 'charter-bus-vs-alternatives', 'airport-transfer-guide',
   'guide', 'restaurant', 'cruise-line', 'scenic-route',
   'things-to-do', 'theme-park-guide', 'port-guide', 'hotel-area-guide',
   'service-attraction', 'city-attraction'
@@ -236,6 +251,7 @@ if (templates['city-landing']) {
       nearbyAttractions: localAttractions,
       nearbyCities: nearby,
       faqs: getCityFaqs(slug, ctx),
+      faqSchema: buildFaqSchema(getCityFaqs(slug, ctx)),
       footerCities
     });
     writePage(`/areas/${city.slug}`, html);
@@ -272,6 +288,7 @@ if (templates['service-city']) {
         heroImageAlt: img ? img.alt : '',
         serviceFeatures: svc.features || [],
         faqs: (svc.faqs || []).slice(0, 3),
+        faqSchema: buildFaqSchema((svc.faqs || []).slice(0, 3)),
         otherServices: otherSvcs.map(s => ({ ...s, citySlug: city.slug })),
         nearbyCities: nearby.map(c => ({ ...c, serviceSlug: svc.slug })),
         footerCities
@@ -684,7 +701,7 @@ if (templates['service-hub']) {
 
 // ── 18. Static Pages ──────────────────────────────────────
 console.log('  Static pages...');
-const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs'];
+const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
 const staticMeta = {
   about: { title: 'About BusBrother | Charter Bus & Group Transportation', desc: 'Learn about BusBrother - Central Florida charter bus and group transportation. 120+ cities, 24/7 service, professional drivers.' },
   fleet: { title: 'Our Fleet | BusBrother Charter Bus', desc: 'BusBrother fleet: motorcoaches (45-57 pax), premium coaches (30-40 pax), minibuses (15-30 pax). Climate-controlled, ADA accessible, DOT compliant.' },
@@ -693,9 +710,26 @@ const staticMeta = {
   contact: { title: 'Contact BusBrother | Charter Bus & Group Transportation', desc: 'Contact BusBrother for charter bus and group transportation in Florida. Available 24/7. Email info@busbrother.com.' },
   'thank-you': { title: 'Quote Request Received | BusBrother', desc: 'Thank you for your quote request. BusBrother will respond within 2 hours with custom pricing.' },
   'jobs': { title: 'Job Details & Bid Submission | BusBrother', desc: 'View job details and submit your bid for BusBrother transportation jobs.' },
-  'admin/jobs': { title: 'Job Manager | BusBrother Admin', desc: 'Admin dashboard for managing jobs and vendor bids.' }
+  'admin/jobs': { title: 'Job Manager | BusBrother Admin', desc: 'Admin dashboard for managing jobs and vendor bids.' },
+  'terms': { title: 'Terms of Service | BusBrother', desc: 'BusBrother Terms of Service. Transportation broker operated by WETYR Corporation. Liability limitations, booking terms, and cancellation policy.' },
+  'pricing': { title: 'Charter Bus Prices in Florida | How Much Does a Bus Cost? | BusBrother', desc: 'Charter bus rental prices in Florida. Motorcoach $150-$300/hr, minibus $100-$200/hr. See pricing by vehicle type, route estimates, and what affects cost. Free custom quotes.' },
+  'how-it-works': { title: 'How BusBrother Works | Charter Bus Booking in 3 Steps', desc: 'Book a charter bus in 3 easy steps. Tell us your trip, get a custom quote in 2 hours, ride with confidence. Licensed carriers, no hidden fees, 24/7 availability.' },
+  'reviews': { title: 'Customer Reviews | BusBrother Charter Bus Florida', desc: 'Read reviews from BusBrother customers. 4.9/5 rating from 127+ reviews. Cruise transfers, weddings, corporate events, school trips across Florida.' },
+  'ada-accessibility': { title: 'ADA Accessible Charter Bus Rental | Wheelchair Accessible Bus | BusBrother', desc: 'ADA accessible charter bus and minibus rental in Florida. Wheelchair lifts, ramp access, service animals welcome. Inclusive group transportation for all.' },
+  'safety': { title: 'Charter Bus Safety Standards | BusBrother', desc: 'BusBrother safety standards. USDOT registered carriers, FMCSA compliance, $5M insurance, CDL drivers with background checks. Your group safety is our priority.' },
+  'services/church-bus': { title: 'Church Bus Rental Florida | Religious Group Transportation | BusBrother', desc: 'Charter bus rental for churches and religious groups in Florida. Sunday outings, retreats, mission trips, youth camps, VBS, conferences. Licensed, insured, 24/7.' },
+  'services/employee-shuttle': { title: 'Employee Shuttle Service Florida | Corporate Commuter Bus | BusBrother', desc: 'Employee shuttle service across Florida. Daily commuter buses, campus shuttles, off-site parking transport, construction site shuttles. Recurring and one-time service.' },
+  'services/conference-shuttle': { title: 'Conference Shuttle Bus Rental Orlando | Convention Transportation | BusBrother', desc: 'Conference and convention shuttle bus rental in Orlando and Tampa. Hotel-to-venue loops, airport transfers, multi-bus coordination. Serving OCCC, Tampa Convention Center.' },
+  'services/government-military': { title: 'Government & Military Charter Bus Rental Florida | BusBrother', desc: 'Charter bus transportation for government agencies and military installations in Florida. DOT compliant, background-checked drivers, secure transportation.' },
+  'services/movie-production': { title: 'Film Production Crew Transportation Florida | BusBrother', desc: 'Charter bus transportation for film and TV production crews in Florida. Cast shuttles, crew transport, location moves, basecamp shuttles. 24/7 flexible scheduling.' },
+  'guides/wedding-transportation': { title: 'Florida Wedding Transportation Guide | Shuttle Service for Weddings | BusBrother', desc: 'Complete guide to wedding transportation in Florida. Vehicle options, timeline, pickup coordination, top FL wedding venues, cost breakdown. Free quote.' },
+  'guides/cruise-port': { title: 'Florida Cruise Port Shuttle Guide | Port Canaveral, Tampa, Everglades | BusBrother', desc: 'Complete guide to Florida cruise port transportation. All 3 ports compared, pre-cruise hotels, embarkation timing, parking vs shuttle costs.' },
+  'guides/corporate-event-planning': { title: 'Corporate Event Transportation Planning Guide | BusBrother', desc: 'Plan transportation for corporate events in Florida. Conferences, retreats, incentive trips, multi-bus logistics, branding, billing options.' },
+  'guides/school-field-trip': { title: 'School Field Trip Bus Guide Florida | BusBrother', desc: 'Plan school field trips with BusBrother. Student safety, cost per student, fundraising, top FL field trip destinations. Licensed drivers, insured buses.' },
+  'guides/charter-bus-vs-alternatives': { title: 'Charter Bus vs Uber, Rental Cars, Taxis | Group Transportation Comparison | BusBrother', desc: 'Detailed comparison of charter bus vs Uber XL, rental cars, taxis for groups. Cost tables for 10/20/30/50 person groups. See why charter wins.' },
+  'guides/airport-transfer': { title: 'Florida Airport Shuttle Guide | MCO, TPA, FLL, SFB Transfers | BusBrother', desc: 'Complete Florida airport transfer guide. All 6 airports compared. Group pickup procedures, flight delay handling, cruise combos. Free quote.' }
 };
-const templateMap = { 'jobs': 'job-page', 'admin/jobs': 'admin-jobs' };
+const templateMap = { 'jobs': 'job-page', 'admin/jobs': 'admin-jobs', 'services/church-bus': 'church-bus', 'services/employee-shuttle': 'employee-shuttle', 'services/conference-shuttle': 'conference-shuttle', 'services/government-military': 'government-military', 'services/movie-production': 'movie-production', 'guides/wedding-transportation': 'wedding-transportation-guide', 'guides/cruise-port': 'cruise-port-guide', 'guides/corporate-event-planning': 'corporate-event-planning', 'guides/school-field-trip': 'school-field-trip-guide', 'guides/charter-bus-vs-alternatives': 'charter-bus-vs-alternatives', 'guides/airport-transfer': 'airport-transfer-guide' };
 for (const page of staticPages) {
   const tplName = templateMap[page] || page;
   if (templates[tplName]) {
@@ -737,6 +771,27 @@ if (templates['index-areas']) {
   });
   writePage('/attractions', html);
   track('other', '/attractions', '0.7');
+}
+
+// ── 20b. Bus Size/Capacity Pages ──────────────────────────
+if (templates['bus-size'] && busSizes.length) {
+  console.log('  Bus size pages...');
+  for (const bs of busSizes) {
+    const otherSizes = busSizes.filter(b => b.slug !== bs.slug);
+    const html = render(templates['bus-size'], {
+      ...bs, otherSizes,
+      pageTitle: `${bs.busSize} Passenger ${bs.busType} Rental Florida | BusBrother`,
+      metaDescription: `Rent a ${bs.busSize}-passenger ${bs.busTypeLower} in Florida. $${bs.priceLow}-$${bs.priceHigh}/hr. ${bs.idealFor}. Free quote from BusBrother.`,
+      canonicalPath: `/bus-rental/${bs.slug}`,
+      geoPlacename: 'Central Florida', geoPosition: '28.3922;-80.6077', footerCities
+    });
+    writePage(`/bus-rental/${bs.slug}`, html);
+    track('other', `/bus-rental/${bs.slug}`, '0.7');
+  }
+  // Bus rental index
+  const brIdx = `{{> head}}{{> schema}}{{> nav}}<div class="page-hero"><div class="page-hero-grid"></div><div class="container" style="position:relative;z-index:2;"><h1>Charter Bus Rental by Size | BusBrother Florida</h1><p class="subtitle">Choose the right bus for your group. From 15-passenger minibuses to 56-passenger motorcoaches.</p></div></div><section class="section"><div class="container"><div class="grid-3">${busSizes.map(b => `<a href="/bus-rental/${b.slug}/" class="card" style="text-decoration:none;"><div class="card-top-bar"></div><div class="card-body" style="text-align:center;"><div style="font-family:Bebas Neue,sans-serif;font-size:3rem;color:var(--gold);">${b.busSize}</div><div style="font-size:0.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem;">Passengers</div><h3>${b.busType}</h3><p style="color:var(--muted);font-size:0.85rem;">$${b.priceLow}-$${b.priceHigh}/hr</p><span style="color:var(--gold);font-size:0.8rem;font-family:Space Mono,monospace;">VIEW DETAILS &rarr;</span></div></a>`).join('')}</div><div style="text-align:center;margin-top:3rem;"><a href="/book/" class="btn btn-primary btn-lg">Get a Free Quote &rarr;</a></div></div></section>{{> footer}}`;
+  writePage('/bus-rental', render(brIdx, { pageTitle: 'Charter Bus Rental by Size | BusBrother Florida', metaDescription: 'Choose the right charter bus size for your group. 15 to 56 passenger vehicles. Minibuses, coaches, motorcoaches. Pricing and features for each.', canonicalPath: '/bus-rental', geoPlacename: 'Central Florida', geoPosition: '28.3922;-80.6077', footerCities }));
+  track('other', '/bus-rental', '0.8');
 }
 
 // ── 21. Travel Guide Pages ────────────────────────────────

@@ -108,6 +108,36 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // -- Date Inputs: block past dates (local timezone) --
+  var now = new Date();
+  var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+  document.querySelectorAll('input[type="date"]').forEach(function(el) {
+    el.setAttribute('min', today);
+    el.addEventListener('change', function() {
+      if (this.value && this.value < today) {
+        this.style.borderColor = '#e74c3c';
+        this.style.color = '#e74c3c';
+      } else {
+        this.style.borderColor = '';
+        this.style.color = '';
+      }
+    });
+    // Block form submit if past date
+    var form = el.closest('form');
+    if (form && !form.dataset.dateValidated) {
+      form.dataset.dateValidated = 'true';
+      form.addEventListener('submit', function(e) {
+        var dateInput = this.querySelector('input[type="date"]');
+        if (dateInput && dateInput.value && dateInput.value < today) {
+          e.preventDefault();
+          dateInput.style.borderColor = '#e74c3c';
+          dateInput.style.color = '#e74c3c';
+          dateInput.focus();
+        }
+      });
+    }
+  });
+
   // -- Sticky Nav Shadow --
   window.addEventListener('scroll', () => {
     const nav = document.getElementById('navbar');

@@ -8,7 +8,7 @@ const SUPABASE_KEY = process.env.SUPABASE_SERVICE_KEY || process.env.SUPABASE_AN
 const CORS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
-  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Methods': 'GET, POST, PATCH, DELETE, OPTIONS',
   'Content-Type': 'application/json'
 };
 
@@ -25,7 +25,8 @@ async function supabaseQuery(path, method = 'GET', body = null) {
   if (body) opts.body = JSON.stringify(body);
 
   const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, opts);
-  const data = await res.json();
+  let data = [];
+  try { const text = await res.text(); if (text) data = JSON.parse(text); } catch(e) {}
   return { ok: res.ok, status: res.status, data };
 }
 

@@ -1,5 +1,19 @@
 {{> head}}
 {{> schema}}
+{{#if faqSchema}}<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[{{faqSchema}}]
+}</script>{{/if}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"{{cityName}}","item":"https://busbrother.com/areas/{{citySlug}}/"},
+    {"@type":"ListItem","position":3,"name":"{{serviceName}}","item":"https://busbrother.com/areas/{{citySlug}}/{{serviceSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
@@ -47,10 +61,10 @@
 
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
           <h3>Book {{serviceName}} in {{cityName}}</h3>
-          <p style="color:var(--muted);">Ready to book? Get a free, no-obligation quote for {{serviceNameLower}} from {{cityName}}, FL. We respond within 2 hours.</p>
+          <p style="color:var(--muted);">Ready to book? Get a free, no-obligation quote for {{serviceNameLower}} from {{cityName}}, FL. We respond within 2 hours. <a href="/pricing/">See pricing estimates</a>.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
-            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
           </div>
         </div>
       </div>

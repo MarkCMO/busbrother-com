@@ -6,6 +6,10 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Schedule configured via Netlify dashboard instead of toml for CLI deploy compatibility
+# [functions.trip-reminders]
+#   schedule = "0 8 * * *"
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -49,114 +53,233 @@
   to = "/.netlify/functions/jobs-admin"
   status = 200
 
-# ── Force www to non-www ──────────────────────────────
 [[redirects]]
-  from = "https://www.busbrother.com/*"
-  to = "https://busbrother.com/:splat"
-  status = 301
-  force = true
+  from = "/api/square-webhook"
+  to = "/.netlify/functions/square-webhook"
+  status = 200
 
-[[redirects]]
-  from = "http://www.busbrother.com/*"
-  to = "https://busbrother.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://busbrother.com/*"
-  to = "https://busbrother.com/:splat"
-  status = 301
-  force = true
-
-# ── Old site 404s - redirect to new equivalents ──────
+# ── Specific old URLs (must come BEFORE pattern redirects) ──────
 [[redirects]]
   from = "/book-a-trip"
   to = "/book/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/shuttle"
   to = "/services/cruise-shuttle/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/charter"
   to = "/services/corporate-charter/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/lander"
   to = "/"
   status = 301
-
-# ── Old area pages without trailing slash ─────────────
-[[redirects]]
-  from = "/areas/port-canaveral"
-  to = "/areas/port-canaveral/"
-  status = 301
-
-[[redirects]]
-  from = "/areas/cape-canaveral"
-  to = "/areas/cape-canaveral/"
-  status = 301
-
-[[redirects]]
-  from = "/areas/titusville"
-  to = "/areas/titusville/"
-  status = 301
+  force = true
 
 [[redirects]]
   from = "/contact"
   to = "/contact/"
   status = 301
-
-# ── Old .html URLs from v1 site ──────────────────────
-[[redirects]]
-  from = "/services/:service.html"
-  to = "/services/:service/"
-  status = 301
-
-[[redirects]]
-  from = "/areas/:area.html"
-  to = "/areas/:area/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/:post.html"
-  to = "/blog/:post/"
-  status = 301
+  force = true
 
 [[redirects]]
   from = "/index.html"
   to = "/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/about/index.html"
   to = "/about/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/contact/index.html"
   to = "/contact/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/book/index.html"
   to = "/book/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/fleet/index.html"
   to = "/fleet/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/faq/index.html"
   to = "/faq/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/index.html"
   to = "/blog/"
   status = 301
+  force = true
+
+# ── Specific v1 service pages (exact matches) ──────
+[[redirects]]
+  from = "/services/cruise-shuttle.html"
+  to = "/services/cruise-shuttle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/kennedy-space-center.html"
+  to = "/services/kennedy-space-center/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/airport-transfers.html"
+  to = "/services/airport-transfers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/rocket-launch.html"
+  to = "/services/rocket-launch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/corporate-charter.html"
+  to = "/services/corporate-charter/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/wedding-events.html"
+  to = "/services/wedding-events/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/school-groups.html"
+  to = "/services/school-groups/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/theme-parks.html"
+  to = "/services/theme-parks/"
+  status = 301
+  force = true
+
+# ── Specific v1 area pages (exact matches) ──────
+[[redirects]]
+  from = "/areas/port-canaveral"
+  to = "/areas/port-canaveral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/cape-canaveral"
+  to = "/areas/cape-canaveral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/titusville"
+  to = "/areas/titusville/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/cape-canaveral.html"
+  to = "/areas/cape-canaveral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/cocoa-beach.html"
+  to = "/areas/cocoa-beach/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/port-canaveral.html"
+  to = "/areas/port-canaveral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/kennedy-space-center.html"
+  to = "/areas/kennedy-space-center/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/titusville.html"
+  to = "/areas/titusville/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/melbourne.html"
+  to = "/areas/melbourne/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/orlando.html"
+  to = "/areas/orlando/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/areas/merritt-island.html"
+  to = "/areas/merritt-island/"
+  status = 301
+  force = true
+
+# ── Specific v1 blog posts ──────
+[[redirects]]
+  from = "/blog/port-canaveral-cruise-guide.html"
+  to = "/blog/port-canaveral-cruise-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/rocket-launch-viewing-guide.html"
+  to = "/blog/rocket-launch-viewing-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/cocoa-beach-visitors-guide.html"
+  to = "/blog/cocoa-beach-visitors-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/space-coast-hidden-gems.html"
+  to = "/blog/space-coast-hidden-gems/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/kennedy-space-center-planning-guide.html"
+  to = "/blog/kennedy-space-center-planning-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/charter-bus-vs-rideshare.html"
+  to = "/blog/charter-bus-vs-rideshare/"
+  status = 301
+  force = true

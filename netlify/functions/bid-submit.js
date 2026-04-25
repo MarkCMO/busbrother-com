@@ -81,8 +81,10 @@ exports.handler = async (event) => {
       </table>
     </div>
     <div style="background:#0a1628;border:1px solid #1e3052;border-radius:0 0 8px 8px;padding:24px;text-align:center;">
-      <a href="mailto:${contact_email}?subject=BusBrother%20Job%20-%20Bid%20Accepted" style="display:inline-block;background:#2ecc71;color:#fff;padding:12px 28px;border-radius:6px;text-decoration:none;font-weight:700;font-size:14px;">Accept This Bid</a>
-      <a href="https://busbrother.com/admin/jobs/" style="display:inline-block;background:transparent;border:1px solid #1e3052;color:#f8f6f0;padding:12px 28px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;margin-left:10px;">View All Bids</a>
+      <a href="https://busbrother.com/.netlify/functions/award-bid?secret=${process.env.BUSBROTHER_ADMIN_SECRET}&job_id=${jobData.id}&bid_id=${bid.data[0].id}" style="display:inline-block;background:#2ecc71;color:#fff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:700;font-size:15px;">Accept This Bid</a>
+      <br/><br/>
+      <a href="mailto:${contact_email}?subject=BusBrother%20Job%20Question" style="display:inline-block;color:#f5a623;padding:8px 24px;text-decoration:none;font-size:13px;">Email Vendor</a>
+      <a href="https://busbrother.com/admin/jobs/" style="display:inline-block;color:#8a9ab5;padding:8px 24px;text-decoration:none;font-size:13px;">View All Bids</a>
     </div>
   </div>
 </body></html>`;

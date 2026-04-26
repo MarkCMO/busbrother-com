@@ -1,0 +1,37 @@
+
+Deploying to Netlify
+────────────────────────────────────────────────────────────────
+
+[32mDeploy path: [39m       C:\Users\13219\Desktop\Bus Brother\busbrother.com\dist
+[32mFunctions path: [39m    C:\Users\13219\Desktop\Bus Brother\busbrother.com\netlify\functions
+[32mConfiguration path: [39mC:\Users\13219\Desktop\Bus Brother\busbrother.com\netlify.toml
+
+[33m⠋[39m Uploading blobs to deploy store...
+
+[32m✔[39m Finished uploading blobs to deploy store
+[33m⠋[39m Hashing files...
+[33m⠋[39m Looking for a functions cache...
+[32m✔[39m Ignored invalid or expired functions cache
+[32m✔[39m Finished hashing 34284 files and 10 functions
+[33m⠋[39m CDN diffing files...
+[32m✔[39m CDN requesting 1 files and 10 functions
+[33m⠋[39m Uploading 11 files
+[32m✔[39m Finished uploading 11 assets
+[33m⠋[39m Waiting for deploy to go live...
+[32m✔[39m Deploy is live!
+
+🚀 Deploy complete
+────────────────────────────────────────────────────────────────
+
+   ╭────────────── ⬥  Production deploy is live ⬥  ───────────────╮
+   │                                                              │
+   │      Deployed to production URL: https://busbrother.com      │
+   │                                                              │
+   │                      Unique deploy URL:                      │
+   │   https://69ed73fc06e31c19ced5827b--busbrother.netlify.app   │
+   │                                                              │
+   ╰──────────────────────────────────────────────────────────────╯
+
+[32mBuild logs: [39m        https://app.netlify.com/projects/busbrother/deploys/69ed73fc06e31c19ced5827b
+[32mFunction logs: [39m     https://app.netlify.com/projects/busbrother/logs/functions
+[32mEdge function Logs: [39mhttps://app.netlify.com/projects/busbrother/logs/edge-functions

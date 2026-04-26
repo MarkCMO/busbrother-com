@@ -1,5 +1,38 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BlogPosting",
+  "@id":"https://busbrother.com/blog/{{blogSlug}}/#article",
+  "mainEntityOfPage":{"@type":"WebPage","@id":"https://busbrother.com/blog/{{blogSlug}}/"},
+  "headline":"{{blogTitle}}",
+  "description":"{{metaDescription}}",
+  "image":"https://busbrother.com/images/bus-seats-interior.jpg",
+  "datePublished":"{{blogDatePublished}}",
+  "dateModified":"{{buildDate}}",
+  "author":{
+    "@type":"Person",
+    "name":"Mark Gabrielli",
+    "jobTitle":"Founder, BusBrother",
+    "url":"https://busbrother.com/about/",
+    "sameAs":["https://markcmo.com","https://www.linkedin.com/in/markgabrielli/"],
+    "worksFor":{"@id":"https://busbrother.com/#organization"}
+  },
+  "publisher":{"@id":"https://busbrother.com/#organization"},
+  "articleSection":"{{blogCategory}}",
+  "wordCount":"{{blogWordCount}}",
+  "inLanguage":"en-US",
+  "isPartOf":{"@id":"https://busbrother.com/#website"}
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://busbrother.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"{{blogTitle}}","item":"https://busbrother.com/blog/{{blogSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
@@ -8,7 +41,7 @@
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{blogEmoji}}</div>
     <h1>{{blogTitle}}</h1>
     <p class="subtitle">{{metaDescription}}</p>
-    <div class="blog-meta" style="margin-top:1rem;"><span>{{blogDate}}</span><span>{{blogReadTime}} read</span><span>{{blogCategory}}</span></div>
+    <div class="blog-meta" style="margin-top:1rem;"><span>By <a href="/about/" style="color:var(--gold);">Mark Gabrielli</a></span><span>{{blogDate}}</span><span>{{blogReadTime}} read</span><span>{{blogCategory}}</span></div>
   </div>
 </div>
 <section class="section">
@@ -18,6 +51,17 @@
         {{#each sections}}<h2>{{heading}}</h2>
         <p>{{content}}</p>
         {{/each}}
+
+        <div class="card" style="margin:2.5rem 0;border-left:4px solid var(--gold);">
+          <div class="card-body" style="display:flex;gap:1.2rem;align-items:flex-start;">
+            <div style="font-size:2.5rem;line-height:1;">👤</div>
+            <div>
+              <h3 style="font-size:1.05rem;margin:0 0 0.4rem;">About the Author</h3>
+              <p style="margin:0 0 0.6rem;color:var(--muted);font-size:0.95rem;"><strong>Mark Gabrielli</strong> is the founder of BusBrother and CEO of WETYR Corporation. With over a decade of experience in Florida transportation logistics, Mark has personally coordinated thousands of group trips - from cruise port shuttles at Port Canaveral to corporate charters across Orlando and Tampa. He started BusBrother to bring transparent pricing, competitive carrier bidding, and 24/7 service to a market that historically lacked all three.</p>
+              <p style="margin:0;font-size:0.9rem;"><a href="/about/" style="color:var(--gold);">Learn more about BusBrother &rarr;</a></p>
+            </div>
+          </div>
+        </div>
 
         {{> lead-magnet}}
 

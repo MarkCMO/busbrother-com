@@ -571,9 +571,14 @@ if (templates['blog-post'] && blogTopics.length) {
     const relCityLinks = (blog.relatedCities || []).map(s => cityMap[s]).filter(Boolean);
     const recentPosts = blogTopics.filter(b => b.slug !== blog.slug).slice(0, 5);
 
+    const wordCount = (blog.sections || []).reduce((n, s) => n + String(s.content || '').split(/\s+/).length, 0);
+    const datePublished = blog.datePublished || (blog.date ? new Date(blog.date).toISOString() : '2026-01-01T00:00:00+00:00');
     const html = render(templates['blog-post'], {
       blogTitle: blog.title, blogEmoji: blog.emoji || '📝',
+      blogSlug: blog.slug,
       blogDate: blog.date || '2026', blogReadTime: blog.readTime || '5 min',
+      blogDatePublished: datePublished,
+      blogWordCount: wordCount,
       blogCategory: blog.category || 'Travel',
       sections: blog.sections || [],
       relatedServiceLinks: relSvcLinks,

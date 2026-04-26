@@ -1,5 +1,22 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"HowTo",
+  "name":"How to Book a Charter Bus in Florida with BusBrother",
+  "description":"Step-by-step guide to booking a charter bus, minibus, or motorcoach for group transportation anywhere in Florida.",
+  "totalTime":"PT5M",
+  "estimatedCost":{"@type":"MonetaryAmount","currency":"USD","value":"500"},
+  "supply":[{"@type":"HowToSupply","name":"Trip date and time"},{"@type":"HowToSupply","name":"Pickup and drop-off addresses"},{"@type":"HowToSupply","name":"Group size"}],
+  "tool":[{"@type":"HowToTool","name":"BusBrother online quote form"}],
+  "step":[
+    {"@type":"HowToStep","position":1,"name":"Submit Your Trip Details","text":"Fill out the free quote request form at busbrother.com/book/ with pickup location, drop-off location, date, time, group size, and trip type.","url":"https://busbrother.com/book/"},
+    {"@type":"HowToStep","position":2,"name":"We Review and Match Your Trip","text":"BusBrother reviews your request and matches you with licensed, insured carriers in our Florida network. Multiple carriers bid for competitive pricing."},
+    {"@type":"HowToStep","position":3,"name":"Receive Your Custom Quote","text":"Within 2 hours, you receive a custom quote with vehicle recommendation, total price, and trip details. No hidden fees."},
+    {"@type":"HowToStep","position":4,"name":"Confirm and Pay","text":"Review your quote, confirm the booking, and pay securely via Square invoice. We send you a digital confirmation."},
+    {"@type":"HowToStep","position":5,"name":"Trip Day - Driver Arrives Early","text":"Your driver arrives 15 minutes early at the pickup location. Track contact info is provided. Enjoy your trip - we handle everything else."}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>

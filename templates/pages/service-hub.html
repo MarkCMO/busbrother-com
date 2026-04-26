@@ -1,5 +1,36 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/services/{{serviceSlug}}/#service",
+  "serviceType":"{{serviceName}}",
+  "name":"{{serviceName}} - BusBrother Florida",
+  "description":"{{serviceDescription}}",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":[{"@type":"State","name":"Florida"},{"@type":"City","name":"Orlando"},{"@type":"City","name":"Tampa"},{"@type":"City","name":"Fort Lauderdale"},{"@type":"City","name":"Daytona Beach"},{"@type":"City","name":"Cape Canaveral"},{"@type":"City","name":"Cocoa Beach"},{"@type":"City","name":"Kissimmee"},{"@type":"City","name":"Melbourne"},{"@type":"City","name":"West Palm Beach"}],
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"{{serviceName}} Options",
+    "itemListElement":[
+      {"@type":"Offer","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","price":"100","minPrice":"100","maxPrice":"300"}}
+    ]
+  }
+}</script>
+{{#if faqSchema}}<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[{{faqSchema}}]
+}</script>{{/if}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://busbrother.com/services/"},
+    {"@type":"ListItem","position":3,"name":"{{serviceName}}","item":"https://busbrother.com/services/{{serviceSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>

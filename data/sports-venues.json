@@ -5,11 +5,21 @@
     "citySlug": "orlando",
     "capacity": "65000",
     "type": "stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "address": "1 Citrus Bowl Pl, Orlando, FL 32805",
     "description": "Orlando's premier outdoor stadium hosting the Citrus Bowl, NFL Pro Bowl Games, major concerts, international soccer matches, and Monster Jam events in the heart of downtown Orlando.",
-    "majorEvents": ["Citrus Bowl", "Pro Bowl Games", "Florida Cup soccer", "concerts", "Monster Jam"],
-    "transportNeeds": ["sports-event-transport", "corporate-charter", "hotel-shuttle"]
+    "majorEvents": [
+      "Citrus Bowl",
+      "Pro Bowl Games",
+      "Florida Cup soccer",
+      "concerts",
+      "Monster Jam"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "amway-center",
@@ -17,11 +27,21 @@
     "citySlug": "orlando",
     "capacity": "18846",
     "type": "arena",
-    "emoji": "🏀",
+    "emoji": "\ud83c\udfc0",
     "address": "400 W Church St, Orlando, FL 32801",
     "description": "Home of the Orlando Magic NBA team and the premier indoor entertainment venue in Central Florida. The LEED Gold-certified arena hosts concerts, family shows, WWE events, and ice shows in downtown Orlando.",
-    "majorEvents": ["Orlando Magic NBA", "concerts", "WWE", "Disney on Ice", "comedy tours"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Orlando Magic NBA",
+      "concerts",
+      "WWE",
+      "Disney on Ice",
+      "comedy tours"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "exploria-stadium",
@@ -29,11 +49,20 @@
     "citySlug": "orlando",
     "capacity": "25500",
     "type": "stadium",
-    "emoji": "⚽",
+    "emoji": "\u26bd",
     "address": "655 W Church St, Orlando, FL 32805",
     "description": "Purpose-built soccer stadium in downtown Orlando, home to Orlando City SC of MLS and Orlando Pride of NWSL. Features a steep bowl design creating an intense atmosphere for match days with supporters sections behind both goals.",
-    "majorEvents": ["Orlando City SC MLS", "Orlando Pride NWSL", "US Soccer friendlies", "international matches"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Orlando City SC MLS",
+      "Orlando Pride NWSL",
+      "US Soccer friendlies",
+      "international matches"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "raymond-james-stadium",
@@ -41,11 +70,21 @@
     "citySlug": "tampa",
     "capacity": "65890",
     "type": "stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "address": "4201 N Dale Mabry Hwy, Tampa, FL 33607",
     "description": "Home of the Tampa Bay Buccaneers NFL team, featuring the iconic 103-foot pirate ship in the north end zone. Has hosted multiple Super Bowls, WrestleMania events, college football national championships, and major concerts.",
-    "majorEvents": ["Buccaneers NFL", "Super Bowl", "WrestleMania", "Gasparilla Bowl", "concerts"],
-    "transportNeeds": ["sports-event-transport", "corporate-charter", "hotel-shuttle"]
+    "majorEvents": [
+      "Buccaneers NFL",
+      "Super Bowl",
+      "WrestleMania",
+      "Gasparilla Bowl",
+      "concerts"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "tropicana-field",
@@ -53,11 +92,20 @@
     "citySlug": "tampa",
     "capacity": "25025",
     "type": "stadium",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "1 Tropicana Dr, St. Petersburg, FL 33705",
     "description": "The domed home stadium of the Tampa Bay Rays MLB team in downtown St. Petersburg. The climate-controlled facility features the unique Rays Touch Tank in right-center field and hosts concerts and events during the baseball off-season.",
-    "majorEvents": ["Tampa Bay Rays MLB", "concerts", "college basketball", "special events"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "group-day-trip"]
+    "majorEvents": [
+      "Tampa Bay Rays MLB",
+      "concerts",
+      "college basketball",
+      "special events"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "group-day-trip"
+    ]
   },
   {
     "slug": "amalie-arena",
@@ -65,11 +113,21 @@
     "citySlug": "tampa",
     "capacity": "19092",
     "type": "arena",
-    "emoji": "🏒",
+    "emoji": "\ud83c\udfd2",
     "address": "401 Channelside Dr, Tampa, FL 33602",
     "description": "Home of the two-time Stanley Cup champion Tampa Bay Lightning NHL team, located on the Channelside waterfront in downtown Tampa. Also hosts major concert tours, family shows, UFC events, and the annual Gasparilla Bowl fan fest.",
-    "majorEvents": ["Tampa Bay Lightning NHL", "concerts", "UFC fights", "Disney on Ice", "Cirque du Soleil"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Tampa Bay Lightning NHL",
+      "concerts",
+      "UFC fights",
+      "Disney on Ice",
+      "Cirque du Soleil"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "george-m-steinbrenner-field",
@@ -77,11 +135,19 @@
     "citySlug": "tampa",
     "capacity": "11026",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "1 Steinbrenner Dr, Tampa, FL 33614",
     "description": "Spring training home of the New York Yankees since 1996, located across from Raymond James Stadium. Also hosts the Tampa Tarpons, the Yankees' Single-A minor league affiliate, throughout the summer season.",
-    "majorEvents": ["Yankees spring training", "Tampa Tarpons minor league", "high school tournaments"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Yankees spring training",
+      "Tampa Tarpons minor league",
+      "high school tournaments"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "baycare-ballpark",
@@ -89,11 +155,18 @@
     "citySlug": "clearwater",
     "capacity": "8500",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "601 N Old Coachman Rd, Clearwater, FL 33765",
     "description": "Spring training home of the Philadelphia Phillies and year-round home of the Clearwater Threshers minor league team. A modern facility with a lively atmosphere and craft beer options located in central Clearwater.",
-    "majorEvents": ["Phillies spring training", "Clearwater Threshers minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Phillies spring training",
+      "Clearwater Threshers minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "td-ballpark",
@@ -101,11 +174,18 @@
     "citySlug": "clearwater",
     "capacity": "8500",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "373 Douglas Ave, Dunedin, FL 34698",
     "description": "Spring training home of the Toronto Blue Jays in Dunedin, just north of Clearwater. Canadian fans flock to this intimate ballpark for a taste of MLB spring training in the warm Florida Gulf Coast sunshine.",
-    "majorEvents": ["Blue Jays spring training", "Dunedin Blue Jays minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Blue Jays spring training",
+      "Dunedin Blue Jays minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "publix-field-at-joker-marchant-stadium",
@@ -113,11 +193,18 @@
     "citySlug": "lakeland",
     "capacity": "8500",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "2301 Lakeland Hills Blvd, Lakeland, FL 33805",
     "description": "Spring training home of the Detroit Tigers in Lakeland, a tradition dating back to 1966. Located between Tampa and Orlando on I-4, this classic Florida spring training facility features a relaxed, old-school baseball atmosphere.",
-    "majorEvents": ["Tigers spring training", "Lakeland Flying Tigers minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Tigers spring training",
+      "Lakeland Flying Tigers minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "daytona-international-speedway",
@@ -125,11 +212,21 @@
     "citySlug": "daytona-beach",
     "capacity": "101500",
     "type": "speedway",
-    "emoji": "🏎️",
+    "emoji": "\ud83c\udfce\ufe0f",
     "address": "1801 W International Speedway Blvd, Daytona Beach, FL 32114",
     "description": "The World Center of Racing and home to the Daytona 500, Rolex 24 At Daytona, Coke Zero Sugar 400, and Daytona Bike Week races. The 2.5-mile tri-oval superspeedway underwent a $400 million renovation creating the DAYTONA Rising experience.",
-    "majorEvents": ["Daytona 500", "Rolex 24 At Daytona", "Coke Zero Sugar 400", "Bike Week races", "Turkey Run"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Daytona 500",
+      "Rolex 24 At Daytona",
+      "Coke Zero Sugar 400",
+      "Bike Week races",
+      "Turkey Run"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hard-rock-stadium",
@@ -137,11 +234,21 @@
     "citySlug": "miami",
     "capacity": "65326",
     "type": "stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "address": "347 Don Shula Dr, Miami Gardens, FL 33056",
     "description": "Home of the Miami Dolphins NFL team and host of the Miami Open tennis tournament. The multi-purpose stadium has hosted six Super Bowls, multiple College Football Playoff games, and major concert tours with its distinctive canopy roof structure.",
-    "majorEvents": ["Dolphins NFL", "Miami Open tennis", "Super Bowl", "college football", "concerts"],
-    "transportNeeds": ["sports-event-transport", "corporate-charter", "hotel-shuttle"]
+    "majorEvents": [
+      "Dolphins NFL",
+      "Miami Open tennis",
+      "Super Bowl",
+      "college football",
+      "concerts"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "drv-pnk-stadium",
@@ -149,11 +256,18 @@
     "citySlug": "fort-lauderdale",
     "capacity": "18000",
     "type": "stadium",
-    "emoji": "⚽",
+    "emoji": "\u26bd",
     "address": "1350 NW 55th St, Fort Lauderdale, FL 33309",
     "description": "Home of Inter Miami CF of Major League Soccer, located in Fort Lauderdale. The intimate stadium provides an electric atmosphere for one of MLS's most high-profile clubs, drawing international attention with its star-studded roster.",
-    "majorEvents": ["Inter Miami CF MLS", "international soccer friendlies"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Inter Miami CF MLS",
+      "international soccer friendlies"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "kaseya-center",
@@ -161,11 +275,21 @@
     "citySlug": "miami",
     "capacity": "19600",
     "type": "arena",
-    "emoji": "🏀",
+    "emoji": "\ud83c\udfc0",
     "address": "601 Biscayne Blvd, Miami, FL 33132",
     "description": "Home of the Miami Heat NBA team on the Biscayne Bay waterfront in downtown Miami. The arena hosts major concert tours, UFC events, and shows with stunning bay views from its east-facing concourses.",
-    "majorEvents": ["Miami Heat NBA", "concerts", "UFC fights", "comedy tours", "awards shows"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Miami Heat NBA",
+      "concerts",
+      "UFC fights",
+      "comedy tours",
+      "awards shows"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "amerant-bank-arena",
@@ -173,11 +297,21 @@
     "citySlug": "fort-lauderdale",
     "capacity": "19250",
     "type": "arena",
-    "emoji": "🏒",
+    "emoji": "\ud83c\udfd2",
     "address": "1 Panther Pkwy, Sunrise, FL 33323",
     "description": "Home of the Stanley Cup champion Florida Panthers NHL team in Sunrise, Broward County. The arena also hosts major concert tours, family shows, and events with convenient access from I-595 and the Sawgrass Expressway.",
-    "majorEvents": ["Florida Panthers NHL", "concerts", "Disney on Ice", "wrestling", "comedy tours"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Florida Panthers NHL",
+      "concerts",
+      "Disney on Ice",
+      "wrestling",
+      "comedy tours"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "loanDepot-park",
@@ -185,11 +319,20 @@
     "citySlug": "miami",
     "capacity": "36742",
     "type": "stadium",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "501 Marlins Way, Miami, FL 33125",
     "description": "Home of the Miami Marlins MLB team in Little Havana, featuring a retractable roof that keeps the stadium cool during Miami's hot summers. The vibrant home run sculpture and Latin-influenced atmosphere make it a unique baseball experience.",
-    "majorEvents": ["Miami Marlins MLB", "World Baseball Classic", "concerts", "soccer matches"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Miami Marlins MLB",
+      "World Baseball Classic",
+      "concerts",
+      "soccer matches"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "orange-county-convention-center",
@@ -197,11 +340,22 @@
     "citySlug": "orlando",
     "capacity": "200000",
     "type": "convention-center",
-    "emoji": "🏛️",
+    "emoji": "\ud83c\udfdb\ufe0f",
     "address": "9800 International Dr, Orlando, FL 32819",
     "description": "The second-largest convention center in the United States with over 2.1 million square feet of exhibit space. Located on International Drive, it hosts hundreds of conventions and trade shows annually including MegaCon, IAAPA Expo, and the PGA Merchandise Show.",
-    "majorEvents": ["MegaCon", "IAAPA Expo", "PGA Show", "Star Wars Celebration", "Surf Expo", "HIMSS"],
-    "transportNeeds": ["convention-transport", "hotel-shuttle", "airport-transfers"]
+    "majorEvents": [
+      "MegaCon",
+      "IAAPA Expo",
+      "PGA Show",
+      "Star Wars Celebration",
+      "Surf Expo",
+      "HIMSS"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "tampa-convention-center",
@@ -209,11 +363,20 @@
     "citySlug": "tampa",
     "capacity": "60000",
     "type": "convention-center",
-    "emoji": "🏛️",
+    "emoji": "\ud83c\udfdb\ufe0f",
     "address": "333 S Franklin St, Tampa, FL 33602",
     "description": "A 600,000-square-foot waterfront convention facility in downtown Tampa on the Hillsborough River. Hosts major trade shows, corporate conferences, and consumer events with easy access to the Tampa Riverwalk and Channelside entertainment district.",
-    "majorEvents": ["Tampa Bay Boat Show", "trade shows", "corporate conferences", "consumer expos"],
-    "transportNeeds": ["convention-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Tampa Bay Boat Show",
+      "trade shows",
+      "corporate conferences",
+      "consumer expos"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "miami-beach-convention-center",
@@ -221,11 +384,20 @@
     "citySlug": "miami",
     "capacity": "50000",
     "type": "convention-center",
-    "emoji": "🏛️",
+    "emoji": "\ud83c\udfdb\ufe0f",
     "address": "1901 Convention Center Dr, Miami Beach, FL 33139",
     "description": "A recently renovated 1.4 million-square-foot convention facility in the heart of Miami Beach. Hosts Art Basel Miami Beach, the Miami International Boat Show, Miami International Auto Show, and hundreds of conferences and trade shows annually.",
-    "majorEvents": ["Art Basel Miami Beach", "Miami Boat Show", "Auto Show", "trade shows"],
-    "transportNeeds": ["convention-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Art Basel Miami Beach",
+      "Miami Boat Show",
+      "Auto Show",
+      "trade shows"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "roger-dean-chevrolet-stadium",
@@ -233,11 +405,19 @@
     "citySlug": "west-palm-beach",
     "capacity": "6940",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "4751 Main St, Jupiter, FL 33458",
     "description": "The shared spring training home of the Miami Marlins and St. Louis Cardinals in Jupiter, the only facility in MLB to host two teams. Also home to minor league affiliates of both organizations throughout the summer season.",
-    "majorEvents": ["Marlins spring training", "Cardinals spring training", "minor league baseball"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Marlins spring training",
+      "Cardinals spring training",
+      "minor league baseball"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "clover-park",
@@ -245,11 +425,18 @@
     "citySlug": "melbourne",
     "capacity": "7160",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "700 Fenway S Dr, Port St. Lucie, FL 34986",
     "description": "Spring training home of the New York Mets in Port St. Lucie on Florida's Treasure Coast. The facility includes a main stadium and multiple practice fields, drawing dedicated Mets fans from across the Northeast for February and March games.",
-    "majorEvents": ["Mets spring training", "St. Lucie Mets minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Mets spring training",
+      "St. Lucie Mets minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "cooltoday-park",
@@ -257,11 +444,18 @@
     "citySlug": "sarasota",
     "capacity": "8000",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "18800 S West Villages Pkwy, Venice, FL 34293",
     "description": "Spring training home of the Atlanta Braves in North Port, south of Sarasota. A state-of-the-art facility opened in 2019 with a walk-around concourse, craft beer options, and practice fields where fans can watch workouts up close.",
-    "majorEvents": ["Braves spring training", "minor league baseball"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Braves spring training",
+      "minor league baseball"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "lecom-park",
@@ -269,11 +463,18 @@
     "citySlug": "sarasota",
     "capacity": "6229",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "1611 9th St W, Bradenton, FL 34205",
     "description": "Spring training home of the Pittsburgh Pirates in Bradenton, one of the oldest spring training facilities in Florida dating to 1923. The intimate ballpark offers old-school charm and close-to-the-action seating for an authentic baseball experience.",
-    "majorEvents": ["Pirates spring training", "Bradenton Marauders minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Pirates spring training",
+      "Bradenton Marauders minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "ed-smith-stadium",
@@ -281,11 +482,18 @@
     "citySlug": "sarasota",
     "capacity": "7500",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "2700 12th St, Sarasota, FL 34237",
     "description": "Spring training home of the Baltimore Orioles in Sarasota, completely renovated with a Bermuda-inspired design featuring white stucco walls and orange accents. Also hosts the Sarasota Mighty Mussels minor league team during the regular season.",
-    "majorEvents": ["Orioles spring training", "Sarasota Mighty Mussels minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Orioles spring training",
+      "Sarasota Mighty Mussels minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "tpc-sawgrass",
@@ -293,11 +501,18 @@
     "citySlug": "jacksonville",
     "capacity": "45000",
     "type": "golf-course",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "address": "110 Championship Way, Ponte Vedra Beach, FL 32082",
     "description": "Home of THE PLAYERS Championship and one of the most famous golf courses in the world. The iconic island green 17th hole is the most recognizable par 3 in golf, located in Ponte Vedra Beach south of Jacksonville.",
-    "majorEvents": ["THE PLAYERS Championship", "PGA Tour events"],
-    "transportNeeds": ["sports-event-transport", "corporate-charter", "hotel-shuttle"]
+    "majorEvents": [
+      "THE PLAYERS Championship",
+      "PGA Tour events"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "tiaa-bank-field",
@@ -305,11 +520,20 @@
     "citySlug": "jacksonville",
     "capacity": "67814",
     "type": "stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "address": "1 EverBank Stadium Dr, Jacksonville, FL 32202",
     "description": "Home of the Jacksonville Jaguars NFL team on the St. Johns River in downtown Jacksonville. Features the world's largest HD video boards and the Bud Light Tiki Terrace pools. Also hosts the annual Florida-Georgia college football rivalry game.",
-    "majorEvents": ["Jaguars NFL", "Florida-Georgia football", "TaxSlayer Gator Bowl", "concerts"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "Jaguars NFL",
+      "Florida-Georgia football",
+      "TaxSlayer Gator Bowl",
+      "concerts"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "jetblue-park",
@@ -317,11 +541,18 @@
     "citySlug": "fort-myers",
     "capacity": "11000",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "11500 Fenway South Dr, Fort Myers, FL 33913",
     "description": "Spring training home of the Boston Red Sox in Fort Myers, designed as a replica of Fenway Park complete with a Green Monster left field wall. Red Sox Nation descends on Southwest Florida every February and March for Grapefruit League action.",
-    "majorEvents": ["Red Sox spring training", "Fort Myers Mighty Mussels minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Red Sox spring training",
+      "Fort Myers Mighty Mussels minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "hammond-stadium",
@@ -329,11 +560,18 @@
     "citySlug": "fort-myers",
     "capacity": "9300",
     "type": "ballpark",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "address": "14100 Six Mile Cypress Pkwy, Fort Myers, FL 33912",
     "description": "Spring training home of the Minnesota Twins in Fort Myers. The facility includes the main stadium and extensive practice fields, drawing Twins fans escaping Minnesota winters for warm-weather baseball on Florida's Gulf Coast.",
-    "majorEvents": ["Twins spring training", "Fort Myers Mighty Mussels minor league"],
-    "transportNeeds": ["sports-event-transport", "group-day-trip", "hotel-shuttle"]
+    "majorEvents": [
+      "Twins spring training",
+      "Fort Myers Mighty Mussels minor league"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "group-day-trip",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "homestead-miami-speedway",
@@ -341,11 +579,20 @@
     "citySlug": "miami",
     "capacity": "46000",
     "type": "speedway",
-    "emoji": "🏎️",
+    "emoji": "\ud83c\udfce\ufe0f",
     "address": "1 Speedway Blvd, Homestead, FL 33035",
     "description": "A 1.5-mile oval speedway in Homestead, south of Miami, that hosts NASCAR Cup Series, Xfinity Series, and Camping World Truck Series races. The track also hosts the annual Dixie Vodka 400 and various motorsports and driving experience events.",
-    "majorEvents": ["NASCAR Cup Series", "Xfinity Series", "Truck Series", "driving experiences"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "corporate-charter"]
+    "majorEvents": [
+      "NASCAR Cup Series",
+      "Xfinity Series",
+      "Truck Series",
+      "driving experiences"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "spectrum-stadium",
@@ -353,10 +600,18 @@
     "citySlug": "orlando",
     "capacity": "44206",
     "type": "stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "address": "4465 Knights Victory Way, Orlando, FL 32816",
     "description": "Home of the UCF Knights football team on the University of Central Florida campus. The on-campus stadium has become one of the most exciting college football atmospheres in the state since opening in 2007, with a dedicated tailgating village.",
-    "majorEvents": ["UCF Knights football", "Cure Bowl", "high school championships"],
-    "transportNeeds": ["sports-event-transport", "hotel-shuttle", "group-day-trip"]
+    "majorEvents": [
+      "UCF Knights football",
+      "Cure Bowl",
+      "high school championships"
+    ],
+    "transportNeeds": [
+      "sports-event-transport",
+      "hotel-shuttle",
+      "group-day-trip"
+    ]
   }
 ]

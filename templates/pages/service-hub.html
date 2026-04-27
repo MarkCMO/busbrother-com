@@ -62,7 +62,7 @@
         <h3>Cities We Serve</h3>
         <p>BusBrother provides {{serviceNameLower}} in 120+ cities across Central and South Florida. Select your city below for local service details and pricing.</p>
         <div class="areas-grid" style="margin:1.5rem 0;">
-          {{#each topCities}}<a href="/areas/{{slug}}/{{serviceSlug}}/" class="area-chip">{{name}}, FL</a>
+          {{#each topCities}}<a href="{{cityUrl}}" class="area-chip">{{name}}, FL</a>
           {{/each}}
         </div>
 

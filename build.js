@@ -358,7 +358,7 @@ if (templates['route']) {
       highway: route.highway || 'Florida highways',
       routeDescription: route.description || `BusBrother provides charter bus service from ${from.name} to ${to.name}, Florida.`,
       popularReasons: route.popularReasons || ['group travel', 'event transportation', 'airport transfer'],
-      reverseSlug: `${to.slug}-to-${from.slug}`,
+      reverseSlug: `${to.slug}-to-${from.slug}`, toSlug: to.slug, fromSlug: from.slug,
       pageTitle: `${from.name} to ${to.name} Charter Bus | BusBrother`,
       metaDescription: `Group bus from ${from.name} to ${to.name} FL. ${route.distanceMiles || '~'} miles, ~${route.driveMinutes || '~'} min. Charter bus, round trip, multi-stop. Get a free quote.`,
       canonicalPath: `/routes/${from.slug}-to-${to.slug}`,
@@ -380,7 +380,7 @@ if (templates['route']) {
         highway: route.highway || 'Florida highways',
         routeDescription: `BusBrother provides charter bus service from ${to.name} to ${from.name}, Florida. The return route follows ${route.highway || 'Florida highways'}.`,
         popularReasons: route.popularReasons || ['group travel', 'event transportation', 'return trip'],
-        reverseSlug: `${from.slug}-to-${to.slug}`,
+        reverseSlug: `${from.slug}-to-${to.slug}`, toSlug: from.slug, fromSlug: to.slug,
         pageTitle: `${to.name} to ${from.name} Charter Bus | BusBrother`,
         metaDescription: `Group bus from ${to.name} to ${from.name} FL. ${route.distanceMiles || '~'} miles, ~${route.driveMinutes || '~'} min. Get a free quote.`,
         canonicalPath: `/routes/${to.slug}-to-${from.slug}`,
@@ -398,7 +398,7 @@ if (templates['route']) {
 if (templates['venue'] && venues.length) {
   console.log('  Venue pages...');
   for (const v of venues) {
-    const city = cityMap[v.citySlug] || { name: 'Florida' };
+    const city = cityMap[v.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['venue'], {
       venueName: v.name, venueEmoji: v.emoji || '🏢',
       venueDescription: v.description || '',
@@ -453,7 +453,7 @@ if (templates['wedding-venue']) {
   // If not enough wedding venues, use all venues
   const wVenues = weddingVenues.length > 10 ? weddingVenues : venues;
   for (const v of wVenues) {
-    const city = cityMap[v.citySlug] || { name: 'Florida' };
+    const city = cityMap[v.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const img = getImageForService('wedding-events');
     const html = render(templates['wedding-venue'], {
       venueName: v.name, cityName: city.name,
@@ -476,7 +476,7 @@ if (templates['wedding-venue']) {
 if (templates['hotel-shuttle'] && hotels.length) {
   console.log('  Hotel pages...');
   for (const h of hotels) {
-    const city = cityMap[h.citySlug] || { name: 'Florida' };
+    const city = cityMap[h.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['hotel-shuttle'], {
       hotelName: h.name, hotelDescription: h.description || '',
       cityName: city.name,
@@ -497,7 +497,7 @@ if (templates['hotel-shuttle'] && hotels.length) {
 if (templates['school-transport'] && schools.length) {
   console.log('  School pages...');
   for (const s of schools) {
-    const city = cityMap[s.citySlug] || { name: 'Florida' };
+    const city = cityMap[s.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['school-transport'], {
       schoolName: s.name, schoolDescription: s.description || '',
       cityName: city.name,
@@ -517,7 +517,7 @@ if (templates['school-transport'] && schools.length) {
 if (templates['seasonal-event'] && seasonalEvents.length) {
   console.log('  Event pages...');
   for (const ev of seasonalEvents) {
-    const city = cityMap[ev.citySlug] || { name: 'Florida' };
+    const city = cityMap[ev.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const img = getImageForService((ev.popularServices || [])[0] || 'theme-parks');
     const html = render(templates['seasonal-event'], {
       eventName: ev.name, eventEmoji: ev.emoji || '🎉',
@@ -544,7 +544,7 @@ if (templates['seasonal-event'] && seasonalEvents.length) {
 if (templates['sports-venue'] && sportsVenues.length) {
   console.log('  Sports pages...');
   for (const sv of sportsVenues) {
-    const city = cityMap[sv.citySlug] || { name: 'Florida' };
+    const city = cityMap[sv.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['sports-venue'], {
       venueName: sv.name, venueEmoji: sv.emoji || '🏟️',
       venueDescription: sv.description || '',
@@ -668,7 +668,7 @@ if (templates['service-hub']) {
   console.log('  Service hub pages...');
   for (const svc of services) {
     const img = getImageForService(svc.slug);
-    const topCities = cities.filter(c => c.tier <= 2).slice(0, 20).map(c => ({ ...c, serviceSlug: svc.slug }));
+    const topCities = cities.filter(c => c.tier <= 2).slice(0, 20).map(c => ({ ...c, serviceSlug: svc.slug, cityUrl: `/areas/${c.slug}/${svc.slug}/` }));
     const html = render(templates['service-hub'], {
       serviceName: svc.name, serviceNameLower: svc.name.toLowerCase(),
       serviceEmoji: svc.emoji || '', serviceSlug: svc.slug,
@@ -697,7 +697,7 @@ if (templates['service-hub']) {
     serviceEmoji: '🚌', serviceSlug: '',
     serviceDescription: 'BusBrother provides a full range of charter bus and group transportation services across 120+ Florida cities. From cruise port shuttles to corporate charters, wedding transportation to school field trips - we handle it all.',
     serviceFeatures: ['Cruise port shuttles to Port Canaveral, Tampa, and Everglades', 'Airport transfers from MCO, TPA, FLL, SFB, PBI, DAB', 'Corporate event and conference transportation', 'Wedding guest shuttle service', 'School and university group trips', 'Theme park and attraction shuttles', 'Rocket launch viewing transport', 'Hotel shuttle service', 'Sports event game day buses'],
-    faqs: [], topCities: cities.filter(c => c.tier === 1).map(c => ({ ...c, serviceSlug: '' })),
+    faqs: [], topCities: cities.filter(c => c.tier === 1).map(c => ({ ...c, serviceSlug: '', cityUrl: `/areas/${c.slug}/` })),
     allServices: services, heroImage: false, heroImageFile: '', heroImageAlt: '',
     pageTitle: 'Charter Bus Services | BusBrother - Central Florida',
     metaDescription: 'Full range of charter bus and group transportation services across 120+ Florida cities. Cruise shuttles, airports, corporate, weddings, schools, theme parks.',
@@ -1013,12 +1013,12 @@ if (templates['hotel-area-guide'] && hotelAreaGuides.length) {
 if (templates['service-attraction']) {
   console.log('  Service x Attraction pages...');
   for (const attr of attractions) {
-    const city = cityMap[attr.citySlug] || { name: 'Florida' };
+    const city = cityMap[attr.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const relevantSvcs = (attr.popularServices || []).map(s => serviceMap[s]).filter(Boolean);
     const svcsToUse = relevantSvcs.length >= 2 ? relevantSvcs : services.slice(0, 5);
     for (const svc of svcsToUse) {
       const ctx = { cityName: city.name, serviceName: svc.name, serviceNameLower: svc.name.toLowerCase(), attractionName: attr.name };
-      const otherSvcs = services.filter(s => s.slug !== svc.slug).slice(0, 5);
+      const otherSvcs = svcsToUse.filter(s => s.slug !== svc.slug);
       const html = render(templates['service-attraction'], {
         serviceName: svc.name, serviceNameLower: svc.name.toLowerCase(),
         serviceEmoji: svc.emoji || '', attractionName: attr.name,
@@ -1078,7 +1078,7 @@ if (templates['city-attraction']) {
 if (templates['service-city'] && seasonalEvents.length) {
   console.log('  Service x Event pages...');
   for (const ev of seasonalEvents) {
-    const city = cityMap[ev.citySlug] || { name: 'Florida' };
+    const city = cityMap[ev.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const svcsToUse = services.slice(0, 5); // top 5 services per event
     for (const svc of svcsToUse) {
       const ctx = { cityName: city.name, serviceName: svc.name, serviceNameLower: svc.name.toLowerCase(), countyName: city.county || '' };
@@ -1105,7 +1105,7 @@ if (templates['service-city'] && seasonalEvents.length) {
 if (templates['service-city'] && venues.length) {
   console.log('  Service x Venue pages...');
   for (const v of venues) {
-    const city = cityMap[v.citySlug] || { name: 'Florida' };
+    const city = cityMap[v.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const svcsToUse = services.slice(0, 5); // top 5 services per venue
     for (const svc of svcsToUse) {
       const ctx = { cityName: city.name, serviceName: svc.name, serviceNameLower: svc.name.toLowerCase(), countyName: city.county || '' };
@@ -1181,7 +1181,7 @@ if (templates['route']) {
         highway: 'Florida highways',
         routeDescription: `BusBrother provides charter bus service from ${from.name} to ${to.name}, Florida. The route covers approximately ${dist} miles and takes about ${mins} minutes. Our professional drivers know Central Florida roads and traffic patterns to ensure on-time arrival for your group.`,
         popularReasons: ['group travel', 'corporate events', 'airport transfers', 'theme park day trips'],
-        reverseSlug: `${to.slug}-to-${from.slug}`,
+        reverseSlug: `${to.slug}-to-${from.slug}`, toSlug: to.slug, fromSlug: from.slug,
         pageTitle: `${from.name} to ${to.name} Charter Bus | BusBrother`,
         metaDescription: `Group bus from ${from.name} to ${to.name} FL. ${dist} miles, ~${mins} min. Charter bus from BusBrother.`,
         canonicalPath: `/routes/${from.slug}-to-${to.slug}`,

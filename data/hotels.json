@@ -6,7 +6,11 @@
     "address": "1500 Epcot Resorts Blvd, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "A premier convention and vacation resort located within Walt Disney World, popular for corporate events, weddings, and cruise transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-grand-floridian",
@@ -15,7 +19,11 @@
     "address": "4401 Floridian Way, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Walt Disney World's flagship luxury resort on the monorail loop, a popular departure point for cruise transfers and airport shuttles.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-contemporary",
@@ -24,7 +32,11 @@
     "address": "4600 N World Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Iconic A-frame resort on the Magic Kingdom monorail loop, popular with convention groups and families needing cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-polynesian-village",
@@ -33,7 +45,11 @@
     "address": "1600 Seven Seas Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "South Pacific-themed resort on the monorail loop at Walt Disney World, popular for family vacations and cruise transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-animal-kingdom-lodge",
@@ -42,7 +58,11 @@
     "address": "2901 Osceola Pkwy, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "African-themed deluxe resort overlooking a wildlife savanna, popular with families and groups requiring charter bus service.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-boardwalk-inn",
@@ -51,7 +71,11 @@
     "address": "2101 Epcot Resorts Blvd, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Atlantic City-themed resort on the EPCOT boardwalk, popular for conventions and group events requiring shuttle service.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-coronado-springs",
@@ -60,7 +84,11 @@
     "address": "1000 W Buena Vista Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Disney's primary convention resort featuring the Gran Destino Tower, hosting major corporate events with frequent charter bus needs.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-art-of-animation",
@@ -69,7 +97,11 @@
     "address": "1850 Animation Way, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Value resort themed around Disney and Pixar films, popular with large family groups and school trips needing bus transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "school-groups"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "school-groups"
+    ]
   },
   {
     "slug": "disney-all-star-sports",
@@ -78,7 +110,11 @@
     "address": "1701 W Buena Vista Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Value resort popular with sports teams and youth groups requiring charter bus service for tournaments and competitions.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "sports-event-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "sports-event-transport"
+    ]
   },
   {
     "slug": "disney-caribbean-beach",
@@ -87,7 +123,11 @@
     "address": "900 Cayman Way, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Moderate resort with a Caribbean island theme, serving as a Disney Skyliner hub and popular departure point for cruise shuttles.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-riviera-resort",
@@ -96,7 +136,11 @@
     "address": "1080 Esplanade Ave, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "European-inspired Disney Vacation Club resort on the Skyliner route, popular for group bookings and charter bus transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-loews-royal-pacific",
@@ -105,7 +149,11 @@
     "address": "6300 Hollywood Way, Orlando, FL 32819",
     "type": "resort",
     "description": "Premier Universal Orlando resort offering Express Pass access, popular with convention groups and families needing transportation services.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-hard-rock-hotel",
@@ -114,7 +162,11 @@
     "address": "5800 Universal Blvd, Orlando, FL 32819",
     "type": "resort",
     "description": "Rock-and-roll themed luxury hotel at Universal Orlando, popular for corporate events and group transportation needs.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-portofino-bay",
@@ -123,7 +175,11 @@
     "address": "5601 Universal Blvd, Orlando, FL 32819",
     "type": "resort",
     "description": "Italian-themed luxury resort at Universal Orlando, a popular pick-up point for cruise port shuttles and airport transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-cabana-bay",
@@ -132,7 +188,11 @@
     "address": "6550 Adventure Way, Orlando, FL 32819",
     "type": "resort",
     "description": "Retro-themed family resort at Universal Orlando with over 2,200 rooms, frequently requiring group bus service for large parties.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-endless-summer-surfside",
@@ -141,7 +201,11 @@
     "address": "7000 Universal Blvd, Orlando, FL 32819",
     "type": "resort",
     "description": "Value resort at Universal Orlando with beach-themed rooms, popular with budget groups needing charter bus transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "rosen-shingle-creek",
@@ -150,7 +214,11 @@
     "address": "9939 Universal Blvd, Orlando, FL 32819",
     "type": "resort",
     "description": "Major Orlando convention resort with 1,500 rooms and 524,000 sq ft of meeting space, one of the top charter bus pickup locations in the city.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "rosen-centre",
@@ -159,7 +227,11 @@
     "address": "9840 International Dr, Orlando, FL 32819",
     "type": "hotel",
     "description": "Connected to the Orange County Convention Center via skywalk, this 1,334-room hotel is a prime charter bus pickup for convention attendees.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "rosen-plaza",
@@ -168,7 +240,11 @@
     "address": "9700 International Dr, Orlando, FL 32819",
     "type": "hotel",
     "description": "Full-service International Drive hotel near the convention center, popular for corporate groups needing bus charter service.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "hilton-orlando",
@@ -177,7 +253,11 @@
     "address": "6001 Destination Pkwy, Orlando, FL 32819",
     "type": "hotel",
     "description": "Upscale convention hotel connected to the Orange County Convention Center, a frequent charter bus pickup location for large events.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "hyatt-regency-orlando",
@@ -186,7 +266,11 @@
     "address": "9801 International Dr, Orlando, FL 32819",
     "type": "hotel",
     "description": "1,641-room convention hotel on International Drive connected to the Orange County Convention Center, one of the busiest group pickup spots.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "marriott-world-center",
@@ -195,7 +279,11 @@
     "address": "8701 World Center Dr, Orlando, FL 32821",
     "type": "resort",
     "description": "One of the largest Marriott properties in the world with over 2,000 rooms, hosting major conventions and requiring frequent charter bus service.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "jw-marriott-grande-lakes",
@@ -204,7 +292,11 @@
     "address": "4040 Central Florida Pkwy, Orlando, FL 32837",
     "type": "resort",
     "description": "Luxury Grande Lakes resort featuring a Greg Norman golf course and Ritz-Carlton next door, popular for corporate retreats and VIP transport.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "ritz-carlton-grande-lakes",
@@ -213,7 +305,11 @@
     "address": "4012 Central Florida Pkwy, Orlando, FL 32837",
     "type": "resort",
     "description": "Five-star luxury resort on the Grande Lakes campus, popular for high-end corporate events and executive transportation needs.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "gaylord-palms",
@@ -222,7 +318,11 @@
     "address": "6000 W Osceola Pkwy, Kissimmee, FL 34746",
     "type": "resort",
     "description": "Massive convention resort near Walt Disney World with 1,718 rooms and 400,000 sq ft of event space, one of the top bus charter pickup points.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "omni-orlando-championsgate",
@@ -231,7 +331,11 @@
     "address": "1500 Masters Blvd, ChampionsGate, FL 33896",
     "type": "resort",
     "description": "Full-service golf and convention resort off I-4 near Disney, popular for corporate retreats and group bus transportation.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "bonnet-creek-resort",
@@ -240,7 +344,11 @@
     "address": "14651 Chelonia Pkwy, Orlando, FL 32821",
     "type": "resort",
     "description": "Resort within the Walt Disney World gates, popular for large group stays requiring charter bus service to cruise ports and airports.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "waldorf-astoria-bonnet-creek",
@@ -249,7 +357,11 @@
     "address": "14200 Bonnet Creek Resort Ln, Orlando, FL 32821",
     "type": "resort",
     "description": "Luxury resort within the Disney World gates featuring a Rees Jones golf course, popular for upscale groups needing private bus charter.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "four-seasons-disney",
@@ -258,7 +370,11 @@
     "address": "10100 Dream Tree Blvd, Lake Buena Vista, FL 32836",
     "type": "resort",
     "description": "Ultra-luxury resort within Walt Disney World offering exclusive experiences, popular for VIP and corporate group transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "signia-hilton-bonnet-creek",
@@ -267,7 +383,11 @@
     "address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821",
     "type": "resort",
     "description": "Convention resort within the Disney gates with 1,009 rooms and extensive meeting space, frequently needing group bus service.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "drury-plaza-disney-springs",
@@ -276,7 +396,11 @@
     "address": "12490 S Apopka Vineland Rd, Orlando, FL 32836",
     "type": "hotel",
     "description": "Popular mid-range hotel near Disney Springs, a frequent pickup point for cruise transfer buses serving families and groups.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "hilton-orlando-buena-vista-palace",
@@ -285,7 +409,11 @@
     "address": "1900 Hotel Plaza Blvd, Lake Buena Vista, FL 32830",
     "type": "hotel",
     "description": "Official Walt Disney World hotel on Hotel Plaza Boulevard, popular for convention groups and cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "margaritaville-resort-orlando",
@@ -294,7 +422,11 @@
     "address": "8000 Fins Up Circle, Kissimmee, FL 34747",
     "type": "resort",
     "description": "Island-themed resort near Disney with water park and vacation cottages, popular for group charters and cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "westgate-lakes",
@@ -303,7 +435,11 @@
     "address": "10000 Turkey Lake Rd, Orlando, FL 32819",
     "type": "resort",
     "description": "Large timeshare resort on International Drive with over 3,000 units, frequently requiring charter buses for group excursions.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "icon-park-area-hotels",
@@ -312,7 +448,11 @@
     "address": "5780 Major Blvd, Orlando, FL 32819",
     "type": "hotel",
     "description": "Popular Universal-area hotel near ICON Park, a common pickup location for cruise transfer buses and airport shuttles.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "embassy-suites-idrive",
@@ -321,7 +461,11 @@
     "address": "8978 International Dr, Orlando, FL 32819",
     "type": "hotel",
     "description": "All-suite hotel on International Drive near the convention center, popular for corporate groups needing bus transportation.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "sheraton-lake-buena-vista",
@@ -330,7 +474,11 @@
     "address": "12205 S Apopka Vineland Rd, Orlando, FL 32836",
     "type": "resort",
     "description": "Family resort near Disney Springs, a regular pickup point for cruise port and airport charter bus services.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "renaissance-orlando-seaworld",
@@ -339,7 +487,11 @@
     "address": "6677 Sea Harbor Dr, Orlando, FL 32821",
     "type": "hotel",
     "description": "Convention hotel adjacent to SeaWorld Orlando, popular for corporate events and group transportation to attractions and cruise ports.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "hilton-grand-vacations-seaworld",
@@ -348,7 +500,11 @@
     "address": "6924 Grand Vacations Way, Orlando, FL 32821",
     "type": "resort",
     "description": "Timeshare resort near SeaWorld, popular with families needing group shuttle service to cruise ports and airports.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "floridays-resort",
@@ -357,7 +513,11 @@
     "address": "12562 International Dr, Orlando, FL 32821",
     "type": "resort",
     "description": "All-suite International Drive resort near the south end of the tourist corridor, frequently used as a charter bus pickup point.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "grand-hyatt-tampa",
@@ -366,7 +526,11 @@
     "address": "2900 Bayport Dr, Tampa, FL 33607",
     "type": "hotel",
     "description": "Waterfront luxury hotel near Tampa International Airport, popular for corporate groups needing cruise port and airport transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "tampa-marriott-waterside",
@@ -375,7 +539,11 @@
     "address": "505 Water St, Tampa, FL 33602",
     "type": "hotel",
     "description": "Downtown Tampa waterfront hotel near the convention center and Amalie Arena, a popular charter bus pickup for cruises and events.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "sports-event-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "sports-event-transport"
+    ]
   },
   {
     "slug": "jw-marriott-tampa-water-street",
@@ -384,7 +552,11 @@
     "address": "510 Water St, Tampa, FL 33602",
     "type": "hotel",
     "description": "Luxury hotel in Tampa's Water Street district near the convention center, popular for high-end corporate transportation needs.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "tampa-edition",
@@ -393,7 +565,11 @@
     "address": "500 Channelside Dr, Tampa, FL 33602",
     "type": "hotel",
     "description": "Luxury boutique hotel in the Water Street Tampa district, popular for VIP and executive group transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hilton-tampa-downtown",
@@ -402,7 +578,11 @@
     "address": "211 N Tampa St, Tampa, FL 33602",
     "type": "hotel",
     "description": "Full-service downtown Tampa hotel connected to the convention center, a busy charter bus pickup for conventions and cruise transfers.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "airport-transfers"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "embassy-suites-tampa-downtown",
@@ -411,7 +591,11 @@
     "address": "513 S Florida Ave, Tampa, FL 33602",
     "type": "hotel",
     "description": "All-suite hotel near the Tampa Convention Center, popular for group bookings and charter bus service to cruise ports.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "airport-transfers"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "sheraton-tampa-riverwalk",
@@ -420,7 +604,11 @@
     "address": "200 N Ashley Dr, Tampa, FL 33602",
     "type": "hotel",
     "description": "Downtown hotel on the Tampa Riverwalk near the Straz Center, popular for event groups and cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "airport-transfers"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "sandpearl-resort-clearwater",
@@ -429,7 +617,11 @@
     "address": "500 Mandalay Ave, Clearwater Beach, FL 33767",
     "type": "resort",
     "description": "Luxury beachfront resort on Clearwater Beach, popular for wedding groups and corporate retreats needing charter bus service.",
-    "transportNeeds": ["airport-transfers", "cruise-shuttle", "wedding-transport"]
+    "transportNeeds": [
+      "airport-transfers",
+      "cruise-shuttle",
+      "wedding-events"
+    ]
   },
   {
     "slug": "opal-sands-clearwater",
@@ -438,7 +630,11 @@
     "address": "430 S Gulfview Blvd, Clearwater Beach, FL 33767",
     "type": "resort",
     "description": "Upscale all-suite resort on Clearwater Beach, a popular pickup point for cruise port shuttle buses.",
-    "transportNeeds": ["airport-transfers", "cruise-shuttle", "corporate-charter"]
+    "transportNeeds": [
+      "airport-transfers",
+      "cruise-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "tradewinds-st-pete",
@@ -447,7 +643,11 @@
     "address": "5500 Gulf Blvd, St Pete Beach, FL 33706",
     "type": "resort",
     "description": "Full-service beachfront resort on St. Pete Beach, popular for large group events and charter bus service.",
-    "transportNeeds": ["airport-transfers", "cruise-shuttle", "corporate-charter"]
+    "transportNeeds": [
+      "airport-transfers",
+      "cruise-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "don-cesar-st-pete",
@@ -456,7 +656,11 @@
     "address": "3400 Gulf Blvd, St Pete Beach, FL 33706",
     "type": "resort",
     "description": "Historic Pink Palace beachfront resort on St. Pete Beach, a landmark destination for weddings and corporate events needing bus service.",
-    "transportNeeds": ["airport-transfers", "cruise-shuttle", "wedding-transport"]
+    "transportNeeds": [
+      "airport-transfers",
+      "cruise-shuttle",
+      "wedding-events"
+    ]
   },
   {
     "slug": "vinoy-st-pete",
@@ -465,7 +669,11 @@
     "address": "501 5th Ave NE, St. Petersburg, FL 33701",
     "type": "resort",
     "description": "Historic waterfront resort in downtown St. Petersburg, popular for weddings and corporate events with charter bus needs.",
-    "transportNeeds": ["airport-transfers", "cruise-shuttle", "corporate-charter"]
+    "transportNeeds": [
+      "airport-transfers",
+      "cruise-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "fort-lauderdale-marriott-harbor-beach",
@@ -474,7 +682,11 @@
     "address": "3030 Holiday Dr, Fort Lauderdale, FL 33316",
     "type": "resort",
     "description": "Beachfront resort near Port Everglades, one of the most popular pre-cruise hotel options with frequent bus transfers to the port.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "w-fort-lauderdale",
@@ -483,7 +695,11 @@
     "address": "401 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304",
     "type": "hotel",
     "description": "Trendy beachfront hotel on Fort Lauderdale Beach, popular for group events and cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hilton-fort-lauderdale-marina",
@@ -492,7 +708,11 @@
     "address": "1881 SE 17th St, Fort Lauderdale, FL 33316",
     "type": "hotel",
     "description": "Marina hotel steps from Port Everglades, the most convenient pre-cruise stay for groups needing short shuttle transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hyatt-regency-pier-66",
@@ -501,7 +721,11 @@
     "address": "2301 SE 17th St, Fort Lauderdale, FL 33316",
     "type": "resort",
     "description": "Iconic Fort Lauderdale waterfront resort near Port Everglades, popular for pre-cruise stays and group charter service.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "ritz-carlton-fort-lauderdale",
@@ -510,7 +734,11 @@
     "address": "1 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304",
     "type": "hotel",
     "description": "Luxury beachfront hotel on Fort Lauderdale Beach, popular for high-end groups and VIP cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "b-ocean-resort-fort-lauderdale",
@@ -519,7 +747,11 @@
     "address": "1140 Seabreeze Blvd, Fort Lauderdale, FL 33316",
     "type": "resort",
     "description": "Beachfront resort near Port Everglades and Fort Lauderdale Beach, a popular departure point for cruise shuttle buses.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "diplomat-beach-resort",
@@ -528,7 +760,11 @@
     "address": "3555 S Ocean Dr, Hollywood, FL 33019",
     "type": "resort",
     "description": "Major convention resort in Hollywood Beach with 1,000 rooms, popular for large events and group cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "airport-transfers"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "breakers-palm-beach",
@@ -537,7 +773,11 @@
     "address": "1 S County Rd, Palm Beach, FL 33480",
     "type": "resort",
     "description": "Legendary oceanfront resort on Palm Beach Island, hosting high-end corporate events and galas with VIP bus charter needs.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "pga-national-resort",
@@ -546,7 +786,11 @@
     "address": "400 Avenue of the Champions, Palm Beach Gardens, FL 33418",
     "type": "resort",
     "description": "Premier golf resort in Palm Beach Gardens, popular for corporate outings and tournament groups needing charter bus service.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "sports-event-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "sports-event-transport"
+    ]
   },
   {
     "slug": "boca-raton-resort",
@@ -555,7 +799,11 @@
     "address": "501 E Camino Real, Boca Raton, FL 33432",
     "type": "resort",
     "description": "Legendary 1,047-acre resort in Boca Raton with private beach club, popular for luxury corporate events and group transportation.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "eau-palm-beach",
@@ -564,7 +812,11 @@
     "address": "100 S Ocean Blvd, Manalapan, FL 33462",
     "type": "resort",
     "description": "Five-star oceanfront resort south of Palm Beach, popular for luxury weddings and corporate retreats needing charter bus service.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "wedding-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "wedding-events"
+    ]
   },
   {
     "slug": "hilton-west-palm-beach",
@@ -573,7 +825,11 @@
     "address": "600 Okeechobee Blvd, West Palm Beach, FL 33401",
     "type": "hotel",
     "description": "Downtown convention hotel connected to the Palm Beach County Convention Center, a popular group pickup point.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "cocoa-beach-hilton",
@@ -582,7 +838,11 @@
     "address": "1550 N Atlantic Ave, Cocoa Beach, FL 32931",
     "type": "hotel",
     "description": "Oceanfront hotel on Cocoa Beach, one of the most popular pre-cruise overnight stays with morning shuttle service to Port Canaveral.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "country-inn-port-canaveral",
@@ -591,7 +851,11 @@
     "address": "9009 Astronaut Blvd, Cape Canaveral, FL 32920",
     "type": "hotel",
     "description": "Popular pre-cruise hotel offering park-and-cruise packages near Port Canaveral, a regular charter bus pickup point.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "radisson-port-canaveral",
@@ -600,7 +864,11 @@
     "address": "8701 Astronaut Blvd, Cape Canaveral, FL 32920",
     "type": "resort",
     "description": "Resort hotel adjacent to Port Canaveral offering cruise packages, one of the busiest pre-cruise shuttle pickup locations.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "residence-inn-port-canaveral",
@@ -609,7 +877,11 @@
     "address": "8959 Astronaut Blvd, Cape Canaveral, FL 32920",
     "type": "hotel",
     "description": "Extended-stay hotel near Port Canaveral popular with cruise travelers needing next-morning port transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "homewood-suites-cape-canaveral",
@@ -618,7 +890,11 @@
     "address": "9000 Astronaut Blvd, Cape Canaveral, FL 32920",
     "type": "hotel",
     "description": "All-suite hotel near Port Canaveral with cruise packages, a frequent pickup point for group cruise shuttle buses.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "westgate-cocoa-beach",
@@ -627,7 +903,11 @@
     "address": "3550 N Atlantic Ave, Cocoa Beach, FL 32931",
     "type": "resort",
     "description": "Oceanfront resort on Cocoa Beach, popular for pre-cruise stays and group charter bus service to Port Canaveral.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "international-palms-cocoa-beach",
@@ -636,7 +916,11 @@
     "address": "1300 N Atlantic Ave, Cocoa Beach, FL 32931",
     "type": "resort",
     "description": "Beachfront resort on Cocoa Beach with conference facilities, a common pre-cruise pickup point for Port Canaveral shuttles.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "daytona-beach-hilton",
@@ -645,7 +929,11 @@
     "address": "100 N Atlantic Ave, Daytona Beach, FL 32118",
     "type": "resort",
     "description": "Oceanfront resort on the Daytona Beach boardwalk, popular for race events and large group transportation during Bike Week and spring break.",
-    "transportNeeds": ["sports-event-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "sports-event-transport",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "daytona-beach-hard-rock",
@@ -654,7 +942,11 @@
     "address": "918 N Atlantic Ave, Daytona Beach, FL 32118",
     "type": "hotel",
     "description": "Rock-themed beachfront hotel on Daytona Beach, popular for race week events and large group charter bus service.",
-    "transportNeeds": ["sports-event-transport", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "sports-event-transport",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "daytona-beach-shores-resort",
@@ -663,7 +955,11 @@
     "address": "2637 S Atlantic Ave, Daytona Beach Shores, FL 32118",
     "type": "resort",
     "description": "Boutique beachfront resort in Daytona Beach Shores, popular for wedding groups and corporate retreats needing charter service.",
-    "transportNeeds": ["wedding-transport", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "wedding-events",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hyatt-place-daytona-oceanfront",
@@ -672,7 +968,11 @@
     "address": "3161 S Atlantic Ave, Daytona Beach, FL 32118",
     "type": "hotel",
     "description": "Modern oceanfront hotel on Daytona Beach, popular for sports teams and race event groups needing charter bus pickup.",
-    "transportNeeds": ["sports-event-transport", "airport-transfers", "school-groups"]
+    "transportNeeds": [
+      "sports-event-transport",
+      "airport-transfers",
+      "school-groups"
+    ]
   },
   {
     "slug": "hilton-melbourne",
@@ -681,7 +981,11 @@
     "address": "200 Rialto Place, Melbourne, FL 32901",
     "type": "hotel",
     "description": "Full-service hotel in downtown Melbourne near the Space Coast tech corridor, popular for corporate shuttles and cruise transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "crowne-plaza-melbourne",
@@ -690,7 +994,11 @@
     "address": "2605 N Hwy A1A, Indialantic, FL 32903",
     "type": "hotel",
     "description": "Oceanfront hotel in Indialantic near Melbourne, popular for corporate events and Space Coast group transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hyatt-regency-coconut-point",
@@ -699,7 +1007,11 @@
     "address": "5001 Coconut Rd, Bonita Springs, FL 34134",
     "type": "resort",
     "description": "Gulf Coast resort in Bonita Springs near Fort Myers, popular for corporate retreats and wedding groups needing charter bus service.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "wedding-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "wedding-events"
+    ]
   },
   {
     "slug": "ritz-carlton-naples",
@@ -708,7 +1020,11 @@
     "address": "280 Vanderbilt Beach Rd, Naples, FL 34108",
     "type": "resort",
     "description": "Luxury beachfront resort in Naples, popular for high-end corporate events and VIP group transportation.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "wedding-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "wedding-events"
+    ]
   },
   {
     "slug": "naples-grande-beach-resort",
@@ -717,7 +1033,11 @@
     "address": "475 Seagate Dr, Naples, FL 34103",
     "type": "resort",
     "description": "Full-service Gulf Coast resort with meeting space and golf course, popular for corporate groups needing charter bus transportation.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "wedding-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "wedding-events"
+    ]
   },
   {
     "slug": "ritz-carlton-sarasota",
@@ -726,7 +1046,11 @@
     "address": "1111 Ritz-Carlton Dr, Sarasota, FL 34236",
     "type": "resort",
     "description": "Luxury resort on Sarasota Bay with beach club on Lido Key, popular for corporate retreats and group charter service.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "cruise-shuttle"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "cruise-shuttle"
+    ]
   },
   {
     "slug": "hyatt-regency-sarasota",
@@ -735,7 +1059,11 @@
     "address": "1000 Blvd of the Arts, Sarasota, FL 34236",
     "type": "hotel",
     "description": "Waterfront hotel in downtown Sarasota near the arts district, popular for convention groups needing charter bus service.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "marriott-orlando-airport-lakeside",
@@ -744,7 +1072,11 @@
     "address": "7499 Augusta National Dr, Orlando, FL 32822",
     "type": "hotel",
     "description": "Airport-area hotel popular as a staging point for group charter buses heading to Port Canaveral and Walt Disney World.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "hyatt-regency-orlando-airport",
@@ -753,7 +1085,11 @@
     "address": "9300 Jeff Fuqua Blvd, Orlando, FL 32827",
     "type": "hotel",
     "description": "The only hotel inside Orlando International Airport terminal, popular for overnight guests catching early cruise port shuttle buses.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "lake-nona-wave-hotel",
@@ -762,7 +1098,11 @@
     "address": "6100 Wave Hotel Dr, Orlando, FL 32827",
     "type": "hotel",
     "description": "Modern wellness hotel in Orlando's Lake Nona medical city, popular for medical conference groups needing charter bus service.",
-    "transportNeeds": ["convention-transport", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "alfond-inn-winter-park",
@@ -771,7 +1111,11 @@
     "address": "300 E New England Ave, Winter Park, FL 32789",
     "type": "hotel",
     "description": "Boutique hotel owned by Rollins College in charming Winter Park, popular for wedding groups and alumni events needing bus service.",
-    "transportNeeds": ["wedding-transport", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "wedding-events",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "vero-beach-hotel-spa",
@@ -780,7 +1124,11 @@
     "address": "3500 Ocean Dr, Vero Beach, FL 32963",
     "type": "resort",
     "description": "Oceanfront resort on Vero Beach, popular for group retreats and charter bus transfers to Orlando and Port Canaveral.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "corporate-charter"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-yacht-club",
@@ -789,7 +1137,11 @@
     "address": "1700 Epcot Resorts Blvd, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "New England-themed deluxe resort near EPCOT, popular for convention groups and cruise port charter bus transfers.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-beach-club",
@@ -798,7 +1150,11 @@
     "address": "1800 Epcot Resorts Blvd, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Beachside-themed deluxe resort adjacent to EPCOT, featuring the famous Stormalong Bay pool and frequent need for group transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "disney-wilderness-lodge",
@@ -807,7 +1163,11 @@
     "address": "901 Timberline Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Pacific Northwest-themed deluxe resort on Bay Lake, popular for group events and charter bus transportation.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-pop-century",
@@ -816,7 +1176,11 @@
     "address": "1050 Century Dr, Lake Buena Vista, FL 32830",
     "type": "resort",
     "description": "Value resort with retro pop culture themes, popular with cheerleading and dance competition groups needing bus charter service.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "sports-event-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "sports-event-transport"
+    ]
   },
   {
     "slug": "universal-aventura-hotel",
@@ -825,7 +1189,11 @@
     "address": "6725 Adventure Way, Orlando, FL 32819",
     "type": "hotel",
     "description": "Modern Universal Orlando hotel with rooftop bar, popular for groups needing shuttle service to cruise ports and airports.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "theme-parks"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "universal-sapphire-falls",
@@ -834,7 +1202,11 @@
     "address": "6601 Adventure Way, Orlando, FL 32819",
     "type": "resort",
     "description": "Caribbean-themed resort at Universal Orlando with 1,000 rooms and meeting space, popular for groups needing charter bus service.",
-    "transportNeeds": ["cruise-shuttle", "airport-transfers", "convention-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "airport-transfers",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "marriott-tampa-water-street",
@@ -843,7 +1215,11 @@
     "address": "505 Water St, Tampa, FL 33602",
     "type": "hotel",
     "description": "Convention hotel in Tampa's Water Street district near Amalie Arena, popular for event groups and cruise port transfers.",
-    "transportNeeds": ["cruise-shuttle", "convention-transport", "sports-event-transport"]
+    "transportNeeds": [
+      "cruise-shuttle",
+      "corporate-charter",
+      "sports-event-transport"
+    ]
   },
   {
     "slug": "innisbrook-resort-tampa",
@@ -852,6 +1228,10 @@
     "address": "36750 US Hwy 19 N, Palm Harbor, FL 34684",
     "type": "resort",
     "description": "Golf resort in Palm Harbor north of Tampa, home to the PGA Valspar Championship and popular for corporate groups needing bus service.",
-    "transportNeeds": ["corporate-charter", "airport-transfers", "sports-event-transport"]
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "sports-event-transport"
+    ]
   }
 ]

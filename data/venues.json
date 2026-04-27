@@ -3,972 +3,1659 @@
     "slug": "orange-county-convention-center",
     "name": "Orange County Convention Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "orlando",
     "capacity": "200000",
     "address": "9800 International Dr, Orlando, FL 32819",
     "description": "The second-largest convention center in the United States at 7 million square feet, hosting over 200 major trade shows, conferences, and consumer expos annually on International Drive.",
-    "popularEvents": ["trade shows", "conferences", "expos", "consumer shows"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "trade shows",
+      "conferences",
+      "expos",
+      "consumer shows"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "tampa-convention-center",
     "name": "Tampa Convention Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "tampa",
     "capacity": "36000",
     "address": "333 S Franklin St, Tampa, FL 33602",
     "description": "A 600,000 square foot waterfront convention facility in downtown Tampa on the Riverwalk, hosting trade shows, conventions, and major community events year-round.",
-    "popularEvents": ["conventions", "trade shows", "galas", "corporate events"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "trade shows",
+      "galas",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "ocean-center-daytona",
     "name": "Ocean Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "daytona-beach",
     "capacity": "10000",
     "address": "101 N Atlantic Ave, Daytona Beach, FL 32118",
     "description": "Daytona Beach's premier beachside convention and entertainment venue with over 200,000 square feet of flexible event space, hosting concerts, conventions, and sporting events.",
-    "popularEvents": ["conventions", "concerts", "trade shows", "sporting events"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle"]
+    "popularEvents": [
+      "conventions",
+      "concerts",
+      "trade shows",
+      "sporting events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "broward-county-convention-center",
     "name": "Broward County Convention Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "fort-lauderdale",
     "capacity": "25000",
     "address": "1950 Eisenhower Blvd, Fort Lauderdale, FL 33316",
     "description": "A 600,000 square foot convention center adjacent to Port Everglades and Fort Lauderdale-Hollywood International Airport, currently undergoing a major expansion project.",
-    "popularEvents": ["conventions", "trade shows", "boat shows", "expos"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "trade shows",
+      "boat shows",
+      "expos"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "palm-beach-county-convention-center",
     "name": "Palm Beach County Convention Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "west-palm-beach",
     "capacity": "15000",
     "address": "650 Okeechobee Blvd, West Palm Beach, FL 33401",
     "description": "A 350,000 square foot meeting and exhibition center in downtown West Palm Beach connected to the Hilton, hosting trade shows, conventions, and community events.",
-    "popularEvents": ["conventions", "trade shows", "community events", "galas"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "trade shows",
+      "community events",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "miami-beach-convention-center",
     "name": "Miami Beach Convention Center",
     "type": "convention-center",
-    "emoji": "🏢",
+    "emoji": "\ud83c\udfe2",
     "citySlug": "miami-beach",
     "capacity": "50000",
     "address": "1901 Convention Center Dr, Miami Beach, FL 33139",
     "description": "A recently renovated 1.4 million square foot convention center hosting Art Basel, boat shows, and major international events. One of the premier event venues in the southeastern United States.",
-    "popularEvents": ["Art Basel", "boat shows", "conventions", "international events"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "Art Basel",
+      "boat shows",
+      "conventions",
+      "international events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "gaylord-palms-resort",
     "name": "Gaylord Palms Resort and Convention Center",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "kissimmee",
     "capacity": "10000",
     "address": "6000 W Osceola Pkwy, Kissimmee, FL 34746",
     "description": "A 1,718-room resort featuring 400,000 square feet of meeting and convention space under a massive glass atrium with Florida-themed indoor gardens and a full-service spa.",
-    "popularEvents": ["corporate conferences", "conventions", "incentive trips", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "conventions",
+      "incentive trips",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "rosen-shingle-creek",
     "name": "Rosen Shingle Creek",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "8000",
     "address": "9939 Universal Blvd, Orlando, FL 32819",
     "description": "A 1,501-room resort on Universal Boulevard with 524,000 square feet of meeting space, an 18-hole golf course, and a full-service spa. One of Orlando's premier convention hotels.",
-    "popularEvents": ["corporate conferences", "conventions", "trade shows", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "conventions",
+      "trade shows",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "hilton-orlando",
     "name": "Hilton Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "5000",
     "address": "6001 Destination Pkwy, Orlando, FL 32819",
     "description": "A 1,417-room convention hotel connected to the Orange County Convention Center by a covered walkway, featuring 175,000 square feet of meeting space and resort amenities.",
-    "popularEvents": ["conventions", "corporate meetings", "trade shows", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "corporate meetings",
+      "trade shows",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "hyatt-regency-orlando",
     "name": "Hyatt Regency Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "6000",
     "address": "9801 International Dr, Orlando, FL 32819",
     "description": "A 1,641-room convention hotel connected to the Orange County Convention Center, featuring 315,000 square feet of meeting space and a rooftop terrace with panoramic views.",
-    "popularEvents": ["conventions", "corporate conferences", "galas", "trade shows"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "conventions",
+      "corporate conferences",
+      "galas",
+      "trade shows"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "walt-disney-world-swan-dolphin",
     "name": "Walt Disney World Swan and Dolphin Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "7000",
     "address": "1500 Epcot Resorts Blvd, Orlando, FL 32830",
     "description": "A Marriott-operated resort within Walt Disney World featuring 2,267 rooms and 331,000 square feet of meeting space, with walking access to EPCOT and Hollywood Studios.",
-    "popularEvents": ["corporate conferences", "incentive trips", "conventions", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "incentive trips",
+      "conventions",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-coronado-springs",
     "name": "Disney's Coronado Springs Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "5000",
     "address": "1000 W Buena Vista Dr, Orlando, FL 32830",
     "description": "A Disney convention resort featuring 2,385 rooms including the Gran Destino Tower, 220,000 square feet of convention space, and a stunning lakefront setting within Walt Disney World.",
-    "popularEvents": ["corporate conferences", "conventions", "incentive trips", "team retreats"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "conventions",
+      "incentive trips",
+      "team retreats"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "disney-contemporary-resort",
     "name": "Disney's Contemporary Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "3000",
     "address": "4600 N World Dr, Orlando, FL 32830",
     "description": "An iconic Disney resort connected to Magic Kingdom by monorail, featuring 655 rooms and 115,000 square feet of event space including the Convention Center wing.",
-    "popularEvents": ["corporate meetings", "incentive trips", "galas", "conventions"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate meetings",
+      "incentive trips",
+      "galas",
+      "conventions"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "loews-royal-pacific",
     "name": "Loews Royal Pacific Resort at Universal Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "3000",
     "address": "6300 Hollywood Way, Orlando, FL 32819",
     "description": "A 1,000-room South Pacific-themed resort at Universal Orlando with 85,000 square feet of meeting space, including a 32,000 square foot ballroom and unlimited Universal Express pass for hotel guests.",
-    "popularEvents": ["corporate conferences", "incentive trips", "team retreats", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate conferences",
+      "incentive trips",
+      "team retreats",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "jw-marriott-orlando-grande-lakes",
     "name": "JW Marriott Orlando Grande Lakes",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "4000",
     "address": "4040 Central Florida Pkwy, Orlando, FL 32837",
     "description": "A luxury resort on 500 acres featuring 1,000 rooms, a Greg Norman-designed golf course, full-service spa, and 100,000 square feet of meeting and event space.",
-    "popularEvents": ["corporate retreats", "conferences", "incentive trips", "luxury galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "corporate retreats",
+      "conferences",
+      "incentive trips",
+      "luxury galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "ritz-carlton-orlando-grande-lakes",
     "name": "The Ritz-Carlton Orlando, Grande Lakes",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "2000",
     "address": "4012 Central Florida Pkwy, Orlando, FL 32837",
     "description": "A luxury 582-room Ritz-Carlton resort sharing the 500-acre Grande Lakes campus, featuring 51,000 square feet of meeting space, a world-class spa, and an 18-hole golf course.",
-    "popularEvents": ["executive retreats", "luxury conferences", "galas", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "executive retreats",
+      "luxury conferences",
+      "galas",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "omni-orlando-championsgate",
     "name": "Omni Orlando Resort at ChampionsGate",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "davenport",
     "capacity": "3000",
     "address": "1500 Masters Blvd, ChampionsGate, FL 33896",
     "description": "A 720-room luxury golf resort south of Disney featuring 36 holes of championship golf designed by Greg Norman, 128,000 square feet of meeting space, and a 15-acre recreation area.",
-    "popularEvents": ["golf tournaments", "corporate retreats", "conferences", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "golf tournaments",
+      "corporate retreats",
+      "conferences",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "signia-hilton-bonnet-creek",
     "name": "Signia by Hilton Orlando Bonnet Creek",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "5000",
     "address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821",
     "description": "A 1,009-room luxury resort within the Walt Disney World resort area featuring 132,000 square feet of meeting space, a lazy river, golf course, and full-service spa.",
-    "popularEvents": ["corporate conferences", "conventions", "galas", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "conventions",
+      "galas",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "marriott-orlando-world-center",
     "name": "Marriott Orlando World Center",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "6000",
     "address": "8701 World Center Dr, Orlando, FL 32821",
     "description": "One of the largest Marriott resorts in the world with 2,009 rooms, 450,000 square feet of meeting and event space, an 18-hole golf course, and a resort-style pool complex near Disney.",
-    "popularEvents": ["conventions", "corporate conferences", "trade shows", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "conventions",
+      "corporate conferences",
+      "trade shows",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "caribe-royale-orlando",
     "name": "Caribe Royale Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "4000",
     "address": "8101 World Center Dr, Orlando, FL 32821",
     "description": "A recently renovated all-suite resort with 1,335 suites and 220,000 square feet of meeting and event space near Walt Disney World, featuring a tropical pool area and multiple dining options.",
-    "popularEvents": ["corporate conferences", "conventions", "retreats", "trade shows"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "conventions",
+      "retreats",
+      "trade shows"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "grand-hyatt-tampa-bay",
     "name": "Grand Hyatt Tampa Bay",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "tampa",
     "capacity": "2000",
     "address": "2900 Bayport Dr, Tampa, FL 33607",
     "description": "A waterfront resort on Tampa Bay featuring 445 rooms, 35,000 square feet of meeting space, nature trails, and a private beach. Connected to the Tampa International Airport by a complimentary shuttle.",
-    "popularEvents": ["corporate retreats", "conferences", "weddings", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "conferences",
+      "weddings",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "jw-marriott-tampa",
     "name": "JW Marriott Tampa Water Street",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "tampa",
     "capacity": "3000",
     "address": "510 Water St, Tampa, FL 33602",
     "description": "Tampa's newest luxury hotel in the Water Street development, featuring 519 rooms, 100,000 square feet of meeting and event space, and a rooftop pool with bay views.",
-    "popularEvents": ["corporate conferences", "galas", "conventions", "luxury events"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "galas",
+      "conventions",
+      "luxury events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "hilton-tampa-downtown",
     "name": "Hilton Tampa Downtown",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "tampa",
     "capacity": "2500",
     "address": "211 N Tampa St, Tampa, FL 33602",
     "description": "A 520-room downtown Tampa hotel connected to the Tampa Convention Center by a skybridge, featuring 36,000 square feet of meeting space and walkable access to the Riverwalk.",
-    "popularEvents": ["conventions", "corporate meetings", "galas", "conferences"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "corporate meetings",
+      "galas",
+      "conferences"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "breakers-palm-beach",
     "name": "The Breakers Palm Beach",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "palm-beach",
     "capacity": "3000",
     "address": "1 S County Rd, Palm Beach, FL 33480",
     "description": "A legendary Italian Renaissance-style oceanfront resort with 538 rooms, 50,000 square feet of meeting space, two 18-hole golf courses, and a full-service spa. One of the most iconic hotels in Florida.",
-    "popularEvents": ["luxury galas", "corporate retreats", "weddings", "executive conferences"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "luxury galas",
+      "corporate retreats",
+      "weddings",
+      "executive conferences"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "boca-raton-resort",
     "name": "Boca Raton Resort and Club",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "boca-raton",
     "capacity": "4000",
     "address": "501 E Camino Real, Boca Raton, FL 33432",
     "description": "A historic 1,047-room waterfront resort spanning 200 acres with a private beach club, two 18-hole golf courses, and over 120,000 square feet of meeting and event space.",
-    "popularEvents": ["corporate retreats", "conferences", "weddings", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "corporate retreats",
+      "conferences",
+      "weddings",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "fort-lauderdale-marriott-harbor-beach",
     "name": "Fort Lauderdale Marriott Harbor Beach Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "fort-lauderdale",
     "capacity": "2000",
     "address": "3030 Holiday Dr, Fort Lauderdale, FL 33316",
     "description": "A 650-room beachfront resort on 16 acres with a quarter-mile private beach, 42,000 square feet of meeting space, and a full-service spa overlooking the Atlantic Ocean.",
-    "popularEvents": ["corporate conferences", "incentive trips", "weddings", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate conferences",
+      "incentive trips",
+      "weddings",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "diplomat-beach-resort",
     "name": "The Diplomat Beach Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "hollywood",
     "capacity": "5000",
     "address": "3555 S Ocean Dr, Hollywood, FL 33019",
     "description": "A 1,000-room oceanfront resort in Hollywood featuring 209,000 square feet of indoor and outdoor event space, a beachfront pool complex, and the signature Diplomat Ballroom.",
-    "popularEvents": ["conventions", "corporate conferences", "galas", "weddings"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "conventions",
+      "corporate conferences",
+      "galas",
+      "weddings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "seminole-hard-rock-hollywood",
     "name": "Seminole Hard Rock Hotel and Casino Hollywood",
     "type": "hotel-resort",
-    "emoji": "🎸",
+    "emoji": "\ud83c\udfb8",
     "citySlug": "hollywood",
     "capacity": "8000",
     "address": "1 Seminole Way, Hollywood, FL 33314",
     "description": "The iconic guitar-shaped hotel tower with 1,271 rooms, a 140,000 square foot casino, Hard Rock Live arena, and over 120,000 square feet of meeting and event space. A landmark entertainment destination in South Florida.",
-    "popularEvents": ["concerts", "conventions", "corporate events", "galas", "boxing matches"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle", "airport-transfers"]
+    "popularEvents": [
+      "concerts",
+      "conventions",
+      "corporate events",
+      "galas",
+      "boxing matches"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "fontainebleau-miami-beach",
     "name": "Fontainebleau Miami Beach",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "miami-beach",
     "capacity": "6000",
     "address": "4441 Collins Ave, Miami Beach, FL 33140",
     "description": "A legendary 1,504-room oceanfront resort on Miami Beach featuring 107,000 square feet of meeting space, the LIV nightclub, a massive pool complex, and a Lapis spa.",
-    "popularEvents": ["corporate conferences", "galas", "incentive trips", "luxury events"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "corporate conferences",
+      "galas",
+      "incentive trips",
+      "luxury events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "eden-roc-miami-beach",
     "name": "Eden Roc Miami Beach",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "miami-beach",
     "capacity": "2000",
     "address": "4525 Collins Ave, Miami Beach, FL 33140",
     "description": "A historic Art Deco oceanfront resort with 631 rooms, 70,000 square feet of meeting space, three pools, and a waterfront spa. A Mid-Century Modern icon on Collins Avenue.",
-    "popularEvents": ["corporate conferences", "weddings", "incentive trips", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate conferences",
+      "weddings",
+      "incentive trips",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "dont-cesars",
     "name": "The Don CeSar",
     "type": "hotel-resort",
-    "emoji": "🏩",
+    "emoji": "\ud83c\udfe9",
     "citySlug": "st-petersburg",
     "capacity": "1500",
     "address": "3400 Gulf Blvd, St. Pete Beach, FL 33706",
     "description": "The iconic 'Pink Palace' on St. Pete Beach is a 277-room Loews resort featuring 35,000 square feet of event space, Gulf-front dining, a full-service spa, and nearly a century of Florida history.",
-    "popularEvents": ["weddings", "corporate retreats", "galas", "luxury events"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "weddings",
+      "corporate retreats",
+      "galas",
+      "luxury events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "innisbrook-resort",
     "name": "Innisbrook Resort",
     "type": "hotel-resort",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "palm-harbor",
     "capacity": "2500",
     "address": "36750 US Hwy 19 N, Palm Harbor, FL 34684",
     "description": "A 900-acre golf resort and spa featuring 72 holes of championship golf including the Copperhead Course (home of the PGA Tour Valspar Championship), 600 guest suites, and 65,000 square feet of meeting space.",
-    "popularEvents": ["golf tournaments", "corporate retreats", "conferences", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "golf tournaments",
+      "corporate retreats",
+      "conferences",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "saddlebrook-resort",
     "name": "Saddlebrook Resort",
     "type": "hotel-resort",
-    "emoji": "🎾",
+    "emoji": "\ud83c\udfbe",
     "citySlug": "wesley-chapel",
     "capacity": "1500",
     "address": "5700 Saddlebrook Way, Wesley Chapel, FL 33543",
     "description": "A 480-acre resort north of Tampa featuring 800 rooms, a tennis academy, 36 holes of golf, a full-service spa, and 90,000 square feet of meeting and event space in a secluded natural setting.",
-    "popularEvents": ["corporate retreats", "tennis tournaments", "conferences", "team-building"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "tennis tournaments",
+      "conferences",
+      "team-building"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "amway-center",
     "name": "Amway Center",
     "type": "arena-stadium",
-    "emoji": "🏀",
+    "emoji": "\ud83c\udfc0",
     "citySlug": "orlando",
     "capacity": "20000",
     "address": "400 W Church St, Orlando, FL 32801",
     "description": "A 20,000-seat multi-purpose arena in downtown Orlando, home to the NBA's Orlando Magic, hosting concerts, Disney on Ice, UFC events, and corporate functions throughout the year.",
-    "popularEvents": ["NBA games", "concerts", "Disney on Ice", "UFC", "corporate events"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "NBA games",
+      "concerts",
+      "Disney on Ice",
+      "UFC",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "camping-world-stadium",
     "name": "Camping World Stadium",
     "type": "arena-stadium",
-    "emoji": "🏟️",
+    "emoji": "\ud83c\udfdf\ufe0f",
     "citySlug": "orlando",
     "capacity": "65000",
     "address": "1 Citrus Bowl Pl, Orlando, FL 32805",
     "description": "A 65,000-seat multi-purpose stadium hosting college football bowl games, the NFL Pro Bowl, major concerts, and Orlando City SC matches in downtown Orlando.",
-    "popularEvents": ["bowl games", "concerts", "soccer matches", "Pro Bowl"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "bowl games",
+      "concerts",
+      "soccer matches",
+      "Pro Bowl"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "raymond-james-stadium",
     "name": "Raymond James Stadium",
     "type": "arena-stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "citySlug": "tampa",
     "capacity": "75000",
     "address": "4201 N Dale Mabry Hwy, Tampa, FL 33607",
     "description": "A 75,000-seat stadium home to the NFL's Tampa Bay Buccaneers, featuring an iconic pirate ship. The stadium has hosted multiple Super Bowls, national championships, and major concerts.",
-    "popularEvents": ["NFL games", "Super Bowl", "concerts", "college football"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "NFL games",
+      "Super Bowl",
+      "concerts",
+      "college football"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "tropicana-field",
     "name": "Tropicana Field",
     "type": "arena-stadium",
-    "emoji": "⚾",
+    "emoji": "\u26be",
     "citySlug": "st-petersburg",
     "capacity": "25000",
     "address": "1 Tropicana Dr, St. Petersburg, FL 33705",
     "description": "The domed stadium home to MLB's Tampa Bay Rays, offering baseball rain or shine plus concerts and events during the off-season in downtown St. Petersburg.",
-    "popularEvents": ["MLB games", "concerts", "events", "corporate outings"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "MLB games",
+      "concerts",
+      "events",
+      "corporate outings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "amelie-arena",
     "name": "Amelie Arena",
     "type": "arena-stadium",
-    "emoji": "🏒",
+    "emoji": "\ud83c\udfd2",
     "citySlug": "tampa",
     "capacity": "21000",
     "address": "401 Channelside Dr, Tampa, FL 33602",
     "description": "A 21,000-seat arena in downtown Tampa home to the NHL's Tampa Bay Lightning, hosting concerts, Disney on Ice, and major events on the Channelside waterfront.",
-    "popularEvents": ["NHL games", "concerts", "Disney on Ice", "UFC", "corporate events"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "NHL games",
+      "concerts",
+      "Disney on Ice",
+      "UFC",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "daytona-international-speedway",
     "name": "Daytona International Speedway",
     "type": "arena-stadium",
-    "emoji": "🏁",
+    "emoji": "\ud83c\udfc1",
     "citySlug": "daytona-beach",
     "capacity": "101500",
     "address": "1801 W International Speedway Blvd, Daytona Beach, FL 32114",
     "description": "The 'World Center of Racing' and home of the Daytona 500, featuring 101,500 permanent seats and the DAYTONA Rising premium experience. The speedway hosts NASCAR, IMSA, and other motorsports events.",
-    "popularEvents": ["Daytona 500", "NASCAR races", "IMSA races", "bike week events"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Daytona 500",
+      "NASCAR races",
+      "IMSA races",
+      "bike week events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hard-rock-stadium",
     "name": "Hard Rock Stadium",
     "type": "arena-stadium",
-    "emoji": "🏈",
+    "emoji": "\ud83c\udfc8",
     "citySlug": "miami-gardens",
     "capacity": "65000",
     "address": "347 Don Shula Dr, Miami Gardens, FL 33056",
     "description": "A 65,000-seat stadium home to the NFL's Miami Dolphins and host venue for the Formula 1 Miami Grand Prix, Miami Open tennis, the Orange Bowl, and major concerts.",
-    "popularEvents": ["NFL games", "F1 Grand Prix", "Miami Open", "concerts", "Orange Bowl"],
-    "transportNeeds": ["event-shuttle", "hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "NFL games",
+      "F1 Grand Prix",
+      "Miami Open",
+      "concerts",
+      "Orange Bowl"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "hard-rock-live-orlando",
     "name": "Hard Rock Live Orlando",
     "type": "event-hall",
-    "emoji": "🎸",
+    "emoji": "\ud83c\udfb8",
     "citySlug": "orlando",
     "capacity": "3000",
     "address": "6050 Universal Blvd, Orlando, FL 32819",
     "description": "A 3,000-seat live music and event venue at Universal CityWalk, hosting concerts, comedy shows, corporate events, and private parties in a state-of-the-art facility.",
-    "popularEvents": ["concerts", "comedy shows", "corporate events", "private parties"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "concerts",
+      "comedy shows",
+      "corporate events",
+      "private parties"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "dr-phillips-center",
     "name": "Dr. Phillips Center for the Performing Arts",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "orlando",
     "capacity": "2700",
     "address": "445 S Magnolia Ave, Orlando, FL 32801",
     "description": "Orlando's premier performing arts center featuring the Walt Disney Theater and Steinmetz Hall, hosting Broadway shows, concerts, ballet, and opera in downtown Orlando.",
-    "popularEvents": ["Broadway shows", "concerts", "ballet", "opera", "corporate galas"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "concerts",
+      "ballet",
+      "opera",
+      "corporate galas"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "mahaffey-theater",
     "name": "Duke Energy Center for the Arts - Mahaffey Theater",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "st-petersburg",
     "capacity": "2031",
     "address": "400 1st St S, St. Petersburg, FL 33701",
     "description": "A waterfront performing arts venue in downtown St. Petersburg hosting concerts, Broadway touring shows, comedy, and private events with stunning Tampa Bay views.",
-    "popularEvents": ["concerts", "Broadway shows", "galas", "corporate events"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "concerts",
+      "Broadway shows",
+      "galas",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "straz-center",
     "name": "David A. Straz Jr. Center for the Performing Arts",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "tampa",
     "capacity": "5000",
     "address": "1010 N Macinnes Pl, Tampa, FL 33602",
     "description": "The largest performing arts center in the southeastern United States, featuring five theaters and hosting Broadway shows, concerts, dance, and opera on the Tampa Riverwalk.",
-    "popularEvents": ["Broadway shows", "concerts", "opera", "dance", "corporate galas"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "concerts",
+      "opera",
+      "dance",
+      "corporate galas"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "broward-center",
     "name": "Broward Center for the Performing Arts",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "fort-lauderdale",
     "capacity": "2700",
     "address": "201 SW 5th Ave, Fort Lauderdale, FL 33312",
     "description": "Fort Lauderdale's premier performing arts venue hosting Broadway national tours, concerts, ballet, and opera along the Riverwalk Arts and Entertainment District.",
-    "popularEvents": ["Broadway shows", "concerts", "ballet", "corporate events"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "concerts",
+      "ballet",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "kravis-center",
     "name": "Raymond F. Kravis Center for the Performing Arts",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "west-palm-beach",
     "capacity": "2195",
     "address": "701 Okeechobee Blvd, West Palm Beach, FL 33401",
     "description": "West Palm Beach's premier performing arts center hosting Broadway shows, concerts, comedy, and dance in a waterfront setting near CityPlace.",
-    "popularEvents": ["Broadway shows", "concerts", "comedy", "corporate events"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "concerts",
+      "comedy",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "adrienne-arsht-center",
     "name": "Adrienne Arsht Center for the Performing Arts",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "miami",
     "capacity": "5000",
     "address": "1300 Biscayne Blvd, Miami, FL 33132",
     "description": "The second-largest performing arts center in the U.S., featuring three performance spaces hosting Broadway tours, Miami City Ballet, Florida Grand Opera, and major concerts on Biscayne Boulevard.",
-    "popularEvents": ["Broadway shows", "opera", "ballet", "concerts", "galas"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "opera",
+      "ballet",
+      "concerts",
+      "galas"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "bella-collina",
     "name": "Bella Collina",
     "type": "wedding-venue",
-    "emoji": "💒",
+    "emoji": "\ud83d\udc92",
     "citySlug": "montverde",
     "capacity": "500",
     "address": "16350 Vetta Dr, Montverde, FL 34756",
     "description": "A Tuscan-inspired lakefront estate on 1,700 acres in Montverde featuring an Italian-style clubhouse, Sir Nick Faldo-designed golf course, and stunning rolling hills. One of Central Florida's most sought-after wedding venues.",
-    "popularEvents": ["weddings", "corporate retreats", "galas", "private events"],
-    "transportNeeds": ["wedding-transport", "corporate-charter"]
+    "popularEvents": [
+      "weddings",
+      "corporate retreats",
+      "galas",
+      "private events"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "crystal-ballroom-orlando",
     "name": "The Crystal Ballroom Orlando",
     "type": "wedding-venue",
-    "emoji": "💎",
+    "emoji": "\ud83d\udc8e",
     "citySlug": "orlando",
     "capacity": "400",
     "address": "225 S Garland Ave, Orlando, FL 32801",
     "description": "An elegant downtown Orlando event venue featuring crystal chandeliers, a grand staircase, and versatile ballroom space for weddings, galas, and corporate events.",
-    "popularEvents": ["weddings", "galas", "corporate events", "quinceañeras"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "galas",
+      "corporate events",
+      "quincea\u00f1eras"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "heaven-event-center",
     "name": "Heaven Event Center",
     "type": "event-hall",
-    "emoji": "✨",
+    "emoji": "\u2728",
     "citySlug": "orlando",
     "capacity": "700",
     "address": "1 Heaven Way, Orlando, FL 32801",
     "description": "A premier event venue in Orlando offering elegant ballroom space with modern amenities, customizable lighting, and full event coordination services for weddings, galas, and corporate functions.",
-    "popularEvents": ["weddings", "galas", "corporate events", "quinceañeras"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "galas",
+      "corporate events",
+      "quincea\u00f1eras"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "renaissance-at-the-gables",
     "name": "The Renaissance at the Gables",
     "type": "wedding-venue",
-    "emoji": "💒",
+    "emoji": "\ud83d\udc92",
     "citySlug": "coral-gables",
     "capacity": "350",
     "address": "2505 Ponce de Leon Blvd, Coral Gables, FL 33134",
     "description": "An elegant venue in historic Coral Gables featuring European-inspired architecture, a grand ballroom with soaring ceilings, and a courtyard setting perfect for upscale weddings and events.",
-    "popularEvents": ["weddings", "galas", "corporate events", "social events"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "galas",
+      "corporate events",
+      "social events"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "bonnet-house-museum",
     "name": "Bonnet House Museum and Gardens",
     "type": "wedding-venue",
-    "emoji": "🌺",
+    "emoji": "\ud83c\udf3a",
     "citySlug": "fort-lauderdale",
     "capacity": "300",
     "address": "900 N Birch Rd, Fort Lauderdale, FL 33304",
     "description": "A historic 35-acre estate on Fort Lauderdale Beach featuring lush tropical gardens, a historic house museum, and elegant event spaces surrounded by natural beauty just steps from the ocean.",
-    "popularEvents": ["weddings", "garden parties", "corporate events", "private tours"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "garden parties",
+      "corporate events",
+      "private tours"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "the-addison-boca-raton",
     "name": "The Addison",
     "type": "wedding-venue",
-    "emoji": "💒",
+    "emoji": "\ud83d\udc92",
     "citySlug": "boca-raton",
     "capacity": "350",
     "address": "2 E Camino Real, Boca Raton, FL 33432",
     "description": "An award-winning waterfront wedding and event venue in Boca Raton built in the Mediterranean Revival style by architect Addison Mizner, featuring a grand ballroom and Intracoastal Waterway views.",
-    "popularEvents": ["weddings", "galas", "corporate events", "charity events"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "galas",
+      "corporate events",
+      "charity events"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "hyatt-regency-coconut-point",
     "name": "Hyatt Regency Coconut Point Resort and Spa",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "bonita-springs",
     "capacity": "2000",
     "address": "5001 Coconut Rd, Bonita Springs, FL 34134",
     "description": "A 454-room waterfront resort on 26 acres overlooking Estero Bay, featuring 90,000 square feet of meeting space, a water park, three pools, and a private island beach accessible by boat.",
-    "popularEvents": ["corporate retreats", "conferences", "weddings", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "conferences",
+      "weddings",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "rosen-centre-hotel",
     "name": "Rosen Centre Hotel",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "4000",
     "address": "9840 International Dr, Orlando, FL 32819",
     "description": "A 1,334-room convention hotel connected to the Orange County Convention Center by a covered skywalk, featuring 106,000 square feet of meeting space on International Drive.",
-    "popularEvents": ["conventions", "trade shows", "corporate conferences", "expos"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "hotel-shuttle"]
+    "popularEvents": [
+      "conventions",
+      "trade shows",
+      "corporate conferences",
+      "expos"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "rosen-plaza-hotel",
     "name": "Rosen Plaza Hotel",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "3000",
     "address": "9700 International Dr, Orlando, FL 32819",
     "description": "A 800-room hotel connected to the Orange County Convention Center by a covered walkway, with 60,000 square feet of meeting and ballroom space on International Drive.",
-    "popularEvents": ["conventions", "corporate meetings", "galas", "trade shows"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "conventions",
+      "corporate meetings",
+      "galas",
+      "trade shows"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "grande-lakes-event-lawn",
     "name": "Grande Lakes Orlando Event Lawn",
     "type": "waterfront-venue",
-    "emoji": "🌿",
+    "emoji": "\ud83c\udf3f",
     "citySlug": "orlando",
     "capacity": "2000",
     "address": "4040 Central Florida Pkwy, Orlando, FL 32837",
     "description": "An expansive outdoor event lawn on the 500-acre Grande Lakes campus between the JW Marriott and Ritz-Carlton, offering lakefront event space surrounded by lush Florida nature.",
-    "popularEvents": ["outdoor galas", "festivals", "corporate picnics", "weddings"],
-    "transportNeeds": ["corporate-charter", "hotel-shuttle"]
+    "popularEvents": [
+      "outdoor galas",
+      "festivals",
+      "corporate picnics",
+      "weddings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "tavares-pavilion-on-the-lake",
     "name": "Tavares Pavilion on the Lake",
     "type": "waterfront-venue",
-    "emoji": "🌊",
+    "emoji": "\ud83c\udf0a",
     "citySlug": "tavares",
     "capacity": "300",
     "address": "200 E Ruby St, Tavares, FL 32778",
     "description": "A lakefront event venue on Lake Dora in Tavares, featuring an open-air pavilion with stunning sunset views, a wrap-around deck, and scenic boardwalk. A unique Lake County wedding and event destination.",
-    "popularEvents": ["weddings", "corporate events", "private parties", "galas"],
-    "transportNeeds": ["wedding-transport", "corporate-charter"]
+    "popularEvents": [
+      "weddings",
+      "corporate events",
+      "private parties",
+      "galas"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "paradise-cove-orlando",
     "name": "Paradise Cove",
     "type": "waterfront-venue",
-    "emoji": "🌴",
+    "emoji": "\ud83c\udf34",
     "citySlug": "orlando",
     "capacity": "500",
     "address": "12200 Lake Bryan Beach Blvd, Orlando, FL 32821",
     "description": "A private lakefront event venue near Walt Disney World featuring a white sand beach, tiki-style pavilions, and waterfront ceremony spaces. A tropical escape minutes from the theme parks.",
-    "popularEvents": ["weddings", "corporate events", "team-building", "private parties"],
-    "transportNeeds": ["wedding-transport", "corporate-charter"]
+    "popularEvents": [
+      "weddings",
+      "corporate events",
+      "team-building",
+      "private parties"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "mission-inn-resort",
     "name": "Mission Inn Resort and Club",
     "type": "hotel-resort",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "howey-in-the-hills",
     "capacity": "1000",
     "address": "10400 County Rd 48, Howey-in-the-Hills, FL 34737",
     "description": "A 176-room lakefront resort on 1,100 rolling acres in Lake County featuring two championship golf courses, a full-service spa, and outdoor event spaces with stunning views of Florida's hills.",
-    "popularEvents": ["corporate retreats", "golf outings", "weddings", "conferences"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "golf outings",
+      "weddings",
+      "conferences"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "bok-tower-gardens-event-venue",
     "name": "Bok Tower Gardens Event Venue",
     "type": "wedding-venue",
-    "emoji": "🌸",
+    "emoji": "\ud83c\udf38",
     "citySlug": "lake-wales",
     "capacity": "300",
     "address": "1151 Tower Blvd, Lake Wales, FL 33853",
     "description": "A stunning botanical garden wedding and event venue featuring the Singing Tower carillon as a backdrop, manicured gardens, and the historic Pinewood Estate available for ceremonies and receptions.",
-    "popularEvents": ["weddings", "corporate events", "private parties", "garden galas"],
-    "transportNeeds": ["wedding-transport", "corporate-charter"]
+    "popularEvents": [
+      "weddings",
+      "corporate events",
+      "private parties",
+      "garden galas"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "cypress-grove-estate-house",
     "name": "Cypress Grove Estate House",
     "type": "wedding-venue",
-    "emoji": "💒",
+    "emoji": "\ud83d\udc92",
     "citySlug": "orlando",
     "capacity": "250",
     "address": "690 Dunlawton Ave, Orlando, FL 32804",
     "description": "A romantic lakefront estate in Orlando featuring a historic house, manicured gardens, a dock extending over Lake Jessamine, and indoor-outdoor event spaces surrounded by ancient cypress trees.",
-    "popularEvents": ["weddings", "bridal showers", "corporate events", "private parties"],
-    "transportNeeds": ["wedding-transport", "hotel-shuttle"]
+    "popularEvents": [
+      "weddings",
+      "bridal showers",
+      "corporate events",
+      "private parties"
+    ],
+    "transportNeeds": [
+      "wedding-events",
+      "hotel-shuttle"
+    ]
   },
   {
     "slug": "isleworth-golf-country-club",
     "name": "Isleworth Golf and Country Club",
     "type": "country-club",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "windermere",
     "capacity": "500",
     "address": "9000 Isleworth Country Club Blvd, Windermere, FL 34786",
     "description": "An ultra-exclusive gated community and country club in Windermere featuring an Arnold Palmer-designed championship golf course, Mediterranean-style clubhouse, and private event spaces used by celebrities and corporate executives.",
-    "popularEvents": ["corporate retreats", "golf tournaments", "private events", "charity galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "golf tournaments",
+      "private events",
+      "charity galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "bay-hill-club-lodge",
     "name": "Arnold Palmer's Bay Hill Club and Lodge",
     "type": "country-club",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "orlando",
     "capacity": "1500",
     "address": "9000 Bay Hill Blvd, Orlando, FL 32819",
     "description": "The legendary golf resort founded by Arnold Palmer, home to the PGA Tour's Arnold Palmer Invitational. Features 27 holes of championship golf, a boutique lodge, and event spaces with lakefront views.",
-    "popularEvents": ["golf tournaments", "corporate retreats", "private events", "charity events"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "golf tournaments",
+      "corporate retreats",
+      "private events",
+      "charity events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "tpc-sawgrass",
     "name": "TPC Sawgrass",
     "type": "country-club",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "ponte-vedra-beach",
     "capacity": "2000",
     "address": "110 Championship Way, Ponte Vedra Beach, FL 32082",
     "description": "Home of THE PLAYERS Championship and the PGA Tour headquarters, featuring the iconic island green 17th hole, two championship courses, and the Sawgrass Marriott Resort with full conference facilities.",
-    "popularEvents": ["THE PLAYERS Championship", "corporate golf outings", "retreats", "conferences"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "THE PLAYERS Championship",
+      "corporate golf outings",
+      "retreats",
+      "conferences"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "waldorf-astoria-orlando",
     "name": "Waldorf Astoria Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "2000",
     "address": "14200 Bonnet Creek Resort Ln, Orlando, FL 32821",
     "description": "A luxury 502-room resort in the Bonnet Creek area of Walt Disney World featuring a Rees Jones-designed golf course, 42,000 square feet of event space, and the signature Bull and Bear steakhouse.",
-    "popularEvents": ["luxury conferences", "executive retreats", "weddings", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "luxury conferences",
+      "executive retreats",
+      "weddings",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "four-seasons-orlando",
     "name": "Four Seasons Resort Orlando at Walt Disney World",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "1500",
     "address": "10100 Dream Tree Blvd, Orlando, FL 32836",
     "description": "A luxury 444-room resort within Walt Disney World featuring a Tom Fazio-designed golf course, a massive resort pool complex, and refined meeting and event spaces with Disney fireworks views.",
-    "popularEvents": ["executive retreats", "luxury weddings", "incentive trips", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "executive retreats",
+      "luxury weddings",
+      "incentive trips",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "streamsong-resort",
     "name": "Streamsong Resort",
     "type": "hotel-resort",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "bowling-green",
     "capacity": "1000",
     "address": "1000 Streamsong Dr, Bowling Green, FL 33834",
     "description": "A luxury golf resort on 16,000 acres in Central Florida featuring three championship courses (Red, Blue, and Black), a full-service spa built into the landscape, and meeting spaces with stunning natural views.",
-    "popularEvents": ["corporate retreats", "golf outings", "executive conferences", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "golf outings",
+      "executive conferences",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "reunion-resort",
     "name": "Reunion Resort",
     "type": "hotel-resort",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "kissimmee",
     "capacity": "1500",
     "address": "7593 Gathering Dr, Kissimmee, FL 34747",
     "description": "A 2,300-acre resort community near Disney featuring three signature golf courses designed by Arnold Palmer, Tom Watson, and Jack Nicklaus, plus vacation homes, a water park, and meeting facilities.",
-    "popularEvents": ["corporate retreats", "golf outings", "weddings", "family reunions"],
-    "transportNeeds": ["corporate-charter", "airport-transfers", "theme-park-shuttle"]
+    "popularEvents": [
+      "corporate retreats",
+      "golf outings",
+      "weddings",
+      "family reunions"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers",
+      "theme-parks"
+    ]
   },
   {
     "slug": "biltmore-hotel-coral-gables",
     "name": "Biltmore Hotel",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "coral-gables",
     "capacity": "2000",
     "address": "1200 Anastasia Ave, Coral Gables, FL 33134",
     "description": "A National Historic Landmark hotel built in 1926 featuring 273 rooms, a legendary pool, an 18-hole golf course, and 60,000 square feet of event space in a Mediterranean Revival masterpiece.",
-    "popularEvents": ["weddings", "galas", "corporate events", "luxury conferences"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "weddings",
+      "galas",
+      "corporate events",
+      "luxury conferences"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "eau-palm-beach",
     "name": "Eau Palm Beach Resort and Spa",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "manalapan",
     "capacity": "1500",
     "address": "100 S Ocean Blvd, Manalapan, FL 33462",
     "description": "A luxury oceanfront resort on a private stretch of Palm Beach coastline featuring 309 rooms, a Forbes Five-Star spa, and 30,000 square feet of indoor and outdoor event space with ocean views.",
-    "popularEvents": ["luxury weddings", "corporate retreats", "galas", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "luxury weddings",
+      "corporate retreats",
+      "galas",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "pga-national-resort",
     "name": "PGA National Resort",
     "type": "hotel-resort",
-    "emoji": "⛳",
+    "emoji": "\u26f3",
     "citySlug": "palm-beach-gardens",
     "capacity": "2500",
     "address": "400 Ave of the Champions, Palm Beach Gardens, FL 33418",
     "description": "Home of the PGA Tour's Honda Classic, featuring 360 rooms, five championship golf courses, a full-service spa, and 40,000 square feet of meeting and event space in Palm Beach Gardens.",
-    "popularEvents": ["Honda Classic", "corporate golf outings", "conferences", "retreats"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "Honda Classic",
+      "corporate golf outings",
+      "conferences",
+      "retreats"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "peabody-auditorium",
     "name": "Peabody Auditorium",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "daytona-beach",
     "capacity": "2521",
     "address": "600 Auditorium Blvd, Daytona Beach, FL 32118",
     "description": "A 2,521-seat performing arts venue in Daytona Beach hosting Broadway tours, concerts, comedy shows, and community events. The venue serves as the cultural anchor of the Daytona Beach area.",
-    "popularEvents": ["Broadway shows", "concerts", "comedy", "community events"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "Broadway shows",
+      "concerts",
+      "comedy",
+      "community events"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "ruth-eckerd-hall",
     "name": "Ruth Eckerd Hall",
     "type": "event-hall",
-    "emoji": "🎭",
+    "emoji": "\ud83c\udfad",
     "citySlug": "clearwater",
     "capacity": "2180",
     "address": "1111 McMullen Booth Rd, Clearwater, FL 33759",
     "description": "A premier performing arts venue in Clearwater designed by the Frank Lloyd Wright Foundation, hosting major concerts, Broadway shows, and events in a 2,180-seat hall.",
-    "popularEvents": ["concerts", "Broadway shows", "comedy", "corporate events"],
-    "transportNeeds": ["hotel-shuttle", "corporate-charter"]
+    "popularEvents": [
+      "concerts",
+      "Broadway shows",
+      "comedy",
+      "corporate events"
+    ],
+    "transportNeeds": [
+      "hotel-shuttle",
+      "corporate-charter"
+    ]
   },
   {
     "slug": "wyndham-grand-clearwater",
     "name": "Wyndham Grand Clearwater Beach",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "clearwater",
     "capacity": "1500",
     "address": "100 Coronado Dr, Clearwater Beach, FL 33767",
     "description": "A beachfront resort on Clearwater Beach featuring 343 rooms, a rooftop pool bar, and over 20,000 square feet of event space with Gulf of Mexico views from the meeting rooms.",
-    "popularEvents": ["weddings", "corporate retreats", "conferences", "galas"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "weddings",
+      "corporate retreats",
+      "conferences",
+      "galas"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "hawks-cay-resort",
     "name": "Hawks Cay Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "duck-key",
     "capacity": "1000",
     "address": "61 Hawks Cay Blvd, Duck Key, FL 33050",
     "description": "A 60-acre island resort in the Florida Keys featuring 177 rooms and villas, a saltwater lagoon, dolphin encounters, and 20,000 square feet of meeting space surrounded by turquoise waters.",
-    "popularEvents": ["corporate retreats", "incentive trips", "weddings", "team-building"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "incentive trips",
+      "weddings",
+      "team-building"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "loews-portofino-bay",
     "name": "Loews Portofino Bay Hotel at Universal Orlando",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "2500",
     "address": "5601 Universal Blvd, Orlando, FL 32819",
     "description": "A 750-room luxury hotel inspired by the Italian seaside village of Portofino, featuring a harbor piazza, 42,000 square feet of meeting space, and unlimited Universal Express pass for guests.",
-    "popularEvents": ["corporate conferences", "incentive trips", "galas", "weddings"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate conferences",
+      "incentive trips",
+      "galas",
+      "weddings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "amelia-island-plantation",
     "name": "Omni Amelia Island Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "amelia-island",
     "capacity": "2500",
     "address": "6800 First Coast Hwy, Amelia Island, FL 32034",
     "description": "A 1,350-acre oceanfront resort on Amelia Island featuring 402 rooms, 36 holes of golf, a full-service spa, and 80,000 square feet of meeting and event space on a pristine barrier island.",
-    "popularEvents": ["corporate retreats", "conferences", "weddings", "golf outings"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "conferences",
+      "weddings",
+      "golf outings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "lake-nona-wave-hotel",
     "name": "Lake Nona Wave Hotel",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "orlando",
     "capacity": "1000",
     "address": "6100 Wave Hotel Dr, Orlando, FL 32827",
     "description": "A wellness-focused luxury hotel in Orlando's Lake Nona community featuring 234 rooms, biometric technology, a rooftop pool, and modern meeting spaces in one of Florida's fastest-growing innovation districts.",
-    "popularEvents": ["tech conferences", "corporate retreats", "wellness events", "executive meetings"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "tech conferences",
+      "corporate retreats",
+      "wellness events",
+      "executive meetings"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "naples-grande-beach-resort",
     "name": "Naples Grande Beach Resort",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "naples",
     "capacity": "1500",
     "address": "475 Seagate Dr, Naples, FL 34103",
     "description": "A luxury Gulf-front resort with 474 rooms on a pristine private beach, featuring a championship golf course, full-service spa, and 35,000 square feet of meeting and event space.",
-    "popularEvents": ["corporate retreats", "weddings", "conferences", "incentive trips"],
-    "transportNeeds": ["corporate-charter", "airport-transfers"]
+    "popularEvents": [
+      "corporate retreats",
+      "weddings",
+      "conferences",
+      "incentive trips"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "airport-transfers"
+    ]
   },
   {
     "slug": "alfond-inn-winter-park",
     "name": "The Alfond Inn at Rollins",
     "type": "hotel-resort",
-    "emoji": "🏨",
+    "emoji": "\ud83c\udfe8",
     "citySlug": "winter-park",
     "capacity": "400",
     "address": "300 E New England Ave, Winter Park, FL 32789",
     "description": "A boutique luxury hotel on Park Avenue in Winter Park owned by Rollins College, featuring 112 rooms, a curated art collection, and elegant meeting spaces in one of Orlando's most charming neighborhoods.",
-    "popularEvents": ["corporate meetings", "weddings", "galas", "private events"],
-    "transportNeeds": ["corporate-charter", "wedding-transport"]
+    "popularEvents": [
+      "corporate meetings",
+      "weddings",
+      "galas",
+      "private events"
+    ],
+    "transportNeeds": [
+      "corporate-charter",
+      "wedding-events"
+    ]
   }
 ]

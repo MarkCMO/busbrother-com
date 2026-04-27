@@ -283,3 +283,150 @@
   to = "/blog/charter-bus-vs-rideshare/"
   status = 301
   force = true
+
+# ── Legacy hub URLs (Google indexed before refactor) ──────
+[[redirects]]
+  from = "/airports/*"
+  to = "/services/airport-transfers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/airports"
+  to = "/services/airport-transfers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/corporate/*"
+  to = "/services/corporate-charter/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/corporate"
+  to = "/services/corporate-charter/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hotels/*"
+  to = "/services/hotel-shuttle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hotels"
+  to = "/services/hotel-shuttle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/routes/*"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/routes"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/schools/*"
+  to = "/services/school-groups/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/schools"
+  to = "/services/school-groups/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/*"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sports/*"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sports"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/venues/*"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/venues"
+  to = "/services/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/weddings/*"
+  to = "/services/wedding-events/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/weddings"
+  to = "/services/wedding-events/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/convention-transport"
+  to = "/services/conference-shuttle/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/theme-park-shuttle"
+  to = "/services/theme-parks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/wedding-transport"
+  to = "/services/wedding-events/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/event-shuttle"
+  to = "/services/"
+  status = 301
+  force = true
+
+# Legacy /from/CITY/to/SLUG pattern -> /attractions/SLUG/
+[[redirects]]
+  from = "/from/*/to/:slug"
+  to = "/attractions/:slug/"
+  status = 301
+  force = true
+
+# Empty service slug bug (any /areas/CITY// double slash)
+[[redirects]]
+  from = "/areas/:city//*"
+  to = "/areas/:city/"
+  status = 301
+  force = true

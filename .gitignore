@@ -11,3 +11,5 @@ dist-deploy/
 
 deploy.log
 
+broken-links.txt
+missing-urls.txt

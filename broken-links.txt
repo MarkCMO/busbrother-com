@@ -1,5 +1,0 @@
-100	/areas//cruise-shuttle/
-100	/areas//corporate-charter/
-100	/areas//wedding-events/
-100	/areas//school-groups/
-100	/areas//airport-transfers/

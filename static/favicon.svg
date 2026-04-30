@@ -1,15 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0a1628"/>
-  <rect x="12" y="14" width="40" height="30" rx="6" fill="#f5a623"/>
-  <rect x="16" y="18" width="10" height="8" rx="2" fill="#0a1628"/>
-  <rect x="28" y="18" width="10" height="8" rx="2" fill="#0a1628"/>
-  <rect x="40" y="18" width="10" height="8" rx="2" fill="#0a1628"/>
-  <rect x="16" y="28" width="10" height="8" rx="2" fill="#0a1628"/>
-  <rect x="28" y="28" width="10" height="8" rx="2" fill="#0a1628"/>
-  <rect x="40" y="28" width="22" height="8" rx="2" fill="#0a1628"/>
-  <circle cx="22" cy="48" r="5" fill="#f5a623" stroke="#0a1628" stroke-width="2"/>
-  <circle cx="22" cy="48" r="2" fill="#0a1628"/>
-  <circle cx="42" cy="48" r="5" fill="#f5a623" stroke="#0a1628" stroke-width="2"/>
-  <circle cx="42" cy="48" r="2" fill="#0a1628"/>
-  <rect x="8" y="40" width="48" height="6" rx="3" fill="#f5a623"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- outer pulsing accent ring -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#f5a623" stroke-width="2" opacity="0.6">
+    <animate attributeName="r" values="28;31;28" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0.25;0.85" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;3.5;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- second pulse for depth (offset timing) -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#f5a623" stroke-width="1" opacity="0.4">
+    <animate attributeName="r" values="27;32;27" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <!-- navy rounded square background -->
+  <rect x="4" y="4" width="56" height="56" rx="11" fill="#0a1628"/>
+  <!-- bus body -->
+  <rect x="14" y="16" width="36" height="26" rx="5" fill="#f5a623"/>
+  <!-- bus windows -->
+  <rect x="17" y="19" width="9" height="7" rx="2" fill="#0a1628"/>
+  <rect x="28" y="19" width="9" height="7" rx="2" fill="#0a1628"/>
+  <rect x="39" y="19" width="9" height="7" rx="2" fill="#0a1628"/>
+  <rect x="17" y="28" width="9" height="7" rx="2" fill="#0a1628"/>
+  <rect x="28" y="28" width="9" height="7" rx="2" fill="#0a1628"/>
+  <rect x="39" y="28" width="9" height="7" rx="2" fill="#0a1628"/>
+  <!-- bus undercarriage strip -->
+  <rect x="10" y="38" width="44" height="5" rx="2" fill="#f5a623"/>
+  <!-- left wheel with subtle spin -->
+  <g transform="translate(22 46)">
+    <circle r="4.5" fill="#f5a623" stroke="#0a1628" stroke-width="1.5"/>
+    <circle r="1.5" fill="#0a1628"/>
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#0a1628" stroke-width="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <!-- right wheel with subtle spin -->
+  <g transform="translate(42 46)">
+    <circle r="4.5" fill="#f5a623" stroke="#0a1628" stroke-width="1.5"/>
+    <circle r="1.5" fill="#0a1628"/>
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#0a1628" stroke-width="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
 </svg>

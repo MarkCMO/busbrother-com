@@ -1042,8 +1042,9 @@ if (templates['service-attraction']) {
 // ── M2. City to Attraction Transport Pages ────────────────
 if (templates['city-attraction']) {
   console.log('  City x Attraction pages...');
-  const topCities = cities; // ALL cities
-  const topAttractions = attractions; // ALL attractions
+  // SEO: limit to top 20 cities x top 30 attractions (was 120x230=27600 thin combos rejected by Google)
+  const topCities = cities.filter(c => c.tier <= 2).slice(0, 20);
+  const topAttractions = attractions.slice(0, 30);
   for (const city of topCities) {
     for (const attr of topAttractions) {
       if (attr.citySlug === city.slug) continue;
@@ -1157,7 +1158,8 @@ if (templates['service-city'] && neighborhoods.length) {
 // ── M6. Expanded City-to-City Routes ──────────────────────
 if (templates['route']) {
   console.log('  Expanded routes...');
-  const tier12Cities = cities.filter(c => c.tier <= 2);
+  // SEO: limit to tier 1 cities only (was tier <=2 producing 842 thin route pages)
+  const tier12Cities = cities.filter(c => c.tier === 1).slice(0, 15);
   const existingRoutes = new Set();
   routes.forEach(r => { existingRoutes.add(`${r.fromSlug}-${r.toSlug}`); existingRoutes.add(`${r.toSlug}-${r.fromSlug}`); });
 

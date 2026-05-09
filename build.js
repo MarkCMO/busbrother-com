@@ -1202,6 +1202,14 @@ if (templates['route']) {
 console.log('Copying static assets...');
 copyDirSync(STATIC, DIST);
 
+// Copy Cloudflare Pages Functions to dist/functions/ so they deploy with the site.
+// Cloudflare Pages picks up functions/ inside the publish directory.
+const FUNCTIONS_SRC = path.join(__dirname, 'functions');
+if (fs.existsSync(FUNCTIONS_SRC)) {
+  console.log('Copying Cloudflare Pages Functions...');
+  copyDirSync(FUNCTIONS_SRC, path.join(DIST, 'functions'));
+}
+
 console.log('Generating sitemaps...');
 const sitemapFiles = [];
 for (const [section, urls] of Object.entries(sitemapUrls)) {

@@ -4,7 +4,7 @@
     <span class="section-label">Free Download</span>
     <h3 style="font-size:1.6rem;margin-bottom:0.6rem;">Florida Group Travel Planning Kit</h3>
     <p style="color:var(--muted);font-size:0.92rem;margin-bottom:1.2rem;max-width:500px;">Get our free planning checklist, packing guide, and group transportation cost calculator. Everything you need to organize a flawless group trip to Florida.</p>
-    <form name="lead-magnet" method="POST" action="{{canonicalUrl}}" data-netlify="true" netlify-honeypot="bot-field" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
+    <form name="lead-magnet" method="POST" action="/api/submit-quote" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
       <input type="hidden" name="form-name" value="lead-magnet"/>
       <input type="hidden" name="page-url" value="{{canonicalUrl}}"/>
       <input type="hidden" name="magnet-type" value="planning-kit"/>

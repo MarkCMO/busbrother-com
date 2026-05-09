@@ -4,7 +4,7 @@
     <span class="section-label">Free Cruise Guide</span>
     <h3 style="font-size:1.6rem;margin-bottom:0.6rem;">Port Canaveral Cruise Checklist</h3>
     <p style="color:var(--muted);font-size:0.92rem;margin-bottom:1.2rem;max-width:500px;">Don't forget anything. Get our free embarkation day checklist, packing guide, and pre-cruise hotel recommendations for Port Canaveral, Port Tampa Bay, and Port Everglades.</p>
-    <form name="lead-magnet-cruise" method="POST" action="{{canonicalUrl}}" data-netlify="true" netlify-honeypot="bot-field" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
+    <form name="lead-magnet-cruise" method="POST" action="/api/submit-quote" style="display:flex;gap:0.8rem;flex-wrap:wrap;align-items:flex-end;">
       <input type="hidden" name="form-name" value="lead-magnet-cruise"/>
       <input type="hidden" name="page-url" value="{{canonicalUrl}}"/>
       <input type="hidden" name="magnet-type" value="cruise-checklist"/>

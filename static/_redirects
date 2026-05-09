@@ -1,0 +1,96 @@
+# Cloudflare Pages _redirects file (converted from netlify.toml)
+# Format: from to status[!]    (! = force, overrides static files)
+# More specific rules first.
+
+# ── API Function Routes ────────────────────────────
+/api/job-view        /functions/job-view        200
+/api/bid-submit      /functions/bid-submit      200
+/api/jobs-admin      /functions/jobs-admin      200
+/api/square-webhook  /functions/square-webhook  200
+/api/submit-quote    /functions/submit-quote    200
+/api/send-to-vendors /functions/send-to-vendors 200
+/api/award-bid       /functions/award-bid       200
+/api/send-invoice    /functions/send-invoice    200
+
+# ── Netlify Functions back-compat (in case anything still calls /.netlify/functions/x) ──
+/.netlify/functions/job-view        /functions/job-view        200
+/.netlify/functions/bid-submit      /functions/bid-submit      200
+/.netlify/functions/jobs-admin      /functions/jobs-admin      200
+/.netlify/functions/square-webhook  /functions/square-webhook  200
+/.netlify/functions/send-to-vendors /functions/send-to-vendors 200
+/.netlify/functions/award-bid       /functions/award-bid       200
+/.netlify/functions/send-invoice    /functions/send-invoice    200
+
+# ── Specific old URLs (must come BEFORE pattern redirects) ──────
+/book-a-trip          /book/                          301
+/shuttle              /services/cruise-shuttle/       301
+/charter              /services/corporate-charter/    301
+/lander               /                               301
+/contact              /contact/                       301
+/index.html           /                               301
+/about/index.html     /about/                         301
+/contact/index.html   /contact/                       301
+/book/index.html      /book/                          301
+/fleet/index.html     /fleet/                         301
+/faq/index.html       /faq/                           301
+/blog/index.html      /blog/                          301
+
+# ── Specific v1 service pages (exact matches) ──────
+/services/cruise-shuttle.html         /services/cruise-shuttle/         301
+/services/kennedy-space-center.html   /services/kennedy-space-center/   301
+/services/airport-transfers.html      /services/airport-transfers/      301
+/services/rocket-launch.html          /services/rocket-launch/          301
+/services/corporate-charter.html      /services/corporate-charter/      301
+/services/wedding-events.html         /services/wedding-events/         301
+/services/school-groups.html          /services/school-groups/          301
+/services/theme-parks.html            /services/theme-parks/            301
+
+# ── Specific v1 area pages (exact matches) ──────
+/areas/port-canaveral             /areas/port-canaveral/             301
+/areas/cape-canaveral             /areas/cape-canaveral/             301
+/areas/titusville                 /areas/titusville/                 301
+/areas/cape-canaveral.html        /areas/cape-canaveral/             301
+/areas/cocoa-beach.html           /areas/cocoa-beach/                301
+/areas/port-canaveral.html        /areas/port-canaveral/             301
+/areas/kennedy-space-center.html  /areas/kennedy-space-center/       301
+/areas/titusville.html            /areas/titusville/                 301
+/areas/melbourne.html             /areas/melbourne/                  301
+/areas/orlando.html               /areas/orlando/                    301
+/areas/merritt-island.html        /areas/merritt-island/             301
+
+# ── Specific v1 blog posts ──────
+/blog/port-canaveral-cruise-guide.html        /blog/port-canaveral-cruise-guide/        301
+/blog/rocket-launch-viewing-guide.html        /blog/rocket-launch-viewing-guide/        301
+/blog/cocoa-beach-visitors-guide.html         /blog/cocoa-beach-visitors-guide/         301
+/blog/space-coast-hidden-gems.html            /blog/space-coast-hidden-gems/            301
+/blog/kennedy-space-center-planning-guide.html /blog/kennedy-space-center-planning-guide/ 301
+/blog/charter-bus-vs-rideshare.html           /blog/charter-bus-vs-rideshare/           301
+
+# ── Wrong service slugs ──────
+/services/convention-transport  /services/conference-shuttle/  301
+/services/theme-park-shuttle    /services/theme-parks/         301
+/services/wedding-transport     /services/wedding-events/      301
+/services/event-shuttle         /services/                     301
+
+# ── Legacy hub URLs (Google indexed before refactor) ──────
+/airports/*    /services/airport-transfers/    301
+/airports      /services/airport-transfers/    301
+/corporate/*   /services/corporate-charter/    301
+/corporate     /services/corporate-charter/    301
+/hotels/*      /services/hotel-shuttle/        301
+/hotels        /services/hotel-shuttle/        301
+/routes/*      /areas/                         301
+/routes        /areas/                         301
+/schools/*     /services/school-groups/        301
+/schools       /services/school-groups/        301
+/events/*      /services/                      301
+/events        /services/                      301
+/sports/*      /services/                      301
+/sports        /services/                      301
+/venues/*      /services/                      301
+/venues        /services/                      301
+/weddings/*    /services/wedding-events/       301
+/weddings      /services/wedding-events/       301
+
+# ── Legacy /from/CITY/to/SLUG pattern -> /attractions/SLUG/ ──────
+/from/:city/to/:slug   /attractions/:slug/   301

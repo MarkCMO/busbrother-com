@@ -1,0 +1,16 @@
+name = "busbrother-cron"
+main = "index.js"
+compatibility_date = "2026-04-01"
+
+# Daily at 13:00 UTC = 8am Eastern Daylight Time / 9am Eastern Standard Time
+# Pings /api/trip-reminders to fire 24-hour-out trip reminder emails.
+[triggers]
+crons = ["0 13 * * *"]
+
+# Vars set via:  npx wrangler secret put BUSBROTHER_ADMIN_SECRET
+# Required secrets:
+#   BUSBROTHER_ADMIN_SECRET   - same value as configured on the Pages site
+#
+# Public vars (not secret) live here:
+[vars]
+TRIP_REMINDERS_URL = "https://busbrother.com/api/trip-reminders"

@@ -1,0 +1,64 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  CF_PROJECT_NAME: bus-brother
+  PRODUCTION_URL: https://busbrother.com
+
+jobs:
+  deploy:
+    name: Deploy (${{ github.ref_name }})
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: node build.js
+
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        run: |
+          BRANCH="${{ github.ref_name }}"
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BRANCH="${{ github.head_ref }}"
+          fi
+          SAFE_BRANCH=$(echo "$BRANCH" | tr '/' '-' | tr '_' '-' | tr '[:upper:]' '[:lower:]')
+          npx wrangler@latest pages deploy dist/ \
+            --project-name ${{ env.CF_PROJECT_NAME }} \
+            --branch "$SAFE_BRANCH" \
+            --commit-hash "${{ github.sha }}" \
+            --commit-dirty=false
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Smoke test (production only)
+        if: github.ref_name == 'main' && github.event_name == 'push'
+        run: |
+          sleep 10
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ env.PRODUCTION_URL }}")
+          echo "HTTP status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "WARNING: site returned HTTP $HTTP_STATUS"
+          else
+            echo "PASS: ${{ env.PRODUCTION_URL }} returned 200"
+          fi

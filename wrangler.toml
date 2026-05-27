@@ -1,0 +1,27 @@
+# Cloudflare Pages config for BusBrother.com
+# CF Pages project: bus-brother
+# Production URL: https://busbrother.com
+#
+# Deploy:
+#   node build.js
+#   wrangler pages deploy dist --project-name=bus-brother
+#
+# Secrets (set via Cloudflare Pages dashboard or `wrangler pages secret put`):
+#   RESEND_API_KEY
+#   BUSBROTHER_FROM_EMAIL
+#   BUSBROTHER_NOTIFY_EMAIL
+#   BUSBROTHER_ADMIN_SECRET
+#   SUPABASE_URL
+#   SUPABASE_SERVICE_ROLE_KEY
+#   SQUARE_ACCESS_TOKEN
+#   SQUARE_LOCATION_ID
+#   SQUARE_WEBHOOK_SIGNATURE_KEY
+
+name = "bus-brother"
+compatibility_date = "2026-05-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
+
+[vars]
+NODE_ENV = "production"
+SITE_URL = "https://busbrother.com"

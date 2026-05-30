@@ -3,23 +3,19 @@
 # More specific rules first.
 
 # ── API Function Routes ────────────────────────────
-/api/job-view        /functions/job-view        200
-/api/bid-submit      /functions/bid-submit      200
-/api/jobs-admin      /functions/jobs-admin      200
-/api/square-webhook  /functions/square-webhook  200
-/api/submit-quote    /functions/submit-quote    200
-/api/send-to-vendors /functions/send-to-vendors 200
-/api/award-bid       /functions/award-bid       200
-/api/send-invoice    /functions/send-invoice    200
+# CF Pages auto-serves functions/api/X.js at /api/X — no rewrite needed.
+# (Removed broken Netlify-era /api/X -> /functions/X rewrites 2026-05-30.)
 
-# ── Netlify Functions back-compat (in case anything still calls /.netlify/functions/x) ──
-/.netlify/functions/job-view        /functions/job-view        200
-/.netlify/functions/bid-submit      /functions/bid-submit      200
-/.netlify/functions/jobs-admin      /functions/jobs-admin      200
-/.netlify/functions/square-webhook  /functions/square-webhook  200
-/.netlify/functions/send-to-vendors /functions/send-to-vendors 200
-/.netlify/functions/award-bid       /functions/award-bid       200
-/.netlify/functions/send-invoice    /functions/send-invoice    200
+# ── Netlify Functions back-compat — legacy /.netlify/functions/* -> /api/* ──
+/.netlify/functions/job-view        /api/job-view        200
+/.netlify/functions/bid-submit      /api/bid-submit      200
+/.netlify/functions/jobs-admin      /api/jobs-admin      200
+/.netlify/functions/square-webhook  /api/square-webhook  200
+/.netlify/functions/send-to-vendors /api/send-to-vendors 200
+/.netlify/functions/award-bid       /api/award-bid       200
+/.netlify/functions/send-invoice    /api/send-invoice    200
+/.netlify/functions/submit-quote    /api/submit-quote    200
+/.netlify/functions/lead            /api/lead            200
 
 # ── Specific old URLs (must come BEFORE pattern redirects) ──────
 /book-a-trip          /book/                          301

@@ -114,9 +114,25 @@
           return;
         }
 
-        var redirect = form.getAttribute('data-success-redirect');
-        if (redirect) {
-          window.location.assign(redirect);
+        // Default: redirect to /thank-you (every site has one).
+        // Override per-form with data-success-redirect="...", or disable
+        // the redirect entirely with data-no-redirect on the form.
+        var customRedirect = form.getAttribute('data-success-redirect');
+        var noRedirect = form.hasAttribute('data-no-redirect');
+        if (!noRedirect) {
+          var target = customRedirect || '/thank-you';
+          // Pass the submitter email along so the thank-you page can
+          // personalize ("Thanks {name}, we'll be in touch at {email}")
+          try {
+            var qs = new URLSearchParams();
+            if (fields.email) qs.set('e', fields.email);
+            if (fields.first_name || fields.name) qs.set('n', fields.first_name || fields.name);
+            if (fields['form-name']) qs.set('f', fields['form-name']);
+            var sep = target.indexOf('?') >= 0 ? '&' : '?';
+            window.location.assign(target + sep + qs.toString());
+          } catch (e) {
+            window.location.assign(target);
+          }
           return;
         }
 

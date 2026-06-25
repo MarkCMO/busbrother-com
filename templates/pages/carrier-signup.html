@@ -1,0 +1,97 @@
+{{> head}}
+{{> schema}}
+{{> nav}}
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/carriers/">Carriers</a><span class="breadcrumb-sep">&rsaquo;</span><span>Join the Network</span></div>
+    <div style="font-size:3.5rem;margin-bottom:0.8rem;">🚌</div>
+    <h1>Join the BusBrother Carrier Network</h1>
+    <p class="subtitle">Florida-licensed charter bus operators: get matched with qualified group transportation leads across all 17 Brevard County cities and 120+ Florida cities. Currently free to apply.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container" style="max-width:900px;">
+    <div class="grid-2" style="gap:3rem;align-items:start;">
+      <div>
+        <h2>Phase 1: Free Lead Access</h2>
+        <p>BusBrother is currently in our launch phase. Every lead we generate is delivered <strong style="color:var(--gold);">free of charge</strong> to approved carriers in our network.</p>
+
+        <div class="callout"><p><strong>Founding Carrier program:</strong> The first 5 carriers approved to our network receive <strong>lifetime free lead access</strong> as Founding Carriers — no per-lead fees, no commission, no monthly subscription, ever. Apply now to claim a Founding Carrier slot.</p></div>
+
+        <h3>What we send carriers</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Customer trip details: date, time, route, group size, service type, special requirements</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Customer contact info (name, email, phone) so you can quote and book directly</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Trip notes including ADA requirements, multi-stop, luggage assistance</span></li>
+        </ul>
+
+        <h3>What we require</h3>
+        <ul class="check-list">
+          <li><span class="check-icon">&#10003;</span><span>Valid USDOT number with active FMCSA operating authority</span></li>
+          <li><span class="check-icon">&#10003;</span><span>FMCSA safety rating of Satisfactory or None (not Conditional or Unsatisfactory)</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Minimum $5,000,000 in commercial auto liability insurance</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Current DOT vehicle inspections on every motorcoach</span></li>
+          <li><span class="check-icon">&#10003;</span><span>CDL drivers with Passenger endorsement (CDL-P) and clean background checks</span></li>
+          <li><span class="check-icon">&#10003;</span><span>Response within 2 hours of receiving a lead during business hours</span></li>
+        </ul>
+
+        <h3>How it works</h3>
+        <ol style="color:var(--muted);font-size:14px;line-height:1.8;padding-left:20px;">
+          <li>Submit the application below — we verify your credentials within 2 business days</li>
+          <li>Once approved, you start receiving lead emails for trips that match your service area</li>
+          <li>You contact the customer directly with your quote — book and bill them directly</li>
+          <li>BusBrother stays out of the transaction; we don't take a cut on Phase 1 leads</li>
+        </ol>
+
+        <p style="color:var(--muted);font-size:13px;margin-top:2rem;font-style:italic;">Note: BusBrother is a lead-matching and referral service, not a transportation broker or motor carrier. All transportation is provided by independent, licensed FDOT/FMCSA carriers like you. We do not hold customer payment or set binding prices.</p>
+      </div>
+
+      <div>
+        <div class="quote-widget">
+          <h3 style="font-size:1.4rem;margin-bottom:1rem;">Carrier Application</h3>
+          <form name="carrier-signup" method="POST" action="/api/carrier-signup">
+            <input type="hidden" name="form-name" value="carrier-signup"/>
+            <p style="display:none;"><input name="bot-field"/></p>
+
+            <div class="form-group"><label for="ccompany">Company Name *</label><input type="text" id="ccompany" name="company_name" placeholder="e.g. BTM Coaches" required/></div>
+
+            <div class="form-row">
+              <div class="form-group"><label for="ccontact">Contact Name *</label><input type="text" id="ccontact" name="contact_name" placeholder="Full name" required/></div>
+              <div class="form-group"><label for="cphone">Phone *</label><input type="tel" id="cphone" name="phone" placeholder="(555) 555-5555" required/></div>
+            </div>
+
+            <div class="form-group"><label for="cemail">Email *</label><input type="email" id="cemail" name="email" placeholder="sales@yourcompany.com" required/></div>
+
+            <div class="form-row">
+              <div class="form-group"><label for="cusdot">USDOT Number *</label><input type="text" id="cusdot" name="usdot_number" placeholder="e.g. 1234567" required pattern="[0-9]{4,8}"/></div>
+              <div class="form-group"><label for="cmc">MC Number</label><input type="text" id="cmc" name="mc_number" placeholder="e.g. 123456" pattern="[0-9]{4,8}"/></div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group"><label for="cins">Commercial Auto Liability ($)</label><input type="text" id="cins" name="insurance_amount" placeholder="5000000" pattern="[0-9$,. ]+"/></div>
+              <div class="form-group"><label for="cinsexp">Insurance Expires</label><input type="date" id="cinsexp" name="insurance_expires"/></div>
+            </div>
+
+            <div class="form-group"><label for="carea">Primary Service Area *</label><input type="text" id="carea" name="primary_service_area" placeholder="e.g. Brevard County, Central Florida, statewide" required/></div>
+
+            <div class="form-group"><label for="csecondary">Secondary Service Areas</label><input type="text" id="csecondary" name="secondary_service_areas" placeholder="e.g. Tampa Bay, South Florida"/></div>
+
+            <div class="form-group"><label for="cfleet">Fleet Summary *</label><textarea id="cfleet" name="fleet_summary" rows="4" placeholder="Describe your fleet. Example:&#10;3x 56-passenger motorcoaches (2018, 2020, 2022)&#10;2x 30-passenger minibuses (2021)&#10;1x ADA wheelchair-accessible minibus" required></textarea></div>
+
+            <div class="form-group"><label for="cnotes">Additional Notes</label><textarea id="cnotes" name="notes" rows="3" placeholder="References, specialty services, years in business, anything we should know"></textarea></div>
+
+            <label style="display:flex;gap:0.5rem;align-items:start;margin:1rem 0;font-size:13px;color:var(--muted);">
+              <input type="checkbox" name="agree" required style="margin-top:3px;flex-shrink:0;"/>
+              <span>I confirm my company holds active FMCSA operating authority, $5M+ commercial auto liability insurance, and CDL-licensed drivers with passenger endorsements. I understand BusBrother is a lead-matching service and that I will quote, book, and bill customers directly under my own carrier authority.</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;font-size:1rem;padding:14px;">Apply for Carrier Network &rarr;</button>
+            <p style="color:var(--muted);font-size:12px;margin-top:0.8rem;text-align:center;">We respond to applications within 2 business days. Founding Carrier slots fill in order received.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{> footer}}

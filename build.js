@@ -186,6 +186,7 @@ const templateNames = [
   'neighborhood', 'airport-transfer', 'index-areas',
   'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs', 'terms', 'pricing',
   'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size', 'privacy', 'cookies', 'brevard-county',
+  'carriers', 'carrier-signup', 'carrier-thank-you',
   'church-bus', 'employee-shuttle', 'conference-shuttle', 'government-military', 'movie-production',
   'wedding-transportation-guide', 'cruise-port-guide', 'corporate-event-planning',
   'school-field-trip-guide', 'charter-bus-vs-alternatives', 'airport-transfer-guide',
@@ -711,7 +712,7 @@ if (templates['service-hub']) {
 
 // ── 18. Static Pages ──────────────────────────────────────
 console.log('  Static pages...');
-const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'privacy', 'cookies', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'brevard-county', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
+const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'privacy', 'cookies', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'brevard-county', 'carriers', 'carriers/signup', 'carriers/thank-you', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
 const staticMeta = {
   about: { title: 'About BusBrother | Charter Bus & Group Transportation', desc: 'Learn about BusBrother - Central Florida charter bus and group transportation. 120+ cities, 24/7 service, professional drivers.' },
   fleet: { title: 'Our Fleet | BusBrother Charter Bus', desc: 'BusBrother fleet: motorcoaches (45-57 pax), premium coaches (30-40 pax), minibuses (15-30 pax). Climate-controlled, ADA accessible, DOT compliant.' },
@@ -730,6 +731,9 @@ const staticMeta = {
   'ada-accessibility': { title: 'ADA Accessible Charter Bus Rental | Wheelchair Accessible Bus | BusBrother', desc: 'ADA accessible charter bus and minibus rental in Florida. Wheelchair lifts, ramp access, service animals welcome. Inclusive group transportation for all.' },
   'safety': { title: 'Charter Bus Safety Standards | BusBrother', desc: 'BusBrother safety standards. USDOT registered carriers, FMCSA compliance, $5M insurance, CDL drivers with background checks. Your group safety is our priority.' },
   'brevard-county': { title: 'Brevard County Charter Bus | Port Canaveral, KSC, Cocoa Beach, Melbourne | BusBrother', desc: 'Brevard County Florida charter bus and group transportation. Port Canaveral cruise shuttles, Kennedy Space Center tours, rocket launch viewing, wedding shuttles. All 17 Space Coast cities. Cape Canaveral HQ. 24/7.' },
+  'carriers': { title: 'For Carriers | Join the BusBrother Network — Free Florida Charter Bus Leads', desc: 'Florida-licensed charter bus operators: join the BusBrother network and receive qualified group transportation leads across 120+ Florida cities. Currently free during Phase 1. Founding Carrier program open.' },
+  'carriers/signup': { title: 'Carrier Application | Join BusBrother — Florida Charter Bus Lead Network', desc: 'Apply to join the BusBrother charter bus carrier network. Currently free during launch phase. First 5 carriers approved receive lifetime free lead access as Founding Carriers.' },
+  'carriers/thank-you': { title: 'Carrier Application Received | BusBrother', desc: 'Thank you for applying to join the BusBrother carrier network. We will review your credentials within 2 business days.' },
   'services/church-bus': { title: 'Church Bus Rental Florida | Religious Group Transportation | BusBrother', desc: 'Charter bus rental for churches and religious groups in Florida. Sunday outings, retreats, mission trips, youth camps, VBS, conferences. Licensed, insured, 24/7.' },
   'services/employee-shuttle': { title: 'Employee Shuttle Service Florida | Corporate Commuter Bus | BusBrother', desc: 'Employee shuttle service across Florida. Daily commuter buses, campus shuttles, off-site parking transport, construction site shuttles. Recurring and one-time service.' },
   'services/conference-shuttle': { title: 'Conference Shuttle Bus Rental Orlando | Convention Transportation | BusBrother', desc: 'Conference and convention shuttle bus rental in Orlando and Tampa. Hotel-to-venue loops, airport transfers, multi-bus coordination. Serving OCCC, Tampa Convention Center.' },
@@ -742,7 +746,7 @@ const staticMeta = {
   'guides/charter-bus-vs-alternatives': { title: 'Charter Bus vs Uber, Rental Cars, Taxis | Group Transportation Comparison | BusBrother', desc: 'Detailed comparison of charter bus vs Uber XL, rental cars, taxis for groups. Cost tables for 10/20/30/50 person groups. See why charter wins.' },
   'guides/airport-transfer': { title: 'Florida Airport Shuttle Guide | MCO, TPA, FLL, SFB Transfers | BusBrother', desc: 'Complete Florida airport transfer guide. All 6 airports compared. Group pickup procedures, flight delay handling, cruise combos. Free quote.' }
 };
-const templateMap = { 'jobs': 'job-page', 'admin/jobs': 'admin-jobs', 'services/church-bus': 'church-bus', 'services/employee-shuttle': 'employee-shuttle', 'services/conference-shuttle': 'conference-shuttle', 'services/government-military': 'government-military', 'services/movie-production': 'movie-production', 'guides/wedding-transportation': 'wedding-transportation-guide', 'guides/cruise-port': 'cruise-port-guide', 'guides/corporate-event-planning': 'corporate-event-planning', 'guides/school-field-trip': 'school-field-trip-guide', 'guides/charter-bus-vs-alternatives': 'charter-bus-vs-alternatives', 'guides/airport-transfer': 'airport-transfer-guide' };
+const templateMap = { 'jobs': 'job-page', 'admin/jobs': 'admin-jobs', 'services/church-bus': 'church-bus', 'services/employee-shuttle': 'employee-shuttle', 'services/conference-shuttle': 'conference-shuttle', 'services/government-military': 'government-military', 'services/movie-production': 'movie-production', 'guides/wedding-transportation': 'wedding-transportation-guide', 'guides/cruise-port': 'cruise-port-guide', 'guides/corporate-event-planning': 'corporate-event-planning', 'guides/school-field-trip': 'school-field-trip-guide', 'guides/charter-bus-vs-alternatives': 'charter-bus-vs-alternatives', 'guides/airport-transfer': 'airport-transfer-guide', 'carriers/signup': 'carrier-signup', 'carriers/thank-you': 'carrier-thank-you' };
 for (const page of staticPages) {
   const tplName = templateMap[page] || page;
   if (templates[tplName]) {

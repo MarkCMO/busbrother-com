@@ -33,9 +33,13 @@ export async function onRequest({ request, env }) {
 <div style="max-width:600px;margin:0 auto;padding:20px;">
   <div style="background:#0a1628;border:1px solid #1e3052;border-radius:8px 8px 0 0;padding:24px;text-align:center;">
     <h1 style="margin:0;color:#f8f6f0;font-size:28px;letter-spacing:3px;">BUS<span style="color:#f5a623;">BROTHER</span></h1>
-    <p style="color:#8a9ab5;font-size:12px;letter-spacing:2px;margin:8px 0 0;text-transform:uppercase;">New Job Available for Bid</p>
+    <p style="color:#8a9ab5;font-size:12px;letter-spacing:2px;margin:8px 0 0;text-transform:uppercase;">New Florida Charter Lead — Free Access</p>
   </div>
   <div style="background:#111d33;border-left:1px solid #1e3052;border-right:1px solid #1e3052;padding:24px;">
+    <div style="background:rgba(46,204,113,0.08);border:1px solid rgba(46,204,113,0.3);border-radius:6px;padding:14px 16px;margin-bottom:16px;text-align:center;">
+      <p style="margin:0;color:#2ecc71;font-size:13px;font-weight:700;">PHASE 1: FREE LEAD ACCESS</p>
+      <p style="margin:6px 0 0;color:#f8f6f0;font-size:12px;line-height:1.5;">Currently free for all approved carriers. Founding Carriers (first 5 approved) keep lifetime free access regardless of future pricing changes.</p>
+    </div>
     <div style="background:rgba(245,166,35,0.08);border:1px solid rgba(245,166,35,0.3);border-radius:6px;padding:20px;margin-bottom:20px;text-align:center;">
       <p style="margin:0;color:#f5a623;font-size:18px;font-weight:700;">${serviceLabel}</p>
       <p style="margin:8px 0 0;color:#f8f6f0;font-size:14px;">${job.pickup_location || 'TBD'} &rarr; ${job.dropoff_location || 'TBD'}</p>
@@ -49,8 +53,9 @@ export async function onRequest({ request, env }) {
     </table>
   </div>
   <div style="background:#0a1628;border:1px solid #1e3052;border-radius:0 0 8px 8px;padding:24px;text-align:center;">
-    <a href="${jobUrl}" style="display:inline-block;background:#f5a623;color:#060e1c;padding:14px 36px;border-radius:6px;text-decoration:none;font-weight:700;font-size:16px;">Submit Your Bid</a>
-    <p style="color:#8a9ab5;font-size:11px;margin-top:16px;">Click above to view full details and submit your quote.</p>
+    <a href="${jobUrl}" style="display:inline-block;background:#f5a623;color:#060e1c;padding:14px 36px;border-radius:6px;text-decoration:none;font-weight:700;font-size:16px;">View Full Details &amp; Contact Customer</a>
+    <p style="color:#8a9ab5;font-size:11px;margin-top:16px;">Click above to view the customer's full contact info (name, email, phone) and submit your quote. You quote and book the customer directly &mdash; BusBrother stays out of the transaction.</p>
+    <p style="color:#8a9ab5;font-size:10px;margin-top:12px;line-height:1.5;">Response expectation: 2 hours during business hours, 4 hours after-hours. <a href="https://busbrother.com/carriers/" style="color:#f5a623;">Network terms</a></p>
   </div>
 </div></body></html>`;
 

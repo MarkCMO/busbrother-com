@@ -1,0 +1,12 @@
+
+ ⛅️ wrangler 4.90.0 (update available 4.105.0)
+──────────────────────────────────────────────
+✨ Compiled Worker successfully
+Uploading... (6232/6232)
+✨ Success! Uploaded 0 files (6232 already uploaded) (0.76 sec)
+
+✨ Uploading _headers
+✨ Uploading _redirects
+✨ Uploading Functions bundle
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://fad50909.bus-brother.pages.dev

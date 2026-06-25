@@ -185,7 +185,7 @@ const templateNames = [
   'seasonal-event', 'sports-venue', 'corporate-city', 'wedding-venue',
   'neighborhood', 'airport-transfer', 'index-areas',
   'about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'job-page', 'admin-jobs', 'terms', 'pricing',
-  'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size', 'privacy', 'cookies',
+  'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'bus-size', 'privacy', 'cookies', 'brevard-county',
   'church-bus', 'employee-shuttle', 'conference-shuttle', 'government-military', 'movie-production',
   'wedding-transportation-guide', 'cruise-port-guide', 'corporate-event-planning',
   'school-field-trip-guide', 'charter-bus-vs-alternatives', 'airport-transfer-guide',
@@ -256,7 +256,10 @@ if (templates['city-landing']) {
       footerCities
     });
     writePage(`/areas/${city.slug}`, html);
-    track('areas', `/areas/${city.slug}`, city.tier === 1 ? '0.9' : city.tier === 2 ? '0.7' : '0.5');
+    // Brevard County boost: 1.0 priority for all Brevard cities regardless of tier
+    const isBrevard = (city.county || '').toLowerCase().includes('brevard');
+    const cityPriority = isBrevard ? '1.0' : (city.tier === 1 ? '0.9' : city.tier === 2 ? '0.7' : '0.5');
+    track('areas', `/areas/${city.slug}`, cityPriority);
   }
 }
 
@@ -708,7 +711,7 @@ if (templates['service-hub']) {
 
 // ── 18. Static Pages ──────────────────────────────────────
 console.log('  Static pages...');
-const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'privacy', 'cookies', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
+const staticPages = ['about', 'fleet', 'faq', 'book', 'contact', 'thank-you', 'jobs', 'admin/jobs', 'terms', 'pricing', 'privacy', 'cookies', 'how-it-works', 'reviews', 'ada-accessibility', 'safety', 'brevard-county', 'services/church-bus', 'services/employee-shuttle', 'services/conference-shuttle', 'services/government-military', 'services/movie-production', 'guides/wedding-transportation', 'guides/cruise-port', 'guides/corporate-event-planning', 'guides/school-field-trip', 'guides/charter-bus-vs-alternatives', 'guides/airport-transfer'];
 const staticMeta = {
   about: { title: 'About BusBrother | Charter Bus & Group Transportation', desc: 'Learn about BusBrother - Central Florida charter bus and group transportation. 120+ cities, 24/7 service, professional drivers.' },
   fleet: { title: 'Our Fleet | BusBrother Charter Bus', desc: 'BusBrother fleet: motorcoaches (45-57 pax), premium coaches (30-40 pax), minibuses (15-30 pax). Climate-controlled, ADA accessible, DOT compliant.' },
@@ -726,6 +729,7 @@ const staticMeta = {
   'reviews': { title: 'Customer Reviews | BusBrother Charter Bus Florida', desc: 'Read reviews from BusBrother customers. 4.9/5 rating from 127+ reviews. Cruise transfers, weddings, corporate events, school trips across Florida.' },
   'ada-accessibility': { title: 'ADA Accessible Charter Bus Rental | Wheelchair Accessible Bus | BusBrother', desc: 'ADA accessible charter bus and minibus rental in Florida. Wheelchair lifts, ramp access, service animals welcome. Inclusive group transportation for all.' },
   'safety': { title: 'Charter Bus Safety Standards | BusBrother', desc: 'BusBrother safety standards. USDOT registered carriers, FMCSA compliance, $5M insurance, CDL drivers with background checks. Your group safety is our priority.' },
+  'brevard-county': { title: 'Brevard County Charter Bus | Port Canaveral, KSC, Cocoa Beach, Melbourne | BusBrother', desc: 'Brevard County Florida charter bus and group transportation. Port Canaveral cruise shuttles, Kennedy Space Center tours, rocket launch viewing, wedding shuttles. All 17 Space Coast cities. Cape Canaveral HQ. 24/7.' },
   'services/church-bus': { title: 'Church Bus Rental Florida | Religious Group Transportation | BusBrother', desc: 'Charter bus rental for churches and religious groups in Florida. Sunday outings, retreats, mission trips, youth camps, VBS, conferences. Licensed, insured, 24/7.' },
   'services/employee-shuttle': { title: 'Employee Shuttle Service Florida | Corporate Commuter Bus | BusBrother', desc: 'Employee shuttle service across Florida. Daily commuter buses, campus shuttles, off-site parking transport, construction site shuttles. Recurring and one-time service.' },
   'services/conference-shuttle': { title: 'Conference Shuttle Bus Rental Orlando | Convention Transportation | BusBrother', desc: 'Conference and convention shuttle bus rental in Orlando and Tampa. Hotel-to-venue loops, airport transfers, multi-bus coordination. Serving OCCC, Tampa Convention Center.' },
@@ -743,13 +747,18 @@ for (const page of staticPages) {
   const tplName = templateMap[page] || page;
   if (templates[tplName]) {
     const meta = staticMeta[page];
+    // Brevard County hub: anchor the geo and bump priority
+    const isBrevard = page === 'brevard-county';
+    const geoPlacename = isBrevard ? 'Brevard County, Florida' : 'Central Florida';
+    const geoPosition = isBrevard ? '28.4059;-80.6049' : '28.3922;-80.6077';
+    const priority = page === 'book' ? '0.9' : isBrevard ? '1.0' : '0.6';
     const html = render(templates[tplName], {
       pageTitle: meta.title, metaDescription: meta.desc,
-      canonicalPath: `/${page}`, geoPlacename: 'Central Florida', geoPosition: '28.3922;-80.6077',
+      canonicalPath: `/${page}`, geoPlacename, geoPosition,
       footerCities
     });
     writePage(`/${page}`, html);
-    track('other', `/${page}`, page === 'book' ? '0.9' : '0.6');
+    track('other', `/${page}`, priority);
   }
 }
 
@@ -1223,7 +1232,25 @@ generateRobots(DIST);
 
 // LLM Sitemap - tells AI crawlers which pages have authoritative answer content
 const llmPages = [
-  { loc: '/llm.txt', priority: '1.0', contentType: 'llm-instructions', topics: 'charter bus, group transportation, Florida, cruise shuttle, airport transfer' },
+  { loc: '/llm.txt', priority: '1.0', contentType: 'llm-instructions', topics: 'charter bus, group transportation, Florida, Brevard County, cruise shuttle, airport transfer' },
+  { loc: '/brevard-county/', priority: '1.0', contentType: 'primary-service-area', topics: 'Brevard County Florida, Space Coast, Cape Canaveral, Cocoa Beach, Melbourne, Titusville, Port Canaveral, Kennedy Space Center, rocket launch viewing, BusBrother headquarters' },
+  { loc: '/areas/cape-canaveral/', priority: '1.0', contentType: 'brevard-headquarters', topics: 'Cape Canaveral Florida, Brevard County, 32920, Port Canaveral, cruise port shuttle, BusBrother HQ' },
+  { loc: '/areas/cocoa-beach/', priority: '1.0', contentType: 'brevard-city', topics: 'Cocoa Beach Florida, Brevard County, 32931, beach wedding, surf, pre-cruise hotels, Ron Jon Surf Shop' },
+  { loc: '/areas/cocoa/', priority: '1.0', contentType: 'brevard-city', topics: 'Cocoa Florida, Brevard County, 32922, Cocoa Village, Indian River weddings, downtown ceremony' },
+  { loc: '/areas/melbourne/', priority: '1.0', contentType: 'brevard-city', topics: 'Melbourne Florida, Brevard County, 32901, MLB airport, Florida Tech, corporate transport' },
+  { loc: '/areas/melbourne-beach/', priority: '1.0', contentType: 'brevard-city', topics: 'Melbourne Beach Florida, Brevard County, 32951, coastal wedding, beach resort' },
+  { loc: '/areas/palm-bay/', priority: '1.0', contentType: 'brevard-city', topics: 'Palm Bay Florida, Brevard County, 32905, largest Brevard city, community events' },
+  { loc: '/areas/titusville/', priority: '1.0', contentType: 'brevard-city', topics: 'Titusville Florida, Brevard County seat, 32796, KSC viewing base, US Astronaut Hall of Fame' },
+  { loc: '/areas/merritt-island/', priority: '1.0', contentType: 'brevard-city', topics: 'Merritt Island Florida, Brevard County, 32952, Kennedy Space Center, Indian River venues' },
+  { loc: '/areas/rockledge/', priority: '1.0', contentType: 'brevard-city', topics: 'Rockledge Florida, Brevard County, 32955, Cocoa suburb, wedding venues' },
+  { loc: '/areas/satellite-beach/', priority: '1.0', contentType: 'brevard-city', topics: 'Satellite Beach Florida, Brevard County, 32937, beachfront, Patrick Space Force Base' },
+  { loc: '/areas/indian-harbour-beach/', priority: '1.0', contentType: 'brevard-city', topics: 'Indian Harbour Beach Florida, Brevard County, 32937, coastal community' },
+  { loc: '/areas/indialantic/', priority: '1.0', contentType: 'brevard-city', topics: 'Indialantic Florida, Brevard County, 32903, beach wedding' },
+  { loc: '/areas/viera/', priority: '1.0', contentType: 'brevard-city', topics: 'Viera Florida, Brevard County, 32940, Suntree, planned community, golf courses' },
+  { loc: '/areas/west-melbourne/', priority: '1.0', contentType: 'brevard-city', topics: 'West Melbourne Florida, Brevard County, 32904, corporate manufacturing' },
+  { loc: '/areas/mims/', priority: '1.0', contentType: 'brevard-city', topics: 'Mims Florida, Brevard County, 32754, north Brevard, KSC employees, rural' },
+  { loc: '/areas/port-st-john/', priority: '1.0', contentType: 'brevard-city', topics: 'Port St John Florida, Brevard County, 32927, Indian River, KSC proximity' },
+  { loc: '/areas/port-canaveral/', priority: '1.0', contentType: 'brevard-port', topics: 'Port Canaveral Florida, cruise terminal, Carnival, Royal Caribbean, Disney Cruise Line, Norwegian, Virgin Voyages, MSC' },
   { loc: '/', priority: '1.0', contentType: 'entity-authority', topics: 'BusBrother, Florida charter bus broker' },
   { loc: '/about/', priority: '0.9', contentType: 'entity-authority', topics: 'BusBrother company information' },
   { loc: '/how-it-works/', priority: '0.95', contentType: 'process-explanation', topics: 'how to book charter bus, BusBrother process' },

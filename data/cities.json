@@ -12,7 +12,12 @@
     "emoji": "🎡",
     "tier": 1,
     "description": "Orlando is Central Florida's largest city and the gateway to world-famous theme parks, attracting over 75 million visitors each year. It is a major hub for tourism, technology, and convention business.",
-    "highlights": ["Walt Disney World", "Universal Studios", "Orlando International Airport", "International Drive"],
+    "highlights": [
+      "Walt Disney World",
+      "Universal Studios",
+      "Orlando International Airport",
+      "International Drive"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -28,7 +33,12 @@
     "emoji": "🏴‍☠️",
     "tier": 1,
     "description": "Tampa is a vibrant waterfront city on Tampa Bay known for its bustling port, professional sports teams, and the historic Ybor City entertainment district. It serves as the economic anchor of Florida's west coast.",
-    "highlights": ["Tampa Riverwalk", "Busch Gardens", "Ybor City", "Raymond James Stadium"],
+    "highlights": [
+      "Tampa Riverwalk",
+      "Busch Gardens",
+      "Ybor City",
+      "Raymond James Stadium"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -44,7 +54,12 @@
     "emoji": "🌅",
     "tier": 1,
     "description": "St. Petersburg sits on a peninsula between Tampa Bay and the Gulf of Mexico, known for its award-winning beaches and thriving arts scene. The city holds a Guinness World Record for consecutive days of sunshine.",
-    "highlights": ["St. Pete Beach", "The Dali Museum", "Tropicana Field", "Sunken Gardens"],
+    "highlights": [
+      "St. Pete Beach",
+      "The Dali Museum",
+      "Tropicana Field",
+      "Sunken Gardens"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -60,7 +75,12 @@
     "emoji": "🏖️",
     "tier": 1,
     "description": "Clearwater is home to Clearwater Beach, consistently ranked among the best beaches in the United States. The city blends Gulf Coast relaxation with a growing downtown dining and entertainment scene.",
-    "highlights": ["Clearwater Beach", "Clearwater Marine Aquarium", "Pier 60", "Sand Key Park"],
+    "highlights": [
+      "Clearwater Beach",
+      "Clearwater Marine Aquarium",
+      "Pier 60",
+      "Sand Key Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -76,7 +96,12 @@
     "emoji": "🚤",
     "tier": 1,
     "description": "Fort Lauderdale is known as the Venice of America for its extensive canal system and is a top destination for boating and cruise travel. Port Everglades is one of the busiest cruise ports in the world.",
-    "highlights": ["Fort Lauderdale Beach", "Las Olas Boulevard", "Port Everglades", "Riverwalk Fort Lauderdale"],
+    "highlights": [
+      "Fort Lauderdale Beach",
+      "Las Olas Boulevard",
+      "Port Everglades",
+      "Riverwalk Fort Lauderdale"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -92,7 +117,12 @@
     "emoji": "🌴",
     "tier": 1,
     "description": "West Palm Beach is the cultural and commercial hub of Palm Beach County, offering a vibrant waterfront downtown and easy access to Palm Beach Island. The city is a popular starting point for south Florida day trips.",
-    "highlights": ["Clematis Street", "CityPlace", "Norton Museum of Art", "Palm Beach Zoo"],
+    "highlights": [
+      "Clematis Street",
+      "CityPlace",
+      "Norton Museum of Art",
+      "Palm Beach Zoo"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -108,7 +138,11 @@
     "emoji": "🏎️",
     "tier": 1,
     "description": "Daytona Beach is world-famous for the Daytona International Speedway and its hard-packed sand beaches where cars once raced along the shore. It is a year-round destination for motorsports fans and spring breakers alike.",
-    "highlights": ["Daytona International Speedway", "Daytona Beach Boardwalk", "Ponce de Leon Inlet Lighthouse"],
+    "highlights": [
+      "Daytona International Speedway",
+      "Daytona Beach Boardwalk",
+      "Ponce de Leon Inlet Lighthouse"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -124,7 +158,12 @@
     "emoji": "🚀",
     "tier": 1,
     "description": "Melbourne is the largest city on Florida's Space Coast, blending a laid-back beach lifestyle with a strong aerospace and technology sector. It offers direct access to some of Brevard County's best surf breaks.",
-    "highlights": ["Melbourne Beach", "Brevard Zoo", "Historic Downtown Melbourne", "Florida Institute of Technology"],
+    "highlights": [
+      "Melbourne Beach",
+      "Brevard Zoo",
+      "Historic Downtown Melbourne",
+      "Florida Institute of Technology"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -140,7 +179,12 @@
     "emoji": "🦢",
     "tier": 1,
     "description": "Lakeland sits midway between Orlando and Tampa, known for its chain of 38 lakes and the world's largest collection of Frank Lloyd Wright architecture at Florida Southern College. It is a growing hub for logistics and distribution.",
-    "highlights": ["Florida Southern College", "Hollis Garden", "Lake Mirror", "Detroit Tigers Spring Training"],
+    "highlights": [
+      "Florida Southern College",
+      "Hollis Garden",
+      "Lake Mirror",
+      "Detroit Tigers Spring Training"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -150,13 +194,18 @@
     "region": "Central Florida",
     "state": "FL",
     "zip": "34741",
-    "lat": 28.2920,
+    "lat": 28.292,
     "lng": -81.4076,
     "population": "79226",
     "emoji": "🐊",
     "tier": 1,
     "description": "Kissimmee is the gateway to Walt Disney World and sits at the heart of Florida's vacation rental corridor. The city blends Old Florida charm in its historic downtown with world-class tourism infrastructure.",
-    "highlights": ["Old Town Kissimmee", "Gatorland", "Shingle Creek Regional Trail", "Walt Disney World proximity"],
+    "highlights": [
+      "Old Town Kissimmee",
+      "Gatorland",
+      "Shingle Creek Regional Trail",
+      "Walt Disney World proximity"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -172,7 +221,11 @@
     "emoji": "🚂",
     "tier": 2,
     "description": "Sanford is a historic waterfront city on Lake Monroe and home to the Orlando Sanford International Airport. Its revitalized downtown features brick-lined streets, craft breweries, and the SunRail commuter station.",
-    "highlights": ["Orlando Sanford International Airport", "Historic Downtown Sanford", "Rivership Romance"],
+    "highlights": [
+      "Orlando Sanford International Airport",
+      "Historic Downtown Sanford",
+      "Rivership Romance"
+    ],
     "nearestAirport": "sfb"
   },
   {
@@ -188,7 +241,11 @@
     "emoji": "🐴",
     "tier": 2,
     "description": "Ocala is the Horse Capital of the World, surrounded by hundreds of thoroughbred farms and the stunning Ocala National Forest. The city offers a quieter Florida lifestyle with easy access to natural springs and trails.",
-    "highlights": ["Ocala National Forest", "Silver Springs State Park", "World Equestrian Center"],
+    "highlights": [
+      "Ocala National Forest",
+      "Silver Springs State Park",
+      "World Equestrian Center"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -198,13 +255,17 @@
     "region": "Treasure Coast",
     "state": "FL",
     "zip": "34952",
-    "lat": 27.2730,
+    "lat": 27.273,
     "lng": -80.3582,
     "population": "217955",
     "emoji": "⛳",
     "tier": 2,
     "description": "Port St. Lucie is one of the fastest-growing cities in Florida, offering affordable living with a tropical feel along the Treasure Coast. It is home to Clover Park, the spring training facility for the New York Mets.",
-    "highlights": ["Clover Park", "Port St. Lucie Botanical Gardens", "Savannas Preserve State Park"],
+    "highlights": [
+      "Clover Park",
+      "Port St. Lucie Botanical Gardens",
+      "Savannas Preserve State Park"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -220,7 +281,11 @@
     "emoji": "🌿",
     "tier": 2,
     "description": "Palm Bay is the most populous city in Brevard County, offering an affordable entry point to Space Coast living with abundant nature preserves. The Turkey Creek Sanctuary provides a peaceful escape just minutes from the coast.",
-    "highlights": ["Turkey Creek Sanctuary", "Palm Bay Regional Park", "Brevard County beaches"],
+    "highlights": [
+      "Turkey Creek Sanctuary",
+      "Palm Bay Regional Park",
+      "Brevard County beaches"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -236,7 +301,11 @@
     "emoji": "🏡",
     "tier": 2,
     "description": "Deltona is a fast-growing residential community between Orlando and Daytona Beach, centered around a chain of spring-fed lakes. Its central location makes it an ideal base for exploring both coasts of Florida.",
-    "highlights": ["Lyonia Preserve", "Lake Monroe", "Green Springs Park"],
+    "highlights": [
+      "Lyonia Preserve",
+      "Lake Monroe",
+      "Green Springs Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -252,7 +321,11 @@
     "emoji": "🔭",
     "tier": 2,
     "description": "Titusville is the closest city to Kennedy Space Center and the top destination for watching rocket launches from the Indian River shoreline. The U.S. Space Walk of Fame honors America's astronauts and space pioneers.",
-    "highlights": ["Kennedy Space Center Visitor Complex", "U.S. Space Walk of Fame", "Merritt Island National Wildlife Refuge"],
+    "highlights": [
+      "Kennedy Space Center Visitor Complex",
+      "U.S. Space Walk of Fame",
+      "Merritt Island National Wildlife Refuge"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -262,13 +335,17 @@
     "region": "Space Coast",
     "state": "FL",
     "zip": "32931",
-    "lat": 28.3200,
+    "lat": 28.32,
     "lng": -80.6076,
     "population": "12300",
     "emoji": "🏄",
     "tier": 2,
     "description": "Cocoa Beach is Florida's surf capital and the closest beach to Orlando, drawing both space enthusiasts and sun seekers. Ron Jon Surf Shop, one of the world's largest surf stores, is a landmark here.",
-    "highlights": ["Cocoa Beach Pier", "Ron Jon Surf Shop", "Lori Wilson Park"],
+    "highlights": [
+      "Cocoa Beach Pier",
+      "Ron Jon Surf Shop",
+      "Lori Wilson Park"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -284,7 +361,11 @@
     "emoji": "🚀",
     "tier": 2,
     "description": "Cape Canaveral is synonymous with space exploration and is home to the Cape Canaveral Space Force Station. The city sits at the gateway to Port Canaveral, one of the busiest cruise ports in the world.",
-    "highlights": ["Cape Canaveral Space Force Station", "Port Canaveral", "Jetty Park"],
+    "highlights": [
+      "Cape Canaveral Space Force Station",
+      "Port Canaveral",
+      "Jetty Park"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -295,12 +376,17 @@
     "state": "FL",
     "zip": "32920",
     "lat": 28.4102,
-    "lng": -80.6100,
+    "lng": -80.61,
     "population": "0",
     "emoji": "🛳️",
     "tier": 2,
     "description": "Port Canaveral is the second-busiest cruise port in the world, serving millions of passengers annually on major cruise lines. It also supports cargo operations and a growing commercial fishing fleet.",
-    "highlights": ["Cruise Terminals", "Exploration Tower", "The Cove dining and shopping", "Jetty Park Beach"],
+    "highlights": [
+      "Cruise Terminals",
+      "Exploration Tower",
+      "The Cove dining and shopping",
+      "Jetty Park Beach"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -316,7 +402,11 @@
     "emoji": "🦅",
     "tier": 2,
     "description": "Merritt Island is a barrier island community nestled between the Indian River and the Banana River, sharing its northern border with the Kennedy Space Center. The Merritt Island National Wildlife Refuge is one of the most biodiverse areas in North America.",
-    "highlights": ["Merritt Island National Wildlife Refuge", "Kennedy Space Center", "Manatee Hammock Campground"],
+    "highlights": [
+      "Merritt Island National Wildlife Refuge",
+      "Kennedy Space Center",
+      "Manatee Hammock Campground"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -332,7 +422,12 @@
     "emoji": "🎨",
     "tier": 2,
     "description": "Winter Park is an upscale enclave just north of Orlando known for its tree-lined Park Avenue shopping district and world-class museums. Rollins College, Florida's oldest college, anchors the city's cultural identity.",
-    "highlights": ["Park Avenue", "Charles Hosmer Morse Museum of American Art", "Rollins College", "Winter Park Scenic Boat Tour"],
+    "highlights": [
+      "Park Avenue",
+      "Charles Hosmer Morse Museum of American Art",
+      "Rollins College",
+      "Winter Park Scenic Boat Tour"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -348,7 +443,11 @@
     "emoji": "🌳",
     "tier": 2,
     "description": "Altamonte Springs is a suburban community in the heart of the Orlando metro area with a thriving restaurant scene along Altamonte Drive. The city is a SunRail stop, making it well-connected to downtown Orlando.",
-    "highlights": ["Altamonte Mall", "Cranes Roost Park", "SunRail Station"],
+    "highlights": [
+      "Altamonte Mall",
+      "Cranes Roost Park",
+      "SunRail Station"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -364,7 +463,11 @@
     "emoji": "🎢",
     "tier": 2,
     "description": "Winter Haven is the home of LEGOLAND Florida Resort and the Chain of Lakes, a network of 50 connected lakes popular with water skiers and boaters. The city was originally the home of Cypress Gardens, Florida's first theme park.",
-    "highlights": ["LEGOLAND Florida", "Chain of Lakes", "Cypress Gardens"],
+    "highlights": [
+      "LEGOLAND Florida",
+      "Chain of Lakes",
+      "Cypress Gardens"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -380,7 +483,11 @@
     "emoji": "🍓",
     "tier": 2,
     "description": "Plant City is the Winter Strawberry Capital of the World, hosting the famous Florida Strawberry Festival each spring. The city has a charming small-town feel and sits between Tampa and Lakeland along the I-4 corridor.",
-    "highlights": ["Florida Strawberry Festival", "Dinosaur World", "Historic Downtown Plant City"],
+    "highlights": [
+      "Florida Strawberry Festival",
+      "Dinosaur World",
+      "Historic Downtown Plant City"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -396,7 +503,11 @@
     "emoji": "🛒",
     "tier": 2,
     "description": "Brandon is one of Tampa's largest suburbs, offering a wide range of shopping, dining, and family entertainment along the busy Brandon Boulevard corridor. Its central location provides easy access to both downtown Tampa and the Gulf beaches.",
-    "highlights": ["Westfield Brandon", "TopGolf Tampa", "Alafia River State Park"],
+    "highlights": [
+      "Westfield Brandon",
+      "TopGolf Tampa",
+      "Alafia River State Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -412,7 +523,12 @@
     "emoji": "🐬",
     "tier": 2,
     "description": "Bradenton is a waterfront city at the mouth of the Manatee River with a revitalized downtown and access to Anna Maria Island's pristine beaches. The city is home to IMG Academy, one of the world's top sports training facilities.",
-    "highlights": ["Anna Maria Island", "IMG Academy", "De Soto National Memorial", "Village of the Arts"],
+    "highlights": [
+      "Anna Maria Island",
+      "IMG Academy",
+      "De Soto National Memorial",
+      "Village of the Arts"
+    ],
     "nearestAirport": "srq"
   },
   {
@@ -428,7 +544,12 @@
     "emoji": "🎭",
     "tier": 2,
     "description": "Sarasota is a cultural gem on Florida's Gulf Coast, boasting world-class performing arts venues, the Ringling Museum, and Siesta Key Beach. It consistently ranks among the best places to live and retire in the United States.",
-    "highlights": ["Siesta Key Beach", "The Ringling Museum", "St. Armands Circle", "Marie Selby Botanical Gardens"],
+    "highlights": [
+      "Siesta Key Beach",
+      "The Ringling Museum",
+      "St. Armands Circle",
+      "Marie Selby Botanical Gardens"
+    ],
     "nearestAirport": "srq"
   },
   {
@@ -439,12 +560,16 @@
     "state": "FL",
     "zip": "32168",
     "lat": 29.0258,
-    "lng": -80.9270,
+    "lng": -80.927,
     "population": "27752",
     "emoji": "🦈",
     "tier": 2,
     "description": "New Smyrna Beach is a charming coastal town known for excellent surfing and its designation as the unofficial shark bite capital of the world. The vibrant Canal Street district features local boutiques, galleries, and restaurants.",
-    "highlights": ["Flagler Avenue", "Canal Street Historic District", "Canaveral National Seashore"],
+    "highlights": [
+      "Flagler Avenue",
+      "Canal Street Historic District",
+      "Canaveral National Seashore"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -460,7 +585,11 @@
     "emoji": "🌊",
     "tier": 2,
     "description": "Ormond Beach is the birthplace of speed, where early automobile racing took place on its hard-packed sand in the early 1900s. Today it offers a quieter beach atmosphere just north of Daytona with excellent parks and nature trails.",
-    "highlights": ["The Casements", "Tomoka State Park", "Andy Romano Beachfront Park"],
+    "highlights": [
+      "The Casements",
+      "Tomoka State Park",
+      "Andy Romano Beachfront Park"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -476,7 +605,11 @@
     "emoji": "🪂",
     "tier": 2,
     "description": "DeLand is the skydiving capital of the world and home to Stetson University, Florida's oldest private university. The charming Woodland Boulevard downtown features locally owned shops and restaurants under a canopy of live oaks.",
-    "highlights": ["Skydive DeLand", "Stetson University", "Downtown Woodland Boulevard"],
+    "highlights": [
+      "Skydive DeLand",
+      "Stetson University",
+      "Downtown Woodland Boulevard"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -492,7 +625,11 @@
     "emoji": "🌸",
     "tier": 2,
     "description": "Apopka is known as the Indoor Foliage Capital of the World due to its thriving nursery and horticultural industry. The city is rapidly growing as a suburban hub northwest of Orlando.",
-    "highlights": ["Wekiwa Springs State Park", "Rock Springs Run", "Northwest Recreation Complex"],
+    "highlights": [
+      "Wekiwa Springs State Park",
+      "Rock Springs Run",
+      "Northwest Recreation Complex"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -508,7 +645,11 @@
     "emoji": "🏘️",
     "tier": 2,
     "description": "Ocoee is a family-friendly suburb west of Orlando that has experienced rapid growth along the State Road 429 corridor. The city offers a mix of new developments and lakeside living around Lake Starke and Lake Apopka.",
-    "highlights": ["Ocoee Lakeshore Center", "West Orange Trail", "Bill Breeze Park"],
+    "highlights": [
+      "Ocoee Lakeshore Center",
+      "West Orange Trail",
+      "Bill Breeze Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -524,7 +665,11 @@
     "emoji": "🎬",
     "tier": 2,
     "description": "Winter Garden has a beautifully restored historic downtown centered around the Garden Theatre and the West Orange Trail. It is one of Orlando's most sought-after suburbs for families and outdoor enthusiasts.",
-    "highlights": ["Historic Downtown Winter Garden", "West Orange Trail", "Garden Theatre"],
+    "highlights": [
+      "Historic Downtown Winter Garden",
+      "West Orange Trail",
+      "Garden Theatre"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -540,7 +685,11 @@
     "emoji": "⛰️",
     "tier": 2,
     "description": "Clermont is known as the Gem of the Hills for its rolling terrain, making it a top training destination for triathletes and endurance athletes. The city has experienced explosive growth along the U.S. 27 corridor west of Orlando.",
-    "highlights": ["Florida Citrus Tower", "Clermont Waterfront Park", "South Lake Trail"],
+    "highlights": [
+      "Florida Citrus Tower",
+      "Clermont Waterfront Park",
+      "South Lake Trail"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -556,7 +705,11 @@
     "emoji": "🐟",
     "tier": 2,
     "description": "Leesburg is a lakeside city in the heart of Lake County known for its bass fishing and the annual Bikefest motorcycle rally. Its downtown square has been revitalized with local restaurants, shops, and community events.",
-    "highlights": ["Venetian Gardens", "Lake Harris", "Leesburg Bikefest"],
+    "highlights": [
+      "Venetian Gardens",
+      "Lake Harris",
+      "Leesburg Bikefest"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -566,13 +719,17 @@
     "region": "Northeast Florida",
     "state": "FL",
     "zip": "32137",
-    "lat": 29.5850,
+    "lat": 29.585,
     "lng": -81.2079,
     "population": "92429",
     "emoji": "🌿",
     "tier": 2,
     "description": "Palm Coast is a planned community along the Intracoastal Waterway, known for its miles of saltwater canals and proximity to pristine Flagler Beach. It offers an affordable coastal lifestyle between Daytona Beach and St. Augustine.",
-    "highlights": ["Washington Oaks Gardens State Park", "Flagler Beach", "Palm Coast Linear Park"],
+    "highlights": [
+      "Washington Oaks Gardens State Park",
+      "Flagler Beach",
+      "Palm Coast Linear Park"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -588,7 +745,11 @@
     "emoji": "🍊",
     "tier": 2,
     "description": "Vero Beach is an upscale coastal town on the Treasure Coast known for its pristine beaches, Indian River citrus groves, and a refined arts community. It is a popular winter retreat for seasonal residents from the Northeast.",
-    "highlights": ["Vero Beach Museum of Art", "McKee Botanical Garden", "Riverside Theatre"],
+    "highlights": [
+      "Vero Beach Museum of Art",
+      "McKee Botanical Garden",
+      "Riverside Theatre"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -604,7 +765,12 @@
     "emoji": "🏛️",
     "tier": 2,
     "description": "Boca Raton is an affluent city in southern Palm Beach County known for its Mediterranean Revival architecture and upscale shopping at Town Center and Mizner Park. Florida Atlantic University brings a youthful energy to the city.",
-    "highlights": ["Mizner Park", "Red Reef Park", "Gumbo Limbo Nature Center", "Town Center at Boca Raton"],
+    "highlights": [
+      "Mizner Park",
+      "Red Reef Park",
+      "Gumbo Limbo Nature Center",
+      "Town Center at Boca Raton"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -620,7 +786,11 @@
     "emoji": "🐠",
     "tier": 2,
     "description": "Pompano Beach is undergoing a major revitalization along its oceanfront with new hotels, restaurants, and the renovated Fisher Family Pier. The city is a hub for sport fishing and diving along the Broward County coast.",
-    "highlights": ["Pompano Beach Pier", "Hillsboro Inlet Lighthouse", "Pompano Beach Amphitheater"],
+    "highlights": [
+      "Pompano Beach Pier",
+      "Hillsboro Inlet Lighthouse",
+      "Pompano Beach Amphitheater"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -636,7 +806,11 @@
     "emoji": "🌺",
     "tier": 2,
     "description": "Coral Springs is a well-planned suburban city in western Broward County that consistently ranks among the safest cities in Florida. It is known for its manicured green spaces, top-rated schools, and community-focused lifestyle.",
-    "highlights": ["Coral Springs Center for the Arts", "Tall Cypress Natural Area", "Sportsplex at Coral Springs"],
+    "highlights": [
+      "Coral Springs Center for the Arts",
+      "Tall Cypress Natural Area",
+      "Sportsplex at Coral Springs"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -652,7 +826,11 @@
     "emoji": "🦉",
     "tier": 3,
     "description": "Maitland is a small city between Orlando and Winter Park known for the Audubon Center for Birds of Prey and a growing collection of art galleries. Lake Lily Park hosts community events throughout the year.",
-    "highlights": ["Audubon Center for Birds of Prey", "Lake Lily Park", "Maitland Art Center"],
+    "highlights": [
+      "Audubon Center for Birds of Prey",
+      "Lake Lily Park",
+      "Maitland Art Center"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -668,7 +846,10 @@
     "emoji": "🏞️",
     "tier": 3,
     "description": "Casselberry is a quiet residential suburb north of Orlando with several lakes and parks. The Secret Lake Park and its boardwalk offer a peaceful retreat in the middle of a bustling metro area.",
-    "highlights": ["Secret Lake Park", "Lake Concord Park"],
+    "highlights": [
+      "Secret Lake Park",
+      "Lake Concord Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -684,7 +865,11 @@
     "emoji": "🏚️",
     "tier": 3,
     "description": "Longwood features a charming historic district with turn-of-the-century buildings and a weekly farmers market. The city provides easy access to the Spring Hammock Preserve and the Cross Seminole Trail.",
-    "highlights": ["Historic Longwood", "Cross Seminole Trail", "Big Tree Park"],
+    "highlights": [
+      "Historic Longwood",
+      "Cross Seminole Trail",
+      "Big Tree Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -700,7 +885,11 @@
     "emoji": "💼",
     "tier": 3,
     "description": "Lake Mary is a corporate hub in Seminole County, home to major employers and the Colonial Town Park mixed-use district. Its excellent schools and family-friendly atmosphere make it one of Orlando's most desirable suburbs.",
-    "highlights": ["Colonial Town Park", "Lake Mary SunRail Station", "Timacuan Golf & Country Club"],
+    "highlights": [
+      "Colonial Town Park",
+      "Lake Mary SunRail Station",
+      "Timacuan Golf & Country Club"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -710,13 +899,17 @@
     "region": "Central Florida",
     "state": "FL",
     "zip": "32765",
-    "lat": 28.6700,
+    "lat": 28.67,
     "lng": -81.2081,
     "population": "41062",
     "emoji": "🐔",
     "tier": 3,
     "description": "Oviedo is known for its famous free-roaming chickens in the downtown area and its proximity to the University of Central Florida. The city maintains a small-town feel despite steady suburban growth.",
-    "highlights": ["Oviedo on the Park", "Black Hammock Adventures", "University of Central Florida"],
+    "highlights": [
+      "Oviedo on the Park",
+      "Black Hammock Adventures",
+      "University of Central Florida"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -732,7 +925,11 @@
     "emoji": "🏘️",
     "tier": 3,
     "description": "Celebration is a master-planned community originally developed by The Walt Disney Company, featuring neo-traditional architecture and a walkable town center. The town sits just minutes from Walt Disney World along U.S. 192.",
-    "highlights": ["Celebration Town Center", "Celebration Golf Club", "Lakeside Park"],
+    "highlights": [
+      "Celebration Town Center",
+      "Celebration Golf Club",
+      "Lakeside Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -748,7 +945,10 @@
     "emoji": "🍊",
     "tier": 3,
     "description": "Haines City is a growing community along the I-4 corridor between Orlando and Tampa, known for its citrus heritage and proximity to LEGOLAND. The city offers affordable housing and quick access to major attractions.",
-    "highlights": ["Southern Dunes Golf Club", "Lake Eva Park"],
+    "highlights": [
+      "Southern Dunes Golf Club",
+      "Lake Eva Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -764,7 +964,11 @@
     "emoji": "🏠",
     "tier": 3,
     "description": "Davenport has become one of Florida's top vacation rental markets, sitting along the U.S. 27 corridor just south of Walt Disney World. The area features numerous resort-style communities catering to theme park visitors.",
-    "highlights": ["ChampionsGate Golf Club", "Posner Park", "Northeast Regional Park"],
+    "highlights": [
+      "ChampionsGate Golf Club",
+      "Posner Park",
+      "Northeast Regional Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -780,7 +984,11 @@
     "emoji": "⭐",
     "tier": 3,
     "description": "St. Cloud is a charming lakeside community east of Kissimmee with a historic downtown along New York Avenue. Its relaxed pace and proximity to Orlando's attractions have made it a popular choice for families.",
-    "highlights": ["Downtown St. Cloud", "East Lake Toho", "Lakefront Park"],
+    "highlights": [
+      "Downtown St. Cloud",
+      "East Lake Toho",
+      "Lakefront Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -796,7 +1004,11 @@
     "emoji": "🦅",
     "tier": 3,
     "description": "Port Orange is a family-oriented community just south of Daytona Beach, known for the Dunlawton Sugar Mill Gardens and easy beach access. It consistently ranks among the best places to raise a family in Volusia County.",
-    "highlights": ["Dunlawton Sugar Mill Gardens", "Spruce Creek Park", "Riverwalk Park"],
+    "highlights": [
+      "Dunlawton Sugar Mill Gardens",
+      "Spruce Creek Park",
+      "Riverwalk Park"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -812,7 +1024,10 @@
     "emoji": "🪨",
     "tier": 3,
     "description": "Rockledge is the oldest incorporated city in Brevard County, sitting along the Indian River with views of rocket launches from the shore. Its residential neighborhoods offer a quiet alternative to busier Space Coast communities.",
-    "highlights": ["McLarty Treasure Museum", "Rockledge Country Club"],
+    "highlights": [
+      "McLarty Treasure Museum",
+      "Rockledge Country Club"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -823,12 +1038,16 @@
     "state": "FL",
     "zip": "32922",
     "lat": 28.3862,
-    "lng": -80.7420,
+    "lng": -80.742,
     "population": "20095",
     "emoji": "🏛️",
     "tier": 3,
     "description": "Cocoa's historic Cocoa Village is a walkable waterfront district with boutiques, galleries, and restaurants along the Indian River. The city serves as a gateway to the barrier island beaches and Kennedy Space Center.",
-    "highlights": ["Cocoa Village", "Indian River", "Brevard Museum of History and Natural Science"],
+    "highlights": [
+      "Cocoa Village",
+      "Indian River",
+      "Brevard Museum of History and Natural Science"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -844,7 +1063,11 @@
     "emoji": "📡",
     "tier": 3,
     "description": "Satellite Beach is a small barrier island community on the Space Coast, popular with surfers and aerospace workers at nearby Patrick Space Force Base. The town has a relaxed vibe and uncrowded beaches.",
-    "highlights": ["Pelican Beach Park", "Hightower Beach Park", "DeSoto Park"],
+    "highlights": [
+      "Pelican Beach Park",
+      "Hightower Beach Park",
+      "DeSoto Park"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -860,7 +1083,10 @@
     "emoji": "🎣",
     "tier": 3,
     "description": "Sebastian is a laid-back fishing town at the mouth of the Sebastian Inlet, one of the best surf and fishing spots on Florida's east coast. The McLarty Treasure Museum tells the story of a 1715 Spanish treasure fleet wreck.",
-    "highlights": ["Sebastian Inlet State Park", "Pelican Island National Wildlife Refuge"],
+    "highlights": [
+      "Sebastian Inlet State Park",
+      "Pelican Island National Wildlife Refuge"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -876,7 +1102,11 @@
     "emoji": "🎪",
     "tier": 3,
     "description": "Mount Dora is a charming hillside town overlooking Lake Dora, famous for its antique shops, art festivals, and New England-style downtown. It draws visitors year-round with events like the Mount Dora Craft Fair.",
-    "highlights": ["Downtown Mount Dora", "Lakeside Inn", "Modernism Museum"],
+    "highlights": [
+      "Downtown Mount Dora",
+      "Lakeside Inn",
+      "Modernism Museum"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -886,13 +1116,16 @@
     "region": "Central Florida",
     "state": "FL",
     "zip": "34736",
-    "lat": 28.5580,
+    "lat": 28.558,
     "lng": -81.8513,
     "population": "17284",
     "emoji": "🌳",
     "tier": 3,
     "description": "Groveland is a rapidly growing community on the western edge of the Orlando metro area, blending rural charm with new residential development. Lake Louisa State Park offers some of the best hiking and horseback riding in Central Florida.",
-    "highlights": ["Lake Louisa State Park", "Trilogy at Groveland"],
+    "highlights": [
+      "Lake Louisa State Park",
+      "Trilogy at Groveland"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -908,7 +1141,11 @@
     "emoji": "🏌️",
     "tier": 3,
     "description": "The Villages is the largest retirement community in the United States, spanning three counties with its own town squares, golf courses, and recreation centers. Residents travel by golf cart through a sprawling network of dedicated paths.",
-    "highlights": ["Lake Sumter Landing", "Brownwood Paddock Square", "50+ Golf Courses"],
+    "highlights": [
+      "Lake Sumter Landing",
+      "Brownwood Paddock Square",
+      "50+ Golf Courses"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -924,7 +1161,11 @@
     "emoji": "💧",
     "tier": 3,
     "description": "Zephyrhills is famous for its natural spring water and is home to Skydive City, one of the most popular skydiving drop zones in the world. The city has a strong winter visitor community and a growing year-round population.",
-    "highlights": ["Zephyrhills Brewing Company", "Skydive City", "Zephyr Park"],
+    "highlights": [
+      "Zephyrhills Brewing Company",
+      "Skydive City",
+      "Zephyr Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -940,7 +1181,11 @@
     "emoji": "🛍️",
     "tier": 3,
     "description": "Wesley Chapel is one of Tampa's fastest-growing suburbs, anchored by The Shops at Wiregrass and Florida Hospital Wesley Chapel. Its master-planned communities attract young families with top-rated schools.",
-    "highlights": ["The Shops at Wiregrass", "Florida Hospital Wesley Chapel", "Epperson Lagoon"],
+    "highlights": [
+      "The Shops at Wiregrass",
+      "Florida Hospital Wesley Chapel",
+      "Epperson Lagoon"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -956,7 +1201,10 @@
     "emoji": "🦜",
     "tier": 3,
     "description": "Land O' Lakes is a suburban community north of Tampa known for its proximity to nature preserves and a growing craft beverage scene. Conner Preserve offers miles of trails through pristine Florida flatwoods.",
-    "highlights": ["Conner Preserve", "Crews Lake Wilderness Park"],
+    "highlights": [
+      "Conner Preserve",
+      "Crews Lake Wilderness Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -972,7 +1220,11 @@
     "emoji": "🏡",
     "tier": 3,
     "description": "Riverview is a rapidly expanding suburb south of Tampa along the Alafia River, offering new construction homes and family-friendly communities. The Alafia River State Park is a top destination for mountain biking in Florida.",
-    "highlights": ["Alafia River State Park", "Riverview Civic Center", "Bell Creek Nature Preserve"],
+    "highlights": [
+      "Alafia River State Park",
+      "Riverview Civic Center",
+      "Bell Creek Nature Preserve"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -988,7 +1240,11 @@
     "emoji": "🍺",
     "tier": 3,
     "description": "Dunedin is a Scottish-heritage town on the Pinellas Trail known for its craft breweries, waterfront parks, and the spring training home of the Toronto Blue Jays. Honeymoon Island and Caladesi Island are accessible by ferry.",
-    "highlights": ["Dunedin Causeway", "Honeymoon Island State Park", "Dunedin Brewery"],
+    "highlights": [
+      "Dunedin Causeway",
+      "Honeymoon Island State Park",
+      "Dunedin Brewery"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1004,7 +1260,11 @@
     "emoji": "🌴",
     "tier": 3,
     "description": "Palm Harbor is a coastal community in northern Pinellas County with a lively downtown strip along Alt U.S. 19 and easy access to Gulf beaches. Its neighborhoods range from waterfront estates to cozy suburban homes.",
-    "highlights": ["John Chesnut Sr. Park", "Wall Springs Park", "Downtown Palm Harbor"],
+    "highlights": [
+      "John Chesnut Sr. Park",
+      "Wall Springs Park",
+      "Downtown Palm Harbor"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1020,7 +1280,11 @@
     "emoji": "🧽",
     "tier": 3,
     "description": "Tarpon Springs has the highest percentage of Greek Americans in any U.S. city and is famous for its historic sponge docks and authentic Greek restaurants. The annual Epiphany celebration draws thousands of visitors each January.",
-    "highlights": ["Sponge Docks", "St. Nicholas Greek Orthodox Cathedral", "Fred Howard Park"],
+    "highlights": [
+      "Sponge Docks",
+      "St. Nicholas Greek Orthodox Cathedral",
+      "Fred Howard Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1036,7 +1300,11 @@
     "emoji": "🌺",
     "tier": 3,
     "description": "Largo is the third-largest city in Pinellas County, centrally located between Tampa Bay and the Gulf beaches. Largo Central Park hosts concerts, festivals, and a popular weekly farmers market.",
-    "highlights": ["Largo Central Park", "McGough Nature Park", "Pinewood Cultural Park"],
+    "highlights": [
+      "Largo Central Park",
+      "McGough Nature Park",
+      "Pinewood Cultural Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1052,7 +1320,11 @@
     "emoji": "🎵",
     "tier": 3,
     "description": "Pinellas Park is a centrally located city in Pinellas County known for its diverse dining scene, particularly its corridor of Vietnamese and Asian restaurants along Park Boulevard. The city hosts the annual Country in the Park music festival.",
-    "highlights": ["Helen Howarth Park", "Pinellas Trail", "England Brothers Park"],
+    "highlights": [
+      "Helen Howarth Park",
+      "Pinellas Trail",
+      "England Brothers Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1068,7 +1340,11 @@
     "emoji": "🎵",
     "tier": 3,
     "description": "Delray Beach is a vibrant coastal city with an award-winning downtown Atlantic Avenue district filled with restaurants, galleries, and nightlife. It was named the Most Fun Small Town in America by USA Today.",
-    "highlights": ["Atlantic Avenue", "Pineapple Grove Arts District", "Morikami Museum and Japanese Gardens"],
+    "highlights": [
+      "Atlantic Avenue",
+      "Pineapple Grove Arts District",
+      "Morikami Museum and Japanese Gardens"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1084,7 +1360,11 @@
     "emoji": "🐢",
     "tier": 3,
     "description": "Boynton Beach is a growing city between Delray Beach and West Palm Beach with a revitalizing downtown and marina district. Oceanfront Park provides easy access to one of the quieter stretches of Palm Beach County beach.",
-    "highlights": ["Oceanfront Park", "Green Cay Nature Center", "Boynton Beach Marina"],
+    "highlights": [
+      "Oceanfront Park",
+      "Green Cay Nature Center",
+      "Boynton Beach Marina"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1100,7 +1380,11 @@
     "emoji": "🗼",
     "tier": 3,
     "description": "Jupiter is an upscale waterfront town at the northern tip of Palm Beach County, best known for the historic Jupiter Inlet Lighthouse and the spring training home of the Miami Marlins and St. Louis Cardinals.",
-    "highlights": ["Jupiter Inlet Lighthouse", "Roger Dean Chevrolet Stadium", "DuBois Park"],
+    "highlights": [
+      "Jupiter Inlet Lighthouse",
+      "Roger Dean Chevrolet Stadium",
+      "DuBois Park"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1116,7 +1400,11 @@
     "emoji": "⛵",
     "tier": 3,
     "description": "Stuart is the Sailfish Capital of the World, located where the St. Lucie River meets the Indian River Lagoon. Its charming downtown features locally owned shops and restaurants along Osceola Street.",
-    "highlights": ["Downtown Stuart", "Bathtub Reef Beach", "Stuart Heritage Museum"],
+    "highlights": [
+      "Downtown Stuart",
+      "Bathtub Reef Beach",
+      "Stuart Heritage Museum"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1132,7 +1420,11 @@
     "emoji": "🦌",
     "tier": 3,
     "description": "Deerfield Beach sits at the northern edge of Broward County with a Blue Wave-certified beach and a 920-foot-long fishing pier. The city offers a more relaxed vibe than neighboring Fort Lauderdale while being just minutes away.",
-    "highlights": ["Deerfield Beach International Fishing Pier", "Quiet Waters Park", "Sullivan Park"],
+    "highlights": [
+      "Deerfield Beach International Fishing Pier",
+      "Quiet Waters Park",
+      "Sullivan Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1148,7 +1440,11 @@
     "emoji": "🦋",
     "tier": 3,
     "description": "Coconut Creek is a Butterfly Capital of the World, home to the Butterfly World attraction and lush tropical landscaping throughout the city. The Promenade at Coconut Creek is the city's premier shopping and dining destination.",
-    "highlights": ["Butterfly World", "Promenade at Coconut Creek", "Tradewinds Park"],
+    "highlights": [
+      "Butterfly World",
+      "Promenade at Coconut Creek",
+      "Tradewinds Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1158,13 +1454,17 @@
     "region": "South Florida",
     "state": "FL",
     "zip": "33323",
-    "lat": 26.1670,
+    "lat": 26.167,
     "lng": -80.2563,
     "population": "97335",
     "emoji": "🌅",
     "tier": 3,
     "description": "Sunrise is home to the Amerant Bank Arena, where the Florida Panthers play NHL hockey, and the massive Sawgrass Mills outlet mall. The city is a commercial hub in western Broward County.",
-    "highlights": ["Sawgrass Mills", "Amerant Bank Arena", "Markham Park"],
+    "highlights": [
+      "Sawgrass Mills",
+      "Amerant Bank Arena",
+      "Markham Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1180,7 +1480,11 @@
     "emoji": "🌿",
     "tier": 3,
     "description": "Plantation is a well-established suburban city west of Fort Lauderdale known for its tree-lined streets and family-friendly neighborhoods. The Westfield Broward mall and the Plantation Preserve Linear Trail are community staples.",
-    "highlights": ["Plantation Central Park", "Plantation Preserve Linear Trail", "Westfield Broward"],
+    "highlights": [
+      "Plantation Central Park",
+      "Plantation Preserve Linear Trail",
+      "Westfield Broward"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1196,7 +1500,11 @@
     "emoji": "🏊",
     "tier": 3,
     "description": "Margate is an affordable Broward County community with a strong sense of neighborhood pride and a growing restaurant scene along State Road 7. The Calypso Cove water park at the civic center is a popular family attraction.",
-    "highlights": ["Calypso Cove", "Margate Sports Complex", "Firefighters Park"],
+    "highlights": [
+      "Calypso Cove",
+      "Margate Sports Complex",
+      "Firefighters Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1212,7 +1520,11 @@
     "emoji": "🌲",
     "tier": 3,
     "description": "Tamarac is a diverse suburban city in Broward County popular with retirees and families alike. The city is known for its well-maintained parks and community centers.",
-    "highlights": ["Tamarac Sports Complex", "Colony West Golf Club", "Caporella Park"],
+    "highlights": [
+      "Tamarac Sports Complex",
+      "Colony West Golf Club",
+      "Caporella Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1223,12 +1535,16 @@
     "state": "FL",
     "zip": "33334",
     "lat": 26.1723,
-    "lng": -80.1320,
+    "lng": -80.132,
     "population": "44955",
     "emoji": "🌳",
     "tier": 3,
     "description": "Oakland Park is a diverse community just north of Fort Lauderdale undergoing a culinary renaissance along Dixie Highway and Oakland Park Boulevard. The Funky Buddha Brewery put the city on the craft beer map.",
-    "highlights": ["Funky Buddha Brewery", "Jaco Pastorius Park", "Easterlin Park"],
+    "highlights": [
+      "Funky Buddha Brewery",
+      "Jaco Pastorius Park",
+      "Easterlin Park"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1244,7 +1560,11 @@
     "emoji": "🏳️‍🌈",
     "tier": 3,
     "description": "Wilton Manors is a vibrant small city nestled within Fort Lauderdale known for its inclusive community and thriving Wilton Drive entertainment district. It is one of the most densely populated cities in Broward County.",
-    "highlights": ["Wilton Drive", "Richardson Historic Park", "Island City Park Preserve"],
+    "highlights": [
+      "Wilton Drive",
+      "Richardson Historic Park",
+      "Island City Park Preserve"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1260,7 +1580,11 @@
     "emoji": "🏏",
     "tier": 3,
     "description": "Lauderhill is home to the Central Broward Regional Park, the only ICC-certified cricket stadium in the United States. The city has a vibrant Caribbean and multicultural community.",
-    "highlights": ["Central Broward Regional Park", "Lauderhill Performing Arts Center", "Inverrary Country Club"],
+    "highlights": [
+      "Central Broward Regional Park",
+      "Lauderhill Performing Arts Center",
+      "Inverrary Country Club"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1276,7 +1600,10 @@
     "emoji": "🏢",
     "tier": 3,
     "description": "North Lauderdale is a compact suburban community in central Broward County with an active recreation program and affordable housing options. Hampton Pines Park is a community gathering spot year-round.",
-    "highlights": ["Hampton Pines Park", "North Lauderdale Community Center"],
+    "highlights": [
+      "Hampton Pines Park",
+      "North Lauderdale Community Center"
+    ],
     "nearestAirport": "fll"
   },
   {
@@ -1292,7 +1619,11 @@
     "emoji": "🎨",
     "tier": 3,
     "description": "Lake Worth Beach is a colorful and eclectic city with a thriving arts scene, a public beach, and a historic downtown filled with murals and local galleries. The Lake Worth Street Painting Festival draws artists from around the world.",
-    "highlights": ["Lake Worth Beach", "Lake Avenue Arts District", "Cultural Council for Palm Beach County"],
+    "highlights": [
+      "Lake Worth Beach",
+      "Lake Avenue Arts District",
+      "Cultural Council for Palm Beach County"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1308,7 +1639,11 @@
     "emoji": "👑",
     "tier": 3,
     "description": "Royal Palm Beach is a family-friendly suburb in western Palm Beach County with well-maintained parks and a strong community event calendar. Royal Palm Beach Commons Park hosts concerts and festivals throughout the year.",
-    "highlights": ["Commons Park", "Royal Palm Beach Cultural Center", "Crestwood Park"],
+    "highlights": [
+      "Commons Park",
+      "Royal Palm Beach Cultural Center",
+      "Crestwood Park"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1324,7 +1659,11 @@
     "emoji": "🐎",
     "tier": 3,
     "description": "Wellington is the Winter Equestrian Capital of the World, hosting world-class polo and show jumping competitions at the International Polo Club and the Winter Equestrian Festival. The village is one of the most affluent communities in Palm Beach County.",
-    "highlights": ["International Polo Club", "Winter Equestrian Festival", "Wellington Green Mall"],
+    "highlights": [
+      "International Polo Club",
+      "Winter Equestrian Festival",
+      "Wellington Green Mall"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1340,7 +1679,11 @@
     "emoji": "🏌️",
     "tier": 3,
     "description": "Palm Beach Gardens is home to the PGA National Resort and hosts The Honda Classic, one of the premier PGA Tour events. The Gardens Mall and Downtown at the Gardens provide premier shopping and dining.",
-    "highlights": ["PGA National Resort", "The Gardens Mall", "Downtown at the Gardens"],
+    "highlights": [
+      "PGA National Resort",
+      "The Gardens Mall",
+      "Downtown at the Gardens"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1351,12 +1694,16 @@
     "state": "FL",
     "zip": "33408",
     "lat": 26.8176,
-    "lng": -80.0820,
+    "lng": -80.082,
     "population": "13090",
     "emoji": "⛵",
     "tier": 3,
     "description": "North Palm Beach is an upscale waterfront village along the Intracoastal Waterway, home to the Jack Nicklaus-designed North Palm Beach Country Club. The village offers easy marina access and a quiet residential atmosphere.",
-    "highlights": ["North Palm Beach Country Club", "John D. MacArthur Beach State Park", "Anchorage Park Marina"],
+    "highlights": [
+      "North Palm Beach Country Club",
+      "John D. MacArthur Beach State Park",
+      "Anchorage Park Marina"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1372,7 +1719,10 @@
     "emoji": "🐚",
     "tier": 3,
     "description": "Tequesta is a small village at the confluence of the Loxahatchee River and the Intracoastal Waterway, offering a tight-knit community feel. The Coral Cove Park provides excellent snorkeling and beachcombing.",
-    "highlights": ["Coral Cove Park", "Limestone Creek Natural Area"],
+    "highlights": [
+      "Coral Cove Park",
+      "Limestone Creek Natural Area"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1388,7 +1738,11 @@
     "emoji": "🐢",
     "tier": 3,
     "description": "Hobe Sound is a quiet coastal enclave in Martin County known for the Hobe Sound National Wildlife Refuge and Blowing Rocks Preserve. The area is a critical nesting habitat for loggerhead sea turtles.",
-    "highlights": ["Hobe Sound National Wildlife Refuge", "Blowing Rocks Preserve", "Jonathan Dickinson State Park"],
+    "highlights": [
+      "Hobe Sound National Wildlife Refuge",
+      "Blowing Rocks Preserve",
+      "Jonathan Dickinson State Park"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1404,7 +1758,10 @@
     "emoji": "🍍",
     "tier": 3,
     "description": "Jensen Beach is the Pineapple Capital of Florida, with a quaint downtown featuring local shops, waterfront dining, and a weekly farmers market. The area is popular for snorkeling along the Bathtub Reef.",
-    "highlights": ["Jensen Beach Causeway Park", "Florida Oceanographic Coastal Center"],
+    "highlights": [
+      "Jensen Beach Causeway Park",
+      "Florida Oceanographic Coastal Center"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1420,7 +1777,11 @@
     "emoji": "🎣",
     "tier": 3,
     "description": "Fort Pierce is the Sunrise City on the Treasure Coast, known for the Navy SEAL Museum and excellent inshore fishing along the Indian River Lagoon. The downtown area has been revitalized with murals, galleries, and craft breweries.",
-    "highlights": ["Navy SEAL Museum", "Fort Pierce Inlet State Park", "Manatee Observation Center"],
+    "highlights": [
+      "Navy SEAL Museum",
+      "Fort Pierce Inlet State Park",
+      "Manatee Observation Center"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1436,7 +1797,10 @@
     "emoji": "🌊",
     "tier": 3,
     "description": "Edgewater is a quiet Indian River community between New Smyrna Beach and Titusville, popular with anglers and nature lovers. The city provides affordable waterfront living on the Space Coast.",
-    "highlights": ["Menard-May Park", "Edgewater Public Library"],
+    "highlights": [
+      "Menard-May Park",
+      "Edgewater Public Library"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -1452,7 +1816,10 @@
     "emoji": "🌿",
     "tier": 3,
     "description": "Holly Hill is a compact community on the Halifax River just north of Daytona Beach, offering easy access to the beach and Daytona's motorsports attractions. The city has a growing corridor of restaurants and shops along Ridgewood Avenue.",
-    "highlights": ["Sunrise Park", "Holly Hill Community Center"],
+    "highlights": [
+      "Sunrise Park",
+      "Holly Hill Community Center"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -1468,7 +1835,10 @@
     "emoji": "🌴",
     "tier": 3,
     "description": "South Daytona is a small riverfront city along the Halifax River, offering a quieter pace than neighboring Daytona Beach. Reed Canal Park provides sports facilities and community gathering space.",
-    "highlights": ["Reed Canal Park", "Piggotte Community Center"],
+    "highlights": [
+      "Reed Canal Park",
+      "Piggotte Community Center"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -1484,7 +1854,11 @@
     "emoji": "🗼",
     "tier": 3,
     "description": "Ponce Inlet is a small oceanfront community at the southern tip of the Volusia County barrier island, home to the tallest lighthouse in Florida. The Marine Science Center rehabilitates injured sea turtles and seabirds.",
-    "highlights": ["Ponce de Leon Inlet Lighthouse", "Marine Science Center", "Smyrna Dunes Park"],
+    "highlights": [
+      "Ponce de Leon Inlet Lighthouse",
+      "Marine Science Center",
+      "Smyrna Dunes Park"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -1495,12 +1869,15 @@
     "state": "FL",
     "zip": "32136",
     "lat": 29.4747,
-    "lng": -81.1270,
+    "lng": -81.127,
     "population": "5084",
     "emoji": "🏖️",
     "tier": 3,
     "description": "Flagler Beach is a laid-back beach town with a retro Florida feel, known for its iconic fishing pier and uncrowded shoreline. The town has a small but lively strip of surf shops, cafes, and dive bars along State Road A1A.",
-    "highlights": ["Flagler Beach Pier", "Gamble Rogers State Recreation Area"],
+    "highlights": [
+      "Flagler Beach Pier",
+      "Gamble Rogers State Recreation Area"
+    ],
     "nearestAirport": "dab"
   },
   {
@@ -1516,7 +1893,10 @@
     "emoji": "🏄",
     "tier": 3,
     "description": "Indian Harbour Beach is a quiet barrier island community between Melbourne Beach and Satellite Beach, favored by aerospace professionals and surf enthusiasts. Gleason Park provides recreation and river access.",
-    "highlights": ["Gleason Park", "Barrier Island beaches"],
+    "highlights": [
+      "Gleason Park",
+      "Barrier Island beaches"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -1532,7 +1912,10 @@
     "emoji": "🌅",
     "tier": 3,
     "description": "Indialantic is a small beachside town on the Space Coast with a relaxed surf culture and easy access to Melbourne's dining and shopping. The boardwalk at the end of Eau Gallie Boulevard is a popular sunrise spot.",
-    "highlights": ["Indialantic Boardwalk", "Nance Park"],
+    "highlights": [
+      "Indialantic Boardwalk",
+      "Nance Park"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -1548,7 +1931,10 @@
     "emoji": "🐢",
     "tier": 3,
     "description": "Melbourne Beach is a small barrier island town at the southern end of the Space Coast's beach communities, offering quiet stretches of sand and prime sea turtle nesting habitat. Sebastian Inlet is a short drive south.",
-    "highlights": ["Sebastian Inlet proximity", "Archie Carr National Wildlife Refuge"],
+    "highlights": [
+      "Sebastian Inlet proximity",
+      "Archie Carr National Wildlife Refuge"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -1564,7 +1950,10 @@
     "emoji": "🐸",
     "tier": 3,
     "description": "Fellsmere is a small agricultural town west of Vero Beach, best known for the annual Fellsmere Frog Leg Festival, one of the largest outdoor food festivals in the state. The city is surrounded by cattle ranches and wetlands.",
-    "highlights": ["Fellsmere Frog Leg Festival", "Fellsmere Trailhead"],
+    "highlights": [
+      "Fellsmere Frog Leg Festival",
+      "Fellsmere Trailhead"
+    ],
     "nearestAirport": "mlb"
   },
   {
@@ -1580,7 +1969,11 @@
     "emoji": "✈️",
     "tier": 3,
     "description": "Tavares calls itself America's Seaplane City, offering seaplane tours and a scenic waterfront along Lake Dora. The Wooton Park pavilion hosts community events and outdoor concerts.",
-    "highlights": ["Jones Brothers Air and Seaplane Adventures", "Wooton Park", "Tavares Pavilion on the Lake"],
+    "highlights": [
+      "Jones Brothers Air and Seaplane Adventures",
+      "Wooton Park",
+      "Tavares Pavilion on the Lake"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1596,7 +1989,11 @@
     "emoji": "🍊",
     "tier": 3,
     "description": "Eustis is a small lakeside city in Lake County with a historic downtown along Magnolia Avenue and a thriving GeorgeFest celebration each February. The city overlooks Lake Eustis and serves as a gateway to the Harris Chain of Lakes.",
-    "highlights": ["Ferran Park", "Lake Eustis", "Downtown Magnolia Avenue"],
+    "highlights": [
+      "Ferran Park",
+      "Lake Eustis",
+      "Downtown Magnolia Avenue"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1612,7 +2009,10 @@
     "emoji": "🚴",
     "tier": 3,
     "description": "Minneola is a small but fast-growing city along the South Lake Trail, popular with cyclists and outdoor enthusiasts. The city's hilltop location offers some of the best elevation in Central Florida.",
-    "highlights": ["South Lake Trail", "Lake Minneola"],
+    "highlights": [
+      "South Lake Trail",
+      "Lake Minneola"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1628,7 +2028,10 @@
     "emoji": "🏡",
     "tier": 3,
     "description": "Mascotte is a small community in western Lake County with deep agricultural roots and affordable housing. The city is experiencing growth as development pushes westward from Orlando.",
-    "highlights": ["Lake Mascotte", "Mascotte Community Park"],
+    "highlights": [
+      "Lake Mascotte",
+      "Mascotte Community Park"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1644,7 +2047,10 @@
     "emoji": "🛒",
     "tier": 3,
     "description": "Lady Lake is the commercial gateway to The Villages retirement community, featuring shopping centers and restaurants along U.S. 27 and U.S. 441. The town retains a small-town identity alongside its booming neighbor.",
-    "highlights": ["Lake Griffin State Park", "Rolling Acres Road shopping corridor"],
+    "highlights": [
+      "Lake Griffin State Park",
+      "Rolling Acres Road shopping corridor"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1654,13 +2060,16 @@
     "region": "North Central Florida",
     "state": "FL",
     "zip": "34420",
-    "lat": 29.0550,
-    "lng": -82.0620,
+    "lat": 29.055,
+    "lng": -82.062,
     "population": "5570",
     "emoji": "🌾",
     "tier": 3,
     "description": "Belleview is a small city south of Ocala with a historic downtown along U.S. 301 and proximity to some of Marion County's best nature trails. The town is a quieter alternative to the growing Ocala area.",
-    "highlights": ["Historic Downtown Belleview", "Santos Trailhead proximity"],
+    "highlights": [
+      "Historic Downtown Belleview",
+      "Santos Trailhead proximity"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1676,7 +2085,11 @@
     "emoji": "🦎",
     "tier": 3,
     "description": "Inverness is the county seat of Citrus County and sits on the Withlacoochee State Trail and the shores of the Tsala Apopka chain of lakes. The charming courthouse square is the centerpiece of a walkable downtown.",
-    "highlights": ["Withlacoochee State Trail", "Fort Cooper State Park", "Courthouse Square"],
+    "highlights": [
+      "Withlacoochee State Trail",
+      "Fort Cooper State Park",
+      "Courthouse Square"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1692,7 +2105,11 @@
     "emoji": "🏔️",
     "tier": 3,
     "description": "Brooksville is the county seat of Hernando County, featuring one of the hilliest landscapes in Florida and a charming historic district. The Croom section of the Withlacoochee State Forest offers some of the best mountain biking in the state.",
-    "highlights": ["Withlacoochee State Forest", "Chinsegut Hill", "Historic Brooksville"],
+    "highlights": [
+      "Withlacoochee State Forest",
+      "Chinsegut Hill",
+      "Historic Brooksville"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1708,7 +2125,11 @@
     "emoji": "🌊",
     "tier": 3,
     "description": "Spring Hill is a large unincorporated community in Hernando County known for Weeki Wachee Springs, one of Florida's most iconic natural attractions. The area offers affordable living with proximity to both Tampa and the Nature Coast.",
-    "highlights": ["Weeki Wachee Springs State Park", "Bayport Park", "Linda Pedersen Park"],
+    "highlights": [
+      "Weeki Wachee Springs State Park",
+      "Bayport Park",
+      "Linda Pedersen Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1724,7 +2145,10 @@
     "emoji": "🌳",
     "tier": 3,
     "description": "Temple Terrace is a small city within the Tampa metro area, known for its tree-lined streets and the University of South Florida campus nearby. The Hillsborough River runs along the city's western edge, offering kayaking and nature trails.",
-    "highlights": ["Hillsborough River State Park", "Flatwoods Park"],
+    "highlights": [
+      "Hillsborough River State Park",
+      "Flatwoods Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1740,7 +2164,10 @@
     "emoji": "🏘️",
     "tier": 3,
     "description": "Lutz is a suburban community straddling Hillsborough and Pasco counties, offering a mix of established neighborhoods and new developments north of Tampa. It provides quick access to both downtown Tampa and the Suncoast Parkway.",
-    "highlights": ["Wilderness Park", "Lutz Lake Fern Preserve"],
+    "highlights": [
+      "Wilderness Park",
+      "Lutz Lake Fern Preserve"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1756,7 +2183,10 @@
     "emoji": "🚴",
     "tier": 3,
     "description": "Oldsmar is a small city on the shores of Tampa Bay between Tampa and Clearwater, founded by automotive pioneer Ransom Olds. The city has a growing industrial and commercial corridor along Tampa Road.",
-    "highlights": ["R.E. Olds Park", "Mobbly Bayou Wilderness Preserve"],
+    "highlights": [
+      "R.E. Olds Park",
+      "Mobbly Bayou Wilderness Preserve"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1772,7 +2202,11 @@
     "emoji": "♨️",
     "tier": 3,
     "description": "Safety Harbor is a charming small city built around natural mineral springs on the western shore of Tampa Bay. The downtown Main Street district features independent shops, breweries, and the historic Safety Harbor Resort and Spa.",
-    "highlights": ["Safety Harbor Resort and Spa", "Safety Harbor Marina", "Philippe Park"],
+    "highlights": [
+      "Safety Harbor Resort and Spa",
+      "Safety Harbor Marina",
+      "Philippe Park"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1783,12 +2217,16 @@
     "state": "FL",
     "zip": "33772",
     "lat": 27.8395,
-    "lng": -82.7910,
+    "lng": -82.791,
     "population": "18712",
     "emoji": "🌺",
     "tier": 3,
     "description": "Seminole is a mid-Pinellas community with a suburban feel and proximity to both Gulf beaches and downtown St. Petersburg. The Seminole City Center provides local shopping and dining.",
-    "highlights": ["Seminole City Center", "Seminole Lake Park", "Boca Ciega Millennium Park"],
+    "highlights": [
+      "Seminole City Center",
+      "Seminole Lake Park",
+      "Boca Ciega Millennium Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1799,12 +2237,15 @@
     "state": "FL",
     "zip": "33785",
     "lat": 27.8836,
-    "lng": -82.8510,
+    "lng": -82.851,
     "population": "4130",
     "emoji": "🐚",
     "tier": 3,
     "description": "Indian Rocks Beach is a low-key Gulf Coast beach town where locals outnumber tourists and the pace of life is slow. The beach is known for excellent shell collecting and spectacular sunsets.",
-    "highlights": ["Indian Rocks Beach Nature Preserve", "Kolb Park"],
+    "highlights": [
+      "Indian Rocks Beach Nature Preserve",
+      "Kolb Park"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1820,7 +2261,10 @@
     "emoji": "🦀",
     "tier": 3,
     "description": "Madeira Beach is a bustling Gulf beach town centered around John's Pass Village, a waterfront boardwalk packed with shops, restaurants, and charter fishing boats. It is one of the most popular beach destinations on the Pinellas coast.",
-    "highlights": ["John's Pass Village and Boardwalk", "Madeira Beach Access Points"],
+    "highlights": [
+      "John's Pass Village and Boardwalk",
+      "Madeira Beach Access Points"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1830,13 +2274,17 @@
     "region": "Tampa Bay",
     "state": "FL",
     "zip": "33706",
-    "lat": 27.7670,
+    "lat": 27.767,
     "lng": -82.7693,
     "population": "6910",
     "emoji": "💎",
     "tier": 3,
     "description": "Treasure Island is a Gulf barrier island community with wide sandy beaches and a relaxed beach-bar culture. The Treasure Island Beach Trail provides a scenic path along the shoreline.",
-    "highlights": ["Treasure Island Beach", "Sunset Beach Pavilion", "Caddy's Treasure Island"],
+    "highlights": [
+      "Treasure Island Beach",
+      "Sunset Beach Pavilion",
+      "Caddy's Treasure Island"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1852,7 +2300,11 @@
     "emoji": "🏖️",
     "tier": 3,
     "description": "St. Pete Beach is home to the iconic Don CeSar hotel and miles of white-sand Gulf shoreline that consistently ranks among the top beaches in the country. The Corey Avenue district features local shops and a weekly market.",
-    "highlights": ["The Don CeSar", "Pass-a-Grille Beach", "Corey Avenue"],
+    "highlights": [
+      "The Don CeSar",
+      "Pass-a-Grille Beach",
+      "Corey Avenue"
+    ],
     "nearestAirport": "pie"
   },
   {
@@ -1868,7 +2320,11 @@
     "emoji": "🍅",
     "tier": 3,
     "description": "Ruskin is an agricultural community on the southern shore of Tampa Bay known for its tomato farms and proximity to Sun City Center. The E.G. Simmons Conservation Park offers waterfront camping and kayak access.",
-    "highlights": ["E.G. Simmons Conservation Park", "Sun City Center", "Ruskin Family Drive-In Theater"],
+    "highlights": [
+      "E.G. Simmons Conservation Park",
+      "Sun City Center",
+      "Ruskin Family Drive-In Theater"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1884,7 +2340,11 @@
     "emoji": "🐬",
     "tier": 3,
     "description": "Apollo Beach is a waterfront community on Tampa Bay best known for the TECO Manatee Viewing Center, where visitors can see wild manatees in the warm water discharge from the power plant. The area features newer waterfront developments with canal access.",
-    "highlights": ["TECO Manatee Viewing Center", "Apollo Beach Nature Preserve", "MiraBay Village"],
+    "highlights": [
+      "TECO Manatee Viewing Center",
+      "Apollo Beach Nature Preserve",
+      "MiraBay Village"
+    ],
     "nearestAirport": "tpa"
   },
   {
@@ -1900,7 +2360,11 @@
     "emoji": "🚢",
     "tier": 3,
     "description": "Riviera Beach is home to the Port of Palm Beach and the Blue Heron Bridge, one of the top shore-diving sites in the world. The city's marina district has been revitalized with waterfront dining and event space.",
-    "highlights": ["Blue Heron Bridge", "Port of Palm Beach", "Phil Foster Park"],
+    "highlights": [
+      "Blue Heron Bridge",
+      "Port of Palm Beach",
+      "Phil Foster Park"
+    ],
     "nearestAirport": "pbi"
   },
   {
@@ -1916,7 +2380,11 @@
     "emoji": "🔔",
     "tier": 3,
     "description": "Lake Wales is home to Bok Tower Gardens, a National Historic Landmark featuring a 205-foot carillon tower surrounded by lush gardens on Iron Mountain. The city's downtown has undergone a revitalization led by the Dover Kohl master plan.",
-    "highlights": ["Bok Tower Gardens", "Historic Downtown Lake Wales", "Lake Wales Ridge State Forest"],
+    "highlights": [
+      "Bok Tower Gardens",
+      "Historic Downtown Lake Wales",
+      "Lake Wales Ridge State Forest"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1932,7 +2400,11 @@
     "emoji": "🏛️",
     "tier": 3,
     "description": "Bartow is the county seat of Polk County and one of the oldest cities in Central Florida, with a well-preserved historic district. The Polk County History Center is housed in the original 1908 courthouse building.",
-    "highlights": ["Polk County History Center", "Historic Downtown Bartow", "L.B. Brown House"],
+    "highlights": [
+      "Polk County History Center",
+      "Historic Downtown Bartow",
+      "L.B. Brown House"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1948,7 +2420,11 @@
     "emoji": "🏎️",
     "tier": 3,
     "description": "Auburndale is a small lakeside city in Polk County known for Lake Myrtle Sports Park, a regional complex hosting youth and adult sports tournaments. The city sits along the I-4 corridor between Lakeland and Orlando.",
-    "highlights": ["Lake Myrtle Sports Park", "TECO Trail", "Lake Ariana"],
+    "highlights": [
+      "Lake Myrtle Sports Park",
+      "TECO Trail",
+      "Lake Ariana"
+    ],
     "nearestAirport": "mco"
   },
   {
@@ -1964,7 +2440,92 @@
     "emoji": "🌺",
     "tier": 3,
     "description": "Poinciana is a large master-planned community in southern Osceola County that has grown into one of Central Florida's most affordable residential areas. The SunRail Poinciana station connects residents to the greater Orlando metro.",
-    "highlights": ["Vance Harmon Park", "SunRail Poinciana Station", "Poinciana Community Park"],
+    "highlights": [
+      "Vance Harmon Park",
+      "SunRail Poinciana Station",
+      "Poinciana Community Park"
+    ],
+    "nearestAirport": "mco"
+  },
+  {
+    "slug": "viera",
+    "name": "Viera",
+    "county": "Brevard County",
+    "region": "Space Coast",
+    "state": "FL",
+    "zip": "32940",
+    "lat": 28.2336,
+    "lng": -80.6886,
+    "population": "18500",
+    "emoji": "⛳",
+    "tier": 2,
+    "description": "Viera is a planned community in Brevard County known for its golf courses, family-friendly neighborhoods, and proximity to Patrick Space Force Base and Kennedy Space Center. BusBrother provides charter bus service for golf tournaments, corporate events, and group transportation throughout the Suntree-Viera area.",
+    "highlights": [
+      "Duran Golf Club",
+      "Viera Regional Park",
+      "Avenue Viera shopping",
+      "The Avenues at Viera"
+    ],
+    "nearestAirport": "mlb"
+  },
+  {
+    "slug": "west-melbourne",
+    "name": "West Melbourne",
+    "county": "Brevard County",
+    "region": "Space Coast",
+    "state": "FL",
+    "zip": "32904",
+    "lat": 28.0683,
+    "lng": -80.6505,
+    "population": "25000",
+    "emoji": "🏢",
+    "tier": 2,
+    "description": "West Melbourne sits inland from Melbourne and is a hub for manufacturing, retail, and corporate employment in Brevard County. BusBrother provides charter bus service for corporate events, business retreats, and group transportation throughout West Melbourne and the greater Melbourne metro area.",
+    "highlights": [
+      "Hammock Landing",
+      "West Melbourne Community Park",
+      "Wickham Park"
+    ],
+    "nearestAirport": "mlb"
+  },
+  {
+    "slug": "mims",
+    "name": "Mims",
+    "county": "Brevard County",
+    "region": "Space Coast",
+    "state": "FL",
+    "zip": "32754",
+    "lat": 28.6661,
+    "lng": -80.8462,
+    "population": "7000",
+    "emoji": "🌲",
+    "tier": 3,
+    "description": "Mims is a rural unincorporated community in northern Brevard County, just north of Titusville and adjacent to Kennedy Space Center. Many Kennedy Space Center employees live in Mims. BusBrother provides charter bus service for group trips, school events, and KSC-related transportation throughout the Mims area.",
+    "highlights": [
+      "Kennedy Space Center proximity",
+      "Enchanted Forest Sanctuary",
+      "Indian River"
+    ],
+    "nearestAirport": "mco"
+  },
+  {
+    "slug": "port-st-john",
+    "name": "Port St. John",
+    "county": "Brevard County",
+    "region": "Space Coast",
+    "state": "FL",
+    "zip": "32927",
+    "lat": 28.4742,
+    "lng": -80.782,
+    "population": "12000",
+    "emoji": "🌊",
+    "tier": 3,
+    "description": "Port St. John is an unincorporated community in central Brevard County on the Indian River, located between Cocoa and Titusville. Many residents work at Kennedy Space Center and Cape Canaveral Space Force Station. BusBrother provides charter bus service for group transportation, KSC tours, and Indian River area events.",
+    "highlights": [
+      "Indian River Lagoon access",
+      "Kennedy Space Center proximity",
+      "Fay Park"
+    ],
     "nearestAirport": "mco"
   }
 ]

@@ -109,7 +109,19 @@ export async function onRequest({ request, env }) {
 
   const notifyEmails = (env.BUSBROTHER_NOTIFY_EMAIL || 'info@busbrother.com').split(',').map(e => e.trim());
   const subject = `[BusBrother] ${isQuoteForm ? 'REVIEW: ' : ''}New ${leadType} from ${data.name || data.email || 'Website'}${isQuoteForm ? ' - ' + serviceLabel : ''}`;
-  await sendEmail(env, { to: notifyEmails, subject, html: ownerHtml, replyTo: data.email || undefined });
+  const emailResult = await sendEmail(env, { to: notifyEmails, subject, html: ownerHtml, replyTo: data.email || undefined });
+
+  // Lead-loss guard: quote forms persist to Supabase (jobId set), so a failed
+  // email is non-fatal. But contact/lead-magnet forms are email-only — if that
+  // email fails AND nothing was persisted, the lead would vanish. Surface an
+  // error so the visitor can retry instead of seeing a false thank-you.
+  const persisted = !!jobId;
+  if (!persisted && (!emailResult || emailResult.ok === false)) {
+    if (!ct.includes('application/json')) {
+      return new Response(null, { status: 303, headers: { 'Location': '/?error=send_failed#contact' } });
+    }
+    return json({ success: false, error: 'We could not submit your request. Please try again or call us.' }, 502);
+  }
 
   // For HTML form submits, redirect to thank-you page
   if (!ct.includes('application/json')) {

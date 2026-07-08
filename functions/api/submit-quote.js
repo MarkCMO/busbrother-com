@@ -74,6 +74,7 @@ export async function onRequest({ request, env }) {
 
   const adminSecret = env.BUSBROTHER_ADMIN_SECRET;
   const approveUrl = jobId && adminSecret ? `https://busbrother.com/api/send-to-vendors?secret=${adminSecret}&job_id=${jobId}` : null;
+  const btmUrl = jobId && adminSecret ? `https://busbrother.com/api/send-to-btm?secret=${adminSecret}&job_id=${jobId}` : null;
   const rejectUrl = jobId && adminSecret ? `https://busbrother.com/api/jobs-admin?secret=${adminSecret}&action=close&job_id=${jobId}` : null;
   const dashboardUrl = `https://busbrother.com/admin/jobs/`;
 
@@ -99,7 +100,8 @@ export async function onRequest({ request, env }) {
     <table style="width:100%;border-collapse:collapse;background:#0a1628;border:1px solid #1e3052;border-radius:6px;">${fields}</table>
   </div>
   <div style="background:#0a1628;border:1px solid #1e3052;border-radius:0 0 8px 8px;padding:24px;text-align:center;">
-    ${approveUrl ? `<a href="${approveUrl}" style="display:inline-block;background:#2ecc71;color:#fff;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:700;font-size:15px;margin-bottom:10px;">SEND OUT FOR BID</a><br/>
+    ${btmUrl ? `<a href="${btmUrl}" style="display:inline-block;background:#f5a623;color:#060e1c;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:700;font-size:15px;margin-bottom:10px;">🚌 SEND TO BTM COACH</a><br/>` : ''}
+    ${approveUrl ? `<a href="${approveUrl}" style="display:inline-block;background:#2ecc71;color:#fff;padding:12px 28px;border-radius:6px;text-decoration:none;font-weight:700;font-size:14px;margin:6px 0;">Send to Full Vendor Network</a><br/>
     <a href="${rejectUrl}" style="display:inline-block;background:transparent;border:1px solid #e74c3c;color:#e74c3c;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;font-size:13px;margin-top:8px;">Reject Lead</a><br/>` : ''}
     ${data.email ? `<a href="mailto:${data.email}?subject=BusBrother%20Quote" style="display:inline-block;color:#f5a623;padding:10px 24px;text-decoration:none;font-size:13px;margin-top:10px;">Reply to ${data.name || 'Customer'}</a>` : ''}
     ${data.phone ? `<a href="tel:${data.phone}" style="display:inline-block;color:#8a9ab5;padding:10px 24px;text-decoration:none;font-size:13px;margin-top:4px;">Call ${data.phone}</a>` : ''}

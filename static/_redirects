@@ -69,24 +69,29 @@
 /services/event-shuttle         /services/                     301
 
 # ── Legacy hub URLs (Google indexed before refactor) ──────
-/airports/*    /services/airport-transfers/    301
+# NOTE: wildcards (/airports/*, /hotels/*, etc.) were REMOVED 2026-07-09 because
+# they were killing 1,816 real content pages under those prefixes — CF Pages
+# _redirects wildcards beat static files even when a matching file exists.
+# Only the EXACT hub URLs redirect now. All sub-pages (/airports/mco-to-orlando/,
+# /hotels/hilton-cocoa-beach-oceanfront/, etc.) serve their real content.
 /airports      /services/airport-transfers/    301
-/corporate/*   /services/corporate-charter/    301
+/airports/     /services/airport-transfers/    301
 /corporate     /services/corporate-charter/    301
-/hotels/*      /services/hotel-shuttle/        301
+/corporate/    /services/corporate-charter/    301
 /hotels        /services/hotel-shuttle/        301
-/routes/*      /areas/                         301
+/hotels/       /services/hotel-shuttle/        301
 /routes        /areas/                         301
-/schools/*     /services/school-groups/        301
+/routes/       /areas/                         301
 /schools       /services/school-groups/        301
-/events/*      /services/                      301
+/schools/      /services/school-groups/        301
 /events        /services/                      301
-/sports/*      /services/                      301
+/events/       /services/                      301
 /sports        /services/                      301
-/venues/*      /services/                      301
+/sports/       /services/                      301
 /venues        /services/                      301
-/weddings/*    /services/wedding-events/       301
+/venues/       /services/                      301
 /weddings      /services/wedding-events/       301
+/weddings/     /services/wedding-events/       301
 
 # ── Legacy /from/CITY/to/SLUG pattern -> /attractions/SLUG/ ──────
 /from/:city/to/:slug   /attractions/:slug/   301

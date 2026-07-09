@@ -31,3 +31,9 @@
 
 /icon-512.png
   Cache-Control: public, max-age=31536000, immutable
+
+/companies
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/companies/*
+  X-Robots-Tag: noindex, nofollow, noarchive

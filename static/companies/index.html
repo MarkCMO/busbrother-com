@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Florida Passenger-Transport Acquisition Prospects</title>
+<style>
+  :root{
+    --ink:#15223B; --ink-soft:#33415C; --paper:#FAF7F1; --card:#FFFFFF;
+    --line:#E4DDD0; --line-strong:#D2C8B6; --amber:#E0A32E; --amber-deep:#B9821A;
+    --muted:#6B7385;
+    --a:#2E7D5B; --a-bg:#E7F1EB;
+    --b:#3A6EA5; --b-bg:#E7EEF6;
+    --c:#B9821A; --c-bg:#F7EEDB;
+    --r:#7A7284; --r-bg:#EEEAF0;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,"SF Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    line-height:1.5;-webkit-font-smoothing:antialiased;font-size:15px}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 22px 80px}
+
+  header.masthead{border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:22px}
+  .kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber-deep);
+    font-weight:700;margin:0 0 8px}
+  h1{font-size:clamp(26px,4vw,40px);line-height:1.05;margin:0;font-weight:800;
+    letter-spacing:-.01em;text-wrap:balance;max-width:20ch}
+  .sub{margin:12px 0 0;color:var(--ink-soft);max-width:70ch;font-size:15px}
+
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:12px 16px;min-width:104px;flex:1 1 auto}
+  .stat b{display:block;font-size:26px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
+  .stat span{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--muted);margin-top:6px}
+
+  .note{background:#FFFDF7;border:1px solid var(--line-strong);border-left:4px solid var(--amber);
+    border-radius:8px;padding:12px 16px;margin:20px 0 24px;font-size:13.5px;color:var(--ink-soft)}
+  .note b{color:var(--ink)}
+
+  .controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:16px}
+  .filtergroup{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .glabel{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+    font-weight:700;margin-right:2px}
+  button.chip{font-family:var(--sans);font-size:12.5px;font-weight:600;cursor:pointer;
+    border:1px solid var(--line-strong);background:var(--card);color:var(--ink-soft);
+    padding:6px 12px;border-radius:999px;transition:all .12s ease}
+  button.chip:hover{border-color:var(--ink-soft)}
+  button.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  button.chip:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+  .search{margin-left:auto;flex:1 1 200px;max-width:280px}
+  .search input{width:100%;font-family:var(--sans);font-size:14px;padding:8px 12px;
+    border:1px solid var(--line-strong);border-radius:8px;background:var(--card);color:var(--ink)}
+  .search input:focus-visible{outline:2px solid var(--amber);outline-offset:1px;border-color:var(--amber)}
+
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;min-width:900px}
+  thead th{position:sticky;top:0;background:var(--ink);color:#fff;text-align:left;
+    font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;
+    padding:11px 14px;white-space:nowrap;z-index:2}
+  tbody td{padding:13px 14px;border-top:1px solid var(--line);vertical-align:top;font-size:14px}
+  tbody tr:hover{background:#FBF9F4}
+  .co{font-weight:700;color:var(--ink)}
+  .co a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line-strong)}
+  .co a:hover{border-color:var(--amber);color:var(--amber-deep)}
+  .meta{color:var(--muted);font-size:12px;margin-top:3px}
+  .owner{font-weight:600}
+  .owner .t{display:block;color:var(--muted);font-weight:400;font-size:12px}
+  .np{color:#A99F8C;font-style:italic;font-size:12.5px}
+  .data{font-family:var(--mono);font-size:12.5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .data a{color:var(--b);text-decoration:none}
+  .data a:hover{text-decoration:underline}
+  .notes{font-size:12.5px;color:var(--ink-soft);max-width:34ch}
+  .flag{color:var(--c);font-weight:700}
+
+  td.tiercell{white-space:nowrap;font-weight:800;font-size:12px;letter-spacing:.04em}
+  .tier-stripe{border-left:5px solid transparent}
+  tr[data-tier="A"] .tier-stripe{border-left-color:var(--a)}
+  tr[data-tier="B"] .tier-stripe{border-left-color:var(--b)}
+  tr[data-tier="C"] .tier-stripe{border-left-color:var(--c)}
+  tr[data-tier="R"] .tier-stripe{border-left-color:var(--r)}
+
+  .pill{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.04em;
+    padding:3px 8px;border-radius:999px;white-space:nowrap;text-transform:uppercase}
+  .p-em{background:var(--a-bg);color:var(--a)}
+  .p-ph{background:var(--b-bg);color:var(--b)}
+  .p-en{background:var(--c-bg);color:var(--c)}
+
+  .tag{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:5px}
+  .tagA{background:var(--a-bg);color:var(--a)} .tagB{background:var(--b-bg);color:var(--b)}
+  .tagC{background:var(--c-bg);color:var(--c)} .tagR{background:var(--r-bg);color:var(--r)}
+
+  .empty{padding:40px;text-align:center;color:var(--muted);display:none}
+  footer{margin-top:26px;font-size:12px;color:var(--muted);line-height:1.7}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin:14px 0 0;font-size:12px;color:var(--ink-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+  @media (max-width:640px){ .stat{min-width:82px} .notes{max-width:24ch} }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="kicker">WETYR &middot; Acquisition Sourcing &middot; Confidential</p>
+    <h1>Florida Passenger-Transport Acquisition Targets</h1>
+    <p class="sub">Charter motorcoach, tour, trolley, shuttle and school-bus operators headquartered in
+      Florida, compiled from association directories (FMA, UMA), the FMCSA carrier registry, the PortMiami
+      licensed-operator directory, state tourism listings, and operator websites. National brokers and
+      lead-gen sites that don't own fleets were excluded. Every phone and email was pulled from a live
+      source, none were invented.</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="note">
+    <b>Data honesty:</b> owner/executive names are only shown where publicly listed (roughly a third of rows).
+    Rows marked <span class="flag">VERIFY</span> or <b>ENRICH</b>, and the PortMiami-licensed shuttle
+    operators (phone only), need a quick check before outreach. Sunbiz officer records
+    (search.sunbiz.org) are the fastest way to fill missing owner names. Direct personal CEO emails are
+    rarely public; use the company email plus the named contact to route.
+  </div>
+
+  <div class="controls">
+    <div class="filtergroup" id="tierFilters">
+      <span class="glabel">Tier</span>
+      <button class="chip" data-f="tier" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="tier" data-v="A" aria-pressed="false">A &middot; Prime</button>
+      <button class="chip" data-f="tier" data-v="B" aria-pressed="false">B &middot; Solid</button>
+      <button class="chip" data-f="tier" data-v="C" aria-pressed="false">C &middot; Verify</button>
+      <button class="chip" data-f="tier" data-v="R" aria-pressed="false">R &middot; Regional</button>
+    </div>
+    <div class="filtergroup" id="regionFilters">
+      <span class="glabel">Region</span>
+      <button class="chip" data-f="region" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="region" data-v="South" aria-pressed="false">South</button>
+      <button class="chip" data-f="region" data-v="Central" aria-pressed="false">Central</button>
+      <button class="chip" data-f="region" data-v="SW" aria-pressed="false">SW</button>
+      <button class="chip" data-f="region" data-v="North" aria-pressed="false">North</button>
+      <button class="chip" data-f="region" data-v="Statewide" aria-pressed="false">Statewide</button>
+    </div>
+    <div class="search">
+      <input type="search" id="q" placeholder="Search company, city, owner&hellip;" aria-label="Search prospects">
+    </div>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Tier</th><th>Company</th><th>Location</th><th>Owner / Exec</th>
+          <th>Phone</th><th>Email</th><th>Contact</th><th>Notes</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty">No prospects match those filters.</div>
+  </div>
+
+  <div class="legend">
+    <span><i class="sw" style="background:var(--a)"></i> Tier A: owner-operated, named principal, owns fleet</span>
+    <span><i class="sw" style="background:var(--b)"></i> Tier B: verified FL operator, no public owner name</span>
+    <span><i class="sw" style="background:var(--c)"></i> Tier C: verify entity/operator status first</span>
+    <span><i class="sw" style="background:var(--r)"></i> R: regional, out-of-state HQ serving FL</span>
+  </div>
+
+  <footer>
+    Compiled July 2026 from the Florida Motorcoach Assoc., United Motorcoach Assoc. (UMA), FMCSA/SAFER,
+    the PortMiami licensed ground-transportation directory, BusRates, VISIT&nbsp;FLORIDA / regional CVB
+    transport listings, and operator websites. Contact data reflects what was publicly available at
+    compile time and should be re-verified at outreach. A matching CSV sits on your Desktop as
+    <span class="data" style="white-space:normal">Florida-Bus-Acquisition-Prospects.csv</span>.
+  </footer>
+</div>
+
+<script>
+const D=[
+["A","Avalos Transportation Co. (ATC Buses)","Orlando","Central","Carlos Avalos","Owner","(407) 982-0590","info@atcbuses.com","atcbuses.com","50-59 pax Van Hool; USDOT 1732060; since 2007; statewide"],
+["A","Jet Set Line Inc.","Orlando + Miami","Central","Marcelo R. Concha","Founder, 2nd-gen family","(407) 649-6599","sales@jetsetusa.com","jetsetusa.com","30+ European coaches; new Mercedes Tourriders 2025"],
+["A","Empire Coach Line Inc.","Orlando","Central","Patricia J. Fontalvo / Eduardo J. Serrano","President / VP-GM","(407) 888-2624","sales@empirecoachline.com","empirecoachline.com","Family owned; 45+ vehicles incl. double-deckers"],
+["A","Annett Bus Lines","Sebring (7 FL garages)","Statewide","Brian & David Annett","Owner-operators","(863) 655-5547","Sales@annettbuslines.com","annettbuslines.com","Since 1976; 30+ coaches; garages statewide"],
+["A","McGaughey Busses (MBI Tours)","Naples / Fort Myers","SW","Scott McGaughey","Owner, 3rd-gen family","(239) 643-7575","office@mbitours.com","mbicharterbus.com","Family since 1914; FL since 1986; up to 55 pax"],
+["A","Newman Coach Lines (NCL Logistics)","Tampa","Central","James Newman / Kasturi Newman","Owner / CEO","(813) 892-0683","","tampacharterbus.com","Minority- & woman-owned; since 2003. Contact form only"],
+["A","All Around Charters & Tours","Nokomis","SW","Adam Walkup","Owner","(941) 488-2521","charters@allaroundbus.com","allaroundbus.com","~25 yrs family owned; all-MCI D-series fleet"],
+["A","A Candies Coachworks Inc.","Gainesville","North","Sander & Lyn Kaplan","Owners","(352) 332-4334","sales@candiescoachworks.com","candiescoachworks.com","Family 30+ yrs; Prevost H-series to 56 pax; UF provider"],
+["A","Rock Transportation","Jacksonville","North","AB Rock","Founder/President","(904) 693-9369","","rock-transportation.com","30+ buses (52 & 86 pax); athletics/field trips"],
+["A","Senior Adult Travel Inc.","Chiefland","North","Jerry W. Nash","Founder/President","(352) 727-2268","jerry@senioradulttravel.com","senioradulttravel.com","Faith-based/senior tours; motorcoach + intl"],
+["A","Royal Coach Tours & Cruises","Port Orange (Daytona)","Central","Marcya","Owner","(386) 788-0208","Fun@RoyalCoachTours.com","royalcoachtours.com","44+ yrs; senior day/overnight/cruise tours"],
+["A","Sarasota Coach Lines Inc.","Sarasota","SW","","","(941) 378-9394","sarasotacoach@aol.com","sarasotacoachlines.com","USDOT 809999; school/sports/club charters"],
+["A","Stage Coach Charter & Tour LLC","Lakeland","Central","Frank Gifford","Principal","(863) 687-4573","","stagecoachcharter.com","Small family biz ~3 staff. VERIFY live domain"],
+["A","Florida Coach Inc.","Kissimmee","Central","","Family owned","(407) 846-2782","","floridacoach.com","Incorporated 1981; charter"],
+["A","The Miami Tour Company","Miami","South","Gus Moore","Owner","(305) 260-6855","","miamitourcompany.com","Owns buses/vans; tours + charter"],
+["A","FloridaTours.com LLC","Davie / Fort Lauderdale","South","Crane Gladding","Founder (per press)","(888) 419-1988","info@floridatours.com","floridatours.com","Owns fleet; school-board approved; 80+ staff"],
+["A","Maranata Bus School Service","Hialeah","South","Ulises Arias","Founder","(305) 264-8423","","maranatabus.com","Miami-Dade/Broward/PB; since early 1990s"],
+["A","ESCOT Bus Lines LLC","Largo (Tampa Bay)","Central","Brian Scott","President","(727) 545-2088","","escotbuslines.com","Family owned since 1983. FLAG: TBL Group acquiring control 2026"],
+["A","Workman Transportation & Travel","The Villages / Central FL","Central","Workman family","Family owners","(352) 776-2500","","workmantravel.com","Since 1987; official Villages provider; family owned"],
+["A","Space Tours Bus Company","Orlando","Central","Mauricio & Julian Vargas","Founder / principal","(407) 903-9996","hello@spacetoursbus.com","spacetoursbus.com","~7 motorcoaches + 2 special-needs"],
+["A","Dynamic Tours & Transportation Inc.","Orlando","Central","","Family owned","(407) 888-3500","","dynamicbuslines.com","40 units (30 coaches); 2nd oldest coach co in Central FL; USDOT 682703"],
+["A","Youngblood Charter Services Corp","Wesley Chapel (Tampa)","Central","Anthony","Owner (per site)","(813) 695-5639","youngblood813@gmail.com","youngbloodcharterservices.com","Charter + party bus; airport/corporate/wedding/casino"],
+["A","Southern Bus Lines Inc.","Miami","South","Dominic Gabriel Urquiola / Aleida Cobo","President / Director","(888) 352-2873","info@southernbuslines.com","southernbuslines.com","UMA member; since 2007; 5-56 pax"],
+["A","Mike's Limousine","Tallahassee","North","Mike","Owner-operator","(850) 933-6683","","limomike.com","N FL/S GA largest; 35+ vehicles incl 82-pax double-deckers; FL DOT 1429532"],
+["A","JM Shuttle Bus LLC","Miami","South","Esther Bergouignan-Mestre","Founder/CEO","(305) 361-2231","jmshuttle@jmshuttlebus.com","jmshuttlebus.com","Private-school shuttles; est 2015; DOT 3011189"],
+["A","Crestline Coach Tours Inc.","Orlando","Central","Keith Landi","President","(407) 900-3995","","crestlinecoachtours.com","Est 2005; up to 57-pax; ALF/hurricane-evac. VERIFY from listing"],
+["B","Fabulous Buses and Tours Inc.","Orlando","Central","Andy James","Primary contact (UMA)","(407) 885-1252","sales@fabulousbuses.com","fabulousbuses.com","Coaches + ADA low-floor + 81-pax double-deckers"],
+["B","Mears Transportation (Mears Group)","Orlando","Central","","","(407) 422-4561","esales@mears.com","mearstransportation.com","Large fleet; MCO provider; high volume"],
+["B","Barracuda Travels","Tampa (Seffner)","Central","","","(813) 628-0700","","barracudatravels.com","Since 2010. Contact form only"],
+["B","Dolphin Transportation Specialists","Naples + Sarasota","SW","","","(239) 530-0100","","dolphinnaples.com","Largest independently owned SW FL luxury fleet"],
+["B","CC Tours & Charters (Florida Fun Motorcoach)","Cocoa / Melbourne","Central","","","(321) 432-1511","info@floridafunmotorcoach.com","floridafunmotorcoach.com","Space Coast day tours; up to 40 pax"],
+["B","Holiday Coach Lines Inc.","Ocoee / Orlando","Central","","","(407) 877-8598","Holidayline@aol.com","holidaycoachlines.com","30+ yrs central FL"],
+["B","Phoenix Bus Inc.","Orlando","Central","","","(407) 574-7662","contact@phoenixbusorlando.com","phoenixbusorlando.com","USDOT 1882749; military/emergency charter"],
+["B","Connexxions Bus Inc.","Orlando","Central","","","(407) 602-1000","info@connexxionsbus.com","connexxionsbus.com","40-56 pax; also Nashville TN"],
+["B","Pico Bros Company LLC","Orlando","Central","","","(877) 777-0045","","picobros.com","55-pax; airport & corporate"],
+["B","Exotic Coach Lines","Fort Lauderdale","South","","","(855) 396-8420","sales@exoticcoachlines.com","exoticcoachlines.com","30-61 pax + minibus + double-decker"],
+["B","JB Bus Inc.","Orlando","Central","","","(407) 928-3072","Jbbusinc@live.com","jb-bus.com","Since 1995; 24/7 office"],
+["B","Maze Transportation LLC","Orlando","Central","","","(407) 491-6776","Info@mazetransportation.com","mazetransportation.com","One-way/round/multi-day charter"],
+["B","Kline Tours","St. Petersburg","Central","","","(727) 439-5520","","klinetours.net","Casino/event tours; departs St. Pete & SRQ"],
+["B","American Motorcoaches","Central Florida","Central","","","(407) 855-1904","","americanmotorcoaches.com","Family owned since 2003; Van Hool 56-57 pax; DoD"],
+["B","Showtime Transportation of Tampa Inc.","Tampa","Central","","","(844) 377-7469","reservations@showtimetampa.com","showtimetampa.com","Sprinters to 55-pax coach"],
+["B","Benchmark Coachlines","Gainesville / Ocala","North","","","(352) 301-5301","Reservations@benchmarkcoachlines.com","benchmarkcoachlines.com","20+ yrs; equestrian + national tours"],
+["B","Tomahawk Transportation","Tallahassee","North","","","(850) 815-2626","Info@TomahawkBuses.com","tomahawkbuses.com","3 bus types (65/83/56 pax); school + charter"],
+["B","Astro Travel","Tallahassee","North","","","(850) 514-1793","info@astrotravel.com","astrotravel.com","50+ yrs; luxury motorcoach fleet"],
+["B","Dana's Limousine & Transportation","Jacksonville","North","","","(904) 744-3333","","danaslimo.com","Since 1977; N. FL + SE GA"],
+["B","Florida Bus Service LLC","Orlando","Central","","","(407) 857-8557","","floridabusservice.com","Statewide charter"],
+["B","COLBUS Inc.","Orlando","Central","","","","","colbusinc.com","Family owned since 2008. ENRICH: no public phone/email"],
+["B","Miami Motor Coach","Miami","South","","","(305) 417-3935","reservations@miamimotorcoach.com","miamimotorcoach.com","7 owned 55-pax coaches + affiliates; est. 2019"],
+["B","A Family Limousine & Coaches","Hallandale Beach","South","","","(954) 522-7455","reservations@afamilylimo.com","afamilylimo.com","Since 1999; Volvo 9700 56-pax + party bus"],
+["B","Corporate Coaches (CC Limousines)","Miami / Ft Lauderdale / WPB","South","","","(954) 583-7082","info@cclimousines.com","cclimousines.com","Temsa 34-pax minibus + sprinters"],
+["B","Sensation Tours","Coral Gables","South","","","(786) 212-4836","adm@sensationtours.com","sensationtours.com","Sprinters + 56-pax buses"],
+["B","My South Bus Tours","Hollywood","South","","","(800) 305-4002","info@mysouthbustours.com","mysouthbustours.com","Formerly International Limo of South Florida"],
+["B","Miami Limo Coach","Miami","South","","","(305) 200-9804","info@miamilimocoach.com","miamilimocoach.com","6 buses 10-60 pax"],
+["B","Limo Services Miami","Fort Lauderdale","South","","","(877) 743-3229","info@limoservicesmiami.com","limoservicesmiami.com","Coaches to 61 pax"],
+["B","Party Bus Group Miami","Miami","South","","","(786) 873-7304","info@miamishuttlevan.com","partybusgroupmiami.com","Sedans + vans + party buses"],
+["B","Bus One LLC","West Palm Beach","South","","","(561) 758-7377","","bus-one.com","Black-owned/women-owned; ~28 yrs"],
+["B","Franmar Bus Company","Cutler Bay","South","","","(305) 253-2533","","franmarbuscompany.com","School bus contractor; 45 yrs; charter/field trips"],
+["B","Mystic School Transportation LLC","Orlando","Central","","","(407) 888-0013","","mysticschoolbus.net","School bus contractor; since 1994"],
+["B","Luxury Bus Miami","Miami","South","","","","","luxurybusmiami.com","Van Hool/Temsa/MCI/Volvo. ENRICH: no public phone/email"],
+["B","BTM Coaches","Cocoa (+ Daytona + Vero Beach)","Central","","","(321) 783-9000","sales@btmcoach.com","btmcoach.com","30+ yrs; wheelchair-lift coaches; 3 yards"],
+["B","Naples Transportation & Tours","Naples","SW","","","(239) 260-3272","","naplestransportation.com","1010 6th Ave S; full fleet sedans to motorcoaches + trolleys"],
+["B","Premier Trolleys Inc.","Naples","SW","","","(239) 961-1882","premiertrolleys@gmail.com","premiertrolley.com","Since 2010; white trolleys 28 pax; weddings/events"],
+["B","Sarasota Trolley","Sarasota","SW","","","(941) 915-3232","","sarasotatrolley.com","25+ yrs; 34-pax Molly Trolleys; charter line 941-346-3115"],
+["B","SRQ Trolley","Sarasota","SW","Priscilla","Owner (per testimonials)","(941) 538-1414","contact@srqtrolley.com","srqtrolley.com","18+ yrs; 5 trolleys 20-39 pax; Sarasota/Bradenton/Venice"],
+["B","Miami White Trolley (Rumba Tours Miami)","Miami","South","","","(786) 565-1088","reservations@rumbatoursmiami.com","miamiwhitetrolley.com","Trolleys + minicoach/motorcoach/sprinter; weddings/events"],
+["B","654 Limo Inc.","Destin","North","","","(850) 654-5466","limo@654limo.com","654limo.com","220 Main St Destin; 14-50 pax; Panhandle"],
+["B","Beach Bum Trolley","Pensacola","North","Tom","Owner (per email)","(850) 982-8900","tom@beachbumtrolley.com","beachbumtrolleys.com","Oak-wood trolleys; weddings/reunions; Pensacola to Seaside/Mobile"],
+["B","MCA Transportation (Motorcoach Class A)","Orlando","Central","","","(407) 226-2256","","mcatransportation.com","Owns fleet; 34 vehicles (27 coaches)"],
+["B","Buggy (School Bus Transportation)","Miami-Dade","South","","","","success@bu99y.com","buggyto.school","Luxury Mercedes vans; GPS/camera; Miami-Dade private schools"],
+["B","Gray Line Orlando (Gray Line Corp.)","Orlando","Central","","","(407) 522-5911","orlando@grayline.com","graylineorlando.com","fka Gator Tours since 1993; 20+ buses; sightseeing + charter"],
+["B","Orlando Transportation & Tours Inc.","Orlando","Central","","Family owned (est. 2003)","(407) 383-9930","ops@ott-llc.com","orlandotransportationandtours.com","Luxury coach/van; downtown Orlando HQ"],
+["B","GoPegasus","Orlando","Central","","","(407) 812-8812","","gopegasus.com","30 vehicles; OCCC + runDisney provider"],
+["B","Majestic Tours & Transportation","Daytona Beach","Central","","Woman-owned family","(386) 477-1777","","majestictransportationfl.com","Airport/charter/group; mixed fleet"],
+["B","Prestige Global","Kissimmee","Central","","Woman-owned","(407) 800-1851","","facebook.com/share/1E1UwVgVUF","18 vehicles (6 coaches)"],
+["B","Orange Lines (Orange Buses)","Orlando","Central","","","(407) 990-3888","","orangebuses.com","7 vehicles (5 coaches, 2 mini)"],
+["B","Urban Worldwide","Kissimmee","Central","","Family owned","(407) 473-9089","","urbanworldwide.com","Executive/leisure white-glove service"],
+["B","Cocoa Beach Shuttle","Cocoa Beach","Central","","","(321) 631-4144","","cocoabeachshuttle.com","Est. 1987; 40+ vehicles; ~5000 pax/week"],
+["B","Happy Hour Shuttle","Cape Canaveral / Cocoa Beach","Central","Mel","Owner (per testimonials)","(888) 601-6640","hhshuttle1@gmail.com","happyhourshuttle.com","Cruise/airport shuttle + excursions"],
+["B","Busy Traveler Transportation Inc.","Merritt Island","Central","","","(321) 453-5278","","abusytraveler.com","20+ yrs; Port Canaveral/MCO/cruise transfers"],
+["B","Clearwater Jolley Trolley","Clearwater","Central","","","(727) 445-1200","","clearwaterjolleytrolley.com","Public routes + private trolley charters"],
+["B","Total Transport LLC","Clearwater","Central","","","(727) 470-8651","info@totaltransportllc.net","totaltransportllc.net","40-pax mini + vans + 43-71 pax school buses"],
+["B","Affari Transportation","Tampa","Central","","","(813) 448-4703","Info@AffariTampa.com","affaritampa.com","Own fleet 24-55 pax + party/shuttle/sprinter"],
+["B","Robbins Charter Coach Inc.","Yulee / Jacksonville","North","","","(904) 225-2379","info@robbinscharters.com","robbinscharters.com","Jacksonville + SE Georgia"],
+["B","7nAbove Travel & Tours","Coral Springs (Miami/FLL)","South","","","(305) 922-3151","info@7nabovetrans.com","7nabove.com","Fleet owner not brokers; since 2012; 15-56 pax"],
+["B","Perugini Transportation Management","Miami / Fort Lauderdale","South","","","(786) 471-6784","","peruginitransportation.com","Est 1986; sedans to 55-pax coaches"],
+["B","Jano Coaches (Jano Coachlines Inc)","Fort Lauderdale / Palm Beach","South","","","(305) 526-6287","info@janobus.com","janobus.com","15+ yrs; 24-57 pax; DOT 2493676"],
+["B","Larry's Private Car & Limo","Fort Lauderdale","South","","","(800) 611-6631","information@larryslimo.com","larryslimo.com","30+ yrs; 25-56 pax coaches; cruise-port"],
+["B","Infinity Transportation Inc.","Fort Lauderdale","South","","","(866) 247-5466","info@infinity-transportation.com","infinity-transportation.com","Mini-coach + motorcoach; cruise-port focus"],
+["B","Premier Bus Charters Inc.","Sunny Isles Beach","South","","","(305) 733-3519","","premierbuscharter.com","Luxury coach charters; Miami/FLL/WPB"],
+["B","Miami Coach and Tours","Miami Gardens","South","","","(305) 799-7096","","miamicoachtours.com","European coaches; vans + buses"],
+["B","USA Motorcoach of Florida","Miami","South","","","(786) 321-8452","","usamotorcoachofflorida.com","Coaches w/ restroom, recliners, WiFi"],
+["B","Miami Minibus Company","Miami","South","","","(786) 957-3440","","miamiminibuscompany.com","Since 2011; Van Hool/Prevost/MCI. Verify"],
+["B","The Right Way Transportation","Davie / Fort Lauderdale","South","Jorge","Owner","(954) 955-5490","","therightwaytransportation.com","Vans + charter buses; cruise-port shuttle"],
+["B","Kool Kids Transport Corp","Pembroke Pines","South","","","(954) 283-7481","info@koolkidstransport.com","koolkidstransport.com","School/daycare/camp shuttle + field trips"],
+["B","Straight A Student Transport LLC","Pembroke Pines","South","","","(786) 340-8422","info@straightatransport.com","straightatransport.net","Broward School Board vendor; 15-pax vans"],
+["B","RedCoach (RedCoachUSA)","Orlando HQ","Central","","","(321) 342-3063","","redcoachusa.com","Founded 2010; intercity first/business/economy; FL/TX/GA/OK routes"],
+["B","Olympus Limo Inc.","Tampa / New Port Richey","Central","","","(813) 345-5466","info@olympuslimo.com","olympuslimo.com","Owns fleet; Sprinters to 55-pax MCI; USDOT 1497407; est 1996"],
+["B","Cocoa Beach Express","Cape Canaveral","Central","","","(321) 783-8655","","cocoabeachexpress.com","Port Canaveral concessionaire; vans/shuttles/buses"],
+["C","Fort Myers Coach Bus Service","Fort Myers","SW","","","(239) 999-1670","","fortmyerscoachbusservice.com","Since 2011. VERIFY operator vs booking front-end"],
+["C","Prompt Bus Charters","Fort Myers","SW","","","(877) 277-6678","","promptbuscharters.com","VERIFY operator vs broker"],
+["C","Lakeland Bus Lines","Lakeland","Central","","","(800) 367-0601","","lakelandbus.com","VERIFY FL entity vs same-name NJ company"],
+["C","Florida Sunshine Shuttle","Orlando","Central","","","(407) 956-5400","","floridasunshineshuttle.com","PARTIAL BROKER: some fleet sub-leased"],
+["C","Key West Shuttle (Keys Shuttle)","Key West / Big Pine Key","South","","","(305) 289-9997","","keysshuttle.com","Keys-wide + MIA/FLL; strongest verified Keys operator"],
+["C","Express Shuttle Miami","Miami","South","","Owner on-site","(786) 586-6583","","expressshuttlemiami.com","Port of Miami vans; since 2004"],
+["C","EZ Bus Tours & Travel","Orlando area","Central","","","(407) 982-7011","","ezbustours.travel","Multi-day tours + cruises; email obfuscated on site"],
+["C","Miami Party Bus Company","Miami","South","","","(786) 605-7460","","miamipartybuscompany.com","Phone from search snippet. VERIFY before use"],
+["C","Travel By Bus! LLC","Florida (UMA)","Statewide","","","","","","UMA member. ENRICH via Sunbiz/UMA"],
+["C","Star Trolley","St. Petersburg","Central","","","","","star-trolley.com","White trolleys + Speakeasy/Pink bus; Tampa Bay. ENRICH: no public phone"],
+["C","Orlando Premier Charter Bus","Orlando","Central","","","(407) 214-4738","","orlandopremiercharterbus.com","Claims own fleet; VERIFY operator vs broker"],
+["C","Village Charter Buses","The Villages / Orlando","Central","","","(689) 400-8923","","villagecharterbuses.com","Claims own fleet; VERIFY operator vs broker"],
+["C","Orlando Party Bus","Orlando","Central","","","(321) 316-5140","","orlandopartybus.net","Coach 40+ pax + party buses; verify operator"],
+["C","Melbourne Shuttle & Taxi","Melbourne","Central","","","(321) 221-1111","","melbournefloridashuttle.com","Airport/cruise/long-distance vans"],
+["C","Sunshine Motorcoach","Miami","South","","","","","sunshinemotorcoach.com","ENRICH; site cert error"],
+["C","Sunride Motor Coach Services LLC","Miami","South","","","(786) 216-2903","","","PortMiami-licensed operator"],
+["C","Piragua Bus Service Corp","Miami","South","","","(786) 837-1599","","","PortMiami-licensed operator"],
+["C","Think Miami Bus Service Inc","Miami","South","","","(786) 556-0289","","","PortMiami-licensed operator"],
+["C","JC Bus Service LLC","Miami","South","","","(305) 389-8181","","","PortMiami-licensed operator"],
+["C","Bus Connection LLC","Miami","South","","","(786) 399-5451","","","PortMiami-licensed operator"],
+["C","Mega Vans Services Corp","Miami","South","","","(786) 402-0062","","","PortMiami-licensed van/shuttle operator"],
+["C","MC Shuttle Services Inc","Miami","South","","","(305) 724-8065","","","PortMiami-licensed operator"],
+["C","Shuttle Service Miami LLC","Miami","South","","","(786) 367-9477","","","PortMiami-licensed operator"],
+["C","System Shuttle Miami LLC","Miami","South","","","(305) 733-4940","","","PortMiami-licensed operator"],
+["C","The Crew Shuttler Inc","Miami","South","","","(786) 715-0826","","","PortMiami-licensed crew-shuttle operator"],
+["C","Metro Shuttle Service Corp","Broward / Miami","South","","","(954) 600-1562","","","PortMiami-licensed operator"],
+["C","Isas Transport Services LLC","Broward","South","","","(954) 200-3401","","","PortMiami-licensed operator"],
+["C","The Ways Shuttle LLC","Broward","South","","","(954) 225-6211","","","PortMiami-licensed operator"],
+["R","Martz Bus (First Class Coach)","Tampa Bay + Orlando","Central","","","(800) 282-8020","","martzbus.com","Regional: PA-based operator with FL ops"],
+["R","Champion Coach","Jacksonville / Daytona","North","","","(800) 583-7668","","championcoach.com","Regional: Greenville SC HQ; serves N. FL"],
+["R","Colonial Trailways","Pensacola / Panhandle","North","","","","","trailways.com","Regional: Mobile AL HQ; AL-FL corridor"],
+["R","Old Town Trolley Tours (St. Augustine)","St. Augustine","North","Historic Tours of America","","(904) 829-3800","","trolleytours.com","HTA-owned (national); largest trolley fleet in city"]
+];
+
+const rowsEl=document.getElementById('rows');
+const emptyEl=document.getElementById('empty');
+const state={tier:'all',region:'all',q:''};
+
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function contactPill(email,owner){
+  if(email&&owner) return '<span class="pill p-em">Email + name</span>';
+  if(email) return '<span class="pill p-em">Email</span>';
+  return '<span class="pill p-en">Enrich</span>';
+}
+function phonePill(phone,email){
+  if(!email&&phone) return '<span class="pill p-ph">Phone only</span>';
+  return '';
+}
+function notesHTML(n){
+  return esc(n)
+    .replace(/\b(VERIFY|ENRICH|PARTIAL BROKER|FLAG|Regional|PortMiami-licensed)\b/g,'<span class="flag">$1</span>');
+}
+function render(){
+  const q=state.q.trim().toLowerCase();
+  let shown=0;
+  rowsEl.innerHTML=D.filter(r=>{
+    const [tier,co,city,region,owner,,phone,email,,notes]=r;
+    if(state.tier!=='all'&&tier!==state.tier) return false;
+    if(state.region!=='all'&&region!==state.region) return false;
+    if(q){ const hay=(co+' '+city+' '+owner+' '+notes+' '+email).toLowerCase();
+      if(!hay.includes(q)) return false; }
+    return true;
+  }).map(r=>{
+    shown++;
+    const [tier,co,city,region,owner,title,phone,email,site,notes]=r;
+    const siteHref=site?('https://'+site):'';
+    const coCell=site
+      ? `<span class="co"><a href="${esc(siteHref)}" target="_blank" rel="noopener">${esc(co)}</a></span><div class="meta">${esc(site)}</div>`
+      : `<span class="co">${esc(co)}</span>`;
+    const ownerCell=owner
+      ? `<span class="owner">${esc(owner)}${title?`<span class="t">${esc(title)}</span>`:''}</span>`
+      : `<span class="np">not public</span>`;
+    const phoneCell=phone?`<span class="data">${esc(phone)}</span>`:`<span class="np">not public</span>`;
+    const emailCell=email
+      ? `<span class="data"><a href="mailto:${esc(email)}">${esc(email)}</a></span>`
+      : `<span class="np">not public</span>`;
+    const cpill=contactPill(email,owner)+phonePill(phone,email);
+    return `<tr data-tier="${tier}">
+      <td class="tiercell tier-stripe"><span class="tag tag${tier}">${tier}</span></td>
+      <td>${coCell}</td>
+      <td>${esc(city)}<div class="meta">${esc(region)}</div></td>
+      <td>${ownerCell}</td>
+      <td>${phoneCell}</td>
+      <td>${emailCell}</td>
+      <td>${cpill}</td>
+      <td class="notes">${notesHTML(notes)}</td>
+    </tr>`;
+  }).join('');
+  emptyEl.style.display=shown?'none':'block';
+}
+
+function buildStats(){
+  const by=t=>D.filter(r=>r[0]===t).length;
+  const withEmail=D.filter(r=>r[7]).length;
+  const withOwner=D.filter(r=>r[4]).length;
+  const s=[
+    ['Total',D.length],['Tier A',by('A')],['Tier B',by('B')],['Tier C',by('C')],
+    ['Verified email',withEmail],['Named owner',withOwner]
+  ];
+  document.getElementById('stats').innerHTML=s.map(([l,v])=>
+    `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('');
+}
+
+document.querySelectorAll('button.chip').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const f=btn.dataset.f, v=btn.dataset.v;
+    state[f]=v;
+    document.querySelectorAll(`button.chip[data-f="${f}"]`).forEach(b=>
+      b.setAttribute('aria-pressed', b===btn?'true':'false'));
+    render();
+  });
+});
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value;render();});
+
+buildStats();
+render();
+</script>
+
+</body>
+</html>

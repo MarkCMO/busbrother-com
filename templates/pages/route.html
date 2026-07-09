@@ -1,21 +1,41 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/routes/{{fromSlug}}-to-{{toSlug}}/#service",
+  "serviceType":"City-to-City Charter Bus",
+  "name":"{{fromName}} to {{toName}}, FL Charter Bus",
+  "description":"Private group charter bus from {{fromName}} to {{toName}}, Florida. Approximately {{distanceMiles}} miles, {{driveMinutes}} minutes via {{highway}}. Vehicles from 15 to 57 passengers. Round trip, one-way, and multi-stop available.",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":[{"@type":"City","name":"{{fromName}}","containedInPlace":{"@type":"State","name":"Florida"}},{"@type":"City","name":"{{toName}}","containedInPlace":{"@type":"State","name":"Florida"}}]
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Routes","item":"https://busbrother.com/areas/"},
+    {"@type":"ListItem","position":3,"name":"{{fromName}} to {{toName}}","item":"https://busbrother.com/routes/{{fromSlug}}-to-{{toSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container" style="position:relative;z-index:2;">
     <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/areas/">Routes</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{fromName}} to {{toName}}</span></div>
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F68C;</div>
-    <h1>{{fromName}} to {{toName}} Charter Bus | BusBrother</h1>
-    <p class="subtitle">Group bus transportation from {{fromName}} to {{toName}}, Florida. {{distanceMiles}} miles, approximately {{driveMinutes}} minutes.</p>
+    <h1>{{fromName}} to {{toName}}, Florida Charter Bus | BusBrother</h1>
+    <p class="subtitle">Group charter bus and motorcoach transportation from {{fromName}} to {{toName}}, Florida. Approximately {{distanceMiles}} miles via {{highway}}, typical drive time {{driveMinutes}} minutes. Vehicles from 15 to 57 passengers, round-trip and multi-stop options, 24/7 dispatch, ADA wheelchair accessible motorcoaches available on request.</p>
   </div>
 </div>
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:4rem;align-items:start;">
       <div class="article-body">
-        <h2>{{fromName}} to {{toName}} Group Transportation</h2>
-        <p>{{routeDescription}}</p>
+
+        <h2>{{fromName}} to {{toName}} Group Charter Bus Service</h2>
+        <p>{{routeDescription}} BusBrother coordinates {{fromName}} to {{toName}} charter bus service by matching your trip request with a network of Florida-licensed motor carriers whose fleet, service area, and availability fit your group. Every carrier in our network maintains valid USDOT registration with FMCSA operating authority, holds $5,000,000+ in commercial auto liability insurance, employs CDL-P drivers with clean background checks, and passes current DOT vehicle inspections. Groups traveling from {{fromName}} to {{toName}} for weddings, corporate events, cruises, school field trips, family reunions, sports competitions, and religious gatherings all book through the same simple process: submit trip details, receive quotes from vetted carriers within two hours, choose a carrier, and book directly with them.</p>
 
         <div class="stats-bar" style="border-radius:var(--radius);margin:2rem 0;">
           <div class="stat"><div class="stat-num">{{distanceMiles}}</div><div class="stat-lbl">Miles</div></div>
@@ -24,37 +44,150 @@
           <div class="stat"><div class="stat-num">24/7</div><div class="stat-lbl">Available</div></div>
         </div>
 
-        <h3>Route Details</h3>
-        <p>The {{fromName}} to {{toName}} route follows {{highway}}. BusBrother drivers know this corridor and monitor real-time traffic to ensure on-time arrivals for your group.</p>
+        <h2>Route Details: {{fromName}} to {{toName}}</h2>
+        <p>The drive from {{fromName}}, Florida to {{toName}}, Florida covers approximately <strong>{{distanceMiles}} miles</strong> and takes about <strong>{{driveMinutes}} minutes</strong> in normal traffic. The primary route runs along <strong>{{highway}}</strong>. Florida traffic conditions can add meaningful time in three windows: weekday rush hour (7-9am and 4-7pm at both ends), Friday afternoon southbound from Central to South Florida (spring break and holiday weekends can add 45-90 minutes), and Sunday afternoon northbound from beach destinations (30-60 minutes added on peak weekends).</p>
 
-        <h3>Popular Reasons for This Route</h3>
+        <p>Our drivers monitor real-time traffic conditions via commercial dispatch systems and adjust routing when needed. For groups on tight schedules (wedding ceremonies, cruise embarkation windows, corporate meeting start times), we schedule pickups with a 30-60 minute traffic buffer built in. Rest stops on {{highway}} corridors are plentiful and drivers on trips over 90 minutes typically take a brief mid-route restroom stop at one of the standard travel plazas. Groups can request a specific rest-stop location at booking if there is a preferred spot.</p>
+
+        <h2>Popular Reasons Groups Travel {{fromName}} to {{toName}}</h2>
         <ul class="check-list">
           {{#each popularReasons}}<li><span class="check-icon">&#10003;</span><span>{{_item}}</span></li>
           {{/each}}
+          <li><span class="check-icon">&#10003;</span><span><strong>Wedding parties.</strong> Guests staying near {{fromName}} traveling to a ceremony or reception venue in {{toName}}, or a bridal party splitting between hotels in {{fromName}} and the wedding venue in {{toName}}.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Corporate retreats and off-sites.</strong> Teams meeting in {{fromName}} traveling together to a retreat, resort, or client site in {{toName}}, or the reverse.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Cruise pre-stays and post-stays.</strong> Groups flying into an airport near {{fromName}} or {{toName}}, staying a night to acclimate, then traveling to the cruise port on sailing day.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>School field trips and university events.</strong> K-12 schools, universities, and youth organizations traveling between {{fromName}} and {{toName}} for educational, athletic, or arts events.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Sports team travel.</strong> High school, college, club, and amateur sports teams heading to away games, tournaments, or training camps.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Family reunions and destination birthdays.</strong> Multi-generational family groups traveling together for a celebration.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Church and religious group outings.</strong> Congregations traveling to conferences, retreats, missions, and youth events.</span></li>
         </ul>
 
-        <h3>What's Included</h3>
+        <h2>Vehicle Options and Group Size Recommendations</h2>
+        <p>The right vehicle for your {{fromName}} to {{toName}} trip depends on your total headcount, luggage volume, on-board amenity needs, and any accessibility requirements. Below is our standard recommendation matrix. Actual pricing varies with season, day of week, lead time, and current carrier availability.</p>
+
+        <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:var(--card);border-radius:var(--radius);overflow:hidden;">
+          <thead><tr style="background:rgba(245,166,35,0.08);">
+            <th style="padding:12px 16px;text-align:left;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Passengers</th>
+            <th style="padding:12px 16px;text-align:left;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Vehicle</th>
+            <th style="padding:12px 16px;text-align:left;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Amenities</th>
+          </tr></thead>
+          <tbody>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">8-15</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">15-passenger minibus (Sprinter or Transit)</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">A/C, luggage space, no restroom</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">16-25</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">25-passenger minibus</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">A/C, luggage space, possibly restroom</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">26-40</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">35-passenger premium coach</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">A/C, restroom, PA, luggage bays, WiFi common</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">41-57</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">56-passenger motorcoach</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">A/C, restroom, PA, luggage bays, WiFi, USB, reclining seats</td></tr>
+            <tr><td style="padding:10px 16px;">58+</td><td style="padding:10px 16px;">Multiple motorcoaches with coordinated dispatch</td><td style="padding:10px 16px;">All motorcoach amenities on every vehicle</td></tr>
+          </tbody>
+        </table>
+
+        <p>For {{fromName}} to {{toName}} routes of 90 minutes or longer, a full-size motorcoach with an on-board restroom is strongly recommended. Groups traveling with young children, elderly passengers, or medical conditions especially benefit from restroom access without needing to stop mid-route.</p>
+
+        <h2>What's Included in Your {{fromName}} to {{toName}} Charter</h2>
         <ul class="check-list">
-          <li><span class="check-icon">&#10003;</span><span>Climate-controlled motorcoach or minibus</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Professional, licensed driver</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Luggage storage and assistance</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Pickup from any address in {{fromName}}</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Direct drop-off at your destination in {{toName}}</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Round trip and multi-stop options available</span></li>
-          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Professional CDL-P licensed driver.</strong> All drivers have current CDL with Passenger endorsement, DOT medical certification, and pass FMCSA-mandated drug and alcohol testing.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Climate-controlled vehicle with luggage bays.</strong> Standard Florida-summer air conditioning, comfortable seating, tinted windows for glare reduction.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Pickup from any address in {{fromName}}.</strong> Hotels, private residences, event venues, corporate offices, airports, schools, houses of worship &mdash; the carrier picks up wherever your group is gathering.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Direct drop-off in {{toName}}.</strong> Any address in {{toName}}. Multi-stop drop-offs available for groups splitting across multiple destinations.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Luggage handling.</strong> Driver assists with loading and unloading. Motorcoaches accommodate 1-2 checked bags per passenger plus carry-on items.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Real-time traffic monitoring.</strong> Drivers use commercial dispatch systems to route around incidents and construction.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Round-trip and multi-stop options.</strong> Same vehicle round-trip (60-75% of two one-ways), or a hub-and-spoke pattern with multiple stops.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>ADA wheelchair-accessible vehicles.</strong> Wheelchair lift-equipped motorcoaches and minibuses available on request at no additional charge.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Child car seats on request.</strong> Provide age, height, and weight of each child at booking.</span></li>
         </ul>
 
-        <div class="callout"><p><strong>Return Trip Available:</strong> Need a round trip from {{fromName}} to {{toName}} and back? Select "Round Trip" when requesting your quote and we will coordinate both legs of your journey.</p></div>
+        <div class="callout"><p><strong>Round-Trip Pricing Advantage:</strong> If your group is traveling {{fromName}} to {{toName}} today and returning within a few days, always request a round-trip quote. Same vehicle, same driver arrangement is typically 15-25% cheaper than two separate one-way bookings and eliminates the risk of a return-leg vehicle being unavailable during peak season.</p></div>
 
-        <h3>Also Available: {{toName}} to {{fromName}}</h3>
-        <p>BusBrother also provides group transportation in the opposite direction. <a href="/book/">Get a quote for {{toName}} to {{fromName}}</a> or <a href="/areas/{{toSlug}}/">view {{toName}} services</a>.</p>
+        <h2>How to Book Your {{fromName}} to {{toName}} Charter</h2>
+        <p>The BusBrother booking process is engineered to eliminate the phone-call marathon that historically comes with charter bus booking. Here is what happens after you submit a request:</p>
+
+        <ol style="color:var(--muted);font-size:15px;line-height:1.8;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Submit trip details (2 minutes).</strong> Fill out the quote form with your travel date, times, passenger count, pickup addresses in {{fromName}}, drop-off addresses in {{toName}}, and any special requirements (ADA, child seats, oversized luggage, alcohol on board, food service).</li>
+          <li><strong style="color:var(--gold);">We match your trip to appropriate carriers (10-30 minutes).</strong> Our system routes your request to Florida-licensed motor carriers whose service area, fleet, and current availability match your trip profile.</li>
+          <li><strong style="color:var(--gold);">Carriers respond with written quotes (2 hours).</strong> Each carrier sends you a written quote by email. You typically receive 2-3 quotes within the first 2 hours of business hours.</li>
+          <li><strong style="color:var(--gold);">You compare and book directly with the carrier (10 minutes).</strong> Review the quotes, pick the carrier you want to work with based on price, vehicle, and any preferences (WiFi, restroom, luggage capacity), and book directly on the carrier's standard payment terms.</li>
+          <li><strong style="color:var(--gold);">Trip day (a few minutes to load).</strong> Your driver arrives at the pickup address at the scheduled time, assists with luggage loading, and departs for {{toName}}. Estimated arrival is your pickup time plus the drive time plus any planned rest stops.</li>
+        </ol>
+
+        <h2>Booking Tips for {{fromName}} to {{toName}} Charter</h2>
+        <p>Booking a charter bus goes best when a few small details are prepared in advance. Here is what saves time and often saves money on {{fromName}} to {{toName}} trips:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Book 2-3 weeks ahead for the best rates.</strong> Same-week bookings typically carry a 20-40% premium and reduced vehicle choice. Peak-season weekends (March-April spring break, November-December holidays, cruise-heavy weekends) should be booked 4-6 weeks ahead.</li>
+          <li><strong style="color:var(--gold);">Ask about the specific vehicle year and amenities.</strong> Not all "56-passenger motorcoaches" are equal. Newer motorcoaches typically have USB charging at every seat, better A/C, and quieter engines. Ask the carrier for the specific vehicle they're proposing.</li>
+          <li><strong style="color:var(--gold);">Communicate your final headcount early.</strong> If your group grows from 30 to 45 between booking and trip day, the carrier may need to upgrade to a larger vehicle at short notice, which can incur a rush fee. Notify the carrier of headcount changes as soon as you have them.</li>
+          <li><strong style="color:var(--gold);">Round-trip is almost always cheaper than two one-ways.</strong> If you're returning within a few days, always request the round-trip quote first.</li>
+          <li><strong style="color:var(--gold);">Include a buffer in the pickup time.</strong> Whatever time your group actually needs to be at the {{toName}} destination, subtract the drive time and then subtract another 30-45 minutes as a buffer. Wedding shuttles especially benefit from a generous buffer.</li>
+        </ul>
+
+        <h2>Route Timing: Best Times to Travel {{fromName}} to {{toName}}</h2>
+        <p>Florida traffic is not uniformly heavy across the day. Groups traveling {{fromName}} to {{toName}} can meaningfully improve their trip experience by picking the right departure window.</p>
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Best window: 9:30am to 3pm on weekdays.</strong> Rush-hour congestion has cleared, tourist traffic hasn't picked up, and construction crews are typically working but not restricting lane counts as heavily as evening operations. A {{fromName}} to {{toName}} trip departing at 10am usually completes in close to the base drive time.</li>
+          <li><strong style="color:var(--gold);">Acceptable: 6-8am weekdays.</strong> Rush hour is real but shorter on {{highway}} than on urban surface streets. Groups can leave at 6am and arrive before local rush-hour worsens.</li>
+          <li><strong style="color:var(--gold);">Avoid if possible: Friday 3-7pm southbound.</strong> Weekend traffic exits Central Florida heading south. On peak holiday weekends the Friday 3-7pm window can add 60-120 minutes.</li>
+          <li><strong style="color:var(--gold);">Avoid if possible: Sunday 2-6pm northbound.</strong> The mirror-image return traffic. Same 60-120 minute added on peak weekends.</li>
+          <li><strong style="color:var(--gold);">Weather-related timing.</strong> Florida afternoon thunderstorms (May-October) frequently cause 30-45 minute delays on {{highway}}. Morning travel typically dodges the storm cell timing. Hurricane season (June-November) monitoring is standard operating procedure &mdash; carriers reschedule proactively when the National Hurricane Center issues a warning affecting the route.</li>
+        </ul>
+
+        <h2>Common Trip Types on the {{fromName}} to {{toName}} Route</h2>
+        <p>Different group types have different logistics preferences on this route. Here is how BusBrother-matched carriers typically handle the most common {{fromName}} to {{toName}} trip categories:</p>
+
+        <h3>Wedding Guest Shuttles</h3>
+        <p>A single-vehicle shuttle from a {{fromName}} host hotel to a {{toName}} ceremony or reception venue is one of the most common {{fromName}} to {{toName}} bookings. Typical structure: single 45-56 passenger motorcoach picks up at the {{fromName}} host hotel 90 minutes before ceremony start, delivers guests to the {{toName}} venue, then either waits at the venue for a same-vehicle return trip after the reception or dispatches on a scheduled return time. Wedding shuttles benefit from a slightly larger vehicle than headcount suggests (motor-coach for 40-45 guests) since guests don't always sit next to their intended seat-mate and personal-space margins matter for a formal event.</p>
+
+        <h3>Corporate Retreats and Offsites</h3>
+        <p>Companies moving 30-100 employees from a {{fromName}} office or hotel base to a {{toName}} retreat venue typically request a multi-day charter that also handles on-site movement during the retreat. Corporate charters usually include specific requirements: WiFi on the vehicle for in-transit work, USB charging at every seat, a quiet vehicle (newer motorcoaches are notably quieter), and vetted-driver requirements (background checks documented in writing for the carrier's employer records).</p>
+
+        <h3>Sports Team Travel</h3>
+        <p>K-12 and university sports teams traveling {{fromName}} to {{toName}} for away games and tournaments have very specific requirements: extra luggage capacity for equipment (bat bags, hockey bags, gear boxes), an on-board restroom for long trips, sometimes a full-size motorcoach even for smaller squads because of gear volume. Sports team charters also commonly include coach and support-staff seating, which pushes the effective headcount up 5-10 from the player count.</p>
+
+        <h3>School Field Trips</h3>
+        <p>K-12 field trips from {{fromName}} to {{toName}} destinations require carriers who understand school-district compliance: seat-belt-equipped vehicles for districts that require them, background-checked drivers meeting state-specific school-district requirements, and clear cancellation policies that align with the school district's approval-to-travel timeline. Field trip pricing typically includes school-rate discounts (10-20% below corporate).</p>
+
+        <h3>Cruise Port Pre- and Post-Stays</h3>
+        <p>Groups combining a {{fromName}} or {{toName}} stay with a cruise from one of the Florida cruise ports (Port Canaveral, Port Tampa Bay, Port Everglades) frequently book multi-leg charters: one carrier handles the {{fromName}} to {{toName}} leg, a hotel night, then the cruise-port transfer. Booking all legs through one broker (like BusBrother) simplifies logistics and often nets a multi-trip discount.</p>
+
+        <h2>Also Available: {{toName}} to {{fromName}} Return</h2>
+        <p>BusBrother provides charter bus service in both directions on this route. If you need a return trip, book at the same time as your outbound trip &mdash; the carrier will typically discount the round-trip and it eliminates the risk of the return-leg vehicle being unavailable. <a href="/areas/{{toSlug}}/">View the {{toName}} to {{fromName}} route</a> or <a href="/book/">request a round-trip quote</a>.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How much does a {{fromName}} to {{toName}} charter bus cost?<span class="faq-icon">+</span></button><div class="faq-answer">The cost of a {{fromName}} to {{toName}} charter bus depends on group size, vehicle type, one-way vs. round-trip, and lead time. Typical one-way ranges for this route: 15-passenger minibus $500-950, 25-passenger minibus $600-1,100, 35-passenger premium coach $750-1,400, 56-passenger motorcoach $900-1,700. Round-trip pricing runs 60-75% of two one-ways. Peak-season bookings (spring break, holidays, major events) carry a 20-40% premium. Same-week bookings also add 20-40%. Book 2-3 weeks ahead for the best rates. Get a custom quote at busbrother.com/book/.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How long is the drive from {{fromName}} to {{toName}}?<span class="faq-icon">+</span></button><div class="faq-answer">The drive from {{fromName}} to {{toName}}, Florida covers approximately {{distanceMiles}} miles via {{highway}} and takes about {{driveMinutes}} minutes under normal traffic conditions. Rush hour, Friday afternoon southbound, Sunday afternoon northbound, and major-event weekends can add 30-90 minutes. Groups on tight schedules should build in a 30-60 minute buffer.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Do we get a rest stop between {{fromName}} and {{toName}}?<span class="faq-icon">+</span></button><div class="faq-answer">On trips of 90 minutes or longer, drivers typically take a brief mid-route rest stop at a standard travel plaza for restroom access. Full-size motorcoaches have on-board restrooms, which reduces the need for stops but many groups still appreciate a 10-15 minute stretch break. If your group prefers no stops, mention it at booking and the carrier will accommodate provided everyone can wait.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can we make multiple pickup or drop-off stops?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. Multi-stop {{fromName}} to {{toName}} charters are common for wedding parties, corporate offsites, and cruise groups. Each additional stop adds 15-30 minutes to the total trip time. List all stops at booking so the driver can plan an optimized route. Multi-stop pricing is typically the base charter rate plus a small per-stop fee.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Are alcoholic beverages allowed on the bus?<span class="faq-icon">+</span></button><div class="faq-answer">Alcohol policies vary by carrier and vehicle. Most carriers permit adult passengers (21+) to consume alcohol on board on private charters for weddings, bachelorette/bachelor parties, and corporate events. Open containers must remain inside the vehicle and cannot be visible to passing traffic. Some carriers prohibit alcohol on school trips or on specific vehicles. Confirm the alcohol policy with the carrier at booking. All carriers strictly prohibit any illegal substances.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">What is the cancellation policy?<span class="faq-icon">+</span></button><div class="faq-answer">Cancellation policies are set by the individual carrier and vary. Typical structures: full refund minus a deposit if cancelled 30+ days before travel, 50% refund if cancelled 7-30 days before, no refund if cancelled less than 7 days before. Weather-related cancellations (hurricane warnings on the specific travel corridor) are typically handled flexibly. Confirm the cancellation policy in writing when you book.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Is BusBrother a transportation company or a booking service?<span class="faq-icon">+</span></button><div class="faq-answer">BusBrother is a Florida lead-matching and referral service &mdash; we connect your group with independent, licensed motor carriers who provide the actual transportation. The carrier you book with handles the driving, insurance, dispatch, and payment collection. All carriers in our network hold valid USDOT registration with FMCSA operating authority, satisfactory FMCSA safety ratings, and $5M+ commercial auto liability insurance. BusBrother is operated by WETYR Corporation in Cape Canaveral, Florida.</div></div>
+
+        <h2>Related Routes and Services</h2>
+        <p>BusBrother coordinates charter bus service across Florida. Related pages you may find useful:</p>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          <a href="/areas/{{toSlug}}/" class="area-chip">🔄 {{toName}} to {{fromName}} (reverse)</a>
+          <a href="/areas/{{fromSlug}}/" class="area-chip">🏙️ All {{fromName}} services</a>
+          <a href="/areas/{{toSlug}}/" class="area-chip">🏙️ All {{toName}} services</a>
+          <a href="/services/corporate-charter/" class="area-chip">🏢 Corporate charter</a>
+          <a href="/services/wedding-events/" class="area-chip">💍 Wedding shuttles</a>
+          <a href="/services/cruise-shuttle/" class="area-chip">🚢 Cruise port shuttles</a>
+          <a href="/services/school-groups/" class="area-chip">🎓 School groups</a>
+          <a href="/services/airport-transfers/" class="area-chip">✈️ Airport transfers</a>
+          <a href="/pricing/" class="area-chip">💵 Pricing guide</a>
+          <a href="/how-it-works/" class="area-chip">📋 How booking works</a>
+        </div>
 
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <h3>Book {{fromName}} to {{toName}} Bus</h3>
-          <p style="color:var(--muted);">Get a free quote for charter bus service from {{fromName}} to {{toName}}. One-way, round trip, and multi-stop options. <a href="/pricing/">See pricing estimates</a>.</p>
+          <h3>Book Your {{fromName}} to {{toName}} Bus</h3>
+          <p style="color:var(--muted);">Get a free quote for group charter bus service from {{fromName}} to {{toName}}. One-way, round-trip, and multi-stop options. Response within 2 hours from vetted Florida carriers. 24/7 dispatch including holidays.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
             <a href="/pricing/" class="btn btn-outline">View Pricing</a>
+            <a href="/areas/" class="btn btn-outline">All Florida Routes</a>
           </div>
         </div>
       </div>
@@ -64,11 +197,30 @@
           <div class="card-body">
             <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Route Quick Facts</h3>
             <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">From: {{fromName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">To: {{toName}}</li>
               <li style="color:var(--muted);font-size:0.88rem;">Distance: {{distanceMiles}} miles</li>
-              <li style="color:var(--muted);font-size:0.88rem;">Drive Time: ~{{driveMinutes}} min</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Drive time: ~{{driveMinutes}} min</li>
               <li style="color:var(--muted);font-size:0.88rem;">Highway: {{highway}}</li>
-              <li style="color:var(--muted);font-size:0.88rem;">Trip Types: One-way, Round trip, Multi-stop</li>
-              <li style="color:var(--muted);font-size:0.88rem;">ADA Accessible: Yes, on request</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Vehicles: 15-57 pax</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Round trip: 60-75% of 2 one-ways</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ADA accessible: Yes, on request</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Available: 24/7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Explore More</h3>
+            <ul class="footer-links">
+              <li><a href="/areas/{{toSlug}}/">Return route: {{toName}} to {{fromName}}</a></li>
+              <li><a href="/areas/{{fromSlug}}/">All {{fromName}} services</a></li>
+              <li><a href="/areas/{{toSlug}}/">All {{toName}} services</a></li>
+              <li><a href="/services/airport-transfers/">Airport transfer hub</a></li>
+              <li><a href="/services/cruise-shuttle/">Cruise port shuttle</a></li>
+              <li><a href="/brevard-county/">Brevard County services</a></li>
+              <li><a href="/faq/">Booking FAQ</a></li>
+              <li><a href="/pricing/">Full pricing guide</a></li>
             </ul>
           </div>
         </div>

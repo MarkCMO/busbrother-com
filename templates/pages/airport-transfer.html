@@ -1,44 +1,220 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/airports/{{airportSlug}}-to-{{citySlug}}/#service",
+  "serviceType":"Airport Group Transfer",
+  "name":"{{airportCode}} Airport to {{cityName}}, FL Group Shuttle",
+  "description":"Private group airport transfer from {{airportName}} ({{airportCode}}) to {{cityName}}, FL. {{distanceMiles}} miles, approximately {{driveMinutes}} minutes. Meet-and-greet, luggage assistance, flight monitoring, ADA available.",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":[{"@type":"City","name":"{{cityName}}","containedInPlace":{"@type":"State","name":"Florida"}}],
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"{{airportCode}} to {{cityName}} Vehicle Options",
+    "itemListElement":[
+      {"@type":"Offer","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","price":"{{priceLowEnd}}","minPrice":"{{priceLowEnd}}","maxPrice":"{{priceHighEnd}}"}}
+    ]
+  }
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Airport Transfers","item":"https://busbrother.com/services/airport-transfers/"},
+    {"@type":"ListItem","position":3,"name":"{{airportCode}} to {{cityName}}","item":"https://busbrother.com/airports/{{airportSlug}}-to-{{citySlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container" style="position:relative;z-index:2;">
-    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/airport-transfers/">Airports</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{airportCode}} to {{cityName}}</span></div>
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/airport-transfers/">Airport Transfers</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{airportCode}} to {{cityName}}</span></div>
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#9992;&#65039;</div>
-    <h1>{{airportName}} ({{airportCode}}) to {{cityName}} Group Shuttle | BusBrother</h1>
-    <p class="subtitle">Group airport transfer from {{airportCode}} to {{cityName}}, FL. Meet-and-greet, luggage assistance, direct service.</p>
+    <h1>{{airportName}} ({{airportCode}}) to {{cityName}}, FL Group Shuttle</h1>
+    <p class="subtitle">Private group airport transfer from {{airportCode}} to {{cityName}}, Florida. Approximately {{distanceMiles}} miles, {{driveMinutes}} minutes via {{primaryHighway}}. Meet-and-greet at baggage claim, full luggage assistance, flight monitoring, 24/7 availability, ADA wheelchair accessible vehicles on request.</p>
   </div>
 </div>
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:4rem;align-items:start;">
       <div class="article-body">
-        <h2>{{airportCode}} Airport to {{cityName}} Group Transfer</h2>
-        <p>{{airportDescription}}</p>
+
+        <h2>Group Airport Transfer from {{airportCode}} to {{cityName}}, Florida</h2>
+        <p>{{airportName}} ({{airportCode}}) is one of Florida's primary points of arrival for group travelers headed to {{cityName}} and the surrounding {{countyName}} area. {{airportDescription}} For groups of 8 or more passengers arriving at {{airportCode}} and traveling to {{cityName}}, a private charter shuttle is almost always faster, cheaper per person, and less logistically complex than splitting the group across three or four rideshare vehicles.</p>
+
+        <p>BusBrother coordinates private airport-transfer shuttle service from {{airportCode}} to {{cityName}} using a Florida-wide network of licensed motor carriers. Every carrier in our network maintains valid USDOT registration with FMCSA operating authority, holds a minimum of $5,000,000 in commercial auto liability insurance, employs CDL-licensed drivers with Passenger endorsement (CDL-P), and passes current DOT vehicle inspections. When you book an {{airportCode}} to {{cityName}} shuttle through BusBrother, we forward your trip request to the carriers whose fleet, service area, and schedule best fit your group and pass their quotes back to you within two hours. You choose the carrier you want to book with; they contact you directly and handle the transportation.</p>
+
         {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
-        <h3>What's Included</h3>
+
+        <h2>Route Details: {{airportCode}} to {{cityName}}</h2>
+        <p>The drive from {{airportName}} to {{cityName}}, Florida covers approximately <strong>{{distanceMiles}} miles</strong> and typically takes <strong>{{driveMinutes}} minutes</strong> under normal traffic conditions. Peak-hour traffic (weekday mornings 7-9am and weekday evenings 4-7pm) can add 15-30 minutes to the trip. Weekend afternoons on {{primaryHighway}} and the surrounding highways can also add 20-40 minutes during peak Florida tourism months (March, June, July, November, December).</p>
+
+        <p>The primary route from {{airportCode}} to {{cityName}} runs via <strong>{{primaryHighway}}</strong>{{#if secondaryHighway}}, with {{secondaryHighway}} as an alternate for traffic avoidance{{/if}}. Our drivers monitor real-time traffic conditions and adjust routing as needed. For groups on tight schedules (cruise embarkation, wedding ceremonies, corporate meetings), we schedule the pickup with a 45-60 minute buffer above the minimum drive time to account for baggage claim delays, unexpected traffic, and construction zones.</p>
+
+        <h2>What's Included in Your {{airportCode}} to {{cityName}} Shuttle</h2>
         <ul class="check-list">
-          <li><span class="check-icon">&#10003;</span><span>Meet-and-greet at baggage claim with your group name</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Full luggage assistance - loading and unloading</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Climate-controlled motorcoach or minibus</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Direct service to any address in {{cityName}}</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Flight delay monitoring - we adjust pickup time automatically</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Round trip option with return airport transfer</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Multi-stop for groups at different terminals</span></li>
-          <li><span class="check-icon">&#10003;</span><span>ADA wheelchair accessible vehicles available</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Meet-and-greet at baggage claim.</strong> Your driver arrives 30-45 minutes before your scheduled pickup, monitors your flight, and greets your group at the {{airportCode}} baggage claim area holding a sign with your group name.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Full luggage assistance.</strong> The driver loads all luggage into the vehicle's underbus compartment and unloads at your destination. Large groups arriving with cruise luggage (7-day cruise = 1-2 bags per person) are welcome.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Climate-controlled vehicle.</strong> Motorcoach, premium coach, or minibus with individual air conditioning, comfortable seating, tinted windows, and USB charging on newer vehicles.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Direct service to any address in {{cityName}}.</strong> Hotels, private residences, cruise ports, event venues, corporate offices, wedding venues &mdash; the carrier can drop off at multiple stops if your group is splitting up.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Flight delay monitoring at no extra cost.</strong> Carriers actively monitor your flight status via the flight number you provide. If your flight is delayed, they adjust the pickup time automatically. The first 60 minutes of waiting after your scheduled landing time is included.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Round-trip option.</strong> Same vehicle, same driver, or same carrier for your return {{cityName}} to {{airportCode}} transfer at the end of your stay. Round-trip pricing is typically 15-20% below two one-way bookings.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Multi-stop pickup at different terminals.</strong> If your group is arriving on different flights at different {{airportCode}} terminals, the vehicle can circle to pick everyone up before departing to {{cityName}}.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>ADA wheelchair-accessible vehicles.</strong> Wheelchair lift-equipped motorcoaches and minibuses available on request at no additional charge.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Child car seats.</strong> Available on request; provide age, height, and weight of each child at booking so the carrier can source the correct seats.</span></li>
         </ul>
-        <div class="callout"><p><strong>Flight Monitoring:</strong> BusBrother monitors your flight status. If your flight is delayed, we automatically adjust your pickup time at no extra charge.</p></div>
+
+        <div class="callout"><p><strong>Flight Monitoring is Automatic.</strong> Provide your flight number at booking. The carrier's dispatch monitors your flight in real time. If your flight is delayed 15 minutes or 3 hours, they adjust your driver's arrival time accordingly. You do NOT need to call them from the plane &mdash; they already know.</p></div>
+
+        <h2>Group Size and Vehicle Recommendations</h2>
+        <p>Vehicle size for {{airportCode}} to {{cityName}} shuttles depends on your total headcount, luggage volume, and any accessibility requirements. Below is our standard recommendation matrix for the {{distanceMiles}}-mile trip. Actual pricing varies with season, lead time, and vehicle availability.</p>
+
+        <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:var(--card);border-radius:var(--radius);overflow:hidden;">
+          <thead><tr style="background:rgba(245,166,35,0.08);">
+            <th style="padding:12px 16px;text-align:left;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Group Size</th>
+            <th style="padding:12px 16px;text-align:left;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Recommended Vehicle</th>
+            <th style="padding:12px 16px;text-align:right;color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);">Approx. One-Way Cost</th>
+          </tr></thead>
+          <tbody>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">8-15 passengers</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">15-passenger minibus (Ford Transit or Mercedes Sprinter)</td><td style="padding:10px 16px;text-align:right;border-bottom:1px solid var(--border);">${{priceSmall}}</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">16-25 passengers</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">25-passenger minibus</td><td style="padding:10px 16px;text-align:right;border-bottom:1px solid var(--border);">${{priceMedium}}</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">26-40 passengers</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">35-passenger premium coach</td><td style="padding:10px 16px;text-align:right;border-bottom:1px solid var(--border);">${{priceLarge}}</td></tr>
+            <tr><td style="padding:10px 16px;border-bottom:1px solid var(--border);">41-57 passengers</td><td style="padding:10px 16px;border-bottom:1px solid var(--border);">56-passenger motorcoach</td><td style="padding:10px 16px;text-align:right;border-bottom:1px solid var(--border);">${{priceMotorcoach}}</td></tr>
+            <tr><td style="padding:10px 16px;">58+ passengers</td><td style="padding:10px 16px;">Multiple motorcoaches with coordinated dispatch</td><td style="padding:10px 16px;text-align:right;">$1,600+</td></tr>
+          </tbody>
+        </table>
+
+        <p>Round-trip pricing typically runs 65-75% of two one-way bookings. For example, a 40-passenger round-trip {{airportCode}}-{{cityName}}-{{airportCode}} might cost ${{priceRoundTripLarge}} instead of ${{priceRoundTripTwoOneways}} for two separate one-ways. If your group is staying multiple days in {{cityName}}, always request the round-trip quote &mdash; the savings are meaningful and the logistics are simpler.</p>
+
+        <h2>How to Book Your {{airportCode}} to {{cityName}} Shuttle</h2>
+        <p>The BusBrother booking process for airport transfers is designed to eliminate the phone-call marathon that traditional charter bus booking requires. Here is what happens after you submit a quote request:</p>
+
+        <ol style="color:var(--muted);font-size:15px;line-height:1.8;padding-left:20px;">
+          <li><strong style="color:var(--gold);">You submit trip details (2 minutes).</strong> Fill out the quote form with your arrival date, flight number, passenger count, destination address in {{cityName}}, and any special requirements (ADA, child seats, oversized luggage).</li>
+          <li><strong style="color:var(--gold);">We match your trip to carriers (10 minutes).</strong> Our system routes your request to the carriers in our network whose service area and vehicle availability match your trip profile.</li>
+          <li><strong style="color:var(--gold);">Carriers respond with quotes (2 hours).</strong> Each carrier sends you a written quote by email or phone. You typically receive 2-3 quotes within the first 2 hours of business hours.</li>
+          <li><strong style="color:var(--gold);">You compare and book directly with the carrier (10 minutes).</strong> Review the quotes, pick the carrier you want to work with, and book directly on their standard payment terms. BusBrother stays out of the transaction &mdash; you contract with the carrier, they own the trip.</li>
+          <li><strong style="color:var(--gold);">Trip day (30 seconds).</strong> Your driver arrives at {{airportCode}} baggage claim 30-45 minutes before your scheduled pickup, holding a sign with your group name. Provide the driver your final headcount and any luggage-count updates. Board, buckle up, {{driveMinutes}}-minute drive to {{cityName}}.</li>
+        </ol>
+
+        <h2>Terminals, Meeting Points, and Pickup Logistics at {{airportCode}}</h2>
+        <p>{{airportName}} handles millions of arriving passengers each year, and the {{airportCode}} meet-and-greet logistics vary depending on which terminal your flight arrives at. When you provide your flight number at booking, the carrier automatically determines the correct terminal and stages a driver at the corresponding baggage claim exit. Charter vehicles are directed to specific commercial pickup zones at {{airportCode}} &mdash; not the general ground-transportation curb &mdash; and drivers know the current pickup rules for oversized vehicles.</p>
+
+        <p>Groups arriving on multiple flights at different {{airportCode}} terminals should note this at booking so the carrier can plan the pickup sequence. For groups arriving within a 60-90 minute window, one motorcoach usually circles the terminals in the correct sequence. For groups spread across a longer arrival window, we may recommend a two-vehicle solution or a "pickup and hold" arrangement where the first arrivals wait in a lounge area while the vehicle collects the later arrivals.</p>
+
+        <p>International arrivals should budget 60-90 minutes from wheels-down to baggage claim exit for customs, immigration, and checked-luggage retrieval. Domestic arrivals typically clear baggage claim within 30-45 minutes of landing. Your carrier's dispatch tracks these differences.</p>
+
+        <h2>Popular {{cityName}} Destinations from {{airportCode}}</h2>
+        <p>The {{airportCode}} to {{cityName}} shuttle route serves a wide range of destination types depending on the season and group profile. The most common {{cityName}} destinations for BusBrother airport transfers include:</p>
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Hotels and vacation rentals.</strong> {{cityName}} has a variety of hotels serving conference groups, wedding parties, corporate retreats, and leisure travelers. The carrier can drop off at multiple hotels if your group is splitting across properties.</li>
+          <li><strong style="color:var(--gold);">Event venues.</strong> Weddings, corporate events, family reunions, and religious gatherings frequently arrive at {{cityName}} via {{airportCode}}. Provide the venue address at booking.</li>
+          <li><strong style="color:var(--gold);">Cruise ports and cruise ship departures.</strong> For groups arriving at {{airportCode}} for a Port Canaveral, Port Tampa Bay, or Port Everglades cruise sailing, an airport-to-port shuttle is often a better fit than the {{airportCode}}-to-{{cityName}} pattern. Ask about our cruise shuttle service.</li>
+          <li><strong style="color:var(--gold);">Corporate offices and campuses.</strong> Business groups visiting {{cityName}} for training, sales meetings, or client presentations can book direct {{airportCode}} to office-park pickups.</li>
+          <li><strong style="color:var(--gold);">Private residences.</strong> Family reunions, holiday gatherings, and destination birthdays frequently request shuttles from {{airportCode}} to a private home or vacation rental in {{cityName}}.</li>
+        </ul>
+
+        <h2>{{airportCode}} to {{cityName}} vs. Rideshare and Rental Cars</h2>
+        <p>For groups of 8 or more traveling from {{airportCode}} to {{cityName}}, private charter is almost universally the right call over rideshare or rental cars. The numbers below assume a 30-person group traveling one-way:</p>
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">6 Uber XLs (30 people / 5 per vehicle):</strong> ${{uberXLTotal}} baseline, plus surge pricing during evening arrivals. Six separate arrival times at your {{cityName}} destination. Six luggage situations. Coordinating six different vehicles at {{airportCode}} pickup zones for a group traveling together to the same destination is a logistical nightmare.</li>
+          <li><strong style="color:var(--gold);">4-5 rental sedans or SUVs:</strong> ${{rentalTotal}} for the rentals plus fuel (~$40-70), plus insurance ($30/day per vehicle if not covered by credit card). You need 4-5 designated drivers who cannot drink at the destination, cannot relax at the airport, and take on liability for the vehicle. If any driver isn't 25+, rental fees increase further.</li>
+          <li><strong style="color:var(--gold);">1 private BusBrother motorcoach:</strong> Approximately ${{priceLarge}} one-way. One arrival time. One luggage situation. One point of contact. Zero designated drivers. The math generally favors charter at 8+ passengers and decisively favors charter at 20+ passengers.</li>
+        </ul>
+
+        <h2>Preparing for Your {{airportCode}} to {{cityName}} Shuttle</h2>
+        <p>A smooth {{airportCode}} to {{cityName}} shuttle depends on a few pieces of information exchanged between your group and the carrier before trip day. Book with the following in hand and everything will run cleanly:</p>
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Flight numbers for every arriving passenger.</strong> The carrier uses flight numbers to monitor delays and stage the driver at the correct terminal. If your group is arriving on multiple flights, list every flight number and expected arrival time.</li>
+          <li><strong style="color:var(--gold);">Total passenger count with a small buffer.</strong> If someone in your group is on the fence about attending, communicate the maximum possible headcount so the correct vehicle is dispatched. A 30-passenger group booked on a 25-passenger minibus is a bad day.</li>
+          <li><strong style="color:var(--gold);">Luggage count.</strong> Standard motorcoaches and premium coaches have generous underbus luggage compartments, but cruise groups often arrive with 1-2 checked bags plus carry-on per person. If your group's total bag count is unusually high, mention it so the carrier can confirm capacity or dispatch a luggage-trailer if needed.</li>
+          <li><strong style="color:var(--gold);">Final destination address in {{cityName}}.</strong> Full street address, hotel name, or event venue &mdash; not just the city. If you have multiple drop-off points, list them in the order you want them served.</li>
+          <li><strong style="color:var(--gold);">Special requirements.</strong> ADA wheelchair passengers, service animals, child car seats, oversized instruments or equipment, and any medical considerations. Mention these at booking, not at the terminal.</li>
+          <li><strong style="color:var(--gold);">Trip leader phone number.</strong> The carrier will contact your designated trip leader on trip day if there is a schedule change, unusual weather, or airport disruption. Choose someone who reliably has their phone with them and who can decide on behalf of the group.</li>
+          <li><strong style="color:var(--gold);">Return trip details if applicable.</strong> If you are booking round-trip, provide the return date, departure flight number, and pickup address at booking &mdash; not the night before you fly home.</li>
+        </ul>
+
+        <p>On trip day, look for your driver at the baggage claim exit of your arrival terminal. Drivers hold a printed sign with your group name (as provided at booking). If you cannot find your driver within 10 minutes of clearing baggage claim, call the carrier's dispatch phone number (provided on your booking confirmation) &mdash; do not leave the terminal expecting the driver to find you. Ground transportation at {{airportCode}} is strictly regulated and drivers cannot circle the arrivals curb waiting for a delayed party.</p>
+
+        <p>Once your group is loaded and the driver confirms the headcount matches the manifest, the vehicle departs for {{cityName}} via {{primaryHighway}}. Estimated arrival is your scheduled pickup time plus {{driveMinutes}} minutes. If your final destination is a hotel with a specific check-in time (most Florida hotels are 3-4pm), the driver's dispatch will coordinate with you to prevent an awkward wait in the hotel lobby with your group's luggage piled up.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How much does an {{airportCode}} to {{cityName}} group shuttle cost?<span class="faq-icon">+</span></button><div class="faq-answer">A one-way private group shuttle from {{airportCode}} to {{cityName}} typically ranges from ${{priceSmall}} for a 15-passenger minibus to ${{priceMotorcoach}} for a 56-passenger motorcoach. Round-trip pricing runs 65-75% of two one-ways. Actual pricing depends on group size, lead time (book 2-3 weeks ahead for the best rate), season (March-April, November-December are peak), and vehicle availability. Get a custom quote at busbrother.com/book/ for exact pricing on your dates.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How long is the drive from {{airportCode}} to {{cityName}}?<span class="faq-icon">+</span></button><div class="faq-answer">The drive from {{airportName}} ({{airportCode}}) to {{cityName}}, Florida is approximately {{distanceMiles}} miles via {{primaryHighway}} and typically takes {{driveMinutes}} minutes in normal traffic. Weekday rush-hour and weekend peak-tourism traffic can add 15-45 minutes.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Where does my driver meet us at {{airportCode}}?<span class="faq-icon">+</span></button><div class="faq-answer">Your driver meets your group at the baggage claim area of your arrival terminal at {{airportCode}}, holding a sign with your group name. The driver arrives 30-45 minutes before your scheduled pickup and monitors your flight status. Provide your flight number at booking so the carrier knows which terminal to send the driver to.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">What happens if our flight is delayed?<span class="faq-icon">+</span></button><div class="faq-answer">The carrier's dispatch monitors your flight in real time using the flight number you provide at booking. If your flight is delayed, the driver's pickup time is automatically adjusted &mdash; you do not need to call them from the plane. The first 60 minutes of waiting past your scheduled landing time is included in the price. Extended waiting beyond 60 minutes is billed at $50-$75 per hour depending on vehicle size.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can BusBrother handle ADA wheelchair-accessible transfers from {{airportCode}}?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. ADA wheelchair-accessible motorcoaches and minibuses are available for {{airportCode}} to {{cityName}} transfers at no additional charge. Please note ADA requirements at booking (number of wheelchair passengers, whether they can transfer to a coach seat or need to remain in the chair, service animal accompanying) so the correct vehicle is dispatched.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can we make multiple stops on the way from {{airportCode}} to {{cityName}}?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. Multi-stop {{airportCode}} to {{cityName}} shuttles are common for groups splitting across hotels, cruise pre-stays, or wedding parties with different arrival points. List all stops at booking so the carrier can optimize the routing. Each additional stop typically adds 15-30 minutes to the total trip time and may add a modest fee.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How far in advance should we book?<span class="faq-icon">+</span></button><div class="faq-answer">For {{airportCode}} to {{cityName}} charter shuttle service, book 2-3 weeks in advance for the best rates and vehicle selection. During peak seasons (March-April spring break, November-December holidays, major event weekends), book 4-6 weeks ahead. Same-week bookings are usually possible but carry a 20-40% premium and reduced vehicle choice.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Is BusBrother a transportation company, or a booking service?<span class="faq-icon">+</span></button><div class="faq-answer">BusBrother is a Florida lead-matching and referral service &mdash; we connect your group with independent, licensed motor carriers who provide the actual transportation. The carrier you book with handles the driving, insurance, dispatch, and payment collection. All carriers in our network hold valid USDOT registration with FMCSA operating authority, satisfactory FMCSA safety ratings, and $5M+ commercial auto liability insurance. BusBrother is operated by WETYR Corporation in Cape Canaveral, Florida.</div></div>
+
+        <h2>Related Airport Transfer Routes</h2>
+        <p>BusBrother coordinates group airport transfer service between all major Florida airports and 120+ Florida cities. If your travel plans include a different origin or destination, here are related routes:</p>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          {{#each relatedAirportRoutes}}<a href="{{url}}" class="area-chip">{{label}}</a>
+          {{/each}}
+        </div>
+
+        <h2>Other Group Transportation Services in {{cityName}}</h2>
+        <p>Beyond airport transfers, BusBrother matches groups with carriers for a wide range of transportation needs in {{cityName}}, Florida:</p>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          <a href="/areas/{{citySlug}}/" class="area-chip">🏙️ All {{cityName}} Services</a>
+          <a href="/areas/{{citySlug}}/cruise-shuttle/" class="area-chip">🚢 {{cityName}} Cruise Shuttle</a>
+          <a href="/areas/{{citySlug}}/corporate-charter/" class="area-chip">🏢 {{cityName}} Corporate Charter</a>
+          <a href="/areas/{{citySlug}}/wedding-events/" class="area-chip">💍 {{cityName}} Wedding Transport</a>
+          <a href="/areas/{{citySlug}}/school-groups/" class="area-chip">🎓 {{cityName}} School Field Trips</a>
+          <a href="/services/airport-transfers/" class="area-chip">✈️ Airport Transfer Hub</a>
+          <a href="/pricing/" class="area-chip">💵 Pricing Guide</a>
+          <a href="/how-it-works/" class="area-chip">📋 How Booking Works</a>
+        </div>
+
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <h3>Book Airport Transfer</h3>
-          <p style="color:var(--muted);">Get a free quote for group airport transfer from {{airportCode}} to {{cityName}}. Include your flight number for monitoring.</p>
+          <h3>Book Your {{airportCode}} to {{cityName}} Group Shuttle</h3>
+          <p style="color:var(--muted);">Get a free quote for group airport transfer from {{airportCode}} to {{cityName}}. Include your flight number for automatic flight monitoring. We respond within 2 hours with quotes from vetted Florida carriers. 24/7 availability including holidays.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
-            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
+            <a href="/services/airport-transfers/" class="btn btn-outline">All Airport Transfers</a>
           </div>
         </div>
       </div>
-      <div class="article-sidebar">{{> sidebar-quote}}</div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Route Quick Facts</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">From: {{airportCode}} - {{airportName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">To: {{cityName}}, {{countyName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Distance: {{distanceMiles}} miles</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Drive time: ~{{driveMinutes}} min</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Primary highway: {{primaryHighway}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Vehicles: 15-57 pax</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Available: 24/7</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Round trip: 65-75% of 2 one-ways</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Other {{airportCode}} Routes</h3>
+            <ul class="footer-links">
+              {{#each otherRoutesFromAirport}}<li><a href="{{url}}">{{label}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

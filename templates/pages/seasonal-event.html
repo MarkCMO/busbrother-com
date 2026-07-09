@@ -1,43 +1,213 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/events/{{eventSlug}}/#service",
+  "serviceType":"Event Group Transportation",
+  "name":"{{eventName}} Group Charter Bus & Shuttle Transportation",
+  "description":"Charter bus, motorcoach, and coordinated shuttle service for {{eventName}} in {{cityName}}, Florida. Hotel-to-event shuttles, airport transfers, multi-hotel pickup coordination.",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":{"@type":"City","name":"{{cityName}}","containedInPlace":{"@type":"State","name":"Florida"}}
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Events","item":"https://busbrother.com/services/"},
+    {"@type":"ListItem","position":3,"name":"{{eventName}}","item":"https://busbrother.com/events/{{eventSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container" style="position:relative;z-index:2;">
     <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/">Events</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{eventName}}</span></div>
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">{{eventEmoji}}</div>
-    <h1>{{eventName}} Transportation | BusBrother</h1>
-    <p class="subtitle">Group bus and shuttle service for {{eventName}} in {{cityName}}, Florida. {{eventMonths}}.</p>
+    <h1>{{eventName}} Group Transportation | BusBrother</h1>
+    <p class="subtitle">Private group charter bus, motorcoach, and coordinated shuttle service for {{eventName}} in {{cityName}}, Florida. {{eventMonths}}. Hotel-to-event shuttles, airport transfers, multi-hotel pickup coordination, ADA accessible vehicles, 24/7 dispatch.</p>
   </div>
 </div>
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:4rem;align-items:start;">
       <div class="article-body">
+
         <h2>Group Transportation for {{eventName}}</h2>
+        <p>{{eventName}} in {{cityName}}, Florida is one of the recurring event destinations BusBrother-matched carriers serve. The event's typical schedule during {{eventMonths}} creates predictable transportation demand from hotels throughout {{cityName}} and neighboring cities. Whether your group is 15 friends flying in for the event, a 200-person corporate outing built around the event, a 45-guest wedding party attending as part of a destination weekend, or a school group attending as an educational trip, the core logistics are similar: understand the event start and end times, understand the pickup and drop-off logistics at the {{eventName}} venue, and dispatch appropriate vehicles with drivers who know the local traffic patterns during {{eventMonths}}.</p>
+
         <p>{{eventDescription}}</p>
+
+        <p>BusBrother coordinates group transportation for {{eventName}} attendees in {{cityName}}, Florida. Whether your group is 15 friends flying in for the event, a 200-person corporate outing built around the event, a 45-guest wedding party attending together as part of a destination weekend, or a school group timing a field trip to coincide &mdash; BusBrother matches your trip request with Florida-licensed motor carriers whose fleet and current availability fit your group. Every carrier in our network maintains valid USDOT registration with FMCSA operating authority, holds $5,000,000+ in commercial auto liability insurance, and employs CDL Passenger-endorsed drivers with clean background checks.</p>
+
         {{#if heroImage}}<div style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;"><img src="{{heroImageFile}}" alt="{{heroImageAlt}}" style="width:100%;height:300px;object-fit:cover;" loading="lazy"/></div>{{/if}}
-        <h3>BusBrother Event Shuttle Service</h3>
+
+        <h2>{{eventName}} Event-Day Transportation Patterns</h2>
         <p>{{transportNotes}}</p>
+
+        <p>Groups attending {{eventName}} typically require one or more of the following transportation patterns:</p>
+
         <ul class="check-list">
-          <li><span class="check-icon">&#10003;</span><span>Hotel-to-event shuttle service</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Airport transfers for out-of-town attendees</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Round trip with flexible return scheduling</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Multi-stop pickup from multiple hotels</span></li>
-          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles on request</span></li>
-          <li><span class="check-icon">&#10003;</span><span>On-site standby for flexible departures</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Hotel-to-event shuttle service.</strong> Single-vehicle or multi-vehicle transport from your host hotel or hotel block to the {{eventName}} venue. Standard schedule is a scheduled outbound trip 60-90 minutes before event start and one or more return trips depending on event length.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Airport transfers for out-of-town attendees.</strong> Pickup at MCO, TPA, FLL, SFB, PBI, DAB, or MLB direct to {{cityName}} hotels, with return transfers scheduled for departure days.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Round-trip event-day service with flexible return scheduling.</strong> Same vehicle returns your group to the hotel at your requested time. Multi-vehicle events can schedule staggered returns to accommodate mixed departure preferences.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Multi-stop pickup from multiple hotels.</strong> If your group spans multiple hotels, one vehicle can circle a defined pickup sequence, or multiple vehicles can operate on a coordinated schedule.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>ADA wheelchair-accessible vehicles.</strong> Wheelchair lift-equipped motorcoaches and minibuses available on request at no additional charge.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>On-site standby.</strong> Vehicle waits at or near the {{eventName}} venue during the event, ready to depart on your call. Useful when event end time is uncertain.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>VIP and executive transport.</strong> Executive SUV, luxury sedan, or premium motorcoach for VIP attendees who prefer separate transportation from the general-attendee shuttle.</span></li>
         </ul>
-        <div class="callout"><p><strong>Book Early:</strong> {{eventName}} is one of {{cityName}}'s most popular events. Group transportation fills up fast - we recommend booking at least 3 weeks in advance.</p></div>
+
+        <div class="callout"><p><strong>Book Early for {{eventName}}:</strong> {{eventName}} is one of {{cityName}}'s most attended events. Group transportation fills up fast, especially during the {{eventMonths}} window. We recommend booking at least 3-6 weeks in advance for the best rates and vehicle selection.</p></div>
+
+        <h2>Vehicle Recommendations for {{eventName}} Groups</h2>
+        <p>Vehicle size for an {{eventName}} shuttle depends on your group size and whether the vehicle is running a single round-trip or a continuous loop between the hotel and event venue:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Groups of 8-15 attendees.</strong> A 15-passenger minibus (Ford Transit or Mercedes Sprinter) with A/C, luggage space, and easy loading. Right-sized for small friend groups, corporate incentive winners, or bridal-party attendees.</li>
+          <li><strong style="color:var(--gold);">Groups of 16-30 attendees.</strong> A 25-30 passenger minibus. Common for small corporate outings, medium wedding parties, and religious group events.</li>
+          <li><strong style="color:var(--gold);">Groups of 30-56 attendees.</strong> A 40 or 56-passenger motorcoach with on-board restroom, WiFi, USB charging, and reclining seats. Common for large corporate outings, medium-to-large weddings, and multi-family attendee groups.</li>
+          <li><strong style="color:var(--gold);">Groups of 57+ attendees.</strong> Multiple motorcoaches operating on a coordinated schedule. For events with 200+ attendees, a dedicated on-site coordinator manages the multi-bus operation.</li>
+        </ul>
+
+        <h2>How to Book {{eventName}} Transportation</h2>
+        <p>The BusBrother booking process is designed to eliminate the phone-tag that historically comes with event group transportation. Here is what happens after you submit a request:</p>
+
+        <ol style="color:var(--muted);font-size:15px;line-height:1.8;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Submit trip details (2 minutes).</strong> Fill out the quote form with your event date, group size, pickup hotel(s), and any special requirements. Note {{eventName}} as the destination.</li>
+          <li><strong style="color:var(--gold);">Carriers respond with quotes (2 hours).</strong> Multiple Florida-licensed carriers quote your trip. You typically receive 2-3 written quotes within 2 hours of business hours.</li>
+          <li><strong style="color:var(--gold);">You compare and book directly with a carrier.</strong> Review the quotes, pick the carrier, and book on their standard payment terms.</li>
+          <li><strong style="color:var(--gold);">Event day.</strong> Your driver arrives at the pickup hotel at the scheduled time, transports your group to {{eventName}}, and either waits on-site or returns at your scheduled return time.</li>
+        </ol>
+
+        <h2>{{eventName}} Timing Considerations</h2>
+        <p>Event-day transportation timing is often more important than the vehicle choice itself. A great vehicle arriving 45 minutes late is a worse experience than a modest vehicle arriving perfectly on time. Consider these {{eventName}}-specific timing factors when booking:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Arrival buffer.</strong> Whatever time your group needs to be at the {{eventName}} venue (doors opening, seat time, presentation start), work backwards from that time by adding the drive time plus a 30-45 minute buffer for traffic and boarding. For weddings or ceremonies, the buffer should be 45-60 minutes.</li>
+          <li><strong style="color:var(--gold);">Event-day traffic.</strong> Major {{cityName}} events typically create their own traffic pattern in the neighborhood surrounding the venue. Your carrier plans for this &mdash; you don't have to &mdash; but it means the base drive time may be 10-25 minutes longer than a normal-day drive.</li>
+          <li><strong style="color:var(--gold);">Return-trip scheduling.</strong> Decide before booking whether you want a single scheduled return time or multiple staggered returns. Single return keeps costs down; multiple returns give guests flexibility.</li>
+          <li><strong style="color:var(--gold);">Parking versus shuttle.</strong> For events where parking is difficult or expensive at the venue, shuttle service almost always saves money and time when the group is 8+ attendees. Compare venue parking cost per vehicle plus difficulty finding one against the per-person shuttle cost.</li>
+        </ul>
+
+        <h2>What to Expect on {{eventName}} Trip Day</h2>
+        <p>Event-day transportation goes smoothly when your group and the carrier are aligned on a few practical details. Here is what to expect on the day of your {{eventName}} trip:</p>
+
+        <p>Your driver typically arrives at your pickup hotel or address 15-30 minutes before the scheduled departure time. This buffer accounts for late-arriving group members, luggage or gear loading, and any last-minute schedule adjustments. Stage your group in the hotel lobby or at the designated pickup point 10-15 minutes before your scheduled departure so the driver can begin loading without waiting for stragglers.</p>
+
+        <p>Groups traveling to {{eventName}} typically travel with limited luggage &mdash; day-of attendees have handbags, gift bags, or minimal items rather than checked baggage. This makes loading fast: 5-10 minutes for a group of 30-50 passengers with day-only items versus 20-30 minutes for the same group with cruise-style luggage. Communicate any special items in advance (event materials, group gifts, oversized items) so the driver reserves the right underbus space.</p>
+
+        <p>During the drive from your pickup location to the {{eventName}} venue, the driver monitors traffic in real time and routes around incidents. Estimated arrival time is your pickup time plus base drive time plus any planned rest stops. For {{eventName}} events during peak season, arrive slightly earlier than the venue's stated doors-open time &mdash; parking and traffic patterns tighten as the event start approaches.</p>
+
+        <p>At the {{eventName}} venue, the driver drops your group at the designated attendee entrance (not the vendor or crew entrance) and confirms the return pickup time and location before departing to the staging area. Some drivers prefer to circle away from the venue during your event; others park at a nearby staging area or wait on-site depending on venue rules. The return pickup logistics are confirmed before departure &mdash; do not assume the same vehicle will be waiting exactly where it dropped you off unless you have confirmed that arrangement.</p>
+
+        <h2>Pricing Scenarios for {{eventName}} Group Transportation</h2>
+        <p>To help you plan your event budget, here are common pricing scenarios for {{eventName}} group transportation. All pricing is one-way starting from a {{cityName}}-area hotel unless noted.</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Small friend group (10-15 attendees, single vehicle, round-trip):</strong> $500-1,000 for the day. A 15-passenger minibus picks up at a single hotel, drives to {{eventName}}, waits or returns at a scheduled time. Cost per attendee: $30-70.</li>
+          <li><strong style="color:var(--gold);">Medium corporate outing (25-30 attendees, single vehicle, round-trip):</strong> $900-1,600 for the day. A 30-passenger minibus or premium coach with A/C and standard amenities. Cost per attendee: $30-55.</li>
+          <li><strong style="color:var(--gold);">Large corporate event (50 attendees, single motorcoach, event-day service):</strong> $1,200-2,200 for the day. Full 56-passenger motorcoach with restroom, WiFi, and reclining seats. Cost per attendee: $22-45.</li>
+          <li><strong style="color:var(--gold);">Multi-hotel wedding shuttle (30-40 guests spread across 2-3 hotels, single vehicle):</strong> $1,100-1,900 for the day. Vehicle circles pickup hotels in defined sequence, delivers to {{eventName}}, returns at scheduled time. Cost per attendee: $28-63.</li>
+          <li><strong style="color:var(--gold);">Continuous-loop conference shuttle (200 attendees, 2 vehicles running fixed intervals):</strong> $2,500-5,500 for the day. Two vehicles running 20-minute intervals during peak windows. Cost per attendee: $12-28.</li>
+          <li><strong style="color:var(--gold);">Multi-bus coordinated event (400 attendees, 4-6 vehicles + dispatcher):</strong> $8,000-18,000 for the day. Includes on-site coordinator. Cost per attendee: $20-45.</li>
+          <li><strong style="color:var(--gold);">VIP executive transport (single vehicle, 2-8 passengers):</strong> $400-900 for the day. Executive SUV or luxury sedan.</li>
+        </ul>
+
+        <p>Peak-week bookings during {{eventMonths}} typically carry a 20-40% premium over these baseline numbers. Off-season bookings can run 10-25% below. Same-week bookings usually add 20-40% to any of the above.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How much does a group shuttle to {{eventName}} cost?<span class="faq-icon">+</span></button><div class="faq-answer">Shuttle pricing for {{eventName}} events depends on group size, distance from pickup hotels to venue, and total service hours. Typical ranges: single vehicle scheduled trip $500-1,500 (single one-way, small group), continuous-loop shuttle $1,200-3,000/day per vehicle, multi-bus coordinated events $6,000-15,000 for 200+ attendees. Peak-week bookings (during {{eventMonths}}) carry a 20-40% premium. Get a custom quote at busbrother.com/book/.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How far in advance should we book for {{eventName}}?<span class="faq-icon">+</span></button><div class="faq-answer">Book 3-6 weeks ahead for standard bookings. During peak {{eventMonths}} weekends, book 8-12 weeks ahead to ensure vehicle availability. Same-week bookings are usually possible but carry a 20-40% premium and reduced vehicle choice.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can BusBrother handle multi-hotel pickup for our {{eventName}} group?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. Multi-hotel pickup is a common booking pattern. Options include: (1) single vehicle circles 2-3 hotels in a defined pickup sequence, adding 15-30 minutes per stop; (2) multiple vehicles each assigned to specific hotels, converging at {{eventName}} on a coordinated schedule. List all pickup hotels at booking.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can the driver wait at the venue during the event?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. On-site standby is a common event pattern. Standby pricing is typically an hourly rate ($75-125/hour depending on vehicle size) applied to the standby hours, in addition to the base charter cost.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Are ADA wheelchair-accessible vehicles available?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. ADA wheelchair-accessible motorcoaches and minibuses are available for {{eventName}} shuttles at no additional charge. Please note ADA requirements at booking.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">What if the event runs longer than expected?<span class="faq-icon">+</span></button><div class="faq-answer">If the event runs long or you want your group to stay past the scheduled return time, contact the driver directly (contact info is in your booking confirmation). Extended standby time is billed at the standby hourly rate. Best practice: build a 30-60 minute buffer into the return time so a modest event overrun doesn't require an extension call.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Is BusBrother a transportation company or a booking service?<span class="faq-icon">+</span></button><div class="faq-answer">BusBrother is a Florida lead-matching and referral service &mdash; we connect your group with independent, licensed motor carriers who provide the actual transportation. All carriers in our network hold valid USDOT registration with FMCSA operating authority, satisfactory FMCSA safety ratings, and $5M+ commercial auto liability insurance. BusBrother is operated by WETYR Corporation in Cape Canaveral, Florida.</div></div>
+
+        <h2>Why Book {{eventName}} Transportation Through BusBrother</h2>
+        <p>You can absolutely arrange {{eventName}} transportation by calling motor carriers directly. The reason most event organizers work through BusBrother instead is time and pricing transparency. A traditional charter booking involves calling 3-5 carriers, waiting 24-48 hours for return calls, comparing verbal quotes in inconsistent formats, and negotiating without knowing what other carriers would charge. During busy periods like {{eventMonths}}, some carriers may not return calls for days.</p>
+
+        <p>BusBrother replaces that process with a single quote form and a 2-hour turnaround. Multiple carriers respond with written quotes in a standardized format so comparison is fast. Carriers also know their quote is being compared, which naturally sharpens pricing. Event organizers typically save 2-4 hours of research time and 10-25% on transportation cost versus the single-carrier phone approach. And because BusBrother vets carrier credentials before including them in the network, you do not need to independently verify each carrier's insurance, safety rating, and FMCSA authority before booking.</p>
+
+        <h2>About BusBrother's Carrier Network</h2>
+        <p>BusBrother is a Florida lead-matching service headquartered in Cape Canaveral, Brevard County, Florida. Every carrier in our network is verified for USDOT registration with active FMCSA operating authority, satisfactory FMCSA safety rating, current commercial auto liability insurance of $5,000,000 or more, current DOT vehicle inspections, and CDL drivers with Passenger endorsement who pass FMCSA-compliant drug and alcohol testing plus background checks.</p>
+
+        <p>When you submit a quote request for {{eventName}} transportation, our system routes your request only to carriers meeting these standards whose service area includes {{cityName}}, whose fleet includes the vehicle size your group needs, and whose current availability fits your event date. Multiple carriers respond with written quotes so you can compare pricing, vehicle year, amenity level, and carrier reputation. The carrier you choose handles the transportation directly &mdash; BusBrother does not intermediate the booking, collect payment, or set binding prices.</p>
+
+        <h2>What Happens After You Book Your {{eventName}} Transportation</h2>
+        <p>Once you have booked with the carrier of your choice, the pre-event coordination begins. Standard pre-event steps in the days leading up to {{eventName}}:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Confirmation from the carrier's operations team.</strong> Within 24-48 hours of booking, the operations team confirms trip details, exchanges emergency contact numbers, and answers any last-minute questions about vehicle configuration.</li>
+          <li><strong style="color:var(--gold);">Final headcount confirmation.</strong> The carrier requests a final headcount 3-5 days before your event to confirm vehicle size and to plan for special requirements (ADA seating, oversized items, VIP separate flow).</li>
+          <li><strong style="color:var(--gold);">Insurance certificate.</strong> If your event or venue requires a certificate of insurance, the carrier delivers it in advance of your event date.</li>
+          <li><strong style="color:var(--gold);">Trip-day contact.</strong> The evening before or morning of your event, the carrier confirms driver contact info, vehicle location, and estimated arrival time at the pickup point.</li>
+          <li><strong style="color:var(--gold);">On-event coordination.</strong> During the event, the carrier's dispatcher and your group's trip leader stay in communication (typically by cell) about any real-time changes: event running long, weather impacting the schedule, or attendance numbers coming in different than expected.</li>
+        </ul>
+
+        <h2>Related Services in {{cityName}}</h2>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          <a href="/areas/{{citySlug}}/" class="area-chip">🏙️ All {{cityName}} services</a>
+          <a href="/services/corporate-charter/" class="area-chip">🏢 Corporate charter</a>
+          <a href="/services/wedding-events/" class="area-chip">💍 Wedding transportation</a>
+          <a href="/services/hotel-shuttle/" class="area-chip">🏨 Hotel shuttles</a>
+          <a href="/services/airport-transfers/" class="area-chip">✈️ Airport transfers</a>
+          <a href="/services/conference-shuttle/" class="area-chip">🎤 Conference shuttles</a>
+          <a href="/pricing/" class="area-chip">💵 Pricing guide</a>
+          <a href="/how-it-works/" class="area-chip">📋 How booking works</a>
+        </div>
+
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <h3>Book Event Transportation</h3>
-          <p style="color:var(--muted);">Get a free quote for group bus service to {{eventName}}.</p>
+          <h3>Book {{eventName}} Group Transportation</h3>
+          <p style="color:var(--muted);">Get a free quote for group bus service to {{eventName}}. Response within 2 hours from vetted Florida carriers.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
-            <a href="/areas/{{citySlug}}/" class="btn btn-outline">More in {{cityName}} &rarr;</a>
+            <a href="/areas/{{citySlug}}/" class="btn btn-outline">More in {{cityName}}</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
           </div>
         </div>
       </div>
-      <div class="article-sidebar">{{> sidebar-quote}}</div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Event Details</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Event: {{eventName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Location: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Season: {{eventMonths}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Vehicles: 6-57 pax</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ADA accessible: Yes</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Multi-hotel: Yes</li>
+              <li style="color:var(--muted);font-size:0.88rem;">On-site standby: Yes</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Book: 3-6 weeks ahead</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Explore More</h3>
+            <ul class="footer-links">
+              <li><a href="/areas/{{citySlug}}/">All {{cityName}} services</a></li>
+              <li><a href="/services/corporate-charter/">Corporate charter</a></li>
+              <li><a href="/services/wedding-events/">Wedding transportation</a></li>
+              <li><a href="/services/conference-shuttle/">Conference shuttle</a></li>
+              <li><a href="/services/hotel-shuttle/">Hotel shuttle</a></li>
+              <li><a href="/services/airport-transfers/">Airport transfers</a></li>
+              <li><a href="/brevard-county/">Brevard County services</a></li>
+              <li><a href="/pricing/">Full pricing guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -404,12 +404,12 @@ if (templates['venue'] && venues.length) {
   for (const v of venues) {
     const city = cityMap[v.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['venue'], {
-      venueName: v.name, venueEmoji: v.emoji || '🏢',
+      venueName: v.name, venueSlug: v.slug, venueEmoji: v.emoji || '🏢',
       venueDescription: v.description || '',
       venueAddress: v.address || `${city.name}, FL`,
       venueCapacity: v.capacity || 'Varies',
       venueType: (v.type || '').replace(/-/g, ' '),
-      cityName: city.name,
+      cityName: city.name, citySlug: city.slug,
       transportNeeds: v.transportNeeds || [],
       popularEvents: v.popularEvents || [],
       pageTitle: `${v.name} Group Transportation | BusBrother`,
@@ -482,8 +482,8 @@ if (templates['hotel-shuttle'] && hotels.length) {
   for (const h of hotels) {
     const city = cityMap[h.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['hotel-shuttle'], {
-      hotelName: h.name, hotelDescription: h.description || '',
-      cityName: city.name,
+      hotelName: h.name, hotelSlug: h.slug, hotelDescription: h.description || '',
+      cityName: city.name, citySlug: city.slug,
       transportNeeds: h.transportNeeds || ['cruise-shuttle', 'airport-transfers', 'theme-parks'],
       pageTitle: `${h.name} Shuttle Service | BusBrother`,
       metaDescription: `Group shuttle from ${h.name} in ${city.name}, FL. Cruise port, airport, theme park, and event transportation.`,
@@ -503,8 +503,8 @@ if (templates['school-transport'] && schools.length) {
   for (const s of schools) {
     const city = cityMap[s.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const html = render(templates['school-transport'], {
-      schoolName: s.name, schoolDescription: s.description || '',
-      cityName: city.name,
+      schoolName: s.name, schoolSlug: s.slug, schoolDescription: s.description || '',
+      cityName: city.name, citySlug: city.slug,
       pageTitle: `${s.name} Group Bus Service | BusBrother`,
       metaDescription: `Charter bus and field trip transportation for ${s.name} in ${city.name}, FL. School groups, athletics, campus events.`,
       canonicalPath: `/schools/${s.slug}`,
@@ -524,7 +524,7 @@ if (templates['seasonal-event'] && seasonalEvents.length) {
     const city = cityMap[ev.citySlug] || { name: 'Florida', slug: 'orlando', county: 'Orange County' };
     const img = getImageForService((ev.popularServices || [])[0] || 'theme-parks');
     const html = render(templates['seasonal-event'], {
-      eventName: ev.name, eventEmoji: ev.emoji || '🎉',
+      eventName: ev.name, eventSlug: ev.slug, eventEmoji: ev.emoji || '🎉',
       eventDescription: ev.description || '',
       eventMonths: (ev.months || []).join(', '),
       transportNotes: ev.transportNotes || `BusBrother provides group shuttle service for ${ev.name} attendees.`,
@@ -625,19 +625,73 @@ if (templates['neighborhood'] && neighborhoods.length) {
 // ── 15. Airport Transfer Pages ────────────────────────────
 if (templates['airport-transfer']) {
   console.log('  Airport transfer pages...');
+  const topCitiesGlobal = cities.filter(c => c.tier <= 2).slice(0, 40);
   for (const apt of airports) {
-    const topCities = cities.filter(c => c.tier <= 2).slice(0, 40);
-    for (const city of topCities) {
+    for (const city of topCitiesGlobal) {
       const img = getImageForService('airport-transfers');
+      // Compute distance + drive time via haversine
+      const dist = (apt.lat && apt.lng && city.lat && city.lng)
+        ? Math.round(haversine(apt.lat, apt.lng, city.lat, city.lng))
+        : 45;
+      const driveMinutes = Math.max(20, Math.round(dist * 1.4));  // ~1.4 min/mile
+      // Highway picks based on airport
+      const primaryHighway = ({
+        MCO: 'SR-528 Beachline Expressway or I-4',
+        SFB: 'I-4 or SR-417',
+        TPA: 'I-4 or I-275',
+        FLL: 'I-95 or I-595',
+        PBI: 'I-95 or Florida Turnpike',
+        DAB: 'I-95 or SR-400'
+      })[apt.code] || 'I-95 or Florida Turnpike';
+      const secondaryHighway = ({
+        MCO: 'Florida Turnpike',
+        SFB: 'US-17',
+        TPA: 'Florida Turnpike',
+        FLL: 'Florida Turnpike',
+        PBI: 'US-1',
+        DAB: 'US-1'
+      })[apt.code] || '';
+      // Pricing model: scale with distance
+      const distFactor = Math.max(1, dist / 60);
+      const priceSmall = Math.round(300 + 4 * dist);
+      const priceMedium = Math.round(430 + 5 * dist);
+      const priceLarge = Math.round(600 + 7 * dist);
+      const priceMotorcoach = Math.round(750 + 8 * dist);
+      const priceRoundTripLarge = Math.round(priceLarge * 1.55);
+      const priceRoundTripTwoOneways = priceLarge * 2;
+      const uberXLTotal = Math.round(30 + 3.5 * dist) * 6; // 6 XLs at ~$3.5/mile
+      const rentalTotal = 500 + 60; // rental + fuel baseline
+      // Related airport routes (other airports to same city)
+      const relatedAirportRoutes = airports
+        .filter(a => a.code !== apt.code)
+        .slice(0, 5)
+        .map(a => ({ url: `/airports/${a.slug}-to-${city.slug}/`, label: `${a.code} to ${city.name}` }));
+      // Other cities from same airport (5 nearest)
+      const otherRoutesFromAirport = topCitiesGlobal
+        .filter(c => c.slug !== city.slug)
+        .slice(0, 6)
+        .map(c => ({ url: `/airports/${apt.slug}-to-${c.slug}/`, label: `${apt.code} to ${c.name}` }));
+
       const html = render(templates['airport-transfer'], {
-        airportName: apt.name, airportCode: apt.code,
+        airportName: apt.name, airportCode: apt.code, airportSlug: apt.slug,
         airportDescription: apt.description || '',
-        cityName: city.name,
+        cityName: city.name, citySlug: city.slug,
+        countyName: city.county || 'Florida',
+        distanceMiles: dist,
+        driveMinutes,
+        primaryHighway,
+        secondaryHighway,
+        priceSmall, priceMedium, priceLarge, priceMotorcoach,
+        priceLowEnd: priceSmall, priceHighEnd: priceMotorcoach,
+        priceRoundTripLarge, priceRoundTripTwoOneways,
+        uberXLTotal, rentalTotal,
+        relatedAirportRoutes,
+        otherRoutesFromAirport,
         heroImage: img ? true : false,
         heroImageFile: img ? img.file : '',
         heroImageAlt: img ? img.alt : '',
-        pageTitle: `${apt.code} to ${city.name} Group Shuttle | BusBrother`,
-        metaDescription: `Group airport transfer from ${apt.code} to ${city.name}, FL. Meet-and-greet, luggage help, flight monitoring.`,
+        pageTitle: `${apt.code} to ${city.name}, FL Group Shuttle (${dist} miles, ${driveMinutes} min) | BusBrother`,
+        metaDescription: `Private group airport shuttle from ${apt.name} (${apt.code}) to ${city.name}, Florida. ${dist} miles via ${primaryHighway}. Meet-and-greet, luggage help, flight monitoring, ADA available.`,
         canonicalPath: `/airports/${apt.slug}-to-${city.slug}`,
         geoPlacename: `${city.name}, Florida`,
         geoPosition: city.lat && city.lng ? `${city.lat};${city.lng}` : '28.3922;-80.6077',

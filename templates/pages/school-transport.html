@@ -1,41 +1,221 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/schools/{{schoolSlug}}/#service",
+  "serviceType":"School Group Transportation",
+  "name":"{{schoolName}} Charter Bus & Field Trip Transportation",
+  "description":"Charter bus, motorcoach, and field trip transportation for {{schoolName}} students, faculty, and athletic teams in {{cityName}}, Florida. Background-checked drivers, seat-belt-equipped vehicles, school-rate pricing.",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":{"@type":"City","name":"{{cityName}}","containedInPlace":{"@type":"State","name":"Florida"}}
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"School Groups","item":"https://busbrother.com/services/school-groups/"},
+    {"@type":"ListItem","position":3,"name":"{{schoolName}}","item":"https://busbrother.com/schools/{{schoolSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container" style="position:relative;z-index:2;">
     <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/school-groups/">Schools</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{schoolName}}</span></div>
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F393;</div>
-    <h1>{{schoolName}} Group Bus Service | BusBrother</h1>
-    <p class="subtitle">Charter bus and field trip transportation for {{schoolName}} students, faculty, and athletic teams in {{cityName}}, Florida.</p>
+    <h1>{{schoolName}} Group Charter Bus Service | BusBrother</h1>
+    <p class="subtitle">Charter bus, motorcoach, and minibus transportation for {{schoolName}} students, faculty, athletic teams, and organizations in {{cityName}}, Florida. Background-checked CDL drivers, seat-belt-equipped vehicles, ADA accessibility, school-rate pricing, 24/7 dispatch.</p>
   </div>
 </div>
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:4rem;align-items:start;">
       <div class="article-body">
-        <h2>School Group Transportation for {{schoolName}}</h2>
+
+        <h2>Group Transportation for {{schoolName}}</h2>
         <p>{{schoolDescription}}</p>
-        <h3>Services for {{schoolName}}</h3>
+
+        <p>BusBrother coordinates group transportation for {{schoolName}} in {{cityName}}, Florida. From single field-trip charter bookings to recurring athletic-season transportation to conference and graduation transport, BusBrother matches your trip request with Florida-licensed motor carriers whose fleet, driver qualifications, and current availability fit {{schoolName}}'s needs. Every carrier in our network holds valid USDOT registration with FMCSA operating authority, $5,000,000+ commercial auto liability insurance, and CDL drivers with Passenger endorsement and current background checks &mdash; requirements that meet or exceed most Florida school district standards for chartered student transportation.</p>
+
+        <h2>Transportation Services for {{schoolName}}</h2>
+        <p>The most common charter bookings BusBrother-matched carriers provide for {{schoolName}} include:</p>
         <ul class="check-list">
-          <li><span class="check-icon">&#10003;</span><span>Field trips to Kennedy Space Center, museums, and attractions</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Athletic team transportation to away games and tournaments</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Campus event shuttles and graduation transport</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Greek life formals and organization events</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Study abroad group airport transfers</span></li>
-          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Field trips.</strong> Kennedy Space Center, Brevard Zoo, Museum of Science and Industry, Florida Aquarium, Universal Studios, Walt Disney World, Sea World, Ginnie Springs, historical sites, state parks, and educational venues throughout Florida. Single-day and multi-day field trips both supported.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Athletic team transportation.</strong> Away games, tournaments, championship travel, and pre-season training camps. Motorcoach with luggage bays for equipment (bat bags, hockey bags, gear boxes), on-board restroom for long trips.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Campus event shuttles and graduation transport.</strong> Move-in day, parent weekend, graduation ceremonies, alumni events, and campus-to-off-site event shuttles.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Greek life formals and organization events.</strong> Fraternity and sorority formals, chapter events, philanthropy trips, and organization travel with appropriate carrier vetting.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Study abroad and academic conference travel.</strong> Airport transfers for study-abroad group departures, academic conference attendance, and inter-university travel.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Music, arts, and performing arts group travel.</strong> Band trips, choir tours, drama competition travel, and arts festivals. Extra luggage capacity for instruments and equipment.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Special-needs and ADA transportation.</strong> Wheelchair lift-equipped vehicles for special-needs field trips and events. Available at no additional charge on request.</span></li>
         </ul>
-        <div class="callout"><p><strong>School Group Rates:</strong> BusBrother offers competitive pricing for educational institutions. Contact us for school group rates and recurring service agreements.</p></div>
+
+        <h2>School Compliance and Safety Standards</h2>
+        <p>{{schoolName}} student transportation requires higher safety standards than typical group charter. BusBrother-matched carriers meet these standards as a baseline:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">CDL drivers with Passenger endorsement (CDL-P).</strong> Federal requirement for any vehicle carrying 16+ passengers. All BusBrother-network drivers hold current CDL-P.</li>
+          <li><strong style="color:var(--gold);">Documented background checks.</strong> Carriers document driver background checks in writing and can share the documentation with {{schoolName}}'s risk management office on request.</li>
+          <li><strong style="color:var(--gold);">Current DOT vehicle inspections.</strong> Every motorcoach in the fleet passes annual DOT inspection. Carriers can provide the current inspection report for any vehicle on request.</li>
+          <li><strong style="color:var(--gold);">FMCSA safety rating of Satisfactory or None.</strong> Not Conditional or Unsatisfactory. Every carrier's FMCSA safety record is verifiable at safer.fmcsa.dot.gov.</li>
+          <li><strong style="color:var(--gold);">Seat-belt-equipped vehicles.</strong> For school districts that require seat belts on charter buses, motorcoaches built after 2016 are equipped with lap-shoulder belts. Confirm the district requirement at booking so the appropriate vehicle is dispatched.</li>
+          <li><strong style="color:var(--gold);">FMCSA-compliant drug and alcohol testing.</strong> All drivers participate in the federal DOT drug and alcohol testing program (49 CFR Part 382).</li>
+          <li><strong style="color:var(--gold);">$5,000,000+ commercial auto liability insurance.</strong> Standard minimum in the BusBrother network. Certificates of insurance available for {{schoolName}}'s records.</li>
+        </ul>
+
+        <div class="callout"><p><strong>School Group Rates:</strong> BusBrother-matched carriers offer competitive school-rate pricing for educational institutions, typically 10-20% below standard corporate rates. Recurring service agreements (multi-trip charter contracts for a full athletic season or academic year) offer additional volume discounts. Contact us for {{schoolName}}-specific pricing.</p></div>
+
+        <h2>Popular Field Trip Destinations from {{schoolName}}</h2>
+        <p>Florida schools frequently arrange field trips to the following destinations, all of which BusBrother-matched carriers regularly serve:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Kennedy Space Center Visitor Complex (Merritt Island).</strong> NASA's launch facility. Full-day trips with stops at Apollo/Saturn V Center, Atlantis exhibit, and the Astronaut Encounter.</li>
+          <li><strong style="color:var(--gold);">Brevard Zoo (Melbourne).</strong> 75-acre zoo focused on Latin America, Africa, and Australasia exhibits. Popular for elementary field trips.</li>
+          <li><strong style="color:var(--gold);">Florida Aquarium (Tampa).</strong> 250,000 square feet of aquatic exhibits. Popular for K-8 marine biology trips.</li>
+          <li><strong style="color:var(--gold);">Museum of Science and Industry (MOSI) (Tampa).</strong> Interactive science exhibits and IMAX theater.</li>
+          <li><strong style="color:var(--gold);">Universal Studios Florida (Orlando).</strong> Educational partnerships available. Physics-themed field trips popular in high school.</li>
+          <li><strong style="color:var(--gold);">Walt Disney World (Lake Buena Vista).</strong> Disney Youth Education Series programs.</li>
+          <li><strong style="color:var(--gold);">Ginnie Springs / Silver Springs (freshwater springs).</strong> Environmental science field trips.</li>
+          <li><strong style="color:var(--gold);">St. Augustine.</strong> Oldest continuously-occupied European settlement in the US, popular for history classes.</li>
+          <li><strong style="color:var(--gold);">Everglades National Park.</strong> Ecology field trips and airboat tours.</li>
+          <li><strong style="color:var(--gold);">MOSI, WonderWorks, Great Explorations, and other science centers.</strong> STEM-themed field trips.</li>
+        </ul>
+
+        <h2>Athletic Team Transportation from {{schoolName}}</h2>
+        <p>Sports teams have specific transportation requirements that differ from standard field trips. BusBrother-matched carriers accommodate:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Equipment capacity.</strong> Football, hockey, lacrosse, baseball, and rowing teams travel with substantial gear. Standard motorcoach luggage bays hold approximately 3-4 cubic yards of gear beyond passenger luggage. For gear-heavy sports, some carriers can pair a passenger motorcoach with a trailing luggage/equipment trailer.</li>
+          <li><strong style="color:var(--gold);">On-board restroom for long-distance travel.</strong> High school and college away games can involve 3-6 hour drives. A motorcoach with an on-board restroom eliminates the need for mid-trip stops and keeps the team on schedule.</li>
+          <li><strong style="color:var(--gold);">Coaching and support staff seating.</strong> Team travel typically includes 2-6 coaches and support staff beyond the roster. Plan on 10-15 seats above the player count for equipment managers, athletic trainers, and assistant coaches.</li>
+          <li><strong style="color:var(--gold);">Team meal accommodations.</strong> For tournaments and multi-day trips, discuss meal stops with the carrier. Some carriers work with specific restaurant chains along common Florida travel corridors and can plan efficient team-meal stops.</li>
+        </ul>
+
+        <h2>How to Book Transportation for {{schoolName}}</h2>
+        <ol style="color:var(--muted);font-size:15px;line-height:1.8;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Submit trip details (2 minutes).</strong> Fill out the quote form with your travel date, group size, destinations, and any {{schoolName}}-specific requirements (seat belt requirement, insurance certificate documentation, background-check documentation, driver credentials).</li>
+          <li><strong style="color:var(--gold);">Carriers respond with quotes (2 hours).</strong> Florida-licensed carriers quote your trip. You typically receive 2-3 written quotes.</li>
+          <li><strong style="color:var(--gold);">Provide compliance documentation to your district's risk management office.</strong> The carrier provides insurance certificates, driver credentials, and vehicle inspection reports on request. Submit these to the district before trip day.</li>
+          <li><strong style="color:var(--gold);">Book directly with the carrier.</strong> Pay per the carrier's standard terms &mdash; many school districts pay by check or purchase order after the trip.</li>
+          <li><strong style="color:var(--gold);">Trip day.</strong> Driver arrives 15-30 minutes early at the {{schoolName}} pickup point, verifies headcount, loads gear, departs on schedule.</li>
+        </ol>
+
+        <h2>K-12 vs College/University Transportation for {{schoolName}}</h2>
+        <p>Whether {{schoolName}} is a K-12 school or a college/university significantly affects the transportation planning process. The core requirements &mdash; USDOT-registered carriers, CDL-P drivers, adequate insurance &mdash; are the same. But the day-to-day patterns differ meaningfully.</p>
+
+        <p><strong>K-12 school transportation</strong> emphasizes: safety documentation (seat belts, background checks, insurance certificates for the district's records), tight time windows aligned with the school day, permission-slip and parent-notification timelines that require booking confirmation weeks in advance, chaperone-to-student ratios that affect vehicle-count planning, and communication protocols between the carrier and the classroom teacher throughout the trip. K-12 charters typically use motorcoaches with seat belts (for districts that require them) and background-checked drivers whose credentials the carrier can document.</p>
+
+        <p><strong>College and university transportation</strong> emphasizes: flexibility around student athletics, arts, Greek, and organization schedules that change frequently; multi-day trip capability with driver overnight lodging; comfort features (WiFi, USB charging, on-board restroom) for student expectations; larger vehicles reflecting typical student group sizes; and payment processes that align with university purchasing office workflows (POs, standard NET terms, and sometimes multi-vendor bidding requirements). University charters more commonly involve full-size motorcoaches with amenities than K-12 charters.</p>
+
+        <p>Both categories benefit from recurring service agreements when {{schoolName}} anticipates multiple charter trips per year. A recurring service agreement locks in pricing for the year and gives the carrier priority on {{schoolName}}'s calendar, which is especially valuable during peak-demand windows like graduation weekends, championship sports weeks, and spring break travel.</p>
+
+        <h2>Recurring Service Agreements for {{schoolName}}</h2>
+        <p>Schools that need transportation multiple times per year &mdash; every athletic season, for regular field trips, or for scheduled events like graduations &mdash; benefit from a recurring service agreement rather than one-off bookings. Recurring agreements typically include:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Locked pricing for the school year.</strong> The carrier commits to a defined rate structure regardless of seasonal fluctuation. Typical structure: base day rate plus per-mile beyond a defined mileage inclusion, with clear rules for after-hours or overnight service.</li>
+          <li><strong style="color:var(--gold);">Priority booking during peak windows.</strong> Graduation weekends, football season, spring band tours, and other peak-demand periods are often sold out at short notice; recurring agreements give {{schoolName}} first-refusal availability during these periods.</li>
+          <li><strong style="color:var(--gold);">Consolidated invoicing.</strong> Instead of paying per trip, {{schoolName}} receives a monthly or quarterly consolidated invoice reflecting all trips in the period. Aligns with typical school district accounting cycles.</li>
+          <li><strong style="color:var(--gold);">Preferred driver assignment.</strong> The carrier assigns a small pool of drivers to {{schoolName}}'s trips so the drivers become familiar with the school's specific requirements, common destinations, and communication preferences.</li>
+          <li><strong style="color:var(--gold);">Compliance documentation renewal.</strong> Insurance certificates, driver credentials, and vehicle inspection reports are refreshed annually with the risk management office rather than re-requested per trip.</li>
+          <li><strong style="color:var(--gold);">Cancellation flexibility.</strong> Recurring agreements typically include more forgiving cancellation terms than one-off bookings, reflecting the multi-trip commitment.</li>
+        </ul>
+
+        <p>Volume discount on a recurring agreement is typically 10-20% below one-off booking pricing. For a school running 15-30 charter trips per year, that discount can total $8,000-25,000 in annual savings compared to booking each trip separately. Contact BusBrother to discuss a recurring service agreement for {{schoolName}}.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How much does a charter bus for {{schoolName}} cost?<span class="faq-icon">+</span></button><div class="faq-answer">Charter pricing for {{schoolName}} depends on trip length, destination, vehicle size, and lead time. Typical ranges for common bookings: single-day field trip (day rate, 8-10 hours, within 100 miles) $700-1,500, sports team away game (single one-way + return same day) $600-1,400, multi-day trip with driver lodging $1,800-3,500/day, recurring athletic-season contract $600-1,200 per trip. School-rate pricing is typically 10-20% below standard corporate rates. Get a custom quote at busbrother.com/book/.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Do the buses have seat belts?<span class="faq-icon">+</span></button><div class="faq-answer">Motorcoaches built after 2016 are equipped with 3-point (lap-shoulder) seat belts at every seat, per FMCSA regulation. Older motorcoaches may have lap-only belts or no belts. If your school district requires seat-belt-equipped vehicles for student trips, specify this at booking so the appropriate vehicle is dispatched.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How are drivers background-checked?<span class="faq-icon">+</span></button><div class="faq-answer">Every carrier in the BusBrother network requires drivers to pass background checks including criminal history, motor vehicle record, and FMCSA drug and alcohol testing (49 CFR Part 382). Carriers document these checks in writing and can provide documentation to your district's risk management office on request. School districts with specific background-check requirements (fingerprint checks, state-level checks) should note the requirement at booking so the carrier can confirm driver eligibility.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can we get insurance certificates for our district's records?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. Each carrier can provide a certificate of insurance (ACORD 25 form) showing current commercial auto liability coverage, general liability coverage, and any additional insurance requested by your district. Request the certificate at booking, and the carrier will send it to your risk management contact.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Do you handle multi-day trips with driver lodging?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. Multi-day charter trips are common for sports tournaments, band trips, and multi-city academic trips. Driver lodging is typically arranged by the carrier and billed separately from the base charter cost ($100-150/night). Some school districts prefer to book driver lodging directly at the same hotel as the group; discuss preferences at booking.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Are ADA wheelchair-accessible vehicles available?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. ADA wheelchair-accessible motorcoaches and minibuses are available for {{schoolName}} trips at no additional charge. Please note ADA requirements at booking (number of wheelchair passengers, whether they can transfer to a coach seat, service animal accompanying) so the correct vehicle is dispatched.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Is BusBrother a transportation company or a booking service?<span class="faq-icon">+</span></button><div class="faq-answer">BusBrother is a Florida lead-matching and referral service &mdash; we connect your school group with independent, licensed motor carriers who provide the actual transportation. All carriers in our network hold valid USDOT registration with FMCSA operating authority, satisfactory FMCSA safety ratings, and $5M+ commercial auto liability insurance. BusBrother is operated by WETYR Corporation in Cape Canaveral, Florida.</div></div>
+
+        <h2>Why Book {{schoolName}} Transportation Through BusBrother</h2>
+        <p>Schools can absolutely arrange charter transportation by calling motor carriers directly. The reason many {{cityName}} schools work through BusBrother instead is that school-specific charter booking historically eats a lot of administrative time. A single field trip or athletic away game typically requires calling 3-5 carriers, requesting insurance certificates and driver credentials from each, comparing verbal quotes in inconsistent formats, and coordinating documentation with the district's risk management office. Multiplied across a full academic year of trips, that time cost is meaningful.</p>
+
+        <p>BusBrother replaces the process with a single quote form and a 2-hour written-quote turnaround. Multiple pre-vetted carriers respond in a standardized format so comparison is fast. Compliance documentation is delivered on request without having to make a separate credentials call. And because every carrier in the BusBrother network is already vetted for USDOT registration, FMCSA safety rating, insurance minimums, and driver credentials, schools save the time of independently verifying each carrier before every trip. Administrators typically save 2-4 hours per trip in coordination time and 10-20% on transportation cost through school-rate pricing versus the single-carrier phone approach.</p>
+
+        <h2>About BusBrother's Carrier Network for {{schoolName}}</h2>
+        <p>BusBrother is a Florida lead-matching service headquartered in Cape Canaveral, Brevard County, Florida. Every carrier in our network is verified for USDOT registration with active FMCSA operating authority, satisfactory FMCSA safety rating (not Conditional or Unsatisfactory), current commercial auto liability insurance of $5,000,000 or more, current DOT vehicle inspections, and CDL drivers with Passenger endorsement (CDL-P) who pass FMCSA-compliant drug and alcohol testing plus documented background checks &mdash; requirements that meet or exceed most Florida school district standards for chartered student transportation.</p>
+
+        <p>When you submit a quote request for {{schoolName}} transportation, our system routes your request only to carriers meeting these standards whose service area includes {{cityName}}, whose fleet size matches your group, and whose availability fits your trip date. Multiple carriers respond with written quotes so you can compare price, vehicle year, amenities, and carrier reputation. The carrier you choose handles the transportation directly &mdash; BusBrother does not intermediate the booking or collect customer payment.</p>
+
+        <h2>What Happens After You Book Transportation for {{schoolName}}</h2>
+        <p>Once you have booked with your chosen carrier, pre-trip coordination begins immediately. Standard pre-trip steps in the days leading up to a {{schoolName}} charter:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Confirmation call from the carrier's operations team.</strong> Within 24-48 hours of booking, the operations team confirms trip details, exchanges emergency contact numbers, and confirms compliance documentation delivery to your risk management office.</li>
+          <li><strong style="color:var(--gold);">Compliance documentation delivery.</strong> The carrier delivers certificates of insurance (ACORD 25 form), driver credentials, vehicle inspection reports, and any additional documentation required by your school district's risk management office. Documentation typically arrives 5-10 days before trip day.</li>
+          <li><strong style="color:var(--gold);">Final headcount and manifest.</strong> The carrier requests a final headcount 3-5 days before trip day to confirm vehicle size and any special seating requirements (ADA seating, chaperone-student ratios, coaching staff seating for sports trips).</li>
+          <li><strong style="color:var(--gold);">Driver assignment and pre-brief.</strong> The carrier assigns a specific driver to your trip and briefs them on your {{schoolName}} requirements: destination, timing, pickup logistics at the school, and any special considerations.</li>
+          <li><strong style="color:var(--gold);">Trip-day arrival and departure.</strong> Driver arrives 15-30 minutes early at the {{schoolName}} pickup point, verifies headcount with the trip chaperone or teacher, loads passengers and equipment, and departs on schedule. Communication throughout the trip is between the driver and the designated trip chaperone.</li>
+        </ul>
+
+        <h2>Related Services in {{cityName}}</h2>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          <a href="/areas/{{citySlug}}/" class="area-chip">🏙️ All {{cityName}} services</a>
+          <a href="/services/school-groups/" class="area-chip">🎓 School group hub</a>
+          <a href="/services/kennedy-space-center/" class="area-chip">🚀 KSC field trips</a>
+          <a href="/services/theme-parks/" class="area-chip">🎢 Theme park trips</a>
+          <a href="/services/sports-event-transport/" class="area-chip">🏈 Sports team transport</a>
+          <a href="/services/airport-transfers/" class="area-chip">✈️ Airport transfers</a>
+          <a href="/pricing/" class="area-chip">💵 Pricing guide</a>
+          <a href="/how-it-works/" class="area-chip">📋 How booking works</a>
+        </div>
+
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <h3>Book School Transportation</h3>
-          <p style="color:var(--muted);">Get a free quote for charter bus service for {{schoolName}} groups.</p>
+          <h3>Book {{schoolName}} Group Transportation</h3>
+          <p style="color:var(--muted);">Get a free quote for charter bus service for {{schoolName}} students, faculty, or athletic teams. Response within 2 hours from vetted Florida carriers. School-rate pricing available.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
-            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
+            <a href="/services/school-groups/" class="btn btn-outline">School Group Info</a>
           </div>
         </div>
       </div>
-      <div class="article-sidebar">{{> sidebar-quote}}</div>
+      <div class="article-sidebar">
+        {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">School Details</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">School: {{schoolName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Location: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Vehicles: 15-57 pax</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Seat belts: On 2016+ coaches</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ADA accessible: Yes</li>
+              <li style="color:var(--muted);font-size:0.88rem;">School rates: 10-20% below corporate</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Insurance cert: Available on request</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Background checks: Documented</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Explore More</h3>
+            <ul class="footer-links">
+              <li><a href="/services/school-groups/">School group hub</a></li>
+              <li><a href="/services/kennedy-space-center/">Kennedy Space Center</a></li>
+              <li><a href="/services/theme-parks/">Theme parks</a></li>
+              <li><a href="/services/sports-event-transport/">Sports team transport</a></li>
+              <li><a href="/areas/{{citySlug}}/">All {{cityName}} services</a></li>
+              <li><a href="/brevard-county/">Brevard County services</a></li>
+              <li><a href="/faq/">Booking FAQ</a></li>
+              <li><a href="/pricing/">Full pricing guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

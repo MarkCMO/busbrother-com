@@ -1,46 +1,205 @@
 {{> head}}
 {{> schema}}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"https://busbrother.com/hotels/{{hotelSlug}}/#service",
+  "serviceType":"Hotel Group Shuttle",
+  "name":"{{hotelName}} Group Shuttle Service",
+  "description":"Charter bus, minibus, and group shuttle service from {{hotelName}} in {{cityName}}, Florida. Cruise port transfers, airport shuttles, theme park visits, wedding transportation, corporate events, and multi-hotel pickups.",
+  "provider":{"@id":"https://busbrother.com/#organization"},
+  "areaServed":{"@type":"City","name":"{{cityName}}","containedInPlace":{"@type":"State","name":"Florida"}}
+}</script>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://busbrother.com/"},
+    {"@type":"ListItem","position":2,"name":"Hotel Shuttles","item":"https://busbrother.com/services/hotel-shuttle/"},
+    {"@type":"ListItem","position":3,"name":"{{hotelName}}","item":"https://busbrother.com/hotels/{{hotelSlug}}/"}
+  ]
+}</script>
 {{> nav}}
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container" style="position:relative;z-index:2;">
     <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">&rsaquo;</span><a href="/services/hotel-shuttle/">Hotels</a><span class="breadcrumb-sep">&rsaquo;</span><span>{{hotelName}}</span></div>
     <div style="font-size:3.5rem;margin-bottom:0.8rem;">&#x1F3E8;</div>
-    <h1>{{hotelName}} Shuttle Service | BusBrother</h1>
-    <p class="subtitle">Group shuttle and charter bus service from {{hotelName}} in {{cityName}}, Florida to cruise ports, airports, theme parks, and events.</p>
+    <h1>{{hotelName}} Group Shuttle Service | BusBrother</h1>
+    <p class="subtitle">Private group shuttle, charter bus, and motorcoach service from {{hotelName}} in {{cityName}}, Florida to cruise ports, airports, theme parks, wedding venues, and corporate events. Lobby pickup, luggage assistance, ADA vehicles on request, 24/7 dispatch, licensed and insured carriers.</p>
   </div>
 </div>
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:4rem;align-items:start;">
       <div class="article-body">
-        <h2>Group Shuttle from {{hotelName}}</h2>
+
+        <h2>Group Shuttle Service from {{hotelName}}</h2>
         <p>{{hotelDescription}}</p>
-        <h3>Available Services from {{hotelName}}</h3>
+
+        <p>BusBrother coordinates group shuttle and charter bus service directly from the {{hotelName}} lobby. Whether your group is a wedding party staying at {{hotelName}} traveling to a ceremony venue, a corporate team using {{hotelName}} as a conference base, a family reunion arriving at {{cityName}} and needing transportation to attractions and events, or a cruise-passenger group treating {{hotelName}} as a pre-cruise stay before Port Canaveral, Port Tampa Bay, or Port Everglades sailing &mdash; BusBrother matches your trip request with Florida-licensed motor carriers whose fleet, service area, and current availability fit your group. Every carrier in our network holds valid USDOT registration with FMCSA operating authority, $5,000,000+ commercial auto liability insurance, and drivers with CDL Passenger endorsement and FMCSA-compliant background checks.</p>
+
+        <h2>Available Group Transportation Services from {{hotelName}}</h2>
+        <p>The most common group transportation services BusBrother-matched carriers provide from {{hotelName}} include:</p>
         <ul class="check-list">
           {{#each transportNeeds}}<li><span class="check-icon">&#10003;</span><span><a href="/services/{{_item}}/">{{_item}}</a></span></li>
           {{/each}}
+          <li><span class="check-icon">&#10003;</span><span><strong>Cruise port shuttles.</strong> Direct transportation from {{hotelName}} to Port Canaveral (Cape Canaveral), Port Tampa Bay (Tampa), and Port Everglades (Fort Lauderdale). Same-day sailings and pre-cruise arrivals.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Airport transfers.</strong> Pickup from {{hotelName}} to MCO, TPA, FLL, SFB, PBI, DAB, or MLB airports, or the reverse when guests are arriving from the airport.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Theme park shuttles.</strong> Walt Disney World, Universal Orlando Resort, SeaWorld, Busch Gardens Tampa, LEGOLAND Florida, Kennedy Space Center Visitor Complex.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Wedding transportation.</strong> {{hotelName}} guest shuttle to ceremony venue, ceremony-to-reception transport, and end-of-night return trips.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Corporate charters.</strong> Conference shuttles, off-site meetings, team-building outings, client entertainment trips.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Special event transport.</strong> Sports games, concerts, festivals, birthdays, retirement parties, and other group outings.</span></li>
         </ul>
-        <h3>Why Book BusBrother from {{hotelName}}</h3>
+
+        <h2>How Hotel-Based Group Transportation Works</h2>
+        <p>Booking a shuttle from {{hotelName}} through BusBrother eliminates the concierge-desk phone-tag that historically comes with hotel group transportation. Here is what happens:</p>
+
+        <ol style="color:var(--muted);font-size:15px;line-height:1.8;padding-left:20px;">
+          <li><strong style="color:var(--gold);">Submit trip details (2 minutes).</strong> Fill out the quote form with your travel date, times, passenger count, destination address, and any special requirements. Note {{hotelName}} as your pickup location.</li>
+          <li><strong style="color:var(--gold);">Carriers respond with quotes (2 hours).</strong> Multiple Florida-licensed carriers quote your trip. You typically receive 2-3 written quotes within the first 2 hours of business hours.</li>
+          <li><strong style="color:var(--gold);">You compare and book directly with a carrier.</strong> Review the quotes, pick the carrier, and book on their standard terms. The carrier handles all coordination with {{hotelName}} for lobby-level pickup logistics.</li>
+          <li><strong style="color:var(--gold);">Trip day.</strong> Your driver arrives at the {{hotelName}} lobby 15-30 minutes before departure, checks in with the concierge or bell desk (as required by the hotel), loads luggage, and departs at your scheduled time.</li>
+        </ol>
+
+        <h2>Why Not Just Use the Hotel's Concierge?</h2>
+        <p>{{hotelName}}'s concierge desk can absolutely arrange transportation. However, concierge-arranged transportation typically comes with a hidden markup: the concierge desk earns a referral commission from the transportation provider, which is baked into the price you pay. Typical concierge markup is 15-30% above the carrier's direct rate. For a small $150 sedan transfer that markup is a few dollars; for a $1,200 wedding shuttle or a $2,500 corporate charter it's meaningful money.</p>
+
+        <p>BusBrother offers a different path: you get direct-to-carrier pricing from multiple carriers, compare, and book at the direct rate. The concierge desk is not in the transaction. This typically saves 15-30% on the group's transportation budget while giving you more choice of vehicle, driver, and carrier reputation.</p>
+
+        <p>The trade-off is that the booking process is slightly more work than saying "book me a shuttle" to the concierge desk. But at 2 minutes to submit the request and 2 hours to receive quotes, the return on time invested is usually strong.</p>
+
+        <h2>Lobby Pickup Logistics at {{hotelName}}</h2>
+        <p>Most Florida hotels &mdash; {{hotelName}} included &mdash; have specific rules about where charter vehicles can wait for guest pickups. Motorcoaches and large minibuses often cannot use the standard porte-cochere front entrance because of vehicle height and turning-radius constraints. Instead they typically stage at a designated bus zone, driveway lane, or nearby parking area. The carrier's driver handles this coordination directly with the {{hotelName}} bell staff.</p>
+
+        <p>For your group's convenience, plan on staging at the {{hotelName}} lobby (or the specific pickup area the carrier communicates in the pre-trip confirmation) 10-15 minutes before your scheduled departure. This gives the driver time to greet you, confirm the headcount, and begin loading luggage without rushing.</p>
+
+        <p>Groups with early-morning pickups (5-7am departures for cruise ports or airports) should confirm with {{hotelName}} the night before whether the bell desk will be staffed at the pickup time. Some hotels reduce overnight staffing and your group may need to move its own luggage a short distance to the loading area.</p>
+
+        <h2>What's Included</h2>
         <ul class="check-list">
-          <li><span class="check-icon">&#10003;</span><span>Lobby pickup - our driver meets you at the hotel entrance</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Luggage assistance included on every trip</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Round trip scheduling with flexible return times</span></li>
-          <li><span class="check-icon">&#10003;</span><span>ADA accessible vehicles available on request</span></li>
-          <li><span class="check-icon">&#10003;</span><span>Multi-stop option for groups at multiple hotels</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Lobby-level or designated bus-zone pickup at {{hotelName}}.</strong> Driver coordinates directly with the hotel's bell staff.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Full luggage assistance.</strong> Driver loads and unloads luggage. Cruise groups with 1-2 checked bags per person are welcome.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Climate-controlled vehicle.</strong> Motorcoach, premium coach, minibus, or sedan depending on group size.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Professional CDL-licensed driver.</strong> Current CDL with Passenger endorsement, DOT medical certification, background-checked.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Round-trip scheduling.</strong> Same carrier, same-day or multi-day return trip. Round-trip pricing typically 60-75% of two one-ways.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Multi-stop options.</strong> If your group is split across {{hotelName}} and one or two other hotels in the area, the driver can circle all pickup points.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>ADA wheelchair-accessible vehicles.</strong> Wheelchair lift-equipped motorcoaches and minibuses available on request at no additional charge.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>Flight monitoring for airport arrivals.</strong> If the carrier is picking up guests from the airport before delivering them to {{hotelName}}, flight status is monitored automatically.</span></li>
+          <li><span class="check-icon">&#10003;</span><span><strong>24/7 dispatch.</strong> Trip changes, delays, and questions handled around the clock.</span></li>
         </ul>
-        <div class="callout"><p><strong>Hotel Group Pickup:</strong> BusBrother coordinates directly with {{hotelName}} for smooth lobby-level pickups. We handle the logistics so your group can focus on the trip.</p></div>
+
+        <div class="callout"><p><strong>Group Booking at {{hotelName}}:</strong> If you have a room block at {{hotelName}} for a wedding, corporate event, or family reunion, coordinate the shuttle booking early. Popular event weekends (spring, summer, holidays) sell out charter vehicles just like they sell out hotel rooms. Book 2-4 weeks ahead for the best selection and pricing.</p></div>
+
+        <h2>Common Trip Types from {{hotelName}}</h2>
+
+        <h3>Pre-Cruise and Post-Cruise Stays</h3>
+        <p>Florida cruise passengers frequently combine a {{hotelName}} stay with a cruise sailing. The pattern: fly into an airport, transfer to {{hotelName}} for the night before sailing, transfer from {{hotelName}} to the cruise port on sailing day. BusBrother-matched carriers handle any leg of this pattern, or all legs as a package. Post-cruise groups follow the reverse: debark at the port, transfer to {{hotelName}} for a decompression night, transfer back to the airport the next day.</p>
+
+        <h3>Wedding Guest Shuttles</h3>
+        <p>Wedding parties using {{hotelName}} as the host hotel commonly book a shuttle for guest transport to the ceremony and reception. Standard structure: single motorcoach picks up guests at {{hotelName}} 90 minutes before ceremony start, delivers to venue, returns guests after reception. Some weddings add a mid-evening return option for guests with young children or early morning flights.</p>
+
+        <h3>Corporate Conference Shuttles</h3>
+        <p>Companies holding meetings at Florida convention centers frequently use {{hotelName}} as employee/attendee lodging and book daily shuttles to and from the venue. Continuous-loop shuttle service (a vehicle running between hotel and venue at 30-minute intervals during peak times) is a common corporate booking pattern.</p>
+
+        <h3>Family Reunion and Multi-Generation Groups</h3>
+        <p>Family reunions and destination birthdays with multiple generations traveling together often use {{hotelName}} as the base and charter for outings to theme parks, beaches, restaurants, and attractions. Multi-day flat-rate charters (one vehicle, one driver, unlimited miles within a defined region for 8-12 hours per day) are cost-effective for this pattern.</p>
+
+        <h2>Timing Your {{hotelName}} Pickup: When to Book, When to Depart</h2>
+        <p>Group transportation from {{hotelName}} goes best when the pickup time is planned around three variables: the driving time to your destination, real-world Florida traffic patterns, and a buffer for the small delays that inevitably happen when moving a group of 15-50+ people through a hotel lobby.</p>
+
+        <p>For airport transfers with a specific flight departure, work backwards from the flight time by adding: 45 minutes for security and boarding, the drive time from {{hotelName}} to the airport, and 30-45 minutes buffer for traffic and hotel-lobby loading. On a typical morning departure to a Florida airport, that means a group leaving on a 10am flight from a hotel 45 minutes away should have the vehicle staging at {{hotelName}} by 7:15-7:30am for a 7:45am departure. Cruise embarkation is similar &mdash; targeting arrival at the cruise port 2 hours before published boarding close means the vehicle should depart {{hotelName}} at least 3-4 hours before boarding close depending on port distance.</p>
+
+        <p>For events with a specific ceremony or presentation start time, build a 30-45 minute arrival buffer into the plan. A wedding ceremony at 5pm at a venue 30 minutes from {{hotelName}} works best with a vehicle departing at 4pm &mdash; not 4:20pm &mdash; because guests will inevitably still be finishing conversations in the lobby when the driver announces "boarding now."</p>
+
+        <p>For continuous-loop shuttle patterns (common at corporate events and multi-day conferences), the shuttle typically runs at 20-40 minute intervals during peak arrival/departure windows. A 40-minute loop with a 5-minute buffer works for most Florida hotel-to-venue patterns; tighter loops work when the distance is short and vehicle capacity is comfortable.</p>
+
+        <h2>Charter vs Individual Transportation Cost Comparison</h2>
+        <p>For groups staying at {{hotelName}} traveling together to a common destination, the math for private charter vs. individual transportation almost always favors charter above 15 passengers and often at 8 passengers. Consider a common example: 30 guests at {{hotelName}} traveling to a wedding venue 25 miles away with a same-night return:</p>
+
+        <ul style="color:var(--muted);font-size:14px;line-height:1.7;padding-left:20px;">
+          <li><strong style="color:var(--gold);">6 Uber XLs (30 people at 5 per XL):</strong> $30-50 per ride at base rate, plus $60-100 return, plus surge on Friday/Saturday evenings. Realistic total: $500-900 outbound, $600-1,100 return. Total $1,100-2,000 with surge, six different arrival times, no unified group experience.</li>
+          <li><strong style="color:var(--gold);">Private motorcoach single round-trip:</strong> $1,000-1,600 all-inclusive. One arrival, one departure, group stays together, driver assists with luggage.</li>
+          <li><strong style="color:var(--gold);">Individual ride share on return only (bus outbound):</strong> $700 bus one-way + $600-1,100 return in Ubers. Common hybrid pattern when the event runs late and staggered departures are preferable.</li>
+        </ul>
+
+        <p>At 30 guests the charter usually costs the same or slightly less than rideshares while providing a substantially better experience. The math shifts even more toward charter at 40+ guests where rideshare vehicle count multiplies while charter cost only modestly increases.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How much does a shuttle from {{hotelName}} cost?<span class="faq-icon">+</span></button><div class="faq-answer">Shuttle pricing from {{hotelName}} depends on destination, distance, vehicle size, and lead time. Typical ranges for common {{hotelName}} shuttle bookings: airport transfers $250-800 one-way, cruise port shuttles $400-1,200 one-way, theme park day trips $600-1,500, wedding shuttles $800-2,500, corporate conference shuttles $500-3,000/day depending on hours. Round-trip pricing runs 60-75% of two one-ways. Get a custom quote for your specific dates and destination at busbrother.com/book/.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Does the shuttle pick up right at the {{hotelName}} lobby?<span class="faq-icon">+</span></button><div class="faq-answer">The carrier meets your group at the {{hotelName}} lobby or the hotel's designated bus-zone pickup area, depending on the hotel's rules for oversized vehicles. Minibuses and sedans usually pick up at the standard porte-cochere front entrance. Full-size motorcoaches often stage at a nearby bus zone or driveway lane. The specific pickup point is confirmed in your carrier's pre-trip communication. Stage in the lobby 10-15 minutes before scheduled departure.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Can BusBrother handle a shuttle for {{hotelName}} guests only, or can we invite guests from other hotels?<span class="faq-icon">+</span></button><div class="faq-answer">Both work. Single-hotel shuttles pick up at {{hotelName}} only. Multi-hotel shuttles can circle 2-3 hotels in a defined pickup sequence, adding 15-30 minutes per stop. If your group is spread across multiple hotels, list all pickup addresses and desired pickup order at booking so the carrier can plan an optimized route.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">What if some guests can't take the return shuttle at the scheduled time?<span class="faq-icon">+</span></button><div class="faq-answer">For weddings and events, a common pattern is scheduling two return trips: one mid-evening (usually 10-11pm) and one at end-of-event (usually 1am). Guests can choose whichever return works for them. Two return trips typically cost 25-40% more than a single return but eliminate the "we have to leave now" pressure that can end an event awkwardly. Discuss return timing options with the carrier at booking.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Are ADA wheelchair-accessible vehicles available from {{hotelName}}?<span class="faq-icon">+</span></button><div class="faq-answer">Yes. ADA wheelchair-accessible motorcoaches and minibuses are available for {{hotelName}} shuttles at no additional charge. Please note ADA requirements at booking (number of wheelchair passengers, whether they can transfer to a coach seat or need to remain in the chair, service animal accompanying) so the correct vehicle is dispatched.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">How far in advance should we book?<span class="faq-icon">+</span></button><div class="faq-answer">Book 2-3 weeks in advance for the best rates and vehicle selection. During peak Florida seasons (spring break March-April, holidays November-December, major event weekends) book 4-6 weeks ahead. Same-week bookings are usually possible but carry a 20-40% premium and reduced vehicle choice.</div></div>
+
+        <div class="faq-item"><button class="faq-btn" aria-expanded="false">Is BusBrother a transportation company or a booking service?<span class="faq-icon">+</span></button><div class="faq-answer">BusBrother is a Florida lead-matching and referral service &mdash; we connect your group with independent, licensed motor carriers who provide the actual transportation. The carrier you book with handles the driving, insurance, dispatch, and payment collection. All carriers in our network hold valid USDOT registration with FMCSA operating authority, satisfactory FMCSA safety ratings, and $5M+ commercial auto liability insurance. BusBrother is operated by WETYR Corporation in Cape Canaveral, Florida.</div></div>
+
+        <h2>About BusBrother's Carrier Network</h2>
+        <p>BusBrother is a Florida lead-matching service headquartered in Cape Canaveral, Brevard County, Florida. Every carrier in our network is verified for USDOT registration with active FMCSA operating authority, satisfactory FMCSA safety rating (Satisfactory or None &mdash; not Conditional or Unsatisfactory), current commercial auto liability insurance of $5,000,000 or more, current DOT vehicle inspections, and CDL drivers with Passenger endorsement (CDL-P) who pass FMCSA-compliant drug and alcohol testing plus background checks.</p>
+
+        <p>When you submit a quote request for {{hotelName}} shuttle service, our system routes your request only to carriers meeting these standards whose service area includes {{cityName}}, whose fleet includes the vehicle size your group needs, and whose current availability fits your travel date. Multiple carriers respond so you can compare price, vehicle year, amenities, and carrier reputation before booking. The carrier you choose handles the transportation directly &mdash; BusBrother does not intermediate the booking, does not collect customer payment, and does not set binding transportation prices. This model gives you competitive pricing and vetted carrier quality without the historical friction of calling five carriers individually for a quote.</p>
+
+        <h2>Related Services in {{cityName}}</h2>
+        <div class="areas-grid" style="margin:1.5rem 0;">
+          <a href="/areas/{{citySlug}}/" class="area-chip">🏙️ All {{cityName}} services</a>
+          <a href="/areas/{{citySlug}}/cruise-shuttle/" class="area-chip">🚢 Cruise shuttles</a>
+          <a href="/areas/{{citySlug}}/airport-transfers/" class="area-chip">✈️ Airport transfers</a>
+          <a href="/areas/{{citySlug}}/wedding-events/" class="area-chip">💍 Wedding shuttles</a>
+          <a href="/areas/{{citySlug}}/corporate-charter/" class="area-chip">🏢 Corporate charter</a>
+          <a href="/services/hotel-shuttle/" class="area-chip">🏨 Hotel shuttle hub</a>
+          <a href="/pricing/" class="area-chip">💵 Pricing guide</a>
+          <a href="/how-it-works/" class="area-chip">📋 How booking works</a>
+        </div>
+
         <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <h3>Book Hotel Shuttle</h3>
-          <p style="color:var(--muted);">Get a free quote for group shuttle service from {{hotelName}}.</p>
+          <h3>Book Your {{hotelName}} Shuttle</h3>
+          <p style="color:var(--muted);">Get a free quote for group shuttle service from {{hotelName}}. Response within 2 hours from vetted Florida carriers. 24/7 dispatch including holidays.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
             <a href="/book/" class="btn btn-primary">Get a Free Quote &rarr;</a>
-            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+            <a href="/pricing/" class="btn btn-outline">View Pricing</a>
+            <a href="/services/hotel-shuttle/" class="btn btn-outline">All Hotel Shuttles</a>
           </div>
         </div>
       </div>
       <div class="article-sidebar">
         {{> sidebar-quote}}
+        <div class="card" style="margin-top:1.5rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Hotel Facts</h3>
+            <ul class="footer-links">
+              <li style="color:var(--muted);font-size:0.88rem;">Hotel: {{hotelName}}</li>
+              <li style="color:var(--muted);font-size:0.88rem;">City: {{cityName}}, FL</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Pickup: Lobby or bus zone</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Vehicles: 15-57 pax</li>
+              <li style="color:var(--muted);font-size:0.88rem;">ADA accessible: Yes</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Round-trip: 60-75% of 2 one-ways</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Multi-stop: Yes, +15-30 min per stop</li>
+              <li style="color:var(--muted);font-size:0.88rem;">Available: 24/7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top:1rem;">
+          <div class="card-body">
+            <h3 style="font-size:1.1rem;margin-bottom:0.8rem;">Common Trips</h3>
+            <ul class="footer-links">
+              <li><a href="/services/cruise-shuttle/">Cruise port shuttle</a></li>
+              <li><a href="/services/airport-transfers/">Airport transfer</a></li>
+              <li><a href="/services/theme-parks/">Theme park shuttle</a></li>
+              <li><a href="/services/wedding-events/">Wedding shuttle</a></li>
+              <li><a href="/services/corporate-charter/">Corporate charter</a></li>
+              <li><a href="/services/kennedy-space-center/">KSC group tour</a></li>
+              <li><a href="/services/rocket-launch/">Rocket launch viewing</a></li>
+              <li><a href="/brevard-county/">Brevard County services</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

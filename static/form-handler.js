@@ -98,8 +98,20 @@
       var fields = collectFields(form);
       var body = new URLSearchParams(fields).toString();
 
+      // Endpoint priority: honor the form's own action attribute if it's an
+      // explicit same-origin /api/* path (like /api/submit-quote). Otherwise
+      // fall through to the shared /api/lead universal endpoint. This lets
+      // BusBrother's /api/submit-quote (with SEND TO BTM COACH button + BTM
+      // routing) run for forms that opt into it while keeping /api/lead
+      // working for portable, generic forms across other sites.
+      var formAction = (form.getAttribute('action') || '').trim();
+      var endpoint = LEAD_ENDPOINT;
+      if (formAction && /^\/api\/[a-z0-9_-]+/i.test(formAction) && formAction !== LEAD_ENDPOINT) {
+        endpoint = formAction;
+      }
+
       try {
-        var res = await fetch(LEAD_ENDPOINT, {
+        var res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: body,
